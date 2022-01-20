@@ -1,0 +1,30 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>8591</id>
+	<dc:title xml:lang="en-US">Parameterized Hardware Accelerators for Lattice-Based Cryptography and Their Application to the HW/SW Co-Design of qTESLA</dc:title>
+	<dc:creator>Wang, Wen</dc:creator>
+	<dc:creator>Tian, Shanquan</dc:creator>
+	<dc:creator>Jungk, Bernhard</dc:creator>
+	<dc:creator>Bindel, Nina</dc:creator>
+	<dc:creator>Longa, Patrick</dc:creator>
+	<dc:creator>Szefer, Jakub</dc:creator>
+	<dc:subject xml:lang="en-US">Lattice-based cryptography</dc:subject>
+	<dc:subject xml:lang="en-US">Post-quantum cryptography</dc:subject>
+	<dc:subject xml:lang="en-US">qTESLA</dc:subject>
+	<dc:subject xml:lang="en-US">Hardware accelerators</dc:subject>
+	<dc:subject xml:lang="en-US">Hardware-software co-design</dc:subject>
+	<dc:subject xml:lang="en-US">FPGA</dc:subject>
+	<dc:subject xml:lang="en-US">RISC-V</dc:subject>
+	<dc:description xml:lang="en-US">This paper presents a set of efficient and parameterized hardware accelerators that target post-quantum lattice-based cryptographic schemes, including a versatile cSHAKE core, a binary-search CDT-based Gaussian sampler, and a pipelined NTT-based polynomial multiplier, among others. Unlike much of prior work, the accelerators are fully open-sourced, are designed to be constant-time, and can be parameterized at compile-time to support different parameters without the need for re-writing the hardware implementation. These flexible, publicly-available accelerators are leveraged to demonstrate the first hardware-software co-design using RISC-V of the post-quantum lattice-based signature scheme qTESLA with provably secure parameters. In particular, this work demonstrates that the NIST’s Round 2 level 1 and level 3 qTESLA variants achieve over a 40-100x speedup for key generation, about a 10x speedup for signing, and about a 16x speedup for verification, compared to the baseline RISC-V software-only implementation. For instance, this corresponds to execution in 7.7, 34.4, and 7.8 milliseconds for key generation, signing, and verification, respectively, for qTESLA’s level 1 parameter set on an Artix-7 FPGA, demonstrating the feasibility of the scheme for embedded applications.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2020-06-19</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tches.iacr.org/index.php/TCHES/article/view/8591</dc:identifier>
+	<dc:identifier>10.13154/tches.v2020.i3.269-306</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Cryptographic Hardware and Embedded Systems; Volume 2020, Issue 3; 269-306</dc:source>
+	<dc:source>2569-2925</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/8591/8158</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2020 Wen Wang, Shanquan Tian, Bernhard Jungk, Nina Bindel, Patrick Longa, Jakub Szefer</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0</dc:rights>
+</oai_dc:dc>

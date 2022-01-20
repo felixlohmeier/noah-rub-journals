@@ -1,0 +1,30 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>7297</id>
+	<dc:title xml:lang="en-US">Double-block Hash-then-Sum: A Paradigm for Constructing BBB Secure PRF</dc:title>
+	<dc:creator>Datta, Nilanjan</dc:creator>
+	<dc:creator>Dutta, Avijit</dc:creator>
+	<dc:creator>Nandi, Mridul</dc:creator>
+	<dc:creator>Paul, Goutam</dc:creator>
+	<dc:subject xml:lang="en-US">DbHtS</dc:subject>
+	<dc:subject xml:lang="en-US">Beyond Birthday</dc:subject>
+	<dc:subject xml:lang="en-US">Cover-free</dc:subject>
+	<dc:subject xml:lang="en-US">Block-wise Universal</dc:subject>
+	<dc:subject xml:lang="en-US">PRF</dc:subject>
+	<dc:subject xml:lang="en-US">Sum of PRP</dc:subject>
+	<dc:description xml:lang="en-US">SUM-ECBC (Yasuda, CT-RSA 2010) is the first beyond birthday bound (BBB) secure block cipher based deterministic MAC. After this work, some more BBB secure deterministic MACs have been proposed, namely PMAC_Plus (Yasuda, CRYPTO 2011), 3kf9 (Zhang et al., ASIACRYPT 2012) and LightMAC_Plus (Naito, ASIACRYPT 2017). In this paper, we have abstracted out the inherent design principle of all these BBB secure MACs and present a generic design paradigm to construct a BBB secure pseudo random function, namely Double-block Hash-then- Sum or in short (DbHtS). A DbHtS construction, as the name implies, computes a double block hash on the message and then sum the encrypted output of the two hash blocks. Our result renders that if the underlying hash function meets certain security requirements (namely cover-free and block-wise universal advantage is low), DbHtS construction provides 2n/3-bit security. We demonstrate the applicability of our result by instantiating all the existing beyond birthday secure deterministic MACs (e.g., SUM-ECBC, PMAC_Plus, 3kf9, LightMAC_Plus) as well as a simple two-keyed variant for each of them and some algebraic hash based constructions.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2018-09-03</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tosc.iacr.org/index.php/ToSC/article/view/7297</dc:identifier>
+	<dc:identifier>10.13154/tosc.v2018.i3.36-92</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Symmetric Cryptology; Volume 2018, Issue 3; 36-92</dc:source>
+	<dc:source>2519-173X</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/7297/6471</dc:relation>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/7297/7576</dc:relation>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/7297/7743</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2018 Nilanjan Datta, Avijit Dutta, Mridul Nandi, Goutam Paul</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0</dc:rights>
+</oai_dc:dc>

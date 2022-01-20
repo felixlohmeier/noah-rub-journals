@@ -1,0 +1,31 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>9328</id>
+	<dc:title xml:lang="en-US">Perfect Trees: Designing Energy-Optimal Symmetric Encryption Primitives</dc:title>
+	<dc:creator>Caforio, Andrea</dc:creator>
+	<dc:creator>Banik, Subhadeep</dc:creator>
+	<dc:creator>Todo, Yosuke</dc:creator>
+	<dc:creator>Meier, Willi</dc:creator>
+	<dc:creator>Isobe, Takanori</dc:creator>
+	<dc:creator>Liu, Fukang</dc:creator>
+	<dc:creator>Zhang, Bin</dc:creator>
+	<dc:subject xml:lang="en-US">Lightweight Cryptography</dc:subject>
+	<dc:subject xml:lang="en-US">Stream Cipher</dc:subject>
+	<dc:subject xml:lang="en-US">Hardware</dc:subject>
+	<dc:subject xml:lang="en-US">Low Energy Encryption</dc:subject>
+	<dc:subject xml:lang="en-US">Trivium</dc:subject>
+	<dc:subject xml:lang="en-US">Grain</dc:subject>
+	<dc:subject xml:lang="en-US">Subterranean</dc:subject>
+	<dc:description xml:lang="en-US">Energy efficiency is critical in battery-driven devices, and designing energyoptimal symmetric-key ciphers is one of the goals for the use of ciphers in such environments. In the paper by Banik et al. (IACR ToSC 2018), stream ciphers were identified as ideal candidates for low-energy solutions. One of the main conclusions of this paper was that Trivium, when implemented in an unrolled fashion, was by far the most energy-efficient way of encrypting larger quantity of data. In fact, it was shown that as soon as the number of databits to be encrypted exceeded 320 bits, Trivium consumed the least amount of energy on STM 90 nm ASIC circuits and outperformed the Midori family of block ciphers even in the least energy hungry ECB mode (Midori was designed specifically for energy efficiency).In this work, we devise the first heuristic energy model in the realm of stream ciphers that links the underlying algebraic topology of the state update function to the consumptive behaviour. The model is then used to derive a metric that exhibits a heavy negative correlation with the energy consumption of a broad range of stream cipher architectures, i.e., the families of Trivium-like, Grain-like and Subterranean-like constructions. We demonstrate that this correlation is especially pronounced for Trivium-like ciphers which leads us to establish a link between the energy consumption and the security guarantees that makes it possible to find several alternative energy-optimal versions of Trivium that meet the requirements but consume less energy. We present two such designs Trivium-LE(F) and Trivium-LE(S) that consume around 15% and 25% less energy respectively making them the to date most energy-efficient encryption primitives. They inherit the same security level as Trivium, i.e., 80-bit security. We further present Triad-LE as an energy-efficient variant satisfying a higher security level. The simplicity and wide applicability of our model has direct consequences for the conception of future hardware-targeted stream ciphers as for the first time it is possible to optimize for energy during the design phase. Moreover, we extend the reach of our model beyond plain encryption primitives and propose a novel energy-efficient message authentication code Trivium-LE-MAC.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2021-12-03</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tosc.iacr.org/index.php/ToSC/article/view/9328</dc:identifier>
+	<dc:identifier>10.46586/tosc.v2021.i4.36-73</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Symmetric Cryptology; Volume 2021, Issue 4; 36-73</dc:source>
+	<dc:source>2519-173X</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/9328/8887</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2021 Andrea Caforio, Subhadeep Banik, Yosuke Todo, Willi Meier, Takanori Isobe, Fukang Liu, Bin Zhang</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0/</dc:rights>
+</oai_dc:dc>

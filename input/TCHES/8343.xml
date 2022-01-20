@@ -1,0 +1,32 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>8343</id>
+	<dc:title xml:lang="en-US">Security on Plastics: Fake or Real?</dc:title>
+	<dc:creator>Mentens, Nele</dc:creator>
+	<dc:creator>Genoe, Jan</dc:creator>
+	<dc:creator>Vandenabeele, Thomas</dc:creator>
+	<dc:creator>Verschueren, Lynn</dc:creator>
+	<dc:creator>Smets, Dirk</dc:creator>
+	<dc:creator>Dehaene, Wim</dc:creator>
+	<dc:creator>Myny, Kris</dc:creator>
+	<dc:subject xml:lang="en-US">flexible electronics</dc:subject>
+	<dc:subject xml:lang="en-US">thin-film transistors (TFTs) on plastic foil</dc:subject>
+	<dc:subject xml:lang="en-US">IGZO (indium-gallium-zinc-oxide)</dc:subject>
+	<dc:subject xml:lang="en-US">KTANTAN</dc:subject>
+	<dc:subject xml:lang="en-US">low-cost cryptographic hardware</dc:subject>
+	<dc:description xml:lang="en-US">Electronic devices on plastic foil, also referred to as flexible electronics, are making their way into mainstream applications. In the near future, flexible electronic labels can be embedded in smart blisters, but also used as mainstream technology for flexible medical patches. A key technology for flexible electronics is based on thin-film transistors, which have the potential to be manufactured at low cost, making them an ideal candidate for these applications. Yet, up to now, no-one is taking digital security into account in the design of flexible electronics.In this paper, we present, to our knowledge, the first cryptographic core on plastic foil. Two main research challenges arise. The first challenge is related to the reliability of the circuit, which typically decreases when the circuit area increases. By integrating cryptographic modules, we explore the limits of the technology, since the smallest lightweight block ciphers feature a larger area than the largest digital circuit on flex foil reported up to now. The second challenge is related to key hiding. The relatively large features on the chip and the fact that electronic chips on plastics are used as bare dies, i.e. they are not packaged, make it easy to read out the value of the stored secret key. Because there is no dedicated non-volatile memory technology yet, existing methods for writing data to the flexible chip after fabrication are based on wire cutting with a laser or inkjet printing. With these techniques, however, it is extremely easy to “see” the value of the secret key under a microscope. We propose a novel solution that allows us to invisibly program the key after fabrication.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2019-08-09</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tches.iacr.org/index.php/TCHES/article/view/8343</dc:identifier>
+	<dc:identifier>10.13154/tches.v2019.i4.1-16</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Cryptographic Hardware and Embedded Systems; Volume 2019, Issue 4; 1-16</dc:source>
+	<dc:source>2569-2925</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/8343/7691</dc:relation>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/8343/7835</dc:relation>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/8343/7834</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2019 Nele Mentens, Jan Genoe, Thomas Vandenabeele, Lynn Verschueren, Dirk Smets, Wim Dehaene, Kris Myny</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0</dc:rights>
+</oai_dc:dc>

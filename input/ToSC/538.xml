@@ -1,0 +1,26 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>538</id>
+	<dc:title xml:lang="en-US">Is AEZ v4.1 Sufficiently Resilient Against Key-Recovery Attacks?</dc:title>
+	<dc:creator>Chaigneau, Colin</dc:creator>
+	<dc:creator>Gilbert, Henri</dc:creator>
+	<dc:subject xml:lang="en-US">CAESAR competition</dc:subject>
+	<dc:subject xml:lang="en-US">cryptanalysis</dc:subject>
+	<dc:subject xml:lang="en-US">authenticated encryption</dc:subject>
+	<dc:subject xml:lang="en-US">AEZ</dc:subject>
+	<dc:subject xml:lang="en-US">key recovery</dc:subject>
+	<dc:description xml:lang="en-US">AEZ is a parallelizable, AES-based authenticated encryption algorithm that is well suited for software implementations on processors equipped with the AES-NI instruction set. It aims at offering exceptionally strong security properties such as nonce and decryption-misuse resistance and optimal security given the selected ciphertext expansion. AEZ was submitted to the authenticated ciphers competition CAESAR and was selected in 2015 for the second round of the competition. In this paper, we analyse the resilience of the latest algorithm version, AEZ v4.1 (October 2015), against key-recovery attacks. While AEZ modifications introduced in 2015 were partly motivated by thwarting a key-recovery attack of birthday complexity against AEZ v3 published at Asiacrypt 2015 by Fuhr, Leurent and Suder, we show that AEZ v4.1 remains vulnerable to a key-recovery attack of similar complexity and security impact. Our attack leverages the use, in AEZ, of an underlying tweakable block cipher based on a 4-round version of AES. Although the presented key-recovery attack does not violate the security claims of AEZ since the designers made no claim for beyond-birthday security, it can be interpreted as an indication that AEZ does not fully meet the objective of being an extremely conservative and misuse-resilient algorithm.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2016-12-01</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tosc.iacr.org/index.php/ToSC/article/view/538</dc:identifier>
+	<dc:identifier>10.13154/tosc.v2016.i1.114-133</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Symmetric Cryptology; Volume 2016, Issue 1; 114-133</dc:source>
+	<dc:source>2519-173X</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/538/482</dc:relation>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/538/7457</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2016 Colin Chaigneau, Henri Gilbert</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0</dc:rights>
+</oai_dc:dc>

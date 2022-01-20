@@ -1,0 +1,23 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>8565</id>
+	<dc:title xml:lang="en-US">Spectral analysis of ZUC-256</dc:title>
+	<dc:creator>Yang, Jing</dc:creator>
+	<dc:creator>Johansson, Thomas</dc:creator>
+	<dc:creator>Maximov, Alexander</dc:creator>
+	<dc:subject xml:lang="en-US">ZUC-256</dc:subject>
+	<dc:subject xml:lang="en-US">Stream Cipher</dc:subject>
+	<dc:subject xml:lang="en-US">5G Mobile System Security</dc:subject>
+	<dc:description xml:lang="en-US">In this paper we develop a number of generic techniques and algorithms in spectral analysis of large linear approximations for use in cryptanalysis. We apply the developed tools for cryptanalysis of ZUC-256 and give a distinguishing attack with complexity around 2236. Although the attack is only 220 times faster than exhaustive key search, the result indicates that ZUC-256 does not provide a source with full 256-bit entropy in the generated keystream, which would be expected from a 256-bit key. To the best of our knowledge, this is the first known academic attack on full ZUC-256 with a computational complexity that is below exhaustive key search.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2020-05-07</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tosc.iacr.org/index.php/ToSC/article/view/8565</dc:identifier>
+	<dc:identifier>10.13154/tosc.v2020.i1.266-288</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Symmetric Cryptology; Volume 2020, Issue 1; 266-288</dc:source>
+	<dc:source>2519-173X</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/8565/8136</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2020 Jing Yang, Thomas Johansson, Alexander Maximov</dc:rights>
+	<dc:rights xml:lang="en-US">http://creativecommons.org/licenses/by/4.0/</dc:rights>
+</oai_dc:dc>

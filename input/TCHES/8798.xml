@@ -1,0 +1,26 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>8798</id>
+	<dc:title xml:lang="en-US">Combining Optimization Objectives: New Modeling Attacks on Strong PUFs</dc:title>
+	<dc:creator>Tobisch, Johannes</dc:creator>
+	<dc:creator>Aghaie, Anita</dc:creator>
+	<dc:creator>Becker, Georg T. </dc:creator>
+	<dc:subject xml:lang="en-US">Physical Unclonable Function</dc:subject>
+	<dc:subject xml:lang="en-US">Reliability Attack</dc:subject>
+	<dc:subject xml:lang="en-US">LR Attack</dc:subject>
+	<dc:subject xml:lang="en-US">Interpose</dc:subject>
+	<dc:subject xml:lang="en-US">PUF</dc:subject>
+	<dc:subject xml:lang="en-US">Gradient-based Reliability Attack</dc:subject>
+	<dc:description xml:lang="en-US">Strong Physical Unclonable Functions (PUFs), as a promising security primitive, are supposed to be a lightweight alternative to classical cryptography for purposes such as device authentication. Most of the proposed candidates, however, have been plagued by modeling attacks breaking their security claims. The Interpose PUF (iPUF), which has been introduced at CHES 2019, was explicitly designed with state-of-the-art modeling attacks in mind and is supposed to be impossible to break by classical and reliability attacks. In this paper, we analyze its vulnerability to reliability attacks. Despite the increased difficulty, these attacks are still feasible, against the original authors’ claim. We explain how adding constraints to the modeling objective streamlines reliability attacks and allows us to model all individual components of an iPUF successfully. In order to build a practical attack, we give several novel contributions. First, we demonstrate that reliability attacks can be performed not only with covariance matrix adaptation evolution strategy (CMA-ES) but also with gradient-based optimization. Second, we show that the switch to gradient-based reliability attacks makes it possible to combine reliability attacks, weight constraints, and Logistic Regression (LR) into a single optimization objective. This framework makes modeling attacks more efficient, as it exploits knowledge of responses and reliability information at the same time. Third, we show that a differentiable model of the iPUF exists and how it can be utilized in a combined reliability attack. We confirm that iPUFs are harder to break than regular XOR Arbiter PUFs. However, we are still able to break (1,10)-iPUF instances, which were originally assumed to be secure, with less than 107 PUF response queries.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2021-02-23</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tches.iacr.org/index.php/TCHES/article/view/8798</dc:identifier>
+	<dc:identifier>10.46586/tches.v2021.i2.357-389</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Cryptographic Hardware and Embedded Systems; Volume 2021, Issue 2; 357-389</dc:source>
+	<dc:source>2569-2925</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/8798/8398</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2021 Johannes Tobisch, Anita Aghaie, Georg T. Becker</dc:rights>
+	<dc:rights xml:lang="en-US">http://creativecommons.org/licenses/by/4.0/</dc:rights>
+</oai_dc:dc>

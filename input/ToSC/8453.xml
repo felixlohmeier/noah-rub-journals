@@ -1,0 +1,23 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>8453</id>
+	<dc:title xml:lang="en-US">Iterative Block Ciphers from Tweakable Block Ciphers with Long Tweaks</dc:title>
+	<dc:creator>Nakamichi, Ryota</dc:creator>
+	<dc:creator>Iwata, Tetsu</dc:creator>
+	<dc:subject xml:lang="en-US">Beyond-birthday-bound security</dc:subject>
+	<dc:subject xml:lang="en-US">Tweakable block cipher</dc:subject>
+	<dc:subject xml:lang="en-US">Coefficient-H technique</dc:subject>
+	<dc:subject xml:lang="en-US">Provable security</dc:subject>
+	<dc:description xml:lang="en-US">We consider a problem of constructing a secure block cipher from a tweakable block cipher (TBC) with long tweaks. Given a TBC with n-bit blocks and Γn-bit tweaks for Γ ≥ 1, one of the constructions by Minematsu in DCC 2015 shows that a simple iteration of the TBC for 3d rounds yields a block cipher with dn-bit blocks that is secure up to 2dn/2 queries, where d = Γ + 1. In this paper, we show three results.1. Iteration of 3d − 2 rounds is enough for the security up to 2dn/2 queries, i.e., the security remains the same even if we reduce the number of rounds by two.2. When the number of queries is limited to 2n, d+1 rounds are enough, and with d + l rounds for 1 ≤ l ≤ d − 1, the security bound improves as l grows.3. A d-round construction gives a block cipher secure up to 2n/2 queries, i.e., it achieves the classical birthday-bound security. Our results show that a block cipher with beyond-birthday-bound (BBB) security (with respect to n) is obtained as low as d + 1 rounds, and we draw the security spectrum of d + l round version in the range of 1 ≤ l ≤ d−1 and l = 2d−2 for BBB security, and l = 0 for birthday-bound security.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2020-01-31</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tosc.iacr.org/index.php/ToSC/article/view/8453</dc:identifier>
+	<dc:identifier>10.13154/tosc.v2019.i4.54-80</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Symmetric Cryptology; Volume 2019, Issue 4; 54-80</dc:source>
+	<dc:source>2519-173X</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/8453/8023</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2020 Ryota Nakamichi, Tetsu Iwata</dc:rights>
+	<dc:rights xml:lang="en-US">http://creativecommons.org/licenses/by/4.0/</dc:rights>
+</oai_dc:dc>

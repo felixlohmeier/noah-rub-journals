@@ -1,0 +1,25 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>844</id>
+	<dc:title xml:lang="en-US">Distinguishing Attack on NORX Permutation</dc:title>
+	<dc:creator>Huang, Tao</dc:creator>
+	<dc:creator>Wu, Hongjun</dc:creator>
+	<dc:subject xml:lang="en-US">NORX</dc:subject>
+	<dc:subject xml:lang="en-US">Distinguishing Attack</dc:subject>
+	<dc:subject xml:lang="en-US">Differential-Linear Cryptanalysis</dc:subject>
+	<dc:description xml:lang="en-US">NORX is a permutation-based authentication scheme which is currently a third-round candidate of the ongoing CAESAR competition. The security bound of NORX is derived from the sponge construction applied to an ideal underlying permutation. In this paper, we show that the NORX core permutation is non-ideal with a new distinguishing attack. More specifically, we can distinguish NORX64 permutation with 248.5 queries and distinguish NORX32 permutation with 264.7 queries using carefully crafted differential-linear attacks. We have experimentally verified the distinguishing attack on NORX64 permutation. Although the distinguishing attacks reveal the weakness of the NORX permutation, it does not directly threat the security of the NORX authenticated encryption scheme.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2018-03-01</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tosc.iacr.org/index.php/ToSC/article/view/844</dc:identifier>
+	<dc:identifier>10.13154/tosc.v2018.i1.57-73</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Symmetric Cryptology; Volume 2018, Issue 1; 57-73</dc:source>
+	<dc:source>2519-173X</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/844/796</dc:relation>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/844/7617</dc:relation>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/844/7518</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2018 Tao Huang, Hongjun Wu</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0</dc:rights>
+</oai_dc:dc>

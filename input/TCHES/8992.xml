@@ -1,0 +1,28 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>8992</id>
+	<dc:title xml:lang="en-US">Countermeasures against Static Power Attacks: – Comparing Exhaustive Logic Balancing and Other Protection Schemes in 28 nm CMOS –</dc:title>
+	<dc:creator>Moos, Thorben</dc:creator>
+	<dc:creator>Moradi, Amir</dc:creator>
+	<dc:subject xml:lang="en-US">Static Power</dc:subject>
+	<dc:subject xml:lang="en-US">Side-Channel</dc:subject>
+	<dc:subject xml:lang="en-US">SPSCA</dc:subject>
+	<dc:subject xml:lang="en-US">Countermeasures</dc:subject>
+	<dc:subject xml:lang="en-US">Shuffling</dc:subject>
+	<dc:subject xml:lang="en-US">SDRL</dc:subject>
+	<dc:subject xml:lang="en-US">QuadSeal</dc:subject>
+	<dc:subject xml:lang="en-US">Exhaustive Logic Balancing</dc:subject>
+	<dc:subject xml:lang="en-US">Threshold Implementation</dc:subject>
+	<dc:description xml:lang="en-US">In recent years it has been demonstrated convincingly that the standby power of a CMOS chip reveals information about the internally stored and processed data. Thus, for adversaries who seek to extract secrets from cryptographic devices via side-channel analysis, the static power has become an attractive quantity to obtain. Most works have focused on the destructive side of this subject by demonstrating attacks. In this work, we examine potential solutions to protect circuits from silently leaking sensitive information during idle times. We focus on countermeasures that can be implemented using any common digital standard cell library and do not consider solutions that require full-custom or analog design flow. In particular, we evaluate and compare a set of five distinct standard-cell-based hiding countermeasures, including both, randomization and equalization techniques. We then combine the hiding countermeasures with state-of-the-art hardware masking in order to amplify the noise level and achieve a high resistance against attacks. An important part of our contribution is the proposal and evaluation of the first ever standard-cell-based balancing scheme which achieves perfect data-independence on paper, i.e., in absence of intra-die process variations and aging effects. We call our new countermeasure Exhaustive Logic Balancing (ELB). While this scheme, applied to a threshold implementation, provides the highest level of resistance in our experiments, it may not be the most cost effective option due to the significant resource overhead associated. All evaluated countermeasures and combinations thereof are applied to a serialized hardware implementation of the PRESENT block cipher and realized as cryptographic co-processors on a 28nm CMOS ASIC prototype. Our experimental results are obtained through real-silicon measurements of a fabricated die of the ASIC in a temperature-controlled environment using a source measure unit (SMU). We believe that our elaborate comparison serves as a useful guideline for hardware designers to find a proper tradeoff between security and cost for almost any application.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2021-07-09</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tches.iacr.org/index.php/TCHES/article/view/8992</dc:identifier>
+	<dc:identifier>10.46586/tches.v2021.i3.780-805</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Cryptographic Hardware and Embedded Systems; Volume 2021, Issue 3; 780-805</dc:source>
+	<dc:source>2569-2925</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/8992/8569</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2021 Thorben Moos, Amir Moradi</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0/</dc:rights>
+</oai_dc:dc>

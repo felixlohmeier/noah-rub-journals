@@ -1,0 +1,27 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>849</id>
+	<dc:title xml:lang="en-US">On Efficient Constructions of Lightweight MDS Matrices</dc:title>
+	<dc:creator>Zhou, Lijing</dc:creator>
+	<dc:creator>Wang, Licheng</dc:creator>
+	<dc:creator>Sun, Yiru</dc:creator>
+	<dc:subject xml:lang="en-US">MDS matrix</dc:subject>
+	<dc:subject xml:lang="en-US">XOR count</dc:subject>
+	<dc:subject xml:lang="en-US">matrix polynomial residue ring</dc:subject>
+	<dc:subject xml:lang="en-US">involutory matrix</dc:subject>
+	<dc:description xml:lang="en-US">The paper investigates the maximum distance separable (MDS) matrix over the matrix polynomial residue ring. Firstly, by analyzing the minimal polynomials of binary matrices with 1 XOR count and element-matrices with few XOR counts, we present an efficient method for constructing MDS matrices with as few XOR counts as possible. Comparing with previous constructions, our corresponding constructions only cost 1 minute 27 seconds to 7 minutes, while previous constructions cost 3 days to 4 weeks. Secondly, we discuss the existence of several types of involutory MDS matrices and propose an efficient necessary-and-sufficient condition for identifying a Hadamard matrix being involutory. According to the condition, each involutory Hadamard matrix over a polynomial residue ring can be accurately and efficiently searched. Furthermore, we devise an efficient algorithm for constructing involutory Hadamard MDS matrices with as few XOR counts as possible. We obtain many new involutory Hadamard MDS matrices with much fewer XOR counts than optimal results reported before.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2018-03-01</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tosc.iacr.org/index.php/ToSC/article/view/849</dc:identifier>
+	<dc:identifier>10.13154/tosc.v2018.i1.180-200</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Symmetric Cryptology; Volume 2018, Issue 1; 180-200</dc:source>
+	<dc:source>2519-173X</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/849/801</dc:relation>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/849/7622</dc:relation>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/849/7522</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2018 Lijing Zhou, Licheng Wang, Yiru Sun</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0</dc:rights>
+</oai_dc:dc>

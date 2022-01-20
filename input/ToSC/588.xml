@@ -1,0 +1,25 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>588</id>
+	<dc:title xml:lang="en-US">Design of Lightweight Linear Diffusion Layers from Near-MDS Matrices</dc:title>
+	<dc:creator>Li, Chaoyun</dc:creator>
+	<dc:creator>Wang, Qingju</dc:creator>
+	<dc:subject xml:lang="en-US">lightweight cryptography</dc:subject>
+	<dc:subject xml:lang="en-US">diffusion layer</dc:subject>
+	<dc:subject xml:lang="en-US">near-MDS matrix</dc:subject>
+	<dc:subject xml:lang="en-US">branch number</dc:subject>
+	<dc:description xml:lang="en-US">Near-MDS matrices provide better trade-offs between security and efficiency compared to constructions based on MDS matrices, which are favored for hardwareoriented designs. We present new designs of lightweight linear diffusion layers by constructing lightweight near-MDS matrices. Firstly generic n×n near-MDS circulant matrices are found for 5 ≤ n  ≤9. Secondly, the implementation cost of instantiations of the generic near-MDS matrices is examined. Surprisingly, for n = 7, 8, it turns out that some proposed near-MDS circulant matrices of order n have the lowest XOR count among all near-MDS matrices of the same order. Further, for n = 5, 6, we present near-MDS matrices of order n having the lowest XOR count as well. The proposed matrices, together with previous construction of order less than five, lead to solutions of n×n near-MDS matrices with the lowest XOR count over finite fields F2m for 2 ≤ n ≤ 8 and 4 ≤ m ≤ 2048. Moreover, we present some involutory near-MDS matrices of order 8 constructed from Hadamard matrices. Lastly, the security of the proposed linear layers is studied by calculating lower bounds on the number of active S-boxes. It is shown that our linear layers with a well-chosen nonlinear layer can provide sufficient security against differential and linear cryptanalysis.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2017-03-08</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tosc.iacr.org/index.php/ToSC/article/view/588</dc:identifier>
+	<dc:identifier>10.13154/tosc.v2017.i1.129-155</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Symmetric Cryptology; Volume 2017, Issue 1; 129-155</dc:source>
+	<dc:source>2519-173X</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/588/529</dc:relation>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/588/7477</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2017 Chaoyun Li, Qingju Wang</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0</dc:rights>
+</oai_dc:dc>

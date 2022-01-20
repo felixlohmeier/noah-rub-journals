@@ -1,0 +1,25 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>8543</id>
+	<dc:title xml:lang="en-US">A Fast and Accurate Guessing Entropy Estimation Algorithm for Full-key Recovery</dc:title>
+	<dc:creator>Zhang, Ziyue</dc:creator>
+	<dc:creator>Ding, A. Adam</dc:creator>
+	<dc:creator>Fei, Yunsi</dc:creator>
+	<dc:subject xml:lang="en-US">Side-channel analysis</dc:subject>
+	<dc:subject xml:lang="en-US">guessing entropy</dc:subject>
+	<dc:subject xml:lang="en-US">i-th order success rate</dc:subject>
+	<dc:subject xml:lang="en-US">multivariate-Gaussian distribution</dc:subject>
+	<dc:subject xml:lang="en-US">additive score distinguisher</dc:subject>
+	<dc:description xml:lang="en-US">Guessing entropy (GE) is a widely adopted metric that measures the average computational cost needed for a successful side-channel analysis (SCA). However, with current estimation methods where the evaluator has to average the correct key rank over many independent side-channel leakage measurement sets, full-key GE estimation is impractical due to its prohibitive computing requirement. A recent estimation method based on posterior probabilities, although scalable, is not accurate.We propose a new guessing entropy estimation algorithm (GEEA) based on theoretical distributions of the ranking score vectors. By discovering the relationship of GE with pairwise success rates and utilizing it, GEEA uses a sum of many univariate Gaussian probabilities instead of multi-variate Gaussian probabilities, significantly improving the computation efficiency.We show that GEEA is more accurate and efficient than all current GE estimations. To the best of our knowledge, it is the only practical full-key GE evaluation on given experimental data sets which the evaluator has access to. Moreover, it can accurately predict the GE for larger sizes than the experimental data sets, providing comprehensive security evaluation.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2020-03-02</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tches.iacr.org/index.php/TCHES/article/view/8543</dc:identifier>
+	<dc:identifier>10.13154/tches.v2020.i2.26-48</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Cryptographic Hardware and Embedded Systems; Volume 2020, Issue 2; 26-48</dc:source>
+	<dc:source>2569-2925</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/8543/8108</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2020 Ziyue Zhang, A. Adam Ding, Yunsi Fei</dc:rights>
+	<dc:rights xml:lang="en-US">http://creativecommons.org/licenses/by/4.0/</dc:rights>
+</oai_dc:dc>

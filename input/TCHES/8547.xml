@@ -1,0 +1,25 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>8547</id>
+	<dc:title xml:lang="en-US">Efficient and Private Computations with Code-Based Masking</dc:title>
+	<dc:creator>Wang, Weijia</dc:creator>
+	<dc:creator>Méaux, Pierrick</dc:creator>
+	<dc:creator>Cassiers, Gaëtan</dc:creator>
+	<dc:creator>Standaert, François-Xavier</dc:creator>
+	<dc:subject xml:lang="en-US">Side-channel attacks</dc:subject>
+	<dc:subject xml:lang="en-US">Masking</dc:subject>
+	<dc:subject xml:lang="en-US">Linear Codes</dc:subject>
+	<dc:subject xml:lang="en-US">Code-based Masking</dc:subject>
+	<dc:description xml:lang="en-US">Code-based masking is a very general type of masking scheme that covers Boolean masking, inner product masking, direct sum masking, and so on. The merits of the generalization are twofold. Firstly, the higher algebraic complexity of the sharing function decreases the information leakage in “low noise conditions” and may increase the “statistical security order” of an implementation (with linear leakages). Secondly, the underlying error-correction codes can offer improved fault resistance for the encoded variables. Nevertheless, this higher algebraic complexity also implies additional challenges. On the one hand, a generic multiplication algorithm applicable to any linear code is still unknown. On the other hand, masking schemes with higher algebraic complexity usually come with implementation overheads, as for example witnessed by inner-product masking. In this paper, we contribute to these challenges in two directions. Firstly, we propose a generic algorithm that allows us (to the best of our knowledge for the first time) to compute on data shared with linear codes. Secondly, we introduce a new amortization technique that can significantly mitigate the implementation overheads of code-based masking, and illustrate this claim with a case study. Precisely, we show that, although performing every single code-based masked operation is relatively complex, processing multiple secrets in parallel leads to much better performances. This property enables code-based masked implementations of the AES to compete with the state-of-the-art in randomness complexity. Since our masked operations can be instantiated with various linear codes, we hope that these investigations open new avenues for the study of code-based masking schemes, by specializing the codes for improved performances, better side-channel security or improved fault tolerance.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2020-03-02</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tches.iacr.org/index.php/TCHES/article/view/8547</dc:identifier>
+	<dc:identifier>10.13154/tches.v2020.i2.128-171</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Cryptographic Hardware and Embedded Systems; Volume 2020, Issue 2; 128-171</dc:source>
+	<dc:source>2569-2925</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/8547/8112</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2020 Weijia Wang, Pierrick Méaux, Gaëtan Cassiers, François-Xavier Standaert</dc:rights>
+	<dc:rights xml:lang="en-US">http://creativecommons.org/licenses/by/4.0/</dc:rights>
+</oai_dc:dc>

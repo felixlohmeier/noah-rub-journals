@@ -1,0 +1,28 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>8364</id>
+	<dc:title xml:lang="en-US">Exhaustive Search for Various Types of MDS Matrices</dc:title>
+	<dc:creator>Kesarwani, Abhishek</dc:creator>
+	<dc:creator>Sarkar, Santanu</dc:creator>
+	<dc:creator>Venkateswarlu, Ayineedi</dc:creator>
+	<dc:subject xml:lang="en-US">Diffusion Layer</dc:subject>
+	<dc:subject xml:lang="en-US">MDS Matrix</dc:subject>
+	<dc:subject xml:lang="en-US">Circulant Matrix</dc:subject>
+	<dc:subject xml:lang="en-US">Hadamard Matrix</dc:subject>
+	<dc:subject xml:lang="en-US">Recursive MDS Matrix</dc:subject>
+	<dc:subject xml:lang="en-US">Companion Matrix</dc:subject>
+	<dc:subject xml:lang="en-US">Sparse DSI Matrix</dc:subject>
+	<dc:subject xml:lang="en-US">XOR Count</dc:subject>
+	<dc:description xml:lang="en-US">MDS matrices are used in the design of diffusion layers in many block ciphers and hash functions due to their optimal branch number. But MDS matrices, in general, have costly implementations. So in search for efficiently implementable MDS matrices, there have been many proposals. In particular, circulant, Hadamard, and recursive MDS matrices from companion matrices have been widely studied. In a recent work, recursive MDS matrices from sparse DSI matrices are studied, which are of interest due to their low fixed cost in hardware implementation. In this paper, we present results on the exhaustive search for (recursive) MDS matrices over GL(4, F2). Specifically, circulant MDS matrices of order 4, 5, 6, 7, 8; Hadamard MDS matrices of order 4, 8; recursive MDS matrices from companion matrices of order 4; recursive MDS matrices from sparse DSI matrices of order 4, 5, 6, 7, 8 are considered. It is to be noted that the exhaustive search is impractical with a naive approach. We first use some linear algebra tools to restrict the search to a smaller domain and then apply some space-time trade-off techniques to get the solutions. From the set of solutions in the restricted domain, one can easily generate all the solutions in the full domain. From the experimental results, we can see the (non) existence of (involutory) MDS matrices for the choices mentioned above. In particular, over GL(4, F2), we provide companion matrices of order 4 that yield involutory MDS matrices, circulant MDS matrices of order 8, and establish the nonexistence of involutory circulant MDS matrices of order 6, 8, circulant MDS matrices of order 7, sparse DSI matrices of order 4 that yield involutory MDS matrices, and sparse DSI matrices of order 5, 6, 7, 8 that yield MDS matrices. To the best of our knowledge, these results were not known before. For the choices mentioned above, if such MDS matrices exist, we provide base sets of MDS matrices, from which all the MDS matrices with the least cost (with respect to d-XOR and s-XOR counts) can be obtained. We also take this opportunity to present some results on the search for sparse DSI matrices over finite fields that yield MDS matrices. We establish that there is no sparse DSI matrix S of order 8 over F28 such that S8 is MDS.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2019-09-20</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tosc.iacr.org/index.php/ToSC/article/view/8364</dc:identifier>
+	<dc:identifier>10.13154/tosc.v2019.i3.231-256</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Symmetric Cryptology; Volume 2019, Issue 3; 231-256</dc:source>
+	<dc:source>2519-173X</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/8364/7713</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2019 Abhishek Kesarwani, Santanu Sarkar, Ayineedi Venkateswarlu</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0</dc:rights>
+</oai_dc:dc>

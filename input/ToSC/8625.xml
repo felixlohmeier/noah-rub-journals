@@ -1,0 +1,29 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>8625</id>
+	<dc:title xml:lang="en-US">Isap v2.0</dc:title>
+	<dc:creator>Dobraunig, Christoph</dc:creator>
+	<dc:creator>Eichlseder, Maria</dc:creator>
+	<dc:creator>Mangard, Stefan</dc:creator>
+	<dc:creator>Mendel, Florian</dc:creator>
+	<dc:creator>Mennink, Bart</dc:creator>
+	<dc:creator>Primas, Robert</dc:creator>
+	<dc:creator>Unterluggauer, Thomas</dc:creator>
+	<dc:subject xml:lang="en-US">Authenticated encryption</dc:subject>
+	<dc:subject xml:lang="en-US">NIST LWC</dc:subject>
+	<dc:subject xml:lang="en-US">Leakage resilience</dc:subject>
+	<dc:subject xml:lang="en-US">Sponges</dc:subject>
+	<dc:description xml:lang="en-US">We specify Isap v2.0, a lightweight permutation-based authenticated encryption algorithm that is designed to ease protection against side-channel and fault attacks. This design is an improved version of the previously published Isap v1.0, and offers increased protection against implementation attacks as well as more efficient implementations. Isap v2.0 is a candidate in NIST’s LightWeight Cryptography (LWC) project, which aims to identify and standardize authenticated ciphers that are well-suited for applications in constrained environments. We provide a self-contained specification of the new Isap v2.0 mode and discuss its design rationale. We formally prove the security of the Isap v2.0 mode in the leakage-resilient setting. Finally, in an extensive implementation overview, we show that Isap v2.0 can be implemented securely with very low area requirements.
+https://isap.iaik.tugraz.at</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2020-06-22</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tosc.iacr.org/index.php/ToSC/article/view/8625</dc:identifier>
+	<dc:identifier>10.13154/tosc.v2020.iS1.390-416</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Symmetric Cryptology; Volume 2020, Special Issue 1 ; 390-416</dc:source>
+	<dc:source>2519-173X</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/8625/8191</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2020 Christoph Dobraunig, Maria Eichlseder, Stefan Mangard, Florian Mendel, Bart Mennink, Robert Primas, Thomas Unterluggauer</dc:rights>
+	<dc:rights xml:lang="en-US">http://creativecommons.org/licenses/by/4.0/</dc:rights>
+</oai_dc:dc>

@@ -1,0 +1,32 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>8296</id>
+	<dc:title xml:lang="en-US">Software Toolkit for HFE-based Multivariate Schemes</dc:title>
+	<dc:creator>Faugère, Jean-Charles</dc:creator>
+	<dc:creator>Perret, Ludovic</dc:creator>
+	<dc:creator>Ryckeghem, Jocelyn</dc:creator>
+	<dc:subject xml:lang="en-US">MQsoft</dc:subject>
+	<dc:subject xml:lang="en-US">efficient software implementation</dc:subject>
+	<dc:subject xml:lang="en-US">constant-time</dc:subject>
+	<dc:subject xml:lang="en-US">HFEv-</dc:subject>
+	<dc:subject xml:lang="en-US">GeMSS</dc:subject>
+	<dc:subject xml:lang="en-US">Gui</dc:subject>
+	<dc:subject xml:lang="en-US">DualModeMS</dc:subject>
+	<dc:subject xml:lang="en-US">root finding</dc:subject>
+	<dc:subject xml:lang="en-US">binary fields</dc:subject>
+	<dc:description xml:lang="en-US">In 2017, NIST shook the cryptographic world by starting a process for standardizing post-quantum cryptography. Sixty-four submissions have been considered for the first round of the on-going NIST Post-Quantum Cryptography (PQC) process. Multivariate cryptography is a classical post-quantum candidate that turns to be the most represented in the signature category. At this stage of the process, it is of primary importance to investigate efficient implementations of the candidates. This article presents MQsoft, an efficient library which permits to implement HFE-based multivariate schemes submitted to the NIST PQC process such as GeMSS, Gui and DualModeMS. The library is implemented in C targeting Intel 64-bit processors and using avx2 set instructions. We present performance results for our library and its application to GeMSS, Gui and DualModeMS. In particular, we optimize several crucial parts for these schemes. These include root finding for HFE polynomials and evaluation of multivariate quadratic systems in F2. We propose a new method which accelerates root finding for specific HFE polynomials by a factor of two. For GeMSS and Gui, we obtain a speed-up of a factor between 2 and 19 for the keypair generation, between 1.2 and 2.5 for the signature generation, and between 1.6 and 2 for the verifying process. We have also improved the arithmetic in F2n by a factor of 4 compared to the NTL library. Moreover, a large part of our implementation is protected against timing attacks.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2019-05-09</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tches.iacr.org/index.php/TCHES/article/view/8296</dc:identifier>
+	<dc:identifier>10.13154/tches.v2019.i3.257-304</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Cryptographic Hardware and Embedded Systems; Volume 2019, Issue 3; 257-304</dc:source>
+	<dc:source>2569-2925</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/8296/7646</dc:relation>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/8296/7875</dc:relation>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/8296/7876</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2019 Jean-Charles Faugère, Ludovic Perret, Jocelyn Ryckeghem</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0</dc:rights>
+</oai_dc:dc>

@@ -1,0 +1,29 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>807</id>
+	<dc:title xml:lang="en-US">Direct Construction of Optimal Rotational-XOR Diffusion Primitives</dc:title>
+	<dc:creator>Guo, Zhiyuan</dc:creator>
+	<dc:creator>Liu, Renzhang</dc:creator>
+	<dc:creator>Gao, Si</dc:creator>
+	<dc:creator>Wu, Wenling</dc:creator>
+	<dc:creator>Lin, Dongdai</dc:creator>
+	<dc:subject xml:lang="en-US">Lightweight Cryptography</dc:subject>
+	<dc:subject xml:lang="en-US">MDS Diffusion Layers</dc:subject>
+	<dc:subject xml:lang="en-US">Bit-wise Circulant Matrices</dc:subject>
+	<dc:subject xml:lang="en-US">Multiple Platforms</dc:subject>
+	<dc:description xml:lang="en-US">As a core component of SPN block cipher and hash function, diffusion layer is mainly introduced by matrices built from maximum distance separable (MDS) codes. Up to now, most MDS constructions require to perform an equivalent or even exhaustive search. In this paper, we study the cyclic structure of rotational-XOR diffusion layer, a commonly used diffusion primitive over (</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2017-12-15</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tosc.iacr.org/index.php/ToSC/article/view/807</dc:identifier>
+	<dc:identifier>10.13154/tosc.v2017.i4.169-187</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Symmetric Cryptology; Volume 2017, Issue 4; 169-187</dc:source>
+	<dc:source>2519-173X</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/807/761</dc:relation>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/807/7593</dc:relation>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/807/7512</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2017 Zhiyuan Guo, Renzhang Liu, Si Gao, Wenling Wu, Dongdai Lin</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0</dc:rights>
+</oai_dc:dc>

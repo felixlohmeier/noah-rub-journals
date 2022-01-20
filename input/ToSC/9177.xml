@@ -1,0 +1,27 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>9177</id>
+	<dc:title xml:lang="en-US">Boomeyong: Embedding Yoyo within Boomerang and its Applications to Key Recovery Attacks on AES and Pholkos</dc:title>
+	<dc:creator>Rahman, Mostafizar</dc:creator>
+	<dc:creator>Saha, Dhiman</dc:creator>
+	<dc:creator>Paul, Goutam</dc:creator>
+	<dc:subject xml:lang="en-US">AES</dc:subject>
+	<dc:subject xml:lang="en-US">Boomerang</dc:subject>
+	<dc:subject xml:lang="en-US">Distinguisher</dc:subject>
+	<dc:subject xml:lang="en-US">Key Recovery</dc:subject>
+	<dc:subject xml:lang="en-US">Pholkos</dc:subject>
+	<dc:subject xml:lang="en-US">Symmetric- Key Cryptanalysis</dc:subject>
+	<dc:subject xml:lang="en-US">Yoyo</dc:subject>
+	<dc:description xml:lang="en-US">This work investigates a generic way of combining two very effective and well-studied cryptanalytic tools, proposed almost 18 years apart, namely the boomerang attack introduced by Wagner in FSE 1999 and the yoyo attack by Ronjom et al. in Asiacrypt 2017. In doing so, the s-box switch and ladder switch techniques are leveraged to embed a yoyo trail inside a boomerang trail. As an immediate application, a 6-round key recovery attack on AES-128 is mounted with time complexity of 278. A 10-round key recovery attack on recently introduced AES-based tweakable block cipher Pholkos is also furnished to demonstrate the applicability of the new technique on AES-like constructions. The results on AES are experimentally verified by applying and implementing them on a small scale variant of AES. We provide arguments that draw a relation between the proposed strategy with the retracing boomerang attack devised in Eurocrypt 2020. To the best of our knowledge, this is the first attempt to merge the yoyo and boomerang techniques to analyze SPN ciphers and warrants further attention as it has the potential of becoming an important cryptanalysis tool.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2021-09-17</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tosc.iacr.org/index.php/ToSC/article/view/9177</dc:identifier>
+	<dc:identifier>10.46586/tosc.v2021.i3.137-169</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Symmetric Cryptology; Volume 2021, Issue 3; 137-169</dc:source>
+	<dc:source>2519-173X</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/9177/8715</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2021 Mostafizar Rahman, Dhiman Saha, Goutam Paul</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0/</dc:rights>
+</oai_dc:dc>

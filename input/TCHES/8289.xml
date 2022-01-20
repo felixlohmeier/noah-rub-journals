@@ -1,0 +1,28 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>8289</id>
+	<dc:title xml:lang="en-US">Fast, Furious and Insecure: Passive Keyless Entry and Start Systems in Modern Supercars</dc:title>
+	<dc:creator>Wouters, Lennert</dc:creator>
+	<dc:creator>Marin, Eduard</dc:creator>
+	<dc:creator>Ashur, Tomer</dc:creator>
+	<dc:creator>Gierlichs, Benedikt</dc:creator>
+	<dc:creator>Preneel, Bart</dc:creator>
+	<dc:subject xml:lang="en-US">Passive Keyless Entry and Start</dc:subject>
+	<dc:subject xml:lang="en-US">reverse engineering</dc:subject>
+	<dc:subject xml:lang="en-US">Digital Signature Transponder</dc:subject>
+	<dc:description xml:lang="en-US">The security of immobiliser and Remote Keyless Entry systems has been extensively studied over many years. Passive Keyless Entry and Start systems, which are currently deployed in luxury vehicles, have not received much attention besides relay attacks. In this work we fully reverse engineer a Passive Keyless Entry and Start system and perform a thorough analysis of its security.Our research reveals several security weaknesses. Specifically, we document the use of an inadequate proprietary cipher using 40-bit keys, the lack of mutual authentication in the challenge-response protocol, no firmware readout protection features enabled and the absence of security partitioning.In order to validate our findings, we implement a full proof of concept attack allowing us to clone a Tesla Model S key fob in a matter of seconds with low cost commercial off the shelf equipment. Our findings most likely apply to other manufacturers of luxury vehicles including McLaren, Karma and Triumph motorcycles as they all use the same system developed by Pektron.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2019-05-09</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tches.iacr.org/index.php/TCHES/article/view/8289</dc:identifier>
+	<dc:identifier>10.13154/tches.v2019.i3.66-85</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Cryptographic Hardware and Embedded Systems; Volume 2019, Issue 3; 66-85</dc:source>
+	<dc:source>2569-2925</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/8289/7639</dc:relation>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/8289/7861</dc:relation>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/8289/7862</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2019 Lennert Wouters, Eduard Marin, Tomer Ashur, Benedikt Gierlichs, Bart Preneel</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0</dc:rights>
+</oai_dc:dc>

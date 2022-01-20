@@ -1,0 +1,24 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>8356</id>
+	<dc:title xml:lang="en-US">A new SNOW stream cipher called SNOW-V</dc:title>
+	<dc:creator>Ekdahl, Patrik</dc:creator>
+	<dc:creator>Johansson, Thomas</dc:creator>
+	<dc:creator>Maximov, Alexander</dc:creator>
+	<dc:creator>Yang, Jing</dc:creator>
+	<dc:subject xml:lang="en-US">SNOW</dc:subject>
+	<dc:subject xml:lang="en-US">Stream Cipher</dc:subject>
+	<dc:subject xml:lang="en-US">5G Mobile System Security</dc:subject>
+	<dc:description xml:lang="en-US">In this paper we are proposing a new member in the SNOW family of stream ciphers, called SNOW-V. The motivation is to meet an industry demand of very high speed encryption in a virtualized environment, something that can be expected to be relevant in a future 5G mobile communication system. We are revising the SNOW 3G architecture to be competitive in such a pure software environment, making use of both existing acceleration instructions for the AES encryption round function as well as the ability of modern CPUs to handle large vectors of integers (e.g. SIMD instructions). We have kept the general design from SNOW 3G, in terms of linear feedback shift register (LFSR) and Finite State Machine (FSM), but both entities are updated to better align with vectorized implementations. The LFSR part is new and operates 8 times the speed of the FSM. We have furthermore increased the total state size by using 128-bit registers in the FSM, we use the full AES encryption round function in the FSM update, and, finally, the initialization phase includes a masking with key bits at its end. The result is an algorithm generally much faster than AES-256 and with expected security not worse than AES-256.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2019-09-20</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tosc.iacr.org/index.php/ToSC/article/view/8356</dc:identifier>
+	<dc:identifier>10.13154/tosc.v2019.i3.1-42</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Symmetric Cryptology; Volume 2019, Issue 3; 1-42</dc:source>
+	<dc:source>2519-173X</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/8356/7705</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2019 Patrik Ekdahl, Thomas Johansson, Alexander Maximov, Jing Yang</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0</dc:rights>
+</oai_dc:dc>

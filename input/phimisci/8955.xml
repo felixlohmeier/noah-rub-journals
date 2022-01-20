@@ -1,0 +1,28 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>8955</id>
+	<dc:title xml:lang="en-US">Dissolving the self: Active inference, psychedelics, and ego-dissolution</dc:title>
+	<dc:creator>Deane, George</dc:creator>
+	<dc:subject xml:lang="en-US">active inference</dc:subject>
+	<dc:subject xml:lang="en-US">psychedelics</dc:subject>
+	<dc:subject xml:lang="en-US">ego-dissolution</dc:subject>
+	<dc:subject xml:lang="en-US">self-model</dc:subject>
+	<dc:subject xml:lang="en-US">predictive processing</dc:subject>
+	<dc:subject xml:lang="en-US">consciousness</dc:subject>
+	<dc:description xml:lang="en-US">Psychedelic drugs such as psilocybin, LSD and DMT are known to induce powerful alterations in phenomenology. Perhaps of most philosophical and scientific interest is their capacity to disrupt and even “dissolve” one of the most primary features of normal experience: that of being a self. Such “peak” or “mystical” experiences are of increasing interest for their potentially transformative therapeutic value. While empirical research is underway, a theoretical conception of the mechanisms underpinning these experiences remains elusive. In the following paper, psychedelic-induced ego-dissolution is accounted for within an active inference framework, as a collapse in the “temporal thickness” of an agent’s deep temporal model, as a result of lowered precision on high-level priors. The argument here is composed of three moves: first, a view of the self-model is proposed as arising within a temporally deep generative model of an embodied organism navigating an affordance landscape in the service of allostasis. Next, a view of the action of psychedelics as lowering the precision of high-level priors within the generative model is unpacked in terms of a high Bayesian learning rate. Finally, the relaxation of high-level priors is argued to cause a “collapse” in the temporal thickness of the generative model, resulting in a collapse in the self-model and a loss of the ordinary sense of being a self. This account has implications for our understanding of ordinary self-consciousness and disruptions in self-consciousness present in psychosis, autism, depression, and dissociative disorders. The philosophical, theoretical and therapeutic implications of this account are touched upon.</dc:description>
+	<dc:publisher xml:lang="en-US">MIND Group</dc:publisher>
+	<dc:date>2020-03-24</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:type xml:lang="en-US">Peer-reviewed Article</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:format>text/html</dc:format>
+	<dc:identifier>https://philosophymindscience.org/index.php/phimisci/article/view/8955</dc:identifier>
+	<dc:identifier>10.33735/phimisci.2020.I.39</dc:identifier>
+	<dc:source xml:lang="en-US">Philosophy and the Mind Sciences; Vol. 1 No. I (2020): Special Issue: Radical Disruptions of Self-Consciousness; 1-27</dc:source>
+	<dc:source>2699-0369</dc:source>
+	<dc:source>10.33735/phimisci.2020.I</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://philosophymindscience.org/index.php/phimisci/article/view/8955/8733</dc:relation>
+	<dc:relation>https://philosophymindscience.org/index.php/phimisci/article/view/8955/8734</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2020 George Deane</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0</dc:rights>
+</oai_dc:dc>

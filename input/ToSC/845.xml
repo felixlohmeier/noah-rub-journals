@@ -1,0 +1,26 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>845</id>
+	<dc:title xml:lang="en-US">Searching for Subspace Trails and Truncated Differentials</dc:title>
+	<dc:creator>Leander, Gregor</dc:creator>
+	<dc:creator>Tezcan, Cihangir</dc:creator>
+	<dc:creator>Wiemer, Friedrich</dc:creator>
+	<dc:subject xml:lang="en-US">Subspace Trail Cryptanalysis</dc:subject>
+	<dc:subject xml:lang="en-US">Truncated Differentials</dc:subject>
+	<dc:subject xml:lang="en-US">Tools</dc:subject>
+	<dc:description xml:lang="en-US">Grassi et al. [Gra+16] introduced subspace trail cryptanalysis as a generalization of invariant subspaces and used it to give the first five round distinguisher for Aes. While it is a generic method, up to now it was only applied to the Aes and Prince. One problem for a broad adoption of the attack is a missing generic analysis algorithm. In this work we provide efficient and generic algorithms that allow to compute the provably best subspace trails for any substitution permutation cipher.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2018-03-01</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tosc.iacr.org/index.php/ToSC/article/view/845</dc:identifier>
+	<dc:identifier>10.13154/tosc.v2018.i1.74-100</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Symmetric Cryptology; Volume 2018, Issue 1; 74-100</dc:source>
+	<dc:source>2519-173X</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/845/797</dc:relation>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/845/7618</dc:relation>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/845/7449</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2018 Gregor Leander, Cihangir Tezcan, Friedrich Wiemer</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0</dc:rights>
+</oai_dc:dc>

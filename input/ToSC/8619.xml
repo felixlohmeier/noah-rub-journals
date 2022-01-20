@@ -1,0 +1,33 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>8619</id>
+	<dc:title xml:lang="en-US">SKINNY-AEAD and SKINNY-Hash</dc:title>
+	<dc:creator>Beierle, Christof</dc:creator>
+	<dc:creator>Jean, Jérémy</dc:creator>
+	<dc:creator>Kölbl, Stefan</dc:creator>
+	<dc:creator>Leander, Gregor</dc:creator>
+	<dc:creator>Moradi, Amir</dc:creator>
+	<dc:creator>Peyrin, Thomas</dc:creator>
+	<dc:creator>Sasaki, Yu</dc:creator>
+	<dc:creator>Sasdrich, Pascal</dc:creator>
+	<dc:creator>Sim, Siang Meng </dc:creator>
+	<dc:subject xml:lang="en-US">SKINNY</dc:subject>
+	<dc:subject xml:lang="en-US">Tweakable block cipher</dc:subject>
+	<dc:subject xml:lang="en-US">Authenticated encryption</dc:subject>
+	<dc:subject xml:lang="en-US">Hash function</dc:subject>
+	<dc:subject xml:lang="en-US">NIST</dc:subject>
+	<dc:subject xml:lang="en-US">Lightweight cryptography</dc:subject>
+	<dc:description xml:lang="en-US">We present the family of authenticated encryption schemes SKINNY-AEAD and the family of hashing schemes SKINNY-Hash. All of the schemes employ a member of the SKINNY family of tweakable block ciphers, which was presented at CRYPTO 2016, as the underlying primitive. In particular, for authenticated encryption, we show how to instantiate members of SKINNY in the Deoxys-I-like ΘCB3 framework to fulfill the submission requirements of the NIST lightweight cryptography standardization process. For hashing, we use SKINNY to build a function with larger internal state and employ it in a sponge construction. To highlight the extensive amount of third-party analysis that SKINNY obtained since its publication, we briefly survey the existing cryptanalysis results for SKINNY-128-256 and SKINNY-128-384 as of February 2020. In the last part of the paper, we provide a variety of ASIC implementations of our schemes and propose new simple SKINNY-AEAD and SKINNY-Hash variants with a reduced number of rounds while maintaining a very comfortable security margin. 
+https://csrc.nist.gov/Projects/Lightweight-Cryptography</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2020-06-22</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tosc.iacr.org/index.php/ToSC/article/view/8619</dc:identifier>
+	<dc:identifier>10.13154/tosc.v2020.iS1.88-131</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Symmetric Cryptology; Volume 2020, Special Issue 1 ; 88-131</dc:source>
+	<dc:source>2519-173X</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/8619/8185</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2020 Christof Beierle, Jérémy Jean, Stefan Kölbl, Gregor Leander, Amir Moradi, Thomas Peyrin, Yu Sasaki, Pascal Sasdrich, Siang Meng Sim</dc:rights>
+	<dc:rights xml:lang="en-US">http://creativecommons.org/licenses/by/4.0/</dc:rights>
+</oai_dc:dc>

@@ -1,0 +1,28 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>9072</id>
+	<dc:title xml:lang="en-US">FIVER – Robust Verification of Countermeasures against Fault Injections</dc:title>
+	<dc:creator>Richter-Brockmann, Jan</dc:creator>
+	<dc:creator>Rezaei Shahmirzadi, Aein</dc:creator>
+	<dc:creator>Sasdrich, Pascal</dc:creator>
+	<dc:creator>Moradi, Amir</dc:creator>
+	<dc:creator>Güneysu, Tim</dc:creator>
+	<dc:subject xml:lang="en-US">FIA</dc:subject>
+	<dc:subject xml:lang="en-US">Fault Verification</dc:subject>
+	<dc:subject xml:lang="en-US">Formal Verification</dc:subject>
+	<dc:subject xml:lang="en-US">BDD</dc:subject>
+	<dc:subject xml:lang="en-US">Symbolic Simulation</dc:subject>
+	<dc:description xml:lang="en-US">Fault Injection Analysis is seen as a powerful attack against implementations of cryptographic algorithms. Over the last two decades, researchers proposed a plethora of countermeasures to secure such implementations. However, the design process and implementation are still error-prone, complex, and manual tasks which require long-standing experience in hardware design and physical security. Moreover, the validation of the claimed security is often only done by empirical testing in a very late stage of the design process. To prevent such empirical testing strategies, approaches based on formal verification are applied instead providing the designer early feedback.In this work, we present a fault verification framework to validate the security of countermeasures against fault-injection attacks designed for ICs. The verification framework works on netlist-level, parses the given digital circuit into a model based on Binary Decision Diagrams, and performs symbolic fault injections. This verification approach constitutes a novel strategy to evaluate protected hardware designs against fault injections offering new opportunities as performing full analyses under a given fault models.Eventually, we apply the proposed verification framework to real-world implementations of well-established countermeasures against fault-injection attacks. Here, we consider protected designs of the lightweight ciphers CRAFT and LED-64 as well as AES. Due to several optimization strategies, our tool is able to perform more than 90 million fault injections in a single-round CRAFT design and evaluate the security in under 50 min while the symbolic simulation approach considers all 2128 primary inputs.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2021-08-11</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tches.iacr.org/index.php/TCHES/article/view/9072</dc:identifier>
+	<dc:identifier>10.46586/tches.v2021.i4.447-473</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Cryptographic Hardware and Embedded Systems; Volume 2021, Issue 4; 447-473</dc:source>
+	<dc:source>2569-2925</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/9072/8659</dc:relation>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/9072/8705</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2021 Jan Richter-Brockmann, Aein Rezaei Shahmirzadi, Pascal Sasdrich, Amir Moradi, Tim Güneysu</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0/</dc:rights>
+</oai_dc:dc>

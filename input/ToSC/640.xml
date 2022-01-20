@@ -1,0 +1,32 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>640</id>
+	<dc:title xml:lang="en-US">Turning Online Ciphers Off</dc:title>
+	<dc:creator>Andreeva, Elena</dc:creator>
+	<dc:creator>Barwell, Guy</dc:creator>
+	<dc:creator>Bhaumik, Ritam</dc:creator>
+	<dc:creator>Nandi, Mridul</dc:creator>
+	<dc:creator>Page, Dan</dc:creator>
+	<dc:creator>Stam, Martijn</dc:creator>
+	<dc:subject xml:lang="en-US">beyond birthday bound</dc:subject>
+	<dc:subject xml:lang="en-US">online ciphers</dc:subject>
+	<dc:subject xml:lang="en-US">modes of operation</dc:subject>
+	<dc:subject xml:lang="en-US">provable security</dc:subject>
+	<dc:subject xml:lang="en-US">pseudorandom permutation</dc:subject>
+	<dc:subject xml:lang="en-US">tweakable blockcipher</dc:subject>
+	<dc:description xml:lang="en-US">CAESAR has caused a heated discussion regarding the merits of one-pass encryption and online ciphers. The latter is a keyed, length preserving function which outputs ciphertext blocks as soon as the respective plaintext block is available as input. The immediacy of an online cipher affords a clear performance advantage, but it comes at a price: ciphertext blocks cannot depend on later plaintext blocks, limiting diffusion and hence security. We show how one can attain the best of both worlds by providing provably secure constructions, achieving full cipher security, based on applications of an online cipher around blockwise reordering layers. Explicitly, we show that with just two calls to the online cipher, prp security up to the birthday bound is both attainable and maximal. Moreover, we demonstrate that three calls to the online cipher suffice to obtain beyond birthday bound security. We provide a full proof of this for a prp construction, and, in the ±prp setting, security against adversaries who make queries of any single length. As part of our investigation, we extend an observation by Rogaway and Zhang by further highlighting the close relationship between online ciphers and tweakable blockciphers with variable-length tweaks.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2017-06-19</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tosc.iacr.org/index.php/ToSC/article/view/640</dc:identifier>
+	<dc:identifier>10.13154/tosc.v2017.i2.105-142</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Symmetric Cryptology; Volume 2017, Issue 2; 105-142</dc:source>
+	<dc:source>2519-173X</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/640/608</dc:relation>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/640/7582</dc:relation>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/640/7499</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2017 Elena Andreeva, Guy Barwell, Ritam Bhaumik, Mridul Nandi, Dan Page, Martijn Stam</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0</dc:rights>
+</oai_dc:dc>

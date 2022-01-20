@@ -1,0 +1,27 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>8295</id>
+	<dc:title xml:lang="en-US">Exploring the Effect of Device Aging on Static Power Analysis Attacks</dc:title>
+	<dc:creator>Karimi, Naghmeh</dc:creator>
+	<dc:creator>Moos, Thorben</dc:creator>
+	<dc:creator>Moradi, Amir</dc:creator>
+	<dc:subject xml:lang="en-US">Leakage Current</dc:subject>
+	<dc:subject xml:lang="en-US">Static Leakage Analysis</dc:subject>
+	<dc:subject xml:lang="en-US">Side-Channel Analysis</dc:subject>
+	<dc:subject xml:lang="en-US">Device Aging</dc:subject>
+	<dc:description xml:lang="en-US">Vulnerability of cryptographic devices to side-channel analysis attacks, and in particular power analysis attacks has been extensively studied in the recent years. Among them, static power analysis attacks have become relevant with moving towards smaller technology nodes for which the static power is comparable to the dynamic power of a chip, or even dominant in future technology generations. The magnitude of the static power of a chip depends on the physical characteristics of transistors (e.g., the dimensions) as well as operating conditions (e.g., the temperature) and the electrical specifications such as the threshold voltage. In fact, the electrical specifications of transistors deviate from their originally intended ones during device lifetime due to aging mechanisms. Although device aging has been extensively investigated from reliability point of view, the impact of aging on the security of devices, and in particular on the vulnerability of devices to power analysis attacks are yet to be considered.This paper fills the gap and investigates how device aging can affect the susceptibility of a chip exposed to static power analysis attacks. To this end, we conduct both, simulation and practical experiments on real silicon. The experimental results are extracted from a realization of the PRESENT cipher fabricated using a 65nm commercial standard cell library. The results show that the amount of exploitable leakage through the static power consumption as a side channel is reduced when the device is aged. This can be considered as a positive development which can (even slightly) harden such static power analysis attacks. Additionally, this result is of great interest to static power side-channel adversaries since state-of-the-art leakage current measurements are conducted over long time periods under increased working temperatures and supply voltages to amplify the exploitable information, which certainly fuels aging-related device degradation.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2019-05-09</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tches.iacr.org/index.php/TCHES/article/view/8295</dc:identifier>
+	<dc:identifier>10.13154/tches.v2019.i3.233-256</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Cryptographic Hardware and Embedded Systems; Volume 2019, Issue 3; 233-256</dc:source>
+	<dc:source>2569-2925</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/8295/7645</dc:relation>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/8295/7873</dc:relation>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/8295/7874</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2019 Naghmeh Karimi, Thorben Moos, Amir Moradi</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0</dc:rights>
+</oai_dc:dc>

@@ -1,0 +1,26 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>8725</id>
+	<dc:title xml:lang="en-US">Compact Dilithium Implementations on Cortex-M3 and Cortex-M4</dc:title>
+	<dc:creator>Greconici, Denisa O. C. </dc:creator>
+	<dc:creator>Kannwischer, Matthias J. </dc:creator>
+	<dc:creator>Sprenkels, Daan</dc:creator>
+	<dc:subject xml:lang="en-US">Dilithium</dc:subject>
+	<dc:subject xml:lang="en-US">ARM Cortex-M4</dc:subject>
+	<dc:subject xml:lang="en-US">ARM Cortex-M3</dc:subject>
+	<dc:subject xml:lang="en-US">number theoric transform</dc:subject>
+	<dc:subject xml:lang="en-US">lattice-based cryptography</dc:subject>
+	<dc:description xml:lang="en-US">We present implementations of the lattice-based digital signature scheme Dilithium for ARM Cortex-M3 and ARM Cortex-M4. Dilithium is one of the three signature finalists of the NIST post-quantum cryptography competition. As our Cortex-M4 target, we use the popular STM32F407-DISCOVERY development board. Compared to the previous speed records on the Cortex-M4 by Ravi, Gupta, Chattopadhyay, and Bhasin we speed up the key operations NTT and NTT−1 by 20% which together with other optimizations results in speedups of 7%, 15%, and 9% for Dilithium3 key generation, signing, and verification respectively. We also present the first constant-time Dilithium implementation on the Cortex-M3 and use the Arduino Due for benchmarks. For Dilithium3, we achieve on average 2 562 kilocycles for key generation, 10 667 kilocycles for signing, and 2 321 kilocycles for verification.Additionally, we present stack consumption optimizations applying to both our Cortex- M3 and Cortex-M4 implementation. Due to the iterative nature of the Dilithium signing algorithm, there is no optimal way to achieve the best speed and lowest stack consumption at the same time. We present three different strategies for the signing procedure which allow trading more stack and flash memory for faster speed or viceversa. Our implementation of Dilithium3 with the smallest memory footprint uses less than 12kB. As an additional output of this work, we present the first Cortex-M3 implementations of the key-encapsulation schemes NewHope and Kyber.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2020-12-03</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tches.iacr.org/index.php/TCHES/article/view/8725</dc:identifier>
+	<dc:identifier>10.46586/tches.v2021.i1.1-24</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Cryptographic Hardware and Embedded Systems; Volume 2021, Issue 1; 1-24</dc:source>
+	<dc:source>2569-2925</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/8725/8325</dc:relation>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/8725/8599</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2020 Denisa O. C. Greconici, Matthias J. Kannwischer, Daan Sprenkels</dc:rights>
+	<dc:rights xml:lang="en-US">http://creativecommons.org/licenses/by/4.0/</dc:rights>
+</oai_dc:dc>

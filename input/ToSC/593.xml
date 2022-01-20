@@ -1,0 +1,30 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>593</id>
+	<dc:title xml:lang="en-US">SymSum: Symmetric-Sum Distinguishers Against Round Reduced SHA3</dc:title>
+	<dc:creator>Saha, Dhiman</dc:creator>
+	<dc:creator>Kuila, Sukhendu</dc:creator>
+	<dc:creator>Chowdhury, Dipanwita Roy</dc:creator>
+	<dc:subject xml:lang="en-US">distinguisher</dc:subject>
+	<dc:subject xml:lang="en-US">Keccak</dc:subject>
+	<dc:subject xml:lang="en-US">SHA3</dc:subject>
+	<dc:subject xml:lang="en-US">hash functions</dc:subject>
+	<dc:subject xml:lang="en-US">cryptanalysis</dc:subject>
+	<dc:subject xml:lang="en-US">zero-sums</dc:subject>
+	<dc:subject xml:lang="en-US">self-symmetry</dc:subject>
+	<dc:subject xml:lang="en-US">vectorial derivatives</dc:subject>
+	<dc:description xml:lang="en-US">In this work we show the existence of special sets of inputs for which the sum of the images under SHA3 exhibits a symmetric property. We develop an analytical framework which accounts for the existence of these sets. The framework constitutes identification of a generic property of iterated SPN based functions pertaining to the round-constant addition and combining it with the notion of m−fold vectorial derivatives for differentiation over specially selected subspaces. Based on this we propose a new distinguisher called SymSum for the SHA3 family which penetrates up to 9 rounds and outperforms the ZeroSum distinguisher by a factor of four. Interestingly, the current work is the first analysis of SHA3/Keccak that relies on round-constants but is independent of their Hamming-weights.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2017-03-08</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tosc.iacr.org/index.php/ToSC/article/view/593</dc:identifier>
+	<dc:identifier>10.13154/tosc.v2017.i1.240-258</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Symmetric Cryptology; Volume 2017, Issue 1; 240-258</dc:source>
+	<dc:source>2519-173X</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/593/534</dc:relation>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/593/7491</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2017 Dhiman Saha, Sukhendu Kuila, Dipanwita Roy Chowdhury</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0</dc:rights>
+</oai_dc:dc>

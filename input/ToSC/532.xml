@@ -1,0 +1,26 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>532</id>
+	<dc:title xml:lang="en-US">Chosen-Key Distinguishers on 12-Round Feistel-SP and 11-Round Collision Attacks on Its Hashing Modes</dc:title>
+	<dc:creator>Dong, Xiaoyang</dc:creator>
+	<dc:creator>Wang, Xiaoyun</dc:creator>
+	<dc:subject xml:lang="en-US">Block Cipher</dc:subject>
+	<dc:subject xml:lang="en-US">Feistel-SP</dc:subject>
+	<dc:subject xml:lang="en-US">Chosen-Key</dc:subject>
+	<dc:subject xml:lang="en-US">Rebound Attack</dc:subject>
+	<dc:subject xml:lang="en-US">Hash Mode</dc:subject>
+	<dc:description xml:lang="en-US">Since Knudsen and Rijmen proposed the known-key attacks in ASIACRYPT 2007, the open-key model becomes more and more popular. As the other component of the open-key model, chosen-key model was applied to the full attacks on AES-256 by Biryukov et al. in CRYPTO 2009. In this paper, we explore how practically the chosen-key model affect the real-world cryptography and show that 11-round generic Feistel-SP block cipher is no longer safe in its hashing modes (MMO and MP mode) as there exist collision attacks. This work improves Sasaki and Yasuda’s collision attacks by 2 rounds with two interesting techniques. First, we for the first time use the available degrees of freedom in the key to reduce the complexity of the inbound phase, which extends the previous 5-round inbound differential to a 7-round one. This results in a 12-round chosen-key distinguisher of Feistel-SP block cipher. Second, inspired by the idea of Wang et al., we construct collisions using two blocks. The rebound attack is used in the second compression function. We carefully balance the freedom of the first block and the complexity of the rebound attack, and extend the chosen-key attack to a 11-round collision attack on its hashing modes (MMO and MP mode).</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2016-12-01</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tosc.iacr.org/index.php/ToSC/article/view/532</dc:identifier>
+	<dc:identifier>10.13154/tosc.v2016.i1.13-32</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Symmetric Cryptology; Volume 2016, Issue 1; 13-32</dc:source>
+	<dc:source>2519-173X</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/532/476</dc:relation>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/532/7453</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2016 Xiaoyang Dong, Xiaoyun Wang</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0</dc:rights>
+</oai_dc:dc>

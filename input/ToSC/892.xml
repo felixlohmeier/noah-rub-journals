@@ -1,0 +1,32 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>892</id>
+	<dc:title xml:lang="en-US">Cryptanalysis of AES-PRF and Its Dual</dc:title>
+	<dc:creator>Derbez, Patrick</dc:creator>
+	<dc:creator>Iwata, Tetsu</dc:creator>
+	<dc:creator>Sun, Ling</dc:creator>
+	<dc:creator>Sun, Siwei</dc:creator>
+	<dc:creator>Todo, Yosuke</dc:creator>
+	<dc:creator>Wang, Haoyang</dc:creator>
+	<dc:creator>Wang, Meiqin</dc:creator>
+	<dc:subject xml:lang="en-US">AES-PRF</dc:subject>
+	<dc:subject xml:lang="en-US">Dual-AES-PRF</dc:subject>
+	<dc:subject xml:lang="en-US">Impossible differential</dc:subject>
+	<dc:subject xml:lang="en-US">Zero-correlation linear</dc:subject>
+	<dc:subject xml:lang="en-US">Meet-in-the-middle</dc:subject>
+	<dc:description xml:lang="en-US">A dedicated pseudorandom function (PRF) called AES-PRF was proposed by Mennink and Neves at FSE 2018 (ToSC 2017, Issue 3). AES-PRF is obtained from AES by using the output of the 5-th round as the feed-forward to the output state. This paper presents extensive security analysis of AES-PRF and its variants. Specifically, we consider unbalanced variants where the output of the s-th round is used as the feed-forward. We also analyze the security of “dual” constructions of the unbalanced variants, where the input state is used as the feed-forward to the output of the s-th round. We apply an impossible differential attack, zero-correlation linear attack, traditional differential attack, zero correlation linear distinguishing attack and a meet-in-the-middle attack on these PRFs and reduced round versions. We show that AES-PRF is broken whenever s ≤ 2 or s ≥ 6, or reduced to 7 rounds, and Dual-AES-PRF is broken whenever s ≤ 4 or s ≥ 8. Our results on AES-PRF improve the initial security evaluation by the designers in various ways, and our results on Dual-AES-PRF give the first insight to its security.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2018-06-07</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tosc.iacr.org/index.php/ToSC/article/view/892</dc:identifier>
+	<dc:identifier>10.13154/tosc.v2018.i2.161-191</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Symmetric Cryptology; Volume 2018, Issue 2; 161-191</dc:source>
+	<dc:source>2519-173X</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/892/843</dc:relation>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/892/7567</dc:relation>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/892/7737</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2018 Patrick Derbez, Tetsu Iwata, Ling Sun, Siwei Sun, Yosuke Todo, Haoyang Wang, Meiqin Wang</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0</dc:rights>
+</oai_dc:dc>

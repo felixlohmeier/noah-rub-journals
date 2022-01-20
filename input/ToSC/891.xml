@@ -1,0 +1,27 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>891</id>
+	<dc:title xml:lang="en-US">Mixture Differential Cryptanalysis: a New Approach to Distinguishers and Attacks on round-reduced AES</dc:title>
+	<dc:creator>Grassi, Lorenzo</dc:creator>
+	<dc:subject xml:lang="en-US">AES</dc:subject>
+	<dc:subject xml:lang="en-US">Secret-Key Distinguisher</dc:subject>
+	<dc:subject xml:lang="en-US">Key-Recovery Attack</dc:subject>
+	<dc:subject xml:lang="en-US">Mixture Differential Cryptanalysis</dc:subject>
+	<dc:subject xml:lang="en-US">Truncated Differential</dc:subject>
+	<dc:subject xml:lang="en-US">Subspace Trail Cryptanalysis</dc:subject>
+	<dc:description xml:lang="en-US">At Eurocrypt 2017 the first secret-key distinguisher for 5-round AES - based on the “multiple-of-8” property - has been presented. Although it allows to distinguish a random permutation from an AES-like one, it seems rather hard to implement a key-recovery attack different than brute-force like using such a distinguisher. In this paper we introduce “Mixture Differential Cryptanalysis” on round-reduced AESlike ciphers, a way to translate the (complex) “multiple-of-8” 5-round distinguisher into a simpler and more convenient one (though, on a smaller number of rounds). Given a pair of chosen plaintexts, the idea is to construct new pairs of plaintexts by mixing the generating variables of the original pair of plaintexts. Here we theoretically prove that for 4-round AES the corresponding ciphertexts of the original pair of plaintexts lie in a particular subspace if and only if the corresponding pairs of ciphertexts of the new pairs of plaintexts have the same property. Such secret-key distinguisher - which is independent of the secret-key, of the details of the S-Box and of the MixColumns matrix (except for the branch number equal to 5) - can be used as starting point to set up new key-recovery attacks on round-reduced AES. Besides a theoretical explanation, we also provide a practical verification both of the distinguisher and of the attack.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2018-06-07</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tosc.iacr.org/index.php/ToSC/article/view/891</dc:identifier>
+	<dc:identifier>10.13154/tosc.v2018.i2.133-160</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Symmetric Cryptology; Volume 2018, Issue 2; 133-160</dc:source>
+	<dc:source>2519-173X</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/891/842</dc:relation>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/891/7566</dc:relation>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/891/7741</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2018 Lorenzo Grassi</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0</dc:rights>
+</oai_dc:dc>

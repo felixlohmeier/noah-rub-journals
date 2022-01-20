@@ -1,0 +1,27 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>8968</id>
+	<dc:title xml:lang="en-US">Efficiency through Diversity in Ensemble Models applied to Side-Channel Attacks: – A Case Study on Public-Key Algorithms –</dc:title>
+	<dc:creator>Zaid, Gabriel</dc:creator>
+	<dc:creator>Bossuet, Lilian</dc:creator>
+	<dc:creator>Habrard, Amaury</dc:creator>
+	<dc:creator>Venelli, Alexandre</dc:creator>
+	<dc:subject xml:lang="en-US">Side-Channel Attacks</dc:subject>
+	<dc:subject xml:lang="en-US">Deep Learning</dc:subject>
+	<dc:subject xml:lang="en-US">Ensemble Learning</dc:subject>
+	<dc:subject xml:lang="en-US">Diversity</dc:subject>
+	<dc:subject xml:lang="en-US">Mutual Information</dc:subject>
+	<dc:subject xml:lang="en-US">Public-Key Algorithms</dc:subject>
+	<dc:description xml:lang="en-US">Deep Learning based Side-Channel Attacks (DL-SCA) are considered as fundamental threats against secure cryptographic implementations. Side-channel attacks aim to recover a secret key using the least number of leakage traces. In DL-SCA, this often translates in having a model with the highest possible accuracy. Increasing an attack’s accuracy is particularly important when an attacker targets public-key cryptographic implementations where the recovery of each secret key bits is directly related to the model’s accuracy. Commonly used in the deep learning field, ensemble models are a well suited method that combine the predictions of multiple models to increase the ensemble accuracy by reducing the correlation between their errors. Linked to this correlation, the diversity is considered as an indicator of the ensemble model performance. In this paper, we propose a new loss, namely Ensembling Loss (EL), that generates an ensemble model which increases the diversity between the members. Based on the mutual information between the ensemble model and its related label, we theoretically demonstrate how the ensemble members interact during the training process. We also study how an attack’s accuracy gain translates to a drastic reduction of the remaining time complexity of a side-channel attacks through multiple scenarios on public-key implementations. Finally, we experimentally evaluate the benefits of our new learning metric on RSA and ECC secure implementations. The Ensembling Loss increases by up to 6.8% the performance of the ensemble model while the remaining brute-force is reduced by up to 222 operations depending on the attack scenario.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2021-07-09</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tches.iacr.org/index.php/TCHES/article/view/8968</dc:identifier>
+	<dc:identifier>10.46586/tches.v2021.i3.60-96</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Cryptographic Hardware and Embedded Systems; Volume 2021, Issue 3; 60-96</dc:source>
+	<dc:source>2569-2925</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/8968/8546</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2021 Gabriel Zaid, Lilian Bossuet, Amaury Habrard, Alexandre Venelli</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0/</dc:rights>
+</oai_dc:dc>

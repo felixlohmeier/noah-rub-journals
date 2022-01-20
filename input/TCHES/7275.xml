@@ -1,0 +1,29 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>7275</id>
+	<dc:title xml:lang="en-US">Saber on ARM: CCA-secure module lattice-based key encapsulation on ARM</dc:title>
+	<dc:creator>Karmakar, Angshuman</dc:creator>
+	<dc:creator>Bermudo Mera, Jose Maria</dc:creator>
+	<dc:creator>Sinha Roy, Sujoy</dc:creator>
+	<dc:creator>Verbauwhede, Ingrid</dc:creator>
+	<dc:subject xml:lang="en-US">Key encapsulation scheme</dc:subject>
+	<dc:subject xml:lang="en-US">post-quantum cryptography</dc:subject>
+	<dc:subject xml:lang="en-US">lattice-based cryptography</dc:subject>
+	<dc:subject xml:lang="en-US">efficient software</dc:subject>
+	<dc:subject xml:lang="en-US">Saber</dc:subject>
+	<dc:description xml:lang="en-US">The CCA-secure lattice-based post-quantum key encapsulation scheme Saber is a candidate in the NIST’s post-quantum cryptography standardization process. In this paper, we study the implementation aspects of Saber in resourceconstrained microcontrollers from the ARM Cortex-M series which are very popular for realizing IoT applications. In this work, we carefully optimize various parts of Saber for speed and memory. We exploit digital signal processing instructions and efficient memory access for a fast implementation of polynomial multiplication. We also use memory efficient Karatsuba and just-in-time strategy for generating the public matrix of the module lattice to reduce the memory footprint. We also show that our optimizations can be combined with each other seamlessly to provide various speed-memory trade-offs. Our speed optimized software takes just 1,147K, 1,444K, and 1,543K clock cycles on a Cortex-M4 platform for key generation, encapsulation and decapsulation respectively. Our memory efficient software takes 4,786K, 6,328K, and 7,509K clock cycles on an ultra resource-constrained Cortex-M0 platform for key generation, encapsulation, and decapsulation respectively while consuming only 6.2 KB of memory at most. These results show that lattice-based key encapsulation schemes are perfectly practical for securing IoT devices from quantum computing attacks.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2018-08-14</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tches.iacr.org/index.php/TCHES/article/view/7275</dc:identifier>
+	<dc:identifier>10.13154/tches.v2018.i3.243-266</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Cryptographic Hardware and Embedded Systems; Volume 2018, Issue 3; 243-266</dc:source>
+	<dc:source>2569-2925</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/7275/6453</dc:relation>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/7275/7940</dc:relation>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/7275/7941</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2018 Angshuman Karmakar, Jose Maria Bermudo Mera, Sujoy Sinha Roy, Ingrid Verbauwhede</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0</dc:rights>
+</oai_dc:dc>

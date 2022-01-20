@@ -1,0 +1,28 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>594</id>
+	<dc:title xml:lang="en-US">Cube-like Attack on Round-Reduced Initialization of Ketje Sr</dc:title>
+	<dc:creator>Dong, Xiaoyang</dc:creator>
+	<dc:creator>Li, Zheng</dc:creator>
+	<dc:creator>Wang, Xiaoyun</dc:creator>
+	<dc:creator>Qin, Ling</dc:creator>
+	<dc:subject xml:lang="en-US">Ketje</dc:subject>
+	<dc:subject xml:lang="en-US">CAESAR</dc:subject>
+	<dc:subject xml:lang="en-US">Cube-like</dc:subject>
+	<dc:subject xml:lang="en-US">Linear Structure</dc:subject>
+	<dc:subject xml:lang="en-US">Authenticated Encryption</dc:subject>
+	<dc:description xml:lang="en-US">This paper studies the Keccak-based authenticated encryption (AE) scheme Ketje Sr against cube-like attacks. Ketje is one of the remaining 16 candidates of third round CAESAR competition, whose primary recommendation is Ketje Sr. Although the cube-like method has been successfully applied to Ketje’s sister ciphers, including Keccak-MAC and Keyak – another Keccak-based AE scheme, similar attacks are missing for Ketje. For Ketje Sr, the state (400-bit) is much smaller than Keccak-MAC and Keyak (1600-bit), thus the 128-bit key and cubes with the same dimension would occupy more lanes in Ketje Sr. Hence, the number of key bits independent of the cube sum is very small, which makes the divide-and-conquer method (it has been applied to 7-round attack on Keccak-MAC by Dinur et al.) can not be translated to Ketje Sr trivially. This property seems to be the barrier for the translation of the previous cube-like attacks to Ketje Sr. In this paper, we evaluate Ketje Sr against the divide-and-conquer method. Firstly, by applying the linear structure technique, we find some 32/64-dimension cubes of Ketje Sr that do not multiply with each other as well as some bits of the key in the first round. In addition, we introduce the new dynamic variable instead of the auxiliary variable (it was used in Dinur et al.’s divide-and-conquer attack to reduce the diffusion of the key) to reduce the diffusion of the key as well as the cube variables. Finally, we successfully launch a 6/7-round1 key recovery attack on Ketje Sr v1 and v2 (v2 is presented for the 3rd round CAESAR competition.). In 7-round attack, the complexity of online phase for Ketje Sr v1 is 2113, while for Ketje Sr v2, it is 297 (the preprocessing complexity is the same). We claim 7-round reduced Ketje Sr v2 is weaker than v1 against our attacks. In addition, some results on other Ketje instances and Ketje Sr with smaller nonce are given. Those are the first results on Ketje and bridge the gaps of cryptanalysis between its sister ciphers – Keyak and the Keccak keyed modes.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2017-03-08</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tosc.iacr.org/index.php/ToSC/article/view/594</dc:identifier>
+	<dc:identifier>10.13154/tosc.v2017.i1.259-280</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Symmetric Cryptology; Volume 2017, Issue 1; 259-280</dc:source>
+	<dc:source>2519-173X</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/594/535</dc:relation>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/594/7493</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2017 Xiaoyang Dong, Zheng Li, Xiaoyun Wang, Ling Qin</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0</dc:rights>
+</oai_dc:dc>

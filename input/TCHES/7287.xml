@@ -1,0 +1,28 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>7287</id>
+	<dc:title xml:lang="en-US">Key Extraction Using Thermal Laser Stimulation: A Case Study on Xilinx Ultrascale FPGAs</dc:title>
+	<dc:creator>Lohrke, Heiko</dc:creator>
+	<dc:creator>Tajik, Shahin</dc:creator>
+	<dc:creator>Krachenfels, Thilo</dc:creator>
+	<dc:creator>Boit, Christian</dc:creator>
+	<dc:creator>Seifert, Jean-Pierre</dc:creator>
+	<dc:subject xml:lang="en-US">Bitstream Encryption</dc:subject>
+	<dc:subject xml:lang="en-US">FPGA Security</dc:subject>
+	<dc:subject xml:lang="en-US">Thermal Laser Stimulation</dc:subject>
+	<dc:description xml:lang="en-US">Thermal laser stimulation (TLS) is a failure analysis technique, which can be deployed by an adversary to localize and read out stored secrets in the SRAM of a chip. To this date, a few proof-of-concept experiments based on TLS or similar approaches have been reported in the literature, which do not reflect a real attack scenario. Therefore, it is still questionable whether this attack technique is applicable to modern ICs equipped with side-channel countermeasures. The primary aim of this work is to assess the feasibility of launching a TLS attack against a device with robust security features. To this end, we select a modern FPGA, and more specifically, its key memory, the so-called battery-backed SRAM (BBRAM), as a target. We demonstrate that an attacker is able to extract the stored 256-bit AES key used for the decryption of the FPGA’s bitstream, by conducting just a single non-invasive measurement. Moreover, it becomes evident that conventional countermeasures are incapable of preventing our attack since the FPGA is turned off during key recovery. Based on our time measurements, the required effort to develop the attack is shown to be less than 7 hours. To avert this powerful attack, we propose a low-cost and CMOS compatible countermeasure circuit, which is capable of protecting the BBRAM from TLS attempts even when the FPGA is powered off. Using a proof-of-concept prototype of our countermeasure, we demonstrate its effectiveness against TLS key extraction attempts.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2018-08-16</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tches.iacr.org/index.php/TCHES/article/view/7287</dc:identifier>
+	<dc:identifier>10.13154/tches.v2018.i3.573-595</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Cryptographic Hardware and Embedded Systems; Volume 2018, Issue 3; 573-595</dc:source>
+	<dc:source>2569-2925</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/7287/6464</dc:relation>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/7287/7962</dc:relation>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/7287/7963</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2018 Heiko Lohrke, Shahin Tajik, Thilo Krachenfels, Christian Boit, Jean-Pierre Seifert</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0</dc:rights>
+</oai_dc:dc>

@@ -1,0 +1,25 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>8570</id>
+	<dc:title xml:lang="en-US">Finding Bit-Based Division Property for Ciphers with Complex Linear Layers</dc:title>
+	<dc:creator>Hu, Kai</dc:creator>
+	<dc:creator>Wang, Qingju</dc:creator>
+	<dc:creator>Wang, Meiqin</dc:creator>
+	<dc:subject xml:lang="en-US">Complex linear layer</dc:subject>
+	<dc:subject xml:lang="en-US">Non-binary matrix</dc:subject>
+	<dc:subject xml:lang="en-US">Bit-based division property</dc:subject>
+	<dc:subject xml:lang="en-US">SMT/SAT</dc:subject>
+	<dc:subject xml:lang="en-US">Invertible</dc:subject>
+	<dc:description xml:lang="en-US">The bit-based division property (BDP) is the most effective technique for finding integral characteristics of symmetric ciphers. Recently, automatic search tools have become one of the most popular approaches to evaluating the security of designs against many attacks. Constraint-aided automatic tools for the BDP have been applied to many ciphers with simple linear layers like bit-permutation. Constructing models of complex linear layers accurately and efficiently remains hard. A straightforward method proposed by Sun et al. (called the S method), decomposes a complex linear layer into basic operations like COPY and XOR, then models them one by one. However, this method can easily insert invalid division trails into the solution pool, which results in a quicker loss of the balanced property than the cipher itself would. In order to solve this problem, Zhang and Rijmen propose the ZR method to link every valid trail with an invertible sub-matrix of the matrix corresponding to the linear layer, and then generate linear inequalities to represent all the invertible sub-matrices. Unfortunately, the ZR method is only applicable to invertible binary matrices (defined in Definition 3).To avoid generating a huge number of inequalities for all the sub-matrices, we build a new model that only includes that the sub-matrix corresponding to a valid trail should be invertible. The computing scale of our model can be tackled by most of SMT/SAT solvers, which makes our method practical. For applications, we improve the previous BDP for LED and MISTY1. We also give the 7-round BDP results for Camellia with FL/FL−1, which is the longest to date.Furthermore, we remove the restriction of the ZR method that the matrix has to be invertible, which provides more choices for future designs. Thanks to this, we also reproduce 5-round key-dependent integral distinguishers proposed at Crypto 2016 which cannot be obtained by either the S or ZR methods.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2020-05-07</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tosc.iacr.org/index.php/ToSC/article/view/8570</dc:identifier>
+	<dc:identifier>10.13154/tosc.v2020.i1.396-424</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Symmetric Cryptology; Volume 2020, Issue 1; 396-424</dc:source>
+	<dc:source>2519-173X</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/8570/8141</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2020 Kai Hu, Qingju Wang, Meiqin Wang</dc:rights>
+	<dc:rights xml:lang="en-US">http://creativecommons.org/licenses/by/4.0/</dc:rights>
+</oai_dc:dc>

@@ -1,0 +1,29 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>8551</id>
+	<dc:title xml:lang="en-US">A Compact and Scalable Hardware/Software Co-design of SIKE</dc:title>
+	<dc:creator>Massolino, Pedro Maat C.</dc:creator>
+	<dc:creator>Longa, Patrick</dc:creator>
+	<dc:creator>Renes, Joost</dc:creator>
+	<dc:creator>Batina, Lejla</dc:creator>
+	<dc:subject xml:lang="en-US">Post-quantum cryptography</dc:subject>
+	<dc:subject xml:lang="en-US">supersingular isogenies</dc:subject>
+	<dc:subject xml:lang="en-US">SIDH</dc:subject>
+	<dc:subject xml:lang="en-US">SIKE</dc:subject>
+	<dc:subject xml:lang="en-US">hardware/software co-design</dc:subject>
+	<dc:subject xml:lang="en-US">FPGA</dc:subject>
+	<dc:subject xml:lang="en-US">constant-time</dc:subject>
+	<dc:subject xml:lang="en-US">embedded applications</dc:subject>
+	<dc:description xml:lang="en-US">We present efficient and compact hardware/software co-design implementations of the Supersingular Isogeny Key Encapsulation (SIKE) protocol on field-programmable gate arrays (FPGAs). In order to be better equipped for different post-quantum scenarios, our architectures were designed to feature high-flexibility by covering all the currently available parameter sets and with support for primes up to 1016 bits. In particular, any of the current SIKE parameters equivalent to the post-quantum security of AES-128/192/256 and SHA3-256 can be selected and run on-the-fly. This security scalability property, together with the small footprint and efficiency of our architectures, makes them ideal for embedded applications in a post-quantum world. In addition, the proposed implementations exhibit regular, constant-time execution, which provides protection against timing and simple sidechannel attacks. Our results demonstrate that supersingular isogeny-based primitives such as SIDH and SIKE can indeed be deployed for embedded applications featuring competitive performance. For example, our smallest architecture based on a 128-bit MAC unit takes only 3415 slices, 21 BRAMs and 57 DSPs on a Virtex 7 690T and can perform key generation, encapsulation and decapsulation in 14.4, 24.4 and 26.0 milliseconds for SIKEp434 and in 52.3, 86.4 and 93.2 milliseconds for SIKEp751, respectively.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2020-03-02</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tches.iacr.org/index.php/TCHES/article/view/8551</dc:identifier>
+	<dc:identifier>10.13154/tches.v2020.i2.245-271</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Cryptographic Hardware and Embedded Systems; Volume 2020, Issue 2; 245-271</dc:source>
+	<dc:source>2569-2925</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/8551/8116</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2020 Pedro Maat C. Massolino, Patrick Longa, Joost Renes, Lejla Batina</dc:rights>
+	<dc:rights xml:lang="en-US">http://creativecommons.org/licenses/by/4.0/</dc:rights>
+</oai_dc:dc>

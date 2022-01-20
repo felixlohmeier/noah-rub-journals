@@ -1,0 +1,27 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>8626</id>
+	<dc:title xml:lang="en-US">From Combined to Hybrid: Making Feedback-based AE even Smaller</dc:title>
+	<dc:creator>Chakraborti, Avik</dc:creator>
+	<dc:creator>Datta, Nilanjan</dc:creator>
+	<dc:creator>Jha, Ashwin</dc:creator>
+	<dc:creator>Mitragotri, Snehal</dc:creator>
+	<dc:creator>Nandi, Mridul</dc:creator>
+	<dc:subject xml:lang="en-US">COFB</dc:subject>
+	<dc:subject xml:lang="en-US">feedback functions</dc:subject>
+	<dc:subject xml:lang="en-US">authenticated encryption</dc:subject>
+	<dc:subject xml:lang="en-US">lightweight</dc:subject>
+	<dc:subject xml:lang="en-US">lower bound</dc:subject>
+	<dc:description xml:lang="en-US">In CHES 2017, Chakraborti et al. proposed COFB, a rate-1 sequential block cipher-based authenticated encryption (AE) with only 1.5n-bit state, where n denotes the block size. They used a novel approach, the so-called combined feedback, where each block cipher input has a combined effect of the previous block cipher output and the current plaintext block. In this paper, we first study the security of a general rate-1 feedback-based AE scheme in terms of its overall internal state size. For a large class of feedback functions, we show that the overlying AE scheme can be attacked in 2r queries if the internal state size is n + r bits for some r ≥ 0. This automatically shows that a birthday bound (i.e. 2n/2 queries) secure AE scheme must have at least 1.5n-bit state, whence COFB is almost-optimal (use 1.5n-bit state and provides security up to 2n/2/n queries). We propose a new feedback function, called the hybrid feedback or HyFB, which is a hybrid composition of plaintext and ciphertext feedbacks. HyFB has a key advantage of lower XOR counts over the combined feedback function. This essentially helps in reducing the hardware footprint. Based on HyFB we propose a new AE scheme, called HyENA, that achieves the state size, rate, and security of COFB. In addition, HyENA has significantly lower XOR counts as compared to COFB, whence it is expected to have a smaller implementation as compared to COFB.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2020-06-22</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tosc.iacr.org/index.php/ToSC/article/view/8626</dc:identifier>
+	<dc:identifier>10.13154/tosc.v2020.iS1.417-445</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Symmetric Cryptology; Volume 2020, Special Issue 1 ; 417-445</dc:source>
+	<dc:source>2519-173X</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/8626/8192</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2020 Avik Chakraborti, Nilanjan Datta, Ashwin Jha, Snehal Mitragotri, Mridul Nandi</dc:rights>
+	<dc:rights xml:lang="en-US">http://creativecommons.org/licenses/by/4.0/</dc:rights>
+</oai_dc:dc>

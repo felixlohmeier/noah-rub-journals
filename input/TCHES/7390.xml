@@ -1,0 +1,27 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>7390</id>
+	<dc:title xml:lang="en-US">Shaping the Glitch: Optimizing Voltage Fault Injection Attacks</dc:title>
+	<dc:creator>Bozzato, Claudio</dc:creator>
+	<dc:creator>Focardi, Riccardo</dc:creator>
+	<dc:creator>Palmarini, Francesco</dc:creator>
+	<dc:subject xml:lang="en-US">Embedded system security</dc:subject>
+	<dc:subject xml:lang="en-US">Fault attacks</dc:subject>
+	<dc:subject xml:lang="en-US">Firmware extraction</dc:subject>
+	<dc:subject xml:lang="en-US">Microcontrollers</dc:subject>
+	<dc:description xml:lang="en-US">Voltage fault injection is a powerful active side channel attack that modifies the execution-flow of a device by creating disturbances on the power supply line. The attack typically aims at skipping security checks or generating side-channels that gradually leak sensitive data, including the firmware code. In this paper we propose a new voltage fault injection technique that generates fully arbitrary voltage glitch waveforms using off-the-shelf and low cost equipment. To show the effectiveness of our setup, we present new, unpublished firmware extraction attacks on six microcontrollers from three major manufacturers: STMicroelectronics, Texas Instruments and Renesas Electronics that, in 2016 declared a market of $1.5 billion, $800 million and $2.5 billion on units sold, respectively. Among the presented attacks, the most challenging ones exploit multiple vulnerabilities and inject over one million glitches, heavily leveraging on the performance and repeatability of the new proposed technique. We perform a thorough evaluation of arbitrary glitch waveforms by comparing the attack performance against two other major V-FI techniques in the literature. Along a responsible disclosure policy, all the vulnerabilities have been timely reported to the manufacturers.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2019-02-28</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tches.iacr.org/index.php/TCHES/article/view/7390</dc:identifier>
+	<dc:identifier>10.13154/tches.v2019.i2.199-224</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Cryptographic Hardware and Embedded Systems; Volume 2019, Issue 2; 199-224</dc:source>
+	<dc:source>2569-2925</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/7390/6562</dc:relation>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/7390/7893</dc:relation>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/7390/7894</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2019 Claudio Bozzato, Riccardo Focardi, Francesco Palmarini</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0</dc:rights>
+</oai_dc:dc>

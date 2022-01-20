@@ -1,0 +1,29 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>9066</id>
+	<dc:title xml:lang="en-US">Side-Channel Protections for Picnic Signatures</dc:title>
+	<dc:creator>Aranha, Diego F.</dc:creator>
+	<dc:creator>Berndt, Sebastian</dc:creator>
+	<dc:creator>Eisenbarth, Thomas</dc:creator>
+	<dc:creator>Seker, Okan</dc:creator>
+	<dc:creator>Takahashi, Akira</dc:creator>
+	<dc:creator>Wilke, Luca</dc:creator>
+	<dc:creator>Zaverucha, Greg</dc:creator>
+	<dc:subject xml:lang="en-US">side-channel attacks</dc:subject>
+	<dc:subject xml:lang="en-US">masking</dc:subject>
+	<dc:subject xml:lang="en-US">MPC-in-the-head</dc:subject>
+	<dc:subject xml:lang="en-US">Picnic signatures</dc:subject>
+	<dc:description xml:lang="en-US">We study masking countermeasures for side-channel attacks against signature schemes constructed from the MPC-in-the-head paradigm, specifically when the MPC protocol uses preprocessing. This class of signature schemes includes Picnic, an alternate candidate in the third round of the NIST post-quantum standardization project. The only previously known approach to masking MPC-in-the-head signatures suffers from interoperability issues and increased signature sizes. Further, we present a new attack to demonstrate that known countermeasures are not sufficient when the MPC protocol uses a preprocessing phase, as in Picnic3.We overcome these challenges by showing how to mask the underlying zero-knowledge proof system due to Katz–Kolesnikov–Wang (CCS 2018) for any masking order, and by formally proving that our approach meets the standard security notions of non-interference for masking countermeasures. As a case study, we apply our masking technique to Picnic. We then implement different masked versions of Picnic signing providing first order protection for the ARM Cortex M4 platform, and quantify the overhead of these different masking approaches. We carefully analyze the side-channel risk of hashing operations, and give optimizations that reduce the CPU cost of protecting hashing in Picnic by a factor of five. The performance penalties of the masking countermeasures ranged from 1.8 to 5.5, depending on the degree of masking applied to hash function invocations.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2021-08-11</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tches.iacr.org/index.php/TCHES/article/view/9066</dc:identifier>
+	<dc:identifier>10.46586/tches.v2021.i4.239-282</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Cryptographic Hardware and Embedded Systems; Volume 2021, Issue 4; 239-282</dc:source>
+	<dc:source>2569-2925</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/9066/8667</dc:relation>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/9066/8706</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2021 Diego F. Aranha1, Sebastian Berndt2, Thomas Eisenbarth, Okan Seker, Akira Takahashi, Luca Wilke, Greg Zaverucha</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0/</dc:rights>
+</oai_dc:dc>

@@ -1,0 +1,29 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>7361</id>
+	<dc:title xml:lang="en-US">Generalized Nonlinear Invariant Attack and a New Design Criterion for Round Constants</dc:title>
+	<dc:creator>Wei, Yongzhuang</dc:creator>
+	<dc:creator>Ye, Tao</dc:creator>
+	<dc:creator>Wu, Wenling</dc:creator>
+	<dc:creator>Pasalic, Enes</dc:creator>
+	<dc:subject xml:lang="en-US">Block cipher</dc:subject>
+	<dc:subject xml:lang="en-US">Nonlinear invariant attack</dc:subject>
+	<dc:subject xml:lang="en-US">Boolean function</dc:subject>
+	<dc:subject xml:lang="en-US">iSCREAM</dc:subject>
+	<dc:subject xml:lang="en-US">Round constants</dc:subject>
+	<dc:description xml:lang="en-US">The nonlinear invariant attack was introduced at ASIACRYPT 2016 by Todo et al.. The attack has received extensive attention of cryptographic community due to its practical application on the full-round block ciphers SCREAM, iSCREAM, and Midori64. However, the attack heavily relies on the choice of round constants and it becomes inefficient in the case these constants nonlinearly affect the so-called nonlinear invariants. In this article, to eliminate the impact from the round constants, a generalized nonlinear invariant attack which uses a pair of constants in the input of nonlinear invariants is proposed. The efficiency of this extended framework is practically confirmed by mounting a distinguishing attack on a variant of full-round iSCREAM cipher under a class of 280 weak keys. The considered variant of iSCREAM is however resistant against nonlinear invariant attack of Todo et al.. Furthermore, we investigate the resistance of block ciphers against generalized nonlinear invariant attacks with respect to the choice of round constants in an extended framework. We introduce a useful concept of closed-loop invariants of the substitution box (S-box) and show that the choice of robust round constants is closely related to the existence of linear structure of the closed-loop invariants of the substitution layer. In particular, we demonstrate that the design criteria for the round constants in Beierle et al.’s work at CRYPTO 2017 is not an optimal strategy. The round constants selected using this method may induce certain weaknesses that can be exploited in our generalized nonlinear invariant attack model. This scenario is efficiently demonstrated in the case of a slightly modified variant of the Midori64 block cipher.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2018-12-13</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tosc.iacr.org/index.php/ToSC/article/view/7361</dc:identifier>
+	<dc:identifier>10.13154/tosc.v2018.i4.62-79</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Symmetric Cryptology; Volume 2018, Issue 4; 62-79</dc:source>
+	<dc:source>2519-173X</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/7361/6531</dc:relation>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/7361/7546</dc:relation>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/7361/7755</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2018 Yongzhuang Wei, Tao Ye, Wenling Wu, Enes Pasalic</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0</dc:rights>
+</oai_dc:dc>

@@ -1,0 +1,29 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>8985</id>
+	<dc:title xml:lang="en-US">Inconsistency of Simulation and Practice in Delay-based Strong PUFs</dc:title>
+	<dc:creator>Aghaie, Anita</dc:creator>
+	<dc:creator>Moradi, Amir</dc:creator>
+	<dc:subject xml:lang="en-US">Physical Unclonable Function</dc:subject>
+	<dc:subject xml:lang="en-US">Interpose PUF</dc:subject>
+	<dc:subject xml:lang="en-US">Splitting iPUF Attack</dc:subject>
+	<dc:subject xml:lang="en-US">LR Attack</dc:subject>
+	<dc:subject xml:lang="en-US">ANN</dc:subject>
+	<dc:subject xml:lang="en-US">Uniformity</dc:subject>
+	<dc:subject xml:lang="en-US">Bias</dc:subject>
+	<dc:subject xml:lang="en-US">Uniqueness</dc:subject>
+	<dc:subject xml:lang="en-US">FPGA</dc:subject>
+	<dc:subject xml:lang="en-US">Hardware Implementation</dc:subject>
+	<dc:description xml:lang="en-US">The developments in the areas of strong Physical Unclonable Functions (PUFs) predicate an ongoing struggle between designers and attackers. Such a combat motivated the atmosphere of open research, hence enhancing PUF designs in the presence of Machine Learning (ML) attacks. As an example of this controversy, at CHES 2019, a novel delay-based PUF (iPUF) has been introduced and claimed to be resistant against various ML and reliability attacks. At CHES 2020, a new divide-and-conquer modeling attack (splitting iPUF) has been presented showing the vulnerability of even large iPUF variants.Such attacks and analyses are naturally examined purely in the simulation domain, where some metrics like uniformity are assumed to be ideal. This assumption is motivated by a common belief that implementation defects (such as bias) may ease the attacks. In this paper, we highlight the critical role of uniformity in the success of ML attacks, and for the first time present a case where the bias originating from implementation defects hardens certain learning problems in complex PUF architectures. We present the result of our investigations conducted on a cluster of 100 Xilinx Artix 7 FPGAs, showing the incapability of the splitting iPUF attack to model even small iPUF instances when facing a slight non-uniformity. In fact, our findings imply that non-ideal conditions due to implementation defects should also be considered when developing an attack vector on complex PUF architectures like iPUF. On the other hand, we observe a relatively low uniqueness even when following the suggestions made by the iPUF’s original authors with respect to the FPGA implementations, which indeed questions the promised physical unclonability.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2021-07-09</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tches.iacr.org/index.php/TCHES/article/view/8985</dc:identifier>
+	<dc:identifier>10.46586/tches.v2021.i3.520-551</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Cryptographic Hardware and Embedded Systems; Volume 2021, Issue 3; 520-551</dc:source>
+	<dc:source>2569-2925</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/8985/8562</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2021 Anita Aghaie, Amir Moradi</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0/</dc:rights>
+</oai_dc:dc>

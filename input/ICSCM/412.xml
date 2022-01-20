@@ -1,0 +1,25 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>412</id>
+	<dc:title xml:lang="en-US">Indentation and scratch testing – experiment and simulation</dc:title>
+	<dc:creator>Pöhl, F.</dc:creator>
+	<dc:creator>Schwarz, S.</dc:creator>
+	<dc:creator>Junker, P.</dc:creator>
+	<dc:creator>Hackl, K.</dc:creator>
+	<dc:creator>Theisen, W.</dc:creator>
+	<dc:subject xml:lang="en-US">Indentation</dc:subject>
+	<dc:subject xml:lang="en-US">scratch testing</dc:subject>
+	<dc:subject xml:lang="en-US">deformation behavior</dc:subject>
+	<dc:subject xml:lang="en-US">FEM</dc:subject>
+	<dc:subject xml:lang="en-US">hard phase</dc:subject>
+	<dc:description xml:lang="en-US">Most modern wear resistant materials feature a multiphase microstructure and the macroscopicwear behavior is controlled by the local mechanical properties of the single phases. Indentationtesting and in particular nanoindentation allows for the local mechanical characterization ofmaterials and their phases. This paper addresses the determination of important mechanicalparameters such as hardness, Young’s modulus and indentation energy parameters of singlephases in multiphase wear resistant materials. Important influencing factors such as matrixinfluence on the indentation results of an embedded hard phase, the indentation-size-effect (ISE),the effect of crystallographic orientation, and the fracturing behavior of hard phases are addressed.In addition, the results of scratch tests on the cold work tool steel X210Cr12 and a WC-Co hardmetal are presented in order to investigate aspects of the mechanical behavior under abrasion.The deformation behavior under indentation and scratch loading was analyzed by scanningelectron microscopy (SEM) and atomic force microscopy (AFM). Besides the experimentssupplementary numerical simulations of indentation and scratching testing with the use of theFinite-Element-Method (FEM) are presented.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2015-11-25</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://icscm.ub.rub.de/index.php/ICSCM/article/view/412</dc:identifier>
+	<dc:identifier>10.13154/icscm.3.2015.292-308</dc:identifier>
+	<dc:source xml:lang="en-US">International Conference on Stone and Concrete Machining (ICSCM); Vol. 3 (2015); 292-308</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://icscm.ub.rub.de/index.php/ICSCM/article/view/412/368</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2015 F. Pöhl, S. Schwarz, P. Junker, K. Hackl, W. Theisen</dc:rights>
+</oai_dc:dc>

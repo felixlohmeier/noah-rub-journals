@@ -1,0 +1,32 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>850</id>
+	<dc:title xml:lang="en-US">Functional Graphs and Their Applications in Generic Attacks on Iterated Hash Constructions</dc:title>
+	<dc:creator>Bao, Zhenzhen</dc:creator>
+	<dc:creator>Guo, Jian</dc:creator>
+	<dc:creator>Wang, Lei</dc:creator>
+	<dc:subject xml:lang="en-US">Functional graph</dc:subject>
+	<dc:subject xml:lang="en-US">hash-based MAC</dc:subject>
+	<dc:subject xml:lang="en-US">Hash combiner</dc:subject>
+	<dc:subject xml:lang="en-US">Cycle</dc:subject>
+	<dc:subject xml:lang="en-US">Deep-iterate image</dc:subject>
+	<dc:subject xml:lang="en-US">Collision</dc:subject>
+	<dc:subject xml:lang="en-US">State recovery attack</dc:subject>
+	<dc:subject xml:lang="en-US">Forgery attack</dc:subject>
+	<dc:subject xml:lang="en-US">(Second) Preimage attack</dc:subject>
+	<dc:description xml:lang="en-US">We provide a survey about generic attacks on cryptographic hash constructions including hash-based message authentication codes and hash combiners. We look into attacks involving iteratively evaluating identical mappings many times. The functional graph of a random mapping also involves iteratively evaluating the mapping. These attacks essentially exploit properties of the functional graph. We map the utilization space of those properties from numerous proposed known attacks, draw a comparison among classes of attacks about their advantages and limitations. We provide a systematic exposition of concepts of cycles, deep-iterate images, collisions and their roles in cryptanalysis of iterated hash constructions. We identify the inherent relationship between these concepts, such that case-by-case theories about them can be unified into one knowledge system, that is, theories on the functional graph of random mappings. We show that the properties of the cycle search algorithm, the chain evaluation algorithm and the collision search algorithm can be described based on statistic results on the functional graph. Thereby, we can provide different viewpoints to support previous beliefs on individual knowledge. In that, we invite more sophisticated analysis of the functional graph of random mappings and more future exploitations of its properties in cryptanalysis.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2018-03-01</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tosc.iacr.org/index.php/ToSC/article/view/850</dc:identifier>
+	<dc:identifier>10.13154/tosc.v2018.i1.201-253</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Symmetric Cryptology; Volume 2018, Issue 1; 201-253</dc:source>
+	<dc:source>2519-173X</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/850/802</dc:relation>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/850/7623</dc:relation>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/850/7523</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2018 Zhenzhen Bao, Jian Guo, Lei Wang</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0</dc:rights>
+</oai_dc:dc>

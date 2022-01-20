@@ -1,0 +1,26 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>8395</id>
+	<dc:title xml:lang="en-US">Power Analysis on NTRU Prime</dc:title>
+	<dc:creator>Huang, Wei-Lun</dc:creator>
+	<dc:creator>Chen, Jiun-Peng</dc:creator>
+	<dc:creator>Yang, Bo-Yin </dc:creator>
+	<dc:subject xml:lang="en-US">Ideal Lattice Cryptography</dc:subject>
+	<dc:subject xml:lang="en-US">Single-Trace Attack</dc:subject>
+	<dc:subject xml:lang="en-US">Correlation Power Analysis</dc:subject>
+	<dc:subject xml:lang="en-US">Template Attack</dc:subject>
+	<dc:subject xml:lang="en-US">Simple Power Analysis</dc:subject>
+	<dc:subject xml:lang="en-US">NTRU Prime</dc:subject>
+	<dc:description xml:lang="en-US">This paper applies a variety of power analysis techniques to several implementations of NTRU Prime, a Round 2 submission to the NIST PQC Standardization Project. The techniques include vertical correlation power analysis, horizontal indepth correlation power analysis, online template attacks, and chosen-input simple power analysis. The implementations include the reference one, the one optimized using smladx, and three protected ones. Adversaries in this study can fully recover private keys with one single trace of short observation span, with few template traces from a fully controlled device similar to the target and no a priori power model, or sometimes even with the naked eye. The techniques target the constant-time generic polynomial multiplications in the product scanning method. Though in this work they focus on the decapsulation, they also work on the key generation and encapsulation of NTRU Prime. Moreover, they apply to the ideal-lattice-based cryptosystems where each private-key coefficient comes from a small set of possibilities.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2019-11-19</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tches.iacr.org/index.php/TCHES/article/view/8395</dc:identifier>
+	<dc:identifier>10.13154/tches.v2020.i1.123-151</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Cryptographic Hardware and Embedded Systems; Volume 2020, Issue 1; 123-151</dc:source>
+	<dc:source>2569-2925</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/8395/7779</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2019 Wei-Lun Huang, Jiun-Peng Chen, Bo-Yin  Yang</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0</dc:rights>
+</oai_dc:dc>

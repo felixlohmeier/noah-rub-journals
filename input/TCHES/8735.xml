@@ -1,0 +1,26 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>8735</id>
+	<dc:title xml:lang="en-US">Side-Channel Analysis of the Xilinx Zynq UltraScale+ Encryption Engine</dc:title>
+	<dc:creator>Hettwer, Benjamin</dc:creator>
+	<dc:creator>Leger, Sebastien</dc:creator>
+	<dc:creator>Fennes, Daniel</dc:creator>
+	<dc:creator>Gehrer, Stefan</dc:creator>
+	<dc:creator>Güneysu, Tim</dc:creator>
+	<dc:subject xml:lang="en-US">Side-Channel Attacks</dc:subject>
+	<dc:subject xml:lang="en-US">Deep Learning</dc:subject>
+	<dc:subject xml:lang="en-US">Bitstream Encryption</dc:subject>
+	<dc:subject xml:lang="en-US">Key Rolling</dc:subject>
+	<dc:description xml:lang="en-US">The Xilinx Zynq UltraScale+ (ZU+) is a powerful and flexible System-on- Chip (SoC) computing platform for next generation applications such as autonomous driving or industrial Internet-of-Things (IoT) based on 16 nm production technology. The devices are equipped with a secure boot mechanism in order to provide confidentiality, integrity, and authenticity of the configuration files that are loaded during power-up. This includes a dedicated encryption engine which features a protocol-based countermeasure against passive Side-Channel Attacks (SCAs) called key rolling. The mechanism ensures that the same key is used only for a certain number of data blocks that has to be defined by the user. However, a suitable choice for the key rolling parameter depends on the power leakage behavior of the chip and is not published by the manufacturer. To close this gap, this paper presents the first publicly known side-channel analysis of the ZU+ encryption unit. We conduct a black-box reverse engineering of the internal hardware architecture of the encryption engine using Electromagnetic (EM) measurements from a decoupling capacitor of the power supply. Then, we illustrate a sophisticated methodology that involves the first five rounds of an AES encryption to attack the 256-bit secret key. We apply the elaborated attack strategy using several new Deep Learning (DL)-based evaluation methods for cryptographic implementations. Even though we are unable to recover all bytes of the secret key, the experimental results still allow us to provide concrete recommendations for the key rolling parameter under realistic conditions. This eventually helps to configure the secure boot mechanism of the ZU+ and similar devices appropriately.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2020-12-03</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tches.iacr.org/index.php/TCHES/article/view/8735</dc:identifier>
+	<dc:identifier>10.46586/tches.v2021.i1.279-304</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Cryptographic Hardware and Embedded Systems; Volume 2021, Issue 1; 279-304</dc:source>
+	<dc:source>2569-2925</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/8735/8335</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2020 Benjamin Hettwer, Sebastien Leger, Daniel Fennes, Stefan Gehrer, Tim Güneysu</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0/</dc:rights>
+</oai_dc:dc>

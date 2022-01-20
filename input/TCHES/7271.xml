@@ -1,0 +1,27 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>7271</id>
+	<dc:title xml:lang="en-US">On Recovering Affine Encodings in White-Box Implementations</dc:title>
+	<dc:creator>Derbez, Patrick</dc:creator>
+	<dc:creator>Fouque, Pierre-Alain</dc:creator>
+	<dc:creator>Lambin, Baptiste</dc:creator>
+	<dc:creator>Minaud, Brice</dc:creator>
+	<dc:subject xml:lang="en-US">White-Box Cryptography</dc:subject>
+	<dc:subject xml:lang="en-US">Cryptanalysis</dc:subject>
+	<dc:subject xml:lang="en-US">AES</dc:subject>
+	<dc:description xml:lang="en-US">Ever since the first candidate white-box implementations by Chow et al. in 2002, producing a secure white-box implementation of AES has remained an enduring challenge. Following the footsteps of the original proposal by Chow et al., other constructions were later built around the same framework. In this framework, the round function of the cipher is “encoded” by composing it with non-linear and affine layers known as encodings. However, all such attempts were broken by a series of increasingly efficient attacks that are able to peel off these encodings, eventually uncovering the underlying round function, and with it the secret key.These attacks, however, were generally ad-hoc and did not enjoy a wide applicability. As our main contribution, we propose a generic and efficient algorithm to recover affine encodings, for any Substitution-Permutation-Network (SPN) cipher, such as AES, and any form of affine encoding. For AES parameters, namely 128-bit blocks split into 16 parallel 8-bit S-boxes, affine encodings are recovered with a time complexity estimated at 232 basic operations, independently of how the encodings are built. This algorithm is directly applicable to a large class of schemes. We illustrate this on a recent proposal due to Baek, Cheon and Hong, which was not previously analyzed. While Baek et al. evaluate the security of their scheme to 110 bits, a direct application of our generic algorithm is able to break the scheme with an estimated time complexity of only 235 basic operations.As a second contribution, we show a different approach to cryptanalyzing the Baek et al. scheme, which reduces the analysis to a standalone combinatorial problem, ultimately achieving key recovery in time complexity 231. We also provide an implementation of the attack, which is able to recover the secret key in about 12 seconds on a standard desktop computer.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2018-08-14</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tches.iacr.org/index.php/TCHES/article/view/7271</dc:identifier>
+	<dc:identifier>10.13154/tches.v2018.i3.121-149</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Cryptographic Hardware and Embedded Systems; Volume 2018, Issue 3; 121-149</dc:source>
+	<dc:source>2569-2925</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/7271/6449</dc:relation>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/7271/7932</dc:relation>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/7271/7933</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2018 Patrick Derbez, Pierre-Alain Fouque, Baptiste Lambin, Brice Minaud</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0</dc:rights>
+</oai_dc:dc>

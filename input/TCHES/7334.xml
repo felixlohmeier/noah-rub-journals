@@ -1,0 +1,35 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>7334</id>
+	<dc:title xml:lang="en-US">Secure Physical Enclosures from Covers with Tamper-Resistance</dc:title>
+	<dc:creator>Immler, Vincent</dc:creator>
+	<dc:creator>Obermaier, Johannes</dc:creator>
+	<dc:creator>Ng, Kuan Kuan</dc:creator>
+	<dc:creator>Ke, Fei Xiang</dc:creator>
+	<dc:creator>Lee, JinYu</dc:creator>
+	<dc:creator>Lim, Yak Peng</dc:creator>
+	<dc:creator>Oh, Wei Koon</dc:creator>
+	<dc:creator>Wee, Keng Hoong</dc:creator>
+	<dc:creator>Sigl, Georg</dc:creator>
+	<dc:subject xml:lang="en-US">Tamper-resistance</dc:subject>
+	<dc:subject xml:lang="en-US">Physical Unclonable Function (PUF)</dc:subject>
+	<dc:subject xml:lang="en-US">Secure Bootstrap</dc:subject>
+	<dc:subject xml:lang="en-US">Security Standards</dc:subject>
+	<dc:subject xml:lang="en-US">FIPS 140-2</dc:subject>
+	<dc:subject xml:lang="en-US">Higher-Order Alphabet PUF (HOA PUF)</dc:subject>
+	<dc:description xml:lang="en-US">Ensuring physical security of multiple-chip embedded systems on a PCB is challenging, since the attacker can control the device in a hostile environment. To detect physical intruders as part of a layered approach to security, it is common to create a physical security boundary that is difficult to penetrate or remove, e.g., enclosures created from tamper-respondent envelopes or covers. Their physical integrity is usually checked by active sensing, i.e., a battery-backed circuit continuously monitors the enclosure. However, adoption is often hampered by the disadvantages of a battery and due to specialized equipment which is required to create the enclosure. In contrast, we present a batteryless tamper-resistant cover made from standard flexPCB technology, i.e., a commercially widespread, scalable, and proven technology. The cover comprises a fine mesh of electrodes and an evaluation unit underneath the cover checks their integrity by detecting short and open circuits. Additionally, it measures the capacitances between the electrodes of the mesh. Once its preliminary integrity is confirmed, a cryptographic key is derived from the capacitive measurements representing a PUF, to decrypt and authenticate sensitive data of the enclosed system. We demonstrate the feasibility of our concept, provide details on the layout, electrical properties of the cover, and explain the underlying security architecture. Practical results including statistics over a set of 115 flexPCB covers, physical attacks, and environmental testing support our design rationale. Hence, our work opens up a new direction of counteracting physical tampering without the need of batteries, while aiming at a physical security level comparable to FIPS 140-2 level 3.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2018-11-09</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tches.iacr.org/index.php/TCHES/article/view/7334</dc:identifier>
+	<dc:identifier>10.13154/tches.v2019.i1.51-96</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Cryptographic Hardware and Embedded Systems; Volume 2019, Issue 1; 51-96</dc:source>
+	<dc:source>2569-2925</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/7334/6506</dc:relation>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/7334/7907</dc:relation>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/7334/7908</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2018 Vincent Immler, Johannes Obermaier, Kuan Kuan Ng, Fei Xiang Ke, JinYu Lee, Yak Peng Lim, Wei Koon Oh, Keng Hoong Wee, Georg Sigl</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0</dc:rights>
+</oai_dc:dc>

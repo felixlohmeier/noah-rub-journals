@@ -1,0 +1,31 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>8314</id>
+	<dc:title xml:lang="en-US">Quantum Security Analysis of AES</dc:title>
+	<dc:creator>Bonnetain, Xavier</dc:creator>
+	<dc:creator>Naya-Plasencia, María</dc:creator>
+	<dc:creator>Schrottenloher, André</dc:creator>
+	<dc:subject xml:lang="en-US">AES</dc:subject>
+	<dc:subject xml:lang="en-US">symmetric cryptanalysis</dc:subject>
+	<dc:subject xml:lang="en-US">quantum cryptanalysis</dc:subject>
+	<dc:subject xml:lang="en-US">classical cryptanalysis</dc:subject>
+	<dc:subject xml:lang="en-US">quantum algorithms</dc:subject>
+	<dc:subject xml:lang="en-US">security margin</dc:subject>
+	<dc:subject xml:lang="en-US">amplitude amplification</dc:subject>
+	<dc:subject xml:lang="en-US">postquantum</dc:subject>
+	<dc:subject xml:lang="en-US">security</dc:subject>
+	<dc:subject xml:lang="en-US">DS-meet-in-the-middle</dc:subject>
+	<dc:subject xml:lang="en-US">square attack</dc:subject>
+	<dc:description xml:lang="en-US">In this paper we analyze for the first time the post-quantum security of AES. AES is the most popular and widely used block cipher, established as the encryption standard by the NIST in 2001. We consider the secret key setting and, in particular, AES-256, the recommended primitive and one of the few existing ones that aims at providing a post-quantum security of 128 bits. In order to determine the new security margin, i.e., the lowest number of non-attacked rounds in time less than 2128 encryptions, we first provide generalized and quantized versions of the best known cryptanalysis on reduced-round AES, as well as a discussion on attacks that don’t seem to benefit from a significant quantum speed-up. We propose a new framework for structured search that encompasses both the classical and quantum attacks we present, and allows to efficiently compute their complexity. We believe this framework will be useful for future analysis.Our best attack is a quantum Demirci-Selçuk meet-in-the-middle attack. Unexpectedly, using the ideas underlying its design principle also enables us to obtain new, counter-intuitive classical TMD trade-offs. In particular, we can reduce the memory in some attacks against AES-256 and AES-128.One of the building blocks of our attacks is solving efficiently the AES S-Box differential equation, with respect to the quantum cost of a reversible S-Box. We believe that this generic quantum tool will be useful for future quantum differential attacks. Judging by the results obtained so far, AES seems a resistant primitive in the post-quantum world as well as in the classical one, with a bigger security margin with respect to quantum generic attacks.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2019-06-11</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tosc.iacr.org/index.php/ToSC/article/view/8314</dc:identifier>
+	<dc:identifier>10.13154/tosc.v2019.i2.55-93</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Symmetric Cryptology; Volume 2019, Issue 2; 55-93</dc:source>
+	<dc:source>2519-173X</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/8314/7663</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2019 Xavier Bonnetain, María Naya-Plasencia, André Schrottenloher</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0</dc:rights>
+</oai_dc:dc>

@@ -1,0 +1,31 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>8569</id>
+	<dc:title xml:lang="en-US">Links between Division Property and Other Cube Attack Variants</dc:title>
+	<dc:creator>Hao, Yonglin</dc:creator>
+	<dc:creator>Jiao, Lin</dc:creator>
+	<dc:creator>Li, Chaoyun</dc:creator>
+	<dc:creator>Meier, Willi</dc:creator>
+	<dc:creator>Todo, Yosuke</dc:creator>
+	<dc:creator>Wang, Qingju</dc:creator>
+	<dc:subject xml:lang="en-US">Stream ciphers</dc:subject>
+	<dc:subject xml:lang="en-US">Division property</dc:subject>
+	<dc:subject xml:lang="en-US">Dynamic cube attack</dc:subject>
+	<dc:subject xml:lang="en-US">Cube tester</dc:subject>
+	<dc:subject xml:lang="en-US">MILP</dc:subject>
+	<dc:subject xml:lang="en-US">Grain-128</dc:subject>
+	<dc:subject xml:lang="en-US">Kreyvium</dc:subject>
+	<dc:subject xml:lang="en-US">ACORN</dc:subject>
+	<dc:description xml:lang="en-US">A theoretically reliable key-recovery attack should evaluate not only the non-randomness for the correct key guess but also the randomness for the wrong ones as well. The former has always been the main focus but the absence of the latter can also cause self-contradicted results. In fact, the theoretic discussion of wrong key guesses is overlooked in quite some existing key-recovery attacks, especially the previous cube attack variants based on pure experiments. In this paper, we draw links between the division property and several variants of the cube attack. In addition to the zero-sum property, we further prove that the bias phenomenon, the non-randomness widely utilized in dynamic cube attacks and cube testers, can also be reflected by the division property. Based on such links, we are able to provide several results: Firstly, we give a dynamic cube key-recovery attack on full Grain-128. Compared with Dinur et al.’s original one, this attack is supported by a theoretical analysis of the bias based on a more elaborate assumption. Our attack can recover 3 key bits with a complexity 297.86 and evaluated success probability 99.83%. Thus, the overall complexity for recovering full 128 key bits is 2125. Secondly, now that the bias phenomenon can be efficiently and elaborately evaluated, we further derive new secure bounds for Grain-like primitives (namely Grain-128, Grain-128a, Grain-V1, Plantlet) against both the zero-sum and bias cube testers. Our secure bounds indicate that 256 initialization rounds are not able to guarantee Grain-128 to resist bias-based cube testers. This is an efficient tool for newly designed stream ciphers for determining the number of initialization rounds. Thirdly, we improve Wang et al.’s relaxed term enumeration technique proposed in CRYPTO 2018 and extend their results on Kreyvium and ACORN by 1 and 13 rounds (reaching 892 and 763 rounds) with complexities 2121.19 and 2125.54 respectively. To our knowledge, our results are the current best key-recovery attacks on these two primitives.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2020-05-07</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tosc.iacr.org/index.php/ToSC/article/view/8569</dc:identifier>
+	<dc:identifier>10.13154/tosc.v2020.i1.363-395</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Symmetric Cryptology; Volume 2020, Issue 1; 363-395</dc:source>
+	<dc:source>2519-173X</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/8569/8140</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2020 Yonglin Hao, Lin Jiao, Chaoyun Li, Willi Meier, Yosuke Todo, Qingju Wang</dc:rights>
+	<dc:rights xml:lang="en-US">http://creativecommons.org/licenses/by/4.0/</dc:rights>
+</oai_dc:dc>

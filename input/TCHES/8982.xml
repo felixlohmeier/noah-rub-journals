@@ -1,0 +1,26 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>8982</id>
+	<dc:title xml:lang="en-US">Denial-of-Service on FPGA-based Cloud Infrastructures — Attack and Defense</dc:title>
+	<dc:creator>La, Tuan</dc:creator>
+	<dc:creator>Pham, Khoa</dc:creator>
+	<dc:creator>Powell, Joseph</dc:creator>
+	<dc:creator>Koch, Dirk</dc:creator>
+	<dc:subject xml:lang="en-US">IACR Transactions on Cryptographic Hardware and Embedded Systems</dc:subject>
+	<dc:subject xml:lang="en-US">TCHES</dc:subject>
+	<dc:subject xml:lang="en-US">FPGAs</dc:subject>
+	<dc:subject xml:lang="en-US">Power-Hammering</dc:subject>
+	<dc:subject xml:lang="en-US">DoS attack</dc:subject>
+	<dc:description xml:lang="en-US">This paper presents attacks targeting the FPGAs of AWS F1 instances at the electrical level through power-hammering, where excessive dynamic power is used to crash FPGA instances. We demonstrate different power-hammering attacks that pass all AWS security fences implemented on F1 instances, including the FPGA vendor design rule checks. In addition, we fingerprint the FPGA instances to observe the responsiveness of the instances, which indicates a successful denial-of-service attack. Most importantly, we provide an FPGA virus scanner framework, which was improved to support large datacenter FPGAs for preventing such attacks, including virtually all currently demonstrated side-channel attacks. Our experiments showed that an AWS F1 instance crashes immediately by starting an FPGA design demanding 369W. By using FPGA-fingerprinting, we found that crashed instances are unavailable for about one to over 200 hours.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2021-07-09</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tches.iacr.org/index.php/TCHES/article/view/8982</dc:identifier>
+	<dc:identifier>10.46586/tches.v2021.i3.441-464</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Cryptographic Hardware and Embedded Systems; Volume 2021, Issue 3; 441-464</dc:source>
+	<dc:source>2569-2925</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/8982/8559</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2021 Tuan La, Khoa Pham, Joseph Powell, Dirk Koch</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0/</dc:rights>
+</oai_dc:dc>

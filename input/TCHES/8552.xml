@@ -1,0 +1,26 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>8552</id>
+	<dc:title xml:lang="en-US">FEDS: Comprehensive Fault Attack Exploitability Detection for Software Implementations of Block Ciphers</dc:title>
+	<dc:creator>K, Keerthi</dc:creator>
+	<dc:creator>Roy, Indrani</dc:creator>
+	<dc:creator>Rebeiro, Chester</dc:creator>
+	<dc:creator>Hazra, Aritra</dc:creator>
+	<dc:creator>Bhunia, Swarup</dc:creator>
+	<dc:subject xml:lang="en-US">Fault Attacks</dc:subject>
+	<dc:subject xml:lang="en-US">Automatic Fault Attack Evaluation</dc:subject>
+	<dc:subject xml:lang="en-US">Security Aware Compilers</dc:subject>
+	<dc:subject xml:lang="en-US">Differential Fault Attacks</dc:subject>
+	<dc:description xml:lang="en-US">Fault injection attacks are one of the most powerful forms of cryptanalytic attacks on ciphers. A single, precisely injected fault during the execution of a cipher like the AES, can completely reveal the key within a few milliseconds. Software implementations of ciphers, therefore, need to be thoroughly evaluated for such attacks. In recent years, automated tools have been developed to perform these evaluations. These tools either work on the cipher algorithm or on their implementations. Tools that work at the algorithm level can provide a comprehensive assessment of fault attack vulnerability for different fault attacks and with different fault models. Their application is, however, restricted because every realization of the cipher has unique vulnerabilities. On the other hand, tools that work on cipher implementations have a much wider application but are often restricted by the range of fault attacks and the number of fault models they can evaluate.In this paper, we propose a framework, called FEDS, that uses a combination of compiler techniques and model checking to merge the advantages of both, algorithmic level tools as well as implementation level tools. Like the algorithmic level tools, FEDS can provide a comprehensive assessment of fault attack exploitability considering a wide range of fault attacks and fault models. Like implementation level tools, FEDS works with implementations, therefore has wide application. We demonstrate the versatility of FEDS by evaluating seven different implementations of AES (including bitsliced implementation) and implementations of CLEFIA and CAMELLIA for Differential Fault Attacks. The framework automatically identifies exploitable instructions in all implementations. Further, we present an application of FEDS in a Fault Attack Aware Compiler, that can automatically identify and protect exploitable regions of the code. We demonstrate that the compiler can generate significantly more efficient code than a naïvely protected equivalent, while maintaining the same level of protection.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2020-03-02</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tches.iacr.org/index.php/TCHES/article/view/8552</dc:identifier>
+	<dc:identifier>10.13154/tches.v2020.i2.272-299</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Cryptographic Hardware and Embedded Systems; Volume 2020, Issue 2; 272-299</dc:source>
+	<dc:source>2569-2925</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/8552/8117</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2020 Keerthi K, Indrani Roy, Chester Rebeiro, Aritra Hazra, Swarup Bhunia</dc:rights>
+	<dc:rights xml:lang="en-US">http://creativecommons.org/licenses/by/4.0/</dc:rights>
+</oai_dc:dc>

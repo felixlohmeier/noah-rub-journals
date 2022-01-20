@@ -1,0 +1,24 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>8318</id>
+	<dc:title xml:lang="en-US">Classification of Balanced Quadratic Functions</dc:title>
+	<dc:creator>De Meyer, Lauren</dc:creator>
+	<dc:creator>Bilgin, Begül</dc:creator>
+	<dc:subject xml:lang="en-US">Affine Equivalence</dc:subject>
+	<dc:subject xml:lang="en-US">S-box</dc:subject>
+	<dc:subject xml:lang="en-US">Boolean functions</dc:subject>
+	<dc:subject xml:lang="en-US">Classification</dc:subject>
+	<dc:subject xml:lang="en-US">Decomposition</dc:subject>
+	<dc:description xml:lang="en-US">S-boxes, typically the only nonlinear part of a block cipher, are the heart of symmetric cryptographic primitives. They significantly impact the cryptographic strength and the implementation characteristics of an algorithm. Due to their simplicity, quadratic vectorial Boolean functions are preferred when efficient implementations for a variety of applications are of concern. Many characteristics of a function stay invariant under affine equivalence. So far, all 6-bit Boolean functions, 3- and 4-bit permutations have been classified up to affine equivalence. At FSE 2017, Bozoliv et al. presented the first classification of 5-bit quadratic permutations. In this work, we propose an adaptation of their work resulting in a highly efficient algorithm to classify n x m functions for n ≥ m. Our algorithm enables for the first time a complete classification of 6-bit quadratic permutations as well as all balanced quadratic functions for n ≤ 6. These functions can be valuable for new cryptographic algorithm designs with efficient multi-party computation or side-channel analysis resistance as goal. In addition, we provide a second tool for finding decompositions of length two. We demonstrate its use by decomposing existing higher degree S-boxes and constructing new S-boxes with good cryptographic and implementation properties.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2019-06-11</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tosc.iacr.org/index.php/ToSC/article/view/8318</dc:identifier>
+	<dc:identifier>10.13154/tosc.v2019.i2.169-192</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Symmetric Cryptology; Volume 2019, Issue 2; 169-192</dc:source>
+	<dc:source>2519-173X</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/8318/7667</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2019 Lauren De Meyer, Begül Bilgin</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0</dc:rights>
+</oai_dc:dc>

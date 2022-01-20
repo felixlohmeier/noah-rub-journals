@@ -1,0 +1,33 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>8582</id>
+	<dc:title xml:lang="en-US">Investigating Profiled Side-Channel Attacks Against the DES Key Schedule</dc:title>
+	<dc:creator>Heyszl, Johann</dc:creator>
+	<dc:creator>Miller, Katja</dc:creator>
+	<dc:creator>Unterstein, Florian</dc:creator>
+	<dc:creator>Schink, Marc</dc:creator>
+	<dc:creator>Wagner, Alexander</dc:creator>
+	<dc:creator>Gieser, Horst</dc:creator>
+	<dc:creator>Freud, Sven</dc:creator>
+	<dc:creator>Damm, Tobias</dc:creator>
+	<dc:creator>Klein, Dominik</dc:creator>
+	<dc:creator>Kügler, Dennis</dc:creator>
+	<dc:subject xml:lang="en-US">DES</dc:subject>
+	<dc:subject xml:lang="en-US">3-DES</dc:subject>
+	<dc:subject xml:lang="en-US">SCA</dc:subject>
+	<dc:subject xml:lang="en-US">side-channel attack</dc:subject>
+	<dc:subject xml:lang="en-US">key schedule</dc:subject>
+	<dc:subject xml:lang="en-US">weak keys</dc:subject>
+	<dc:description xml:lang="en-US">Recent publications describe profiled single trace side-channel attacks (SCAs) against the DES key-schedule of a “commercially available security controller”. They report a significant reduction of the average remaining entropy of cryptographic keys after the attack, with surprisingly large, key-dependent variations of attack results, and individual cases with remaining key entropies as low as a few bits. Unfortunately, they leave important questions unanswered: Are the reported wide distributions of results plausible - can this be explained? Are the results device-specific or more generally applicable to other devices? What is the actual impact on the security of 3-key triple DES? We systematically answer those and several other questions by analyzing two commercial security controllers and a general purpose microcontroller. We observe a significant overall reduction and, importantly, also observe a large key-dependent variation in single DES key security levels, i.e. 49.4 bit mean and 0.9 % of keys &amp;lt; 40 bit (first investigated security controller; other results similar). We also observe a small fraction of keys with exceptionally low security levels that can be called weak keys. It is unclear, whether a device’s side-channel security should be assessed based on such rare weak key outliers. We generalize results to other leakage models by attacking the hardware DES accelerator of a general purpose microcontroller exhibiting a different leakage model. A highly simplified leakage simulation also confirms the wide distribution and shows that security levels are predictable to some extent. Through extensive investigations we find that the actual weakness of keys mainly stems from the specific switching noise they cause. Based on our investigations we expect that widely distributed results and weak outliers should be expected for all profiled attacks against (insufficiently protected) key-schedules, regardless of the algorithm and specific implementation. Finally, we describe a sound approach to estimate actual 3-key triple-DES security levels from empirical single DES results and find that the impact on the security of 3-key triple-DES is limited, i.e. 96.1 bit mean and 0.24 % of key-triples &amp;lt; 80 bit for the same security controller.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2020-06-19</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tches.iacr.org/index.php/TCHES/article/view/8582</dc:identifier>
+	<dc:identifier>10.13154/tches.v2020.i3.22-72</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Cryptographic Hardware and Embedded Systems; Volume 2020, Issue 3; 22-72</dc:source>
+	<dc:source>2569-2925</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/8582/8149</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2020 Johann Heyszl, Katja Miller, Florian Unterstein, Marc Schink, Alexander Wagner, Horst Gieser, Sven Freud, Tobias Damm, Dominik Klein, Dennis Kügler</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0</dc:rights>
+</oai_dc:dc>

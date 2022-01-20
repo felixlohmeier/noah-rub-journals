@@ -1,0 +1,27 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>7403</id>
+	<dc:title xml:lang="en-US">Related-Tweak Statistical Saturation Cryptanalysis and Its Application on QARMA</dc:title>
+	<dc:creator>Li, Muzhou</dc:creator>
+	<dc:creator>Hu, Kai</dc:creator>
+	<dc:creator>Wang, Meiqin</dc:creator>
+	<dc:subject xml:lang="en-US">Related-Tweak Statistical Saturation</dc:subject>
+	<dc:subject xml:lang="en-US">KDIB</dc:subject>
+	<dc:subject xml:lang="en-US">Conditional Equivalence</dc:subject>
+	<dc:subject xml:lang="en-US">QARMA</dc:subject>
+	<dc:description xml:lang="en-US">Statistical saturation attack takes advantage of a set of plaintext with some bits fixed while the others vary randomly, and then track the evolution of a non-uniform plaintext distribution through the cipher. Previous statistical saturation attacks are all implemented under single-key setting, and there is no public attack models under related-key/tweak setting. In this paper, we propose a new cryptanalytic method which can be seen as related-key/tweak statistical saturation attack by revealing the link between the related-key/tweak statistical saturation distinguishers and KDIB (Key Difference Invariant Bias) / TDIB (Tweak Difference Invariant Bias) ones. KDIB cryptanalysis was proposed by Bogdanov et al. at ASIACRYPT’13 and utilizes the property that there can exist linear trails such that their biases are deterministically invariant under key difference. And this method can be easily extended to TDIB distinguishers if the tweak is also alternated. The link between them provides a new and more efficient way to find related-key/tweak statistical saturation distinguishers in ciphers. Thereafter, an automatic searching algorithm for KDIB/TDIB distinguishers is also given in this paper, which can be implemented to find word-level KDIB distinguishers for S-box based key-alternating ciphers. We apply this algorithm to QARMA-64 and give related-tweak statistical saturation attack for 10-round QARMA-64 with outer whitening key. Besides, an 11-round attack on QARMA-128 is also given based on the TDIB technique. Compared with previous public attacks on QARMA including outer whitening key, all attacks presented in this paper are the best ones in terms of the number of rounds.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2019-03-08</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tosc.iacr.org/index.php/ToSC/article/view/7403</dc:identifier>
+	<dc:identifier>10.13154/tosc.v2019.i1.236-263</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Symmetric Cryptology; Volume 2019, Issue 1; 236-263</dc:source>
+	<dc:source>2519-173X</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/7403/6575</dc:relation>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/7403/7553</dc:relation>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/7403/7769</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2019 Muzhou Li, Kai Hu, Meiqin Wang</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0</dc:rights>
+</oai_dc:dc>

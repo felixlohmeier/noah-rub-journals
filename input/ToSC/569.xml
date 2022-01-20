@@ -1,0 +1,26 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>569</id>
+	<dc:title xml:lang="en-US">The Exact Security of PMAC</dc:title>
+	<dc:creator>Gaži, Peter</dc:creator>
+	<dc:creator>Pietrzak, Krzysztof</dc:creator>
+	<dc:creator>Rybár, Michal</dc:creator>
+	<dc:subject xml:lang="en-US">Message Authentication Codes</dc:subject>
+	<dc:subject xml:lang="en-US">PMAC</dc:subject>
+	<dc:subject xml:lang="en-US">Attack</dc:subject>
+	<dc:subject xml:lang="en-US">Masks</dc:subject>
+	<dc:description xml:lang="en-US">PMAC is a simple and parallel block-cipher mode of operation, which was introduced by Black and Rogaway at Eurocrypt 2002. If instantiated with a (pseudo)random permutation over n-bit strings, PMAC constitutes a provably secure variable input-length (pseudo)random function. For adversaries making q queries, each of length at most l (in n-bit blocks), and of total length σ ≤ ql, the original paper proves an upper bound on the distinguishing advantage of  Ο(σ2/2n), while the currently best bound is  Ο (qσ/2n).In this work we show that this bound is tight by giving an attack with advantage Ω (q2l/2n). In the PMAC construction one initially XORs a mask to every message block, where the mask for the ith block is computed as τi := γi·L, where L is a (secret) random value, and γi is the i-th codeword of the Gray code. Our attack applies more generally to any sequence of γi’s which contains a large coset of a subgroup of GF(2n). We then investigate if the security of PMAC can be further improved by using τi’s that are k-wise independent, for k &amp;gt; 1 (the original distribution is only 1-wise independent). We observe that the security of PMAC will not increase in general, even if the masks are chosen from a 2-wise independent distribution, and then prove that the security increases to O(q&amp;lt;2/2n), if the τi are 4-wise independent. Due to simple extension attacks, this is the best bound one can hope for, using any distribution on the masks. Whether 3-wise independence is already sufficient to get this level of security is left as an open problem.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2017-02-03</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tosc.iacr.org/index.php/ToSC/article/view/569</dc:identifier>
+	<dc:identifier>10.13154/tosc.v2016.i2.145-161</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Symmetric Cryptology; Volume 2016, Issue 2; 145-161</dc:source>
+	<dc:source>2519-173X</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/569/511</dc:relation>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/569/7466</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2017 Peter Gaži, Krzysztof Pietrzak, Michal Rybár</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0</dc:rights>
+</oai_dc:dc>

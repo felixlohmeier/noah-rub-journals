@@ -1,0 +1,23 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>8397</id>
+	<dc:title xml:lang="en-US">CAS-Lock: A Security-Corruptibility Trade-off Resilient Logic Locking Scheme</dc:title>
+	<dc:creator>Shakya, Bicky</dc:creator>
+	<dc:creator>Xu, Xiaolin</dc:creator>
+	<dc:creator>Tehranipoor, Mark</dc:creator>
+	<dc:creator>Forte, Domenic</dc:creator>
+	<dc:subject xml:lang="en-US">Logic locking</dc:subject>
+	<dc:subject xml:lang="en-US">SAT attack</dc:subject>
+	<dc:description xml:lang="en-US">Logic locking has recently been proposed as a solution for protecting gatelevel semiconductor intellectual property (IP). However, numerous attacks have been mounted on this technique, which either compromise the locking key or restore the original circuit functionality. SAT attacks leverage golden IC information to rule out all incorrect key classes, while bypass and removal attacks exploit the limited output corruptibility and/or structural traces of SAT-resistant locking schemes. In this paper, we propose a new lightweight locking technique: CAS-Lock (cascaded locking) which nullifies both SAT and bypass attacks, while simultaneously maintaining nontrivial output corruptibility. This property of CAS-Lock is in stark contrast to the well-accepted notion that there is an inherent trade-off between output corruptibility and SAT resistance. We theoretically and experimentally validate the SAT resistance of CAS-Lock, and show that it reduces the attack to brute-force, regardless of its construction. Further, we evaluate its resistance to recently proposed approximate SAT attacks (i.e., AppSAT). We also propose a modified version of CAS-Lock (mirrored CAS-Lock or M-CAS) to protect against removal attacks. M-CAS allows a trade-off evaluation between removal attack and SAT attack resiliency, while incurring minimal area overhead. We also show how M-CAS parameters such as the implemented Boolean function and selected key can be tuned by the designer so that a desired level of protection against all known attacks can be achieved.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2019-11-19</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tches.iacr.org/index.php/TCHES/article/view/8397</dc:identifier>
+	<dc:identifier>10.13154/tches.v2020.i1.175-202</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Cryptographic Hardware and Embedded Systems; Volume 2020, Issue 1; 175-202</dc:source>
+	<dc:source>2569-2925</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/8397/7781</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2019 Bicky Shakya, Xiaolin Xu, Mark Tehranipoor, Domenic Forte</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0</dc:rights>
+</oai_dc:dc>

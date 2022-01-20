@@ -1,0 +1,23 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>8464</id>
+	<dc:title xml:lang="en-US">Vectorized linear approximations for attacks on SNOW 3G</dc:title>
+	<dc:creator>Yang, Jing</dc:creator>
+	<dc:creator>Johansson, Thomas</dc:creator>
+	<dc:creator>Maximov, Alexander</dc:creator>
+	<dc:subject xml:lang="en-US">SNOW 3G</dc:subject>
+	<dc:subject xml:lang="en-US">Stream Cipher</dc:subject>
+	<dc:subject xml:lang="en-US">5G Mobile System Security</dc:subject>
+	<dc:description xml:lang="en-US">SNOW 3G is a stream cipher designed in 2006 by ETSI/SAGE, serving in 3GPP as one of the standard algorithms for data confidentiality and integrity protection. It is also included in the 4G LTE standard. In this paper we derive vectorized linear approximations of the finite state machine in SNOW3G. In particular,we show one 24-bit approximation with a bias around 2−37 and one byte-oriented approximation with a bias around 2−40. We then use the approximations to launch attacks on SNOW 3G. The first approximation is used in a distinguishing attack resulting in an expected complexity of 2172 and the second one can be used in a standard fast correlation attack resulting in key recovery in an expected complexity of 2177. If the key length in SNOW 3G would be increased to 256 bits, the results show that there are then academic attacks on such a version faster than the exhaustive key search.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2020-01-31</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tosc.iacr.org/index.php/ToSC/article/view/8464</dc:identifier>
+	<dc:identifier>10.13154/tosc.v2019.i4.249-271</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Symmetric Cryptology; Volume 2019, Issue 4; 249-271</dc:source>
+	<dc:source>2519-173X</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/8464/8030</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2020 Jing Yang, Thomas Johansson, Alexander Maximov</dc:rights>
+	<dc:rights xml:lang="en-US">http://creativecommons.org/licenses/by/4.0/</dc:rights>
+</oai_dc:dc>

@@ -1,0 +1,29 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>7397</id>
+	<dc:title xml:lang="en-US">libInterMAC: Beyond Confidentiality and Integrity in Practice</dc:title>
+	<dc:creator>Albrecht, Martin R.</dc:creator>
+	<dc:creator>Brandt Hansen, Torben</dc:creator>
+	<dc:creator>Paterson, Kenneth G.</dc:creator>
+	<dc:subject xml:lang="en-US">fragmentation attack</dc:subject>
+	<dc:subject xml:lang="en-US">SSH</dc:subject>
+	<dc:subject xml:lang="en-US">Authenticated Encryption</dc:subject>
+	<dc:subject xml:lang="en-US">crypto library</dc:subject>
+	<dc:subject xml:lang="en-US">implementation</dc:subject>
+	<dc:subject xml:lang="en-US">performance analysis</dc:subject>
+	<dc:description xml:lang="en-US">Boldyreva et al. (Eurocrypt 2012) defined a fine-grained security model capturing ciphertext fragmentation attacks against symmetric encryption schemes. The model was extended by Albrecht et al. (CCS 2016) to include an integrity notion. The extended security model encompasses important security goals of SSH that go beyond confidentiality and integrity to include length hiding and denial-of-service resistance properties. Boldyreva et al. also defined and analysed the InterMAC scheme, while Albrecht et al. showed that InterMAC satisfies stronger security notions than all currently available SSH encryption schemes. In this work, we take the InterMAC scheme and make it fully ready for use in practice. This involves several steps. First, we modify the InterMAC scheme to support encryption of arbitrary length plaintexts and we replace the use of Encrypt-then-MAC in InterMAC with modern noncebased authenticated encryption. Second, we describe a reference implementation of the modified InterMAC scheme in the form of the library libInterMAC. We give a performance analysis of libInterMAC. Third, to test the practical performance of libInterMAC, we implement several InterMAC-based encryption schemes in OpenSSH and carry out a performance analysis for the use-case of file transfer using SCP. We measure the data throughput and the data overhead of using InterMAC-based schemes compared to existing schemes in OpenSSH. Our analysis shows that, for some network set-ups, using InterMAC-based schemes in OpenSSH only moderately affects performance whilst providing stronger security guarantees compared to existing schemes.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2019-03-08</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:format>application/vnd.openxmlformats-officedocument.presentationml.presentation</dc:format>
+	<dc:identifier>https://tosc.iacr.org/index.php/ToSC/article/view/7397</dc:identifier>
+	<dc:identifier>10.13154/tosc.v2019.i1.46-83</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Symmetric Cryptology; Volume 2019, Issue 1; 46-83</dc:source>
+	<dc:source>2519-173X</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/7397/6569</dc:relation>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/7397/7555</dc:relation>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/7397/7763</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2019 Martin R. Albrecht, Torben Brandt Hansen, Kenneth G. Paterson</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0</dc:rights>
+</oai_dc:dc>

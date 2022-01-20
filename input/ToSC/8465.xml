@@ -1,0 +1,25 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>8465</id>
+	<dc:title xml:lang="en-US">Weak Keys in the Rekeying Paradigm: Application to COMET and mixFeed</dc:title>
+	<dc:creator>Khairallah, Mustafa</dc:creator>
+	<dc:subject xml:lang="en-US">weak keys</dc:subject>
+	<dc:subject xml:lang="en-US">authenticated encryption</dc:subject>
+	<dc:subject xml:lang="en-US">comet</dc:subject>
+	<dc:subject xml:lang="en-US">mixfeed</dc:subject>
+	<dc:subject xml:lang="en-US">nist</dc:subject>
+	<dc:subject xml:lang="en-US">forgery</dc:subject>
+	<dc:subject xml:lang="en-US">AEAD</dc:subject>
+	<dc:description xml:lang="en-US">In this paper, we study a group of AEAD schemes that use rekeying as a technique to increase efficiency by reducing the state size of the algorithm. We provide a unified model to study the behavior of the keys used in these schemes, called Rekey-and-Chain (RaC). This model helps understand the design of several AEAD schemes. We show generic attacks on these schemes based on the existence of certain types of weak keys. We also show that the borderline between multi-key and single-key analyses of these schemes is not solid and the analysis can be performed independent of the master key, leading sometimes to practical attacks in the multi-key setting. More importantly, the multi-key analysis can be applied in the single key setting, since each message is encrypted with a different key. Consequently, we show gaps in the security analysis of COMET and mixFeed in the single key setting, which led the designers to provide overly optimistic security claims. In the case of COMET, full key recovery can be performed with 264 online queries and 264 offline queries in the single-key setting, or 246 online queries per user and 264 offline queries in the multi-key setting with ∼ 0.5 million users. In the case of mixFeed, we enhance the forgery adversarial advantage in the single-key setting with a factor of 267 compared to what the designers claim. More importantly, our result is just a lower bound of this advantage, since we show that the gap in the analysis of mixFeed depends on properties of the AES Key Schedule that are not well understood and require more cryptanalytic efforts to find a more tight advantage. After reporting these findings, the designers updated their security analyses and accommodated the proposed attacks.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2020-01-31</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tosc.iacr.org/index.php/ToSC/article/view/8465</dc:identifier>
+	<dc:identifier>10.13154/tosc.v2019.i4.272-289</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Symmetric Cryptology; Volume 2019, Issue 4; 272-289</dc:source>
+	<dc:source>2519-173X</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/8465/8031</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2020 Mustafa Khairallah</dc:rights>
+	<dc:rights xml:lang="en-US">http://creativecommons.org/licenses/by/4.0/</dc:rights>
+</oai_dc:dc>

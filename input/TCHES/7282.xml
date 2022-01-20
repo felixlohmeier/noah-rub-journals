@@ -1,0 +1,33 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>7282</id>
+	<dc:title xml:lang="en-US">Multiplicative Masking for AES in Hardware</dc:title>
+	<dc:creator>De Meyer, Lauren</dc:creator>
+	<dc:creator>Reparaz, Oscar</dc:creator>
+	<dc:creator>Bilgin, Begül</dc:creator>
+	<dc:subject xml:lang="en-US">DPA</dc:subject>
+	<dc:subject xml:lang="en-US">Masking</dc:subject>
+	<dc:subject xml:lang="en-US">Glitches</dc:subject>
+	<dc:subject xml:lang="en-US">Sharing</dc:subject>
+	<dc:subject xml:lang="en-US">Adaptive</dc:subject>
+	<dc:subject xml:lang="en-US">Boolean</dc:subject>
+	<dc:subject xml:lang="en-US">Multiplicative</dc:subject>
+	<dc:subject xml:lang="en-US">AES</dc:subject>
+	<dc:subject xml:lang="en-US">S-box</dc:subject>
+	<dc:subject xml:lang="en-US">Side-channel</dc:subject>
+	<dc:description xml:lang="en-US">Hardware masked AES designs usually rely on Boolean masking and perform the computation of the S-box using the tower-field decomposition. On the other hand, splitting sensitive variables in a multiplicative way is more amenable for the computation of the AES S-box, as noted by Akkar and Giraud. However, multiplicative masking needs to be implemented carefully not to be vulnerable to first-order DPA with a zero-value power model. Up to now, sound higher-order multiplicative masking schemes have been implemented only in software. In this work, we demonstrate the first hardware implementation of AES using multiplicative masks. The method is tailored to be secure even if the underlying gates are not ideal and glitches occur in the circuit. We detail the design process of first- and second-order secure AES-128 cores, which result in the smallest die area to date among previous state-of-the-art masked AES implementations with comparable randomness cost and latency. The first- and second-order masked implementations improve resp. 29% and 18% over these designs. We deploy our construction on a Spartan-6 FPGA and perform a side-channel evaluation. No leakage is detected with up to 50 million traces for both our first- and second-order implementation. For the latter, this holds both for univariate and bivariate analysis.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2018-08-16</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tches.iacr.org/index.php/TCHES/article/view/7282</dc:identifier>
+	<dc:identifier>10.13154/tches.v2018.i3.431-468</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Cryptographic Hardware and Embedded Systems; Volume 2018, Issue 3; 431-468</dc:source>
+	<dc:source>2569-2925</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/7282/6459</dc:relation>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/7282/7952</dc:relation>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/7282/7953</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2018 Lauren De Meyer, Oscar Reparaz, Begül Bilgin</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0</dc:rights>
+</oai_dc:dc>

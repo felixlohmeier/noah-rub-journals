@@ -1,0 +1,28 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>7400</id>
+	<dc:title xml:lang="en-US">Boomerang Switch in Multiple Rounds. Application to AES Variants and Deoxys</dc:title>
+	<dc:creator>Wang, Haoyang</dc:creator>
+	<dc:creator>Peyrin, Thomas</dc:creator>
+	<dc:subject xml:lang="en-US">Boomerang attack</dc:subject>
+	<dc:subject xml:lang="en-US">Switching effect</dc:subject>
+	<dc:subject xml:lang="en-US">BCT</dc:subject>
+	<dc:subject xml:lang="en-US">Boomerang Difference Table</dc:subject>
+	<dc:subject xml:lang="en-US">AES</dc:subject>
+	<dc:subject xml:lang="en-US">Deoxys</dc:subject>
+	<dc:description xml:lang="en-US">The boomerang attack is a cryptanalysis technique that allows an attacker to concatenate two short differential characteristics. Several research results (ladder switch, S-box switch, sandwich attack, Boomerang Connectivity Table (BCT), ...) showed that the dependency between these two characteristics at the switching round can have a significant impact on the complexity of the attack, or even potentially invalidate it. In this paper, we revisit the issue of boomerang switching effect, and exploit it in the case where multiple rounds are involved. To support our analysis, we propose a tool called Boomerang Difference Table (BDT), which can be seen as an improvement of the BCT and allows a systematic evaluation of the boomerang switch through multiple rounds. In order to illustrate the power of this technique, we propose a new related-key attack on 10-round AES-256 which requires only 2 simple related-keys and 275 computations. This is a much more realistic scenario than the state-of-the-art 10-round AES-256 attacks, where subkey oracles, or several related-keys and high computational power is needed. Furthermore, we also provide improved attacks against full AES-192 and reduced-round Deoxys.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2019-03-08</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tosc.iacr.org/index.php/ToSC/article/view/7400</dc:identifier>
+	<dc:identifier>10.13154/tosc.v2019.i1.142-169</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Symmetric Cryptology; Volume 2019, Issue 1; 142-169</dc:source>
+	<dc:source>2519-173X</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/7400/6572</dc:relation>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/7400/7558</dc:relation>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/7400/7772</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2019 Haoyang Wang, Thomas Peyrin</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0</dc:rights>
+</oai_dc:dc>

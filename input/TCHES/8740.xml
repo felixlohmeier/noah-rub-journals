@@ -1,0 +1,23 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>8740</id>
+	<dc:title xml:lang="en-US">Redundant Code-based Masking Revisited</dc:title>
+	<dc:creator>Costes, Nicolas</dc:creator>
+	<dc:creator>Stam, Martijn</dc:creator>
+	<dc:subject xml:lang="en-US">Coding Theory</dc:subject>
+	<dc:subject xml:lang="en-US">Masking</dc:subject>
+	<dc:subject xml:lang="en-US">Shamir Secret Sharing</dc:subject>
+	<dc:subject xml:lang="en-US">Success Rate</dc:subject>
+	<dc:description xml:lang="en-US">Masking schemes are a popular countermeasure against side-channel attacks. To mask bytes, the two classical options are Boolean masking and polynomial masking. The latter lends itself to redundant masking, where leakage emanates from more shares than are strictly necessary to reconstruct, raising the obvious question how well such “redundant” leakage can be exploited by a side-channel adversary. We revisit the recent work by Chabanne et al. (CHES’18) and show that, contrary to their conclusions, said leakage can—in theory—always be exploited. For the Hamming weight scenario in the low-noise regime, we heuristically determine how security degrades in terms of the number of redundant shares for first and second order secure polynomial masking schemes.Furthermore, we leverage a well-established link between linear secret sharing schemes and coding theory to determine when different masking schemes will end up with essentially equivalent leakage profiles. Surprisingly, we conclude that for typical field sizes and security orders, Boolean masking is a special case of polynomial masking. We also identify quasi-Boolean masking schemes as a special class of redundant polynomial masking and point out that the popular “Frobenius-stable” sets of interpolations points typically lead to such quasi-Boolean masking schemes, with subsequent degraded leakage performance.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2020-12-03</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tches.iacr.org/index.php/TCHES/article/view/8740</dc:identifier>
+	<dc:identifier>10.46586/tches.v2021.i1.426-450</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Cryptographic Hardware and Embedded Systems; Volume 2021, Issue 1; 426-450</dc:source>
+	<dc:source>2569-2925</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/8740/8340</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2020 Nicolas Costes, Martijn Stam</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0/</dc:rights>
+</oai_dc:dc>

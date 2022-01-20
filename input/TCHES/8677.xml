@@ -1,0 +1,28 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>8677</id>
+	<dc:title xml:lang="en-US">Plaintext: A Missing Feature for Enhancing the Power of Deep Learning in Side-Channel Analysis? Breaking multiple layers of side-channel countermeasures</dc:title>
+	<dc:creator>Hoang, Anh-Tuan</dc:creator>
+	<dc:creator>Hanley, Neil</dc:creator>
+	<dc:creator>O’Neill, Maire</dc:creator>
+	<dc:subject xml:lang="en-US">Deep learning</dc:subject>
+	<dc:subject xml:lang="en-US">CNN</dc:subject>
+	<dc:subject xml:lang="en-US">AES</dc:subject>
+	<dc:subject xml:lang="en-US">Plaintext feature extension</dc:subject>
+	<dc:subject xml:lang="en-US">integer encoding</dc:subject>
+	<dc:subject xml:lang="en-US">one-hot encoding</dc:subject>
+	<dc:subject xml:lang="en-US">key reveal</dc:subject>
+	<dc:subject xml:lang="en-US">higher-order masking</dc:subject>
+	<dc:description xml:lang="en-US">Deep learning (DL) has proven to be very effective for image recognition tasks, with a large body of research on various model architectures for object classification. Straight-forward application of DL to side-channel analysis (SCA) has already shown promising success, with experimentation on open-source variable key datasets showing that secret keys can be revealed with 100s traces even in the presence of countermeasures. This paper aims to further improve the application of DL for SCA, by enhancing the power of DL when targeting the secret key of cryptographic algorithms when protected with SCA countermeasures. We propose a new model, CNN-based model with Plaintext feature extension (CNNP) together with multiple convolutional filter kernel sizes and structures with deeper and narrower neural networks, which has empirically proven its effectiveness by outperforming reference profiling attack methods such as template attacks (TAs), convolutional neural networks (CNNs) and multilayer perceptron (MLP) models. Our model generates state-of-the art results when attacking the ASCAD variable-key database, which has a restricted number of training traces per key, recovering the key within 40 attack traces in comparison with order of 100s traces required by straightforward machine learning (ML) application. During the profiling stage an attacker needs no additional knowledge on the implementation, such as the masking scheme or random mask values, only the ability to record the power consumption or electromagnetic field traces, plaintext/ciphertext and the key. Additionally, no heuristic pre-processing is required in order to break the high-order masking countermeasures of the target implementation.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2020-08-26</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tches.iacr.org/index.php/TCHES/article/view/8677</dc:identifier>
+	<dc:identifier>10.13154/tches.v2020.i4.49-85</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Cryptographic Hardware and Embedded Systems; Volume 2020, Issue 4; 49-85</dc:source>
+	<dc:source>2569-2925</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/8677/8236</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2020 Anh-Tuan Hoang, Neil Hanley, Maire O’Neill</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0/</dc:rights>
+</oai_dc:dc>

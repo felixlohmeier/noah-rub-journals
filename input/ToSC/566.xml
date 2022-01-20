@@ -1,0 +1,26 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>566</id>
+	<dc:title xml:lang="en-US">Direct construction of quasi-involutory recursive-like MDS matrices from 2-cyclic codes</dc:title>
+	<dc:creator>Cauchois, Victor</dc:creator>
+	<dc:creator>Loidreau, Pierre</dc:creator>
+	<dc:creator>Merkiche, Nabil</dc:creator>
+	<dc:subject xml:lang="en-US">diffusion layers</dc:subject>
+	<dc:subject xml:lang="en-US">MDS matrices</dc:subject>
+	<dc:subject xml:lang="en-US">involutions</dc:subject>
+	<dc:subject xml:lang="en-US">cyclic codes</dc:subject>
+	<dc:description xml:lang="en-US">A good linear diffusion layer is a prerequisite in the design of block ciphers. Usually it is obtained by combining matrices with optimal diffusion property over the Sbox alphabet. These matrices are constructed either directly using some algebraic properties or by enumerating a search space, testing the optimal diffusion property for every element. For implementation purposes, two types of structures are considered: Structures where all the rows derive from the first row and recursive structures built from powers of companion matrices. In this paper, we propose a direct construction for new recursive-like MDS matrices. We show they are quasi-involutory in the sense that the matrix-vector product with the matrix or with its inverse can be implemented by clocking a same LFSR-like architecture. As a direct construction, performances do not outperform the best constructions found with exhaustive search. However, as a new type of construction, it offers alternatives for MDS matrices design.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2017-02-03</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tosc.iacr.org/index.php/ToSC/article/view/566</dc:identifier>
+	<dc:identifier>10.13154/tosc.v2016.i2.80-98</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Symmetric Cryptology; Volume 2016, Issue 2; 80-98</dc:source>
+	<dc:source>2519-173X</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/566/508</dc:relation>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/566/7463</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2017 Victor Cauchois, Pierre Loidreau, Nabil Merkiche</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0</dc:rights>
+</oai_dc:dc>

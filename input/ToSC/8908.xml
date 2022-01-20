@@ -1,0 +1,28 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>8908</id>
+	<dc:title xml:lang="en-US">Improved Rectangle Attacks on SKINNY and CRAFT</dc:title>
+	<dc:creator>Hadipour, Hosein</dc:creator>
+	<dc:creator>Bagheri, Nasour</dc:creator>
+	<dc:creator>Song, Ling</dc:creator>
+	<dc:subject xml:lang="en-US">Lightweight block cipher</dc:subject>
+	<dc:subject xml:lang="en-US">tweakable cipher</dc:subject>
+	<dc:subject xml:lang="en-US">boomerang</dc:subject>
+	<dc:subject xml:lang="en-US">rectangle</dc:subject>
+	<dc:subject xml:lang="en-US">BCT</dc:subject>
+	<dc:subject xml:lang="en-US">SKINNY</dc:subject>
+	<dc:subject xml:lang="en-US">ForkSkinny</dc:subject>
+	<dc:subject xml:lang="en-US">CRAFT</dc:subject>
+	<dc:description xml:lang="en-US">The boomerang and rectangle attacks are adaptions of differential cryptanalysis that regard the target cipher E as a composition of two sub-ciphers, i.e., E = E1 ∘ E0, to construct a distinguisher for E with probability p2q2 by concatenating two short differential trails for E0 and E1 with probability p and q respectively. According to the previous research, the dependency between these two differential characteristics has a great impact on the probability of boomerang and rectangle distinguishers. Dunkelman et al. proposed the sandwich attack to formalise such dependency that regards E as three parts, i.e., E = E1 ∘ Em ∘ E0, where Em contains the dependency between two differential trails, satisfying some differential propagation with probability r. Accordingly, the entire probability is p2q2r. Recently, Song et al. have proposed a general framework to identify the actual boundaries of Em and systematically evaluate the probability of Em with any number of rounds, and applied their method to accurately evaluate the probabilities of the best SKINNY’s boomerang distinguishers. In this paper, using a more advanced method to search for boomerang distinguishers, we show that the best previous boomerang distinguishers for SKINNY can be significantly improved in terms of probability and number of rounds. More precisely, we propose related-tweakey boomerang distinguishers for up to 19, 21, 23, and 25 rounds of SKINNY-64-128, SKINNY-128-256, SKINNY-64-192 and SKINNY-128-384 respectively, which improve the previous boomerang distinguishers of these variants of SKINNY by 1, 2, 1, and 1 round respectively. Based on the improved boomerang distinguishers for SKINNY, we provide related-tweakey rectangle attacks on 23 rounds of SKINNY-64-128, 24 rounds of SKINNY-128-256, 29 rounds of SKINNY-64-192, and 30 rounds of SKINNY-128-384. It is worth noting that our improved related-tweakey rectangle attacks on SKINNY-64-192, SKINNY-128-256 and SKINNY-128-384 can be directly applied for the same number of rounds of ForkSkinny-64-192, ForkSkinny-128-256 and ForkSkinny-128-384 respectively. CRAFT is another SKINNY-like tweakable block cipher for which we provide the security analysis against rectangle attack for the first time. As a result, we provide a 14-round boomerang distinguisher for CRAFT in the single-tweak model based on which we propose a single-tweak rectangle attack on 18 rounds of this cipher. Moreover, following the previous research regarding the evaluation of switching in multiple rounds of boomerang distinguishers, we also introduce new tools called Double Boomerang Connectivity Table (DBCT), LBCT⫤, and UBCT⊨ to evaluate the boomerang switch through the multiple rounds more accurately.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2021-06-11</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tosc.iacr.org/index.php/ToSC/article/view/8908</dc:identifier>
+	<dc:identifier>10.46586/tosc.v2021.i2.140-198</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Symmetric Cryptology; Volume 2021, Issue 2; 140-198</dc:source>
+	<dc:source>2519-173X</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/8908/8484</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2021 Hosein Hadipour, Nasour Bagheri, Ling Song</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0/</dc:rights>
+</oai_dc:dc>

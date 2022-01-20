@@ -1,0 +1,33 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>7402</id>
+	<dc:title xml:lang="en-US">Zero-Correlation Attacks on Tweakable Block Ciphers with Linear Tweakey Expansion</dc:title>
+	<dc:creator>Ankele, Ralph</dc:creator>
+	<dc:creator>Dobraunig, Christoph</dc:creator>
+	<dc:creator>Guo, Jian</dc:creator>
+	<dc:creator>Lambooij, Eran</dc:creator>
+	<dc:creator>Leander, Gregor</dc:creator>
+	<dc:creator>Todo, Yosuke</dc:creator>
+	<dc:subject xml:lang="en-US">Symmetric-key cryptography</dc:subject>
+	<dc:subject xml:lang="en-US">tweakable block ciphers</dc:subject>
+	<dc:subject xml:lang="en-US">zero-correlation</dc:subject>
+	<dc:subject xml:lang="en-US">integral cryptanalysis</dc:subject>
+	<dc:subject xml:lang="en-US">Qarma</dc:subject>
+	<dc:subject xml:lang="en-US">Mantis</dc:subject>
+	<dc:subject xml:lang="en-US">Skinny</dc:subject>
+	<dc:description xml:lang="en-US">The design and analysis of dedicated tweakable block ciphers is a quite recent and very active research field that provides an ongoing stream of new insights. For instance, results of Kranz, Leander, and Wiemer from FSE 2017 show that the addition of a tweak using a linear tweak schedule does not introduce new linear characteristics. In this paper, we consider – to the best of our knowledge – for the first time the effect of the tweak on zero-correlation linear cryptanalysis for ciphers that have a linear tweak schedule. It turns out that the tweak can often be used to get zero-correlation linear hulls covering more rounds compared to just searching zero-correlation linear hulls on the data-path of a cipher. Moreover, this also implies the existence of integral distinguishers on the same number of rounds. We have applied our technique on round reduced versions of Qarma, Mantis, and Skinny. As a result, we can present – to the best of our knowledge – the best attack (with respect to number of rounds) on a round-reduced variant of Qarma.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2019-03-08</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tosc.iacr.org/index.php/ToSC/article/view/7402</dc:identifier>
+	<dc:identifier>10.13154/tosc.v2019.i1.192-235</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Symmetric Cryptology; Volume 2019, Issue 1; 192-235</dc:source>
+	<dc:source>2519-173X</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/7402/6574</dc:relation>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/7402/7560</dc:relation>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/7402/7770</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2019 Ralph Ankele, Christoph Dobraunig, Jian Guo, Eran Lambooij, Gregor Leander, Yosuke Todo</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0</dc:rights>
+</oai_dc:dc>

@@ -1,0 +1,31 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>8627</id>
+	<dc:title xml:lang="en-US">Lightweight AEAD and Hashing using the Sparkle Permutation Family</dc:title>
+	<dc:creator>Beierle, Christof</dc:creator>
+	<dc:creator>Biryukov, Alex</dc:creator>
+	<dc:creator>Cardoso dos Santos, Luan</dc:creator>
+	<dc:creator>Großschädl, Johann</dc:creator>
+	<dc:creator>Perrin, Léo</dc:creator>
+	<dc:creator>Udovenko, Aleksei</dc:creator>
+	<dc:creator>Velichkov, Vesselin</dc:creator>
+	<dc:creator>Wang, Qingju</dc:creator>
+	<dc:subject xml:lang="en-US">SPARKLE</dc:subject>
+	<dc:subject xml:lang="en-US">NIST</dc:subject>
+	<dc:subject xml:lang="en-US">Authenticated Encryption</dc:subject>
+	<dc:subject xml:lang="en-US">Hash functions</dc:subject>
+	<dc:subject xml:lang="en-US">Lightweight Cryptography</dc:subject>
+	<dc:subject xml:lang="en-US">Long Trail Strategy</dc:subject>
+	<dc:description xml:lang="en-US">We introduce the Sparkle family of permutations operating on 256, 384 and 512 bits. These are combined with the Beetle mode to construct a family of authenticated ciphers, Schwaemm, with security levels ranging from 120 to 250 bits. We also use them to build new sponge-based hash functions, Esch256 and Esch384. Our permutations are among those with the lowest footprint in software, without sacrificing throughput. These properties are allowed by our use of an ARX component (the Alzette S-box) as well as a carefully chosen number of rounds. The corresponding analysis is enabled by the long trail strategy which gives us the tools we need to efficiently bound the probability of all the differential and linear trails for an arbitrary number of rounds. We also present a new application of this approach where the only trails considered are those mapping the rate to the outer part of the internal state, such trails being the only relevant trails for instance in a differential collision attack. To further decrease the number of rounds without compromising security, we modify the message injection in the classical sponge construction to break the alignment between the rate and our S-box layer.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2020-06-22</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tosc.iacr.org/index.php/ToSC/article/view/8627</dc:identifier>
+	<dc:identifier>10.13154/tosc.v2020.iS1.208-261</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Symmetric Cryptology; Volume 2020, Special Issue 1 ; 208-261</dc:source>
+	<dc:source>2519-173X</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/8627/8193</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2020 Christof Beierle, Alex Biryukov, Luan Cardoso dos Santos, Johann Großschädl, Léo Perrin, Aleksei Udovenko, Vesselin Velichkov, Qingju Wang</dc:rights>
+	<dc:rights xml:lang="en-US">http://creativecommons.org/licenses/by/4.0/</dc:rights>
+</oai_dc:dc>

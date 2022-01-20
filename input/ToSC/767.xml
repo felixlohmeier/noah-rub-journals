@@ -1,0 +1,28 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>767</id>
+	<dc:title xml:lang="en-US">Practical Evaluation of FSE 2016 Customized Encoding Countermeasure</dc:title>
+	<dc:creator>Bhasin, Shivam</dc:creator>
+	<dc:creator>Jap, Dirmanto</dc:creator>
+	<dc:creator>Peyrin, Thomas</dc:creator>
+	<dc:subject xml:lang="en-US">side-channel attacks</dc:subject>
+	<dc:subject xml:lang="en-US">software countermeasures</dc:subject>
+	<dc:subject xml:lang="en-US">customized encoding</dc:subject>
+	<dc:subject xml:lang="en-US">block cipher implementation</dc:subject>
+	<dc:subject xml:lang="en-US">microcontroller</dc:subject>
+	<dc:description xml:lang="en-US">To protect against side-channel attacks, many countermeasures have been proposed. A novel customized encoding countermeasure was published in FSE 2016. Customized encoding exploits knowledge of the profiled leakage of the device to construct an optimal encoding and minimize the overall side-channel leakage. This technique was originally applied on a basic table look-up. In this paper, we implement a full block cipher with customized encoding countermeasure and investigate its security under simulated and practical setting for a general purpose microcontroller. Under simulated setting, we can verify that customized encoding shows strong security properties under proper assumption of leakage estimation and noise variance. However, in practical setting, our general observation is that the side-channel leakage will mostly be present even if the encoding scheme is applied, highlighting some limitation of the approach. The results are supported by experiments on 8-bit AVR and 32-bit ARM microcontroller.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2017-09-19</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tosc.iacr.org/index.php/ToSC/article/view/767</dc:identifier>
+	<dc:identifier>10.13154/tosc.v2017.i3.108-129</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Symmetric Cryptology; Volume 2017, Issue 3; 108-129</dc:source>
+	<dc:source>2519-173X</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/767/725</dc:relation>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/767/7606</dc:relation>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/767/7532</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2017 Shivam Bhasin, Dirmanto Jap, Thomas Peyrin</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0</dc:rights>
+</oai_dc:dc>

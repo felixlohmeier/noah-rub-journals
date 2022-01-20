@@ -1,0 +1,29 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>9065</id>
+	<dc:title xml:lang="en-US">ROTed: Random Oblivious Transfer for embedded devices</dc:title>
+	<dc:creator>Branco, P.</dc:creator>
+	<dc:creator>Fiolhais, L.</dc:creator>
+	<dc:creator>Goulão, M.</dc:creator>
+	<dc:creator>Martins, P.</dc:creator>
+	<dc:creator>Mateus, P.</dc:creator>
+	<dc:creator>Sousa, L.</dc:creator>
+	<dc:subject xml:lang="en-US">Oblivious Transfer</dc:subject>
+	<dc:subject xml:lang="en-US">Embedded Systems</dc:subject>
+	<dc:subject xml:lang="en-US">Private Set Intersection</dc:subject>
+	<dc:subject xml:lang="en-US">Universal Composability</dc:subject>
+	<dc:subject xml:lang="en-US">Post-Quantum Cryptography</dc:subject>
+	<dc:description xml:lang="en-US">Oblivious Transfer (OT) is a fundamental primitive in cryptography, supporting protocols such as Multi-Party Computation and Private Set Intersection (PSI), that are used in applications like contact discovery, remote diagnosis and contact tracing. Due to its fundamental nature, it is utterly important that its execution is secure even if arbitrarily composed with other instances of the same, or other protocols. This property can be guaranteed by proving its security under the Universal Composability model. Herein, a 3-round Random Oblivious Transfer (ROT) protocol is proposed, which achieves high computational efficiency, in the Random Oracle Model. The security of the protocol is based on the Ring Learning With Errors assumption (for which no quantum solver is known). ROT is the basis for OT extensions and, thus, achieves wide applicability, without the overhead of compiling ROTs from OTs. Finally, the protocol is implemented in a server-class Intel processor and four application-class ARM processors, all with different architectures. The usage of vector instructions provides on average a 40% speedup. The implementation shows that our proposal is at least one order of magnitude faster than the state-of-the-art, and is suitable for a wide range of applications in embedded systems, IoT, desktop, and servers. From a memory footprint perspective, there is a small increase (16%) when compared to the state-of-the-art. This increase is marginal and should not prevent the usage of the proposed protocol in a multitude of devices. In sum, the proposal achieves up to 37k ROTs/s in an Intel server-class processor and up to 5k ROTs/s in an ARM application-class processor. A PSI application, using the proposed ROT, is up to 6.6 times faster than related art.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2021-08-11</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tches.iacr.org/index.php/TCHES/article/view/9065</dc:identifier>
+	<dc:identifier>10.46586/tches.v2021.i4.215-238</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Cryptographic Hardware and Embedded Systems; Volume 2021, Issue 4; 215-238</dc:source>
+	<dc:source>2569-2925</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/9065/8655</dc:relation>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/9065/8704</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2021 P. Branco, L. Fiolhais, M. Goulão, P. Martins, P. Mateus, L. Sousa</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0/</dc:rights>
+</oai_dc:dc>

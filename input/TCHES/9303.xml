@@ -1,0 +1,31 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>9303</id>
+	<dc:title xml:lang="en-US">Masked Accelerators and Instruction Set Extensions for Post-Quantum Cryptography</dc:title>
+	<dc:creator>Fritzmann, Tim</dc:creator>
+	<dc:creator>Van Beirendonck, Michiel</dc:creator>
+	<dc:creator>Basu Roy, Debapriya</dc:creator>
+	<dc:creator>Karl, Patrick</dc:creator>
+	<dc:creator>Schamberger, Thomas</dc:creator>
+	<dc:creator>Verbauwhede, Ingrid</dc:creator>
+	<dc:creator>Sigl, Georg</dc:creator>
+	<dc:subject xml:lang="en-US">Post-quantum cryptography</dc:subject>
+	<dc:subject xml:lang="en-US">Kyber</dc:subject>
+	<dc:subject xml:lang="en-US">Saber</dc:subject>
+	<dc:subject xml:lang="en-US">masking</dc:subject>
+	<dc:subject xml:lang="en-US">RISC-V</dc:subject>
+	<dc:subject xml:lang="en-US">accelerators</dc:subject>
+	<dc:subject xml:lang="en-US">instruction set extensions</dc:subject>
+	<dc:description xml:lang="en-US">Side-channel attacks can break mathematically secure cryptographic systems leading to a major concern in applied cryptography. While the cryptanalysis and security evaluation of Post-Quantum Cryptography (PQC) have already received an increasing research effort, a cost analysis of efficient side-channel countermeasures is still lacking. In this work, we propose a masked HW/SW codesign of the NIST PQC finalists Kyber and Saber, suitable for their different characteristics. Among others, we present a novel masked ciphertext compression algorithm for non-power-of-two moduli. To accelerate linear performance bottlenecks, we developed a generic Number Theoretic Transform (NTT) multiplier, which, in contrast to previously published accelerators, is also efficient and suitable for schemes not based on NTT. For the critical non-linear operations, masked HW accelerators were developed, allowing a secure execution using RISC-V instruction set extensions. With the proposed design, we achieved a cycle count of K:214k/E:298k/D:313k for Kyber and K:233k/E:312k/D:351k for Saber with NIST Level III parameter sets. For the same parameter sets, the masking overhead for the first-order secure decapsulation operation including randomness generation is a factor of 4.48 for Kyber (D:1403k)and 2.60 for Saber (D:915k).</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2021-11-19</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tches.iacr.org/index.php/TCHES/article/view/9303</dc:identifier>
+	<dc:identifier>10.46586/tches.v2022.i1.414-460</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Cryptographic Hardware and Embedded Systems; Volume 2022, Issue 1; 414-460</dc:source>
+	<dc:source>2569-2925</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/9303/8869</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2021 Tim Fritzmann, Michiel Van Beirendonck, Debapriya Basu Roy, Patrick Karl, Thomas Schamberger, Ingrid Verbauwhede, Georg Sigl</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0/</dc:rights>
+</oai_dc:dc>

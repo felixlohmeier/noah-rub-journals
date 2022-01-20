@@ -1,0 +1,27 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>7283</id>
+	<dc:title xml:lang="en-US">FACE: Fast AES CTR mode Encryption Techniques based on the Reuse of Repetitive Data</dc:title>
+	<dc:creator>Park, Jin Hyung</dc:creator>
+	<dc:creator>Lee, Dong Hoon</dc:creator>
+	<dc:subject xml:lang="en-US">AES</dc:subject>
+	<dc:subject xml:lang="en-US">counter mode</dc:subject>
+	<dc:subject xml:lang="en-US">efficient software implementation</dc:subject>
+	<dc:subject xml:lang="en-US">AES bitslicing</dc:subject>
+	<dc:subject xml:lang="en-US">AES-NI</dc:subject>
+	<dc:description xml:lang="en-US">The Advanced Encryption Standard (AES) algorithm and Counter (CTR) mode are used for numerous services as an encryption technique that provides confidentiality. Even though the AES with counter (AES CTR) mode has an advantage in that it can process multiple data blocks in parallel, its implementation should also be observed to reduce the computational burden of current services.In this paper, we propose an implementation method called FACE that can improve the performance of the AES CTR mode. The proposed method is based on five caches of frequently occurring intermediate values, so that it reduces the number of unnecessary computations. Our method can be employed in any AES CTR implementation, regardless of the platform, environment, or implementation method. There are two known AES implementation techniques, namely, counter-mode caching and bitslicing. FACE extends counter-mode caching in order to optimize the previous result and to maximize the scope of caching. We show that FACE can be applied efficiently to various implementations (table-based, bitsliced, and AES-NI-based). In particular, this is the first attempt to combine our extended counter-mode caching with bitsliced implementations of AES, and is also the first to apply counter-mode caching up to the round transformations of AES-NI implementation. To prove the efficiency of our proposed method, we conduct a performance evaluation in various environments, which we then compare with the previous fastest results. Our bitsliced FACE needs 6.41 cycles/byte on an Intel Core 2, and AES-NI-based FACE records 0.44 cycles/byte on an Intel Core i7.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2018-08-16</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tches.iacr.org/index.php/TCHES/article/view/7283</dc:identifier>
+	<dc:identifier>10.13154/tches.v2018.i3.469-499</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Cryptographic Hardware and Embedded Systems; Volume 2018, Issue 3; 469-499</dc:source>
+	<dc:source>2569-2925</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/7283/6460</dc:relation>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/7283/7954</dc:relation>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/7283/7955</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2018 Jin Hyung Park, Dong Hoon Lee</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0</dc:rights>
+</oai_dc:dc>

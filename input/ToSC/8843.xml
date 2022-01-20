@@ -1,0 +1,24 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>8843</id>
+	<dc:title xml:lang="en-US">Resistance of SNOW-V against Fast Correlation Attacks</dc:title>
+	<dc:creator>Gong, Xinxin</dc:creator>
+	<dc:creator>Zhang, Bin</dc:creator>
+	<dc:subject xml:lang="en-US">Stream ciphers</dc:subject>
+	<dc:subject xml:lang="en-US">SNOW-V</dc:subject>
+	<dc:subject xml:lang="en-US">FSM</dc:subject>
+	<dc:subject xml:lang="en-US">Bitwise Fast correlation attack</dc:subject>
+	<dc:subject xml:lang="en-US">Byte-wise Linear Approximations</dc:subject>
+	<dc:description xml:lang="en-US">SNOW-V is a new member in the SNOW family of stream ciphers, hoping to be competitive in the 5G mobile communication system. In this paper, we study the resistance of SNOW-V against bitwise fast correlation attacks by constructing bitwise linear approximations. First, we propose and summarize some efficient algorithms using the slice-like techniques to compute the bitwise linear approximations of certain types of composition functions composed of basic operations like ⊞, ⊕, Permutation, and S-box, which have been widely used in word-oriented stream ciphers such as SNOW-like ciphers. Then, using these algorithms, we find a number of stronger linear approximations for the FSM of the two variants of SNOW-V given in the design document, i.e., SNOW-V σ0 and SNOW-V⊞8, ⊞8. For SNOW-V σ0, where there is no byte-wise permutation, we find some bitwise linear approximations of the FSM with the SEI (Squared Euclidean Imbalance) around 2−37.34 and mount a bitwise fast correlation attack with the time complexity 2251.93 and memory complexity 2244, given 2103.83 keystream outputs, which improves greatly the results in the design document. For SNOW-V⊞8, ⊞8, where both of the two 32-bit adders in the FSM are replaced by 8-bit adders, we find our best bitwise linear approximations of the FSM with the SEI 2−174.14, while the best byte-wise linear approximation in the design document of SNOW-V has the SEI 2−214.80. Finally, we study the security of a closer variant of SNOW-V, denoted by SNOW-V⊞32, ⊞8, where only the 32-bit adder used for updating the first register is replaced by the 8-bit adder, while everything else remains identical. For SNOW-V⊞32, ⊞8, we derive many mask tuples yielding the bitwise linear approximations of the FSM with the SEI larger than 2−184. Using these linear approximations, we mount a fast correlation attack with the time complexity 2377.01 and a memory complexity 2363, given 2253.73 keystream outputs. Note that neither of our attack threatens the security of SNOW-V. We hope our research could further help in understanding bitwise linear approximation attacks and also the structure of SNOW-like stream ciphers.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2021-03-19</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tosc.iacr.org/index.php/ToSC/article/view/8843</dc:identifier>
+	<dc:identifier>10.46586/tosc.v2021.i1.378-410</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Symmetric Cryptology; Volume 2021, Issue 1; 378-410</dc:source>
+	<dc:source>2519-173X</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/8843/8446</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2021 Xinxin Gong, Bin Zhang</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0/</dc:rights>
+</oai_dc:dc>

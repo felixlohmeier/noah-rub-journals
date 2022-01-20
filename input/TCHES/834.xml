@@ -1,0 +1,30 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>834</id>
+	<dc:title xml:lang="en-US">A Cautionary Note When Looking for a Truly Reconfigurable Resistive RAM PUF</dc:title>
+	<dc:creator>Chuang, Kai-Hsin</dc:creator>
+	<dc:creator>Degraeve, Robin</dc:creator>
+	<dc:creator>Fantini, Andrea</dc:creator>
+	<dc:creator>Groeseneken, Guido</dc:creator>
+	<dc:creator>Linten, Dimitri</dc:creator>
+	<dc:creator>Verbauwhede, Ingrid</dc:creator>
+	<dc:subject xml:lang="en-US">physically unclonable function</dc:subject>
+	<dc:subject xml:lang="en-US">reconfigurable</dc:subject>
+	<dc:subject xml:lang="en-US">nonvolatile memory</dc:subject>
+	<dc:subject xml:lang="en-US">resistive RAM</dc:subject>
+	<dc:description xml:lang="en-US">The reconfigurable physically unclonable function (PUF) is an advanced security hardware primitive, suitable for applications requiring key renewal or similar refresh functions. The Oxygen vacancies-based resistive RAM (RRAM), has been claimed to be a physically reconfigurable PUF due to its intrinsic switching variability. This paper first analyzes and compares various previously published RRAM-based PUFs with a physics-based RRAM model. We next discuss their possible reconfigurability assuming an ideal configuration-to-configuration behavior. The RRAM-to-RRAM variability, which mainly originates from a variable number of unremovable vacancies inside the RRAM filament, however, has been observed to have significant impact on the reconfigurability. We show by quantitative analysis on the clear uniqueness degradation from the ideal situation in all the discussed implementations. Thus we conclude that true reconfigurability with RRAM PUFs might be unachievable due to this physical phenomena.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2018-02-14</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tches.iacr.org/index.php/TCHES/article/view/834</dc:identifier>
+	<dc:identifier>10.13154/tches.v2018.i1.98-117</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Cryptographic Hardware and Embedded Systems; Volume 2018, Issue 1; 98-117</dc:source>
+	<dc:source>2569-2925</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/834/786</dc:relation>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/834/8004</dc:relation>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/834/8005</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2018 Kai-Hsin Chuang, Robin Degraeve, Andrea Fantini, Guido Groeseneken, Dimitri Linten, Ingrid Verbauwhede</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0</dc:rights>
+</oai_dc:dc>

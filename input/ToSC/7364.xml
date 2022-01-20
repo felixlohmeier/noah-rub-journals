@@ -1,0 +1,25 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>7364</id>
+	<dc:title xml:lang="en-US">Key Prediction Security of Keyed Sponges</dc:title>
+	<dc:creator>Mennink, Bart</dc:creator>
+	<dc:subject xml:lang="en-US">outer-keyed sponge</dc:subject>
+	<dc:subject xml:lang="en-US">full-keyed sponge</dc:subject>
+	<dc:subject xml:lang="en-US">key prediction</dc:subject>
+	<dc:subject xml:lang="en-US">graph-based proof</dc:subject>
+	<dc:description xml:lang="en-US">The keyed sponge is a well-accepted method for message authentication. It processes data at a certain rate by sequential evaluation of an underlying permutation. If the key size k is smaller than the rate, currently known bounds are tight, but if it exceeds the rate, state of the art only dictates security up to 2k/2. We take closer inspection at the key prediction security of the sponge and close the remaining gap in the existing security analysis: we confirm key security up to close to 2k, regardless of the rate. The result impacts all applications of the keyed sponge and duplex that process at a rate smaller than the key size, including the STROBE protocol framework, as well as the related constructions such as HMAC-SHA-3 and the sandwich sponge.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2018-12-13</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tosc.iacr.org/index.php/ToSC/article/view/7364</dc:identifier>
+	<dc:identifier>10.13154/tosc.v2018.i4.128-149</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Symmetric Cryptology; Volume 2018, Issue 4; 128-149</dc:source>
+	<dc:source>2519-173X</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/7364/6534</dc:relation>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/7364/7550</dc:relation>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/7364/7758</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2018 Bart Mennink</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0</dc:rights>
+</oai_dc:dc>

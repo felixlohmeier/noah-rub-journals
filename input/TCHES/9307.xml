@@ -1,0 +1,26 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>9307</id>
+	<dc:title xml:lang="en-US">Racing BIKE: Improved Polynomial Multiplication and Inversion in Hardware</dc:title>
+	<dc:creator>Richter-Brockmann, Jan</dc:creator>
+	<dc:creator>Chen, Ming-Shing</dc:creator>
+	<dc:creator>Ghosh, Santosh</dc:creator>
+	<dc:creator>Güneysu, Tim</dc:creator>
+	<dc:subject xml:lang="en-US">BIKE</dc:subject>
+	<dc:subject xml:lang="en-US">QC-MDPC</dc:subject>
+	<dc:subject xml:lang="en-US">PQC</dc:subject>
+	<dc:subject xml:lang="en-US">Reconfigurable Devices</dc:subject>
+	<dc:subject xml:lang="en-US">FPGA</dc:subject>
+	<dc:description xml:lang="en-US">BIKE is a Key Encapsulation Mechanism selected as an alternate candidate in NIST’s PQC standardization process, in which performance plays a significant role in the third round. This paper presents FPGA implementations of BIKE with the best area-time performance reported in literature. We optimize two key arithmetic operations, which are the sparse polynomial multiplication and the polynomial inversion. Our sparse multiplier achieves time-constancy for sparse polynomials of indefinite Hamming weight used in BIKE’s encapsulation. The polynomial inversion is based on the extended Euclidean algorithm, which is unprecedented in current BIKE implementations. Our optimized design results in a 5.5 times faster key generation compared to previous implementations based on Fermat’s little theorem.Besides the arithmetic optimizations, we present a united hardware design of BIKE with shared resources and shared sub-modules among KEM functionalities. On Xilinx Artix-7 FPGAs, our light-weight implementation consumes only 3 777 slices and performs a key generation, encapsulation, and decapsulation in 3 797 μs, 443 μs, and 6 896 μs, respectively. Our high-speed design requires 7 332 slices and performs the three KEM operations in 1 672 μs, 132 μs, and 1 892 μs, respectively.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2021-11-19</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tches.iacr.org/index.php/TCHES/article/view/9307</dc:identifier>
+	<dc:identifier>10.46586/tches.v2022.i1.557-588</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Cryptographic Hardware and Embedded Systems; Volume 2022, Issue 1; 557-588</dc:source>
+	<dc:source>2569-2925</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/9307/8873</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2021 Jan Richter-Brockmann , Ming-Shing Chen, Santosh Ghosh, Tim Güneysu</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0/</dc:rights>
+</oai_dc:dc>

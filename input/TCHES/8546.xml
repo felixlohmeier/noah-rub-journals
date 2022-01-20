@@ -1,0 +1,28 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>8546</id>
+	<dc:title xml:lang="en-US">Dismantling DST80-based Immobiliser Systems</dc:title>
+	<dc:creator>Wouters, Lennert</dc:creator>
+	<dc:creator>Van den Herrewegen, Jan</dc:creator>
+	<dc:creator>Garcia, Flavio D.</dc:creator>
+	<dc:creator>Oswald, David</dc:creator>
+	<dc:creator>Gierlichs, Benedikt</dc:creator>
+	<dc:creator>Preneel, Bart</dc:creator>
+	<dc:subject xml:lang="en-US">Vehicle immobilisers</dc:subject>
+	<dc:subject xml:lang="en-US">Digital Signature Transponder</dc:subject>
+	<dc:subject xml:lang="en-US">DST80</dc:subject>
+	<dc:subject xml:lang="en-US">key diversification</dc:subject>
+	<dc:subject xml:lang="en-US">side-channel attacks</dc:subject>
+	<dc:description xml:lang="en-US">Car manufacturers deploy vehicle immobiliser systems in order to prevent car theft. However, in many cases the underlying cryptographic primitives used to authenticate a transponder are proprietary in nature and thus not open to public scrutiny. In this paper we publish the proprietary Texas Instruments DST80 cipher used in immobilisers of several manufacturers. Additionally, we expose serious flaws in immobiliser systems of major car manufacturers such as Toyota, Kia, Hyundai and Tesla. Specifically, by voltage glitching the firmware protection mechanisms of the microcontroller, we extracted the firmware from several immobiliser ECUs and reverse engineered the key diversification schemes employed within. We discovered that Kia and Hyundai immobiliser keys have only three bytes of entropy and that Toyota only relies on publicly readable information such as the transponder serial number and three constants to generate cryptographic keys. Furthermore, we present several practical attacks which can lead to recovering the full 80-bit cryptographic key in a matter of seconds or permanently disabling the transponder. Finally, even without key management or configuration issues, we demonstrate how an attacker can recover the cryptographic key using a profiled side-channel attack. We target the key loading procedure and investigate the practical applicability in the context of portability. Our work once again highlights the issues automotive vendors face in implementing cryptography securely.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2020-03-02</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tches.iacr.org/index.php/TCHES/article/view/8546</dc:identifier>
+	<dc:identifier>10.13154/tches.v2020.i2.99-127</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Cryptographic Hardware and Embedded Systems; Volume 2020, Issue 2; 99-127</dc:source>
+	<dc:source>2569-2925</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/8546/8111</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2020 Lennert Wouters, Jan Van den Herrewegen, Flavio D. Garcia, David Oswald, Benedikt Gierlichs, Bart Preneel</dc:rights>
+	<dc:rights xml:lang="en-US">http://creativecommons.org/licenses/by/4.0/</dc:rights>
+</oai_dc:dc>

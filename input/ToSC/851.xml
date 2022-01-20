@@ -1,0 +1,26 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>851</id>
+	<dc:title xml:lang="en-US">Revisiting and Improving Algorithms for the 3XOR Problem</dc:title>
+	<dc:creator>Bouillaguet, Charles</dc:creator>
+	<dc:creator>Delaplace, Claire</dc:creator>
+	<dc:creator>Fouque, Pierre-Alain</dc:creator>
+	<dc:subject xml:lang="en-US">3XOR problem</dc:subject>
+	<dc:subject xml:lang="en-US">Wagner’s algorithm</dc:subject>
+	<dc:subject xml:lang="en-US">generalized birthday</dc:subject>
+	<dc:description xml:lang="en-US">The 3SUM problem is a well-known problem in computer science and many geometric problems have been reduced to it. We study the 3XOR variant which is more cryptologically relevant. In this problem, the attacker is given black-box access to three random functions F,G and H and she has to find three inputs x, y and z such that F(x) ⊕ G(y) ⊕ H(z) = 0. The 3XOR problem is a difficult case of the more-general k-list birthday problem. Wagner’s celebrated k-list birthday algorithm, and the ones inspired by it, work by querying the functions more than strictly necessary from an information-theoretic point of view. This gives some leeway to target a solution of a specific form, at the expense of processing a huge amount of data. However, to handle such a huge amount of data can be very difficult in practice. This is why we first restricted our attention to solving the 3XOR problem for which the total number of queries to F, G and H is minimal. If they are n-bit random functions, it is possible to solve the problem with roughly</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2018-03-01</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tosc.iacr.org/index.php/ToSC/article/view/851</dc:identifier>
+	<dc:identifier>10.13154/tosc.v2018.i1.254-276</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Symmetric Cryptology; Volume 2018, Issue 1; 254-276</dc:source>
+	<dc:source>2519-173X</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/851/803</dc:relation>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/851/7624</dc:relation>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/851/7524</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2018 Charles Bouillaguet, Claire Delaplace, Pierre-Alain Fouque</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0</dc:rights>
+</oai_dc:dc>

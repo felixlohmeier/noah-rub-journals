@@ -1,0 +1,26 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>8835</id>
+	<dc:title xml:lang="en-US">Misuse-Free Key-Recovery and Distinguishing Attacks on 7-Round Ascon</dc:title>
+	<dc:creator>Rohit, Raghvendra</dc:creator>
+	<dc:creator>Hu, Kai</dc:creator>
+	<dc:creator>Sarkar, Sumanta</dc:creator>
+	<dc:creator>Sun, Siwei</dc:creator>
+	<dc:subject xml:lang="en-US">Ascon</dc:subject>
+	<dc:subject xml:lang="en-US">Authenticated encryption</dc:subject>
+	<dc:subject xml:lang="en-US">Cube attack</dc:subject>
+	<dc:subject xml:lang="en-US">Division property</dc:subject>
+	<dc:subject xml:lang="en-US">Partial polynomial multiplication</dc:subject>
+	<dc:description xml:lang="en-US">Being one of the winning algorithms of the CAESAR competition and currently a second round candidate of the NIST lightweight cryptography standardization project, the authenticated encryption scheme Ascon (designed by Dobraunig, Eichlseder, Mendel, and Schläffer) has withstood extensive self and third-party cryptanalysis. The best known attack on Ascon could only penetrate up to 7 (out of 12) rounds due to Li et al. (ToSC Vol I, 2017). However, it violates the data limit of 264 blocks per key specified by the designers. Moreover, the best known distinguishers of Ascon in the AEAD context reach only 6 rounds. To fill these gaps, we revisit the security of 7-round Ascon in the nonce-respecting setting without violating the data limit as specified in the design. First, we introduce a new superpoly-recovery technique named as partial polynomial multiplication for which computations take place between the so-called degree-d homogeneous parts of the involved Boolean functions for a 2d-dimensional cube. We apply this method to 7-round Ascon and present several key recovery attacks. Our best attack can recover the 128-bit secret key with a time complexity of about 2123 7-round Ascon permutations and requires 264 data and 2101 bits memory. Also, based on division properties, we identify several 60 dimensional cubes whose superpolies are constant zero after 7 rounds. We further improve the cube distinguishers for 4, 5 and 6 rounds. Although our results are far from threatening the security of full 12-round Ascon, they provide new insights in the security analysis of Ascon.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2021-03-19</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tosc.iacr.org/index.php/ToSC/article/view/8835</dc:identifier>
+	<dc:identifier>10.46586/tosc.v2021.i1.130-155</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Symmetric Cryptology; Volume 2021, Issue 1; 130-155</dc:source>
+	<dc:source>2519-173X</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/8835/8438</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2021 Raghvendra Rohit, Kai Hu, Sumanta Sarkar, Siwei Sun</dc:rights>
+	<dc:rights xml:lang="en-US">http://creativecommons.org/licenses/by/4.0</dc:rights>
+</oai_dc:dc>

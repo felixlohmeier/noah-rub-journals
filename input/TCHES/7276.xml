@@ -1,0 +1,30 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>7276</id>
+	<dc:title xml:lang="en-US">ES-TRNG: A High-throughput, Low-area True Random Number Generator based on Edge Sampling</dc:title>
+	<dc:creator>Yang, Bohan</dc:creator>
+	<dc:creator>Rožic, Vladimir</dc:creator>
+	<dc:creator>Grujic, Miloš</dc:creator>
+	<dc:creator>Mentens, Nele</dc:creator>
+	<dc:creator>Verbauwhede, Ingrid</dc:creator>
+	<dc:subject xml:lang="en-US">Hardware random number generators</dc:subject>
+	<dc:subject xml:lang="en-US">ring oscillators</dc:subject>
+	<dc:subject xml:lang="en-US">entropy</dc:subject>
+	<dc:subject xml:lang="en-US">FPGA</dc:subject>
+	<dc:subject xml:lang="en-US">stochastic model</dc:subject>
+	<dc:description xml:lang="en-US">In this paper we present a novel true random number generator based on high-precision edge sampling. We use two novel techniques to increase the throughput and reduce the area of the proposed randomness source: variable-precision phase encoding and repetitive sampling. The first technique consists of encoding the oscillator phase with high precision in the regions around the signal edges and with low precision everywhere else. This technique results in a compact implementation at the expense of reduced entropy in some samples. The second technique consists of repeating the sampling at high frequency until the phase region encoded with high precision is captured. This technique ensures that only the high-entropy bits are sent to the output. The combination of the two proposed techniques results in a secure TRNG, which suits both ASIC and FPGA implementations. The core part of the proposed generator is implemented with 10 look-up tables (LUTs) and 5 flip-flops (FFs) of a Xilinx Spartan-6 FPGA, and achieves a throughput of 1.15 Mbps with 0.997 bits of Shannon entropy. On Intel Cyclone V FPGAs, this implementation uses 10 LUTs and 6 FFs, and achieves a throughput of 1.07 Mbps. This TRNG design is supported by a stochastic model and a formal security evaluation.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2018-08-14</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tches.iacr.org/index.php/TCHES/article/view/7276</dc:identifier>
+	<dc:identifier>10.13154/tches.v2018.i3.267-292</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Cryptographic Hardware and Embedded Systems; Volume 2018, Issue 3; 267-292</dc:source>
+	<dc:source>2569-2925</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/7276/6454</dc:relation>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/7276/7942</dc:relation>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/7276/7943</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2018 Bohan Yang, Vladimir Rožic, Miloš Grujic, Nele Mentens, Ingrid Verbauwhede</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0</dc:rights>
+</oai_dc:dc>

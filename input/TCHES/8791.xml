@@ -1,0 +1,30 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>8791</id>
+	<dc:title xml:lang="en-US">NTT Multiplication for NTT-unfriendly Rings: New Speed Records for Saber and NTRU on Cortex-M4 and AVX2</dc:title>
+	<dc:creator>Chung, Chi-Ming Marvin</dc:creator>
+	<dc:creator>Hwang, Vincent</dc:creator>
+	<dc:creator>Kannwischer, Matthias J.</dc:creator>
+	<dc:creator>Seiler, Gregor</dc:creator>
+	<dc:creator>Shih, Cheng-Jhih </dc:creator>
+	<dc:creator>Yang, Bo-Yin </dc:creator>
+	<dc:subject xml:lang="en-US">Polynomial Multiplication</dc:subject>
+	<dc:subject xml:lang="en-US">NTT Multiplication</dc:subject>
+	<dc:subject xml:lang="en-US">Saber</dc:subject>
+	<dc:subject xml:lang="en-US">NTRU</dc:subject>
+	<dc:subject xml:lang="en-US">Cortex-M4</dc:subject>
+	<dc:subject xml:lang="en-US">AVX2</dc:subject>
+	<dc:description xml:lang="en-US">In this paper, we show how multiplication for polynomial rings used in the NIST PQC finalists Saber and NTRU can be efficiently implemented using the Number-theoretic transform (NTT). We obtain superior performance compared to the previous state of the art implementations using Toom–Cook multiplication on both NIST’s primary software optimization targets AVX2 and Cortex-M4. Interestingly, these two platforms require different approaches: On the Cortex-M4, we use 32-bit NTT-based polynomial multiplication, while on Intel we use two 16-bit NTT-based polynomial multiplications and combine the products using the Chinese Remainder Theorem (CRT).For Saber, the performance gain is particularly pronounced. On Cortex-M4, the Saber NTT-based matrix-vector multiplication is 61% faster than the Toom–Cook multiplication resulting in 22% fewer cycles for Saber encapsulation. For NTRU, the speed-up is less impressive, but still NTT-based multiplication performs better than Toom–Cook for all parameter sets on Cortex-M4. The NTT-based polynomial multiplication for NTRU-HRSS is 10% faster than Toom–Cook which results in a 6% cost reduction for encapsulation. On AVX2, we obtain speed-ups for three out of four NTRU parameter sets.As a further illustration, we also include code for AVX2 and Cortex-M4 for the Chinese Association for Cryptologic Research competition award winner LAC (also a NIST round 2 candidate) which outperforms existing code.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2021-02-23</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tches.iacr.org/index.php/TCHES/article/view/8791</dc:identifier>
+	<dc:identifier>10.46586/tches.v2021.i2.159-188</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Cryptographic Hardware and Embedded Systems; Volume 2021, Issue 2; 159-188</dc:source>
+	<dc:source>2569-2925</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/8791/8391</dc:relation>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/8791/8605</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2021 Chi-Ming Marvin Chung, Vincent Hwang, Matthias J. Kannwischer, Gregor Seiler, Cheng-Jhih Shih, Bo-Yin Yang</dc:rights>
+	<dc:rights xml:lang="en-US">http://creativecommons.org/licenses/by/4.0/</dc:rights>
+</oai_dc:dc>

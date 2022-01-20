@@ -1,0 +1,24 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>8678</id>
+	<dc:title xml:lang="en-US">Rejection Sampling Schemes for Extracting Uniform Distribution from Biased PUFs</dc:title>
+	<dc:creator>Ueno, Rei</dc:creator>
+	<dc:creator>Kazumori, Kohei</dc:creator>
+	<dc:creator>Homma, Naofumi</dc:creator>
+	<dc:subject xml:lang="en-US">Physically unclonable function (PUF)</dc:subject>
+	<dc:subject xml:lang="en-US">Secure key generation</dc:subject>
+	<dc:subject xml:lang="en-US">Fuzzy extractor</dc:subject>
+	<dc:subject xml:lang="en-US">Debiasing</dc:subject>
+	<dc:description xml:lang="en-US">This paper presents an efficient fuzzy extractor (FE) construction for secure cryptographic key generation from physically unclonable functions (PUFs). The proposed FE, named acceptance-or-rejection (AR)-based FE, utilizes a new debiasing scheme to extract a uniform distribution from a biased PUF response. The proposed debiasing scheme employs the principle of rejection sampling, and can extract a longer debiased bit string compared to those of conventional debiasing schemes. In addition, the proposed AR-based FE is extended to ternary PUF responses (i.e., ternary encoding of a PUF response). These responses can be derived according to cell-wise reliability of the PUF and are promising for extraction of stable and high-entropy responses from common PUFs. The performance of the AR-based Fes is evaluated through an experimental simulation of PUF-based key generation and compared with conventional FEs. We confirm that the proposed AR-based FE can achieve the highest efficiency in terms of PUF and nonvolatile memory (NVM) sizes for various PUF conditions among the conventional counterparts. More precisely, the AR-based FE can realize a 128-bit key generation with up-to 55% smaller PUF size or up-to 72% smaller NVM size than other conventional FEs. In addition, the ternary AR-based FE is up to 55% more efficient than the binary version, and can also achieve up-to 63% higher efficiency than conventional counterparts. Furthermore, we show that the AR-based FE can be applied to PUFs with local biases (e.g., biases depending on cell location in SRAM PUFs), unlike all the conventional schemes, for which only global (or identical) biases are assumed.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2020-08-26</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tches.iacr.org/index.php/TCHES/article/view/8678</dc:identifier>
+	<dc:identifier>10.13154/tches.v2020.i4.86-128</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Cryptographic Hardware and Embedded Systems; Volume 2020, Issue 4; 86-128</dc:source>
+	<dc:source>2569-2925</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/8678/8237</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2020 Rei Ueno, Kohei Kazumori and Naofumi Homma</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0/</dc:rights>
+</oai_dc:dc>

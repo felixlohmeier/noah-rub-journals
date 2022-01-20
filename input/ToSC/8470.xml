@@ -1,0 +1,25 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>8470</id>
+	<dc:title xml:lang="en-US">New Techniques for Searching Differential Trails in Keccak</dc:title>
+	<dc:creator>Liu, Guozhen</dc:creator>
+	<dc:creator>Qiu, Weidong</dc:creator>
+	<dc:creator>Tu, Yi</dc:creator>
+	<dc:subject xml:lang="en-US">SHA3</dc:subject>
+	<dc:subject xml:lang="en-US">Keccak-f</dc:subject>
+	<dc:subject xml:lang="en-US">Differential Trail Search</dc:subject>
+	<dc:subject xml:lang="en-US">Exhaustive Search</dc:subject>
+	<dc:subject xml:lang="en-US">Lower Bound of Differential Trail</dc:subject>
+	<dc:description xml:lang="en-US">Keccak-f is the permutation used in the NIST SHA-3 hash function standard. Inspired by the previous exhaustive differential trail search methods by Mella et al. at ToSC 2017, we introduce in this paper new algorithms to cover 3-round trail cores with propagation weight at least 53, up from the previous best weight 45. To achieve the goal, the concept of ideal improvement assumption is proposed to construct theoretical representative of subspaces so as to efficiently cover the search space of 3-round trail cores with at least one out-Kernel α state. Of particular note is that the exhaustiveness in 3-round trail core search of at least one out-Kernel α is only experimentally verified. With the knowledge of all 3-round trail cores of weight up to 53, lower bounds on 4/5/6-round trails are tightened to 56/58/108, from the previous 48/50/92, respectively.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2020-01-31</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tosc.iacr.org/index.php/ToSC/article/view/8470</dc:identifier>
+	<dc:identifier>10.13154/tosc.v2019.i4.407-437</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Symmetric Cryptology; Volume 2019, Issue 4; 407-437</dc:source>
+	<dc:source>2519-173X</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/8470/8036</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2020 Guozhen Liu, Weidong Qiu, Yi Tu</dc:rights>
+	<dc:rights xml:lang="en-US">http://creativecommons.org/licenses/by/4.0/</dc:rights>
+</oai_dc:dc>

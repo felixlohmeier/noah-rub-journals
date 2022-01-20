@@ -1,0 +1,30 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>7340</id>
+	<dc:title xml:lang="en-US">Error Amplification in Code-based Cryptography</dc:title>
+	<dc:creator>Nilsson, Alexander</dc:creator>
+	<dc:creator>Johansson, Thomas</dc:creator>
+	<dc:creator>Stankovski Wagner, Paul</dc:creator>
+	<dc:subject xml:lang="en-US">post-quantum cryptography</dc:subject>
+	<dc:subject xml:lang="en-US">MDPC</dc:subject>
+	<dc:subject xml:lang="en-US">timing attack</dc:subject>
+	<dc:subject xml:lang="en-US">side-channel attack</dc:subject>
+	<dc:subject xml:lang="en-US">iterative decoding</dc:subject>
+	<dc:subject xml:lang="en-US">error amplification</dc:subject>
+	<dc:subject xml:lang="en-US">error pattern chaining</dc:subject>
+	<dc:description xml:lang="en-US">Code-based cryptography is one of the main techniques enabling cryptographic primitives in a post-quantum scenario. In particular, the MDPC scheme is a basic scheme from which many other schemes have been derived. These schemes rely on iterative decoding in the decryption process and thus have a certain small probability p of having a decryption (decoding) error.In this paper we show a very fundamental and important property of code-based encryption schemes. Given one initial error pattern that fails to decode, the time needed to generate another message that fails to decode is strictly much less than 1/p. We show this by developing a method for fast generation of undecodable error patterns (error pattern chaining), which additionally proves that a measure of closeness in ciphertext space can be exploited through its strong linkage to the difficulty of decoding these messages. Furthermore, if side-channel information is also available (time to decode), then the initial error pattern no longer needs to be given since one can be easily generated in this case.These observations are fundamentally important because they show that a, say, 128- bit encryption scheme is not inherently safe from reaction attacks even if it employs a decoder with a failure rate of 2−128. In fact, unless explicit protective measures are taken, having a failure rate at all – of any magnitude – can pose a security problem because of the error amplification effect of our method.A key-recovery reaction attack was recently shown on the MDPC scheme as well as similar schemes, taking advantage of decoding errors in order to recover the secret key. It was also shown that knowing the number of iterations in the iterative decoding step, which could be received in a timing attack, would also enable and enhance such an attack. In this paper we apply our error pattern chaining method to show how to improve the performance of such reaction attacks in the CPA case. We show that after identifying a single decoding error (or a decoding step taking more time than expected in a timing attack), we can adaptively create new error patterns that have a much higher decoding error probability than for a random error. This leads to a significant improvement of the attack based on decoding errors in the CPA case and it also gives the strongest known attack on MDPC-like schemes, both with and without using side-channel information.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2018-11-09</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tches.iacr.org/index.php/TCHES/article/view/7340</dc:identifier>
+	<dc:identifier>10.13154/tches.v2019.i1.238-258</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Cryptographic Hardware and Embedded Systems; Volume 2019, Issue 1; 238-258</dc:source>
+	<dc:source>2569-2925</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/7340/6512</dc:relation>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/7340/7919</dc:relation>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/7340/7920</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2018 Alexander Nilsson, Thomas Johansson, Paul Stankovski Wagner</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0</dc:rights>
+</oai_dc:dc>

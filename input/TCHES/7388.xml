@@ -1,0 +1,31 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>7388</id>
+	<dc:title xml:lang="en-US">Deep Learning to Evaluate Secure RSA Implementations</dc:title>
+	<dc:creator>Carbone, Mathieu</dc:creator>
+	<dc:creator>Conin, Vincent</dc:creator>
+	<dc:creator>Cornélie, Marie-Angela</dc:creator>
+	<dc:creator>Dassance, François</dc:creator>
+	<dc:creator>Dufresne, Guillaume</dc:creator>
+	<dc:creator>Dumas, Cécile</dc:creator>
+	<dc:creator>Prouff, Emmanuel</dc:creator>
+	<dc:creator>Venelli, Alexandre</dc:creator>
+	<dc:subject xml:lang="en-US">Side-Channel Attacks</dc:subject>
+	<dc:subject xml:lang="en-US">RSA</dc:subject>
+	<dc:subject xml:lang="en-US">Deep Learning</dc:subject>
+	<dc:description xml:lang="en-US">This paper presents the results of several successful profiled side-channel attacks against a secure implementation of the RSA algorithm. The implementation was running on a ARM Core SC 100 completed with a certified EAL4+ arithmetic co-processor. The analyses have been conducted by three experts’ teams, each working on a specific attack path and exploiting information extracted either from the electromagnetic emanation or from the power consumption. A particular attention is paid to the description of all the steps that are usually followed during a security evaluation by a laboratory, including the acquisitions and the observations preprocessing which are practical issues usually put aside in the literature. Remarkably, the profiling portability issue is also taken into account and different device samples are involved for the profiling and testing phases. Among other aspects, this paper shows the high potential of deep learning attacks against secure implementations of RSA and raises the need for dedicated countermeasures.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2019-02-28</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tches.iacr.org/index.php/TCHES/article/view/7388</dc:identifier>
+	<dc:identifier>10.13154/tches.v2019.i2.132-161</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Cryptographic Hardware and Embedded Systems; Volume 2019, Issue 2; 132-161</dc:source>
+	<dc:source>2569-2925</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/7388/6560</dc:relation>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/7388/7889</dc:relation>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/7388/7890</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2019 Mathieu Carbone, Vincent Conin, Marie-Angela Cornélie, François Dassance, Guillaume Dufresne, Cécile Dumas, Emmanuel Prouff, Alexandre Venelli</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0</dc:rights>
+</oai_dc:dc>

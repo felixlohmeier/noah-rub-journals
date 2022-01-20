@@ -1,0 +1,29 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>7405</id>
+	<dc:title xml:lang="en-US">Partitions in the S-Box of Streebog and Kuznyechik</dc:title>
+	<dc:creator>Perrin, Léo</dc:creator>
+	<dc:subject xml:lang="en-US">Boolean functions</dc:subject>
+	<dc:subject xml:lang="en-US">Kuznyechik</dc:subject>
+	<dc:subject xml:lang="en-US">Streebog</dc:subject>
+	<dc:subject xml:lang="en-US">Reverse-Engineering</dc:subject>
+	<dc:subject xml:lang="en-US">Partitions</dc:subject>
+	<dc:subject xml:lang="en-US">Cosets</dc:subject>
+	<dc:subject xml:lang="en-US">TKlog</dc:subject>
+	<dc:description xml:lang="en-US">Streebog and Kuznyechik are the latest symmetric cryptographic primitives standardized by the Russian GOST. They share the same S-Box, π, whose design process was not described by its authors. In previous works, Biryukov, Perrin and Udovenko recovered two completely different decompositions of this S-Box.We revisit their results and identify a third decomposition of π. It is an instance of a fairly small family of permutations operating on 2m bits which we call TKlog and which is closely related to finite field logarithms. Its simplicity and the small number of components it uses lead us to claim that it has to be the structure intentionally used by the designers of Streebog and Kuznyechik.The 2m-bit permutations of this type have a very strong algebraic structure: they map multiplicative cosets of the subfield GF(2m)* to additive cosets of GF(2m)*. Furthermore, the function relating each multiplicative coset to the corresponding additive coset is always essentially the same. To the best of our knowledge, we are the first to expose this very strong algebraic structure.We also investigate other properties of the TKlog and show in particular that it can always be decomposed in a fashion similar to the first decomposition of Biryukov et al., thus explaining the relation between the two previous decompositions. It also means that it is always possible to implement a TKlog efficiently in hardware and that it always exhibits a visual pattern in its LAT similar to the one present in π. While we could not find attacks based on these new results, we discuss the impact of our work on the security of Streebog and Kuznyechik. To this end, we provide a new simpler representation of the linear layer of Streebog as a matrix multiplication in the exact same field as the one used to define π. We deduce that this matrix interacts in a non-trivial way with the partitions preserved by π.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2019-03-08</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tosc.iacr.org/index.php/ToSC/article/view/7405</dc:identifier>
+	<dc:identifier>10.13154/tosc.v2019.i1.302-329</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Symmetric Cryptology; Volume 2019, Issue 1; 302-329</dc:source>
+	<dc:source>2519-173X</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/7405/6577</dc:relation>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/7405/7451</dc:relation>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/7405/7450</dc:relation>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/7405/7767</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2019 Léo Perrin</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0</dc:rights>
+</oai_dc:dc>

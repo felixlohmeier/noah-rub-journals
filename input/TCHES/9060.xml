@@ -1,0 +1,27 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>9060</id>
+	<dc:title xml:lang="en-US">Structural Attack (and Repair) of Diffused-Input-Blocked-Output White-Box Cryptography</dc:title>
+	<dc:creator>Carlet, Claude</dc:creator>
+	<dc:creator>Guilley, Sylvain</dc:creator>
+	<dc:creator>Mesnager, Sihem</dc:creator>
+	<dc:subject xml:lang="en-US">White-Box Cryptography</dc:subject>
+	<dc:subject xml:lang="en-US">obfuscation</dc:subject>
+	<dc:subject xml:lang="en-US">Diffused-Input-Blocked-Output (DIBO)</dc:subject>
+	<dc:subject xml:lang="en-US">spectral characteristics</dc:subject>
+	<dc:subject xml:lang="en-US">number of zeros in Walsh spectrum</dc:subject>
+	<dc:subject xml:lang="en-US">mathematical proof of attack</dc:subject>
+	<dc:subject xml:lang="en-US">repaired DIBO</dc:subject>
+	<dc:description xml:lang="en-US">In some practical enciphering frameworks, operational constraints may require that a secret key be embedded into the cryptographic algorithm. Such implementations are referred to as White-Box Cryptography (WBC). One technique consists of the algorithm’s tabulation specialized for its key, followed by obfuscating the resulting tables. The obfuscation consists of the application of invertible diffusion and confusion layers at the interface between tables so that the analysis of input/output does not provide exploitable information about the concealed key material.Several such protections have been proposed in the past and already cryptanalyzed thanks to a complete WBC scheme analysis. In this article, we study a particular pattern for local protection (which can be leveraged for robust WBC); we formalize it as DIBO (for Diffused-Input-Blocked-Output). This notion has been explored (albeit without having been nicknamed DIBO) in previous works. However, we notice that guidelines to adequately select the invertible diffusion ∅and the blocked bijections B were missing. Therefore, all choices for ∅ and B were assumed as suitable. Actually, we show that most configurations can be attacked, and we even give mathematical proof for the attack. The cryptanalysis tool is the number of zeros in a Walsh-Hadamard spectrum. This “spectral distinguisher” improves on top of the previously known one (Sasdrich, Moradi, Güneysu, at FSE 2016). However, we show that such an attack does not work always (even if it works most of the time).Therefore, on the defense side, we give a straightforward rationale for the WBC implementations to be secure against such spectral attacks: the random diffusion part ∅ shall be selected such that the rank of each restriction to bytes is full. In AES’s case, this seldom happens if ∅ is selected at random as a linear bijection of F322. Thus, specific care shall be taken. Notice that the entropy of the resulting ∅ (suitable for WBC against spectral attacks) is still sufficient to design acceptable WBC schemes.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2021-08-11</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tches.iacr.org/index.php/TCHES/article/view/9060</dc:identifier>
+	<dc:identifier>10.46586/tches.v2021.i4.57-87</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Cryptographic Hardware and Embedded Systems; Volume 2021, Issue 4; 57-87</dc:source>
+	<dc:source>2569-2925</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/9060/8647</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2021 Claude Carlet, Sylvain Guilley, Sihem Mesnager</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0/</dc:rights>
+</oai_dc:dc>

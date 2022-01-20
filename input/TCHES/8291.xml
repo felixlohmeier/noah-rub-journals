@@ -1,0 +1,34 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>8291</id>
+	<dc:title xml:lang="en-US">Consolidating Security Notions in Hardware Masking</dc:title>
+	<dc:creator>De Meyer, Lauren</dc:creator>
+	<dc:creator>Bilgin, Begül</dc:creator>
+	<dc:creator>Reparaz, Oscar</dc:creator>
+	<dc:subject xml:lang="en-US">Glitches</dc:subject>
+	<dc:subject xml:lang="en-US">DPA</dc:subject>
+	<dc:subject xml:lang="en-US">SCA</dc:subject>
+	<dc:subject xml:lang="en-US">Verification</dc:subject>
+	<dc:subject xml:lang="en-US">TI</dc:subject>
+	<dc:subject xml:lang="en-US">SNI</dc:subject>
+	<dc:subject xml:lang="en-US">Non-Completeness</dc:subject>
+	<dc:subject xml:lang="en-US">Mutual Information</dc:subject>
+	<dc:subject xml:lang="en-US">Information-theory</dc:subject>
+	<dc:subject xml:lang="en-US">d-probing</dc:subject>
+	<dc:subject xml:lang="en-US">Glitch Immunity</dc:subject>
+	<dc:description xml:lang="en-US">In this paper, we revisit the security conditions of masked hardware implementations. We describe a new, succinct, information-theoretic condition called d-glitch immunity which is both necessary and sufficient for security in the presence of glitches. We show that this single condition includes, but is not limited to, previous security notions such as those used in higher-order threshold implementations and in abstractions using ideal gates. As opposed to these previously known necessary conditions, our new condition is also sufficient. On the other hand, it excludes avoidable notions such as uniformity. We also treat the notion of (strong) noninterference from an information-theoretic point-of-view in order to unify the different security concepts and pave the way to the verification of composability in the presence of glitches. We conclude the paper by demonstrating how the condition can be used as an efficient and highly generic flaw detection mechanism for a variety of functions and schemes based on different operations.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2019-05-09</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tches.iacr.org/index.php/TCHES/article/view/8291</dc:identifier>
+	<dc:identifier>10.13154/tches.v2019.i3.119-147</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Cryptographic Hardware and Embedded Systems; Volume 2019, Issue 3; 119-147</dc:source>
+	<dc:source>2569-2925</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/8291/7641</dc:relation>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/8291/7865</dc:relation>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/8291/7866</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2019 Lauren De Meyer, Begül Bilgin, Oscar Reparaz</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0</dc:rights>
+</oai_dc:dc>

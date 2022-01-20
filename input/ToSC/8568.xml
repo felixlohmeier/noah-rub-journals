@@ -1,0 +1,26 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>8568</id>
+	<dc:title xml:lang="en-US">On the Feistel Counterpart of the Boomerang Connectivity Table: Introduction and Analysis of the FBCT</dc:title>
+	<dc:creator>Boukerrou, Hamid</dc:creator>
+	<dc:creator>Huynh, Paul</dc:creator>
+	<dc:creator>Lallemand, Virginie</dc:creator>
+	<dc:creator>Mandal, Bimal </dc:creator>
+	<dc:creator>Minier, Marine</dc:creator>
+	<dc:subject xml:lang="en-US">Cryptanalysis</dc:subject>
+	<dc:subject xml:lang="en-US">Feistel cipher</dc:subject>
+	<dc:subject xml:lang="en-US">Boomerang attack</dc:subject>
+	<dc:subject xml:lang="en-US">Boomerang switch</dc:subject>
+	<dc:description xml:lang="en-US">At Eurocrypt 2018, Cid et al. introduced the Boomerang Connectivity Table (BCT), a tool to compute the probability of the middle round of a boomerang distinguisher from the description of the cipher’s Sbox(es). Their new table and the following works led to a refined understanding of boomerangs, and resulted in a series of improved attacks. Still, these works only addressed the case of Substitution Permutation Networks, and completely left out the case of ciphers following a Feistel construction. In this article, we address this lack by introducing the FBCT, the Feistel counterpart of the BCT. We show that the coefficient at row Δi, ∇o corresponds to the number of times the second order derivative at points Δi, ∇o) cancels out. We explore the properties of the FBCT and compare it to what is known on the BCT. Taking matters further, we show how to compute the probability of a boomerang switch over multiple rounds with a generic formula.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2020-05-07</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tosc.iacr.org/index.php/ToSC/article/view/8568</dc:identifier>
+	<dc:identifier>10.13154/tosc.v2020.i1.331-362</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Symmetric Cryptology; Volume 2020, Issue 1; 331-362</dc:source>
+	<dc:source>2519-173X</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/8568/8139</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2020 Hamid Boukerrou, Paul Huynh, Virginie Lallemand, Bimal Mandal, Marine Minier</dc:rights>
+	<dc:rights xml:lang="en-US">http://creativecommons.org/licenses/by/4.0/</dc:rights>
+</oai_dc:dc>

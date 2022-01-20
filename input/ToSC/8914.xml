@@ -1,0 +1,27 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>8914</id>
+	<dc:title xml:lang="en-US">Provable Security of SP Networks with Partial Non-Linear Layers</dc:title>
+	<dc:creator>Guo, Chun</dc:creator>
+	<dc:creator>Standaert, François-Xavier</dc:creator>
+	<dc:creator>Wang, Weijia</dc:creator>
+	<dc:creator>Wang, Xiao</dc:creator>
+	<dc:creator>Yu, Yu</dc:creator>
+	<dc:subject xml:lang="en-US">blockciphers</dc:subject>
+	<dc:subject xml:lang="en-US">substitution-permutation networks</dc:subject>
+	<dc:subject xml:lang="en-US">provable security</dc:subject>
+	<dc:subject xml:lang="en-US">LowMC</dc:subject>
+	<dc:subject xml:lang="en-US">low multiplicative complexity</dc:subject>
+	<dc:description xml:lang="en-US">Motivated by the recent trend towards low multiplicative complexity blockciphers (e.g., Zorro, CHES 2013; LowMC, EUROCRYPT 2015; HADES, EUROCRYPT 2020; MALICIOUS, CRYPTO 2020), we study their underlying structure partial SPNs, i.e., Substitution-Permutation Networks (SPNs) with parts of the substitution layer replaced by an identity mapping, and put forward the first provable security analysis for such partial SPNs built upon dedicated linear layers. For different instances of partial SPNs using MDS linear layers, we establish strong pseudorandom security as well as practical provable security against impossible differential attacks. By extending the well-established MDS code-based idea, we also propose the first principled design of linear layers that ensures optimal differential propagation. Our results formally confirm the conjecture that partial SPNs achieve the same security as normal SPNs while consuming less non-linearity, in a well-established framework.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2021-06-11</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tosc.iacr.org/index.php/ToSC/article/view/8914</dc:identifier>
+	<dc:identifier>10.46586/tosc.v2021.i2.353-388</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Symmetric Cryptology; Volume 2021, Issue 2; 353-388</dc:source>
+	<dc:source>2519-173X</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/8914/8490</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2021 Chun Guo, François-Xavier Standaert, Weijia Wang, Xiao Wang, Yu Yu</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0/</dc:rights>
+</oai_dc:dc>

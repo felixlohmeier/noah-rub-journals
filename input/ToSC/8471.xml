@@ -1,0 +1,26 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>8471</id>
+	<dc:title xml:lang="en-US">Improving the MILP-based Security Evaluation Algorithm against Differential/Linear Cryptanalysis Using A Divide-and-Conquer Approach</dc:title>
+	<dc:creator>Zhou, Chunning </dc:creator>
+	<dc:creator>Zhang, Wentao</dc:creator>
+	<dc:creator>Ding, Tianyou</dc:creator>
+	<dc:creator>Xiang, Zejun</dc:creator>
+	<dc:subject xml:lang="en-US">Block cipher</dc:subject>
+	<dc:subject xml:lang="en-US">Differential cryptanalysis</dc:subject>
+	<dc:subject xml:lang="en-US">Linear cryptanalysis</dc:subject>
+	<dc:subject xml:lang="en-US">MILP</dc:subject>
+	<dc:subject xml:lang="en-US">Divide-and-conquer</dc:subject>
+	<dc:description xml:lang="en-US">In recent years, Mixed Integer Linear Programming (MILP) has been widely used in cryptanalysis of symmetric-key primitives. For differential and linear cryptanalysis, MILP can be used to solve two kinds of problems: calculation of the minimum number of differentially/linearly active S-boxes, and search for the best differential/linear characteristics. There are already numerous papers published in this area. However, the efficiency is not satisfactory enough for many symmetric-key primitives. In this paper, we greatly improve the efficiency of the MILP-based search algorithm for both problems. Each of the two problems for an r-round cipher can be converted to an MILP model whose feasible region is the set of all possible r-round differential/linear characteristics. Generally, high-probability differential/linear characteristics are likely to have a low number of active S-boxes at a certain round. Inspired by the idea of a divide-and-conquer approach, we divide the set of all possible differential/linear characteristics into several smaller subsets, then separately search them. That is to say, the search of the whole set is split into easier searches of smaller subsets, and optimal solutions within the smaller subsets are combined to give the optimal solution within the whole set. In addition, we use several techniques to further improve the efficiency of the search algorithm. As applications, we apply our search algorithm to five lightweight block ciphers: PRESENT, GIFT-64, RECTANGLE, LBLOCK and TWINE. For each cipher, we obtain better results than the best-known ones obtained from the MILP method. For the minimum number of differentially/linearly active S-boxes, we reach 31/31, 16/15, 16/16, 20/20 and 20/20 rounds for the five ciphers respectively. For the best differential/linear characteristics, we reach 18/18, 15/13, 15/14, 16/15 and 15/16 rounds for the five ciphers respectively.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2020-01-31</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tosc.iacr.org/index.php/ToSC/article/view/8471</dc:identifier>
+	<dc:identifier>10.13154/tosc.v2019.i4.438-469</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Symmetric Cryptology; Volume 2019, Issue 4; 438-469</dc:source>
+	<dc:source>2519-173X</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/8471/8037</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2020 Chunning Zhou, Wentao Zhang, Tianyou Ding, Zejun Xiang</dc:rights>
+	<dc:rights xml:lang="en-US">http://creativecommons.org/licenses/by/4.0/</dc:rights>
+</oai_dc:dc>

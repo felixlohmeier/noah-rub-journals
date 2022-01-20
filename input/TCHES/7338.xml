@@ -1,0 +1,29 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>7338</id>
+	<dc:title xml:lang="en-US">Implementing RLWE-based Schemes Using an RSA Co-Processor</dc:title>
+	<dc:creator>Albrecht, Martin R.</dc:creator>
+	<dc:creator>Hanser, Christian</dc:creator>
+	<dc:creator>Hoeller, Andrea</dc:creator>
+	<dc:creator>Pöppelmann, Thomas</dc:creator>
+	<dc:creator>Virdia, Fernando</dc:creator>
+	<dc:creator>Wallner, Andreas</dc:creator>
+	<dc:subject xml:lang="en-US">learning with errors</dc:subject>
+	<dc:subject xml:lang="en-US">smart card</dc:subject>
+	<dc:subject xml:lang="en-US">implementation</dc:subject>
+	<dc:description xml:lang="en-US">We repurpose existing RSA/ECC co-processors for (ideal) lattice-based cryptography by exploiting the availability of fast long integer multiplication. Such co-processors are deployed in smart cards in passports and identity cards, secured microcontrollers and hardware security modules (HSM). In particular, we demonstrate an implementation of a variant of the Module-LWE-based Kyber Key Encapsulation Mechanism (KEM) that is tailored for high performance on a commercially available smart card chip (SLE 78). To benefit from the RSA/ECC co-processor we use Kronecker substitution in combination with schoolbook and Karatsuba polynomial multiplication. Moreover, we speed-up symmetric operations in our Kyber variant using the AES co-processor to implement a PRNG and a SHA-256 co-processor to realise hash functions. This allows us to execute CCA-secure Kyber768 key generation in 79.6 ms, encapsulation in 102.4 ms and decapsulation in 132.7 ms.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2018-11-09</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tches.iacr.org/index.php/TCHES/article/view/7338</dc:identifier>
+	<dc:identifier>10.13154/tches.v2019.i1.169-208</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Cryptographic Hardware and Embedded Systems; Volume 2019, Issue 1; 169-208</dc:source>
+	<dc:source>2569-2925</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/7338/6510</dc:relation>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/7338/7915</dc:relation>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/7338/7916</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2018 Martin R. Albrecht, Christian Hanser, Andrea Hoeller, Thomas Pöppelmann, Fernando Virdia, Andreas Wallner</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0</dc:rights>
+</oai_dc:dc>

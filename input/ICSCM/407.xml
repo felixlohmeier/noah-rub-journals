@@ -1,0 +1,28 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>407</id>
+	<dc:title xml:lang="en-US">A concept for deep cryogenic treatment of tool steels</dc:title>
+	<dc:creator>Gavriljuk, V. G.</dc:creator>
+	<dc:creator>Theisen, W.</dc:creator>
+	<dc:creator>Tyshchenko, A. I.</dc:creator>
+	<dc:creator>Sirosh, V. A.</dc:creator>
+	<dc:creator>Kortmann, A.</dc:creator>
+	<dc:subject xml:lang="en-US">Tool steel</dc:subject>
+	<dc:subject xml:lang="en-US">Heat treatment</dc:subject>
+	<dc:subject xml:lang="en-US">Deep cryogenic treatment</dc:subject>
+	<dc:subject xml:lang="en-US">Martensitic transformation</dc:subject>
+	<dc:subject xml:lang="en-US">Plastic deformation</dc:subject>
+	<dc:subject xml:lang="en-US">Tempering</dc:subject>
+	<dc:subject xml:lang="en-US">Wear</dc:subject>
+	<dc:subject xml:lang="en-US">Mechanical properties</dc:subject>
+	<dc:description xml:lang="en-US">A short review of experimental data about the effect of deep cryogenic treatment,DCT, on the abrasive wear of tool steels is presented along with available hypotheses. UsingMössbauer spectroscopy, X-ray diffraction, mechanical spectroscopy and transmission electronmicroscopy, it is shown that the isothermal martensitic transformation proceeds in the course ofDCT. Moreover, the softness of the virgin isothermal martensite initiates the plastic deformationduring martensitic deformation, which results in the partial removal of carbon atoms from the solidsolution by the gliding dislocations. This effect eliminates the precipitation of the ε(η)-carbideduring subsequent tempering, shifts cementite precipitation towards higher temperatures anddelays precipitation of special carbides at temperatures of secondary hardness. Thus, theprecipitation potential of the γ solid solution is preserved and can be realized during the usage oftools increasing thereby the tools life. Based on the obtained results, a new concept of DCT isdeveloped and the correction of its technology to the temperature range of the isothermalmartensitic transformation is proposed.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2015-11-25</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://icscm.ub.rub.de/index.php/ICSCM/article/view/407</dc:identifier>
+	<dc:identifier>10.13154/icscm.3.2015.236-244</dc:identifier>
+	<dc:source xml:lang="en-US">International Conference on Stone and Concrete Machining (ICSCM); Vol. 3 (2015); 236-244</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://icscm.ub.rub.de/index.php/ICSCM/article/view/407/363</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2015 V. G. Gavriljuk, W. Theisen, A. I. Tyshchenko, V. A. Sirosh, A. Kortmann</dc:rights>
+</oai_dc:dc>

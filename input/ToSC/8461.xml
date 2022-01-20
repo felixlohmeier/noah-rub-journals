@@ -1,0 +1,26 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>8461</id>
+	<dc:title xml:lang="en-US">Improved Security Evaluation of SPN Block Ciphers and its Applications in the Single-key Attack on SKINNY</dc:title>
+	<dc:creator>Zhang, Wenying</dc:creator>
+	<dc:creator>Cao, Meichun</dc:creator>
+	<dc:creator>Guo, Jian</dc:creator>
+	<dc:creator>Pasalic, Enes</dc:creator>
+	<dc:subject xml:lang="en-US">SKINNY competition</dc:subject>
+	<dc:subject xml:lang="en-US">Integral cryptanalysis</dc:subject>
+	<dc:subject xml:lang="en-US">Impossible differential analysis</dc:subject>
+	<dc:subject xml:lang="en-US">Truncated differential attack</dc:subject>
+	<dc:subject xml:lang="en-US">Zero-Sum distinguisher</dc:subject>
+	<dc:description xml:lang="en-US">In this paper, a new method for evaluating the integral property, truncated and impossible differentials for substitution-permutation network (SPN) block ciphers is proposed. The main assumption is an explicit description/expression of the internal state words in terms of the plaintext (ciphertext) words. By counting the number of times these words occur in the internal state expression, we can evaluate the resistance of a given block cipher to integral and impossible/truncated differential attacks more accurately than previous methods. More precisely, we explore the cryptographic consequences of uneven frequency of occurrences of plaintext (ciphertext) words appearing in the algebraic expression of the internal state words. This approach gives a new family of distinguishers employing different concepts such as the integral property, impossible/truncated differentials and the so-called zero-sum property. We then provide algorithms to determine the maximum number of rounds of such new types of distinguishers for SPN block ciphers. The potential and efficiency of this relatively simple method is confirmed through applications. For instance, in the case of SKINNY block cipher, several 10-round integral distinguishers, all of the 11-round impossible differentials, and a 7-round truncated differential could be determined. For the last case, using a single pair of plaintexts differing in three words so that (a = b = c) ≠ (a’ = b’ = c’), we are able to distinguish 7-round SKINNY from random permutations. More importantly, exploiting our distinguishers, we give the first practical attack on 11-round SKINNY-128-128 in the single-key setting (a theoretical attack reaches 16 rounds). Finally, using the same ideas, we provide a concise explanation on the existing distinguishers for round-reduced AES.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2020-01-31</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tosc.iacr.org/index.php/ToSC/article/view/8461</dc:identifier>
+	<dc:identifier>10.13154/tosc.v2019.i4.171-191</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Symmetric Cryptology; Volume 2019, Issue 4; 171-191</dc:source>
+	<dc:source>2519-173X</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/8461/8026</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2020 Wenying Zhang, Meichun Cao, Jian Guo, Enes Pasalic</dc:rights>
+	<dc:rights xml:lang="en-US">http://creativecommons.org/licenses/by/4.0/</dc:rights>
+</oai_dc:dc>

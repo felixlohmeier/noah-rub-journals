@@ -1,0 +1,26 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>8790</id>
+	<dc:title xml:lang="en-US">Provably Secure Hardware Masking in the Transition- and Glitch-Robust Probing Model: Better Safe than Sorry</dc:title>
+	<dc:creator>Cassiers, Gaëtan</dc:creator>
+	<dc:creator>Standaert, François-Xavier </dc:creator>
+	<dc:subject xml:lang="en-US">Side-Channel Analysis</dc:subject>
+	<dc:subject xml:lang="en-US">Masking Countermeasure</dc:subject>
+	<dc:subject xml:lang="en-US">Physical Defaults</dc:subject>
+	<dc:subject xml:lang="en-US">Transition-Based leakages</dc:subject>
+	<dc:subject xml:lang="en-US">Glitches</dc:subject>
+	<dc:subject xml:lang="en-US">Robust Probing model</dc:subject>
+	<dc:subject xml:lang="en-US">Composability</dc:subject>
+	<dc:description xml:lang="en-US">There exists many masking schemes to protect implementations of cryptographic operations against side-channel attacks. It is common practice to analyze the security of these schemes in the probing model, or its variant which takes into account physical effects such as glitches and transitions. Although both effects exist in practice and cause leakage, masking schemes implemented in hardware are often only analyzed for security against glitches. In this work, we fill this gap by proving sufficient conditions for the security of hardware masking schemes against transitions, leading to the design of new masking schemes and a proof of security for an existing masking scheme in presence of transitions. Furthermore, we give similar results in the stronger model where the effects of glitches and transitions are combined.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2021-02-23</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tches.iacr.org/index.php/TCHES/article/view/8790</dc:identifier>
+	<dc:identifier>10.46586/tches.v2021.i2.136-158</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Cryptographic Hardware and Embedded Systems; Volume 2021, Issue 2; 136-158</dc:source>
+	<dc:source>2569-2925</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/8790/8390</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2021 Gaëtan Cassiers, François-Xavier Standaert</dc:rights>
+	<dc:rights xml:lang="en-US">http://creativecommons.org/licenses/by/4.0/</dc:rights>
+</oai_dc:dc>

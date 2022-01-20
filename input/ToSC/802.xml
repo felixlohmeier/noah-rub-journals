@@ -1,0 +1,28 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>802</id>
+	<dc:title xml:lang="en-US">Preimage Attacks on the Round-reduced Keccak with Cross-linear Structures</dc:title>
+	<dc:creator>Li, Ting</dc:creator>
+	<dc:creator>Sun, Yao</dc:creator>
+	<dc:creator>Liao, Maodong</dc:creator>
+	<dc:creator>Wang, Dingkang</dc:creator>
+	<dc:subject xml:lang="en-US">Cryptanalysis</dc:subject>
+	<dc:subject xml:lang="en-US">SHA-3</dc:subject>
+	<dc:subject xml:lang="en-US">Keccak</dc:subject>
+	<dc:subject xml:lang="en-US">Preimage attacks</dc:subject>
+	<dc:description xml:lang="en-US">In this paper, based on the work pioneered by Aumasson and Meier, Dinur et al., and Guo et al., we construct some new delicate structures from the roundreduced versions of Keccakhash function family. The new constructed structures are called cross-linear structures, because linear polynomials appear across in different equations of these structures. And we apply cross-linear structures to do preimage attacks on some instances of the round-reduced Keccak. There are three main contributions in this paper. First, we construct a kind of cross-linear structures by setting the statuses carefully. With these cross-linear structures, guessing the value of one linear polynomial could lead to three linear equations (including the guessed one). Second, for some special cases, e.g. the 3-round Keccakchallenge instance Keccak[r=240, c=160, nr=3], a more special kind of cross-linear structures is constructed, and these structures can be used to obtain seven linear equations (including the guessed) if the values of two linear polynomials are guessed. Third, as applications of the cross-linear structures, we practically found a preimage for the 3-round KeccakChallenge instance Keccak[r=240, c=160, nr=3]. Besides, by constructing similar cross-linear structures, the complexity of the preimage attack on 3-round Keccak-256/SHA3-256/SHAKE256 can be lowered to 2150/2151/2153 operations, while the previous best known result on Keccak-256 is 2192.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2017-12-15</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tosc.iacr.org/index.php/ToSC/article/view/802</dc:identifier>
+	<dc:identifier>10.13154/tosc.v2017.i4.39-57</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Symmetric Cryptology; Volume 2017, Issue 4; 39-57</dc:source>
+	<dc:source>2519-173X</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/802/756</dc:relation>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/802/7598</dc:relation>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/802/7507</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2017 Ting Li, Yao Sun, Maodong Liao, Dingkang Wang</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0</dc:rights>
+</oai_dc:dc>

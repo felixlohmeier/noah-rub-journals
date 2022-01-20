@@ -1,0 +1,37 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>8297</id>
+	<dc:title xml:lang="en-US">Leaky Noise: New Side-Channel Attack Vectors in Mixed-Signal IoT Devices</dc:title>
+	<dc:creator>Gnad, Dennis R. E.</dc:creator>
+	<dc:creator>Krautter, Jonas</dc:creator>
+	<dc:creator>Tahoori, Mehdi B.</dc:creator>
+	<dc:subject xml:lang="en-US">microcontroller</dc:subject>
+	<dc:subject xml:lang="en-US">side-channel</dc:subject>
+	<dc:subject xml:lang="en-US">leakage assessment</dc:subject>
+	<dc:subject xml:lang="en-US">ADC</dc:subject>
+	<dc:subject xml:lang="en-US">noise</dc:subject>
+	<dc:subject xml:lang="en-US">power</dc:subject>
+	<dc:subject xml:lang="en-US">analysis</dc:subject>
+	<dc:subject xml:lang="en-US">on-chip</dc:subject>
+	<dc:subject xml:lang="en-US">remote</dc:subject>
+	<dc:subject xml:lang="en-US">software</dc:subject>
+	<dc:subject xml:lang="en-US">internet-of-things</dc:subject>
+	<dc:subject xml:lang="en-US">mbedtls</dc:subject>
+	<dc:subject xml:lang="en-US">freertos</dc:subject>
+	<dc:subject xml:lang="en-US">cpa</dc:subject>
+	<dc:description xml:lang="en-US">Microcontrollers and SoC devices have widely been used in Internet of Things applications. This also brings the question whether they lead to new security threats unseen in traditional computing systems. In fact, almost all modern SoC chips, particularly in the IoT domain, contain both analog and digital components, for various sensing and transmission tasks. Traditional remote-accessible online systems do not have this property, which can potentially become a security vulnerability. In this paper we demonstrate that such mixed-signal components, namely ADCs, expose a new security threat that allows attackers with ADC access to deduce the activity of a CPU in the system. To prove the leakage, we perform leakage assessment on three individual microcontrollers from two different vendors with various ADC settings. After showing a correlation of CPU activity with ADC noise, we continue with a leakage assessment of modular exponentiation and AES. It is shown that for all of these devices, leakage occurs for at least one algorithm and configuration of the ADC. Finally, we show a full key recovery attack on AES that works despite of the limited ADC sampling rate. These results imply that even remotely accessible microcontroller systems should be equipped with proper countermeasures against power analysis attacks, or restrict access to ADC data.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2019-05-09</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tches.iacr.org/index.php/TCHES/article/view/8297</dc:identifier>
+	<dc:identifier>10.13154/tches.v2019.i3.305-339</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Cryptographic Hardware and Embedded Systems; Volume 2019, Issue 3; 305-339</dc:source>
+	<dc:source>2569-2925</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/8297/7647</dc:relation>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/8297/7877</dc:relation>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/8297/7878</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2019 Dennis R. E. Gnad, Jonas Krautter, Mehdi B. Tahoori</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0</dc:rights>
+</oai_dc:dc>

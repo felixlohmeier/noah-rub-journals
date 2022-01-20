@@ -1,0 +1,27 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>7337</id>
+	<dc:title xml:lang="en-US">Return of the Hidden Number Problem.: A Widespread and Novel Key Extraction Attack on ECDSA and DSA</dc:title>
+	<dc:creator>Ryan, Keegan</dc:creator>
+	<dc:subject xml:lang="en-US">side-channel attacks</dc:subject>
+	<dc:subject xml:lang="en-US">lattice attacks</dc:subject>
+	<dc:subject xml:lang="en-US">key extraction</dc:subject>
+	<dc:subject xml:lang="en-US">hidden number</dc:subject>
+	<dc:subject xml:lang="en-US">problem</dc:subject>
+	<dc:subject xml:lang="en-US">(EC)DSA cryptanalysis</dc:subject>
+	<dc:description xml:lang="en-US">Side channels have long been recognized as a threat to the security of cryptographic applications. Implementations can unintentionally leak secret information through many channels, such as microarchitectural state changes in processors, changes in power consumption, or electromagnetic radiation. As a result of these threats, many implementations have been hardened to defend against these attacks. Despite these mitigations, this work presents a novel side-channel attack against ECDSA and DSA. The attack targets a common implementation pattern that is found in many cryptographic libraries. In fact, about half of the libraries that were tested exhibited the vulnerable pattern. This pattern is exploited in a full proof of concept attack against OpenSSL, demonstrating that it is possible to extract a 256-bit ECDSA private key using a simple cache attack after observing only a few thousand signatures. The target of this attack is a previously unexplored part of (EC)DSA signature generation, which explains why mitigations are lacking and the issue is so widespread. Finally, estimates are provided for the minimum number of signatures needed to perform the attack, and countermeasures are suggested to protect against this attack.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2018-11-09</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tches.iacr.org/index.php/TCHES/article/view/7337</dc:identifier>
+	<dc:identifier>10.13154/tches.v2019.i1.146-168</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Cryptographic Hardware and Embedded Systems; Volume 2019, Issue 1; 146-168</dc:source>
+	<dc:source>2569-2925</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/7337/6509</dc:relation>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/7337/7913</dc:relation>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/7337/7914</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2018 Keegan Ryan</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0</dc:rights>
+</oai_dc:dc>

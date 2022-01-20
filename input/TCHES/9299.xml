@@ -1,0 +1,24 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>9299</id>
+	<dc:title xml:lang="en-US">Generic Hardware Private Circuits: Towards Automated Generation of Composable Secure Gadgets</dc:title>
+	<dc:creator>Knichel, David</dc:creator>
+	<dc:creator>Sasdrich, Pascal</dc:creator>
+	<dc:creator>Moradi, Amir</dc:creator>
+	<dc:subject xml:lang="en-US">Masking</dc:subject>
+	<dc:subject xml:lang="en-US">Generic and Composable Hardware Gadgets</dc:subject>
+	<dc:subject xml:lang="en-US">Automated Masking</dc:subject>
+	<dc:subject xml:lang="en-US">Side-Channel Analysis</dc:subject>
+	<dc:description xml:lang="en-US">With an increasing number of mobile devices and their high accessibility, protecting the implementation of cryptographic functions in the presence of physical adversaries has become more relevant than ever. Over the last decade, a lion’s share of research in this area has been dedicated to developing countermeasures at an algorithmic level. Here, masking has proven to be a promising approach due to the possibility of formally proving the implementation’s security solely based on its algorithmic description by elegantly modeling the circuit behavior. Theoretically verifying the security of masked circuits becomes more and more challenging with increasing circuit complexity. This motivated the introduction of security notions that enable masking of single gates while still guaranteeing the security when the masked gates are composed. Systematic approaches to generate these masked gates – commonly referred to as gadgets – were restricted to very simple gates like 2-input AND gates. Simply substituting such small gates by a secure gadget usually leads to a large overhead in terms of fresh randomness and additional latency (register stages) being introduced to the design.In this work, we address these problems by presenting a generic framework to construct trivially composable and secure hardware gadgets for arbitrary vectorial Boolean functions, enabling the transformation of much larger sub-circuits into gadgets. In particular, we present a design methodology to generate first-order secure masked gadgets which is well-suited for integration into existing Electronic Design Automation (EDA) tools for automated hardware masking as only the Boolean function expression is required. Furthermore, we practically verify our findings by conducting several case studies and show that our methodology outperforms various other masking schemes in terms of introduced latency or fresh randomness – especially for large circuits.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2021-11-19</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tches.iacr.org/index.php/TCHES/article/view/9299</dc:identifier>
+	<dc:identifier>10.46586/tches.v2022.i1.323-344</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Cryptographic Hardware and Embedded Systems; Volume 2022, Issue 1; 323-344</dc:source>
+	<dc:source>2569-2925</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/9299/8865</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2021 David Knichel, Pascal Sasdrich, Amir Moradi</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0/</dc:rights>
+</oai_dc:dc>

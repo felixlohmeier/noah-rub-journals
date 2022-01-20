@@ -1,0 +1,27 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>8467</id>
+	<dc:title xml:lang="en-US">Improved Meet-in-the-Middle Preimage Attacks against AES Hashing Modes</dc:title>
+	<dc:creator>Bao, Zhenzhen</dc:creator>
+	<dc:creator>Ding, Lin</dc:creator>
+	<dc:creator>Guo, Jian</dc:creator>
+	<dc:creator>Wang, Haoyang</dc:creator>
+	<dc:creator>Zhang, Wenying</dc:creator>
+	<dc:subject xml:lang="en-US">AES</dc:subject>
+	<dc:subject xml:lang="en-US">MITM</dc:subject>
+	<dc:subject xml:lang="en-US">preimage</dc:subject>
+	<dc:subject xml:lang="en-US">hashing mode</dc:subject>
+	<dc:subject xml:lang="en-US">key-schedule</dc:subject>
+	<dc:description xml:lang="en-US">Hashing modes are ways to convert a block cipher into a hash function, and those with AES as the underlying block cipher are referred to as AES hashing modes. Sasaki in 2011, introduced the first preimage attack against AES hashing modes with the AES block cipher reduced to 7 rounds, by the method of meet-in-the-middle. In his attack, the key-schedules are not taken into account. Hence, the same attack applies to all three versions of AES. In this paper, by introducing neutral bits from the key, extra degree of freedom is gained, which is utilized in two ways, i.e., to reduce the time complexity and to extend the attack to more rounds. As an immediate result, the complexities of 7-round pseudo-preimage attacks are reduced from 2120 to 2104, 296, and 296 for AES-128, AES-192, and AES-256, respectively. By carefully choosing the neutral bits from the key to cancel those from the state, the attack is extended to 8 rounds for AES-192 and AES-256 with complexities 2112 and 296. Similar results are obtained for Kiasu-BC, a tweakable block cipher based on AES-128, and interestingly the additional input tweak helps reduce the complexity and extend the attack to one more round. To the best of our knowledge, these are the first preimage attacks against 8-round AES hashing modes.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2020-01-31</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tosc.iacr.org/index.php/ToSC/article/view/8467</dc:identifier>
+	<dc:identifier>10.13154/tosc.v2019.i4.318-347</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Symmetric Cryptology; Volume 2019, Issue 4; 318-347</dc:source>
+	<dc:source>2519-173X</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/8467/8033</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2020 Zhenzhen Bao, Lin Ding, Jian Guo, Haoyang Wang, Wenying Zhang</dc:rights>
+	<dc:rights xml:lang="en-US">http://creativecommons.org/licenses/by/4.0/</dc:rights>
+</oai_dc:dc>

@@ -1,0 +1,32 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>830</id>
+	<dc:title xml:lang="en-US">Fast FPGA Implementations of Diffie-Hellman on the Kummer Surface of a Genus-2 Curve</dc:title>
+	<dc:creator>Koppermann, Philipp</dc:creator>
+	<dc:creator>De Santis, Fabrizio</dc:creator>
+	<dc:creator>Heyszl, Johann</dc:creator>
+	<dc:creator>Sigl, Georg</dc:creator>
+	<dc:subject xml:lang="en-US">Diffie-Hellman key exchange</dc:subject>
+	<dc:subject xml:lang="en-US">hyperelliptic curve cryptography</dc:subject>
+	<dc:subject xml:lang="en-US">Kummer surface</dc:subject>
+	<dc:subject xml:lang="en-US">FPGA</dc:subject>
+	<dc:subject xml:lang="en-US">Zynq</dc:subject>
+	<dc:subject xml:lang="en-US">low-latency</dc:subject>
+	<dc:subject xml:lang="en-US">high-throughput</dc:subject>
+	<dc:subject xml:lang="en-US">fault countermeasure</dc:subject>
+	<dc:description xml:lang="en-US">We present the first hardware implementations of Diffie-Hellman key exchange based on the Kummer surface of Gaudry and Schost’s genus-2 curve targeting a 128-bit security level. We describe a single-core architecture for lowlatency applications and a multi-core architecture for high-throughput applications. Synthesized on a Xilinx Zynq-7020 FPGA, our architectures perform a key exchange with lower latency and higher throughput than any other reported implementation using prime-field elliptic curves at the same security level. Our single-core architecture performs a scalar multiplication with a latency of 82 microseconds while our multicore architecture achieves a throughput of 91,226 scalar multiplications per second. When compared to similar implementations of Microsoft’s Fourℚ on the same FPGA, this translates to an improvement of 48% in latency and 40% in throughput for the single-core and multi-core architecture, respectively. Both our designs exhibit constant-time execution to thwart timing attacks, use the Montgomery ladder for improved resistance against SPA, and support a countermeasure against fault attacks.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2018-02-14</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tches.iacr.org/index.php/TCHES/article/view/830</dc:identifier>
+	<dc:identifier>10.13154/tches.v2018.i1.1-17</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Cryptographic Hardware and Embedded Systems; Volume 2018, Issue 1; 1-17</dc:source>
+	<dc:source>2569-2925</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/830/782</dc:relation>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/830/7994</dc:relation>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/830/7995</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2018 Philipp Koppermann, Fabrizio De Santis, Johann Heyszl, Georg Sigl</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0</dc:rights>
+</oai_dc:dc>

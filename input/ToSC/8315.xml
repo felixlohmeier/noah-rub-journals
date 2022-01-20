@@ -1,0 +1,28 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>8315</id>
+	<dc:title xml:lang="en-US">New Conditional Cube Attack on Keccak Keyed Modes</dc:title>
+	<dc:creator>Li, Zheng</dc:creator>
+	<dc:creator>Dong, Xiaoyang</dc:creator>
+	<dc:creator>Bi, Wenquan</dc:creator>
+	<dc:creator>Jia, Keting</dc:creator>
+	<dc:creator>Wang, Xiaoyun</dc:creator>
+	<dc:creator>Meier, Willi</dc:creator>
+	<dc:subject xml:lang="en-US">Conditional Cube Attack</dc:subject>
+	<dc:subject xml:lang="en-US">Keccak</dc:subject>
+	<dc:subject xml:lang="en-US">KMAC</dc:subject>
+	<dc:subject xml:lang="en-US">Ketje</dc:subject>
+	<dc:subject xml:lang="en-US">MILP</dc:subject>
+	<dc:description xml:lang="en-US">The conditional cube attack on round-reduced Keccak keyed modes was proposed by Huang et al. at EUROCRYPT 2017. In their attack, a conditional cube variable was introduced, whose diffusion was significantly reduced by certain key bit conditions. The attack requires a set of cube variables which are not multiplied in the first round while the conditional cube variable is not multiplied with other cube variables (called ordinary cube variables) in the first two rounds. This has an impact on the degree of the output of Keccak and hence gives a distinguisher. Later, the MILP method was applied to find ordinary cube variables. However, for some Keccak based versions with few degrees of freedom, one could not find enough ordinary cube variables, which weakens or even invalidates the conditional cube attack.In this paper, a new conditional cube attack on Keccak is proposed. We remove the limitation that no cube variables multiply with each other in the first round. As a result, some quadratic terms may appear in the first round. We make use of some new bit conditions to prevent the quadratic terms from multiplying with other cube variables in the second round, so that there will be no cubic terms in the first two rounds. Furthermore, we introduce the kernel quadratic term and construct a 6-2-2 pattern to reduce the diffusion of quadratic terms significantly, where the Θ operation even in the second round becomes an identity transformation (CP-kernel property) for the kernel quadratic term. Previous conditional cube attacks on Keccak only explored the CP-kernel property of Θ operation in the first round. Therefore, more degrees of freedom are available for ordinary cube variables and fewer bit conditions are used to remove the cubic terms in the second round, which plays a key role in the conditional cube attack on versions with very few degrees of freedom. We also use the MILP method in the search of cube variables and give key-recovery attacks on round-reduced Keccak keyed modes.As a result, we reduce the time complexity of key-recovery attacks on 7-round Keccak-MAC-512 and 7-round Ketje Sr v2 from 2111, 299 to 272, 277, respectively. Additionally, we have reduced the time complexity of attacks on 9-round KMAC256 and 7-round Ketje Sr v1. Besides, practical attacks on 6-round Ketje Sr v1 and v2 are also given in this paper for the first time.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2019-06-11</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tosc.iacr.org/index.php/ToSC/article/view/8315</dc:identifier>
+	<dc:identifier>10.13154/tosc.v2019.i2.94-124</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Symmetric Cryptology; Volume 2019, Issue 2; 94-124</dc:source>
+	<dc:source>2519-173X</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/8315/7664</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2019 Zheng Li, Xiaoyang Dong, Wenquan Bi, Keting Jia, Xiaoyun Wang, Willi Meier</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0</dc:rights>
+</oai_dc:dc>

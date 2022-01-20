@@ -1,0 +1,36 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>8734</id>
+	<dc:title xml:lang="en-US">The Area-Latency Symbiosis: Towards Improved Serial Encryption Circuits</dc:title>
+	<dc:creator>Balli, Fatih</dc:creator>
+	<dc:creator>Caforio, Andrea</dc:creator>
+	<dc:creator>Banik, Subhadeep</dc:creator>
+	<dc:subject xml:lang="en-US">Lightweight</dc:subject>
+	<dc:subject xml:lang="en-US">Latency</dc:subject>
+	<dc:subject xml:lang="en-US">Swap</dc:subject>
+	<dc:subject xml:lang="en-US">Rotate</dc:subject>
+	<dc:subject xml:lang="en-US">Block Cipher</dc:subject>
+	<dc:subject xml:lang="en-US">Authenticated Encryption</dc:subject>
+	<dc:subject xml:lang="en-US">NIST LWC</dc:subject>
+	<dc:subject xml:lang="en-US">AES</dc:subject>
+	<dc:subject xml:lang="en-US">SKINNY</dc:subject>
+	<dc:subject xml:lang="en-US">GIFT</dc:subject>
+	<dc:subject xml:lang="en-US">SUNDAE</dc:subject>
+	<dc:subject xml:lang="en-US">SAEAES</dc:subject>
+	<dc:subject xml:lang="en-US">SKINNY-AEAD</dc:subject>
+	<dc:subject xml:lang="en-US">Romulus</dc:subject>
+	<dc:subject xml:lang="en-US">Grain-128AEAD</dc:subject>
+	<dc:description xml:lang="en-US">The bit-sliding paper of Jean et al. (CHES 2017) showed that the smallest-size circuit for SPN based block ciphers such as AES, SKINNY and PRESENT can be achieved via bit-serial implementations. Their technique decreases the bit size of the datapath and naturally leads to a significant loss in latency (as well as the maximum throughput). Their designs complete a single round of the encryption in 168 (resp. 68) clock cycles for 128 (resp. 64) bit blocks. A follow-up work by Banik et al. (FSE 2020) introduced the swap-and-rotate technique that both eliminates this loss in latency and achieves even smaller footprints.In this paper, we extend these results on bit-serial implementations all the way to four authenticated encryption schemes from NIST LWC. Our first focus is to decrease latency and improve throughput with the use of the swap-and-rotate technique. Our block cipher implementations have the most efficient round operations in the sense that a round function of an n-bit block cipher is computed in exactly n clock cycles. This leads to implementations that are similar in size to the state of the art, but have much lower latency (savings up to 20 percent). We then extend our technique to 4- and 8-bit implementations. Although these results are promising, block ciphers themselves are not end-user primitives, as they need to be used in conjunction with a mode of operation. Hence, in the second part of the paper, we use our serial block ciphers to bootstrap four active NIST authenticated encryption candidates: SUNDAE-GIFT, Romulus, SAEAES and SKINNY-AEAD. In the wake of this effort, we provide the smallest block-cipher-based authenticated encryption circuits known in the literature so far.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2020-12-03</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tches.iacr.org/index.php/TCHES/article/view/8734</dc:identifier>
+	<dc:identifier>10.46586/tches.v2021.i1.239-278</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Cryptographic Hardware and Embedded Systems; Volume 2021, Issue 1; 239-278</dc:source>
+	<dc:source>2569-2925</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/8734/8334</dc:relation>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/8734/8603</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2020 Fatih Balli, Andrea Caforio, Subhadeep Banik</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0/</dc:rights>
+</oai_dc:dc>

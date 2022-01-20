@@ -1,0 +1,27 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>8460</id>
+	<dc:title xml:lang="en-US">Lightweight Iterative MDS Matrices: How Small Can We Go?</dc:title>
+	<dc:creator>Li, Shun</dc:creator>
+	<dc:creator>Sun, Siwei</dc:creator>
+	<dc:creator>Shi, Danping</dc:creator>
+	<dc:creator>Li, Chaoyun</dc:creator>
+	<dc:creator>Hu, Lei</dc:creator>
+	<dc:subject xml:lang="en-US">Lightweight cryptography</dc:subject>
+	<dc:subject xml:lang="en-US">MDS matrix</dc:subject>
+	<dc:subject xml:lang="en-US">Iterative constructions</dc:subject>
+	<dc:subject xml:lang="en-US">Shortest linear program (SLP)</dc:subject>
+	<dc:subject xml:lang="en-US">Latency</dc:subject>
+	<dc:description xml:lang="en-US">As perfect building blocks for the diffusion layers of many symmetric-key primitives, the construction of MDS matrices with lightweight circuits has received much attention from the symmetric-key community. One promising way of realizing low-cost MDS matrices is based on the iterative construction: a low-cost matrix becomes MDS after rising it to a certain power. To be more specific, if At is MDS, then one can implement A instead of At to achieve the MDS property at the expense of an increased latency with t clock cycles. In this work, we identify the exact lower bound of the number of nonzero blocks for a 4 × 4 block matrix to be potentially iterative-MDS. Subsequently, we show that the theoretically lightest 4 × 4 iterative MDS block matrix (whose entries or blocks are 4 × 4 binary matrices) with minimal nonzero blocks costs at least 3 XOR gates, and a concrete example achieving the 3-XOR bound is provided. Moreover, we prove that there is no hope for previous constructions (GFS, LFS, DSI, and spares DSI) to beat this bound. Since the circuit latency is another important factor, we also consider the lower bound of the number of iterations for certain iterative MDS matrices. Guided by these bounds and based on the ideas employed to identify them, we explore the design space of lightweight iterative MDS matrices with other dimensions and report on improved results. Whenever we are unable to find better results, we try to determine the bound of the optimal solution. As a result, the optimality of some previous results is proved.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2020-01-31</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tosc.iacr.org/index.php/ToSC/article/view/8460</dc:identifier>
+	<dc:identifier>10.13154/tosc.v2019.i4.147-170</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Symmetric Cryptology; Volume 2019, Issue 4; 147-170</dc:source>
+	<dc:source>2519-173X</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/8460/8029</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2020 Shun Li, Siwei Sun, Danping Shi, Chaoyun Li; Lei Hu</dc:rights>
+	<dc:rights xml:lang="en-US">http://creativecommons.org/licenses/by/4.0/</dc:rights>
+</oai_dc:dc>

@@ -1,0 +1,29 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>8836</id>
+	<dc:title xml:lang="en-US">Towards Key-recovery-attack Friendly Distinguishers: Application to GIFT-128</dc:title>
+	<dc:creator>Zong, Rui</dc:creator>
+	<dc:creator>Dong, Xiaoyang</dc:creator>
+	<dc:creator>Chen, Huaifeng</dc:creator>
+	<dc:creator>Luo, Yiyuan</dc:creator>
+	<dc:creator>Wang, Si</dc:creator>
+	<dc:creator>Li, Zheng</dc:creator>
+	<dc:subject xml:lang="en-US">GIFT</dc:subject>
+	<dc:subject xml:lang="en-US">Differential Trail</dc:subject>
+	<dc:subject xml:lang="en-US">Linear Trail</dc:subject>
+	<dc:subject xml:lang="en-US">Distinguisher Search Strategy</dc:subject>
+	<dc:subject xml:lang="en-US">SUNDAE-GIFT</dc:subject>
+	<dc:subject xml:lang="en-US">GIFT-COFB</dc:subject>
+	<dc:description xml:lang="en-US">When analyzing a block cipher, the first step is to search for some valid distinguishers, for example, the differential trails in the differential cryptanalysis and the linear trails in the linear cryptanalysis. A distinguisher is advantageous if it can be utilized to attack more rounds and the amount of the involved key bits during the key-recovery process is small, as this leads to a long attack with a low complexity. In this article, we propose a two-step strategy to search for such advantageous distinguishers. This strategy is inspired by the intuition that if a differential is advantageous only when some properties are satisfied, then we can predefine some constraints describing these properties and search for the differentials in the small set.As applications, our strategy is used to analyze GIFT-128, which was proposed in CHES 2017. Based on some 20-round differentials, we give the first 27-round differential attack on GIFT-128, which covers one more round than the best previous result. Also, based on two 17-round linear trails, we give the first linear hull attack on GIFT-128, which covers 22 rounds. In addition, we also give some results on two GIFT-128 based AEADs GIFT-COFB and SUNDAE-GIFT.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2021-03-19</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tosc.iacr.org/index.php/ToSC/article/view/8836</dc:identifier>
+	<dc:identifier>10.46586/tosc.v2021.i1.156-184</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Symmetric Cryptology; Volume 2021, Issue 1; 156-184</dc:source>
+	<dc:source>2519-173X</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/8836/8439</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2021 Rui Zong, Xiaoyang Dong, Huaifeng Chen, Yiyuan Luo, Si Wang, Zheng Li</dc:rights>
+	<dc:rights xml:lang="en-US">http://creativecommons.org/licenses/by/4.0</dc:rights>
+</oai_dc:dc>

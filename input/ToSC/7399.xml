@@ -1,0 +1,29 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>7399</id>
+	<dc:title xml:lang="en-US">Boomerang Connectivity Table Revisited. Application to SKINNY and AES</dc:title>
+	<dc:creator>Song, Ling</dc:creator>
+	<dc:creator>Qin, Xianrui</dc:creator>
+	<dc:creator>Hu, Lei</dc:creator>
+	<dc:subject xml:lang="en-US">block cipher</dc:subject>
+	<dc:subject xml:lang="en-US">boomerang attack</dc:subject>
+	<dc:subject xml:lang="en-US">sandwich attack</dc:subject>
+	<dc:subject xml:lang="en-US">boomerang connectivity table</dc:subject>
+	<dc:subject xml:lang="en-US">SKINNY</dc:subject>
+	<dc:subject xml:lang="en-US">AES</dc:subject>
+	<dc:description xml:lang="en-US">The boomerang attack is a variant of differential cryptanalysis which regards a block cipher E as the composition of two sub-ciphers, i.e., E = E1 o E0, and which constructs distinguishers for E with probability p2q2 by combining differential trails for E0 and E1 with probability p and q respectively. However, the validity of this attack relies on the dependency between the two differential trails. Murphy has shown cases where probabilities calculated by p2q2 turn out to be zero, while techniques such as boomerang switches proposed by Biryukov and Khovratovich give rise to probabilities greater than p2q2. To formalize such dependency to obtain a more accurate estimation of the probability of the distinguisher, Dunkelman et al. proposed the sandwich framework that regards E as Ẽ1 o Em o Ẽ0, where the dependency between the two differential trails is handled by a careful analysis of the probability of the middle part Em. Recently, Cid et al. proposed the Boomerang Connectivity Table (BCT) which unifies the previous switch techniques and incompatibility together and evaluates the probability of Em theoretically when Em is composed of a single S-box layer. In this paper, we revisit the BCT and propose a generalized framework which is able to identify the actual boundaries of Em which contains dependency of the two differential trails and systematically evaluate the probability of Em with any number of rounds. To demonstrate the power of this new framework, we apply it to two block ciphers SKINNY and AES. In the application to SKINNY, the probabilities of four boomerang distinguishers are re-evaluated. It turns out that Em involves5 or 6 rounds and the probabilities of the full distinguishers are much higher than previously evaluated. In the application to AES, the new framework is used to exclude incompatibility and find high probability distinguishers of AES-128 under the related-subkey setting. As a result, a 6-round distinguisher with probability 2−109.42 is constructed. Lastly, we discuss the relation between the dependency of two differential trails in boomerang distinguishers and the properties of components of the cipher.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2019-03-08</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tosc.iacr.org/index.php/ToSC/article/view/7399</dc:identifier>
+	<dc:identifier>10.13154/tosc.v2019.i1.118-141</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Symmetric Cryptology; Volume 2019, Issue 1; 118-141</dc:source>
+	<dc:source>2519-173X</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/7399/6571</dc:relation>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/7399/7557</dc:relation>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/7399/7765</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2019 Ling Song, Xianrui Qin, Lei Hu</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0</dc:rights>
+</oai_dc:dc>

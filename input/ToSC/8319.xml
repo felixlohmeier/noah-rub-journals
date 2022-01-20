@@ -1,0 +1,23 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>8319</id>
+	<dc:title xml:lang="en-US">Reconstructing an S-box from its Difference Distribution Table</dc:title>
+	<dc:creator>Dunkelman, Orr</dc:creator>
+	<dc:creator>Huang, Senyang</dc:creator>
+	<dc:subject xml:lang="en-US">S-box</dc:subject>
+	<dc:subject xml:lang="en-US">DDT</dc:subject>
+	<dc:subject xml:lang="en-US">LAT</dc:subject>
+	<dc:subject xml:lang="en-US">the sign determination problem</dc:subject>
+	<dc:description xml:lang="en-US">In this paper we study the problem of recovering a secret S-box from its difference distribution table (DDT). While being an interesting theoretical problem on its own, the ability to recover the S-box from the DDT of a secret S-box can be used in cryptanalytic attacks where the attacker can obtain the DDT (e.g., in Bar-On et al.’s attack on GOST), in supporting theoretical analysis of the properties of difference distribution tables (e.g., in Boura et al.’s work), or in some analysis of S-boxes with unknown design criteria (e.g., in Biryukov and Perrin’s analysis).We show that using the well established relation between the DDT and the linear approximation table (LAT), one can devise an algorithm different from the straightforward guess-and-determine (GD) algorithm proposed by Boura et al. Moreover, we show how to exploit this relation, and embed the knowledge obtained from it in the GD algorithm. We tested our new algorithm on random S-boxes of different sizes, and for random 14-bit bijective S-boxes, our results outperform the GD attack by several orders of magnitude.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2019-06-11</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tosc.iacr.org/index.php/ToSC/article/view/8319</dc:identifier>
+	<dc:identifier>10.13154/tosc.v2019.i2.193-217</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Symmetric Cryptology; Volume 2019, Issue 2; 193-217</dc:source>
+	<dc:source>2519-173X</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/8319/7668</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2019 Orr Dunkelman, Senyang Huang</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0</dc:rights>
+</oai_dc:dc>

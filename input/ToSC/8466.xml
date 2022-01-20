@@ -1,0 +1,29 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>8466</id>
+	<dc:title xml:lang="en-US">Comprehensive security analysis of CRAFT</dc:title>
+	<dc:creator>Hadipour, Hosein</dc:creator>
+	<dc:creator>Sadeghi, Sadegh</dc:creator>
+	<dc:creator>Niknam, Majid M.</dc:creator>
+	<dc:creator>Song, Ling</dc:creator>
+	<dc:creator>Bagheri, Nasour</dc:creator>
+	<dc:subject xml:lang="en-US">Lightweight block cipher</dc:subject>
+	<dc:subject xml:lang="en-US">differential</dc:subject>
+	<dc:subject xml:lang="en-US">zero-correlation</dc:subject>
+	<dc:subject xml:lang="en-US">tweakable cipher</dc:subject>
+	<dc:subject xml:lang="en-US">MILP</dc:subject>
+	<dc:subject xml:lang="en-US">SAT</dc:subject>
+	<dc:subject xml:lang="en-US">CRAFT</dc:subject>
+	<dc:description xml:lang="en-US">CRAFT is a lightweight block cipher, designed to provide efficient protection against differential fault attacks. It is a tweakable cipher that includes 32 rounds to produce a ciphertext from a 64-bit plaintext using a 128-bit key and 64-bit public tweak. In this paper, compared to the designers’ analysis, we provide a more detailed analysis of CRAFT against differential and zero-correlation cryptanalysis, aiming to provide better distinguishers for the reduced rounds of the cipher. Our distinguishers for reduced-round CRAFT cover a higher number of rounds compared to the designers’ analysis. In our analysis, we observed that, for any number of rounds, the differential effect of CRAFT has an extremely higher probability compared to any differential trail. As an example, while the best trail for 11 rounds of the cipher has a probability of at least 2−80, we present a differential with probability 2−49.79, containing 229.66 optimal trails, all with the same optimum probability of 2−80. Next, we use a partitioning technique, based on optimal expandable truncated trails to provide a better estimation of the differential effect on CRAFT. Thanks to this technique, we are able to find differential distinguishers for 9, 10, 11, 12, 13, and 14 rounds of the cipher in single tweak model with the probabilities of at least 2−40.20, 2−45.12, 2−49.79, 2−54.49, 2−59.13, and 2−63.80, respectively. These probabilities should be compared with the best distinguishers provided by the designers in the same model for 9 and 10 rounds of the cipher with the probabilities of at least 2−54.67 and 2−62.61, respectively. In addition, we consider the security of CRAFT against the new concept of related tweak zero-correlation (ZC) linear cryptanalysis and present a new distinguisher which covers 14 rounds of the cipher, while the best previous ZC distinguisher covered 13 rounds. Thanks to the related tweak ZC distinguisher for 14 rounds of the cipher, we also present 14 rounds integral distinguishers in related tweak mode of the cipher. Although the provided analysis does not compromise the cipher, we think it provides a better insight into the designing of CRAFT.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2020-01-31</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tosc.iacr.org/index.php/ToSC/article/view/8466</dc:identifier>
+	<dc:identifier>10.13154/tosc.v2019.i4.290-317</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Symmetric Cryptology; Volume 2019, Issue 4; 290-317</dc:source>
+	<dc:source>2519-173X</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/8466/8032</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2020 Hosein Hadipour, Sadegh Sadeghi, Majid M. Niknam, Ling Song, Nasour Bagheri</dc:rights>
+	<dc:rights xml:lang="en-US">http://creativecommons.org/licenses/by/4.0/</dc:rights>
+</oai_dc:dc>

@@ -1,0 +1,27 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>8679</id>
+	<dc:title xml:lang="en-US">Second-Order Masked Lookup Table Compression Scheme</dc:title>
+	<dc:creator>Valiveti, Annapurna</dc:creator>
+	<dc:creator>Vivek, Srinivas</dc:creator>
+	<dc:subject xml:lang="en-US">Masking</dc:subject>
+	<dc:subject xml:lang="en-US">S-box</dc:subject>
+	<dc:subject xml:lang="en-US">Table compression</dc:subject>
+	<dc:subject xml:lang="en-US">Probing leakage model</dc:subject>
+	<dc:subject xml:lang="en-US">SNI security</dc:subject>
+	<dc:subject xml:lang="en-US">Side-channel attacks</dc:subject>
+	<dc:subject xml:lang="en-US">IoT security</dc:subject>
+	<dc:subject xml:lang="en-US">Software implementation</dc:subject>
+	<dc:description xml:lang="en-US">Masking by lookup table randomisation is a well-known technique used to achieve side-channel attack resistance for software implementations, particularly, against DPA attacks. The randomised table technique for first- and second-order security requires about m•2n bits of RAM to store an (n,m)-bit masked S-box lookup table. Table compression helps in reducing the amount of memory required, and this is useful for highly resource-constrained IoT devices. Recently, Vadnala (CT-RSA 2017) proposed a randomised table compression scheme for first- and second-order security in the probing leakage model. This scheme reduces the RAM memory required by about a factor of 2l, where l is a compression parameter. Vivek (Indocrypt 2017) demonstrated an attack against the second-order scheme of Vadnala. Hence achieving table compression at second and higher orders is an open problem.In this work, we propose a second-order secure randomised table compression scheme which works for any (n,m)-bit S-box. Our proposal is a variant of Vadnala’s scheme that is not only secure but also significantly improves the time-memory trade-off. Specifically, we improve the online execution time by a factor of 2n−l. Our proposed scheme is proved 2-SNI secure in the probing leakage model. We have implemented our method for AES-128 on a 32-bit ARM Cortex processor. We are able to reduce the memory required to store a randomised S-box table for second-order AES-128 implementation to 59 bytes.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2020-08-26</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tches.iacr.org/index.php/TCHES/article/view/8679</dc:identifier>
+	<dc:identifier>10.13154/tches.v2020.i4.129-153</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Cryptographic Hardware and Embedded Systems; Volume 2020, Issue 4; 129-153</dc:source>
+	<dc:source>2569-2925</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/8679/8238</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2020 Annapurna Valiveti, Srinivas Vivek</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0/</dc:rights>
+</oai_dc:dc>

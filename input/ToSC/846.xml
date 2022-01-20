@@ -1,0 +1,30 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>846</id>
+	<dc:title xml:lang="en-US">Multivariate Profiling of Hulls for Linear Cryptanalysis</dc:title>
+	<dc:creator>Bogdanov, Andrey</dc:creator>
+	<dc:creator>Tischhauser, Elmar</dc:creator>
+	<dc:creator>Vejre, Philip S.</dc:creator>
+	<dc:subject xml:lang="en-US">linear cryptanalysis</dc:subject>
+	<dc:subject xml:lang="en-US">multivariate</dc:subject>
+	<dc:subject xml:lang="en-US">multidimensional cryptanalysis</dc:subject>
+	<dc:subject xml:lang="en-US">key-dependence</dc:subject>
+	<dc:subject xml:lang="en-US">PRESENT</dc:subject>
+	<dc:subject xml:lang="en-US">key recovery</dc:subject>
+	<dc:subject xml:lang="en-US">statistical attack</dc:subject>
+	<dc:description xml:lang="en-US">Extensions of linear cryptanalysis making use of multiple approximations, such as multiple and multidimensional linear cryptanalysis, are an important tool in symmetric-key cryptanalysis, among others being responsible for the best known attacks on ciphers such as Serpent and present. At CRYPTO 2015, Huang et al. provided a refined analysis of the key-dependent capacity leading to a refined key equivalence hypothesis, however at the cost of additional assumptions. Their analysis was extended by Blondeau and Nyberg to also cover an updated wrong key randomization hypothesis, using similar assumptions. However, a recent result by Nyberg shows the equivalence of linear dependence and statistical dependence of linear approximations, which essentially invalidates a crucial assumption on which all these multidimensional models are based. In this paper, we develop a model for linear cryptanalysis using multiple linearly independent approximations which takes key-dependence into account and complies with Nyberg’s result. Our model considers an arbitrary multivariate joint distribution of the correlations, and in particular avoids any assumptions regarding normality. The analysis of this distribution is then tailored to concrete ciphers in a practically feasible way by combining a signal/noise decomposition approach for the linear hulls with a profiling of the actual multivariate distribution of the signal correlations for a large number of keys, thereby entirely avoiding assumptions regarding the shape of this distribution. As an application of our model, we provide an attack on 26 rounds of present which is faster and requires less data than previous attacks, while using more realistic assumptions and far fewer approximations. We successfully extend the attack to present the first 27-round attack which takes key-dependence into account.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2018-03-01</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tosc.iacr.org/index.php/ToSC/article/view/846</dc:identifier>
+	<dc:identifier>10.13154/tosc.v2018.i1.101-125</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Symmetric Cryptology; Volume 2018, Issue 1; 101-125</dc:source>
+	<dc:source>2519-173X</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/846/798</dc:relation>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/846/7619</dc:relation>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/846/7519</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2018 Andrey Bogdanov, Elmar Tischhauser, Philip S. Vejre</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0</dc:rights>
+</oai_dc:dc>

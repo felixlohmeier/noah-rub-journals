@@ -1,0 +1,29 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>9075</id>
+	<dc:title xml:lang="en-US">Higher-Order Lookup Table Masking in Essentially Constant Memory</dc:title>
+	<dc:creator>Valiveti, Annapurna</dc:creator>
+	<dc:creator>Vivek, Srinivas</dc:creator>
+	<dc:subject xml:lang="en-US">Side-channel attacks</dc:subject>
+	<dc:subject xml:lang="en-US">Masking</dc:subject>
+	<dc:subject xml:lang="en-US">S-box</dc:subject>
+	<dc:subject xml:lang="en-US">Probing leakage model</dc:subject>
+	<dc:subject xml:lang="en-US">PRG</dc:subject>
+	<dc:subject xml:lang="en-US">SNI security</dc:subject>
+	<dc:subject xml:lang="en-US">IoT security</dc:subject>
+	<dc:subject xml:lang="en-US">Software implementation</dc:subject>
+	<dc:description xml:lang="en-US">Masking using randomised lookup tables is a popular countermeasure for side-channel attacks, particularly at small masking orders. An advantage of this class of countermeasures for masking S-boxes compared to ISW-based masking is that it supports pre-processing and thus significantly reducing the amount of computation to be done after the unmasked inputs are available. Indeed, the “online” computation can be as fast as just a table lookup. But the size of the randomised lookup table increases linearly with the masking order, and hence the RAM memory required to store pre-processed tables becomes infeasible for higher masking orders. Hence demonstrating the feasibility of full pre-processing of higher-order lookup table-based masking schemes on resource-constrained devices has remained an open problem.
+In this work, we solve the above problem by implementing a higher-order lookup table-based scheme using an amount of RAM memory that is essentially independent of the masking order. More concretely, we reduce the amount of RAM memory needed for the table-based scheme of Coron et al. (TCHES 2018) approximately by a factor equal to the number of shares. Our technique is based upon the use of pseudorandom number generator (PRG) to minimise the randomness complexity of ISW-based masking schemes proposed by Ishai et al. (ICALP 2013) and Coron et al. (Eurocrypt 2020). Hence we show that for lookup table-based masking schemes, the use of a PRG not only reduces the randomness complexity (now logarithmic in the size of the S-box) but also the memory complexity, and without any significant increase in the overall running time. We have implemented in software the higher-order table-based masking scheme of Coron et al. (TCHES 2018) at tenth order with full pre-processing of a single execution of all the AES S-boxes on a ARM Cortex-M4 device that has 256 KB RAM memory. Our technique requires only 41.2 KB of RAM memory, whereas the original scheme would have needed 440 KB. Moreover, our 8-bit implementation results demonstrate that the online execution time of our variant is about 1.5 times faster compared to the 8-bit bitsliced masked implementation of AES-128.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2021-08-11</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tches.iacr.org/index.php/TCHES/article/view/9075</dc:identifier>
+	<dc:identifier>10.46586/tches.v2021.i4.546-586</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Cryptographic Hardware and Embedded Systems; Volume 2021, Issue 4; 546-586</dc:source>
+	<dc:source>2569-2925</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/9075/8662</dc:relation>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/9075/8708</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2021 Annapurna Valiveti, Srinivas Vivek</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0/</dc:rights>
+</oai_dc:dc>

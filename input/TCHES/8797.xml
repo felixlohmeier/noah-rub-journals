@@ -1,0 +1,24 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>8797</id>
+	<dc:title xml:lang="en-US">A Compact Hardware Implementation of CCA-Secure Key Exchange Mechanism CRYSTALS-KYBER on FPGA</dc:title>
+	<dc:creator>Xing, Yufei</dc:creator>
+	<dc:creator>Li, Shuguo</dc:creator>
+	<dc:subject xml:lang="en-US">CRYSTALS-KYBER</dc:subject>
+	<dc:subject xml:lang="en-US">post-quantum cryptography</dc:subject>
+	<dc:subject xml:lang="en-US">key exchange mechanism</dc:subject>
+	<dc:subject xml:lang="en-US">Module-LWE</dc:subject>
+	<dc:subject xml:lang="en-US">full hardware implementation</dc:subject>
+	<dc:description xml:lang="en-US">Post-quantum cryptosystems should be prepared before the advent of powerful quantum computers to ensure information secure in our daily life. In 2016 a post-quantum standardization contest was launched by National Institute of Standards and Technology (NIST), and there have been lots of works concentrating on evaluation of these candidate protocols, mainly in pure software or through hardware-software co-design methodology on different platforms. As the contest progresses to third round in July 2020 with only 7 finalists and 8 alternate candidates remained, more dedicated and specific hardware designs should be considered to illustrate the intrinsic property of a certain protocol and achieve better performance. To this end, we present a standalone hardware design of CRYSTALS-KYBER, amodule learning-with-errors (MLWE) based key exchange mechanism (KEM) protocol within the 7 finalists on FPGA platform. Through elaborate scheduling of sampling and number theoretic transform (NTT) related calculations, decent performance is achieved with limited hardware resources. The way that Encode/Decode and the tweaked Fujisaki-Okamoto transform are implemented is demonstrated in detail. Analysis about minimizing memory footprint is also given out. In summary, we realize the adaptive chosen ciphertext attack (CCA) secure Kyber with all selectable module dimension k on the smallest Xilinx Artix-7 device. Our design computes key-generation, encapsulation (encryption) and decapsulation (decryption and reencryption) phase in 3768/5079/6668 cycles when k = 2, 6316/7925/10049 cycles when k = 3, and 9380/11321/13908 cycles when k = 4, consuming 7412/6785 LUTs, 4644/3981 FFs, 2126/1899 slices, 2/2 DSPs and 3/3 BRAMs in server/client with 6.2/6.0 ns critical path delay, outperforming corresponding high level synthesis (HLS) based designs or hardware-software co-designs to a large extent.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2021-02-23</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tches.iacr.org/index.php/TCHES/article/view/8797</dc:identifier>
+	<dc:identifier>10.46586/tches.v2021.i2.328-356</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Cryptographic Hardware and Embedded Systems; Volume 2021, Issue 2; 328-356</dc:source>
+	<dc:source>2569-2925</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/8797/8397</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2021 Yufei Xing, Shuguo Li</dc:rights>
+	<dc:rights xml:lang="en-US">http://creativecommons.org/licenses/by/4.0/</dc:rights>
+</oai_dc:dc>

@@ -1,0 +1,30 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>567</id>
+	<dc:title xml:lang="en-US">Exponential S-Boxes: a Link Between the S-Boxes of BelT and Kuznyechik/Streebog</dc:title>
+	<dc:creator>Perrin, Léo</dc:creator>
+	<dc:creator>Udovenko, Aleksei</dc:creator>
+	<dc:subject xml:lang="en-US">Reverse-Engineering</dc:subject>
+	<dc:subject xml:lang="en-US">S-Box</dc:subject>
+	<dc:subject xml:lang="en-US">Streebog</dc:subject>
+	<dc:subject xml:lang="en-US">Kuznyechik</dc:subject>
+	<dc:subject xml:lang="en-US">STRIBOBr1</dc:subject>
+	<dc:subject xml:lang="en-US">White-Box</dc:subject>
+	<dc:subject xml:lang="en-US">Linear Approximation Table</dc:subject>
+	<dc:subject xml:lang="en-US">Exponentiation</dc:subject>
+	<dc:subject xml:lang="en-US">BelT</dc:subject>
+	<dc:description xml:lang="en-US">The block cipher Kuznyechik and the hash function Streebog were recently standardized by the Russian Federation. These primitives use a common 8-bit S-Box, denoted</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2017-02-03</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tosc.iacr.org/index.php/ToSC/article/view/567</dc:identifier>
+	<dc:identifier>10.13154/tosc.v2016.i2.99-124</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Symmetric Cryptology; Volume 2016, Issue 2; 99-124</dc:source>
+	<dc:source>2519-173X</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/567/509</dc:relation>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/567/7464</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2017 Léo Perrin, Aleksei Udovenko</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0</dc:rights>
+</oai_dc:dc>

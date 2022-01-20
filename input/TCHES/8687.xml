@@ -1,0 +1,28 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>8687</id>
+	<dc:title xml:lang="en-US">Retrofitting Leakage Resilient Authenticated Encryption to Microcontrollers</dc:title>
+	<dc:creator>Unterstein, Florian</dc:creator>
+	<dc:creator>Schink, Marc</dc:creator>
+	<dc:creator>Schamberger, Thomas</dc:creator>
+	<dc:creator>Tebelmann, Lars</dc:creator>
+	<dc:creator>Ilg, Manuel</dc:creator>
+	<dc:creator>Heyszl, Johann</dc:creator>
+	<dc:subject xml:lang="en-US">leakage resilience</dc:subject>
+	<dc:subject xml:lang="en-US">SCA</dc:subject>
+	<dc:subject xml:lang="en-US">AEAD</dc:subject>
+	<dc:subject xml:lang="en-US">AES</dc:subject>
+	<dc:subject xml:lang="en-US">microcontroller</dc:subject>
+	<dc:description xml:lang="en-US">The security of Internet of Things (IoT) devices relies on fundamental concepts such as cryptographically protected firmware updates. In this context attackers usually have physical access to a device and therefore side-channel attacks have to be considered. This makes the protection of required cryptographic keys and implementations challenging, especially for commercial off-the-shelf (COTS) microcontrollers that typically have no hardware countermeasures. In this work, we demonstrate how unprotected hardware AES engines of COTS microcontrollers can be efficiently protected against side-channel attacks by constructing a leakage resilient pseudo random function (LR-PRF). Using this side-channel protected building block, we implement a leakage resilient authenticated encryption with associated data (AEAD) scheme that enables secured firmware updates. We use concepts from leakage resilience to retrofit side-channel protection on unprotected hardware AES engines by means of software-only modifications. The LR-PRF construction leverages frequent key changes and low data complexity together with key dependent noise from parallel hardware to protect against side-channel attacks. Contrary to most other protection mechanisms such as time-based hiding, no additional true randomness is required. Our concept relies on parallel S-boxes in the AES hardware implementation, a feature that is fortunately present in many microcontrollers as a measure to increase performance. In a case study, we implement the protected AEAD scheme for two popular ARM Cortex-M microcontrollers with differing parallelism. We evaluate the protection capabilities in realistic IoT attack scenarios, where non-invasive EM probes or power consumption measurements are employed by the attacker. We show that the concept provides the side-channel hardening that is required for the long-term security of IoT devices.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2020-08-26</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tches.iacr.org/index.php/TCHES/article/view/8687</dc:identifier>
+	<dc:identifier>10.13154/tches.v2020.i4.365-388</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Cryptographic Hardware and Embedded Systems; Volume 2020, Issue 4; 365-388</dc:source>
+	<dc:source>2569-2925</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/8687/8246</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2020 Florian Unterstein, Marc Schink, Thomas Schamberger, Lars Tebelmann, Manuel Ilg, Johann Heyszl</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0/</dc:rights>
+</oai_dc:dc>

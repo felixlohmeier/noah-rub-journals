@@ -1,0 +1,23 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>389</id>
+	<dc:title xml:lang="en-US">Development of Cuttability Chart for a Marble Cutting with Monowire Cutting Machine</dc:title>
+	<dc:creator>Yilmazkaya, Emre</dc:creator>
+	<dc:creator>Ozcelik, Yilmaz</dc:creator>
+	<dc:subject xml:lang="en-US">Monowire cutting</dc:subject>
+	<dc:subject xml:lang="en-US">diamond wire</dc:subject>
+	<dc:subject xml:lang="en-US">marble</dc:subject>
+	<dc:subject xml:lang="en-US">wear</dc:subject>
+	<dc:subject xml:lang="en-US">energy</dc:subject>
+	<dc:subject xml:lang="en-US">optimization</dc:subject>
+	<dc:description xml:lang="en-US">Monowire block cutting machines can be used for natural stone block squaring operations and slabcutting operations from natural stone blocks. The efficient use of these machines reducesoperating costs by ensuring less diamond wire wear and longer wire life at high speeds. Thepurpose of this study is to develop cuttability chart for real marble sample based on unit wear andunit energy in monowire cutting system and also perform cutting optimization. For this purpose, thefull automatically servo controlled monowire cutting system which can cut blocks in threedimensions were developed in Hacettepe University Mining Engineering Department. Cuttingexperiments were performed at different wire rotation speed (peripheral speed) and wire downwardmovement speed (cutting speed) on the real marble block which was transported to the laboratory.A cuttability abacus in monowire cutting system taking into consideration the unit energyconsumption during cutting operation and unit wear on diamond beads was developed with DesignExpert 7.1 software for real marble sample by using the results obtained.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2015-11-25</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://icscm.ub.rub.de/index.php/ICSCM/article/view/389</dc:identifier>
+	<dc:identifier>10.13154/icscm.3.2015.73-85</dc:identifier>
+	<dc:source xml:lang="en-US">International Conference on Stone and Concrete Machining (ICSCM); Vol. 3 (2015); 73-85</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://icscm.ub.rub.de/index.php/ICSCM/article/view/389/346</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2015 Emre Yilmazkaya, Yilmaz Ozcelik</dc:rights>
+</oai_dc:dc>

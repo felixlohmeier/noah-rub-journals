@@ -1,0 +1,27 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>8907</id>
+	<dc:title xml:lang="en-US">Weak Keys in Reduced AEGIS and Tiaoxin</dc:title>
+	<dc:creator>Liu, Fukang</dc:creator>
+	<dc:creator>Isobe, Takanori</dc:creator>
+	<dc:creator>Meier, Willi</dc:creator>
+	<dc:creator>Sakamoto, Kosei</dc:creator>
+	<dc:subject xml:lang="en-US">AES</dc:subject>
+	<dc:subject xml:lang="en-US">AEGIS</dc:subject>
+	<dc:subject xml:lang="en-US">Tiaoxin</dc:subject>
+	<dc:subject xml:lang="en-US">weak key</dc:subject>
+	<dc:subject xml:lang="en-US">distinguisher</dc:subject>
+	<dc:subject xml:lang="en-US">key-recovery</dc:subject>
+	<dc:description xml:lang="en-US">AEGIS-128 and Tiaoxin-346 (Tiaoxin for short) are two AES-based primitives submitted to the CAESAR competition. Among them, AEGIS-128 has been selected in the final portfolio for high-performance applications, while Tiaoxin is a third-round candidate. Although both primitives adopt a stream cipher based design, they are quite different from the well-known bit-oriented stream ciphers like Trivium and the Grain family. Their common feature consists in the round update function, where the state is divided into several 128-bit words and each word has the option to pass through an AES round or not. During the 6-year CAESAR competition, it is surprising that for both primitives there is no third-party cryptanalysis of the initialization phase. Due to the similarities in both primitives, we are motivated to investigate whether there is a common way to evaluate the security of their initialization phases. Our technical contribution is to write the expressions of the internal states in terms of the nonce and the key by treating a 128-bit word as a unit and then carefully study how to simplify these expressions by adding proper conditions. As a result, we find that there are several groups of weak keys with 296 keys each in 5-round AEGIS-128 and 8-round Tiaoxin, which allows us to construct integral distinguishers with time complexity 232 and data complexity 232. Based on the distinguisher, the time complexity to recover the weak key is 272 for 5-round AEGIS-128. However, the weak key recovery attack on 8-round Tiaoxin will require the usage of a weak constant occurring with probability 2−32. All the attacks reach half of the total number of initialization rounds. We expect that this work can advance the understanding of the designs similar to AEGIS and Tiaoxin.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2021-06-11</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tosc.iacr.org/index.php/ToSC/article/view/8907</dc:identifier>
+	<dc:identifier>10.46586/tosc.v2021.i2.104-139</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Symmetric Cryptology; Volume 2021, Issue 2; 104-139</dc:source>
+	<dc:source>2519-173X</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/8907/8483</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2021 Fukang Liu, Takanori Isobe, Willi Meier, Kosei Sakamoto</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0/</dc:rights>
+</oai_dc:dc>

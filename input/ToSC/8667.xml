@@ -1,0 +1,27 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>8667</id>
+	<dc:title xml:lang="en-US">On the Composition of Single-Keyed Tweakable Even-Mansour for Achieving BBB Security</dc:title>
+	<dc:creator>Chakraborti, Avik</dc:creator>
+	<dc:creator>Nandi, Mridul</dc:creator>
+	<dc:creator>Talnikar, Suprita</dc:creator>
+	<dc:creator>Yasuda, Kan</dc:creator>
+	<dc:subject xml:lang="en-US">PDMMAC</dc:subject>
+	<dc:subject xml:lang="en-US">Davis-Meyer</dc:subject>
+	<dc:subject xml:lang="en-US">PRF</dc:subject>
+	<dc:subject xml:lang="en-US">MAC</dc:subject>
+	<dc:subject xml:lang="en-US">permutation</dc:subject>
+	<dc:subject xml:lang="en-US">beyond the birthday bound security</dc:subject>
+	<dc:description xml:lang="en-US">Observing the growing popularity of random permutation (RP)-based designs (e.g, Sponge), Bart Mennink in CRYPTO 2019 has initiated an interesting research in the direction of RP-based pseudorandom functions (PRFs). Both are claimed to achieve beyond-the-birthday-bound (BBB) security of 2n/3 bits (n being the input block size in bits) but require two instances of RPs and can handle only oneblock inputs. In this work, we extend research in this direction by providing two new BBB-secure constructions by composing the tweakable Even-Mansour appropriately. Our first construction requires only one instance of an RP and requires only one key. Our second construction extends the first to a nonce-based Message Authentication Code (MAC) using a universal hash to deal with multi-block inputs. We show that the hash key can be derived from the original key when the underlying hash is the Poly hash. We provide matching attacks for both constructions to demonstrate the tightness of the proven security bounds.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2020-07-24</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tosc.iacr.org/index.php/ToSC/article/view/8667</dc:identifier>
+	<dc:identifier>10.13154/tosc.v2020.i2.1-39</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Symmetric Cryptology; Volume 2020, Issue 2; 1-39</dc:source>
+	<dc:source>2519-173X</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/8667/8225</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2020 Avik Chakraborti, Mridul Nandi, Suprita Talnikar, Kan Yasuda</dc:rights>
+	<dc:rights xml:lang="en-US">http://creativecommons.org/licenses/by/4.0</dc:rights>
+</oai_dc:dc>

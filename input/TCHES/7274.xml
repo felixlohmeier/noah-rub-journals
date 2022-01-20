@@ -1,0 +1,30 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>7274</id>
+	<dc:title xml:lang="en-US">Evaluation and Monitoring of Free Running Oscillators Serving as Source of Randomness</dc:title>
+	<dc:creator>Noumon Allini, Elie</dc:creator>
+	<dc:creator>Skórski, Maciej</dc:creator>
+	<dc:creator>Petura, Oto</dc:creator>
+	<dc:creator>Bernard, Florent</dc:creator>
+	<dc:creator>Laban, Marek</dc:creator>
+	<dc:creator>Fischer, Viktor</dc:creator>
+	<dc:subject xml:lang="en-US">Physical source of randomness</dc:subject>
+	<dc:subject xml:lang="en-US">physical RNG</dc:subject>
+	<dc:subject xml:lang="en-US">stochastic model</dc:subject>
+	<dc:subject xml:lang="en-US">entropy</dc:subject>
+	<dc:description xml:lang="en-US">In this paper, we evaluate clock signals generated in ring oscillators and self-timed rings and the way their jitter can be transformed into random numbers. We show that counting the periods of the jittery clock signal produces random numbers of significantly better quality than the methods in which the jittery signal is simply sampled (the case in almost all current methods). Moreover, we use the counter values to characterize and continuously monitor the source of randomness. However, instead of using the widely used statistical variance, we propose to use Allan variance to do so. There are two main advantages: Allan variance is insensitive to low frequency noises such as flicker noise that are known to be autocorrelated and significantly less circuitry is required for its computation than that used to compute commonly used variance. We also show that it is essential to use a differential principle of randomness extraction from the jitter based on the use of two identical oscillators to avoid autocorrelations originating from external and internal global jitter sources and that this fact is valid for both kinds of rings. Last but not least, we propose a method of statistical testing based on high order Markov model to show the reduced dependencies when the proposed randomness extraction is applied.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2018-08-14</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tches.iacr.org/index.php/TCHES/article/view/7274</dc:identifier>
+	<dc:identifier>10.13154/tches.v2018.i3.214-242</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Cryptographic Hardware and Embedded Systems; Volume 2018, Issue 3; 214-242</dc:source>
+	<dc:source>2569-2925</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/7274/6452</dc:relation>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/7274/7938</dc:relation>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/7274/7939</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2018 Elie Noumon Allini, Maciej Skórski, Oto Petura, Florent Bernard, Marek Laban, Viktor Fischer</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0</dc:rights>
+</oai_dc:dc>

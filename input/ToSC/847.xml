@@ -1,0 +1,25 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>847</id>
+	<dc:title xml:lang="en-US">Column Parity Mixers</dc:title>
+	<dc:creator>Stoffelen, Ko</dc:creator>
+	<dc:creator>Daemen, Joan</dc:creator>
+	<dc:subject xml:lang="en-US">mixing layers</dc:subject>
+	<dc:subject xml:lang="en-US">iterative permutations</dc:subject>
+	<dc:subject xml:lang="en-US">iterative block ciphers</dc:subject>
+	<dc:description xml:lang="en-US">We present column parity mixers (CPM), a generalization of the Θ mixing layer that is used in Keccak. Thanks to our description using matrix arithmetic, we can easily derive algebraic, diffusion, and mask propagation properties, leading to a surprising distinction between two types of CPMs. We compare CPMs to other popular types of mixing layers and argue that CPMs can be more efficient. While Keccak has a bit-oriented structure, we make the case that CPMs are also suitable for nibble- or byte-oriented designs. We outline a general substitution-permutation-network-based design strategy using a CPM, for which we show how one can attain strong bounds for differential and linear trails. We apply this strategy concretely to design a 256-bit permutation with an efficient inverse and strong trail bounds. Our permutation design uses a number of ideas that are of independent interest and allows a fast bitsliced implementation that compares quite well with other established ciphers and permutations.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2018-03-01</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tosc.iacr.org/index.php/ToSC/article/view/847</dc:identifier>
+	<dc:identifier>10.13154/tosc.v2018.i1.126-159</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Symmetric Cryptology; Volume 2018, Issue 1; 126-159</dc:source>
+	<dc:source>2519-173X</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/847/799</dc:relation>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/847/7620</dc:relation>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/847/7520</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2018 Ko Stoffelen, Joan Daemen</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0</dc:rights>
+</oai_dc:dc>

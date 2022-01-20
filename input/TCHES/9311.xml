@@ -1,0 +1,29 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>9311</id>
+	<dc:title xml:lang="en-US">VITI: A Tiny Self-Calibrating Sensor for Power-Variation Measurement in FPGAs</dc:title>
+	<dc:creator>Udugama, Brian</dc:creator>
+	<dc:creator>Jayasinghe, Darshana</dc:creator>
+	<dc:creator>Saadat, Hassaan</dc:creator>
+	<dc:creator>Ignjatovic, Aleksandar</dc:creator>
+	<dc:creator>Parameswaran, Sri</dc:creator>
+	<dc:subject xml:lang="en-US">FPGA</dc:subject>
+	<dc:subject xml:lang="en-US">Cloud FPGA</dc:subject>
+	<dc:subject xml:lang="en-US">Multi-Tenant FPGA</dc:subject>
+	<dc:subject xml:lang="en-US">Side-Channel Attack</dc:subject>
+	<dc:subject xml:lang="en-US">Power Analysis Attack</dc:subject>
+	<dc:subject xml:lang="en-US">Remote Power Analysis</dc:subject>
+	<dc:subject xml:lang="en-US">On-chip Sensors</dc:subject>
+	<dc:description xml:lang="en-US">On-chip sensors, built using reconfigurable logic resources in field programmable gate arrays (FPGAs), have been shown to sense variations in signalpropagation delay, supply voltage and power consumption. These sensors have been successfully used to deploy security attacks called Remote Power Analysis (RPA) Attacks on FPGAs. The sensors proposed thus far consume significant logic resources and some of them could be used to deploy power viruses. In this paper, a sensor (named VITI) occupying a far smaller footprint than existing sensors is presented. VITI is a self-calibrating on-chip sensor design, constructed using adjustable delay elements, flip-flops and LUT elements instead of combinational loops, bulky carry chains or latches. Self-calibration enables VITI the autonomous adaptation to differing situations (such as increased power consumption, temperature changes or placement of the sensor in faraway locations from the circuit under attack). The efficacy of VITI for power consumption measurement was evaluated using Remote Power Analysis (RPA) attacks and results demonstrate recovery of a full 128-bit Advanced Encryption Standard (AES) key with only 20,000 power traces. Experiments demonstrate that VITI consumes 1/4th and 1/16th of the area compared to state-of-the-art sensors such as time to digital converters and ring oscillators for similar effectiveness.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2021-11-19</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tches.iacr.org/index.php/TCHES/article/view/9311</dc:identifier>
+	<dc:identifier>10.46586/tches.v2022.i1.657-678</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Cryptographic Hardware and Embedded Systems; Volume 2022, Issue 1; 657-678</dc:source>
+	<dc:source>2569-2925</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/9311/8876</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2021 Brian Udugama, Darshana Jayasinghe, Hassaan Saadat, Aleksandar Ignjatovic, Sri Parameswaran</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0/</dc:rights>
+</oai_dc:dc>

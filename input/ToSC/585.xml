@@ -1,0 +1,29 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>585</id>
+	<dc:title xml:lang="en-US">ISAP – Towards Side-Channel Secure Authenticated Encryption</dc:title>
+	<dc:creator>Dobraunig, Christoph</dc:creator>
+	<dc:creator>Eichlseder, Maria</dc:creator>
+	<dc:creator>Mangard, Stefan</dc:creator>
+	<dc:creator>Mendel, Florian</dc:creator>
+	<dc:creator>Unterluggauer, Thomas</dc:creator>
+	<dc:subject xml:lang="en-US">authenticated encryption</dc:subject>
+	<dc:subject xml:lang="en-US">fresh re-keying</dc:subject>
+	<dc:subject xml:lang="en-US">passive side-channel attacks</dc:subject>
+	<dc:subject xml:lang="en-US">sponge construction</dc:subject>
+	<dc:subject xml:lang="en-US">permutation-based construction</dc:subject>
+	<dc:description xml:lang="en-US">Side-channel attacks and in particular differential power analysis (DPA) attacks pose a serious threat to cryptographic implementations. One approach to counteract such attacks are cryptographic schemes based on fresh re-keying. In settings of pre-shared secret keys, such schemes render DPA attacks infeasible by deriving session keys and by ensuring that the attacker cannot collect side-channel leakage on the session key during cryptographic operations with different inputs. While these schemes can be applied to secure standard communication settings, current re-keying approaches are unable to provide protection in settings where the same input needs to be processed multiple times. In this work, we therefore adapt the re-keying approach and present a symmetric authenticated encryption scheme that is secure against DPA attacks and that does not have such a usage restriction. This means that our scheme fully complies with the requirements given in the CAESAR call and hence, can be used like other noncebased authenticated encryption schemes without loss of side-channel protection. Its resistance against side-channel analysis is highly relevant for several applications in practice, like bulk storage settings in general and the protection of FPGA bitfiles and firmware images in particular.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2017-03-08</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tosc.iacr.org/index.php/ToSC/article/view/585</dc:identifier>
+	<dc:identifier>10.13154/tosc.v2017.i1.80-105</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Symmetric Cryptology; Volume 2017, Issue 1; 80-105</dc:source>
+	<dc:source>2519-173X</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/585/526</dc:relation>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/585/7475</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2017 Christoph Dobraunig, Maria Eichlseder, Stefan Mangard, Florian Mendel, Thomas Unterluggauer</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0</dc:rights>
+</oai_dc:dc>

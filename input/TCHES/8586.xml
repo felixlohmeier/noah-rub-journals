@@ -1,0 +1,24 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>8586</id>
+	<dc:title xml:lang="en-US">Revisiting a Methodology for Efficient CNN Architectures in Profiling Attacks</dc:title>
+	<dc:creator>Wouters, Lennert</dc:creator>
+	<dc:creator>Arribas, Victor</dc:creator>
+	<dc:creator>Gierlichs, Benedikt</dc:creator>
+	<dc:creator>Preneel, Bart</dc:creator>
+	<dc:subject xml:lang="en-US">Side-Channel Analysis</dc:subject>
+	<dc:subject xml:lang="en-US">Machine Learning</dc:subject>
+	<dc:subject xml:lang="en-US">Deep Learning</dc:subject>
+	<dc:description xml:lang="en-US">This work provides a critical review of the paper by Zaid et al. titled “Methodology for Efficient CNN Architectures in Profiling attacks”, which was published in TCHES Volume 2020, Issue 1. This work studies the design of CNN networks to perform side-channel analysis of multiple implementations of the AES for embedded devices. Based on the authors’ code and public data sets, we were able to cross-check their results and perform a thorough analysis. We correct multiple misconceptions by carefully inspecting different elements of the model architectures proposed by Zaid et al. First, by providing a better understanding on the internal workings of these models, we can trivially reduce their number of parameters on average by 52%, while maintaining a similar performance. Second, we demonstrate that the convolutional filter’s size is not strictly related to the amount of misalignment in the traces. Third, we show that increasing the filter size and the number of convolutions actually improves the performance of a network. Our work demonstrates once again that reproducibility and review are important pillars of academic research. Therefore, we provide the reader with an online Python notebook which allows to reproduce some of our experiments1 and additional example code is made available on Github.2</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2020-06-19</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tches.iacr.org/index.php/TCHES/article/view/8586</dc:identifier>
+	<dc:identifier>10.13154/tches.v2020.i3.147-168</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Cryptographic Hardware and Embedded Systems; Volume 2020, Issue 3; 147-168</dc:source>
+	<dc:source>2569-2925</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/8586/8153</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2020 Lennert Wouters, Victor Arribas, Benedikt Gierlichs, Bart Preneel</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0</dc:rights>
+</oai_dc:dc>

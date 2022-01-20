@@ -1,0 +1,23 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>9173</id>
+	<dc:title xml:lang="en-US">Cryptanalysis of the SoDark Cipher for HF Radio Automatic Link Establishment</dc:title>
+	<dc:creator>Dansarie, Marcus</dc:creator>
+	<dc:subject xml:lang="en-US">automatic link establishment</dc:subject>
+	<dc:subject xml:lang="en-US">ALE</dc:subject>
+	<dc:subject xml:lang="en-US">SoDark</dc:subject>
+	<dc:subject xml:lang="en-US">cryptanalysis</dc:subject>
+	<dc:subject xml:lang="en-US">block cipher</dc:subject>
+	<dc:description xml:lang="en-US">The SoDark cipher is used to protect transmitted frames in the second and third generation automatic link establishment (ALE) standards for high frequency (HF) radios. The cipher is primarily meant to prevent unauthorized linking and attacks on the availability of HF radio networks. This paper represents the first known security analysis of the cipher used by the second generation ALE protocol—the de facto world standard—and presents a related-tweak attack on the full eight round version of the algorithm. Under certain conditions, collisions of intermediate states several rounds into the cipher can be detected from the ciphertext with high probability. This enables testing against the intermediate states using only parts of the key. The best attack is a chosen-ciphertext attack which can recover the secret key in about an hour with 100% probability, using 29 chosen ciphertexts.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2021-09-17</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tosc.iacr.org/index.php/ToSC/article/view/9173</dc:identifier>
+	<dc:identifier>10.46586/tosc.v2021.i3.36-53</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Symmetric Cryptology; Volume 2021, Issue 3; 36-53</dc:source>
+	<dc:source>2519-173X</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/9173/8711</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2021 Marcus Dansarie</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0/</dc:rights>
+</oai_dc:dc>

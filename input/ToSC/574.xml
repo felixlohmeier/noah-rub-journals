@@ -1,0 +1,29 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>574</id>
+	<dc:title xml:lang="en-US">Significantly Improved Multi-bit Differentials for Reduced Round Salsa and ChaCha</dc:title>
+	<dc:creator>Choudhuri, Arka Rai</dc:creator>
+	<dc:creator>Maitra, Subhamoy</dc:creator>
+	<dc:subject xml:lang="en-US">Stream Cipher</dc:subject>
+	<dc:subject xml:lang="en-US">ChaCha</dc:subject>
+	<dc:subject xml:lang="en-US">Salsa</dc:subject>
+	<dc:subject xml:lang="en-US">Non-Randomness</dc:subject>
+	<dc:subject xml:lang="en-US">Bias</dc:subject>
+	<dc:subject xml:lang="en-US">Probabilistic Neutral Bit (PNB)</dc:subject>
+	<dc:subject xml:lang="en-US">ARX Cipher</dc:subject>
+	<dc:subject xml:lang="en-US">Differential-Linear Cryptanalysis</dc:subject>
+	<dc:description xml:lang="en-US">ChaCha and Salsa are two software oriented stream ciphers that have attracted serious attention in academic as well as commercial domain. The most important cryptanalysis of reduced versions of these ciphers was presented by Aumasson et al. in FSE 2008. One part of their attack was to apply input difference(s) to investigate biases after a few rounds. So far there have been certain kind of limited exhaustive searches to obtain such biases. For the first time, in this paper, we show how to theoretically choose the combinations of the output bits to obtain significantly improved biases. The main idea here is to consider the multi-bit differentials as extension of suitable single-bit differentials with linear approximations, which is essentially a differential-linear attack. As we consider combinations of many output bits (for example 19 for Salsa and 21 for ChaCha), exhaustive search is not possible here. By this method we obtain very high biases for linear combinations of bits in Salsa after 6 rounds and in ChaCha after 5 rounds. These are clearly two rounds of improvement for both the ciphers over the existing works. Using these biases we obtain several significantly improved cryptanalytic results for reduced round Salsa and ChaCha that could not b obtained earlier. In fact, with our results it is now possible to cryptanalyse 6-round Salsa and 5-round ChaCha in practical time.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2017-02-03</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:format>application/vnd.openxmlformats-officedocument.presentationml.presentation</dc:format>
+	<dc:identifier>https://tosc.iacr.org/index.php/ToSC/article/view/574</dc:identifier>
+	<dc:identifier>10.13154/tosc.v2016.i2.261-287</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Symmetric Cryptology; Volume 2016, Issue 2; 261-287</dc:source>
+	<dc:source>2519-173X</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/574/516</dc:relation>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/574/7470</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2017 Arka Rai Choudhuri, Subhamoy Maitra</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0</dc:rights>
+</oai_dc:dc>

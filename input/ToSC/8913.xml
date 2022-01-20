@@ -1,0 +1,24 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>8913</id>
+	<dc:title xml:lang="en-US">Proving Resistance Against Infinitely Long Subspace Trails: How to Choose the Linear Layer</dc:title>
+	<dc:creator>Grassi, Lorenzo</dc:creator>
+	<dc:creator>Rechberger, Christian</dc:creator>
+	<dc:creator>Schofnegger, Markus</dc:creator>
+	<dc:subject xml:lang="en-US">Partial SPN</dc:subject>
+	<dc:subject xml:lang="en-US">Linear Layer</dc:subject>
+	<dc:subject xml:lang="en-US">Subspace Trails</dc:subject>
+	<dc:subject xml:lang="en-US">Hades Schemes</dc:subject>
+	<dc:description xml:lang="en-US">Designing cryptographic permutations and block ciphers using a substitutionpermutation network (SPN) approach where the nonlinear part does not cover the entire state has recently gained attention due to favorable implementation characteristics in various scenarios.For word-oriented partial SPN (P-SPN) schemes with a fixed linear layer, our goal is to better understand how the details of the linear layer affect the security of the construction. In this paper, we derive conditions that allow us to either set up or prevent attacks based on infinitely long truncated differentials with probability 1. Our analysis is rather broad compared to earlier independent work on this problem since we consider (1) both invariant and non-invariant/iterative trails, and (2) trails with and without active S-boxes.For these cases, we provide rigorous sufficient and necessary conditions for the matrix that defines the linear layer to prevent the analyzed attacks. On the practical side, we present a tool that can determine whether a given linear layer is vulnerable based on these results. Furthermore, we propose a sufficient condition for the linear layer that, if satisfied, ensures that no infinitely long truncated differential exists. This condition is related to the degree and the irreducibility of the minimal polynomial of the matrix that defines the linear layer. Besides P-SPN schemes, our observations may also have a crucial impact on the Hades design strategy, which mixes rounds with full S-box layers and rounds with partial S-box layers.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2021-06-11</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tosc.iacr.org/index.php/ToSC/article/view/8913</dc:identifier>
+	<dc:identifier>10.46586/tosc.v2021.i2.314-352</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Symmetric Cryptology; Volume 2021, Issue 2; 314-352</dc:source>
+	<dc:source>2519-173X</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/8913/8489</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2021 Lorenzo Grassi, Christian Rechberger, Markus Schofnegger</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0/</dc:rights>
+</oai_dc:dc>

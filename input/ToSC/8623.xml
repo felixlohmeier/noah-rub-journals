@@ -1,0 +1,38 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>8623</id>
+	<dc:title xml:lang="en-US">Spook: Sponge-Based Leakage-Resistant Authenticated Encryption with a Masked Tweakable Block Cipher</dc:title>
+	<dc:creator>Bellizia, Davide</dc:creator>
+	<dc:creator>Berti, Francesco </dc:creator>
+	<dc:creator>Bronchain, Olivier</dc:creator>
+	<dc:creator>Cassiers, Gaëtan</dc:creator>
+	<dc:creator>Duval, Sébastien</dc:creator>
+	<dc:creator>Guo, Chun</dc:creator>
+	<dc:creator>Leander, Gregor</dc:creator>
+	<dc:creator>Leurent, Gaëtan</dc:creator>
+	<dc:creator>Levi, Itamar</dc:creator>
+	<dc:creator>Momin, Charles</dc:creator>
+	<dc:creator>Pereira, Olivier</dc:creator>
+	<dc:creator>Peters, Thomas</dc:creator>
+	<dc:creator>Standaert, François-Xavier</dc:creator>
+	<dc:creator>Udvarhelyi, Balazs</dc:creator>
+	<dc:creator>Wiemer, Friedrich</dc:creator>
+	<dc:subject xml:lang="en-US">Authenticated encryption</dc:subject>
+	<dc:subject xml:lang="en-US">NIST lightweight cryptography standardization effort</dc:subject>
+	<dc:subject xml:lang="en-US">leakage-resistance</dc:subject>
+	<dc:subject xml:lang="en-US">bitslice ciphers</dc:subject>
+	<dc:subject xml:lang="en-US">masking countermeasure</dc:subject>
+	<dc:subject xml:lang="en-US">low energy</dc:subject>
+	<dc:description xml:lang="en-US">This paper defines Spook: a sponge-based authenticated encryption with associated data algorithm. It is primarily designed to provide security against side-channel attacks at a low energy cost. For this purpose, Spook is mixing a leakageresistant mode of operation with bitslice ciphers enabling efficient and low latency implementations. The leakage-resistant mode of operation leverages a re-keying function to prevent differential side-channel analysis, a duplex sponge construction to efficiently process the data, and a tag verification based on a Tweakable Block Cipher (TBC) providing strong data integrity guarantees in the presence of leakages. The underlying bitslice ciphers are optimized for the masking countermeasures against side-channel attacks. Spook is an efficient single-pass algorithm. It ensures state-of-the-art black box security with several prominent features: (i) nonce misuse-resilience, (ii) beyond-birthday security with respect to the TBC block size, and (iii) multiuser security at minimum cost with a public tweak. Besides the specifications and design rationale, we provide first software and hardware implementation results of (unprotected) Spook which confirm the limited overheads that the use of two primitives sharing internal components imply. We also show that the integrity of Spook with leakage, so far analyzed with unbounded leakages for the duplex sponge and a strongly protected TBC modeled as leak-free, can be proven with a much weaker unpredictability assumption for the TBC. We finally discuss external cryptanalysis results and tweaks to improve both the security margins and efficiency of Spook.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2020-06-22</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tosc.iacr.org/index.php/ToSC/article/view/8623</dc:identifier>
+	<dc:identifier>10.13154/tosc.v2020.iS1.295-349</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Symmetric Cryptology; Volume 2020, Special Issue 1 ; 295-349</dc:source>
+	<dc:source>2519-173X</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/8623/8189</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2020 Davide Bellizia, Francesco Berti, Olivier Bronchain, Gaëtan Cassiers, Sébastien Duval, Chun Guo, Gregor Leander, Gaëtan Leurent, Itamar Levi, Charles Momin, Olivier Pereira, Thomas Peters, François-Xavier Standaert, Balazs Udvarhelyi and Friedrich Wiemer</dc:rights>
+	<dc:rights xml:lang="en-US">http://creativecommons.org/licenses/by/4.0/</dc:rights>
+</oai_dc:dc>

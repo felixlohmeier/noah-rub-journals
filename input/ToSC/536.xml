@@ -1,0 +1,29 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>536</id>
+	<dc:title xml:lang="en-US">Quantum Differential and Linear Cryptanalysis</dc:title>
+	<dc:creator>Kaplan, Marc</dc:creator>
+	<dc:creator>Leurent, Gaëtan</dc:creator>
+	<dc:creator>Leverrier, Anthony</dc:creator>
+	<dc:creator>Naya-Plasencia, María</dc:creator>
+	<dc:subject xml:lang="en-US">Symmetric cryptography</dc:subject>
+	<dc:subject xml:lang="en-US">Differential cryptanalysis</dc:subject>
+	<dc:subject xml:lang="en-US">Linear cryptanalysis</dc:subject>
+	<dc:subject xml:lang="en-US">Post-quantum cryptography</dc:subject>
+	<dc:subject xml:lang="en-US">Quantum attacks</dc:subject>
+	<dc:subject xml:lang="en-US">Block ciphers.</dc:subject>
+	<dc:description xml:lang="en-US">Quantum computers, that may become available one day, would impact many scientific fields, most notably cryptography since many asymmetric primitives are insecure against an adversary with quantum capabilities. Cryptographers are already anticipating this threat by proposing and studying a number of potentially quantum-safe alternatives for those primitives. On the other hand, symmetric primitives seem less vulnerable against quantum computing: the main known applicable result is Grover’s algorithm that gives a quadratic speed-up for exhaustive search. In this work, we examine more closely the security of symmetric ciphers against quantum attacks. Since our trust in symmetric ciphers relies mostly on their ability to resist cryptanalysis techniques, we investigate quantum cryptanalysis techniques. More specifically, we consider quantum versions of differential and linear cryptanalysis. We show that it is usually possible to use quantum computations to obtain a quadratic speed-up for these attack techniques, but the situation must be nuanced: we don’t get a quadratic speed-up for all variants of the attacks. This allows us to demonstrate the following non-intuitive result: the best attack in the classical world does not necessarily lead to the best quantum one. We give some examples of application on ciphers LAC and KLEIN. We also discuss the important difference between an adversary that can only perform quantum computations, and an adversary that can also make quantum queries to a keyed primitive.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2016-12-01</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tosc.iacr.org/index.php/ToSC/article/view/536</dc:identifier>
+	<dc:identifier>10.13154/tosc.v2016.i1.71-94</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Symmetric Cryptology; Volume 2016, Issue 1; 71-94</dc:source>
+	<dc:source>2519-173X</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/536/480</dc:relation>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/536/7456</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2016 Marc Kaplan, Gaëtan Leurent, Anthony Leverrier, María Naya-Plasencia</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0</dc:rights>
+</oai_dc:dc>

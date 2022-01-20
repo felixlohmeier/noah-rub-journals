@@ -1,0 +1,28 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>8618</id>
+	<dc:title xml:lang="en-US">Xoodyak, a lightweight cryptographic scheme</dc:title>
+	<dc:creator>Daemen, Joan</dc:creator>
+	<dc:creator>Hoffert, Seth</dc:creator>
+	<dc:creator>Peeters, Michaël</dc:creator>
+	<dc:creator>Van Assche, Gilles</dc:creator>
+	<dc:creator>Van Keer, Ronny</dc:creator>
+	<dc:subject xml:lang="en-US">lightweight cryptography</dc:subject>
+	<dc:subject xml:lang="en-US">permutation-based cryptography</dc:subject>
+	<dc:subject xml:lang="en-US">sponge construction</dc:subject>
+	<dc:subject xml:lang="en-US">duplex construction</dc:subject>
+	<dc:subject xml:lang="en-US">authenticated encryption</dc:subject>
+	<dc:subject xml:lang="en-US">hashing</dc:subject>
+	<dc:description xml:lang="en-US">In this paper, we present Xoodyak, a cryptographic primitive that can be used for hashing, encryption, MAC computation and authenticated encryption. Essentially, it is a duplex object extended with an interface that allows absorbing strings of arbitrary length, their encryption and squeezing output of arbitrary length. It inherently hashes the history of all operations in its state, allowing to derive its resistance against generic attacks from that of the full-state keyed duplex. Internally, it uses the Xoodoo[12] permutation that, with its width of 48 bytes, allows for very compact implementations. The choice of 12 rounds justifies a security claim in the hermetic philosophy: It implies that there are no shortcut attacks with higher success probability than generic attacks. The claimed security strength is 128 bits. We illustrate the versatility of Xoodyak by describing a number of use cases, including the ones requested by NIST in the lightweight competition. For those use cases, we translate the relatively detailed security claim that we make for Xoodyak into simple ones.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2020-06-22</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tosc.iacr.org/index.php/ToSC/article/view/8618</dc:identifier>
+	<dc:identifier>10.13154/tosc.v2020.iS1.60-87</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Symmetric Cryptology; Volume 2020, Special Issue 1 ; 60-87</dc:source>
+	<dc:source>2519-173X</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/8618/8184</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2020 Joan Daemen, Seth Hoffert, Michaël Peeters, Gilles Van Assche, Ronny Van Keer</dc:rights>
+	<dc:rights xml:lang="en-US">http://creativecommons.org/licenses/by/4.0/</dc:rights>
+</oai_dc:dc>

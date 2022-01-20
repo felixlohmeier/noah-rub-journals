@@ -1,0 +1,32 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>7384</id>
+	<dc:title xml:lang="en-US">AuCPace: Efficient verifier-based PAKE protocol tailored for the IIoT</dc:title>
+	<dc:creator>Haase, Björn</dc:creator>
+	<dc:creator>Labrique, Benoît</dc:creator>
+	<dc:subject xml:lang="en-US">Password Authenticated Key Exchange</dc:subject>
+	<dc:subject xml:lang="en-US">V-PAKE</dc:subject>
+	<dc:subject xml:lang="en-US">PAKE</dc:subject>
+	<dc:subject xml:lang="en-US">elliptic curves</dc:subject>
+	<dc:subject xml:lang="en-US">Cryptographic Protocols</dc:subject>
+	<dc:subject xml:lang="en-US">Universal Composability</dc:subject>
+	<dc:subject xml:lang="en-US">IEC-62443</dc:subject>
+	<dc:subject xml:lang="en-US">Industrial Control</dc:subject>
+	<dc:subject xml:lang="en-US">Curve25519</dc:subject>
+	<dc:subject xml:lang="en-US">X25519</dc:subject>
+	<dc:description xml:lang="en-US">Increasingly connectivity becomes integrated in products and devices that previously operated in a stand-alone setting. This observation holds for many consumer applications in the so-called "Internet of Things" (IoT) as well as for corresponding industry applications (IIoT), such as industrial process sensors. Often the only practicable means for authentication of human users is a password. The security of password-based authentication schemes frequently forms the weakest point of the security infrastructure. In this paper we first explain why a tailored protocol designed for the IIoT use case is considered necessary. The differences between IIoT and the conventional Internet use-cases result in largely modified threats and require special procedures for allowing both, convenient and secure use in the highly constrained industrial setting. Specifically the use of a verifier-based password-authenticated key-exchange (V-PAKE) protocol as a hedge against public-key-infrastructure (PKI) failures is considered important. Availability concerns for the case of failures of (part of) the communication infrastructure makes local storage of access credentials mandatory. The larger threat of physical attacks makes it important to use memory-hard password hashing. This paper presents a corresponding tailored protocol, AuCPace, together with a security proof within the Universal Composability (UC) framework considering fully adaptive adversaries. We also introduce a new security notion of partially augmented PAKE that provides specific performance advantages and makes them suitable for a larger set of IIoT applications. We also present an actual instantiation of our protocol, AuCPace25519, and present performance results on ARM Cortex-M0 and Cortex-M4 microcontrollers. Our implementation realizes new speed-records for PAKE and X25519 Diffie-Hellman for the ARM Cortex M4 architecture.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2019-02-28</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tches.iacr.org/index.php/TCHES/article/view/7384</dc:identifier>
+	<dc:identifier>10.13154/tches.v2019.i2.1-48</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Cryptographic Hardware and Embedded Systems; Volume 2019, Issue 2; 1-48</dc:source>
+	<dc:source>2569-2925</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/7384/6556</dc:relation>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/7384/7881</dc:relation>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/7384/7882</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2019 Björn Haase, Benoît Labrique</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0</dc:rights>
+</oai_dc:dc>

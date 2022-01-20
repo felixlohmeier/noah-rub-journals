@@ -1,0 +1,25 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>9300</id>
+	<dc:title xml:lang="en-US">Semi-Automatic Locating of Cryptographic Operations in Side-Channel Traces</dc:title>
+	<dc:creator>Trautmann, Jens</dc:creator>
+	<dc:creator>Beckers, Arthur</dc:creator>
+	<dc:creator>Wouters, Lennert</dc:creator>
+	<dc:creator>Wildermann, Stefan</dc:creator>
+	<dc:creator>Verbauwhede, Ingrid</dc:creator>
+	<dc:creator>Teich, Jürgen</dc:creator>
+	<dc:subject xml:lang="en-US">Side-channel analysis</dc:subject>
+	<dc:subject xml:lang="en-US">locating of cryptographic operations</dc:subject>
+	<dc:description xml:lang="en-US">Locating a cryptographic operation in a side-channel trace, i.e. finding out where it is in the time domain, without having a template, can be a tedious task even for unprotected implementations. The sheer amount of data can be overwhelming. In a simple call to OpenSSL for AES-128 ECB encryption of a single data block, only 0.00028% of the trace relate to the actual AES-128 encryption. The rest is overhead. We introduce the (to our best knowledge) first method to locate a cryptographic operation in a side-channel trace in a largely automated fashion. The method exploits meta information about the cryptographic operation and requires an estimate of its implementation’s execution time.The method lends itself to parallelization and our implementation in a tool greatly benefits from GPU acceleration. The tool can be used offline for trace segmentation and for generating a template which can then be used online in real-time waveformmatching based triggering systems for trace acquisition or fault injection. We evaluate it in six scenarios involving hardware and software implementations of different cryptographic operations executed on diverse platforms. Two of these scenarios cover realistic protocol level use-cases and demonstrate the real-world applicability of our tool in scenarios where classical leakage-detection techniques would not work. The results highlight the usefulness of the tool because it reliably and efficiently automates the task and therefore frees up time of the analyst.The method does not work on traces of implementations protected by effective time randomization countermeasures, e.g. random delays and unstable clock frequency, but is not affected by masking, shuffling and similar countermeasures.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2021-11-19</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tches.iacr.org/index.php/TCHES/article/view/9300</dc:identifier>
+	<dc:identifier>10.46586/tches.v2022.i1.345-366</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Cryptographic Hardware and Embedded Systems; Volume 2022, Issue 1; 345-366</dc:source>
+	<dc:source>2569-2925</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/9300/8866</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2021 Jens Trautmann, Arthur Beckers, Lennert Wouters, Benedikt Gierlichs, Stefan Wildermann, Ingrid Verbauwhede, Jürgen Teich</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0/</dc:rights>
+</oai_dc:dc>

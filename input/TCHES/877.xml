@@ -1,0 +1,27 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>877</id>
+	<dc:title xml:lang="en-US">Hardware Masking, Revisited</dc:title>
+	<dc:creator>De Cnudde, Thomas</dc:creator>
+	<dc:creator>Ender, Maik</dc:creator>
+	<dc:creator>Moradi, Amir</dc:creator>
+	<dc:subject xml:lang="en-US">Masking</dc:subject>
+	<dc:subject xml:lang="en-US">Leakage</dc:subject>
+	<dc:subject xml:lang="en-US">FPGA</dc:subject>
+	<dc:subject xml:lang="en-US">Hardware</dc:subject>
+	<dc:description xml:lang="en-US">MaskingHardware masking schemes have shown many advances in the past few years. Through a series of publications their implementation cost has dropped significantly and flaws have been fixed where present. Despite these advancements it seems that a limit has been reached when implementing masking schemes on FPGA platforms. Indeed, even with a correct transition from the masking scheme to the masking realization (i.e., when the implementation is not buggy) it has been shown that the implementation can still exhibit unexpected leakage, e.g., through variations in placement and routing. In this work, we show that the reason for such unexpected leakages is the violation of an underlying assumption made by all masking schemes, i.e., that the leakage of the circuit is a linear sum of leakages associated to each share. In addition to the theory of VLSI which supports our claim, we perform a wide range of experiments based on an FPGA) to find out under what circumstances this causes a masked hardware implementation to show undesirable leakage. We further illustrate case studies, where publicly-known secure designs exhibit first-order leakage when being operated at certain conditions.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2018-05-08</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tches.iacr.org/index.php/TCHES/article/view/877</dc:identifier>
+	<dc:identifier>10.13154/tches.v2018.i2.123-148</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Cryptographic Hardware and Embedded Systems; Volume 2018, Issue 2; 123-148</dc:source>
+	<dc:source>2569-2925</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/877/829</dc:relation>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/877/7978</dc:relation>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/877/7979</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2018 Thomas De Cnudde, Maik Ender, Amir Moradi</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0</dc:rights>
+</oai_dc:dc>

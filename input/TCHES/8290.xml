@@ -1,0 +1,30 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>8290</id>
+	<dc:title xml:lang="en-US">Covert Gates: Protecting Integrated Circuits with Undetectable Camouflaging</dc:title>
+	<dc:creator>Shakya, Bicky</dc:creator>
+	<dc:creator>Shen, Haoting</dc:creator>
+	<dc:creator>Tehranipoor, Mark</dc:creator>
+	<dc:creator>Forte, Domenic</dc:creator>
+	<dc:subject xml:lang="en-US">IP Protection</dc:subject>
+	<dc:subject xml:lang="en-US">Camouflaging</dc:subject>
+	<dc:subject xml:lang="en-US">Reverse Engineering</dc:subject>
+	<dc:subject xml:lang="en-US">SEM Imaging</dc:subject>
+	<dc:subject xml:lang="en-US">ATPG</dc:subject>
+	<dc:subject xml:lang="en-US">SAT</dc:subject>
+	<dc:description xml:lang="en-US">Integrated circuit (IC) camouflaging has emerged as a promising solution for protecting semiconductor intellectual property (IP) against reverse engineering. Existing methods of camouflaging are based on standard cells that can assume one of many Boolean functions, either through variation of transistor threshold voltage or contact configurations. Unfortunately, such methods lead to high area, delay and power overheads, and are vulnerable to invasive as well as non-invasive attacks based on Boolean satisfiability/VLSI testing. In this paper, we propose, fabricate, and demonstrate a new cell camouflaging strategy, termed as ‘covert gate’ that leverages doping and dummy contacts to create camouflaged cells that are indistinguishable from regular standard cells under modern imaging techniques. We perform a comprehensive security analysis of covert gate, and show that it achieves high resiliency against SAT and test-based attacks at very low overheads. We also derive models to characterize the covert cells, and develop measures to incorporate them into a gate-level design. Simulation results of overheads and attacks are presented on benchmark circuits.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2019-05-09</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tches.iacr.org/index.php/TCHES/article/view/8290</dc:identifier>
+	<dc:identifier>10.13154/tches.v2019.i3.86-118</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Cryptographic Hardware and Embedded Systems; Volume 2019, Issue 3; 86-118</dc:source>
+	<dc:source>2569-2925</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/8290/7640</dc:relation>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/8290/7863</dc:relation>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/8290/7864</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2019 Bicky Shakya, Haoting Shen, Mark Tehranipoor, Domenic Forte</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0</dc:rights>
+</oai_dc:dc>

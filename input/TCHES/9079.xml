@@ -1,0 +1,28 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>9079</id>
+	<dc:title xml:lang="en-US">A Side-Channel Attack on a Masked IND-CCA Secure Saber KEM Implementation</dc:title>
+	<dc:creator>Ngo, Kalle</dc:creator>
+	<dc:creator>Dubrova, Elena</dc:creator>
+	<dc:creator>Guo, Qian</dc:creator>
+	<dc:creator>Johansson, Thomas</dc:creator>
+	<dc:subject xml:lang="en-US">Public-key cryptography</dc:subject>
+	<dc:subject xml:lang="en-US">post-quantum cryptography</dc:subject>
+	<dc:subject xml:lang="en-US">Saber KEM</dc:subject>
+	<dc:subject xml:lang="en-US">LWE/LWR-based KEM</dc:subject>
+	<dc:subject xml:lang="en-US">side-channel attack</dc:subject>
+	<dc:subject xml:lang="en-US">power analysis</dc:subject>
+	<dc:subject xml:lang="en-US">deep learning</dc:subject>
+	<dc:description xml:lang="en-US">In this paper, we present a side-channel attack on a first-order masked implementation of IND-CCA secure Saber KEM. We show how to recover both the session key and the long-term secret key from 24 traces using a deep neural network created at the profiling stage. The proposed message recovery approach learns a higher-order model directly, without explicitly extracting random masks at each execution. This eliminates the need for a fully controllable profiling device which is required in previous attacks on masked implementations of LWE/LWR-based PKEs/KEMs. We also present a new secret key recovery approach based on maps from error-correcting codes that can compensate for some errors in the recovered message. In addition, we discovered a previously unknown leakage point in the primitive for masked logical shifting on arithmetic shares.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2021-08-11</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tches.iacr.org/index.php/TCHES/article/view/9079</dc:identifier>
+	<dc:identifier>10.46586/tches.v2021.i4.676-707</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Cryptographic Hardware and Embedded Systems; Volume 2021, Issue 4; 676-707</dc:source>
+	<dc:source>2569-2925</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/9079/8666</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2021 Kalle Ngo, Elena Dubrova, Qian Guo, Thomas Johansson</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0/</dc:rights>
+</oai_dc:dc>

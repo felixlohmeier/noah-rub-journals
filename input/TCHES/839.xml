@@ -1,0 +1,31 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>839</id>
+	<dc:title xml:lang="en-US">CRYSTALS-Dilithium: A Lattice-Based Digital Signature Scheme</dc:title>
+	<dc:creator>Ducas, Léo</dc:creator>
+	<dc:creator>Kiltz, Eike</dc:creator>
+	<dc:creator>Lepoint, Tancrède</dc:creator>
+	<dc:creator>Lyubashevsky, Vadim</dc:creator>
+	<dc:creator>Schwabe, Peter</dc:creator>
+	<dc:creator>Seiler, Gregor</dc:creator>
+	<dc:creator>Stehlé, Damien</dc:creator>
+	<dc:subject xml:lang="en-US">Lattice Cryptography</dc:subject>
+	<dc:subject xml:lang="en-US">Digital Signatures</dc:subject>
+	<dc:subject xml:lang="en-US">Constant-Time Implementation</dc:subject>
+	<dc:subject xml:lang="en-US">AVX2</dc:subject>
+	<dc:description xml:lang="en-US">In this paper, we present the lattice-based signature scheme Dilithium, which is a component of the CRYSTALS (Cryptographic Suite for Algebraic Lattices) suite that was submitted to NIST’s call for post-quantum cryptographic standards. The design of the scheme avoids all uses of discrete Gaussian sampling and is easily implementable in constant-time. For the same security levels, our scheme has a public key that is 2.5X smaller than the previously most efficient lattice-based schemes that did not use Gaussians, while having essentially the same signature size. In addition to the new design, we significantly improve the running time of the main component of many lattice-based constructions – the number theoretic transform. Our AVX2-based implementation results in a speed-up of roughly a factor of 2 over the previously best algorithms that appear in the literature. The techniques for obtaining this speed-up also have applications to other lattice-based schemes.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2018-02-14</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tches.iacr.org/index.php/TCHES/article/view/839</dc:identifier>
+	<dc:identifier>10.13154/tches.v2018.i1.238-268</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Cryptographic Hardware and Embedded Systems; Volume 2018, Issue 1; 238-268</dc:source>
+	<dc:source>2569-2925</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/839/791</dc:relation>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/839/8014</dc:relation>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/839/8015</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2018 Léo Ducas, Eike Kiltz, Tancrède Lepoint, Vadim Lyubashevsky, Peter Schwabe, Gregor Seiler, Damien Stehlé</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0</dc:rights>
+</oai_dc:dc>

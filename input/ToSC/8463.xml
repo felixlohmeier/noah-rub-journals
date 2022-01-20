@@ -1,0 +1,25 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>8463</id>
+	<dc:title xml:lang="en-US">Security of the Suffix Keyed Sponge</dc:title>
+	<dc:creator>Dobraunig, Christoph</dc:creator>
+	<dc:creator>Mennink, Bart</dc:creator>
+	<dc:subject xml:lang="en-US">suffix MAC</dc:subject>
+	<dc:subject xml:lang="en-US">sponge</dc:subject>
+	<dc:subject xml:lang="en-US">SuKS</dc:subject>
+	<dc:subject xml:lang="en-US">PRF</dc:subject>
+	<dc:subject xml:lang="en-US">leakage resilience</dc:subject>
+	<dc:subject xml:lang="en-US">proof</dc:subject>
+	<dc:description xml:lang="en-US">We formalize and analyze the general suffix keyed sponge construction, a pseudorandom function built on top of a cryptographic permutation. The construction hashes its data using the (keyless) sponge construction, transforms part of the state using the secret key, and generates the tag from the output of a final permutation call. In its simplest form, if the key and tag size are at most the rate of the sponge, one can see the suffix keyed sponge as a simple sponge function evaluation whose input is the plaintext appended with the key. The suffix keyed sponge is, however, much more general: the key and tag size may exceed the rate without any need to make extra permutation calls. We prove that the suffix keyed sponge construction achieves birthday-bound PRF security in the capacity, even if key and tag size exceed the rate. Furthermore, we prove that if the absorption of the key into the state happens in a leakage resilient manner, the suffix keyed sponge itself is leakage resilient as well. Our findings show that the suffix keyed sponge compares favorably with the hash-then-MAC construction. For instance, to reach a security level of k bits, the side-channel protected component in the suffix keyed sponge just needs to process k bits of input besides the key, whereas schemes following the hash-then-MAC construction need a side-channel protected MAC function that processes 2k bits of input besides the key. Moreover, even if we just consider black-box attacks, the MAC function in a hash-then-MAC scheme needs to be cryptographically strong whereas in the suffix keyed sponge the key may be absorbed by a simple XOR. The security proofs are performed using the H-coefficient technique, and make effective use of the multicollision limit function results of Daemen et al. (ASIACRYPT 2017), both for arguing that state manipulation larger than the rate is tolerated after key processing and for upper bounding the amount of leakage an attacker may gain about the secret key.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2020-01-31</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tosc.iacr.org/index.php/ToSC/article/view/8463</dc:identifier>
+	<dc:identifier>10.13154/tosc.v2019.i4.223-248</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Symmetric Cryptology; Volume 2019, Issue 4; 223-248</dc:source>
+	<dc:source>2519-173X</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/8463/8028</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2020 Christoph Dobraunig, Bart Mennink</dc:rights>
+	<dc:rights xml:lang="en-US">http://creativecommons.org/licenses/by/4.0/</dc:rights>
+</oai_dc:dc>

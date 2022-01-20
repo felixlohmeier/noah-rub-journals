@@ -1,0 +1,26 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>7389</id>
+	<dc:title xml:lang="en-US">Towards Globally Optimized Masking: From Low Randomness to Low Noise Rate: or Probe Isolating Multiplications with Reduced Randomness and Security against Horizontal Attacks</dc:title>
+	<dc:creator>Cassiers, Gaëtan</dc:creator>
+	<dc:creator>Standaert, François-Xavier</dc:creator>
+	<dc:subject xml:lang="en-US">Masking</dc:subject>
+	<dc:subject xml:lang="en-US">composability</dc:subject>
+	<dc:subject xml:lang="en-US">horizontal attacks</dc:subject>
+	<dc:subject xml:lang="en-US">random probing model</dc:subject>
+	<dc:description xml:lang="en-US">We improve the state-of-the-art masking schemes in two important directions. First, we propose a new masked multiplication algorithm that satisfies a recently introduced notion called Probe-Isolating Non-Interference (PINI). It captures a sufficient requirement for designing masked implementations in a trivial way, by combining PINI multiplications and linear operations performed share by share. Our improved algorithm has the best reported randomness complexity for large security orders (while the previous PINI multiplication was best for small orders). Second, we analyze the security of most existing multiplication algorithms in the literature against so-called horizontal attacks, which aim to reduce the noise of the actual leakages measured by an adversary, by combining the information of multiple target intermediate values. For this purpose, we leave the (abstract) probing model and consider a specialization of the (more realistic) noisy leakage / random probing models. Our (still partially heuristic but quantitative) analysis allows confirming the improved security of an algorithm by Battistello et al. from CHES 2016 in this setting. We then use it to propose new improved algorithms, leading to better tradeoffs between randomness complexity and noise rate, and suggesting the possibility to design efficient masked multiplication algorithms with constant noise rate in F2.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2019-02-28</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tches.iacr.org/index.php/TCHES/article/view/7389</dc:identifier>
+	<dc:identifier>10.13154/tches.v2019.i2.162-198</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Cryptographic Hardware and Embedded Systems; Volume 2019, Issue 2; 162-198</dc:source>
+	<dc:source>2569-2925</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/7389/6561</dc:relation>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/7389/7891</dc:relation>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/7389/7892</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2019 Gaëtan Cassiers, François-Xavier Standaert</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0</dc:rights>
+</oai_dc:dc>

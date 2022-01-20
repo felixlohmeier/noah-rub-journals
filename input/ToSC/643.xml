@@ -1,0 +1,27 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>643</id>
+	<dc:title xml:lang="en-US">Cryptanalysis of 48-step RIPEMD-160</dc:title>
+	<dc:creator>Wang, Gaoli</dc:creator>
+	<dc:creator>Shen, Yanzhao</dc:creator>
+	<dc:creator>Liu, Fukang</dc:creator>
+	<dc:subject xml:lang="en-US">Hash functions</dc:subject>
+	<dc:subject xml:lang="en-US">RIPEMD-160</dc:subject>
+	<dc:subject xml:lang="en-US">Semi-free-start collision</dc:subject>
+	<dc:subject xml:lang="en-US">Generalized message modification</dc:subject>
+	<dc:description xml:lang="en-US">In this paper, we show how to theoretically compute the step differential probability of RIPEMD-160 under the condition that only one internal variable contains difference and the difference is a power of 2. Inspired by the way of computing the differential probability, we can do message modification such that a step differential hold with probability 1. Moreover, we propose a semi-free-start collision attack on 48-step RIPEMD-160, which improves the best semi-free start collision by 6 rounds. This is mainly due to that some bits of the chaining variable in the i-th step can be computed by adding some conditions in advance, even though some chaining variables before step i are unknown. Therefore, the uncontrolled probability of the differential path is increased and the number of the needed starting points is decreased. Then a semi-free-start collision attack on 48-step RIPEMD-160 can be obtained based on the differential path constructed by Mendel et al. at ASIACRYPT 2013. The experiments confirm our reasoning and complexity analysis.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2017-06-19</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tosc.iacr.org/index.php/ToSC/article/view/643</dc:identifier>
+	<dc:identifier>10.13154/tosc.v2017.i2.177-202</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Symmetric Cryptology; Volume 2017, Issue 2; 177-202</dc:source>
+	<dc:source>2519-173X</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/643/611</dc:relation>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/643/7585</dc:relation>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/643/7502</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2017 Gaoli Wang, Yanzhao Shen, Fukang Liu</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0</dc:rights>
+</oai_dc:dc>

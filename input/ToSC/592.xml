@@ -1,0 +1,25 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>592</id>
+	<dc:title xml:lang="en-US">Meet-in-the-Middle Attacks on Reduced-Round Midori64</dc:title>
+	<dc:creator>Lin, Li</dc:creator>
+	<dc:creator>Wu, Wenling</dc:creator>
+	<dc:subject xml:lang="en-US">Block Cipher</dc:subject>
+	<dc:subject xml:lang="en-US">Cryptanalysis</dc:subject>
+	<dc:subject xml:lang="en-US">Meet-in-the-Middle Attack</dc:subject>
+	<dc:subject xml:lang="en-US">Midori64</dc:subject>
+	<dc:description xml:lang="en-US">Midori is a lightweight block cipher designed by Banik et al. at ASIACRYPT 2015 to achieve low energy consumption. One version of Midori uses a 64-bit state, another uses a 128-bit state and we denote these versions Midori64 and Midori128. Each of these versions uses a 128-bit key. In this paper, we focus on the key-recovery attacks on reduced-round Midori64 with meet-in-the-middle method. We use the differential enumeration, key-bridging and key-dependent sieve techniques which are popular to analyze AES to attack Midori64. Using key-bridging and key-dependent sieve techniques directly to achieve the complexity lower bound is almost impossible, we give the model on how to achieve the complexity lower bound using these techniques. We also propose the state-bridge technique to use some key relations that are quite complicated and divided by some rounds. With a 6-round distinguisher, we achieve a 10-round attack. After that, by adding one round at the end, we get an 11-round attack. Finally, with a 7-round distinguisher, we get an attack on 12-round Midori64. To the best of our knowledge, these are recently the best attacks on Midori64 in the single-key setting.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2017-03-08</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tosc.iacr.org/index.php/ToSC/article/view/592</dc:identifier>
+	<dc:identifier>10.13154/tosc.v2017.i1.215-239</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Symmetric Cryptology; Volume 2017, Issue 1; 215-239</dc:source>
+	<dc:source>2519-173X</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/592/533</dc:relation>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/592/7490</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2017 Li Lin, Wenling Wu</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0</dc:rights>
+</oai_dc:dc>

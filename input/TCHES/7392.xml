@@ -1,0 +1,32 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>7392</id>
+	<dc:title xml:lang="en-US">Glitch-Resistant Masking Revisited: or Why Proofs in the Robust Probing Model are Needed</dc:title>
+	<dc:creator>Moos, Thorben</dc:creator>
+	<dc:creator>Moradi, Amir</dc:creator>
+	<dc:creator>Schneider, Tobias</dc:creator>
+	<dc:creator>Standaert, François-Xavier</dc:creator>
+	<dc:subject xml:lang="en-US">Hardware Masking</dc:subject>
+	<dc:subject xml:lang="en-US">Glitches Composability</dc:subject>
+	<dc:subject xml:lang="en-US">Robust Probing Model</dc:subject>
+	<dc:subject xml:lang="en-US">Threshold Implementations</dc:subject>
+	<dc:subject xml:lang="en-US">Consolidated Masking Scheme</dc:subject>
+	<dc:subject xml:lang="en-US">Domain-Oriented Masking</dc:subject>
+	<dc:subject xml:lang="en-US">Unified Masking Approach</dc:subject>
+	<dc:subject xml:lang="en-US">Generic Low-Latency Masking</dc:subject>
+	<dc:description xml:lang="en-US">Implementing the masking countermeasure in hardware is a delicate task. Various solutions have been proposed for this purpose over the last years: we focus on Threshold Implementations (TIs), Domain-Oriented Masking (DOM), the Unified Masking Approach (UMA) and Generic Low Latency Masking (GLM). The latter generally come with innovative ideas to cope with physical defaults such as glitches. Yet, and in contrast to the situation in software-oriented masking, these schemes have not been formally proven at arbitrary security orders and their composability properties were left unclear. So far, only a 2-cycle implementation of the seminal masking scheme by Ishai, Sahai and Wagner has been shown secure and composable in the robust probing model – a variation of the probing model aimed to capture physical defaults such as glitches – for any number of shares.In this paper, we argue that this lack of proofs for TIs, DOM, UMA and GLM makes the interpretation of their security guarantees difficult as the number of shares increases. For this purpose, we first put forward that the higher-order variants of all these schemes are affected by (local or composability) security flaws in the (robust) probing model, due to insufficient refreshing. We then show that composability and robustness against glitches cannot be analyzed independently. We finally detail how these abstract flaws translate into concrete (experimental) attacks, and discuss the additional constraints robust probing security implies on the need of registers. Despite not systematically leading to improved complexities at low security orders, e.g., with respect to the required number of measurements for a successful attack, we argue that these weaknesses provide a case for the need of security proofs in the robust probing model (or a similar abstraction) at higher security orders.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2019-02-28</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tches.iacr.org/index.php/TCHES/article/view/7392</dc:identifier>
+	<dc:identifier>10.13154/tches.v2019.i2.256-292</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Cryptographic Hardware and Embedded Systems; Volume 2019, Issue 2; 256-292</dc:source>
+	<dc:source>2569-2925</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/7392/6564</dc:relation>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/7392/7897</dc:relation>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/7392/7898</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2019 Thorben Moos, Amir Moradi, Tobias Schneider, François-Xavier Standaert</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0</dc:rights>
+</oai_dc:dc>

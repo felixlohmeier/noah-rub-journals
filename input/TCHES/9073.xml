@@ -1,0 +1,29 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>9073</id>
+	<dc:title xml:lang="en-US">Scabbard: a suite of efficient learning with rounding key-encapsulation mechanisms</dc:title>
+	<dc:creator>Bermudo Mera, Jose Maria</dc:creator>
+	<dc:creator>Karmakar, Angshuman</dc:creator>
+	<dc:creator>Kundu, Suparna</dc:creator>
+	<dc:creator>Verbauwhede, Ingrid</dc:creator>
+	<dc:subject xml:lang="en-US">Post-quantum cryptography</dc:subject>
+	<dc:subject xml:lang="en-US">Learning with rounding</dc:subject>
+	<dc:subject xml:lang="en-US">Key-encapsulation mechanism</dc:subject>
+	<dc:subject xml:lang="en-US">Lattice-based cryptography</dc:subject>
+	<dc:subject xml:lang="en-US">Hardware implementations</dc:subject>
+	<dc:subject xml:lang="en-US">FPGA</dc:subject>
+	<dc:subject xml:lang="en-US">Cortex-M4</dc:subject>
+	<dc:subject xml:lang="en-US">AVX2</dc:subject>
+	<dc:description xml:lang="en-US">In this paper, we introduce Scabbard, a suite of post-quantum keyencapsulation mechanisms. Our suite contains three different schemes Florete, Espada, and Sable based on the hardness of module- or ring-learning with rounding problem. In this work, we first show how the latest advancements on lattice-based cryptographycan be utilized to create new better schemes and even improve the state-of-the-art on post-quantum cryptography. We put particular focus on designing schemes that can optimally exploit the parallelism offered by certain hardware platforms and are also suitable for resource constrained devices. We show that this can be achieved without compromising the security of the schemes or penalizing their performance on other platforms.To substantiate our claims, we provide optimized implementations of our three new schemes on a wide range of platforms including general-purpose Intel processors using both portable C and vectorized instructions, embedded platforms such as Cortex-M4 microcontrollers, and hardware platforms such as FPGAs. We show that on each platform, our schemes can outperform the state-of-the-art in speed, memory footprint, or area requirements.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2021-08-11</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tches.iacr.org/index.php/TCHES/article/view/9073</dc:identifier>
+	<dc:identifier>10.46586/tches.v2021.i4.474-509</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Cryptographic Hardware and Embedded Systems; Volume 2021, Issue 4; 474-509</dc:source>
+	<dc:source>2569-2925</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/9073/8660</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2021 Jose Maria Bermudo Mera, Angshuman Karmakar, Suparna Kundu, Ingrid Verbauwhede</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0/</dc:rights>
+</oai_dc:dc>

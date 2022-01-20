@@ -1,0 +1,30 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>7359</id>
+	<dc:title xml:lang="en-US">The design of Xoodoo and Xoofff</dc:title>
+	<dc:creator>Daemen, Joan</dc:creator>
+	<dc:creator>Hoffert, Seth</dc:creator>
+	<dc:creator>Van Assche, Gilles</dc:creator>
+	<dc:creator>Van Keer, Ronny</dc:creator>
+	<dc:subject xml:lang="en-US">permutation-based cryptography</dc:subject>
+	<dc:subject xml:lang="en-US">Farfalle</dc:subject>
+	<dc:subject xml:lang="en-US">deck function</dc:subject>
+	<dc:subject xml:lang="en-US">differential</dc:subject>
+	<dc:subject xml:lang="en-US">cryptanalysis</dc:subject>
+	<dc:subject xml:lang="en-US">linear cryptanalysis</dc:subject>
+	<dc:description xml:lang="en-US">This paper presents Xoodoo, a 48-byte cryptographic permutation with excellent propagation properties. Its design approach is inspired by Keccak-p, while it is dimensioned like Gimli for efficiency on low-end processors. The structure consists of three planes of 128 bits each, which interact per 3-bit columns through mixing and nonlinear operations, and which otherwise move as three independent rigid objects. We analyze its differential and linear propagation properties and, in particular, prove lower bounds on the weight of trails using the tree search-based technique of Mella et al. (ToSC 2017). Xoodoo’s primary target application is in the Farfalle construction that we instantiate for the doubly-extendable cryptographic keyed (or deck) function Xoofff. Combining a relatively narrow permutation with the parallelism of Farfalle results in very efficient schemes on a wide range of platforms, from low-end devices to high-end processors with vector instructions.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2018-12-13</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tosc.iacr.org/index.php/ToSC/article/view/7359</dc:identifier>
+	<dc:identifier>10.13154/tosc.v2018.i4.1-38</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Symmetric Cryptology; Volume 2018, Issue 4; 1-38</dc:source>
+	<dc:source>2519-173X</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/7359/6529</dc:relation>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/7359/7544</dc:relation>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/7359/7753</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2018 Joan Daemen, Seth Hoffert, Gilles Van Assche, Ronny Van Keer</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0</dc:rights>
+</oai_dc:dc>

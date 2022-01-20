@@ -1,0 +1,27 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>8585</id>
+	<dc:title xml:lang="en-US">CPAmap: On the Complexity of Secure FPGA Virtualization, Multi-Tenancy, and Physical Design</dc:title>
+	<dc:creator>Krautter, Jonas</dc:creator>
+	<dc:creator>Gnad, Dennis</dc:creator>
+	<dc:creator>Tahoori, Mehdi</dc:creator>
+	<dc:subject xml:lang="en-US">FPGA</dc:subject>
+	<dc:subject xml:lang="en-US">Virtual</dc:subject>
+	<dc:subject xml:lang="en-US">Cloud</dc:subject>
+	<dc:subject xml:lang="en-US">Multi-Tenant</dc:subject>
+	<dc:subject xml:lang="en-US">Side-Channel Attack</dc:subject>
+	<dc:subject xml:lang="en-US">Power Analysis</dc:subject>
+	<dc:subject xml:lang="en-US">Internal Sensor</dc:subject>
+	<dc:description xml:lang="en-US">With virtualized Field Programmable Gate Arrays (FPGAs) on the verge of being deployed to the cloud computing domain, there is a rising interest in resolving recently identified security issues. Those issues result from different trusted and untrusted entities sharing the FPGA fabric and the Power Distribution Network. Researchers were able to perform both side-channel and fault attacks between logically isolated designs on the same FPGA fabric, compromising security of cryptographic modules and other critical implementations. Side-channel attacks specifically are enabled by the vast degree of freedom given to developers when making use of the basic FPGA resources. Both ring oscillators as well as long delay lines, implemented using low-level FPGA primitives, have been shown to provide sufficient data for simple or correlation-based power analysis attacks. In order to develop new or apply known countermeasures onto designs and implementations in a virtualized multi-tenant FPGA, we seek to fully understand the underlying mechanisms and dependencies of chip-internal side-channel attacks. Although the impact of process variation and other physical design parameters on side-channel vulnerability has been investigated in previous works, remote attacks between logically isolated partitions in multi-tenant FPGAs introduce new and unique challenges. Thus, we systematically analyze the impact of physical mapping of both attacker and victim design on the success of correlation power analysis attacks on the Advanced Encryption Standard (AES). We report our findings on a Xilinx Zynq 7000-based platform, which show that the effect of global and local placement as well as routing and process variation on the success of side-channel attacks almost exceeds the impact of hiding countermeasures. This result reveals fundamental challenges in secure virtualization of FPGAs, which have been mostly ignored so far. Eventually, our results may also help vendors and hypervisors in developing zero overhead side-channel countermeasures based on adequate global and local placement of isolated designs on a multi-tenant FPGA.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2020-06-19</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tches.iacr.org/index.php/TCHES/article/view/8585</dc:identifier>
+	<dc:identifier>10.13154/tches.v2020.i3.121-146</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Cryptographic Hardware and Embedded Systems; Volume 2020, Issue 3; 121-146</dc:source>
+	<dc:source>2569-2925</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/8585/8152</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2020 Jonas Krautter, Dennis Gnad, Mehdi Tahoori</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0</dc:rights>
+</oai_dc:dc>

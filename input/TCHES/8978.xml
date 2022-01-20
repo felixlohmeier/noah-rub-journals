@@ -1,0 +1,26 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>8978</id>
+	<dc:title xml:lang="en-US">Cutting Through the Complexity of Reverse Engineering Embedded Devices</dc:title>
+	<dc:creator>Thomas, Sam L.</dc:creator>
+	<dc:creator>Van den Herrewegen, Jan</dc:creator>
+	<dc:creator>Vasilakis, Georgios</dc:creator>
+	<dc:creator>Chen, Zitai</dc:creator>
+	<dc:creator>Ordean, Mihai</dc:creator>
+	<dc:creator>Garcia, Flavio D.</dc:creator>
+	<dc:subject xml:lang="en-US">Reverse engineering</dc:subject>
+	<dc:subject xml:lang="en-US">Embedded device firmware</dc:subject>
+	<dc:subject xml:lang="en-US">Hardware-based execution tracing</dc:subject>
+	<dc:description xml:lang="en-US">Performing security analysis of embedded devices is a challenging task. They present many difficulties not usually found when analyzing commodity systems: undocumented peripherals, esoteric instruction sets, and limited tool support. Thus, a significant amount of reverse engineering is almost always required to analyze such devices. In this paper, we present Incision, an architecture and operating-system agnostic reverse engineering framework. Incision tackles the problem of reducing the upfront effort to analyze complex end-user devices. It combines static and dynamic analyses in a feedback loop, enabling information from each to be used in tandem to improve our overall understanding of the firmware analyzed. We use Incision to analyze a variety of devices and firmware. Our evaluation spans firmware based on three RTOSes, an automotive ECU, and a 4G/LTE baseband. We demonstrate that Incision does not introduce significant complexity to the standard reverse engineering process and requires little manual effort to use. Moreover, its analyses produce correct results with high confidence and are robust across different OSes and ISAs.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2021-07-09</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tches.iacr.org/index.php/TCHES/article/view/8978</dc:identifier>
+	<dc:identifier>10.46586/tches.v2021.i3.360-389</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Cryptographic Hardware and Embedded Systems; Volume 2021, Issue 3; 360-389</dc:source>
+	<dc:source>2569-2925</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/8978/8556</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2021 Sam L. Thomas, Jan Van den Herrewegen, Georgios Vasilakis, Zitai Chen, Mihai Ordean, Flavio D. Garcia</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0/</dc:rights>
+</oai_dc:dc>

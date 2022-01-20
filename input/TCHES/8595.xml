@@ -1,0 +1,24 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>8595</id>
+	<dc:title xml:lang="en-US">Fixslicing: A New GIFT Representation: Fast Constant-Time Implementations of GIFT and GIFT-COFB on ARM Cortex-M</dc:title>
+	<dc:creator>Adomnicai, Alexandre</dc:creator>
+	<dc:creator>Najm, Zakaria</dc:creator>
+	<dc:creator>Peyrin, Thomas</dc:creator>
+	<dc:subject xml:lang="en-US">GIFT</dc:subject>
+	<dc:subject xml:lang="en-US">implementation</dc:subject>
+	<dc:subject xml:lang="en-US">bitslice</dc:subject>
+	<dc:subject xml:lang="en-US">lightweight cryptography</dc:subject>
+	<dc:description xml:lang="en-US">The GIFT family of lightweight block ciphers, published at CHES 2017, offers excellent hardware performance figures and has been used, in full or in part, in several candidates of the ongoing NIST lightweight cryptography competition. However, implementation of GIFT in software seems complex and not efficient due to the bit permutation composing its linear layer (a feature shared with PRESENT cipher). In this article, we exhibit a new non-trivial representation of the GIFT family of block ciphers over several rounds. This new representation, that we call fixslicing, allows extremely efficient software bitsliced implementations of GIFT, using only a few rotations, surprisingly placing GIFT as a very efficient candidate on micro-controllers. Our constant time implementations show that, on ARM Cortex-M3, 128-bit data can be ciphered with only about 800 cycles for GIFT-64 and about 1300 cycles for GIFT-128 (assuming pre-computed round keys). In particular, this is much faster than the impressive PRESENT implementation published at CHES 2017 that requires 2116 cycles in the same setting, or the current best AES constant time implementation reported that requires 1617 cycles. This work impacts GIFT, but also improves software implementations of all other cryptographic primitives directly based on it or strongly related to it.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2020-06-19</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tches.iacr.org/index.php/TCHES/article/view/8595</dc:identifier>
+	<dc:identifier>10.13154/tches.v2020.i3.402-427</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Cryptographic Hardware and Embedded Systems; Volume 2020, Issue 3; 402-427</dc:source>
+	<dc:source>2569-2925</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/8595/8162</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2020 Alexandre Adomnicai, Zakaria Najm, Thomas Peyrin</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0</dc:rights>
+</oai_dc:dc>

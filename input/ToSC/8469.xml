@@ -1,0 +1,27 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>8469</id>
+	<dc:title xml:lang="en-US">Multiple Linear Cryptanalysis Using Linear Statistics</dc:title>
+	<dc:creator>Lee, Jung-Keun</dc:creator>
+	<dc:creator>Kim, Woo-Hwan </dc:creator>
+	<dc:subject xml:lang="en-US">multiple linear approximation</dc:subject>
+	<dc:subject xml:lang="en-US">linear cryptanalysis</dc:subject>
+	<dc:subject xml:lang="en-US">success probability</dc:subject>
+	<dc:subject xml:lang="en-US">false alarm</dc:subject>
+	<dc:subject xml:lang="en-US">attack complexity</dc:subject>
+	<dc:subject xml:lang="en-US">multivariate normal distribution</dc:subject>
+	<dc:subject xml:lang="en-US">statistical model</dc:subject>
+	<dc:subject xml:lang="en-US">DES</dc:subject>
+	<dc:description xml:lang="en-US">We propose an improved and extended approach of the multiple linear cryptanalysis presented by A. Biryukov et al. at CRYPTO 2004 that exploits dominant and statistically independent linear trails. While they presented only rank based attacks with success probability 1, we present threshold based attacks as well as rank based ones using newly introduced statistic that is a linear combination of the component statistics for the trails and is an approximation of the LLR statistic. The rank based Algorithm 1 style attack yields the same estimate for the gain with Biryukov et al.’s Algorithm 1 style attack. For each of the threshold based Algorithm 1 style and Algorithm 2 style attacks, we provide a formula for its advantage in terms of the correlations of the trails, the data complexity, and the success probability in case the aimed success probability is not 1. Combining the threshold based attacks with the rank based ones, we get attacks each of which has better estimates for the advantage compared to the threshold based one in case the aimed success probability is close to 1. We then extend the methods to get a new framework of multiple linear attacks exploiting close-to-dominant linear trails that may not be statistically independent. We apply the methods to full DES and get linear attacks using 4 linear trails with about the same or better complexity compared to those presented at ASIACRYPT 2017 that use 4 additional trails. With data complexity less than 241, the attack has better complexity than existing attacks on DES.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2020-01-31</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tosc.iacr.org/index.php/ToSC/article/view/8469</dc:identifier>
+	<dc:identifier>10.13154/tosc.v2019.i4.369-406</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Symmetric Cryptology; Volume 2019, Issue 4; 369-406</dc:source>
+	<dc:source>2519-173X</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/8469/8035</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2020 Jung-Keun Lee, Woo-Hwan Kim</dc:rights>
+	<dc:rights xml:lang="en-US">http://creativecommons.org/licenses/by/4.0/</dc:rights>
+</oai_dc:dc>

@@ -1,0 +1,28 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>838</id>
+	<dc:title xml:lang="en-US">Leakage Detection with the x2-Test</dc:title>
+	<dc:creator>Moradi, Amir</dc:creator>
+	<dc:creator>Richter, Bastian</dc:creator>
+	<dc:creator>Schneider, Tobias</dc:creator>
+	<dc:creator>Standaert, François-Xavier</dc:creator>
+	<dc:subject xml:lang="en-US">t-test</dc:subject>
+	<dc:subject xml:lang="en-US">SCA evaluation</dc:subject>
+	<dc:subject xml:lang="en-US">SCA distinguisher</dc:subject>
+	<dc:subject xml:lang="en-US">statistical moments</dc:subject>
+	<dc:description xml:lang="en-US">We describe how Pearson’s χ2-test can be used as a natural complement to Welch’s t-test for black box leakage detection. In particular, we show that by using these two tests in combination, we can mitigate some of the limitations due to the moment-based nature of existing detection techniques based on Welch’s t-test (e.g., for the evaluation of higher-order masked implementations with insufficient noise). We also show that Pearson’s χ2-test is naturally suited to analyze threshold implementations with information lying in multiple statistical moments, and can be easily extended to a distinguisher for key recovery attacks. As a result, we believe the proposed test and methodology are interesting complementary ingredients of the side-channel evaluation toolbox, for black box leakage detection and non-profiled attacks, and as a preliminary before more demanding advanced analyses.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2018-02-14</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tches.iacr.org/index.php/TCHES/article/view/838</dc:identifier>
+	<dc:identifier>10.13154/tches.v2018.i1.209-237</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Cryptographic Hardware and Embedded Systems; Volume 2018, Issue 1; 209-237</dc:source>
+	<dc:source>2569-2925</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/838/790</dc:relation>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/838/8012</dc:relation>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/838/8013</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2018 Amir Moradi, Bastian Richter, Tobias Schneider, François-Xavier Standaert</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0</dc:rights>
+</oai_dc:dc>

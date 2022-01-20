@@ -1,0 +1,32 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>9069</id>
+	<dc:title xml:lang="en-US">CTIDH: faster constant-time CSIDH</dc:title>
+	<dc:creator>Banegas, Gustavo</dc:creator>
+	<dc:creator>Bernstein, Daniel J.</dc:creator>
+	<dc:creator>Campos, Fabio</dc:creator>
+	<dc:creator>Chou, Tung</dc:creator>
+	<dc:creator>Lange, Tanja</dc:creator>
+	<dc:creator>Meyer, Michael</dc:creator>
+	<dc:creator>Smith, Benjamin</dc:creator>
+	<dc:creator>Sotáková, Jana</dc:creator>
+	<dc:subject xml:lang="en-US">post-quantum cryptography</dc:subject>
+	<dc:subject xml:lang="en-US">non-interactive key exchange</dc:subject>
+	<dc:subject xml:lang="en-US">small keys</dc:subject>
+	<dc:subject xml:lang="en-US">isogeny-based cryptography</dc:subject>
+	<dc:subject xml:lang="en-US">CSIDH</dc:subject>
+	<dc:subject xml:lang="en-US">constant-time algorithms</dc:subject>
+	<dc:description xml:lang="en-US">This paper introduces a new key space for CSIDH and a new algorithm for constant-time evaluation of the CSIDH group action. The key space is not useful with previous algorithms, and the algorithm is not useful with previous key spaces, but combining the new key space with the new algorithm produces speed records for constant-time CSIDH. For example, for CSIDH-512 with a 256-bit key space, the best previous constant-time results used 789000 multiplications and more than 200 million Skylake cycles; this paper uses 438006 multiplications and 125.53 million cycles.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2021-08-11</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tches.iacr.org/index.php/TCHES/article/view/9069</dc:identifier>
+	<dc:identifier>10.46586/tches.v2021.i4.351-387</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Cryptographic Hardware and Embedded Systems; Volume 2021, Issue 4; 351-387</dc:source>
+	<dc:source>2569-2925</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/9069/8657</dc:relation>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/9069/8709</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2021 Gustavo Banegas, Daniel J. Bernstein, Fabio Campos, Tung Chou, Tanja Lange, Michael Meyer, Benjamin Smith, Jana Sotáková</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0/</dc:rights>
+</oai_dc:dc>

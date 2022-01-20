@@ -1,0 +1,25 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>8796</id>
+	<dc:title xml:lang="en-US">New First-Order Secure AES Performance Records</dc:title>
+	<dc:creator>Shahmirzadi, Aein Rezaei</dc:creator>
+	<dc:creator>Božilov, Dušan</dc:creator>
+	<dc:creator>Moradi, Amir</dc:creator>
+	<dc:subject xml:lang="en-US">Side-Channel Analysis</dc:subject>
+	<dc:subject xml:lang="en-US">Masking</dc:subject>
+	<dc:subject xml:lang="en-US">FPGA</dc:subject>
+	<dc:subject xml:lang="en-US">Threshold Implementation</dc:subject>
+	<dc:subject xml:lang="en-US">AES</dc:subject>
+	<dc:description xml:lang="en-US">Being based on a sound theoretical basis, masking schemes are commonly applied to protect cryptographic implementations against Side-Channel Analysis (SCA) attacks. Constructing SCA-protected AES, as the most widely deployed block cipher, has been naturally the focus of several research projects, with a direct application in industry. The majority of SCA-secure AES implementations introduced to the community opted for low area and latency overheads considering Application-Specific Integrated Circuit (ASIC) platforms. Albeit a few, those which particularly targeted Field Programmable Gate Arrays (FPGAs) as the implementation platform yield either a low throughput or a not-highly secure design.In this work, we fill this gap by introducing first-order glitch-extended probing secure masked AES implementations highly optimized for FPGAs, which support both encryption and decryption. Compared to the state of the art, our designs efficiently map the critical non-linear parts of the masked S-box into the built-in Block RAMs (BRAMs).The most performant variant of our constructions accomplishes five first-order secure AES encryptions/decryptions simultaneously in 50 clock cycles. Compared to the equivalent state-of-the-art designs, this leads to at least 70% reduction in utilization of FPGA resources (slices) at the cost of occupying BRAMs. Last but not least, we provide a wide range of such secure and efficient implementations supporting a large set of applications, ranging from low-area to high-throughput.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2021-02-23</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tches.iacr.org/index.php/TCHES/article/view/8796</dc:identifier>
+	<dc:identifier>10.46586/tches.v2021.i2.304-327</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Cryptographic Hardware and Embedded Systems; Volume 2021, Issue 2; 304-327</dc:source>
+	<dc:source>2569-2925</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/8796/8396</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2021 Aein Rezaei Shahmirzadi, Dušan Božilov, Amir Moradi</dc:rights>
+	<dc:rights xml:lang="en-US">http://creativecommons.org/licenses/by/4.0/</dc:rights>
+</oai_dc:dc>

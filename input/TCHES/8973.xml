@@ -1,0 +1,26 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>8973</id>
+	<dc:title xml:lang="en-US">Breaking Masked Implementations with Many Shares on 32-bit Software Platforms: or When the Security Order Does Not Matter</dc:title>
+	<dc:creator>Bronchain, Olivier </dc:creator>
+	<dc:creator>Standaert, François-Xavier</dc:creator>
+	<dc:subject xml:lang="en-US">Higher-Order Masking</dc:subject>
+	<dc:subject xml:lang="en-US">Bitslice Software</dc:subject>
+	<dc:subject xml:lang="en-US">Physical Security Evaluations</dc:subject>
+	<dc:subject xml:lang="en-US">Profiled Side-Channel Analysis</dc:subject>
+	<dc:subject xml:lang="en-US">Dimensionality Reduction</dc:subject>
+	<dc:subject xml:lang="en-US">SASCA</dc:subject>
+	<dc:description xml:lang="en-US">We explore the concrete side-channel security provided by state-of-theart higher-order masked software implementations of the AES and the (candidate to the NIST Lightweight Cryptography competition) Clyde, in ARM Cortex-M0 and M3 devices. Rather than looking for possibly reduced security orders (as frequently considered in the literature), we directly target these implementations by assuming their maximum security order and aim at reducing their noise level thanks to multivariate, horizontal and analytical attacks. Our investigations point out that the Cortex-M0 device has so limited physical noise that masking is close to ineffective. The Cortex-M3 shows a better trend but still requires a large number of shares to provide strong security guarantees. Practically, we first exhibit a full 128-bit key recovery in less than 10 traces for a 6-share masked AES implementation running on the Cortex-M0 requiring 232 enumeration power. A similar attack performed against the Cortex-M3 with 5 shares require 1,000 measurements with 244 enumeration power. We then show the positive impact of lightweight block ciphers with limited number of AND gates for side-channel security, and compare our attacks against a masked Clyde with the best reported attacks of the CHES 2020 CTF. We complement these experiments with a careful information theoretic analysis, which allows interpreting our results. We also discuss our conclusions under the umbrella of “backwards security evaluations” recently put forwards by Azouaoui et al. We finally extrapolate the evolution of the proposed attack complexities in the presence of additional countermeasures using the local random probing model proposed at CHES 2020.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2021-07-09</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tches.iacr.org/index.php/TCHES/article/view/8973</dc:identifier>
+	<dc:identifier>10.46586/tches.v2021.i3.202-234</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Cryptographic Hardware and Embedded Systems; Volume 2021, Issue 3; 202-234</dc:source>
+	<dc:source>2569-2925</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/8973/8551</dc:relation>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/8973/8628</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2021 Olivier Bronchain, François-Xavier Standaert</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0/</dc:rights>
+</oai_dc:dc>

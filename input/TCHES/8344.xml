@@ -1,0 +1,37 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>8344</id>
+	<dc:title xml:lang="en-US">Sapphire: A Configurable Crypto-Processor for Post-Quantum Lattice-based Protocols</dc:title>
+	<dc:creator>Banerjee, Utsav</dc:creator>
+	<dc:creator>Ukyab, Tenzin S.</dc:creator>
+	<dc:creator>Chandrakasan, Anantha P.</dc:creator>
+	<dc:subject xml:lang="en-US">Lattice-based Cryptography</dc:subject>
+	<dc:subject xml:lang="en-US">LWE</dc:subject>
+	<dc:subject xml:lang="en-US">Ring-LWE</dc:subject>
+	<dc:subject xml:lang="en-US">Module-LWE</dc:subject>
+	<dc:subject xml:lang="en-US">postquantum</dc:subject>
+	<dc:subject xml:lang="en-US">NIST Round 2</dc:subject>
+	<dc:subject xml:lang="en-US">Number Theoretic Transform</dc:subject>
+	<dc:subject xml:lang="en-US">Sampling</dc:subject>
+	<dc:subject xml:lang="en-US">energy-efficient</dc:subject>
+	<dc:subject xml:lang="en-US">low-power</dc:subject>
+	<dc:subject xml:lang="en-US">constant-time</dc:subject>
+	<dc:subject xml:lang="en-US">side-channel security</dc:subject>
+	<dc:subject xml:lang="en-US">ASIC</dc:subject>
+	<dc:subject xml:lang="en-US">hardware implementation</dc:subject>
+	<dc:description xml:lang="en-US">Public key cryptography protocols, such as RSA and elliptic curve cryptography, will be rendered insecure by Shor’s algorithm when large-scale quantum computers are built. Cryptographers are working on quantum-resistant algorithms, and lattice-based cryptography has emerged as a prime candidate. However, high computational complexity of these algorithms makes it challenging to implement lattice-based protocols on low-power embedded devices. To address this challenge, we present Sapphire – a lattice cryptography processor with configurable parameters. Efficient sampling, with a SHA-3-based PRNG, provides two orders of magnitude energy savings; a single-port RAM-based number theoretic transform memory architecture is proposed, which provides 124k-gate area savings; while a low-power modular arithmetic unit accelerates polynomial computations. Our test chip was fabricated in TSMC 40nm low-power CMOS process, with the Sapphire cryptographic core occupying 0.28 mm2 area consisting of 106k logic gates and 40.25 KB SRAM. Sapphire can be programmed with custom instructions for polynomial arithmetic and sampling, and it is coupled with a low-power RISC-V micro-processor to demonstrate NIST Round 2 lattice-based CCA-secure key encapsulation and signature protocols Frodo, NewHope, qTESLA, CRYSTALS-Kyber and CRYSTALS-Dilithium, achieving up to an order of magnitude improvement in performance and energy-efficiency compared to state-of-the-art hardware implementations. All key building blocks of Sapphire are constant-time and secure against timing and simple power analysis side-channel attacks. We also discuss how masking-based DPA countermeasures can be implemented on the Sapphire core without any changes to the hardware.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2019-08-09</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tches.iacr.org/index.php/TCHES/article/view/8344</dc:identifier>
+	<dc:identifier>10.13154/tches.v2019.i4.17-61</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Cryptographic Hardware and Embedded Systems; Volume 2019, Issue 4; 17-61</dc:source>
+	<dc:source>2569-2925</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/8344/7692</dc:relation>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/8344/7837</dc:relation>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/8344/7836</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2019 Utsav Banerjee, Tenzin S. Ukyab, Anantha P. Chandrakasan</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0</dc:rights>
+</oai_dc:dc>

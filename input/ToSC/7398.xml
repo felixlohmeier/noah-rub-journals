@@ -1,0 +1,29 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>7398</id>
+	<dc:title xml:lang="en-US">Constructing Low-latency Involutory MDS Matrices with Lightweight Circuits</dc:title>
+	<dc:creator>Li, Shun</dc:creator>
+	<dc:creator>Sun, Siwei</dc:creator>
+	<dc:creator>Li, Chaoyun</dc:creator>
+	<dc:creator>Wei, Zihao</dc:creator>
+	<dc:creator>Hu, Lei</dc:creator>
+	<dc:subject xml:lang="en-US">Lightweight cryptography</dc:subject>
+	<dc:subject xml:lang="en-US">MDS matrix</dc:subject>
+	<dc:subject xml:lang="en-US">Involutory matrix</dc:subject>
+	<dc:subject xml:lang="en-US">Low latency</dc:subject>
+	<dc:description xml:lang="en-US">MDS matrices are important building blocks providing diffusion functionality for the design of many symmetric-key primitives. In recent years, continuous efforts are made on the construction of MDS matrices with small area footprints in the context of lightweight cryptography. Just recently, Duval and Leurent (ToSC 2018/FSE 2019) reported some 32 × 32 binary MDS matrices with branch number 5, which can be implemented with only 67 XOR gates, whereas the previously known lightest ones of the same size cost 72 XOR gates.In this article, we focus on the construction of lightweight involutory MDS matrices, which are even more desirable than ordinary MDS matrices, since the same circuit can be reused when the inverse is required. In particular, we identify some involutory MDS matrices which can be realized with only 78 XOR gates with depth 4, whereas the previously known lightest involutory MDS matrices cost 84 XOR gates with the same depth. Notably, the involutory MDS matrix we find is much smaller than the AES MixColumns operation, which requires 97 XOR gates with depth 8 when implemented as a block of combinatorial logic that can be computed in one clock cycle. However, with respect to latency, the AES MixColumns operation is superior to our 78-XOR involutory matrices, since the AES MixColumns can be implemented with depth 3 by using more XOR gates.We prove that the depth of a 32 × 32 MDS matrix with branch number 5 (e.g., the AES MixColumns operation) is at least 3. Then, we enhance Boyar’s SLP-heuristic algorithm with circuit depth awareness, such that the depth of its output circuit is limited. Along the way, we give a formula for computing the minimum achievable depth of a circuit implementing the summation of a set of signals with given depths, which is of independent interest. We apply the new SLP heuristic to a large set of lightweight involutory MDS matrices, and we identify a depth 3 involutory MDS matrix whose implementation costs 88 XOR gates, which is superior to the AES MixColumns operation with respect to both lightweightness and latency, and enjoys the extra involution property.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2019-03-08</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tosc.iacr.org/index.php/ToSC/article/view/7398</dc:identifier>
+	<dc:identifier>10.13154/tosc.v2019.i1.84-117</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Symmetric Cryptology; Volume 2019, Issue 1; 84-117</dc:source>
+	<dc:source>2519-173X</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/7398/6570</dc:relation>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/7398/7556</dc:relation>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/7398/7764</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2019 Shun Li, Siwei Sun, Chaoyun Li, Zihao Wei, Lei Hu</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0</dc:rights>
+</oai_dc:dc>

@@ -1,0 +1,31 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>8912</id>
+	<dc:title xml:lang="en-US">Maximums of the Additive Differential Probability of Exclusive-Or</dc:title>
+	<dc:creator>Mouha, Nicky</dc:creator>
+	<dc:creator>Kolomeec, Nikolay</dc:creator>
+	<dc:creator>Akhtiamov, Danil</dc:creator>
+	<dc:creator>Sutormin, Ivan</dc:creator>
+	<dc:creator>Panferov, Matvey</dc:creator>
+	<dc:creator>Titova, Kseniya</dc:creator>
+	<dc:creator>Bonich, Tatiana</dc:creator>
+	<dc:creator>Ishchukova, Evgeniya</dc:creator>
+	<dc:creator>Tokareva, Natalia</dc:creator>
+	<dc:creator>Zhantulikov, Bulat</dc:creator>
+	<dc:subject xml:lang="en-US">Differential cryptanalysis</dc:subject>
+	<dc:subject xml:lang="en-US">ARX</dc:subject>
+	<dc:subject xml:lang="en-US">XOR</dc:subject>
+	<dc:subject xml:lang="en-US">modular addition</dc:subject>
+	<dc:description xml:lang="en-US">At FSE 2004, Lipmaa et al. studied the additive differential probability adp⊕(α,β → γ) of exclusive-or where differences α,β,γ ∈ Fn2 are expressed using addition modulo 2n. This probability is used in the analysis of symmetric-key primitives that combine XOR and modular addition, such as the increasingly popular Addition-Rotation-XOR (ARX) constructions. The focus of this paper is on maximal differentials, which are helpful when constructing differential trails. We provide the missing proof for Theorem 3 of the FSE 2004 paper, which states that maxα,βadp⊕(α,β → γ) = adp⊕(0,γ → γ) for all γ. Furthermore, we prove that there always exist either two or eight distinct pairs α,β such that adp⊕( α,β → γ) = adp⊕(0,γ → γ), and we obtain recurrence formulas for calculating adp⊕. To gain insight into the range of possible differential probabilities, we also study other properties such as the minimum value of adp⊕(0,γ → γ), and we find all γ that satisfy this minimum value.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2021-06-11</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tosc.iacr.org/index.php/ToSC/article/view/8912</dc:identifier>
+	<dc:identifier>10.46586/tosc.v2021.i2.292-313</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Symmetric Cryptology; Volume 2021, Issue 2; 292-313</dc:source>
+	<dc:source>2519-173X</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/8912/8488</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2021 Nicky Mouha, Nikolay Kolomeec, Danil Akhtiamov, Ivan Sutormin, Matvey Panferov, Kseniya Titova, Tatiana Bonich, Evgeniya Ishchukova, Natalia Tokareva, Bulat Zhantulikov</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0/</dc:rights>
+</oai_dc:dc>

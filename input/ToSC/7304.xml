@@ -1,0 +1,26 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>7304</id>
+	<dc:title xml:lang="en-US">On the Boomerang Uniformity of Cryptographic Sboxes</dc:title>
+	<dc:creator>Boura, Christina</dc:creator>
+	<dc:creator>Canteaut, Anne</dc:creator>
+	<dc:subject xml:lang="en-US">Sbox</dc:subject>
+	<dc:subject xml:lang="en-US">Boomerang Connectivity Table</dc:subject>
+	<dc:subject xml:lang="en-US">Boomerang attack</dc:subject>
+	<dc:subject xml:lang="en-US">Boomerang uniformity</dc:subject>
+	<dc:description xml:lang="en-US">The boomerang attack is a cryptanalysis technique against block ciphers which combines two differentials for the upper part and the lower part of the cipher. The dependency between these two differentials then highly affects the complexity of the attack and all its variants. Recently, Cid et al. introduced at Eurocrypt’18 a new tool, called the Boomerang Connectivity Table (BCT) that permits to simplify this complexity analysis, by storing and unifying the different switching probabilities of the cipher’s Sbox in one table. In this seminal paper a brief analysis of the properties of these tables is provided and some open questions are raised. It is being asked in particular whether Sboxes with optimal BCTs exist for even dimensions, where optimal means that the maximal value in the BCT equals the lowest known differential uniformity. When the dimension is even and differs from 6, such optimal Sboxes correspond to permutations such that the maximal value in their DDT and in their BCT equals 4 (unless APN permutations for such dimensions exist). We provide in this work a more in-depth analysis of boomerang connectivity tables, by studying more closely differentially 4-uniform Sboxes. We first completely characterize the BCT of all differentially 4-uniform permutations of 4 bits and then study these objects for some cryptographically relevant families of Sboxes, as the inverse function and quadratic permutations. These two families provide us with the first examples of differentially 4-uniform Sboxes optimal against boomerang attacks for an even number of variables, answering the above open question.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2018-09-04</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tosc.iacr.org/index.php/ToSC/article/view/7304</dc:identifier>
+	<dc:identifier>10.13154/tosc.v2018.i3.290-310</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Symmetric Cryptology; Volume 2018, Issue 3; 290-310</dc:source>
+	<dc:source>2519-173X</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/7304/6478</dc:relation>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/7304/7569</dc:relation>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/7304/7749</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2018 Christina Boura, Anne Canteaut</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0</dc:rights>
+</oai_dc:dc>

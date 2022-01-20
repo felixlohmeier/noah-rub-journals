@@ -1,0 +1,26 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>9176</id>
+	<dc:title xml:lang="en-US">Exploring Differential-Based Distinguishers and Forgeries for ASCON</dc:title>
+	<dc:creator>Gerault, David</dc:creator>
+	<dc:creator>Peyrin, Thomas</dc:creator>
+	<dc:creator>Tan, Quan Quan</dc:creator>
+	<dc:subject xml:lang="en-US">Differential Cryptanalysis</dc:subject>
+	<dc:subject xml:lang="en-US">ASCON</dc:subject>
+	<dc:subject xml:lang="en-US">Constraint Programming</dc:subject>
+	<dc:subject xml:lang="en-US">Rectangle Attacks</dc:subject>
+	<dc:subject xml:lang="en-US">Limited-birthday</dc:subject>
+	<dc:subject xml:lang="en-US">Forgery</dc:subject>
+	<dc:description xml:lang="en-US">Automated methods have become crucial components when searching for distinguishers against symmetric-key cryptographic primitives. While MILP and SAT solvers are among the most popular tools to model ciphers and perform cryptanalysis, other methods with different performance profiles are appearing. In this article, we explore the use of Constraint Programming (CP) for differential cryptanalysis on the Ascon authenticated encryption family (first choice of the CAESAR lightweight applications portfolio and current finalist of the NIST LWC competition) and its internal permutation. We first present a search methodology for finding differential characteristics for Ascon with CP, which can easily find the best differential characteristics already reported by the Ascon designers. This shows the capability of CP in generating easily good differential results compared to dedicated search heuristics. Based on our tool, we also parametrize the search strategies in CP to generate other differential characteristics with the goal of forming limited-birthday distinguishers for 4, 5, 6 and 7 rounds and rectangle attacks for 4 and 5 rounds of the Ascon internal permutation. We propose a categorization of the distinguishers into black-box and non-black-box to better differentiate them as they are often useful in different contexts. We also obtained limited-birthday distinguishers which represent currently the best known distinguishers for 4, 5 and 6 rounds under the category of non-black-box distinguishers. Leveraging again our tool, we have generated forgery attacks against both reduced-rounds Ascon-128 and Ascon-128a, improving over the best reported results at the time of writing. Finally, using the best differential characteristic we have found for 2 rounds, we could also improve a recent attack on round-reduced Ascon-Hash.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2021-09-17</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tosc.iacr.org/index.php/ToSC/article/view/9176</dc:identifier>
+	<dc:identifier>10.46586/tosc.v2021.i3.102-136</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Symmetric Cryptology; Volume 2021, Issue 3; 102-136</dc:source>
+	<dc:source>2519-173X</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/9176/8714</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2021 David Gerault, Thomas Peyrin, Quan Quan Tan</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0/</dc:rights>
+</oai_dc:dc>

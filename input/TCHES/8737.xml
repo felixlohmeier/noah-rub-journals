@@ -1,0 +1,25 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>8737</id>
+	<dc:title xml:lang="en-US">Keep it Unsupervised: Horizontal Attacks Meet Deep Learning</dc:title>
+	<dc:creator>Perin, Guilherme</dc:creator>
+	<dc:creator>Chmielewski, Łukasz</dc:creator>
+	<dc:creator>Batina, Lejla</dc:creator>
+	<dc:creator>Picek, Stjepan</dc:creator>
+	<dc:subject xml:lang="en-US">Side-channel Analysis</dc:subject>
+	<dc:subject xml:lang="en-US">Public-key Algorithms</dc:subject>
+	<dc:subject xml:lang="en-US">Horizontal Attacks</dc:subject>
+	<dc:subject xml:lang="en-US">Deep Learning</dc:subject>
+	<dc:description xml:lang="en-US">To mitigate side-channel attacks, real-world implementations of public-key cryptosystems adopt state-of-the-art countermeasures based on randomization of the private or ephemeral keys. Usually, for each private key operation, a “scalar blinding” is performed using 32 or 64 randomly generated bits. Nevertheless, horizontal attacks based on a single trace still pose serious threats to protected ECC or RSA implementations. If the secrets learned through a single-trace attack contain too many wrong (or noisy) bits, the cryptanalysis methods for recovering remaining bits become impractical due to time and computational constraints. This paper proposes a deep learning-based framework to iteratively correct partially correct private keys resulting from a clustering-based horizontal attack. By testing the trained network on scalar multiplication (or exponentiation) traces, we demonstrate that a deep neural network can significantly reduce the number of wrong bits from randomized scalars (or exponents).When a simple horizontal attack can recover around 52% of attacked multiple private key bits, the proposed iterative framework improves the private key accuracy to above 90% on average and to 100% for at least one of the attacked keys. Our attack model remains fully unsupervised and excludes the need to know where the error or noisy bits are located in each separate randomized private key.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2020-12-03</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tches.iacr.org/index.php/TCHES/article/view/8737</dc:identifier>
+	<dc:identifier>10.46586/tches.v2021.i1.343-372</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Cryptographic Hardware and Embedded Systems; Volume 2021, Issue 1; 343-372</dc:source>
+	<dc:source>2569-2925</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/8737/8337</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2020 Guilherme Perin, Łukasz Chmielewski, Lejla Batina, Stjepan Picek</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0/</dc:rights>
+</oai_dc:dc>

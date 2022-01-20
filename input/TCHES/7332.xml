@@ -1,0 +1,29 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>7332</id>
+	<dc:title xml:lang="en-US">Improving CEMA using Correlation Optimization</dc:title>
+	<dc:creator>Robyns, Pieter</dc:creator>
+	<dc:creator>Quax, Peter</dc:creator>
+	<dc:creator>Lamotte, Wim</dc:creator>
+	<dc:subject xml:lang="en-US">Correlation Optimization</dc:subject>
+	<dc:subject xml:lang="en-US">Software Defined Radio</dc:subject>
+	<dc:subject xml:lang="en-US">Correlation Electromagnetic</dc:subject>
+	<dc:subject xml:lang="en-US">Analysis</dc:subject>
+	<dc:subject xml:lang="en-US">correlation loss</dc:subject>
+	<dc:subject xml:lang="en-US">machine learning</dc:subject>
+	<dc:description xml:lang="en-US">Sensitive cryptographic information, e.g. AES secret keys, can be extracted from the electromagnetic (EM) leakages unintentionally emitted by a device using techniques such as Correlation Electromagnetic Analysis (CEMA). In this paper, we introduce Correlation Optimization (CO), a novel approach that improves CEMA attacks by formulating the selection of useful EM leakage samples in a trace as a machine learning optimization problem. To this end, we propose the correlation loss function, which aims to maximize the Pearson correlation between a set of EM traces and the true AES key during training. We show that CO works with high-dimensional and noisy traces, regardless of time-domain trace alignment and without requiring prior knowledge of the power consumption characteristics of the cryptographic hardware. We evaluate our approach using the ASCAD benchmark dataset and a custom dataset of EM leakages from an Arduino Duemilanove, captured with a USRP B200 SDR. Our results indicate that the masked AES implementation used in all three ASCAD datasets can be broken with a shallow Multilayer Perceptron model, whilst requiring only 1,000 test traces on average. A similar methodology was employed to break the unprotected AES implementation from our custom dataset, using 22,000 unaligned and unfiltered test traces.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2018-11-09</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tches.iacr.org/index.php/TCHES/article/view/7332</dc:identifier>
+	<dc:identifier>10.13154/tches.v2019.i1.1-24</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Cryptographic Hardware and Embedded Systems; Volume 2019, Issue 1; 1-24</dc:source>
+	<dc:source>2569-2925</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/7332/6504</dc:relation>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/7332/7903</dc:relation>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/7332/7904</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2018 Pieter Robyns, Peter Quax, Wim Lamotte</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0</dc:rights>
+</oai_dc:dc>

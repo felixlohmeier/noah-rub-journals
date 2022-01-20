@@ -1,0 +1,27 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>590</id>
+	<dc:title xml:lang="en-US">Conditional Cube Attack on Round-Reduced ASCON</dc:title>
+	<dc:creator>Li, Zheng</dc:creator>
+	<dc:creator>Dong, Xiaoyang</dc:creator>
+	<dc:creator>Wang, Xiaoyun</dc:creator>
+	<dc:subject xml:lang="en-US">Ascon</dc:subject>
+	<dc:subject xml:lang="en-US">CAESAR</dc:subject>
+	<dc:subject xml:lang="en-US">Cube-like</dc:subject>
+	<dc:subject xml:lang="en-US">Key Recovery</dc:subject>
+	<dc:subject xml:lang="en-US">Authenticated Encryption</dc:subject>
+	<dc:description xml:lang="en-US">This paper evaluates the secure level of authenticated encryption Ascon against cube-like method. Ascon submitted by Dobraunig et al. is one of 16 survivors of the 3rd round CAESAR competition. The cube-like method is first used by Dinur et al. to analyze Keccak keyed modes. At CT-RSA 2015, Dobraunig et al. applied this method to 5/6-round reduced Ascon, whose structure is similar to Keccak keyed modes. However, for Ascon the non-linear layer is more complex and state is much smaller, which make it hard for the attackers to select enough cube variables that do not multiply with each other after the first round. This seems to be the reason why the best previous key-recovery attack is on 6-round Ascon, while for Keccak keyed modes (Keccak-MAC and Keyak) the attacked round is no less than 7-round. In this paper, we generalize the conditional cube attack proposed by Huang et al., and find new cubes depending on some key bit conditions for 5/6-round reduced Ascon, and translate the previous theoretic 6-round attack with 266 time complexity to a practical one with 240 time complexity. Moreover, we propose the first 7-round key-recovery attack on Ascon. By introducing the cube-like key-subset technique, we divide the full key space into many subsets according to different key conditions. For each key subset, we launch the cube tester to determine if the key falls into it. Finally, we recover the full key space by testing all the key subsets. The total time complexity is about 2103.9. In addition, for a weak-key subset, whose size is 2117, the attack is more efficient and costs only 277 time complexity. Those attacks do not threaten the full round (12 rounds) Ascon.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2017-03-08</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tosc.iacr.org/index.php/ToSC/article/view/590</dc:identifier>
+	<dc:identifier>10.13154/tosc.v2017.i1.175-202</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Symmetric Cryptology; Volume 2017, Issue 1; 175-202</dc:source>
+	<dc:source>2519-173X</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/590/531</dc:relation>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/590/7488</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2017 Zheng Li, Xiaoyang Dong, Xiaoyun Wang</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0</dc:rights>
+</oai_dc:dc>

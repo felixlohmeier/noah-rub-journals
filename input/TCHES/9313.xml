@@ -1,0 +1,29 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>9313</id>
+	<dc:title xml:lang="en-US">Will You Cross the Threshold for Me? Generic Side-Channel Assisted Chosen-Ciphertext Attacks on NTRU-based KEMs</dc:title>
+	<dc:creator>Ravi, Prasanna</dc:creator>
+	<dc:creator>Ezerman, Martianus Frederic</dc:creator>
+	<dc:creator>Bhasin, Shivam</dc:creator>
+	<dc:creator>Chattopadhyay, Anupam</dc:creator>
+	<dc:creator>Sinha Roy, Sujoy</dc:creator>
+	<dc:subject xml:lang="en-US">lattice-based cryptography</dc:subject>
+	<dc:subject xml:lang="en-US">electromagnetic-based side-channel attack</dc:subject>
+	<dc:subject xml:lang="en-US">learning with error</dc:subject>
+	<dc:subject xml:lang="en-US">learning with rounding</dc:subject>
+	<dc:subject xml:lang="en-US">chosen ciphertext attack</dc:subject>
+	<dc:subject xml:lang="en-US">public key encryption</dc:subject>
+	<dc:subject xml:lang="en-US">key encapsulation mechanism</dc:subject>
+	<dc:description xml:lang="en-US">In this work, we propose generic and novel side-channel assisted chosenciphertext attacks on NTRU-based key encapsulation mechanisms (KEMs). These KEMs are IND-CCA secure, that is, they are secure in the chosen-ciphertext model. Our attacks involve the construction of malformed ciphertexts. When decapsulated by the target device, these ciphertexts ensure that a targeted intermediate variable becomes very closely related to the secret key. An attacker, who can obtain information about the secret-dependent variable through side-channels, can subsequently recover the full secret key. We propose several novel CCAs which can be carried through by using side-channel leakage from the decapsulation procedure. The attacks instantiate three different types of oracles, namely a plaintext-checking oracle, a decryptionfailure oracle, and a full-decryption oracle, and are applicable to two NTRU-based schemes, which are NTRU and NTRU Prime. The two schemes are candidates in the ongoing NIST standardization process for post-quantum cryptography. We perform experimental validation of the attacks on optimized and unprotected implementations of NTRU-based schemes, taken from the open-source pqm4 library, using the EM-based side-channel on the 32-bit ARM Cortex-M4 microcontroller. All of our proposed attacks are capable of recovering the full secret key in only a few thousand chosen ciphertext queries on all parameter sets of NTRU and NTRU Prime. Our attacks, therefore, stress on the need for concrete side-channel protection strategies for NTRUbased KEMs.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2021-11-19</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tches.iacr.org/index.php/TCHES/article/view/9313</dc:identifier>
+	<dc:identifier>10.46586/tches.v2022.i1.722-761</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Cryptographic Hardware and Embedded Systems; Volume 2022, Issue 1; 722-761</dc:source>
+	<dc:source>2569-2925</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/9313/8878</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2021 Prasanna Ravi, Martianus Frederic Ezerman, Shivam Bhasin, Anupam Chattopadhyay, Sujoy Sinha Roy</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0/</dc:rights>
+</oai_dc:dc>

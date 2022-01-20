@@ -1,0 +1,28 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>8981</id>
+	<dc:title xml:lang="en-US">Breaking CAS-Lock and Its Variants by Exploiting Structural Traces</dc:title>
+	<dc:creator>Sengupta, Abhrajit</dc:creator>
+	<dc:creator>Limaye, Nimisha</dc:creator>
+	<dc:creator>Sinanoglu, Ozgur</dc:creator>
+	<dc:subject xml:lang="en-US">Anti-SAT</dc:subject>
+	<dc:subject xml:lang="en-US">CAS-Lock/M-CAS</dc:subject>
+	<dc:subject xml:lang="en-US">IP piracy</dc:subject>
+	<dc:subject xml:lang="en-US">logic locking</dc:subject>
+	<dc:subject xml:lang="en-US">removal attack</dc:subject>
+	<dc:subject xml:lang="en-US">SAT attack</dc:subject>
+	<dc:subject xml:lang="en-US">structural analysis</dc:subject>
+	<dc:description xml:lang="en-US">Logic locking is a prominent solution to protect against design intellectual property theft. However, there has been a decade-long cat-and-mouse game between defenses and attacks. A turning point in logic locking was the development of miterbased Boolean satisfiability (SAT) attack that steered the research in the direction of developing SAT-resilient schemes. These schemes, however achieved SAT resilience at the cost of low output corruption. Recently, cascaded locking (CAS-Lock) [SXTF20a] was proposed that provides non-trivial output corruption all-the-while maintaining resilience to the SAT attack. Regardless of the theoretical properties, we revisit some of the assumptions made about its implementation, especially about security-unaware synthesis tools, and subsequently expose a set of structural vulnerabilities that can be exploited to break these schemes. We propose our attacks on baseline CAS-Lock as well as mirrored CAS (M-CAS), an improved version of CAS-Lock. We furnish extensive simulation results of our attacks on ISCAS’85 and ITC’99 benchmarks, where we show that CAS-Lock/M-CAS can be broken with ∼94% success rate. Further, we open-source all implementation scripts, locked circuits, and attack scripts for the community. Finally, we discuss the pitfalls of point function-based locking techniques including Anti-SAT [XS18] and Stripped Functionality Logic Locking(SFLL-HD) [YSN+17], which suffer from similar implementation issues.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2021-07-09</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tches.iacr.org/index.php/TCHES/article/view/8981</dc:identifier>
+	<dc:identifier>10.46586/tches.v2021.i3.418-440</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Cryptographic Hardware and Embedded Systems; Volume 2021, Issue 3; 418-440</dc:source>
+	<dc:source>2569-2925</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/8981/8558</dc:relation>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/8981/8629</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2021 Abhrajit Sengupta, Nimisha Limaye, Ozgur Sinanoglu</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0/</dc:rights>
+</oai_dc:dc>

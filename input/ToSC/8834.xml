@@ -1,0 +1,26 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>8834</id>
+	<dc:title xml:lang="en-US">MOE: Multiplication Operated Encryption with Trojan Resilience</dc:title>
+	<dc:creator>Bronchain, Olivier</dc:creator>
+	<dc:creator>Faust, Sebastian</dc:creator>
+	<dc:creator>Lallemand, Virginie</dc:creator>
+	<dc:creator>Leander, Gregor</dc:creator>
+	<dc:creator>Perrin, Léo</dc:creator>
+	<dc:creator>Standaert, François-Xavier</dc:creator>
+	<dc:subject xml:lang="en-US">symmetric encryption</dc:subject>
+	<dc:subject xml:lang="en-US">modular multiplication</dc:subject>
+	<dc:subject xml:lang="en-US">Trojan-resilience</dc:subject>
+	<dc:description xml:lang="en-US">In order to lower costs, the fabrication of Integrated Circuits (ICs) is increasingly delegated to offshore contract foundries, making them exposed to malicious modifications, known as hardware Trojans. Recent works have demonstrated that a strong form of Trojan-resilience can be obtained from untrusted chips by exploiting secret sharing and Multi-Party Computation (MPC), yet with significant cost overheads. In this paper, we study the possibility of building a symmetric cipher enabling similar guarantees in a more efficient manner. To reach this goal, we exploit a simple round structure mixing a modular multiplication and a multiplication with a binary matrix. Besides being motivated as a new block cipher design for Trojan resilience, our research also exposes the cryptographic properties of the modular multiplication, which is of independent interest.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2021-03-19</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tosc.iacr.org/index.php/ToSC/article/view/8834</dc:identifier>
+	<dc:identifier>10.46586/tosc.v2021.i1.78-129</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Symmetric Cryptology; Volume 2021, Issue 1; 78-129</dc:source>
+	<dc:source>2519-173X</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/8834/8437</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2021 Olivier Bronchain, Sebastian Faust, Virginie Lallemand, Gregor Leander, Léo Perrin, François-Xavier Standaert</dc:rights>
+	<dc:rights xml:lang="en-US">http://creativecommons.org/licenses/by/4.0</dc:rights>
+</oai_dc:dc>

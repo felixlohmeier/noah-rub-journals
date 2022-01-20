@@ -1,0 +1,26 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>832</id>
+	<dc:title xml:lang="en-US">High Order Masking of Look-up Tables with Common Shares</dc:title>
+	<dc:creator>Coron, Jean-Sébastien</dc:creator>
+	<dc:creator>Rondepierre, Franck</dc:creator>
+	<dc:creator>Zeitoun, Rina</dc:creator>
+	<dc:subject xml:lang="en-US">Side-channel countermeasure</dc:subject>
+	<dc:subject xml:lang="en-US">high-order masking</dc:subject>
+	<dc:subject xml:lang="en-US">ISW security proof</dc:subject>
+	<dc:description xml:lang="en-US">Masking is an effective countermeasure against side-channel attacks. In this paper, we improve the efficiency of the high-order masking of look-up tables countermeasure introduced at Eurocrypt 2014, based on a combination of three techniques, and still with a proof of security in the Ishai-Sahai-Wagner (ISW) probing model. The first technique consists in proving security under the stronger t-SNI definition, which enables to use n = t+1 shares instead of n = 2t+1 against t-th order attacks. The second technique consists in progressively incrementing the number of shares within the countermeasure, from a single share to n, thereby reducing the complexity of the countermeasure. The third technique consists in adapting the common shares approach introduced by Coron et al. at CHES 2016, so that half of a randomized look-up table can be pre-computed for multiple SBoxes. We show that our techniques perform well in practice. In theory, the combination of the three techniques should lead to a factor 10.7 improvement in efficiency, for a large number of shares. For a practical implementation with a reasonable number of shares, we get a 4.8 speed-up factor for AES.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2018-02-14</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tches.iacr.org/index.php/TCHES/article/view/832</dc:identifier>
+	<dc:identifier>10.13154/tches.v2018.i1.40-72</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Cryptographic Hardware and Embedded Systems; Volume 2018, Issue 1; 40-72</dc:source>
+	<dc:source>2569-2925</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/832/784</dc:relation>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/832/7998</dc:relation>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/832/7999</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2018 Jean-Sébastien Coron, Franck Rondepierre, Rina Zeitoun</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0</dc:rights>
+</oai_dc:dc>

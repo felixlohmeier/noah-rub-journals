@@ -1,0 +1,27 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>774</id>
+	<dc:title xml:lang="en-US">On Leakage-Resilient Authenticated Encryption with Decryption Leakages</dc:title>
+	<dc:creator>Berti, Francesco</dc:creator>
+	<dc:creator>Pereira, Olivier</dc:creator>
+	<dc:creator>Peters, Thomas</dc:creator>
+	<dc:creator>Standaert, François-Xavier</dc:creator>
+	<dc:subject xml:lang="en-US">Leakage-resilience</dc:subject>
+	<dc:subject xml:lang="en-US">authenticated encryption</dc:subject>
+	<dc:subject xml:lang="en-US">secure bootloading</dc:subject>
+	<dc:description xml:lang="en-US">At CCS 2015, Pereira et al. introduced a pragmatic model enabling the study of leakage-resilient symmetric cryptographic primitives based on the minimal use of a leak-free component. This model was recently used to prove the good integrity and confidentiality properties of an authenticated encryption scheme called DTE when the adversary is only given encryption leakages. In this paper, we extend this work by analyzing the case where decryption leakages are also available. We first exhibit attacks exploiting such leakages against the integrity of DTE (and variants) and show how to mitigate them. We then consider message confidentiality in a context where an adversary can observe decryption leakages but not the corresponding messages. The latter is motivated by applications such as secure bootloading and bitstream decryption. We finally formalize the confidentiality requirements that can be achieved in this case and propose a new construction satisfying them, while providing integrity properties with leakage that are as good as those of DTE.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2017-09-19</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tosc.iacr.org/index.php/ToSC/article/view/774</dc:identifier>
+	<dc:identifier>10.13154/tosc.v2017.i3.271-293</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Symmetric Cryptology; Volume 2017, Issue 3; 271-293</dc:source>
+	<dc:source>2519-173X</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/774/732</dc:relation>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/774/7613</dc:relation>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/774/7539</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2017 Francesco Berti, Olivier Pereira, Thomas Peters, François-Xavier Standaert</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0</dc:rights>
+</oai_dc:dc>

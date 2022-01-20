@@ -1,0 +1,27 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>8701</id>
+	<dc:title xml:lang="en-US">Extended Truncated-differential Distinguishers on Round-reduced AES</dc:title>
+	<dc:creator>Bao, Zhenzhen</dc:creator>
+	<dc:creator>Guo, Jian</dc:creator>
+	<dc:creator>List, Eik</dc:creator>
+	<dc:subject xml:lang="en-US">Cryptanalysis</dc:subject>
+	<dc:subject xml:lang="en-US">AES</dc:subject>
+	<dc:subject xml:lang="en-US">Permutation</dc:subject>
+	<dc:subject xml:lang="en-US">Collision</dc:subject>
+	<dc:subject xml:lang="en-US">Differential</dc:subject>
+	<dc:subject xml:lang="en-US">Expectation</dc:subject>
+	<dc:subject xml:lang="en-US">Distinguisher</dc:subject>
+	<dc:description xml:lang="en-US">Distinguishers on round-reduced AES have attracted considerable attention in the recent years. While the number of rounds covered in key-recovery attacks did not increase, subspace, yoyo, mixture-differential, and multiple-of-n cryptanalysis advanced the understanding of the properties of the cipher.For substitution-permutation networks, integral attacks are a suitable target for extension since they usually end after a linear layer sums several subcomponents. Based on results by Patarin, Chen et al. already observed that the expected number of collisions for a sum of permutations differs slightly from that for a random primitive. Though, their target remained lightweight primitives.The present work illustrates how the well-known integral distinguisher on three-round AES resembles a sum of PRPs and can be extended to truncated-differential distinguishers over 4 and 5 rounds. In contrast to previous distinguishers by Grassi et al., our approach allows to prepend a round that starts from a diagonal subspace. We demonstrate how the prepended round can be used for key recovery with a new differential key-recovery attack on six-round AES. Moreover, we show how the prepended round can also be integrated to form a six-round distinguisher. For all distinguishers and the key-recovery attack, our results are supported by implementations with Cid et al.’s established Small-AES version. While the distinguishers do not threaten the security of the AES, they try to shed more light on its properties.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2020-09-28</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tosc.iacr.org/index.php/ToSC/article/view/8701</dc:identifier>
+	<dc:identifier>10.13154/tosc.v2020.i3.197-261</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Symmetric Cryptology; Volume 2020, Issue 3; 197-261</dc:source>
+	<dc:source>2519-173X</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/8701/8293</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2020 Zhenzhen Bao, Jian Guo, Eik List</dc:rights>
+	<dc:rights xml:lang="en-US">http://creativecommons.org/licenses/by/4.0/</dc:rights>
+</oai_dc:dc>

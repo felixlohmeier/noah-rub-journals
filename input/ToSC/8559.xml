@@ -1,0 +1,26 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>8559</id>
+	<dc:title xml:lang="en-US">Towards Low-Energy Leakage-Resistant Authenticated Encryption from the Duplex Sponge Construction</dc:title>
+	<dc:creator>Guo, Chun</dc:creator>
+	<dc:creator>Pereira, Olivier</dc:creator>
+	<dc:creator>Peters, Thomas</dc:creator>
+	<dc:creator>Standaert, François-Xavier</dc:creator>
+	<dc:subject xml:lang="en-US">Authenticated Encryption</dc:subject>
+	<dc:subject xml:lang="en-US">Duplex Construction</dc:subject>
+	<dc:subject xml:lang="en-US">Leakage-Resistance</dc:subject>
+	<dc:subject xml:lang="en-US">Leveled Implementations</dc:subject>
+	<dc:subject xml:lang="en-US">Multi-User/Beyond Birthday Security</dc:subject>
+	<dc:description xml:lang="en-US">The ongoing NIST lightweight cryptography standardization process highlights the importance of resistance to side-channel attacks, which has renewed the interest for Authenticated Encryption schemes (AEs) with light(er)-weight sidechannel secure implementations. To address this challenge, our first contribution is to investigate the leakage-resistance of a generic duplex-based stream cipher. When the capacity of the duplex is of c bits, we prove the classical bound, i.e., ≈ 2c/2, under an assumption of non-invertible leakage. Based on this, we propose a new 1-pass AE mode TETSponge, which carefully combines a tweakable block cipher that must have strong protections against side-channel attacks and is scarcely used, and a duplex-style permutation that only needs weak side-channel protections and is used to frugally process the message and associated data. It offers: (i) provable integrity (resp. confidentiality) guarantees in the presence of leakage during both encryption and decryption (resp. encryption only), (ii) some level of nonce misuse robustness. We conclude that TETSponge is an appealing option for the implementation of low-energy AE in settings where side-channel attacks are a concern. We also provides the first rigorous methodology for the leakage-resistance of sponge/duplex-based AEs based on a minimal non-invertibility assumption on leakages, which leads to various insights on designs and implementations.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2020-05-07</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tosc.iacr.org/index.php/ToSC/article/view/8559</dc:identifier>
+	<dc:identifier>10.13154/tosc.v2020.i1.6-42</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Symmetric Cryptology; Volume 2020, Issue 1; 6-42</dc:source>
+	<dc:source>2519-173X</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/8559/8130</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2020 Chun Guo, Olivier Pereira, Thomas Peters, François-Xavier Standaert</dc:rights>
+	<dc:rights xml:lang="en-US">http://creativecommons.org/licenses/by/4.0/</dc:rights>
+</oai_dc:dc>

@@ -1,0 +1,32 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>8548</id>
+	<dc:title xml:lang="en-US">Persistent Fault Attack in Practice</dc:title>
+	<dc:creator>Zhang, Fan</dc:creator>
+	<dc:creator>Zhang, Yiran</dc:creator>
+	<dc:creator>Jiang, Huilong</dc:creator>
+	<dc:creator>Zhu , Xiang</dc:creator>
+	<dc:creator>Bhasin, Shivam</dc:creator>
+	<dc:creator>Zhao, Xinjie</dc:creator>
+	<dc:creator>Liu, Zhe</dc:creator>
+	<dc:creator>Gu, Dawu</dc:creator>
+	<dc:creator>Ren, Kui</dc:creator>
+	<dc:subject xml:lang="en-US">PFA</dc:subject>
+	<dc:subject xml:lang="en-US">Fault Injection</dc:subject>
+	<dc:subject xml:lang="en-US">SRAM</dc:subject>
+	<dc:subject xml:lang="en-US">MLE</dc:subject>
+	<dc:subject xml:lang="en-US">AES</dc:subject>
+	<dc:subject xml:lang="en-US">PRESENT</dc:subject>
+	<dc:description xml:lang="en-US">Persistence fault analysis (PFA) is a novel fault analysis technique proposed in CHES 2018 and demonstrated with rowhammer-based fault injections. However, whether such analysis can be applied to traditional fault attack scenario, together with its difficulty in practice, has not been carefully investigated. For the first time, a persistent fault attack is conducted on an unprotected AES implemented on ATmega163L microcontroller in this paper. Several critical challenges are solved with our new improvements, including (1) how to decide whether the fault is injected in SBox; (2) how to use the maximum likelihood estimation to pursue the minimum number of ciphertexts; (3) how to utilize the unknown fault in SBox to extract the key. Our experiments show that: to break AES with physical laser injections despite all these challenges, the minimum and average number of required ciphertexts are 926 and 1641, respectively. It is about 38% and 28% reductions of the ciphertexts required in comparison to 1493 and 2273 in previous work where both fault value and location have to be known. Furthermore, our analysis is extended to the PRESENT cipher. By applying the persistent fault analysis to the penultimate round, the full PRESENT key of 80 bits can be recovered. Eventually, an experimental validation is performed to confirm the accuracy of our attack with more insights. This paper solves the challenges in most aspects of practice and also demonstrates the feasibility and universality of PFA on SPN block ciphers.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2020-03-02</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tches.iacr.org/index.php/TCHES/article/view/8548</dc:identifier>
+	<dc:identifier>10.13154/tches.v2020.i2.172-195</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Cryptographic Hardware and Embedded Systems; Volume 2020, Issue 2; 172-195</dc:source>
+	<dc:source>2569-2925</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/8548/8113</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2020 Fan Zhang, Yiran Zhang, Huilong Jiang, Xiang Zhu, Shivam Bhasin, Xinjie Zhao, Zhe Liu, Dawu Gu, Kui Ren</dc:rights>
+	<dc:rights xml:lang="en-US">http://creativecommons.org/licenses/by/4.0/</dc:rights>
+</oai_dc:dc>

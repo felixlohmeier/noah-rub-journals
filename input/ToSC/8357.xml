@@ -1,0 +1,26 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>8357</id>
+	<dc:title xml:lang="en-US">DoveMAC: A TBC-based PRF with Smaller State, Full Security, and High Rate</dc:title>
+	<dc:creator>Grochow, Tony</dc:creator>
+	<dc:creator>List, Eik</dc:creator>
+	<dc:creator>Nandi, Mridul</dc:creator>
+	<dc:subject xml:lang="en-US">Authentication</dc:subject>
+	<dc:subject xml:lang="en-US">authenticated encryption</dc:subject>
+	<dc:subject xml:lang="en-US">message authentication code</dc:subject>
+	<dc:subject xml:lang="en-US">PRF</dc:subject>
+	<dc:subject xml:lang="en-US">provable security</dc:subject>
+	<dc:subject xml:lang="en-US">tweakable block cipher</dc:subject>
+	<dc:description xml:lang="en-US">Recent parallelizable message authentication codes (MACs) have demonstrated the benefit of tweakable block ciphers (TBCs) for authentication with high security guarantees. With ZMAC, Iwata et al. extended this line of research by showing that TBCs can simultaneously increase the number of message bits that are processed per primitive call. However, ZMAC and previous TBC-based MACs needed more memory than sequential constructions. While this aspect is less an issue on desktop processors, it can be unfavorable on resource-constrained platforms. In contrast, existing sequential MACs limit the number of message bits to the block length of the primitive n or below.This work proposes DoveMAC, a TBC-based PRF that reduces the memory of ZMAC-based MACs to 2n+ 2t+2k bits, where n is the state size, t the tweak length, and k the key length of the underlying primitive. DoveMAC provides (n+min(n+t))/2 bits of security, and processes n+t bits per primitive call. Our construction is the first sequential MAC that combines beyond-birthday-bound security with a rate above n bits per call. By reserving a single tweak bit for domain separation, we derive a single-key variant DoveMAC1k.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2019-09-20</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tosc.iacr.org/index.php/ToSC/article/view/8357</dc:identifier>
+	<dc:identifier>10.13154/tosc.v2019.i3.43-80</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Symmetric Cryptology; Volume 2019, Issue 3; 43-80</dc:source>
+	<dc:source>2519-173X</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/8357/7707</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2019 Tony Grochow, Eik List, Mridul Nandi</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0</dc:rights>
+</oai_dc:dc>

@@ -1,0 +1,25 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>8597</id>
+	<dc:title xml:lang="en-US">Defeating State-of-the-Art White-Box Countermeasures with Advanced Gray-Box Attacks</dc:title>
+	<dc:creator>Goubin, Louis</dc:creator>
+	<dc:creator>Rivain, Matthieu</dc:creator>
+	<dc:creator>Wang, Junwei</dc:creator>
+	<dc:subject xml:lang="en-US">white-box cryptography</dc:subject>
+	<dc:subject xml:lang="en-US">linear masking</dc:subject>
+	<dc:subject xml:lang="en-US">non-linear masking</dc:subject>
+	<dc:subject xml:lang="en-US">shuffling</dc:subject>
+	<dc:subject xml:lang="en-US">data-dependency</dc:subject>
+	<dc:description xml:lang="en-US">The goal of white-box cryptography is to protect secret keys embedded in a cryptographic software deployed in an untrusted environment. In this article, we revisit state-of-the-art countermeasures employed in white-box cryptography, and we discuss possible ways to combine them. Then we analyze the different gray-box attack paths and study their performances in terms of required traces and computation time. Afterward, we propose a new paradigm for the gray-box attack against white-box cryptography, which exploits the data-dependency of the target implementation. We demonstrate that our approach provides substantial complexity improvements over the existing attacks. Finally, we showcase this new technique by breaking the three winning AES-128 white-box implementations from WhibOx 2019 white-box cryptography competition.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2020-06-19</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tches.iacr.org/index.php/TCHES/article/view/8597</dc:identifier>
+	<dc:identifier>10.13154/tches.v2020.i3.454-482</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Cryptographic Hardware and Embedded Systems; Volume 2020, Issue 3; 454-482</dc:source>
+	<dc:source>2569-2925</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/8597/8164</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2020 Louis Goubin, Matthieu Rivain, Junwei Wang</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0</dc:rights>
+</oai_dc:dc>

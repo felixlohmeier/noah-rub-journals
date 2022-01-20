@@ -1,0 +1,27 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>8363</id>
+	<dc:title xml:lang="en-US">Security of Symmetric Primitives against Key-Correlated Attacks</dc:title>
+	<dc:creator>Connolly, Aisling</dc:creator>
+	<dc:creator>Farshim, Pooya</dc:creator>
+	<dc:creator>Fuchsbauer, Georg</dc:creator>
+	<dc:subject xml:lang="en-US">Key-correlated attack</dc:subject>
+	<dc:subject xml:lang="en-US">related-key attack</dc:subject>
+	<dc:subject xml:lang="en-US">key-dependent-message attack</dc:subject>
+	<dc:subject xml:lang="en-US">ideal-cipher model</dc:subject>
+	<dc:subject xml:lang="en-US">random-oracle model</dc:subject>
+	<dc:subject xml:lang="en-US">authenticated encryption</dc:subject>
+	<dc:subject xml:lang="en-US">xkcd</dc:subject>
+	<dc:description xml:lang="en-US">We study the security of symmetric primitives against key-correlated attacks (KCA), whereby an adversary can arbitrarily correlate keys, messages, and ciphertexts. Security against KCA is required whenever a primitive should securely encrypt key-dependent data, even when it is used under related keys. KCA is a strengthening of the previously considered notions of related-key attack (RKA) and key-dependent message (KDM) security. This strengthening is strict, as we show that 2-round Even–Mansour fails to be KCA secure even though it is both RKA and KDM secure. We provide feasibility results in the ideal-cipher model for KCAs and show that 3-round Even–Mansour is KCA secure under key offsets in the random-permutation model. We also give a natural transformation that converts any authenticated encryption scheme to a KCA-secure one in the random-oracle model. Conceptually, our results allow for a unified treatment of RKA and KDM security in idealized models of computation.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2019-09-20</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tosc.iacr.org/index.php/ToSC/article/view/8363</dc:identifier>
+	<dc:identifier>10.13154/tosc.v2019.i3.193-230</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Symmetric Cryptology; Volume 2019, Issue 3; 193-230</dc:source>
+	<dc:source>2519-173X</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/8363/7712</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2019 Aisling Connolly, Pooya Farshim, Georg Fuchsbauer</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0</dc:rights>
+</oai_dc:dc>

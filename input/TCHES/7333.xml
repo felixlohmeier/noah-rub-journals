@@ -1,0 +1,25 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>7333</id>
+	<dc:title xml:lang="en-US">M&amp;M: Masks and Macs against Physical Attacks</dc:title>
+	<dc:creator>De Meyer, Lauren</dc:creator>
+	<dc:creator>Arribas, Victor</dc:creator>
+	<dc:creator>Nikova, Svetla</dc:creator>
+	<dc:creator>Nikov, Ventzislav</dc:creator>
+	<dc:creator>Rijmen, Vincent</dc:creator>
+	<dc:description xml:lang="en-US">Cryptographic implementations on embedded systems need to be protected against physical attacks. Today, this means that apart from incorporating countermeasures against side-channel analysis, implementations must also withstand fault attacks and combined attacks. Recent proposals in this area have shown that there is a big tradeoff between the implementation cost and the strength of the adversary model. In this work, we introduce a new combined countermeasure M&amp;amp;M that combines Masking with information-theoretic MAC tags and infective computation. It works in a stronger adversary model than the existing scheme ParTI, yet is a lot less costly to implement than the provably secure MPC-based scheme CAPA. We demonstrate M&amp;amp;M with a SCA- and DFA-secure implementation of the AES block cipher. We evaluate the side-channel leakage of the second-order secure design with a non-specific t-test and use simulation to validate the fault resistance.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2018-11-09</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tches.iacr.org/index.php/TCHES/article/view/7333</dc:identifier>
+	<dc:identifier>10.13154/tches.v2019.i1.25-50</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Cryptographic Hardware and Embedded Systems; Volume 2019, Issue 1; 25-50</dc:source>
+	<dc:source>2569-2925</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/7333/6505</dc:relation>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/7333/7905</dc:relation>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/7333/7906</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2018 Lauren De Meyer, Victor Arribas, Svetla Nikova, Ventzislav Nikov, Vincent Rijmen</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0</dc:rights>
+</oai_dc:dc>

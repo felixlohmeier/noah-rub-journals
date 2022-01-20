@@ -1,0 +1,32 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>9305</id>
+	<dc:title xml:lang="en-US">Polynomial multiplication on embedded vector architectures</dc:title>
+	<dc:creator>Becker, Hanno</dc:creator>
+	<dc:creator>Bermudo Mera, Jose Maria</dc:creator>
+	<dc:creator>Karmakar, Angshuman</dc:creator>
+	<dc:creator>Yiu, Joseph</dc:creator>
+	<dc:creator>Verbauwhede, Ingrid</dc:creator>
+	<dc:subject xml:lang="en-US">Post-Quantum Cryptography</dc:subject>
+	<dc:subject xml:lang="en-US">Polynomial multiplication</dc:subject>
+	<dc:subject xml:lang="en-US">IoT</dc:subject>
+	<dc:subject xml:lang="en-US">Cortex-M55</dc:subject>
+	<dc:subject xml:lang="en-US">Cortex-M4</dc:subject>
+	<dc:subject xml:lang="en-US">M-profile Vector Extension (MVE)</dc:subject>
+	<dc:subject xml:lang="en-US">Helium vector extension</dc:subject>
+	<dc:subject xml:lang="en-US">Number Theoretic Transform (NTT)</dc:subject>
+	<dc:subject xml:lang="en-US">Toom-Cook</dc:subject>
+	<dc:subject xml:lang="en-US">Karatsuba</dc:subject>
+	<dc:description xml:lang="en-US">High-degree, low-precision polynomial arithmetic is a fundamental computational primitive underlying structured lattice based cryptography. Its algorithmic properties and suitability for implementation on different compute platforms is an active area of research, and this article contributes to this line of work: Firstly, we present memory-efficiency and performance improvements for the Toom-Cook/Karatsuba polynomial multiplication strategy. Secondly, we provide implementations of those improvements on Arm® Cortex®-M4 CPU, as well as the newer Cortex-M55 processor, the first M-profile core implementing the M-profile Vector Extension (MVE), also known as Arm® Helium™ technology. We also implement the Number Theoretic Transform (NTT) on the Cortex-M55 processor. We show that despite being singleissue, in-order and offering only 8 vector registers compared to 32 on A-profile SIMD architectures like Arm® Neon™ technology and the Scalable Vector Extension (SVE), by careful register management and instruction scheduling, we can obtain a 3× to 5× performance improvement over already highly optimized implementations on Cortex-M4, while maintaining a low area and energy profile necessary for use in embedded market. Finally, as a real-world application we integrate our multiplication techniques to post-quantum key-encapsulation mechanism Saber</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2021-11-19</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tches.iacr.org/index.php/TCHES/article/view/9305</dc:identifier>
+	<dc:identifier>10.46586/tches.v2022.i1.482-505</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Cryptographic Hardware and Embedded Systems; Volume 2022, Issue 1; 482-505</dc:source>
+	<dc:source>2569-2925</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/9305/8871</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2021 Hanno Becker, Jose Maria Bermudo Mera, Angshuman Karmakar, Joseph Yiu, Ingrid Verbauwhede</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0/</dc:rights>
+</oai_dc:dc>

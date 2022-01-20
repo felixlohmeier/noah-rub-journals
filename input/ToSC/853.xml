@@ -1,0 +1,27 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>853</id>
+	<dc:title xml:lang="en-US">Revisiting Variable Output Length XOR Pseudorandom Function</dc:title>
+	<dc:creator>Bhattacharya, Srimanta</dc:creator>
+	<dc:creator>Nandi, Mridul</dc:creator>
+	<dc:subject xml:lang="en-US">PRF</dc:subject>
+	<dc:subject xml:lang="en-US">PRP</dc:subject>
+	<dc:subject xml:lang="en-US">x2 method</dc:subject>
+	<dc:subject xml:lang="en-US">mirror theory</dc:subject>
+	<dc:subject xml:lang="en-US">CENC</dc:subject>
+	<dc:description xml:lang="en-US">Let σ be some positive integer and C ⊆ {(i, j) : 1 ≤ i &amp;lt; j ≤ σ}. The theory behind finding a lower bound on the number of distinct blocks P1, . . . , Pσ ∈ {0, 1}n satisfying a set of linear equations {Pi ⊕Pj = ci,j : (i, j) ∈ C} for some ci,j ∈ {0, 1}n, is called mirror theory. Patarin introduced the mirror theory and provided a proof for this. However, the proof, even for a special class of equations, is complex and contains several non-trivial gaps. As an application of mirror theory, XORP[w] (known as XOR construction) returning (w−1) block output, is a pseudorandom function (PRF) for some parameter w, called width. The XOR construction can be seen as a basic structure of some encryption algorithms, e.g., the CENC encryption and the CHM authenticated encryption, proposed by Iwata in 2006. Due to potential application of XORP[w] and the nontrivial gaps in the proof of mirror theory, an alternative simpler analysis of PRF-security of XORP[w] would be much desired. Recently (in Crypto 2017) Dai et al. introduced a tool, called the χ2 method, for analyzing PRF-security. Using this tool, the authors have provided a proof of PRF-security of XORP[2] without relying on the mirror theory. In this paper, we resolve the general case; we apply the χ2 method to obtain a simpler security proof of XORP[w] for any w ≥ 2. For w = 2, we obtain a tighter bound for a wider range of parameters than that of Dai et al.. Moreover, we consider variable width construction XORP[∗] (in which the widths are chosen by adversaries adaptively), and also provide variable output length pseudorandom function (VOLPRF) security analysis for it. As an application of VOLPRF, we propose an authenticated encryption which is a simple variant of CHM or AES-GCM and provides much higher security than those at the cost of one extra blockcipher call for every message.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2018-03-01</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tosc.iacr.org/index.php/ToSC/article/view/853</dc:identifier>
+	<dc:identifier>10.13154/tosc.v2018.i1.314-335</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Symmetric Cryptology; Volume 2018, Issue 1; 314-335</dc:source>
+	<dc:source>2519-173X</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/853/805</dc:relation>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/853/7626</dc:relation>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/853/7526</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2018 Srimanta Bhattacharya, Mridul Nandi</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0</dc:rights>
+</oai_dc:dc>

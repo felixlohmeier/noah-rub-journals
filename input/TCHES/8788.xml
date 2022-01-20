@@ -1,0 +1,27 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>8788</id>
+	<dc:title xml:lang="en-US">A White-Box Masking Scheme Resisting Computational and Algebraic Attacks</dc:title>
+	<dc:creator>Seker, Okan</dc:creator>
+	<dc:creator>Eisenbarth, Thomas</dc:creator>
+	<dc:creator>Liskiewicz, Maciej</dc:creator>
+	<dc:subject xml:lang="en-US">White-box Cryptography</dc:subject>
+	<dc:subject xml:lang="en-US">Boolean Masking</dc:subject>
+	<dc:subject xml:lang="en-US">Non-linear Masking</dc:subject>
+	<dc:subject xml:lang="en-US">Probing Security</dc:subject>
+	<dc:subject xml:lang="en-US">Prediction Security</dc:subject>
+	<dc:subject xml:lang="en-US">Differential Computation Analysis</dc:subject>
+	<dc:subject xml:lang="en-US">Algebraic Attacks</dc:subject>
+	<dc:description xml:lang="en-US">White-box cryptography attempts to protect cryptographic secrets in pure software implementations. Due to their high utility, white-box cryptosystems (WBC) are deployed by the industry even though the security of these constructions is not well defined. A major breakthrough in generic cryptanalysis of WBC was Differential Computation Analysis (DCA), which requires minimal knowledge of the underlying white-box protection and also thwarts many obfuscation methods. To avert DCA, classic masking countermeasures originally intended to protect against highly related side-channel attacks have been proposed for use in WBC. However, due to the controlled environment of WBCs, new algebraic attacks against classic masking schemes have quickly been found. These algebraic DCA attacks break all classic masking countermeasures efficiently, as they are independent of the masking order.In this work, we propose a novel generic masking scheme that can resist both DCA and algebraic DCA attacks. The proposed scheme extends the seminal work by Ishai et al. which is probing secure and thus resists DCA, to also resist algebraic attacks. To prove the security of our scheme, we demonstrate the connection between two main security notions in white-box cryptography: probing security and prediction security. Resistance of our masking scheme to DCA is proven for an arbitrary order of protection, using the well-known strong non-interference notion by Barthe et al. Our masking scheme also resists algebraic attacks, which we show concretely for first and second-order algebraic protection. Moreover, we present an extensive performance analysis and quantify the overhead of our scheme, for a proof-of-concept protection of an AES implementation.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2021-02-23</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tches.iacr.org/index.php/TCHES/article/view/8788</dc:identifier>
+	<dc:identifier>10.46586/tches.v2021.i2.61-105</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Cryptographic Hardware and Embedded Systems; Volume 2021, Issue 2; 61-105</dc:source>
+	<dc:source>2569-2925</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/8788/8388</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2021 Okan Seker, Thomas Eisenbarth, Maciej Liskiewicz</dc:rights>
+	<dc:rights xml:lang="en-US">http://creativecommons.org/licenses/by/4.0/</dc:rights>
+</oai_dc:dc>

@@ -1,0 +1,24 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>8959</id>
+	<dc:title xml:lang="en-US">Attenuating oneself: An active inference perspective on “selfless” experiences</dc:title>
+	<dc:creator>Limanowski, Jakub</dc:creator>
+	<dc:creator>Friston, Karl</dc:creator>
+	<dc:subject xml:lang="en-US">Active inference</dc:subject>
+	<dc:subject xml:lang="en-US">Sensory attenuation</dc:subject>
+	<dc:subject xml:lang="en-US">Self-model</dc:subject>
+	<dc:description xml:lang="en-US">In this paper, we address reports of “selfless” experiences from the perspective of active inference and predictive processing. Our argument builds upon grounding self-modelling in active inference as action planning and precision control within deep generative models – thus establishing a link between computational mechanisms and phenomenal selfhood. We propose that “selfless” experiences can be interpreted as (rare) cases in which normally congruent processes of computational and phenomenal self-modelling diverge in an otherwise conscious system. We discuss two potential mechanisms – within the Bayesian mechanics of active inference – that could lead to such a divergence by attenuating the experience of selfhood: “self-flattening” via reduction in the depth of active inference and “self-attenuation” via reduction of the expected precision of self-evidence.</dc:description>
+	<dc:publisher xml:lang="en-US">MIND Group</dc:publisher>
+	<dc:date>2020-03-24</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:type xml:lang="en-US">Peer-reviewed Article</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://philosophymindscience.org/index.php/phimisci/article/view/8959</dc:identifier>
+	<dc:identifier>10.33735/phimisci.2020.I.35</dc:identifier>
+	<dc:source xml:lang="en-US">Philosophy and the Mind Sciences; Vol. 1 No. I (2020): Special Issue: Radical Disruptions of Self-Consciousness; 1-16</dc:source>
+	<dc:source>2699-0369</dc:source>
+	<dc:source>10.33735/phimisci.2020.I</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://philosophymindscience.org/index.php/phimisci/article/view/8959/8537</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2020 Jakub Limanowski, Karl Friston</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0</dc:rights>
+</oai_dc:dc>

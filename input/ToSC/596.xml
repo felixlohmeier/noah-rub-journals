@@ -1,0 +1,28 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>596</id>
+	<dc:title xml:lang="en-US">Analysis of Software Countermeasures for Whitebox Encryption</dc:title>
+	<dc:creator>Banik, Subhadeep</dc:creator>
+	<dc:creator>Bogdanov, Andrey</dc:creator>
+	<dc:creator>Isobe, Takanori</dc:creator>
+	<dc:creator>Jepsen, Martin</dc:creator>
+	<dc:subject xml:lang="en-US">Whitebox Cryptography</dc:subject>
+	<dc:subject xml:lang="en-US">differential computational analysis</dc:subject>
+	<dc:subject xml:lang="en-US">zero enumeration attack</dc:subject>
+	<dc:subject xml:lang="en-US">control randomization</dc:subject>
+	<dc:subject xml:lang="en-US">dummy operation</dc:subject>
+	<dc:description xml:lang="en-US">Whitebox cryptography aims to ensure the security of cryptographic algorithms in the whitebox model where the adversary has full access to the execution environment. To attain security in this setting is a challenging problem: Indeed, all published whitebox implementations of standard symmetric-key algorithms such as AES to date have been practically broken. However, as far as we know, no whitebox implementation in real-world products has suffered from a key recovery attack. This is due to the fact that commercial products deploy additional software protection mechanisms on top of the whitebox implementation. This makes practical attacks much less feasible in real-world applications. There are numerous software protection mechanisms which protect against standard whitebox attacks. One such technique is control flow obfuscation which randomizes the order of table lookups for each execution of the whitebox encryption module. Another technique is randomizing the locations of the various Look up tables (LUTs) in the memory address space. In this paper we investigate the effectiveness of these countermeasures against two attack paradigms. The first known as Differential Computational Analysis (DCA) attack was developed by Bos, Hubain, Michiels and Teuwen in CHES 2016. The attack passively collects software execution traces for several plaintext encryptions and uses the collected data to perform an analysis similar to the well known differential power attacks (DPA) to recover the secret key. Since the software execution traces contain time demarcated physical addresses of memory locations being read/written into, they essentially leak the values of the inputs to the various LUTs accessed during the whitebox encryption operation, which as it turns out leaks sufficient information to perform the power attack. We found that if in addition to control flow obfuscation, one were to randomize the locations of the LUTs in the memory, then it is very difficult to perform the DCA on the resultant system using such table inputs and extract the secret key in reasonable time. As an alternative, we investigate the version of the DCA attack which uses the outputs of the tables instead of the inputs to mount the power analysis attack. This modified DCA is able to extract the secret key from the flow obfuscated and location randomized versions of several whitebox binaries available in crypto literature. We develop another attack called the Zero Difference Enumeration (ZDE) attack. The attack records software traces for several pairs of strategically selected plaintexts and performs a simple statistical test on the effective difference of the traces to extract the secret key. We show that ZDE is able to recover the keys of whitebox systems. Finally we propose a new countermeasure for protecting whitebox binaries based on insertion of random delays which aims to make both the ZDE and DCA attackspractically difficult by adding random noise in the information leaked to the attacker.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2017-03-08</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tosc.iacr.org/index.php/ToSC/article/view/596</dc:identifier>
+	<dc:identifier>10.13154/tosc.v2017.i1.307-328</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Symmetric Cryptology; Volume 2017, Issue 1; 307-328</dc:source>
+	<dc:source>2519-173X</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/596/537</dc:relation>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/596/7542</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2017 Subhadeep Banik, Andrey Bogdanov, Takanori Isobe, Martin Jepsen</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0</dc:rights>
+</oai_dc:dc>

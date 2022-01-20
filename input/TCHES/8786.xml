@@ -1,0 +1,30 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>8786</id>
+	<dc:title xml:lang="en-US">Machine Learning of Physical Unclonable Functions using Helper Data: Revealing a Pitfall in the Fuzzy Commitment Scheme</dc:title>
+	<dc:creator>Strieder, Emanuele</dc:creator>
+	<dc:creator>Frisch, Christoph</dc:creator>
+	<dc:creator>Pehl, Michael</dc:creator>
+	<dc:subject xml:lang="en-US">Physical Unclonable Function</dc:subject>
+	<dc:subject xml:lang="en-US">PUF</dc:subject>
+	<dc:subject xml:lang="en-US">Machine Learning</dc:subject>
+	<dc:subject xml:lang="en-US">Supervised Learning</dc:subject>
+	<dc:subject xml:lang="en-US">Fuzzy Commitment Scheme</dc:subject>
+	<dc:subject xml:lang="en-US">Fuzzy Extractor</dc:subject>
+	<dc:subject xml:lang="en-US">Error Correcting Code</dc:subject>
+	<dc:subject xml:lang="en-US">Neural Network</dc:subject>
+	<dc:subject xml:lang="en-US">Key Storage</dc:subject>
+	<dc:subject xml:lang="en-US">Key Distribution</dc:subject>
+	<dc:description xml:lang="en-US">Physical Unclonable Functions (PUFs) are used in various key-generation schemes and protocols. Such schemes are deemed to be secure even for PUFs with challenge-response behavior, as long as no responses and no reliability information about the PUF are exposed. This work, however, reveals a pitfall in these constructions: When using state-of-the-art helper data algorithms to correct noisy PUF responses, an attacker can exploit the publicly accessible helper data and challenges. We show that with this public information and the knowledge of the underlying error correcting code, an attacker can break the security of the system: The redundancy in the error correcting code reveals machine learnable features and labels. Learning these features and labels results in a predictive model for the dependencies between different challenge-response pairs (CRPs) without direct access to the actual PUF response. We provide results based on simulated data of a k-SUM PUF model and an Arbiter PUF model. We also demonstrate the attack for a k-SUM PUF model generated from real data and discuss the impact on more recent PUF constructions such as the Multiplexer PUF and the Interpose PUF. The analysis reveals that especially the frequently used repetition code is vulnerable: For a SUM-PUF in combination with a repetition code, e.g., already the observation of 800 challenges and helper data bits suffices to reduce the entropy of the key down to one bit. The analysis also shows that even other linear block codes like the BCH, the Reed-Muller, or the Single Parity Check code are affected by the problem. The code-dependent insights we gain from the analysis allow us to suggest mitigation strategies for the identified attack. While the shown vulnerability advances Machine Learning (ML) towards realistic attacks on key-storage systems with PUFs, our analysis also facilitates a better understanding and evaluation of existing approaches and protocols with PUFs. Therefore, it brings the community one step closer to a more complete leakage assessment of PUFs.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2021-02-23</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tches.iacr.org/index.php/TCHES/article/view/8786</dc:identifier>
+	<dc:identifier>10.46586/tches.v2021.i2.1-36</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Cryptographic Hardware and Embedded Systems; Volume 2021, Issue 2; 1-36</dc:source>
+	<dc:source>2569-2925</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/8786/8386</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2021 Emanuele Strieder, Christoph Frisch, Michael Pehl</dc:rights>
+	<dc:rights xml:lang="en-US">http://creativecommons.org/licenses/by/4.0/</dc:rights>
+</oai_dc:dc>

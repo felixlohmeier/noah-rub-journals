@@ -1,0 +1,26 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>8703</id>
+	<dc:title xml:lang="en-US"> Exploring Secret Keys in Searching Integral Distinguishers Based on Division Property</dc:title>
+	<dc:creator>Wang, Senpeng</dc:creator>
+	<dc:creator>Hu, Bin</dc:creator>
+	<dc:creator>Guan, Jie</dc:creator>
+	<dc:creator>Zhang, Kai</dc:creator>
+	<dc:creator>Shi, Tairong</dc:creator>
+	<dc:subject xml:lang="en-US">Integral Distinguisher</dc:subject>
+	<dc:subject xml:lang="en-US">Division Property</dc:subject>
+	<dc:subject xml:lang="en-US">MILP</dc:subject>
+	<dc:subject xml:lang="en-US">Block Cipher</dc:subject>
+	<dc:description xml:lang="en-US">Division property proposed by Todo at EUROCRYPT 2015 is a generalized integral property. Then, conventional bit-based division property (CBDP) and bitbased division property using three subsets (BDPT) were proposed by Todo and Morii at FSE 2016. At ASIACRYPT 2016, Xiang et al. extended Mixed Integer Linear Programming (MILP) method to search integral distinguishers based on CBDP. And at ASIACRYPT 2019, Wang et al. proposed an MILP-aided method of searching integral distinguishers based on BDPT. Although BDPT is powerful in searching integral distinguishers, the accuracy is not perfect.For block cipher SPECK32, as the block size is only 32 bits, we can experimentally observe the behaviors of all the plaintexts under a fixed key. By testing 210 random secret keys, we experimentally find a better integral distinguisher of 6-round SPECK32 with 30 active bits. But this experimental integral distinguisher cannot be proved by existing methods. So there still exists a gap between the proved distinguisher and the experimental one.To fill the gap, we explore secret keys in searching integral distinguishers based on BDPT. We put forward a situation where “Xor with The Secret Key” operation can be bypassed. Based on the new BDPT propagation rule, an improved automatic algorithm of searching integral distinguishers is proposed. For SPECK32, our improved algorithm can find the 6-round integral distinguisher with 230 chosen plaintexts. The gap between the proved distinguisher and the experimental one is filled. Moreover, we apply this improved method to search the integral distinguishers of SPECK, KATAN/KTANTAN, SIMON, SIMECK, SIMON(102), PRESENT and RECTANGLE block ciphers. The integral distinguishers found by our improved method are better than or consistent with the previous longest distinguishers.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2020-09-28</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tosc.iacr.org/index.php/ToSC/article/view/8703</dc:identifier>
+	<dc:identifier>10.13154/tosc.v2020.i3.288-304</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Symmetric Cryptology; Volume 2020, Issue 3; 288-304</dc:source>
+	<dc:source>2519-173X</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/8703/8295</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2020 Senpeng Wang, Bin Hu, Jie Guan, Kai Zhang, Tairong Shi</dc:rights>
+	<dc:rights xml:lang="en-US">http://creativecommons.org/licenses/by/4.0/</dc:rights>
+</oai_dc:dc>

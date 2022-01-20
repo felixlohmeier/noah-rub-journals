@@ -1,0 +1,23 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>392</id>
+	<dc:title xml:lang="en-US">Single segment tests for the analysis of the core drilling process of concrete materials</dc:title>
+	<dc:creator>Kansteiner, Michael</dc:creator>
+	<dc:creator>Biermann, Dirk</dc:creator>
+	<dc:subject xml:lang="en-US">grinding</dc:subject>
+	<dc:subject xml:lang="en-US">core drilling</dc:subject>
+	<dc:subject xml:lang="en-US">diamond</dc:subject>
+	<dc:subject xml:lang="en-US">diamond impregnated tool</dc:subject>
+	<dc:subject xml:lang="en-US">concrete</dc:subject>
+	<dc:subject xml:lang="en-US">reinforced concrete</dc:subject>
+	<dc:description xml:lang="en-US">Diamond impregnated tools, like drill bits or circular saws, are used for the machining of mineralmaterials like stones or the compound material concrete. Drill bits comprise several single diamondimpregnated segments which are attached to the top of the tool body by brazing or laser weldingprocesses. Fields of application of these tools can be found at the construction industry, the stoneprocessing and the mining industry. The segments consist of a sintered powder-metal matrix andrandomly distributed diamond grains. Hence, the number of exposed grains on the tool surfacevaries even for tools of the same specification. To simplify the analysis of the core drilling processwith several segments and therefore diamonds in contact, tests with single segments were carriedout. Thus, the number of exposed grains is reduced to a manageable number. To analyse theinfluence of grit size and concentration in diamond impregnated tools on the process behaviourwhen machining concrete materials, path-controlled tests on a machining centre were conducted.High performance concrete (C100) and reinforced concrete were machined and process forceswere measured to quantify the influence of the tool specification. Additional information weregained by analysing the generated tool tracks.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2015-11-25</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://icscm.ub.rub.de/index.php/ICSCM/article/view/392</dc:identifier>
+	<dc:identifier>10.13154/icscm.3.2015.101-111</dc:identifier>
+	<dc:source xml:lang="en-US">International Conference on Stone and Concrete Machining (ICSCM); Vol. 3 (2015); 101-111</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://icscm.ub.rub.de/index.php/ICSCM/article/view/392/349</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2015 Michael Kansteiner, Dirk Biermann</dc:rights>
+</oai_dc:dc>

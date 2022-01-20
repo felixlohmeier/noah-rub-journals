@@ -1,0 +1,26 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>9327</id>
+	<dc:title xml:lang="en-US">CTET+: A Beyond-Birthday-Bound Secure Tweakable Enciphering Scheme Using a Single Pseudorandom Permutation</dc:title>
+	<dc:creator>Cogliati, Benoît</dc:creator>
+	<dc:creator>Ethan, Jordan</dc:creator>
+	<dc:creator>Lallemand, Virginie</dc:creator>
+	<dc:creator>Lee, Byeonghak</dc:creator>
+	<dc:creator>Lee, Jooyoung</dc:creator>
+	<dc:creator>Minier, Marine</dc:creator>
+	<dc:subject xml:lang="en-US">tweakable enciphering mode</dc:subject>
+	<dc:subject xml:lang="en-US">SPN</dc:subject>
+	<dc:subject xml:lang="en-US">beyond-birthday-bound security</dc:subject>
+	<dc:description xml:lang="en-US">In this work, we propose a construction of 2-round tweakable substitutionpermutation networks using a single secret S-box. This construction is based on non-linear permutation layers using independent round keys, and achieves security beyond the birthday bound in the random permutation model. When instantiated with an n-bit block cipher with ωn-bit keys, the resulting tweakable block cipher, dubbed CTET+, can be viewed as a tweakable enciphering scheme that encrypts ωκ-bit messages for any integer ω ≥ 2 using 5n + κ-bit keys and n-bit tweaks, providing 2n/3-bit security.Compared to the 2-round non-linear SPN analyzed in [CDK+18], we both minimize it by requiring a single permutation, and weaken the requirements on the middle linear layer, allowing better performance. As a result, CTET+ becomes the first tweakable enciphering scheme that provides beyond-birthday-bound security using a single permutation, while its efficiency is still comparable to existing schemes including AES-XTS, EME, XCB and TET. Furthermore, we propose a new tweakable enciphering scheme, dubbed AES6-CTET+, which is an actual instantiation of CTET+ using a reduced round AES block cipher as the underlying secret S-box. Extensivecryptanalysis of this algorithm allows us to claim 127 bits of security.Such tweakable enciphering schemes with huge block sizes become desirable in the context of disk encryption, since processing a whole sector as a single block significantly worsens the granularity for attackers when compared to, for example, AES-XTS, which treats every 16-byte block on the disk independently. Besides, as a huge amount of data is being stored and encrypted at rest under many different keys in clouds, beyond-birthday-bound security will most likely become necessary in the short term.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2021-12-03</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tosc.iacr.org/index.php/ToSC/article/view/9327</dc:identifier>
+	<dc:identifier>10.46586/tosc.v2021.i4.1-35</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Symmetric Cryptology; Volume 2021, Issue 4; 1-35</dc:source>
+	<dc:source>2519-173X</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/9327/8886</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2021 Benoît Cogliati, Jordan Ethan, Virginie Lallemand, Byeonghak Lee, Jooyoung Lee, Marine Minier</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0/</dc:rights>
+</oai_dc:dc>

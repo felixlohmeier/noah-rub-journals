@@ -1,0 +1,25 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>9064</id>
+	<dc:title xml:lang="en-US">Masking Kyber: First- and Higher-Order Implementations</dc:title>
+	<dc:creator>Bos, Joppe W.</dc:creator>
+	<dc:creator>Gourjon, Marc</dc:creator>
+	<dc:creator>Renes, Joost</dc:creator>
+	<dc:creator>Schneider, Tobias</dc:creator>
+	<dc:creator>van Vredendaal, Christine</dc:creator>
+	<dc:subject xml:lang="en-US">Post-Quantum Cryptography</dc:subject>
+	<dc:subject xml:lang="en-US">Masking</dc:subject>
+	<dc:subject xml:lang="en-US">Kyber</dc:subject>
+	<dc:description xml:lang="en-US">In the final phase of the post-quantum cryptography standardization effort, the focus has been extended to include the side-channel resistance of the candidates. While some schemes have been already extensively analyzed in this regard, there is no such study yet of the finalist Kyber.In this work, we demonstrate the first completely masked implementation of Kyber which is protected against first- and higher-order attacks. To the best of our knowledge, this results in the first higher-order masked implementation of any post-quantum secure key encapsulation mechanism algorithm. This is realized by introducing two new techniques. First, we propose a higher-order algorithm for the one-bit compression operation. This is based on a masked bit-sliced binary-search that can be applied to prime moduli. Second, we propose a technique which enables one to compare uncompressed masked polynomials with compressed public polynomials. This avoids the costly masking of the ciphertext compression while being able to be instantiated at arbitrary orders.We show performance results for first-, second- and third-order protected implementations on the Arm Cortex-M0+ and Cortex-M4F. Notably, our implementation of first-order masked Kyber decapsulation requires 3.1 million cycles on the Cortex-M4F. This is a factor 3.5 overhead compared to the unprotected optimized implementationin pqm4. We experimentally show that the first-order implementation of our new modules on the Cortex-M0+ is hardened against attacks using 100 000 traces and mechanically verify the security in a fine-grained leakage model using the verification tool scVerif.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2021-08-11</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tches.iacr.org/index.php/TCHES/article/view/9064</dc:identifier>
+	<dc:identifier>10.46586/tches.v2021.i4.173-214</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Cryptographic Hardware and Embedded Systems; Volume 2021, Issue 4; 173-214</dc:source>
+	<dc:source>2569-2925</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/9064/8651</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2021 Joppe W. Bos, Marc Gourjon, Joost Renes, Tobias Schneider, Christine van Vredendaal</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0/</dc:rights>
+</oai_dc:dc>

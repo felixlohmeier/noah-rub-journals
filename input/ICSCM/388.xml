@@ -1,0 +1,21 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>388</id>
+	<dc:title xml:lang="en-US">Analysis of the material removing mechanism for an automated chiselling approach</dc:title>
+	<dc:creator>Steinhagen, G.</dc:creator>
+	<dc:creator>Kuhlenkötter, Bernd</dc:creator>
+	<dc:subject xml:lang="en-US">Artistic Stone Production</dc:subject>
+	<dc:subject xml:lang="en-US">Traditional Stone Processing Techniques</dc:subject>
+	<dc:subject xml:lang="en-US">Analysis of Handcraft</dc:subject>
+	<dc:subject xml:lang="en-US">Material Removal with chisel</dc:subject>
+	<dc:description xml:lang="en-US">The European stone industry was exposed to great competition during the last years. However theEuropean market is still the most important one for natural stone products. Especially traditionalartistic processing techniques are very expensive due to the high personnel requirement. Thusautomation becomes interesting for economic reasons. To process individually designed stoneproducts it is planned to use a robot mounted tool.One of the issues to achieve this goal is the analysis of the material removal to get repeatableresults. We analysed different manual techniques used for sandstone surfaces in a first step andmeasured the movement of the chisel with a high speed camera system. We chose two techniquesfor further analysis and designed a first mechanical testbed to achieve repeatable kinetic energies.The material removal was analysed with the camera. Thus we are able to see the movement of thechisel and the flow of the removed material.With this knowledge the analysis of relevant material and process properties will be shown as well.Furthermore, this paper discusses the relevant result parameters which define the optical quality ofthe surface. Combining these data it is possible to analyse the working parameters of anautomated system which is able to process various sandstones with individual surface geometries.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2015-11-25</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://icscm.ub.rub.de/index.php/ICSCM/article/view/388</dc:identifier>
+	<dc:identifier>10.13154/icscm.3.2015.61-71</dc:identifier>
+	<dc:source xml:lang="en-US">International Conference on Stone and Concrete Machining (ICSCM); Vol. 3 (2015); 61-71</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://icscm.ub.rub.de/index.php/ICSCM/article/view/388/345</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2015 G. Steinhagen, Bernd Kuhlenkötter</dc:rights>
+</oai_dc:dc>

@@ -1,0 +1,27 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>600</id>
+	<dc:title xml:lang="en-US">The Approximate k-List Problem</dc:title>
+	<dc:creator>Both, Leif</dc:creator>
+	<dc:creator>May, Alexander</dc:creator>
+	<dc:subject xml:lang="en-US">nearest neighbor problem</dc:subject>
+	<dc:subject xml:lang="en-US">approximate matching</dc:subject>
+	<dc:subject xml:lang="en-US">k-list problem</dc:subject>
+	<dc:subject xml:lang="en-US">birthday problem</dc:subject>
+	<dc:subject xml:lang="en-US">collision search</dc:subject>
+	<dc:subject xml:lang="en-US">low weight polynomials</dc:subject>
+	<dc:description xml:lang="en-US">We study a generalization of the k-list problem, also known as the Generalized Birthday problem. In the k-list problem, one starts with k lists of binary vectors and has to find a set of vectors – one from each list – that sum to the all-zero target vector. In our generalized Approximate k-list problem, one has to find a set of vectors that sum to a vector of small Hamming weight ω. Thus, we relax the condition on the target vector and allow for some error positions. This in turn helps us to significantly reduce the size of the starting lists, which determines the memory consumption, and the running time as a function of ω. For ω = 0, our algorithm achieves the original k-list run-time/memory consumption, whereas for ω = n/2 it has polynomial complexity. As in the k-list case, our Approximate k-list algorithm is defined for all k = 2m,m &amp;gt; 1. Surprisingly, we also find an Approximate 3-list algorithm that improves in the runtime exponent compared to its 2-list counterpart for all 0 &amp;lt; ω &amp;lt; n/2. To the best of our knowledge this is the first such improvement of some variant of the notoriously hard 3-list problem. As an application of our algorithm we compute small weight multiples of a given polynomial with more flexible degree than with Wagner’s algorithm from Crypto 2002 and with smaller time/memory consumption than with Minder and Sinclair’s algorithm from SODA 2009.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2017-03-08</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tosc.iacr.org/index.php/ToSC/article/view/600</dc:identifier>
+	<dc:identifier>10.13154/tosc.v2017.i1.380-397</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Symmetric Cryptology; Volume 2017, Issue 1; 380-397</dc:source>
+	<dc:source>2519-173X</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/600/541</dc:relation>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/600/7485</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2017 Leif Both, Alexander May</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0</dc:rights>
+</oai_dc:dc>

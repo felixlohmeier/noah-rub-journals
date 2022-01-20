@@ -1,0 +1,27 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>576</id>
+	<dc:title xml:lang="en-US">Meet-in-the-Middle Attacks on Classes of Contracting and Expanding Feistel Constructions</dc:title>
+	<dc:creator>Guo, Jian</dc:creator>
+	<dc:creator>Jean, Jérémy</dc:creator>
+	<dc:creator>Nikolic, Ivica</dc:creator>
+	<dc:creator>Sasaki, Yu</dc:creator>
+	<dc:subject xml:lang="en-US">Unbalanced Feistel</dc:subject>
+	<dc:subject xml:lang="en-US">Generic Attack</dc:subject>
+	<dc:subject xml:lang="en-US">Key Recovery</dc:subject>
+	<dc:subject xml:lang="en-US">MITM</dc:subject>
+	<dc:description xml:lang="en-US">We show generic attacks on unbalanced Feistel ciphers based on the meet-in-the-middle technique. We analyze two general classes of unbalanced Feistel structures, namely contracting Feistels and expanding Feistels. In both of the cases, we consider the practical scenario where the round functions are keyless and known to the adversary. In the case of contracting Feistels with 4 branches, we show attacks on 16 rounds when the key length k (in bits) is as large as the block length n (in bits), and up to 24 rounds when k = 2n. In the case of expanding Feistels, we consider two scenarios: one, where different nonlinear functions without particular structures are used in the round function, and a more practical one, where a single nonlinear is used but different linear functions are introduced in the state update. In the former case, we propose generic attacks on 13 rounds when k = n, and up to 21 rounds when k = 2n. In the latter case, 16 rounds can be attacked for k = n, and 24 rounds for k = 2n.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2017-02-03</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tosc.iacr.org/index.php/ToSC/article/view/576</dc:identifier>
+	<dc:identifier>10.13154/tosc.v2016.i2.307-337</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Symmetric Cryptology; Volume 2016, Issue 2; 307-337</dc:source>
+	<dc:source>2519-173X</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/576/518</dc:relation>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/576/7472</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2017 Jian Guo, Jérémy Jean, Ivica Nikolic, Yu Sasaki</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0</dc:rights>
+</oai_dc:dc>

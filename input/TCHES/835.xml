@@ -1,0 +1,30 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>835</id>
+	<dc:title xml:lang="en-US">Linear Repairing Codes and Side-Channel Attacks</dc:title>
+	<dc:creator>Chabanne, Hervé</dc:creator>
+	<dc:creator>Maghrebi, Houssem</dc:creator>
+	<dc:creator>Prouff, Emmanuel</dc:creator>
+	<dc:subject xml:lang="en-US">Side-Channel Analysis</dc:subject>
+	<dc:subject xml:lang="en-US">Countermeasures</dc:subject>
+	<dc:subject xml:lang="en-US">Masking</dc:subject>
+	<dc:subject xml:lang="en-US">Shamir’s Sharing</dc:subject>
+	<dc:subject xml:lang="en-US">Linear Exact Repairing Schemes</dc:subject>
+	<dc:subject xml:lang="en-US">Coding Theory</dc:subject>
+	<dc:subject xml:lang="en-US">Reed-Solomon Codes</dc:subject>
+	<dc:description xml:lang="en-US">To strengthen the resistance of countermeasures based on secret sharing,several works have suggested to use the scheme introduced by Shamir in 1978, which proposes to use the evaluation of a random d-degree polynomial into n ≥ d + 1 public points to share the sensitive data. Applying the same principles used against the classical Boolean sharing, all these works have assumed that the most efficient attack strategy was to exploit the minimum number of shares required to rebuild the sensitive value; which is d + 1 if the reconstruction is made with Lagrange’s interpolation. In this paper, we highlight first an important difference between Boolean and Shamir’s sharings which implies that, for some signal-to-noise ratio, it is more advantageous for the adversary to observe strictly more than d + 1 shares. We argue that this difference is related to the existence of so-called linear exact repairing codes, which themselves come with reconstruction formulae that need (much) less information (counted in bits) than Lagrange’s interpolation. In particular, this result implies that the choice of the public points in Shamir’s sharing has an impact on the countermeasure strength, which confirms previous observations made by Wang et al. at CARDIS 2016 for the so-called inner product sharing which is a generalization of Shamir’s scheme. As another contribution, we exhibit a positive impact of the existence of linear exact repairing schemes; we indeed propose to use them to improve the state-of-the-art multiplication algorithms dedicated to Shamir’s sharing. We argue that the improvement can be effective when the multiplication operation in the sub-fields is at least two times smaller than that of the base field.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2018-02-14</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tches.iacr.org/index.php/TCHES/article/view/835</dc:identifier>
+	<dc:identifier>10.13154/tches.v2018.i1.118-141</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Cryptographic Hardware and Embedded Systems; Volume 2018, Issue 1; 118-141</dc:source>
+	<dc:source>2569-2925</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/835/787</dc:relation>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/835/8006</dc:relation>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/835/8007</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2018 Hervé Chabanne, Houssem Maghrebi, Emmanuel Prouff</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0</dc:rights>
+</oai_dc:dc>

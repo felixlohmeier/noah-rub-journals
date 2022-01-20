@@ -1,0 +1,26 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>8542</id>
+	<dc:title xml:lang="en-US">Side-Channel Countermeasures’ Dissection and the Limits of Closed Source Security Evaluations</dc:title>
+	<dc:creator>Bronchain, Olivier</dc:creator>
+	<dc:creator>Standaert, François-Xavier</dc:creator>
+	<dc:subject xml:lang="en-US">Side-Channel Attacks</dc:subject>
+	<dc:subject xml:lang="en-US">Security Evaluations</dc:subject>
+	<dc:subject xml:lang="en-US">Certification</dc:subject>
+	<dc:subject xml:lang="en-US">Affine Masking</dc:subject>
+	<dc:subject xml:lang="en-US">Shuffling</dc:subject>
+	<dc:subject xml:lang="en-US">Worst-Case (Multivariate) Analysis</dc:subject>
+	<dc:subject xml:lang="en-US">Open Source Design</dc:subject>
+	<dc:description xml:lang="en-US">We take advantage of a recently published open source implementation of the AES protected with a mix of countermeasures against side-channel attacks to discuss both the challenges in protecting COTS devices against such attacks and the limitations of closed source security evaluations. The target implementation has been proposed by the French ANSSI (Agence Nationale de la Sécurité des Systèmes d’Information) to stimulate research on the design and evaluation of side-channel secure implementations. It combines additive and multiplicative secret sharings into an affine masking scheme that is additionally mixed with a shuffled execution. Its preliminary leakage assessment did not detect data dependencies with up to 100,000 measurements. We first exhibit the gap between such a preliminary leakage assessment and advanced attacks by demonstrating how a countermeasures’ dissection exploiting a mix of dimensionality reduction, multivariate information extraction and key enumeration can recover the full key with less than 2,000 measurements. We then discuss the relevance of open source evaluations to analyze such implementations efficiently, by pointing out that certain steps of the attack are hard to automate without implementation knowledge (even with machine learning tools), while performing them manually is straightforward. Our findings are not due to design flaws but from the general difficulty to prevent side-channel attacks in COTS devices with limited noise. We anticipate that high security on such devices requires significantly more shares.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2020-03-02</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tches.iacr.org/index.php/TCHES/article/view/8542</dc:identifier>
+	<dc:identifier>10.13154/tches.v2020.i2.1-25</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Cryptographic Hardware and Embedded Systems; Volume 2020, Issue 2; 1-25</dc:source>
+	<dc:source>2569-2925</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/8542/8107</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2020 Olivier Bronchain, François-Xavier Standaert</dc:rights>
+	<dc:rights xml:lang="en-US">http://creativecommons.org/licenses/by/4.0/</dc:rights>
+</oai_dc:dc>

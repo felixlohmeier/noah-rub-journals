@@ -1,0 +1,28 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>848</id>
+	<dc:title xml:lang="en-US">On the Generalization of Butterfly Structure</dc:title>
+	<dc:creator>Li, Yongqiang</dc:creator>
+	<dc:creator>Tian, Shizhu</dc:creator>
+	<dc:creator>Yu, Yuyin</dc:creator>
+	<dc:creator>Wang, Mingsheng</dc:creator>
+	<dc:subject xml:lang="en-US">Butterfly structure</dc:subject>
+	<dc:subject xml:lang="en-US">differential uniformity</dc:subject>
+	<dc:subject xml:lang="en-US">nonlinearity</dc:subject>
+	<dc:subject xml:lang="en-US">algebraic degree</dc:subject>
+	<dc:description xml:lang="en-US">Butterfly structure was proposed in CRYPTO 2016 [PUB16], and it cangenerate permutations over F22n from power permutations over F2n for odd n. Afterthat, a generalized butterfly structure was proposed in IEEE IT [CDP17], which cangenerate permutations over F22n from any permutation over F2n . There is also anothergeneralization which was given in [FFW17]. Up to now, three constructions based onbutterfly structure and Gold type permutations are proposed. In the present paper,we give a construction which contains the three previous constructions as special casesand also generates new permutations with good cryptographic properties. Moreover,we give a characterization of the number of solutions of a special system of linearequations in a more general way, which is useful to investigate the cryptographicproperties of quadratic functions obtained with butterfly construction based on Goldexponents.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2018-03-01</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tosc.iacr.org/index.php/ToSC/article/view/848</dc:identifier>
+	<dc:identifier>10.13154/tosc.v2018.i1.160-179</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Symmetric Cryptology; Volume 2018, Issue 1; 160-179</dc:source>
+	<dc:source>2519-173X</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/848/800</dc:relation>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/848/7621</dc:relation>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/848/7521</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2018 Yongqiang Li, Shizhu Tian, Yuyin Yu, Mingsheng Wang</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0</dc:rights>
+</oai_dc:dc>

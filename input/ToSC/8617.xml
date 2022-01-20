@@ -1,0 +1,29 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>8617</id>
+	<dc:title xml:lang="en-US">Pyjamask: Block Cipher and Authenticated Encryption with Highly Efficient Masked Implementation</dc:title>
+	<dc:creator>Goudarzi, Dahmun</dc:creator>
+	<dc:creator>Jean, Jérémy</dc:creator>
+	<dc:creator>Kölbl, Stefan</dc:creator>
+	<dc:creator>Peyrin, Thomas</dc:creator>
+	<dc:creator>Rivain, Matthieu</dc:creator>
+	<dc:creator>Sasaki, Yu</dc:creator>
+	<dc:creator>Sim, Siang Meng </dc:creator>
+	<dc:subject xml:lang="en-US">Block Cipher</dc:subject>
+	<dc:subject xml:lang="en-US">Authenticated Encryption</dc:subject>
+	<dc:subject xml:lang="en-US">Fast Software Encryption</dc:subject>
+	<dc:subject xml:lang="en-US">High-Order Masking</dc:subject>
+	<dc:subject xml:lang="en-US">Lightweight Cryptography</dc:subject>
+	<dc:description xml:lang="en-US">This paper introduces Pyjamask, a new block cipher family and authenticated encryption proposal submitted to the NIST lightweight cryptography standardization process. Pyjamask targets side-channel resistance as one of its main goal. More precisely, it strongly minimizes the number of nonlinear gates used in its internal primitive in order to allow efficient masked implementations, especially for high-order masking in software. Compared to other block ciphers, our proposal has thus among the smallest number of binary AND computations per input bit at the time of writing. Even though Pyjamask minimizes such an important criterion, it remains rather lightweight and efficient, thanks to a general bitslice construction that enables to computation of all nonlinear gates in parallel. For authenticated encryption, we adopt the provably secure AEAD mode OCB which has been extensively studied and has the benefit to offer full parallelization. Of course, other block cipher-based modes can be considered as well if other performance profiles are to be targeted.The paper first gives the specification of the Pyjamask block cipher and the associated AEAD proposal. We also provide a detailed design rationale for the block cipher which is guided by our aim of software efficiency in the presence of high-order masking. The security of the design is analyzed against most commonly known cryptanalysis techniques. We finally describe efficient (masked) implementations in software and provide implementation results with aggressive performances for masking of very high orders (up to 128). We also provide a rough estimation of the hardware performances which remain much better than those of an AES round-based implementation.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2020-06-22</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tosc.iacr.org/index.php/ToSC/article/view/8617</dc:identifier>
+	<dc:identifier>10.13154/tosc.v2020.iS1.31-59</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Symmetric Cryptology; Volume 2020, Special Issue 1 ; 31-59</dc:source>
+	<dc:source>2519-173X</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/8617/8183</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2020 Dahmun Goudarzi, Jérémy Jean, Stefan Kölbl, Thomas Peyrin, Matthieu Rivain, Yu Sasaki, Siang Meng Sim</dc:rights>
+	<dc:rights xml:lang="en-US">http://creativecommons.org/licenses/by/4.0/</dc:rights>
+</oai_dc:dc>

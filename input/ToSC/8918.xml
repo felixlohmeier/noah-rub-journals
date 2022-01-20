@@ -1,0 +1,24 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>8918</id>
+	<dc:title xml:lang="en-US">Power Yoga: Variable-Stretch Security of CCM for Energy-Efficient Lightweight IoT</dc:title>
+	<dc:creator>Gjiriti, Emiljano</dc:creator>
+	<dc:creator>Reyhanitabar, Reza</dc:creator>
+	<dc:creator>Vizár, Damian</dc:creator>
+	<dc:subject xml:lang="en-US">Authenticated encryption</dc:subject>
+	<dc:subject xml:lang="en-US">variable-length tags</dc:subject>
+	<dc:subject xml:lang="en-US">lightweight crypto</dc:subject>
+	<dc:subject xml:lang="en-US">provable security</dc:subject>
+	<dc:subject xml:lang="en-US">AES-CCM</dc:subject>
+	<dc:description xml:lang="en-US">The currently ongoing NIST LWC project aims at identifying new standardization targets for lightweight authenticated encryption with associated data (AEAD) and (optionally) lightweight cryptographic hashing. NIST has deemed it important for performance and cost to be optimized on relevant platforms, especially for short messages. Reyhanitabar, Vaudenay and Vizár (Asiacrypt 2016) gave a formal treatment for security of nonce-based AEAD with variable stretch, i.e., when the length of the authentication tag is changed between encryptions without changing the key. They argued that AEAD supporting variable stretch is of practical interest for constrained applications, especially low-power devices operated by battery, due to the ability to flexibly trade communication overhead and level of integrity.In this work, we investigate this hypothesis with affirmative results. We present vCCM, a variable-stretch variant of the standard CCM and prove it is secure when used with variable stretch. We then experimentally measure the energy consumption of a real-world wireless sensor node when encrypting and sending messages with vCCM and CCM, respectively. Our projections show that the flexible trade of integrity level and ciphertext expansion can lead up to 21% overall energy consumption reduction in certain scenarios. As vCCM is obtained from the widely-used CCM by a black-box transformation, allowing any existing CCM implementations to be reused as-is, our results can be immediately put to use in practice. vCCM is all the more relevant because neither the NIST LWC project, nor any of the candidates give a consideration for the support of variable stretch and the related integrity-overhead trade-off.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2021-06-11</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tosc.iacr.org/index.php/ToSC/article/view/8918</dc:identifier>
+	<dc:identifier>10.46586/tosc.v2021.i2.446-468</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Symmetric Cryptology; Volume 2021, Issue 2; 446-468</dc:source>
+	<dc:source>2519-173X</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/8918/8494</dc:relation>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0/</dc:rights>
+</oai_dc:dc>

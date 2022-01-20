@@ -1,0 +1,32 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>7286</id>
+	<dc:title xml:lang="en-US">SIFA: Exploiting Ineffective Fault Inductions on Symmetric Cryptography</dc:title>
+	<dc:creator>Dobraunig, Christoph</dc:creator>
+	<dc:creator>Eichlseder, Maria</dc:creator>
+	<dc:creator>Korak, Thomas</dc:creator>
+	<dc:creator>Mangard, Stefan</dc:creator>
+	<dc:creator>Mendel, Florian</dc:creator>
+	<dc:creator>Primas, Robert</dc:creator>
+	<dc:subject xml:lang="en-US">fault attack</dc:subject>
+	<dc:subject xml:lang="en-US">infective countermeasure</dc:subject>
+	<dc:subject xml:lang="en-US">fault detection</dc:subject>
+	<dc:subject xml:lang="en-US">countermeasure</dc:subject>
+	<dc:subject xml:lang="en-US">statistical ineffective fault attack</dc:subject>
+	<dc:subject xml:lang="en-US">SIFA</dc:subject>
+	<dc:description xml:lang="en-US">Since the seminal work of Boneh et al., the threat of fault attacks has been widely known and techniques for fault attacks and countermeasures have been studied extensively. The vast majority of the literature on fault attacks focuses on the ability of fault attacks to change an intermediate value to a faulty one, such as differential fault analysis (DFA), collision fault analysis, statistical fault attack (SFA), fault sensitivity analysis, or differential fault intensity analysis (DFIA). The other aspect of faults—that faults can be induced and do not change a value—has been researched far less. In case of symmetric ciphers, ineffective fault attacks (IFA) exploit this aspect. However, IFA relies on the ability of an attacker to reliably induce reproducible deterministic faults like stuck-at faults on parts of small values (e.g., one bit or byte), which is often considered to be impracticable.As a consequence, most countermeasures against fault attacks do not focus on such attacks, but on attacks exploiting changes of intermediate values and usually try to detect such a change (detection-based), or to destroy the exploitable information if a fault happens (infective countermeasures). Such countermeasures implicitly assume that the release of “fault-free” ciphertexts in the presence of a fault-inducing attacker does not reveal any exploitable information. In this work, we show that this assumption is not valid and we present novel fault attacks that work in the presence of detection-based and infective countermeasures. The attacks exploit the fact that intermediate values leading to “fault-free” ciphertexts show a non-uniform distribution, while they should be distributed uniformly. The presented attacks are entirely practical and are demonstrated to work for software implementations of AES and for a hardware co-processor. These practical attacks rely on fault induction by means of clock glitches and hence, are achieved using only low-cost equipment. This is feasible because our attack is very robust under noisy fault induction attempts and does not require the attacker to model or profile the exact fault effect. We target two types of countermeasures as examples: simple time redundancy with comparison and several infective countermeasures. However, our attacks can be applied to a wider range of countermeasures and are not restricted to these two countermeasures.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2018-08-16</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tches.iacr.org/index.php/TCHES/article/view/7286</dc:identifier>
+	<dc:identifier>10.13154/tches.v2018.i3.547-572</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Cryptographic Hardware and Embedded Systems; Volume 2018, Issue 3; 547-572</dc:source>
+	<dc:source>2569-2925</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/7286/6463</dc:relation>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/7286/7960</dc:relation>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/7286/7961</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2018 Christoph Dobraunig, Maria Eichlseder, Thomas Korak, Stefan Mangard, Florian Mendel, Robert Primas</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0</dc:rights>
+</oai_dc:dc>

@@ -1,0 +1,25 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>636</id>
+	<dc:title xml:lang="en-US">Tweakable Blockciphers for Efficient Authenticated Encryptions with Beyond the Birthday-Bound Security</dc:title>
+	<dc:creator>Naito, Yusuke</dc:creator>
+	<dc:subject xml:lang="en-US">Blockcipher</dc:subject>
+	<dc:subject xml:lang="en-US">tweakable blockcipher</dc:subject>
+	<dc:subject xml:lang="en-US">efficient authenticated encryption</dc:subject>
+	<dc:subject xml:lang="en-US">beyond-birthday-bound security</dc:subject>
+	<dc:description xml:lang="en-US">Modular design via a tweakable blockcipher (TBC) offers efficient authenticated encryption (AE) schemes (with associated data) that call a blockcipher once for each data block (of associated data or a plaintext). However, the existing efficient blockcipher-based TBCs are secure up to the birthday bound, where the underlying keyed blockcipher is a secure strong pseudorandom permutation. Existing blockcipher-based AE schemes with beyond-birthday-bound (BBB) security are not efficient, that is, a blockcipher is called twice or more for each data block. In this paper, we present a TBC, XKX, that offers efficient blockcipher-based AE schemes with BBB security, by combining with efficient TBC-based AE schemes such as ΘCB3 and </dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2017-06-19</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tosc.iacr.org/index.php/ToSC/article/view/636</dc:identifier>
+	<dc:identifier>10.13154/tosc.v2017.i2.1-26</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Symmetric Cryptology; Volume 2017, Issue 2; 1-26</dc:source>
+	<dc:source>2519-173X</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/636/604</dc:relation>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/636/7578</dc:relation>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/636/7495</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2017 Yusuke Naito</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0</dc:rights>
+</oai_dc:dc>

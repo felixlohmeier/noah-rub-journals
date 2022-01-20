@@ -1,0 +1,25 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>8567</id>
+	<dc:title xml:lang="en-US">Cryptanalysis of the Legendre PRF and Generalizations</dc:title>
+	<dc:creator>Beullens, Ward</dc:creator>
+	<dc:creator>Beyne, Tim</dc:creator>
+	<dc:creator>Udovenko, Aleksei</dc:creator>
+	<dc:creator>Vitto, Giuseppe</dc:creator>
+	<dc:subject xml:lang="en-US">Cryptanalysis</dc:subject>
+	<dc:subject xml:lang="en-US">Legendre PRF</dc:subject>
+	<dc:subject xml:lang="en-US">MPC-friendly primitives</dc:subject>
+	<dc:subject xml:lang="en-US">Collision attack</dc:subject>
+	<dc:description xml:lang="en-US">The Legendre PRF relies on the conjectured pseudorandomness properties of the Legendre symbol with a hidden shift. Originally proposed as a PRG by Damgård at CRYPTO 1988, it was recently suggested as an efficient PRF for multiparty computation purposes by Grassi et al. at CCS 2016. Moreover, the Legendre PRF is being considered for usage in the Ethereum 2.0 blockchain.This paper improves previous attacks on the Legendre PRF and its higher-degree variant due to Khovratovich by reducing the time complexity from O(&amp;lt; (p log p/M) to O(p log2 p/M2) Legendre symbol evaluations when M ≤ 4√ p log2 p queries are available. The practical relevance of our improved attack is demonstrated by breaking three concrete instances of the PRF proposed by the Ethereum foundation. Furthermore, we generalize our attack in a nontrivial way to the higher-degree variant of the Legendre PRF and we point out a large class of weak keys for this construction. Lastly, we provide the first security analysis of two additional generalizations of the Legendre PRF originally proposed by Damgård in the PRG setting, namely the Jacobi PRF and the power residue PRF.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2020-05-07</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tosc.iacr.org/index.php/ToSC/article/view/8567</dc:identifier>
+	<dc:identifier>10.13154/tosc.v2020.i1.313-330</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Symmetric Cryptology; Volume 2020, Issue 1; 313-330</dc:source>
+	<dc:source>2519-173X</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/8567/8138</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2020 Ward Beullens, Tim Beyne, Aleksei Udovenko, Giuseppe Vitto</dc:rights>
+	<dc:rights xml:lang="en-US">http://creativecommons.org/licenses/by/4.0/</dc:rights>
+</oai_dc:dc>

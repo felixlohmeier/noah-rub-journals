@@ -1,0 +1,29 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>383</id>
+	<dc:title xml:lang="en-US">Numerical simulation of fatigue crack propagation in WC-Co hardmetal</dc:title>
+	<dc:creator>Özden, Utku Ahmet</dc:creator>
+	<dc:creator>Jiang, Keng</dc:creator>
+	<dc:creator>Bezold, Alexander</dc:creator>
+	<dc:creator>Broeckmann, Christoph</dc:creator>
+	<dc:creator>Tarragó, Jose María</dc:creator>
+	<dc:creator>Mestra, Alvaro</dc:creator>
+	<dc:creator>Llanes, Luis</dc:creator>
+	<dc:subject xml:lang="en-US">WC-Co</dc:subject>
+	<dc:subject xml:lang="en-US">Hardmetals</dc:subject>
+	<dc:subject xml:lang="en-US">Finite Element Method (FEM)</dc:subject>
+	<dc:subject xml:lang="en-US">Continuum Damage Mechanics (CDM)</dc:subject>
+	<dc:subject xml:lang="en-US">Fatigue</dc:subject>
+	<dc:subject xml:lang="en-US">Crack propagation</dc:subject>
+	<dc:subject xml:lang="en-US">Microstructure</dc:subject>
+	<dc:description xml:lang="en-US">WC-Co cemented carbides (hardmetals) are a group of composite materials exhibiting outstandingcombinations of hardness and toughness. As a consequence, they are extensively used for highlydemanding applications, such as cutting and drilling tools, where cyclic loading is one of the mostcritical service conditions.A numerical study of the mesoscale fatigue crack growth in WC-Co is here conducted. Within thiscontext, a model based on a continuum damage mechanics approach was implemented incommercial solver Abaqus/Explicit for simulating the crack propagation in the material. Separatedamage laws, based on brittle failure and fatigue, were used for describing the mechanicalresponse of WC and Co phases, respectively. Material parameters for the carbide phase weretaken from literature, whereas those for the metallic phase were experimentally determined in amodel binder-like Co-base alloy, i.e. one with a composition representative of the binder phasewithin a commercial hardmetal grade.In order to validate the approach used, a numerical model based on a real damaged microstructurewas generated. It is found that proposed model is capable of capturing damage evolution withcyclic loading in WC-Co, as numerical results reflect satisfactory agreement with real crack patternresulting from experiments.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2015-11-25</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://icscm.ub.rub.de/index.php/ICSCM/article/view/383</dc:identifier>
+	<dc:identifier>10.13154/icscm.3.2015.9-20</dc:identifier>
+	<dc:source xml:lang="en-US">International Conference on Stone and Concrete Machining (ICSCM); Vol. 3 (2015); 9-20</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://icscm.ub.rub.de/index.php/ICSCM/article/view/383/340</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2015 International Conference on Stone and Concrete Machining (ICSCM)</dc:rights>
+</oai_dc:dc>

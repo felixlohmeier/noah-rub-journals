@@ -1,0 +1,26 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>8590</id>
+	<dc:title xml:lang="en-US">Single-Trace Attacks on Keccak</dc:title>
+	<dc:creator>Kannwischer, Matthias J.</dc:creator>
+	<dc:creator>Pessl, Peter</dc:creator>
+	<dc:creator>Primas, Robert</dc:creator>
+	<dc:subject xml:lang="en-US">keccak</dc:subject>
+	<dc:subject xml:lang="en-US">side-channel attacks</dc:subject>
+	<dc:subject xml:lang="en-US">power analysis</dc:subject>
+	<dc:subject xml:lang="en-US">single-trace attacks</dc:subject>
+	<dc:subject xml:lang="en-US">belief propagation</dc:subject>
+	<dc:subject xml:lang="en-US">post-quantum cryptography</dc:subject>
+	<dc:description xml:lang="en-US">Since its selection as the winner of the SHA-3 competition, Keccak, with all its variants, has found a large number of applications. It is, for instance, a common building block in schemes submitted to NIST’s post-quantum cryptography project. In many of these applications, Keccak processes ephemeral secrets. In such a setting, side-channel adversaries are limited to a single observation, meaning that differential attacks are inherently prevented. If, however, such a single trace of Keccak can already be sufficient for key recovery has so far been unknown. In this paper, we change the above by presenting the first single-trace attack targeting Keccak. Our method is based on soft-analytical side-channel attacks and, thus, combines template matching with message passing in a graphical model of the attacked algorithm. As a straight-forward model of Keccak does not yield satisfactory results, we describe several optimizations for the modeling and the message-passing algorithm. Their combination allows attaining high attack performance in terms of both success rate as well as computational runtime. We evaluate our attack assuming generic software (microcontroller) targets and thus use simulations in the generic noisy Hamming-weight leakage model. Hence, we assume relatively modest profiling capabilities of the adversary. Nonetheless, the attack can reliably recover secrets in a large number of evaluated scenarios at realistic noise levels. Consequently, we demonstrate the need for countermeasures even in settings where DPA is not a threat.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2020-06-19</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tches.iacr.org/index.php/TCHES/article/view/8590</dc:identifier>
+	<dc:identifier>10.13154/tches.v2020.i3.243-268</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Cryptographic Hardware and Embedded Systems; Volume 2020, Issue 3; 243-268</dc:source>
+	<dc:source>2569-2925</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/8590/8157</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2020 Matthias J. Kannwischer, Peter Pessl, Robert Primas</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0</dc:rights>
+</oai_dc:dc>

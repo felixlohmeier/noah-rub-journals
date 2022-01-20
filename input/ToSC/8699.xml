@@ -1,0 +1,30 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>8699</id>
+	<dc:title xml:lang="en-US">On the Security Margin of TinyJAMBU with Refined Differential and Linear Cryptanalysis</dc:title>
+	<dc:creator>Saha, Dhiman</dc:creator>
+	<dc:creator>Sasaki, Yu</dc:creator>
+	<dc:creator>Shi, Danping</dc:creator>
+	<dc:creator>Sibleyras, Ferdinand</dc:creator>
+	<dc:creator>Sun, Siwei</dc:creator>
+	<dc:creator>Zhang, Yingjie</dc:creator>
+	<dc:subject xml:lang="en-US">TinyJAMBU</dc:subject>
+	<dc:subject xml:lang="en-US">NIST lightweight cryptography</dc:subject>
+	<dc:subject xml:lang="en-US">AEAD</dc:subject>
+	<dc:subject xml:lang="en-US">differential</dc:subject>
+	<dc:subject xml:lang="en-US">linear</dc:subject>
+	<dc:subject xml:lang="en-US">MILP</dc:subject>
+	<dc:subject xml:lang="en-US">model</dc:subject>
+	<dc:description xml:lang="en-US">This paper presents the first third-party security analysis of TinyJAMBU, which is one of 32 second-round candidates in NIST’s lightweight cryptography standardization process. TinyJAMBU adopts an NLFSR based keyed-permutation that computes only a single NAND gate as a non-linear component per round. The designers evaluated the minimum number of active AND gates, however such a counting method neglects the dependency between multiple AND gates. There also exist previous works considering such dependencies with stricter models, however those are known to be too slow. In this paper, we present a new model that provides a good balance of efficiency and accuracy by only taking into account the first-order correlation of AND gates that frequently occurs in TinyJAMBU. With the refined model, we show a 338-round differential with probability 2−62.68 that leads to a forgery attack breaking 64-bit security. This implies that the security margin of TinyJAMBU with respect to the number of unattacked rounds is approximately 12%. We also show a differential on full 384 rounds with probability 2−70.64, thus the security margin of full rounds with respect to the data complexity, namely the gap between the claimed security bits and the attack complexity, is less than 8 bits. Our attacks also point out structural weaknesses of the mode that essentially come from the minimal state size to be lightweight.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2020-09-28</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tosc.iacr.org/index.php/ToSC/article/view/8699</dc:identifier>
+	<dc:identifier>10.13154/tosc.v2020.i3.152-174</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Symmetric Cryptology; Volume 2020, Issue 3; 152-174</dc:source>
+	<dc:source>2519-173X</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/8699/8291</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2020 Dhiman Saha, Yu Sasaki, Danping Shi, Ferdinand Sibleyras, Siwei Sun, Yingjie Zhang</dc:rights>
+	<dc:rights xml:lang="en-US">http://creativecommons.org/licenses/by/4.0/</dc:rights>
+</oai_dc:dc>

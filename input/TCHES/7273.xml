@@ -1,0 +1,29 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>7273</id>
+	<dc:title xml:lang="en-US">Cold Boot Attacks on Ring and Module LWE Keys Under the NTT</dc:title>
+	<dc:creator>Albrecht, Martin R.</dc:creator>
+	<dc:creator>Deo, Amit</dc:creator>
+	<dc:creator>Paterson, Kenneth G.</dc:creator>
+	<dc:subject xml:lang="en-US">Cold boot attack</dc:subject>
+	<dc:subject xml:lang="en-US">Lattice reduction</dc:subject>
+	<dc:subject xml:lang="en-US">Number theoretic transform</dc:subject>
+	<dc:subject xml:lang="en-US">Post-quantum cryptography</dc:subject>
+	<dc:subject xml:lang="en-US">Ring learning with errors</dc:subject>
+	<dc:subject xml:lang="en-US">Module learning with errors</dc:subject>
+	<dc:description xml:lang="en-US">In this work, we consider the ring- and module- variants of the LWE problem and investigate cold boot attacks on cryptographic schemes based on these problems, wherein an attacker is faced with the problem of recovering a scheme’s secret key from a noisy version of that key. The leakage resilience of cryptography based on the learning with errors (LWE) problem has been studied before, but there are only limited results considering the parameters observed in cold boot attack scenarios. There are two main encodings for storing ring- and module-LWE keys, and, as we show, the performance of cold boot attacks can be highly sensitive to the exact encoding used. The first encoding stores polynomial coefficients directly in memory. The second encoding performs a number theoretic transform (NTT) before storing the key, a commonly used method leading to more efficient implementations. We first give estimates for a cold boot attack complexity on the first encoding method based on standard algorithms; this analysis confirms that this encoding method is vulnerable to cold boot attacks only at very low bit-flip rates. We then show that, for the second encoding method, the structure introduced by using an NTT is exploitable in the cold boot setting: we develop a bespoke attack strategy that is much cheaper than our estimates for the first encoding when considering module-LWE keys. For example, at a 1% bit-flip rate (which corresponds roughly to what can be achieved in practice for cold boot attacks when applying cooling), a cold boot attack on Kyber KEM parameters has a cost of 243 operations when the second, NTT-based encoding is used for key storage, compared to 270 operations with the first encoding. On the other hand, in the case of the ring-LWE-based KEM, New Hope, the cold boot attack complexities are similar for both encoding methods.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2018-08-14</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tches.iacr.org/index.php/TCHES/article/view/7273</dc:identifier>
+	<dc:identifier>10.13154/tches.v2018.i3.173-213</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Cryptographic Hardware and Embedded Systems; Volume 2018, Issue 3; 173-213</dc:source>
+	<dc:source>2569-2925</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/7273/6451</dc:relation>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/7273/7936</dc:relation>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/7273/7937</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2018 Martin R. Albrecht, Amit Deo, Kenneth G. Paterson</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0</dc:rights>
+</oai_dc:dc>

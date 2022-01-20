@@ -1,0 +1,24 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>8969</id>
+	<dc:title xml:lang="en-US">Optimizing BIKE for the Intel Haswell and ARM Cortex-M4</dc:title>
+	<dc:creator>Chen, Ming-Shing</dc:creator>
+	<dc:creator>Chou, Tung</dc:creator>
+	<dc:creator>Krausz, Markus</dc:creator>
+	<dc:subject xml:lang="en-US">constant-time implementations</dc:subject>
+	<dc:subject xml:lang="en-US">NIST PQC standardization</dc:subject>
+	<dc:subject xml:lang="en-US">Cortex-M4</dc:subject>
+	<dc:description xml:lang="en-US">BIKE is a key encapsulation mechanism that entered the third round of the NIST post-quantum cryptography standardization process. This paper presents two constant-time implementations for BIKE, one tailored for the Intel Haswell and one tailored for the ARM Cortex-M4. Our Haswell implementation is much faster than the avx2 implementation written by the BIKE team: for bikel1, the level-1 parameter set, we achieve a 1.39x speedup for decapsulation (which is the slowest operation) and a 1.33x speedup for the sum of all operations. For bikel3, the level-3 parameter set, we achieve a 1.5x speedup for decapsulation and a 1.46x speedup for the sum of all operations. Our M4 implementation is more than two times faster than the non-constant-time implementation portable written by the BIKE team. The speedups are achieved by both algorithm-level and instruction-level optimizations.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2021-07-09</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tches.iacr.org/index.php/TCHES/article/view/8969</dc:identifier>
+	<dc:identifier>10.46586/tches.v2021.i3.97-124</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Cryptographic Hardware and Embedded Systems; Volume 2021, Issue 3; 97-124</dc:source>
+	<dc:source>2569-2925</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/8969/8547</dc:relation>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/8969/8627</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2021 Ming-Shing Chen, Tung Chou, Markus Krausz</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0/</dc:rights>
+</oai_dc:dc>

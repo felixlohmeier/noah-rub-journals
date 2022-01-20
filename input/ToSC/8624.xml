@@ -1,0 +1,30 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>8624</id>
+	<dc:title xml:lang="en-US">ESTATE: A Lightweight and Low Energy Authenticated Encryption Mode</dc:title>
+	<dc:creator>Chakraborti, Avik</dc:creator>
+	<dc:creator>Datta, Nilanjan</dc:creator>
+	<dc:creator>Jha, Ashwin</dc:creator>
+	<dc:creator>Mancillas-López, Cuauhtemoc</dc:creator>
+	<dc:creator>Nandi, Mridul</dc:creator>
+	<dc:creator>Sasaki, Yu</dc:creator>
+	<dc:subject xml:lang="en-US">SUNDAE</dc:subject>
+	<dc:subject xml:lang="en-US">TweAES</dc:subject>
+	<dc:subject xml:lang="en-US">TweGIFT</dc:subject>
+	<dc:subject xml:lang="en-US">tBC</dc:subject>
+	<dc:subject xml:lang="en-US">authenticated encryption</dc:subject>
+	<dc:subject xml:lang="en-US">lightweight</dc:subject>
+	<dc:subject xml:lang="en-US">RUP</dc:subject>
+	<dc:description xml:lang="en-US">NIST has recently initiated a standardization project for efficient lightweight authenticated encryption schemes. SUNDAE, a candidate in this project, achieves optimal state size which results in low circuit overhead on top of the underlying block cipher. In addition, SUNDAE provides security in nonce-misuse scenario as well. However, in addition to the block cipher circuit, SUNDAE also requires some additional circuitry for multiplication by a primitive element. Further, it requires an additional block cipher invocation to create the starting state. In this paper, we propose a new lightweight and low energy authenticated encryption family, called ESTATE, that significantly improves the design of SUNDAE in terms of implementation costs (both hardware area and energy) and efficient processing of short messages. In particular, ESTATE does not require an additional multiplication circuit, and it reduces the number of block cipher calls by one. Moreover, it provides integrity security even under the release of unverified plaintext (or RUP) model. ESTATE is based on short-tweak tweakable block ciphers (or tBC, small ’t’ denotes short tweaks) and we instantiate it with two recently designed tBCs: TweAES and TweGIFT. We also propose a low latency variant of ESTATE, called sESTATE, that uses a round-reduced (6 rounds) variant of TweAES called TweAES-6. We provide comprehensive FPGA based hardware implementation for all the three instances. The implementation results depict that ESTATE_TweGIFT-128 (681 LUTs, 263 slices) consumes much lesser area as compared to SUNDAE_GIFT-128 (931 LUTs, 310 slices). When we moved to the AES variants, along with the area-efficiency (ESTATE_TweAES consumes 1901 LUTs, 602 slices while SUNDAE_AES-128 needs 1922 LUTs, 614 slices), we also achieve higher throughput for short messages (For 16-byte message, a throughput of 1251.10 and 945.36 Mbps for ESTATE_TweAES and SUNDAE_AES-128 respectively).</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2020-06-22</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tosc.iacr.org/index.php/ToSC/article/view/8624</dc:identifier>
+	<dc:identifier>10.13154/tosc.v2020.iS1.350-389</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Symmetric Cryptology; Volume 2020, Special Issue 1 ; 350-389</dc:source>
+	<dc:source>2519-173X</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/8624/8190</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2020 Avik Chakraborti, Nilanjan Datta, Ashwin Jha, Cuauhtemoc Mancillas-López, Mridul Nandi, Yu Sasaki</dc:rights>
+	<dc:rights xml:lang="en-US">http://creativecommons.org/licenses/by/4.0/</dc:rights>
+</oai_dc:dc>

@@ -1,0 +1,24 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>8683</id>
+	<dc:title xml:lang="en-US">RISQ-V: Tightly Coupled RISC-V Accelerators for Post-Quantum Cryptography</dc:title>
+	<dc:creator>Fritzmann, Tim</dc:creator>
+	<dc:creator>Sigl, Georg</dc:creator>
+	<dc:creator>Sepúlveda, Johanna</dc:creator>
+	<dc:subject xml:lang="en-US">Post-quantum cryptography</dc:subject>
+	<dc:subject xml:lang="en-US">RISC-V</dc:subject>
+	<dc:subject xml:lang="en-US">instruction set extension</dc:subject>
+	<dc:subject xml:lang="en-US">lattice-based cryptography</dc:subject>
+	<dc:description xml:lang="en-US">Empowering electronic devices to support Post-Quantum Cryptography (PQC) is a challenging task. PQC introduces new mathematical elements and operations which are usually not easy to implement on standard processors. Especially for low cost and resource constraint devices, hardware acceleration is usually required. In addition, as the standardization process of PQC is still ongoing, a focus on maintaining flexibility is mandatory. To cope with such requirements, hardware/software co-design techniques have been recently used for developing complex and highly customized PQC solutions. However, while most of the previous works have developed loosely coupled PQC accelerators, the design of tightly coupled accelerators and Instruction Set Architecture (ISA) extensions for PQC have been barely explored. To this end, we present RISQ-V, an enhanced RISC-V architecture that integrates a set of powerful tightly coupled accelerators to speed up lattice-based PQC. RISQ-V efficiently reuses processor resources and reduces the amount of memory accesses. This significantly increases the performance while keeping the silicon area overhead low. We present three contributions. First, we propose a set of powerful hardware accelerators deeply integrated into the RISC-V pipeline. Second, we extended the RISC-V ISA with 29 new instructions to efficiently perform operations for lattice-based cryptography. Third, we implemented our RISQ-V in ASIC technology and on FPGA. We evaluated the performance of NewHope, Kyber, and Saber on RISQ-V. Compared to the pure software implementation on RISC-V, our co-design implementations show a speedup factor of up to 11.4 for NewHope, 9.6 for Kyber, and 2.7 for Saber. For the ASIC implementation, the energy consumption was reduced by factors of up to 9.5 for NewHope, 7.7 for Kyber, and 2.1 for Saber. The cell count of the CPU was increased by a factor of 1.6 compared to the original RISC-V design, which can be considered as a moderate increase for the achieved performance gain.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2020-08-26</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tches.iacr.org/index.php/TCHES/article/view/8683</dc:identifier>
+	<dc:identifier>10.13154/tches.v2020.i4.239-280</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Cryptographic Hardware and Embedded Systems; Volume 2020, Issue 4; 239-280</dc:source>
+	<dc:source>2569-2925</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/8683/8242</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2020 Tim Fritzmann, Georg Sigl, Johanna Sepúlveda</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0/</dc:rights>
+</oai_dc:dc>

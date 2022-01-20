@@ -1,0 +1,30 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>8581</id>
+	<dc:title xml:lang="en-US">Strengthening Sequential Side-Channel Attacks Through Change Detection </dc:title>
+	<dc:creator>Frittoli, Luca</dc:creator>
+	<dc:creator>Bocchi, Matteo </dc:creator>
+	<dc:creator>Mella, Silvia</dc:creator>
+	<dc:creator>Carrera, Diego</dc:creator>
+	<dc:creator>Rossi, Beatrice</dc:creator>
+	<dc:creator>Fragneto, Pasqualina</dc:creator>
+	<dc:creator>Susella, Ruggero</dc:creator>
+	<dc:creator>Boracchi, Giacomo</dc:creator>
+	<dc:subject xml:lang="en-US">side-channel attacks</dc:subject>
+	<dc:subject xml:lang="en-US">error detection</dc:subject>
+	<dc:subject xml:lang="en-US">error correction</dc:subject>
+	<dc:subject xml:lang="en-US">change detection</dc:subject>
+	<dc:subject xml:lang="en-US">sequential monitoring</dc:subject>
+	<dc:description xml:lang="en-US">The sequential structure of some side-channel attacks makes them subject to error propagation, i.e. when an error occurs during the recovery of some part of a secret key, all the following guesses might as well be chosen randomly. We propose a methodology that strengthens sequential attacks by automatically identifying and correcting errors. The core ingredient of our methodology is a change-detection test that monitors the distribution of the distinguisher values used to reconstruct the secret key. Our methodology includes an error-correction procedure that can cope both with false positives of the change-detection test, and inaccuracies of the estimated location of the wrong key guess. The proposed methodology is general and can be included in several attacks. As meaningful examples, we conduct two different side-channel attacks against RSA-2048: an horizontal power-analysis attack based on correlation and a vertical timing attack. Our experiments show that, in all the considered cases, strengthened attacks outperforms their original counterparts and alternative solutions that are based on thresholds. In particular, strengthened attacks achieve high success rates even when the side-channel measurements are noisy or limited in number, without prohibitively increasing the computing time.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2020-06-19</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tches.iacr.org/index.php/TCHES/article/view/8581</dc:identifier>
+	<dc:identifier>10.13154/tches.v2020.i3.1-21</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Cryptographic Hardware and Embedded Systems; Volume 2020, Issue 3; 1-21</dc:source>
+	<dc:source>2569-2925</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/8581/8148</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2020 Luca Frittoli, Matteo  Bocchi, Silvia Mella, Diego Carrera, Beatrice Rossi, Pasqualina Fragneto, Ruggero Susella, Giacomo Boracchi</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0</dc:rights>
+</oai_dc:dc>

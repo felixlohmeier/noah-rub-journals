@@ -1,0 +1,31 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>595</id>
+	<dc:title xml:lang="en-US">Analysis of AES, SKINNY, and Others with Constraint Programming</dc:title>
+	<dc:creator>Sun, Siwei</dc:creator>
+	<dc:creator>Gerault, David</dc:creator>
+	<dc:creator>Lafourcade, Pascal</dc:creator>
+	<dc:creator>Yang, Qianqian</dc:creator>
+	<dc:creator>Todo, Yosuke</dc:creator>
+	<dc:creator>Qiao, Kexin</dc:creator>
+	<dc:creator>Hu, Lei</dc:creator>
+	<dc:subject xml:lang="en-US">Differential Cryptanalysis</dc:subject>
+	<dc:subject xml:lang="en-US">Integral Cryptanalysis</dc:subject>
+	<dc:subject xml:lang="en-US">Constraint Programming</dc:subject>
+	<dc:subject xml:lang="en-US">AES</dc:subject>
+	<dc:subject xml:lang="en-US">SKINNY</dc:subject>
+	<dc:description xml:lang="en-US">Search for different types of distinguishers are common tasks in symmetrickey cryptanalysis. In this work, we employ the constraint programming (CP) technique to tackle such problems. First, we show that a simple application of the CP approach proposed by Gerault et al. leads to the solution of the open problem of determining the exact lower bound of the number of active S-boxes for 6-round AES-128 in the related-key model. Subsequently, we show that the same approach can be applied in searching for integral distinguishers, impossible differentials, zero-correlation linear approximations, in both the single-key and related-(twea)key model. We implement the method using the open source constraint solver Choco and apply it to the block ciphers PRESENT, SKINNY, and HIGHT (ARX construction). As a result, we find 16 related-tweakey impossible differentials for 12-round SKINNY-64-128 based on which we construct an 18-round attack on SKINNY-64-128 (one target version for the crypto competition https://sites.google.com/site/skinnycipher announced at ASK 2016). Moreover, we show that in some cases, when equipped with proper strategies (ordering heuristic, restart and dynamic branching strategy), the CP approach can be very efficient. Therefore, we suggest that the constraint programming technique should become a convenient tool at hand of the symmetric-key cryptanalysts.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2017-03-08</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tosc.iacr.org/index.php/ToSC/article/view/595</dc:identifier>
+	<dc:identifier>10.13154/tosc.v2017.i1.281-306</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Symmetric Cryptology; Volume 2017, Issue 1; 281-306</dc:source>
+	<dc:source>2519-173X</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/595/536</dc:relation>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/595/7492</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2017 Siwei Sun, David Gerault, Pascal Lafourcade, Qianqian Yang, Yosuke Todo, Kexin Qiao, Lei Hu</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0</dc:rights>
+</oai_dc:dc>

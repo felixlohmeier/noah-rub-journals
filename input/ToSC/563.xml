@@ -1,0 +1,28 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>563</id>
+	<dc:title xml:lang="en-US">Haraka v2 – Efficient Short-Input Hashing for Post-Quantum Applications</dc:title>
+	<dc:creator>Kölbl, Stefan</dc:creator>
+	<dc:creator>Lauridsen, Martin M.</dc:creator>
+	<dc:creator>Mendel, Florian</dc:creator>
+	<dc:creator>Rechberger, Christian</dc:creator>
+	<dc:subject xml:lang="en-US">Cryptographic hash functions</dc:subject>
+	<dc:subject xml:lang="en-US">second-preimage resistance</dc:subject>
+	<dc:subject xml:lang="en-US">AES-NI</dc:subject>
+	<dc:subject xml:lang="en-US">hash-based signatures</dc:subject>
+	<dc:subject xml:lang="en-US">post-quantum</dc:subject>
+	<dc:description xml:lang="en-US">Recently, many efficient cryptographic hash function design strategies have been explored, not least because of the SHA-3 competition. These designs are, almost exclusively, geared towards high performance on long inputs. However, various applications exist where the performance on short (fixed length) inputs matters more. Such hash functions are the bottleneck in hash-based signature schemes like SPHINCS or XMSS, which is currently under standardization. Secure functions specifically designed for such applications are scarce. We attend to this gap by proposing two short-input hash functions (or rather simply compression functions). By utilizing AES instructions on modern CPUs, our proposals are the fastest on such platforms, reaching throughputs below one cycle per hashed byte even for short inputs, while still having a very low latency of less than 60 cycles. Under the hood, this results comes with several innovations. First, we study whether the number of rounds for our hash functions can be reduced, if only second-preimage resistance (and not collision resistance) is required. The conclusion is: only a little. Second, since their inception, AES-like designs allow for supportive security arguments by means of counting and bounding the number of active S-boxes. However, this ignores powerful attack vectors using truncated differentials, including the powerful rebound attacks. We develop a general tool-based method to include arguments against attack vectors using truncated differentials.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2017-02-03</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tosc.iacr.org/index.php/ToSC/article/view/563</dc:identifier>
+	<dc:identifier>10.13154/tosc.v2016.i2.1-29</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Symmetric Cryptology; Volume 2016, Issue 2; 1-29</dc:source>
+	<dc:source>2519-173X</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/563/505</dc:relation>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/563/7460</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2017 Stefan Kölbl, Martin M. Lauridsen, Florian Mendel, Christian Rechberger</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0</dc:rights>
+</oai_dc:dc>

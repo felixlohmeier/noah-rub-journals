@@ -1,0 +1,27 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>8348</id>
+	<dc:title xml:lang="en-US">Fast and simple constant-time hashing to the BLS12-381 elliptic curve</dc:title>
+	<dc:creator>Wahby, Riad S.</dc:creator>
+	<dc:creator>Boneh, Dan</dc:creator>
+	<dc:subject xml:lang="en-US">pairing-friendly</dc:subject>
+	<dc:subject xml:lang="en-US">elliptic curves</dc:subject>
+	<dc:subject xml:lang="en-US">hashing</dc:subject>
+	<dc:subject xml:lang="en-US">Barreto-Lynn-Scott</dc:subject>
+	<dc:subject xml:lang="en-US">BLS12-381</dc:subject>
+	<dc:description xml:lang="en-US">Pairing-friendly elliptic curves in the Barreto-Lynn-Scott family are seeing a resurgence in popularity because of the recent result of Kim and Barbulescu that improves attacks against other pairing-friendly curve families. One particular Barreto-Lynn-Scott curve, called BLS12-381, is the locus of significant development and deployment effort, especially in blockchain applications. This effort has sparked interest in using the BLS12-381 curve for BLS signatures, which requires hashing to one of the groups of the bilinear pairing defined by BLS12-381.While there is a substantial body of literature on the problem of hashing to elliptic curves, much of this work does not apply to Barreto-Lynn-Scott curves. Moreover, the work that does apply has the unfortunate property that fast implementations are complex, while simple implementations are slow.In this work, we address these issues. First, we show a straightforward way of adapting the “simplified SWU” map of Brier et al. to BLS12-381. Second, we describe optimizations to this map that both simplify its implementation and improve its performance; these optimizations may be of interest in other contexts. Third, we implement and evaluate. We find that our work yields constant-time hash functions that are simple to implement, yet perform within 9% of the fastest, non–constant-time alternatives, which require much more complex implementations.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2019-08-09</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tches.iacr.org/index.php/TCHES/article/view/8348</dc:identifier>
+	<dc:identifier>10.13154/tches.v2019.i4.154-179</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Cryptographic Hardware and Embedded Systems; Volume 2019, Issue 4; 154-179</dc:source>
+	<dc:source>2569-2925</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/8348/7697</dc:relation>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/8348/7849</dc:relation>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/8348/7850</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2019 Riad S. Wahby, Dan Boneh</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0</dc:rights>
+</oai_dc:dc>

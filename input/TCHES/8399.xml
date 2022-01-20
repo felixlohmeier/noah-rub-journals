@@ -1,0 +1,27 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>8399</id>
+	<dc:title xml:lang="en-US">Cache vs. Key-Dependency: Side Channeling an Implementation of Pilsung</dc:title>
+	<dc:creator>Genkin, Daniel</dc:creator>
+	<dc:creator>Poussier, Romain </dc:creator>
+	<dc:creator>Sim, Rui Qi </dc:creator>
+	<dc:creator>Yarom, Yuval</dc:creator>
+	<dc:creator>Zhao, Yuanjing</dc:creator>
+	<dc:subject xml:lang="en-US">Prime Probe</dc:subject>
+	<dc:subject xml:lang="en-US">Cache Attack</dc:subject>
+	<dc:subject xml:lang="en-US">Side-Channel</dc:subject>
+	<dc:subject xml:lang="en-US">Key-Dependent Cipher</dc:subject>
+	<dc:subject xml:lang="en-US">Misaligned Tables</dc:subject>
+	<dc:description xml:lang="en-US">Over the past two decades, cache attacks have been identified as a threat to the security of cipher implementations. These attacks recover secret information by combining observations of the victim cache accesses with the knowledge of the internal structure of the cipher. So far, cache attacks have been applied to ciphers that have fixed state transformations, leaving open the question of whether using secret, key-dependent transformations enhances the security against such attacks. In this paper we investigate this question. We look at an implementation of the North Korean cipher Pilsung, as reverse-engineered by Kryptos Logic. Like AES, Pilsung is a permutation-substitution cipher, but unlike AES, both the substitution and the permutation steps in Pilsung depend on the key, and are not known to the attacker. We analyze Pilsung and design a cache-based attack. We improve the state of the art by developing techniques for reversing secret-dependent transformations. Our attack, which requires an average of eight minutes on a typical laptop computer, demonstrates that secret transformations do not necessarily protect ciphers against side channel attacks.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2019-11-19</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tches.iacr.org/index.php/TCHES/article/view/8399</dc:identifier>
+	<dc:identifier>10.13154/tches.v2020.i1.231-255</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Cryptographic Hardware and Embedded Systems; Volume 2020, Issue 1; 231-255</dc:source>
+	<dc:source>2569-2925</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/8399/7783</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2019 Daniel Genkin, Romain  Poussier, Rui Qi  Sim, Yuval Yarom, Yuanjing Zhao</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0</dc:rights>
+</oai_dc:dc>

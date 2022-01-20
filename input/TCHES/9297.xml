@@ -1,0 +1,32 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>9297</id>
+	<dc:title xml:lang="en-US">A Compact and High-Performance Hardware Architecture for CRYSTALS-Dilithium</dc:title>
+	<dc:creator>Zhao, Cankun</dc:creator>
+	<dc:creator>Zhang, Neng</dc:creator>
+	<dc:creator>Wang, Hanning</dc:creator>
+	<dc:creator>Yang, Bohan</dc:creator>
+	<dc:creator>Zhu, Wenping</dc:creator>
+	<dc:creator>Li, Zhengdong</dc:creator>
+	<dc:creator>Zhu, Min</dc:creator>
+	<dc:creator>Yin, Shouyi</dc:creator>
+	<dc:creator>Wei, Shaojun</dc:creator>
+	<dc:creator>Liu, Leibo</dc:creator>
+	<dc:subject xml:lang="en-US">CRYSTALS-Dilithium</dc:subject>
+	<dc:subject xml:lang="en-US">FPGA</dc:subject>
+	<dc:subject xml:lang="en-US">post-quantum cryptography</dc:subject>
+	<dc:subject xml:lang="en-US">digital signature</dc:subject>
+	<dc:subject xml:lang="en-US">module learning with errors</dc:subject>
+	<dc:description xml:lang="en-US">The lattice-based CRYSTALS-Dilithium scheme is one of the three thirdround digital signature finalists in the National Institute of Standards and Technology Post-Quantum Cryptography Standardization Process. Due to the complex calculations and highly individualized functions in Dilithium, its hardware implementations face the problems of large area requirements and low efficiency. This paper proposes several optimization methods to achieve a compact and high-performance hardware architecture for round 3 Dilithium. Specifically, a segmented pipelined processing method is proposed to reduce both the storage requirements and the processing time. Moreover, several optimized modules are designed to improve the efficiency of the proposed architecture, including a pipelined number theoretic transform module, a SampleInBall module, a Decompose module, and three modular reduction modules. Compared with state-of-the-art designs for Dilithium on similar platforms, our implementation requires 1.4×/1.4×/3.0×/4.5× fewer LUTs/FFs/BRAMs/DSPs, respectively, and 4.4×/1.7×/1.4× less time for key generation, signature generation, and signature verification, respectively, for NIST security level 5.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2021-11-19</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tches.iacr.org/index.php/TCHES/article/view/9297</dc:identifier>
+	<dc:identifier>10.46586/tches.v2022.i1.270-295</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Cryptographic Hardware and Embedded Systems; Volume 2022, Issue 1; 270-295</dc:source>
+	<dc:source>2569-2925</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/9297/8863</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2021 Cankun Zhao, Neng Zhang, Hanning Wang, Bohan Yang, Wenping Zhu, Zhengdong Li, Min Zhu, Shouyi Yin, Shaojun Wei, Leibo Liu</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0/</dc:rights>
+</oai_dc:dc>

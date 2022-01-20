@@ -1,0 +1,27 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>804</id>
+	<dc:title xml:lang="en-US">Some cryptanalytic results on Lizard</dc:title>
+	<dc:creator>Banik, Subhadeep</dc:creator>
+	<dc:creator>Isobe, Takanori</dc:creator>
+	<dc:creator>Cui, Tingting</dc:creator>
+	<dc:creator>Guo, Jian</dc:creator>
+	<dc:subject xml:lang="en-US">Grain v1</dc:subject>
+	<dc:subject xml:lang="en-US">Lizard</dc:subject>
+	<dc:subject xml:lang="en-US">Stream Cipher</dc:subject>
+	<dc:description xml:lang="en-US">Lizard is a lightweight stream cipher proposed by Hamann, Krause and Meier in IACR ToSC 2017. It has a Grain-like structure with two state registers of size 90 and 31 bits. The cipher uses a 120-bit secret key and a 64-bit IV. The authors claim that Lizard provides 80-bit security against key recovery attacks and a 60-bit security against distinguishing attacks. In this paper, we present an assortment of results and observations on Lizard. First, we show that by doing 258 random trials it is possible to find a set of 264 triplets (K, IV0, IV1) such that the Key-IV pairs (K, IV0) and (K, IV1) produce identical keystream bits. Second, we show that by performing only around 228 random trials it is possible to obtain 264 Key-IV pairs (K0, IV0) and (K1, IV1) that produce identical keystream bits. Thereafter, we show that one can construct a distinguisher for Lizard based on IVs that produce shifted keystream sequences. The process takes around 251.5 random IV encryptions (with encryption required to produce 218 keystream bits) and around 276.6 bits of memory. Next, we propose a key recovery attack on a version of Lizard with the number of initialization rounds reduced to 223 (out of 256) based on IV collisions. We then outline a method to extend our attack to 226 rounds. Our results do not affect the security claims of the designers.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2017-12-15</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tosc.iacr.org/index.php/ToSC/article/view/804</dc:identifier>
+	<dc:identifier>10.13154/tosc.v2017.i4.82-98</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Symmetric Cryptology; Volume 2017, Issue 4; 82-98</dc:source>
+	<dc:source>2519-173X</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/804/758</dc:relation>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/804/7596</dc:relation>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/804/7509</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2017 Subhadeep Banik, Takanori Isobe, Tingting Cui, Jian Guo</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0</dc:rights>
+</oai_dc:dc>

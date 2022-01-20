@@ -1,0 +1,27 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>876</id>
+	<dc:title xml:lang="en-US">Fault Attacks Made Easy: Differential Fault Analysis Automation on Assembly Code</dc:title>
+	<dc:creator>Breier, Jakub</dc:creator>
+	<dc:creator>Hou, Xiaolu</dc:creator>
+	<dc:creator>Liu, Yang</dc:creator>
+	<dc:subject xml:lang="en-US">automated fault attack</dc:subject>
+	<dc:subject xml:lang="en-US">software implementations</dc:subject>
+	<dc:subject xml:lang="en-US">assembly code</dc:subject>
+	<dc:subject xml:lang="en-US">differential fault analysis</dc:subject>
+	<dc:description xml:lang="en-US">Over the past decades, fault injection attacks have been extensively studied due to their capability to efficiently break cryptographic implementations. Fault injection attack models are normally determined by analyzing the cipher structure and finding exploitable spots in non-linear and permutation layers. However, this level of abstraction is often too high to distinguish vulnerable parts of software implementations, due to specific operations and optimizations. On the other hand, manually analyzing the assembly code requires non-negligible amount of time and expertise. In this paper, we propose an automated approach for analyzing cipher implementations in assembly. We represent the whole assembly program as a data flow graph so that the vulnerable spots can be found efficiently. Fault propagation is analyzed in a subgraph constructed from each vulnerable spot, allowing equations for Differential Fault Analysis (DFA) to be automatically generated. We have created a tool that implements our approach: DATAC – DFA Automation Tool for Assembly Code. We have successfully used this tool for attacking PRESENT- 80, being able to find implementation-specific vulnerabilities that can be exploited in order to recover the last round key with 16 faults. Our results show that DATAC is useful in finding attack spots that are not visible from the cipher structure, but can be easily exploited when dealing with real-world implementations.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2018-05-08</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tches.iacr.org/index.php/TCHES/article/view/876</dc:identifier>
+	<dc:identifier>10.13154/tches.v2018.i2.96-122</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Cryptographic Hardware and Embedded Systems; Volume 2018, Issue 2; 96-122</dc:source>
+	<dc:source>2569-2925</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/876/828</dc:relation>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/876/7976</dc:relation>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/876/7977</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2018 Jakub Breier, Xiaolu Hou, Yang Liu</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0</dc:rights>
+</oai_dc:dc>

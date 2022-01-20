@@ -1,0 +1,24 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>8838</id>
+	<dc:title xml:lang="en-US">Improved Preimage Attacks on 4-Round Keccak-224/256</dc:title>
+	<dc:creator>He, Le</dc:creator>
+	<dc:creator>Lin, Xiaoen</dc:creator>
+	<dc:creator>Yu, Hongbo</dc:creator>
+	<dc:subject xml:lang="en-US">Keccak</dc:subject>
+	<dc:subject xml:lang="en-US">SHA-3</dc:subject>
+	<dc:subject xml:lang="en-US">Preimage attack</dc:subject>
+	<dc:subject xml:lang="en-US">Linear structure</dc:subject>
+	<dc:description xml:lang="en-US">This paper provides an improved preimage attack method on standard 4-round Keccak-224/256. The method is based on the work pioneered by Li and Sun, who design a linear structure of 2-round Keccak-224/256 with 194 degrees of freedom left. By partially linearizing 17 output bits through the last 2 rounds, they finally reach a complexity of 2207/2239 for searching a 4-round preimage. Yet under their strategy, those 17 bits are regarded as independent bits and the linearization costs a great amount of freedom. Inspired by their thoughts, we improve the partial linearization method where multiple output bits can reuse some common degrees of freedom. As a result, the complexity of preimage attack on 4-round Keccak-224/256 can be decreased to 2192/2218, which are both the best known theoretical preimage cryptanalysis so far. To support the theoretical analysis, we apply our strategy to a 64-bit partial preimage attack within practical complexity. It is remarkable that this partial linearization method can be directly applied if a better linear structure with more freedom left is proposed.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2021-03-19</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tosc.iacr.org/index.php/ToSC/article/view/8838</dc:identifier>
+	<dc:identifier>10.46586/tosc.v2021.i1.217-238</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Symmetric Cryptology; Volume 2021, Issue 1; 217-238</dc:source>
+	<dc:source>2519-173X</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/8838/8441</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2021 Le He, Xiaoen Lin, Hongbo Yu</dc:rights>
+	<dc:rights xml:lang="en-US">http://creativecommons.org/licenses/by/4.0</dc:rights>
+</oai_dc:dc>

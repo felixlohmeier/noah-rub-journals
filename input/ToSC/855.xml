@@ -1,0 +1,29 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>855</id>
+	<dc:title xml:lang="en-US">Farfalle: parallel permutation-based cryptography</dc:title>
+	<dc:creator>Bertoni, Guido</dc:creator>
+	<dc:creator>Daemen, Joan</dc:creator>
+	<dc:creator>Hoffert, Seth</dc:creator>
+	<dc:creator>Peeters, Michaël</dc:creator>
+	<dc:creator>Van Assche, Gilles</dc:creator>
+	<dc:creator>Van Keer, Ronny</dc:creator>
+	<dc:subject xml:lang="en-US">pseudorandom function</dc:subject>
+	<dc:subject xml:lang="en-US">permutation-based cryptography</dc:subject>
+	<dc:subject xml:lang="en-US">Keccak</dc:subject>
+	<dc:description xml:lang="en-US">In this paper, we introduce Farfalle, a new permutation-based construction for building a pseudorandom function (PRF). The PRF takes as input a key and a sequence of arbitrary-length data strings, and returns an arbitrary-length output. It has a compression layer and an expansion layer, each involving the parallel application of a permutation. The construction also makes use of LFSR-like rolling functions for generating input and output masks and for updating the inner state during expansion. On top of the inherent parallelism, Farfalle instances can be very efficient because the construction imposes less requirements on the underlying primitive than, e.g., the duplex construction or typical block cipher modes. Farfalle has an incremental property: compression of common prefixes of inputs can be factored out. Thanks to its input-output characteristics, Farfalle is really versatile. We specify simple modes on top of it for authentication, encryption and authenticated encryption, as well as a wide block cipher mode. As a showcase, we present Kravatte, a very efficient instance of Farfalle based on Keccak-p[1600, nr] permutations and formulate concrete security claims against classical and quantum adversaries. The permutations in the compression and expansion layers of Kravatte have only 6 rounds apiece and the rolling functions are lightweight. We provide a rationale for our choices and report on software performance.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2017-12-15</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tosc.iacr.org/index.php/ToSC/article/view/855</dc:identifier>
+	<dc:identifier>10.13154/tosc.v2017.i4.1-38</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Symmetric Cryptology; Volume 2017, Issue 4; 1-38</dc:source>
+	<dc:source>2519-173X</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/855/807</dc:relation>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/855/7599</dc:relation>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/855/7506</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2017 Guido Bertoni, Joan Daemen, Seth Hoffert, Michaël Peeters, Gilles Van Assche, Ronny Van Keer</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0</dc:rights>
+</oai_dc:dc>

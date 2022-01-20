@@ -1,0 +1,27 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>8562</id>
+	<dc:title xml:lang="en-US">Low AND Depth and Efficient Inverses: a Guide on S-boxes for Low-latency Masking</dc:title>
+	<dc:creator>Bilgin, Begül</dc:creator>
+	<dc:creator>De Meyer, Lauren</dc:creator>
+	<dc:creator>Duval, Sébastien</dc:creator>
+	<dc:creator>Levi, Itamar</dc:creator>
+	<dc:creator>Standaert, François-Xavier </dc:creator>
+	<dc:subject xml:lang="en-US">S-box</dc:subject>
+	<dc:subject xml:lang="en-US">lightweight cryptography</dc:subject>
+	<dc:subject xml:lang="en-US">masking</dc:subject>
+	<dc:subject xml:lang="en-US">multiplicative complexity</dc:subject>
+	<dc:subject xml:lang="en-US">AND depth</dc:subject>
+	<dc:description xml:lang="en-US">In this work, we perform an extensive investigation and construct a portfolio of S-boxes suitable for secure lightweight implementations, which aligns well with the ongoing NIST Lightweight Cryptography competition. In particular, we target good functional properties on the one hand and efficient implementations in terms of AND depth and AND gate complexity on the other. Moreover, we also consider the implementation of the inverse S-box and the possibility for it to share resources with the forward S-box. We take our exploration beyond the conventional small (and even) S-box sizes. Our investigation is twofold: (1) we note that implementations of existing S-boxes are not optimized for the criteria which define masking complexity (AND depth and AND gate complexity) and improve a tool published at FSE 2016 by Stoffelen in order to fill this gap. (2) We search for new S-box designs which take these implementation properties into account from the start. We perform a systematic search based on the properties of not only the S-box but also its inverse as well as an exploration of larger S-box sizes using length-doubling structures. The result of our investigation is not only a wide selection of very good S-boxes, but we also provide complete descriptions of their circuits, enabling their integration into future work.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2020-05-07</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tosc.iacr.org/index.php/ToSC/article/view/8562</dc:identifier>
+	<dc:identifier>10.13154/tosc.v2020.i1.144-184</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Symmetric Cryptology; Volume 2020, Issue 1; 144-184</dc:source>
+	<dc:source>2519-173X</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/8562/8133</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2020 Begül Bilgin, Lauren De Meyer, Sébastien Duval, Itamar Levi, François-Xavier Standaert</dc:rights>
+	<dc:rights xml:lang="en-US">http://creativecommons.org/licenses/by/4.0/</dc:rights>
+</oai_dc:dc>

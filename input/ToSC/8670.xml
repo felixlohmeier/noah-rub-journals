@@ -1,0 +1,27 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>8670</id>
+	<dc:title xml:lang="en-US">On the Security of Sponge-type Authenticated Encryption Modes</dc:title>
+	<dc:creator>Chakraborty, Bishwajit</dc:creator>
+	<dc:creator>Jha, Ashwin</dc:creator>
+	<dc:creator>Nandi, Mridul</dc:creator>
+	<dc:subject xml:lang="en-US">Sponge</dc:subject>
+	<dc:subject xml:lang="en-US">duplex</dc:subject>
+	<dc:subject xml:lang="en-US">Beetle</dc:subject>
+	<dc:subject xml:lang="en-US">SpoC</dc:subject>
+	<dc:subject xml:lang="en-US">lightweight</dc:subject>
+	<dc:subject xml:lang="en-US">AEAD</dc:subject>
+	<dc:subject xml:lang="en-US">tight bound</dc:subject>
+	<dc:description xml:lang="en-US">The sponge duplex is a popular mode of operation for constructing authenticated encryption schemes. In fact, one can assess the popularity of this mode from the fact that around 25 out of the 56 round 1 submissions to the ongoing NIST lightweight cryptography (LwC) standardization process are based on this mode. Among these, 14 sponge-type constructions are selected for the second round consisting of 32 submissions. In this paper, we generalize the duplexing interface of the duplex mode, which we call Transform-then-Permute. It encompasses Beetle as well as a new sponge-type mode SpoC (both are round 2 submissions to NIST LwC). We show a tight security bound for Transform-then-Permute based on b-bit permutation, which reduces to finding an exact estimation of the expected number of multi-chains (defined in this paper). As a corollary of our general result, authenticated encryption advantage of Beetle and SpoC is about T(D+r2r)/2b&amp;nbsp;where T, D and r denotes the number of offline queries (related to time complexity of the attack), number of construction queries (related to data complexity) and rate of the construction (related to efficiency). Previously the same bound has been proved for Beetle under the limitation that T &amp;lt;&amp;lt; min{2r, 2b/2} (that compels to choose larger permutation with higher rate). In the context of NIST LwC requirement, SpoC based on 192-bit permutation achieves the desired security with 64-bit rate, which is not achieved by either duplex or Beetle (as per the previous analysis).</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2020-07-24</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tosc.iacr.org/index.php/ToSC/article/view/8670</dc:identifier>
+	<dc:identifier>10.13154/tosc.v2020.i2.93-119</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Symmetric Cryptology; Volume 2020, Issue 2; 93-119</dc:source>
+	<dc:source>2519-173X</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/8670/8228</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2020 Bishwajit Chakraborty, Ashwin Jha, Mridul Nandi</dc:rights>
+	<dc:rights xml:lang="en-US">http://creativecommons.org/licenses/by/4.0</dc:rights>
+</oai_dc:dc>

@@ -1,0 +1,30 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>7288</id>
+	<dc:title xml:lang="en-US">Spin Me Right Round Rotational Symmetry for FPGA-Specific AES</dc:title>
+	<dc:creator>De Meyer, Lauren</dc:creator>
+	<dc:creator>Moradi, Amir</dc:creator>
+	<dc:creator>Wegener, Felix</dc:creator>
+	<dc:subject xml:lang="en-US">AES</dc:subject>
+	<dc:subject xml:lang="en-US">SCA</dc:subject>
+	<dc:subject xml:lang="en-US">DPA</dc:subject>
+	<dc:subject xml:lang="en-US">Rotational Symmetry</dc:subject>
+	<dc:subject xml:lang="en-US">Threshold Implementations</dc:subject>
+	<dc:subject xml:lang="en-US">d   1 Masking</dc:subject>
+	<dc:subject xml:lang="en-US">FPGA</dc:subject>
+	<dc:description xml:lang="en-US">The effort in reducing the area of AES implementations has largely been focused on Application-Specific Integrated Circuits (ASICs) in which a tower field construction leads to a small design of the AES S-box. In contrast, a naïve implementation of the AES S-box has been the status-quo on Field-Programmable Gate Arrays (FPGAs). A similar discrepancy holds for masking schemes – a wellknown side-channel analysis countermeasure – which are commonly optimized to achieve minimal area in ASICs.In this paper we demonstrate a representation of the AES S-box exploiting rotational symmetry which leads to a 50% reduction of the area footprint on FPGA devices. We present new AES implementations which improve on the state of the art and explore various trade-offs between area and latency. For instance, at the cost of increasing 4.5 times the latency, one of our design variants requires 25% less look-up tables (LUTs) than the smallest known AES on Xilinx FPGAs by Sasdrich and Güneysu at ASAP 2016. We further explore the protection of such implementations against first-order side-channel analysis attacks. Targeting the small area footprint on FPGAs, we introduce a heuristic-based algorithm to find a masking of a given function with d + 1 shares. Its application to our new construction of the AES S-box allows us to introduce the smallest masked AES implementation on Xilinx FPGAs, to-date.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2018-08-16</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tches.iacr.org/index.php/TCHES/article/view/7288</dc:identifier>
+	<dc:identifier>10.13154/tches.v2018.i3.596-626</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Cryptographic Hardware and Embedded Systems; Volume 2018, Issue 3; 596-626</dc:source>
+	<dc:source>2569-2925</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/7288/6465</dc:relation>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/7288/7964</dc:relation>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/7288/7965</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2018 Lauren De Meyer, Amir Moradi, Felix Wegener</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0</dc:rights>
+</oai_dc:dc>

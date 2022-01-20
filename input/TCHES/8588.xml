@@ -1,0 +1,24 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>8588</id>
+	<dc:title xml:lang="en-US">The Long and Winding Path to Secure Implementation of GlobalPlatform SCP10</dc:title>
+	<dc:creator>De Almeida Braga, Daniel</dc:creator>
+	<dc:creator>Fouque, Pierre-Alain</dc:creator>
+	<dc:creator>Sabt, Mohamed</dc:creator>
+	<dc:subject xml:lang="en-US">SCP10</dc:subject>
+	<dc:subject xml:lang="en-US">Java card</dc:subject>
+	<dc:subject xml:lang="en-US">Bleichenbacher</dc:subject>
+	<dc:subject xml:lang="en-US">Coppersmith</dc:subject>
+	<dc:description xml:lang="en-US">GlobalPlatform (GP) card specifications are defined for smart cards regarding rigorous security requirements. The increasingly more powerful cards within an open ecosystem of multiple players stipulate that asymmetric-key protocols become necessary. In this paper, we analyze SCP10, which is the Secure Channel Protocol (SCP) that relies on RSA for key exchange and authentication. Our findings are twofold. First, we demonstrate several flaws in the design of SCP10. We discuss the scope of the identified flaws by presenting several attack scenarios in which a malicious attacker can recover all the messages protected by SCP10. We provide a full implementation of these attacks. For instance, an attacker can get the freshly generated session keys in less than three hours. Second, we propose a secure implementation of SCP10 and discuss how it can mitigate the discovered flaws. Finally, we measure the overhead incurred by the implemented countermeasures.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2020-06-19</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tches.iacr.org/index.php/TCHES/article/view/8588</dc:identifier>
+	<dc:identifier>10.13154/tches.v2020.i3.196-218</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Cryptographic Hardware and Embedded Systems; Volume 2020, Issue 3; 196-218</dc:source>
+	<dc:source>2569-2925</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/8588/8155</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2020 Daniel De Almeida Braga, Pierre-Alain Fouque, Mohamed Sabt</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0</dc:rights>
+</oai_dc:dc>

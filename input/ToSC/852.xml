@@ -1,0 +1,27 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>852</id>
+	<dc:title xml:lang="en-US">Frequency-smoothing encryption: preventing snapshot attacks on deterministically encrypted data</dc:title>
+	<dc:creator>Lacharité, Marie-Sarah</dc:creator>
+	<dc:creator>Paterson, Kenneth G.</dc:creator>
+	<dc:subject xml:lang="en-US">database encryption</dc:subject>
+	<dc:subject xml:lang="en-US">snapshot attacks</dc:subject>
+	<dc:subject xml:lang="en-US">inference attacks</dc:subject>
+	<dc:subject xml:lang="en-US">homophonic encoding</dc:subject>
+	<dc:subject xml:lang="en-US">frequency-smoothing encryption</dc:subject>
+	<dc:description xml:lang="en-US">Statistical analysis of ciphertexts has been recently used to carry out devastating inference attacks on deterministic encryption (Naveed, Kamara, and Wright, CCS 2015), order-preserving/revealing encryption (Grubbs et al., S&amp;amp;P 2017), and searchable encryption (Pouliot and Wright, CCS 2016). At the heart of these inference attacks is classical frequency analysis. In this paper, we propose and evaluate another classical technique, homophonic encoding, as a means to combat these attacks. We introduce and develop the concept of frequency-smoothing encryption (FSE) which provably prevents inference attacks in the snapshot attack model, wherein the adversary obtains a static snapshot of the encrypted data, while preserving the ability to efficiently and privately make point queries. We provide provably secure constructions for FSE schemes, and we empirically assess their security for concrete parameters by evaluating them against real data. We show that frequency analysis attacks (and optimal generalisations of them for the FSE setting) no longer succeed.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2018-03-01</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tosc.iacr.org/index.php/ToSC/article/view/852</dc:identifier>
+	<dc:identifier>10.13154/tosc.v2018.i1.277-313</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Symmetric Cryptology; Volume 2018, Issue 1; 277-313</dc:source>
+	<dc:source>2519-173X</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/852/804</dc:relation>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/852/7625</dc:relation>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/852/7525</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2018 Marie-Sarah Lacharité, Kenneth G. Paterson</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0</dc:rights>
+</oai_dc:dc>

@@ -1,0 +1,28 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>8707</id>
+	<dc:title xml:lang="en-US">Cryptanalysis of Curl-P and Other Attacks on the IOTA Cryptocurrency</dc:title>
+	<dc:creator>Heilman, Ethan</dc:creator>
+	<dc:creator>Narula, Neha</dc:creator>
+	<dc:creator>Tanzer, Garrett</dc:creator>
+	<dc:creator>Lovejoy, James</dc:creator>
+	<dc:creator>Colavita, Michael</dc:creator>
+	<dc:creator>Virza, Madars</dc:creator>
+	<dc:creator>Dryja, Tadge</dc:creator>
+	<dc:subject xml:lang="en-US">cryptocurrencies</dc:subject>
+	<dc:subject xml:lang="en-US">signature forgeries</dc:subject>
+	<dc:subject xml:lang="en-US">cryptographic hash functions</dc:subject>
+	<dc:subject xml:lang="en-US">cryptanalysis</dc:subject>
+	<dc:description xml:lang="en-US">We present attacks on the cryptography formerly used in the IOTA blockchain, including under certain conditions the ability to forge signatures. We developed practical attacks on IOTA’s cryptographic hash function Curl-P-27, allowing us to quickly generate short colliding messages. These collisions work even for messages of the same length. Exploiting these weaknesses in Curl-P-27, we broke the EUCMA security of the former IOTA Signature Scheme (ISS). Finally, we show that in a chosen-message setting we could forge signatures and multi-signatures of valid spending transactions (called bundles in IOTA).</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2020-09-28</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tosc.iacr.org/index.php/ToSC/article/view/8707</dc:identifier>
+	<dc:identifier>10.13154/tosc.v2020.i3.367-391</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Symmetric Cryptology; Volume 2020, Issue 3; 367-391</dc:source>
+	<dc:source>2519-173X</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/8707/8299</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2020 Ethan Heilman, Neha Narula, Garrett Tanzer, James Lovejoy, Michael Colavita, Madars Virza, Tadge Dryja</dc:rights>
+	<dc:rights xml:lang="en-US">http://creativecommons.org/licenses/by/4.0/</dc:rights>
+</oai_dc:dc>

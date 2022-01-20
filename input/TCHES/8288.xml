@@ -1,0 +1,28 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>8288</id>
+	<dc:title xml:lang="en-US">New Insights to Key Derivation for Tamper-Evident Physical Unclonable Functions</dc:title>
+	<dc:creator>Immler, Vincent</dc:creator>
+	<dc:creator>Uppund, Karthik</dc:creator>
+	<dc:subject xml:lang="en-US">Tamper-sensitivity</dc:subject>
+	<dc:subject xml:lang="en-US">Physical Unclonable Function (PUF)</dc:subject>
+	<dc:subject xml:lang="en-US">Fuzzy Extractor</dc:subject>
+	<dc:subject xml:lang="en-US">Information Theory</dc:subject>
+	<dc:subject xml:lang="en-US">Higher-Order Alphabet PUF (HOA PUF)</dc:subject>
+	<dc:subject xml:lang="en-US">Lee Metric</dc:subject>
+	<dc:description xml:lang="en-US">Several publications presented tamper-evident Physical Unclonable Functions (PUFs) for secure storage of cryptographic keys and tamper-detection. Unfortunately, previously published PUF-based key derivation schemes do not sufficiently take into account the specifics of the underlying application, i.e., an attacker that tampers with the physical parameters of the PUF outside of an idealized noise error model. This is a notable extension of existing schemes for PUF key derivation, as they are typically concerned about helper data leakage, i.e., by how much the PUF’s entropy is diminished when gaining access to its helper data.To address the specifics of tamper-evident PUFs, we formalize the aspect of tamper-sensitivity, thereby providing a new tool to rate by how much an attacker is allowed to tamper with the PUF. This complements existing criteria such as effective number of secret bits for entropy and failure rate for reliability. As a result, it provides a fair comparison among different schemes and independent of the PUF implementation, as its unit is based on the noise standard deviation of the underlying PUF measurement. To overcome the limitations of previous schemes, we then propose an Error-Correcting Code (ECC) based on the Lee metric, i.e., a distance metric well-suited to describe the distance between q-ary symbols as output from an equidistant quantization, i.e., a higher-order alphabet PUF. This novel approach is required, as the underlying symbols’ bits are not i.i.d. which hinders applying previous state-of-the-art approaches. We present the concept for our scheme and demonstrate its feasibility based on an empirical PUF distribution. The benefits of our approach are an increase by over 21% in effective secret bit compared to previous approaches based on equidistant quantization. At the same time, we improve tamper-sensitivity compared to an equiprobable quantization while ensuring similar reliability and entropy. Hence, this work opens up a new direction of how to interpret the PUF output and details a practically relevant scheme outperforming all previous constructions.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2019-05-09</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tches.iacr.org/index.php/TCHES/article/view/8288</dc:identifier>
+	<dc:identifier>10.13154/tches.v2019.i3.30-65</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Cryptographic Hardware and Embedded Systems; Volume 2019, Issue 3; 30-65</dc:source>
+	<dc:source>2569-2925</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/8288/7638</dc:relation>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/8288/7859</dc:relation>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/8288/7860</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2019 Vincent Immler, Karthik Uppund</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0</dc:rights>
+</oai_dc:dc>

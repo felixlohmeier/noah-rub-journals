@@ -1,0 +1,29 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>7363</id>
+	<dc:title xml:lang="en-US">New Yoyo Tricks with AES-based Permutations</dc:title>
+	<dc:creator>Saha, Dhiman</dc:creator>
+	<dc:creator>Rahman, Mostafizar</dc:creator>
+	<dc:creator>Paul, Goutam</dc:creator>
+	<dc:subject xml:lang="en-US">AES</dc:subject>
+	<dc:subject xml:lang="en-US">AESQ</dc:subject>
+	<dc:subject xml:lang="en-US">Distinguisher</dc:subject>
+	<dc:subject xml:lang="en-US">PAEQ</dc:subject>
+	<dc:subject xml:lang="en-US">Yoyo</dc:subject>
+	<dc:subject xml:lang="en-US">Differential Cryptanalysis</dc:subject>
+	<dc:description xml:lang="en-US">In Asiacrypt 2017, Rønjom et al. reported some interesting generic properties of SPNs, leading to what they call the Yoyo trick, and applied it to find the most efficient distinguishers on AES. In this work, we explore the Yoyo idea in distinguishing public permutations for the first time. We introduce the notion of nested zero difference pattern which extends the Yoyo idea and helps to compose it using improbable and impossible differential strategies to penetrate higher number of rounds. We devise a novel inside-out application of Yoyo which enables us to start the Yoyo game from an internal round. As an application, we investigate the AES-based public permutation AESQ used inside the authenticated cipher PAEQ. We achieve the first deterministic distinguisher of AESQ up to 8 rounds and the first 9-round distinguisher of AESQ that start from the first round with a practical complexity of around 226. We manage to augment Yoyo with improbable and impossible differentials leading to distinguishers on 9, 10, 12 rounds with complexities of about 22, 228, 2126 respectively. Further, with impossible differentials and a bi-directional Yoyo strategy, we obtain a 16-round impossible differential distinguisher with a complexity of 2126. Our results outperform all previous records on AESQ by a substantial margin. As another application, we apply the proposed strategies on AES in the known-key setting leading to one of the best 8-round known-key distinguisher with a complexity of 230. Finally, this work amplifies the scope of the Yoyo technique as a generic cryptanalysis tool.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2018-12-13</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tosc.iacr.org/index.php/ToSC/article/view/7363</dc:identifier>
+	<dc:identifier>10.13154/tosc.v2018.i4.102-127</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Symmetric Cryptology; Volume 2018, Issue 4; 102-127</dc:source>
+	<dc:source>2519-173X</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/7363/6533</dc:relation>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/7363/7548</dc:relation>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/7363/7757</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2018 Dhiman Saha, Mostafizar Rahman, Goutam Paul</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0</dc:rights>
+</oai_dc:dc>

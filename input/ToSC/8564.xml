@@ -1,0 +1,26 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>8564</id>
+	<dc:title xml:lang="en-US">Cryptanalysis of Forkciphers</dc:title>
+	<dc:creator>Bariant, Augustin</dc:creator>
+	<dc:creator>David, Nicolas</dc:creator>
+	<dc:creator>Leurent, Gaëtan</dc:creator>
+	<dc:subject xml:lang="en-US">Forkciphers</dc:subject>
+	<dc:subject xml:lang="en-US">TWEAKEY</dc:subject>
+	<dc:subject xml:lang="en-US">ForkAES</dc:subject>
+	<dc:subject xml:lang="en-US">ForkSkinny</dc:subject>
+	<dc:subject xml:lang="en-US">Cryptanalysis</dc:subject>
+	<dc:subject xml:lang="en-US">NIST Lightweight Standardisation</dc:subject>
+	<dc:description xml:lang="en-US">The forkcipher framework was designed in 2018 by Andreeva et al. for authenticated encryption of short messages. Two dedicated ciphers were proposed in this framework: ForkAES based on the AES (and its tweakable variant Kiasu-BC), and ForkSkinny based on Skinny. The main motivation is that the forked ciphers should keep the same security as the underlying ciphers, but offer better performances thanks to the larger output. Recent cryptanalysis results at ACNS ’19 have shown that ForkAES actually offers a reduced security margin compared to the AES with an 8-round attack, and this was taken into account in the design of ForkSkinny.In this paper, we present new cryptanalysis results on forkciphers. First we improve the previous attack on ForkAES in order to attack the full 10 rounds. This is the first attack challenging the security of full ForkAES. Then we present the first analysis of ForkSkinny, showing that the best attacks on Skinny can be extended to one round for most ForkSkinny variants, and up to three rounds for ForkSkinny-128-256. This allows to evaluate the security degradation between ForkSkinny and the underlying block cipher.Our analysis shows that all components of a forkcipher must be carefully designed: the attack against ForkAES uses the weak diffusion of the middle rounds in reconstruction queries (going from one ciphertext to the other), but the attack against ForkSkinny uses a weakness of the tweakey schedule in encryption queries (when one branch of the tweakey schedule is skipped).</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2020-05-07</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tosc.iacr.org/index.php/ToSC/article/view/8564</dc:identifier>
+	<dc:identifier>10.13154/tosc.v2020.i1.233-265</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Symmetric Cryptology; Volume 2020, Issue 1; 233-265</dc:source>
+	<dc:source>2519-173X</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/8564/8135</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2020 Augustin Bariant, Nicolas David, Gaëtan Leurent</dc:rights>
+	<dc:rights xml:lang="en-US">http://creativecommons.org/licenses/by/4.0/</dc:rights>
+</oai_dc:dc>

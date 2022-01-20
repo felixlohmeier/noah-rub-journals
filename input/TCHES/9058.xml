@@ -1,0 +1,28 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>9058</id>
+	<dc:title xml:lang="en-US">Novel Key Recovery Attack on Secure ECDSA Implementation by Exploiting Collisions between Unknown Entries</dc:title>
+	<dc:creator>Jin, Sunghyun</dc:creator>
+	<dc:creator>Lee, Sangyub</dc:creator>
+	<dc:creator>Cho, Sung Min</dc:creator>
+	<dc:creator>Kim, HeeSeok</dc:creator>
+	<dc:creator>Hong, Seokhie</dc:creator>
+	<dc:subject xml:lang="en-US">Public-key cryptography</dc:subject>
+	<dc:subject xml:lang="en-US">Digital signature</dc:subject>
+	<dc:subject xml:lang="en-US">ECDSA</dc:subject>
+	<dc:subject xml:lang="en-US">Scalar multiplication</dc:subject>
+	<dc:subject xml:lang="en-US">Side-channel analysis</dc:subject>
+	<dc:subject xml:lang="en-US">Collision attack</dc:subject>
+	<dc:description xml:lang="en-US">In this paper, we propose a novel key recovery attack against secure ECDSA signature generation employing regular table-based scalar multiplication. Our attack exploits novel leakage, denoted by collision information, which can be constructed by iteratively determining whether two entries loaded from the table are the same or not through side-channel collision analysis. Without knowing the actual value of the table entries, an adversary can recover the private key of ECDSA by finding the condition for which several nonces are linearly dependent by exploiting only the collision information. We show that this condition can be satisfied practically with a reasonable number of digital signatures and corresponding traces. Furthermore, we also show that all entries in the pre-computation table can be recovered using the recovered private key and a sufficient number of digital signatures based on the collision information. As case studies, we find that fixed-base comb and T_SM scalar multiplication are vulnerable to our attack. Finally, we verify that our attack is a real threat by conducting an experiment with power consumption traces acquired during T_SM scalar multiplication operations on an ARM Cortex-M based microcontroller. We also provide the details for validation process.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2021-08-11</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tches.iacr.org/index.php/TCHES/article/view/9058</dc:identifier>
+	<dc:identifier>10.46586/tches.v2021.i4.1-26</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Cryptographic Hardware and Embedded Systems; Volume 2021, Issue 4; 1-26</dc:source>
+	<dc:source>2569-2925</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/9058/8645</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2021 Sunghyun Jin, Sangyub Lee, Sung Min Cho, HeeSeok Kim, Seokhie Hong</dc:rights>
+	<dc:rights xml:lang="en-US">http://creativecommons.org/licenses/by/4.0/</dc:rights>
+</oai_dc:dc>

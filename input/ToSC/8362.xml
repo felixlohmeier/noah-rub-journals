@@ -1,0 +1,27 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>8362</id>
+	<dc:title xml:lang="en-US">New Semi-Free-Start Collision Attack Framework for Reduced RIPEMD-160</dc:title>
+	<dc:creator>Liu, Fukang</dc:creator>
+	<dc:creator>Dobraunig, Christoph</dc:creator>
+	<dc:creator>Mendel, Florian</dc:creator>
+	<dc:creator>Isobe, Takanori</dc:creator>
+	<dc:creator>Wang, Gaoli</dc:creator>
+	<dc:creator>Cao, Zhenfu</dc:creator>
+	<dc:subject xml:lang="en-US">hash function</dc:subject>
+	<dc:subject xml:lang="en-US">RIPEMD-160</dc:subject>
+	<dc:subject xml:lang="en-US">freedom degree utilization</dc:subject>
+	<dc:subject xml:lang="en-US">semi-free-start collision attack</dc:subject>
+	<dc:description xml:lang="en-US">RIPEMD-160 is a hash function published in 1996, which shares similarities with other hash functions designed in this time-period like MD4, MD5 and SHA-1. However, for RIPEMD-160, no (semi-free-start) collision attacks on the full number of steps are known. Hence, it is still used, e.g., to generate Bitcoin addresses together with SHA-256, and is an ISO/IEC standard. Due to its dual-stream structure, even semifree- start collision attacks starting from the first step only reach 36 steps, which were firstly shown by Mendel et al. at Asiacrypt 2013 and later improved by Liu, Mendel and Wang at Asiacrypt 2017. Both of the attacks are based on a similar freedom degree utilization technique as proposed by Landelle and Peyrin at Eurocrypt 2013. However, the best known semi-free-start collision attack on 36 steps of RIPEMD-160 presented at Asiacrypt 2017 still requires 255.1 time and 232 memory. Consequently, a practical semi-free-start collision attack for the first 36 steps of RIPEMD-160 still requires a significant amount of resources. Considering the structure of these previous semi-free-start collision attacks for 36 steps of RIPEMD-160, it seems hard to extend it to more steps. Thus, we develop a different semi-free-start collision attack framework for reduced RIPEMD-160 by carefully investigating the message expansion of RIPEMD-160. Our new framework has several advantages. First of all, it allows to extend the attacks to more steps. Second, the memory complexity of the attacks is negligible. Hence, we were able to mount semi-free-start collision attacks on 36 and 37 steps of RIPEMD-160 with practical time complexity 241 and 249 respectively. Additionally, we describe semi-free-start collision attacks on 38 and 40 (out of 80) steps of RIPEMD-160 with time complexity 252 and 274.6, respectively. To the best of our knowledge, these are the best semi-free-start collision attacks for RIPEMD-160 starting from the first step with respect to the number of steps, including the first practical colliding message pairs for 36 and 37 steps of RIPEMD-160.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2019-09-20</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tosc.iacr.org/index.php/ToSC/article/view/8362</dc:identifier>
+	<dc:identifier>10.13154/tosc.v2019.i3.169-192</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Symmetric Cryptology; Volume 2019, Issue 3; 169-192</dc:source>
+	<dc:source>2519-173X</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/8362/7711</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2019 Fukang Liu, Christoph Dobraunig, Florian Mendel, Takanori Isobe, Gaoli Wang, Zhenfu Cao</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0</dc:rights>
+</oai_dc:dc>

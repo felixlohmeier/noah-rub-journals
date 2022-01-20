@@ -1,0 +1,28 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>7284</id>
+	<dc:title xml:lang="en-US">Side-Channel Attacks on Post-Quantum Signature Schemes based on Multivariate Quadratic Equations: - Rainbow and UOV -</dc:title>
+	<dc:creator>Park, Aesun</dc:creator>
+	<dc:creator>Shim, Kyung-Ah</dc:creator>
+	<dc:creator>Koo, Namhun</dc:creator>
+	<dc:creator>Han, Dong-Guk</dc:creator>
+	<dc:subject xml:lang="en-US">Side-channel attack</dc:subject>
+	<dc:subject xml:lang="en-US">Correlation power analysis</dc:subject>
+	<dc:subject xml:lang="en-US">Key recovery attack</dc:subject>
+	<dc:subject xml:lang="en-US">Multivariate-Quadratic problem</dc:subject>
+	<dc:description xml:lang="en-US">In this paper, we investigate the security of Rainbow and Unbalanced Oil-and-Vinegar (UOV) signature schemes based on multivariate quadratic equations, which is one of the most promising alternatives for post-quantum signature schemes, against side-channel attacks. We describe correlation power analysis (CPA) on the schemes that yield full secret key recoveries. First, we identify a secret leakage of secret affine maps S and T during matrix-vector products in signing when Rainbow is implemented with equivalent keys rather than random affine maps for optimal implementations. In this case, the simple structure of the equivalent keys leads to the retrieval of the entire secret affine map T. Next, we extend the full secret key recovery to the general case using random affine maps via a hybrid attack: after recovering S by performing CPA, we recover T by mounting algebraic key recovery attacks. We demonstrate how this leakage on Rainbow can be practically exploited on an 8-bit AVR microcontroller using CPA. Consequently, our CPA can be applied to Rainbow-like multi-layered schemes regardless of the use of the simple-structured equivalent keys and UOV-like single layer schemes with the implementations using the equivalent keys of the simple structure. This is the first result on the security of multivariate quadratic equations-based signature schemes using only CPA. Our result can be applied to Rainbow-like multi-layered schemes and UOV-like single layer schemes submitted to NIST for Post-Quantum Cryptography Standardization.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2018-08-16</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tches.iacr.org/index.php/TCHES/article/view/7284</dc:identifier>
+	<dc:identifier>10.13154/tches.v2018.i3.500-523</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Cryptographic Hardware and Embedded Systems; Volume 2018, Issue 3; 500-523</dc:source>
+	<dc:source>2569-2925</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/7284/6461</dc:relation>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/7284/7956</dc:relation>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/7284/7957</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2018 Aesun Park, Kyung-Ah Shim, Namhun Koo, Dong-Guk Han</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0</dc:rights>
+</oai_dc:dc>

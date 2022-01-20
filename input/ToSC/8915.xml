@@ -1,0 +1,23 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>8915</id>
+	<dc:title xml:lang="en-US">Algorithm Substitution Attacks: State Reset Detection and Asymmetric Modifications</dc:title>
+	<dc:creator>Hodges, Philip</dc:creator>
+	<dc:creator>Stebila, Douglas</dc:creator>
+	<dc:subject xml:lang="en-US">Algorithm Substitution Attack</dc:subject>
+	<dc:subject xml:lang="en-US">Symmetric Encryption</dc:subject>
+	<dc:subject xml:lang="en-US">State Reset</dc:subject>
+	<dc:subject xml:lang="en-US">Kleptography</dc:subject>
+	<dc:description xml:lang="en-US">In this paper, we study algorithm substitution attacks (ASAs), where an algorithm in a cryptographic scheme is substituted for a subverted version. First, we formalize and study the use of state resets to detect ASAs, and show that many published stateful ASAs are detectable with simple practical methods relying on state resets. Second, we introduce two asymmetric ASAs on symmetric encryption, which are undetectable or unexploitable even by an adversary who knows the embedded subversion key. We also generalize this result, allowing for any symmetric ASA (on any cryptographic scheme) satisfying certain properties to be transformed into an asymmetric ASA. Our work demonstrates the broad application of the techniques first introduced by Bellare, Paterson, and Rogaway (Crypto 2014) and Bellare, Jaeger, and Kane (CCS 2015) and reinforces the need for precise definitions surrounding detectability of stateful ASAs.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2021-06-11</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tosc.iacr.org/index.php/ToSC/article/view/8915</dc:identifier>
+	<dc:identifier>10.46586/tosc.v2021.i2.389-422</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Symmetric Cryptology; Volume 2021, Issue 2; 389-422</dc:source>
+	<dc:source>2519-173X</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/8915/8491</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2021 Philip Hodges, Douglas Stebila</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0/</dc:rights>
+</oai_dc:dc>

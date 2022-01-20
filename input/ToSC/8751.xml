@@ -1,0 +1,25 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>8751</id>
+	<dc:title xml:lang="en-US">Cryptanalysis of LowMC instances using single plaintext/ciphertext pair</dc:title>
+	<dc:creator>Banik, Subhadeep</dc:creator>
+	<dc:creator>Barooti, Khashayar</dc:creator>
+	<dc:creator>Durak, F. Betül</dc:creator>
+	<dc:creator>Vaudenay, Serge</dc:creator>
+	<dc:subject xml:lang="en-US">LowMC</dc:subject>
+	<dc:subject xml:lang="en-US">PICNIC Signature Scheme</dc:subject>
+	<dc:subject xml:lang="en-US">MITM</dc:subject>
+	<dc:subject xml:lang="en-US">3-xor problem</dc:subject>
+	<dc:description xml:lang="en-US">Arguably one of the main applications of the LowMC family ciphers is in the post-quantum signature scheme PICNIC. Although LowMC family ciphers have been studied from a cryptanalytic point of view before, none of these studies were directly concerned with the actual use case of this cipher in PICNIC signature scheme. Due to the design paradigm of PICNIC, an adversary trying to perform a forgery attack on the signature scheme instantiated with LowMC would have access to only a single given plaintext/ciphertext pair, i.e. an adversary would only be able to perform attacks with data complexity 1 in a known-plaintext attack scenario. This restriction makes it impossible to employ classical cryptanalysis methodologies such as differential and linear cryptanalysis. In this paper we introduce two key-recovery attacks, both in known-plaintext model and of data complexity 1 for two variants of LowMC, both instances of the LowMC cryptanalysis challenge.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2020-12-10</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tosc.iacr.org/index.php/ToSC/article/view/8751</dc:identifier>
+	<dc:identifier>10.46586/tosc.v2020.i4.130-146</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Symmetric Cryptology; Volume 2020, Issue 4; 130-146</dc:source>
+	<dc:source>2519-173X</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/8751/8349</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2020 Subhadeep Banik, Khashayar Barooti, F. Betül Durak, Serge Vaudenay</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0/</dc:rights>
+</oai_dc:dc>

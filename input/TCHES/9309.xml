@@ -1,0 +1,24 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>9309</id>
+	<dc:title xml:lang="en-US">Composite Enclaves: Towards Disaggregated Trusted Execution</dc:title>
+	<dc:creator>Schneider, Moritz</dc:creator>
+	<dc:creator>Dhar, Aritra</dc:creator>
+	<dc:creator>Puddu, Ivan</dc:creator>
+	<dc:creator>Kostiainen, Kari</dc:creator>
+	<dc:creator>Čapkun, Srdjan</dc:creator>
+	<dc:subject xml:lang="en-US">Trusted execution environments</dc:subject>
+	<dc:subject xml:lang="en-US">RISC-V security</dc:subject>
+	<dc:description xml:lang="en-US">The ever-rising computation demand is forcing the move from the CPU to heterogeneous specialized hardware, which is readily available across modern datacenters through disaggregated infrastructure. On the other hand, trusted execution environments (TEEs), one of the most promising recent developments in hardware security, can only protect code confined in the CPU, limiting TEEs’ potential and applicability to a handful of applications. We observe that the TEEs’ hardware trusted computing base (TCB) is fixed at design time, which in practice leads to using untrusted software to employ peripherals in TEEs. Based on this observation, we propose composite enclaves with a configurable hardware and software TCB, allowing enclaves access to multiple computing and IO resources. Finally, we present two case studies of composite enclaves: i) an FPGA platform based on RISC-V Keystone connected to emulated peripherals and sensors, and ii) a large-scale accelerator. These case studies showcase a flexible but small TCB (2.5 KLoC for IO peripherals and drivers), with a low-performance overhead (only around 220 additional cycles for a context switch), thus demonstrating the feasibility of our approach and showing that it can work with a wide range of specialized hardware.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2021-11-19</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tches.iacr.org/index.php/TCHES/article/view/9309</dc:identifier>
+	<dc:identifier>10.46586/tches.v2022.i1.630-656</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Cryptographic Hardware and Embedded Systems; Volume 2022, Issue 1; 630-656</dc:source>
+	<dc:source>2569-2925</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/9309/8875</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2021 Moritz Schneider, Aritra Dhar, Ivan Puddu, Kari Kostiainen, Srdjan Čapkun</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0/</dc:rights>
+</oai_dc:dc>

@@ -1,0 +1,27 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>573</id>
+	<dc:title xml:lang="en-US">Practical Key-Recovery Attack on MANTIS5</dc:title>
+	<dc:creator>Dobraunig, Christoph</dc:creator>
+	<dc:creator>Eichlseder, Maria</dc:creator>
+	<dc:creator>Kales, Daniel</dc:creator>
+	<dc:creator>Mendel, Florian</dc:creator>
+	<dc:subject xml:lang="en-US">Differential cryptanalysis</dc:subject>
+	<dc:subject xml:lang="en-US">MANTIS</dc:subject>
+	<dc:subject xml:lang="en-US">Lightweight</dc:subject>
+	<dc:subject xml:lang="en-US">PRINCE-like ciphers</dc:subject>
+	<dc:description xml:lang="en-US">MANTIS is a lightweight tweakable block cipher published at CRYPTO 2016. In addition to the full 14-round version, MANTIS7, the designers also propose an aggressive 10-round version, MANTIS5. The security claim for MANTIS5 is resistance against “practical attacks”, defined as related-tweak attacks with data complexity 2d less than 230 chosen plaintexts (or 240 known plaintexts), and computational complexity at most 2126−d. We present a key-recovery attack against MANTIS5 with 228 chosen plaintexts and a computational complexity of about 238 block cipher calls, which violates this claim. Our attack is based on a family of differential characteristics and exploits several properties of the lightweight round function and tweakey schedule. To verify the validity of the attack, we also provide a practical implementation which recovers the full key in about 1 core hour using 230 chosen plaintexts.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2017-02-03</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tosc.iacr.org/index.php/ToSC/article/view/573</dc:identifier>
+	<dc:identifier>10.13154/tosc.v2016.i2.248-260</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Symmetric Cryptology; Volume 2016, Issue 2; 248-260</dc:source>
+	<dc:source>2519-173X</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/573/515</dc:relation>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/573/7469</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2017 Christoph Dobraunig, Maria Eichlseder, Daniel Kales, Florian Mendel</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0</dc:rights>
+</oai_dc:dc>

@@ -1,0 +1,27 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>8911</id>
+	<dc:title xml:lang="en-US">Automated Search Oriented to Key Recovery on Ciphers with Linear Key Schedule: Applications to Boomerangs in SKINNY and ForkSkinny</dc:title>
+	<dc:creator>Qin, Lingyue</dc:creator>
+	<dc:creator>Dong, Xiaoyang</dc:creator>
+	<dc:creator>Wang, Xiaoyun</dc:creator>
+	<dc:creator>Jia, Keting</dc:creator>
+	<dc:creator>Liu, Yunwen</dc:creator>
+	<dc:subject xml:lang="en-US">Key recovery</dc:subject>
+	<dc:subject xml:lang="en-US">Differential attack</dc:subject>
+	<dc:subject xml:lang="en-US">Rectangle attack</dc:subject>
+	<dc:subject xml:lang="en-US">SKINNY</dc:subject>
+	<dc:subject xml:lang="en-US">ForkSkinny</dc:subject>
+	<dc:description xml:lang="en-US">Automatic modelling to search distinguishers with high probability covering as many rounds as possible, such as MILP, SAT/SMT, CP models, has become a very popular cryptanalysis topic today. In those models, the optimizing objective is usually the probability or the number of rounds of the distinguishers. If we want to recover the secret key for a round-reduced block cipher, there are usually two phases, i.e., finding an efficient distinguisher and performing key-recovery attack by extending several rounds before and after the distinguisher. The total number of attacked rounds is not only related to the chosen distinguisher, but also to the extended rounds before and after the distinguisher. In this paper, we try to combine the two phases in a uniform automatic model.Concretely, we apply this idea to automate the related-key rectangle attacks on SKINNY and ForkSkinny. We propose some new distinguishers with advantage to perform key-recovery attacks. Our key-recovery attacks on a few versions of round-reduced SKINNY and ForkSkinny cover 1 to 2 more rounds than the best previous attacks.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2021-06-11</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tosc.iacr.org/index.php/ToSC/article/view/8911</dc:identifier>
+	<dc:identifier>10.46586/tosc.v2021.i2.249-291</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Symmetric Cryptology; Volume 2021, Issue 2; 249-291</dc:source>
+	<dc:source>2519-173X</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/8911/8487</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2021 Lingyue Qin, Xiaoyang Dong, Xiaoyun Wang, Keting Jia, Yunwen Liu</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0/</dc:rights>
+</oai_dc:dc>

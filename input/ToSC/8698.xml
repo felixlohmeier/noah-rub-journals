@@ -1,0 +1,30 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>8698</id>
+	<dc:title xml:lang="en-US">Differential Attacks on CRAFT Exploiting the Involutory S-boxes and Tweak Additions</dc:title>
+	<dc:creator>Guo, Hao</dc:creator>
+	<dc:creator>Sun, Siwei</dc:creator>
+	<dc:creator>Shi, Danping </dc:creator>
+	<dc:creator>Sun, Ling</dc:creator>
+	<dc:creator>Sun, Yao</dc:creator>
+	<dc:creator>Hu, Lei</dc:creator>
+	<dc:creator>Wang, Meiqin</dc:creator>
+	<dc:subject xml:lang="en-US">Lightweight cryptography</dc:subject>
+	<dc:subject xml:lang="en-US">Tweakable block cipher</dc:subject>
+	<dc:subject xml:lang="en-US">Involutory</dc:subject>
+	<dc:subject xml:lang="en-US">Fault detection</dc:subject>
+	<dc:subject xml:lang="en-US">Differential attack</dc:subject>
+	<dc:subject xml:lang="en-US">MILP</dc:subject>
+	<dc:description xml:lang="en-US">CRAFT is a lightweight tweakable block cipher proposed at FSE 2019, which allows countermeasures against Differential Fault Attacks to be integrated into the cipher at the algorithmic level with ease. CRAFT employs a lightweight and involutory S-box and linear layer, such that the encryption function can be turned into decryption at a low cost. Besides, the tweakey schedule algorithm of CRAFT is extremely simple, where four 64-bit round tweakeys are generated and repeatedly used. Due to a combination of these features which makes CRAFT exceedingly lightweight, we find that some input difference at a particular position can be preserved through any number of rounds if the input pair follows certain truncated differential trails. Interestingly, in contrast to traditional differential analysis, the validity of this invariant property is affected by the positions where the constant additions take place. We use this property to construct “weak-tweakey” truncated differential distinguishers of CRAFT in the single-key model. Subsequently, we show how the tweak additions allow us to convert these weak-tweakey distinguishers into ordinary secret-key distinguishers based on which key-recovery attacks can be performed. Moreover, we show how to construct MILP models to search for truncated differential distinguishers exploiting this invariant property. As a result, we find a 15-round truncated differential distinguisher of CRAFT and extend it to a 19-round key-recovery attack with 260.99 data, 268 memory, 294.59 time complexity, and success probability 80.66%. Also, we find a 14-round distinguisher with probability 2−43 (experimentally verified), a 16-round distinguisher with probability 2−55, and a 20-round weak-key distinguisher (2118 weak keys) with probability 2−63. Experiments on round-reduced versions of the distinguishers show that the experimental probabilities are sometimes higher than predicted. Finally, we note that our result is far from threatening the security of the full CRAFT.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2020-09-28</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tosc.iacr.org/index.php/ToSC/article/view/8698</dc:identifier>
+	<dc:identifier>10.13154/tosc.v2020.i3.119-151</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Symmetric Cryptology; Volume 2020, Issue 3; 119-151</dc:source>
+	<dc:source>2519-173X</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/8698/8290</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2020 Hao Guo, Siwei Sun, Danping Shi, Ling Sun, Yao Sun, Lei Hu, Meiqin Wang</dc:rights>
+	<dc:rights xml:lang="en-US">http://creativecommons.org/licenses/by/4.0/</dc:rights>
+</oai_dc:dc>

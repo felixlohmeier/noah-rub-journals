@@ -1,0 +1,29 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>8454</id>
+	<dc:title xml:lang="en-US">INT-RUP Secure Lightweight Parallel AE Modes</dc:title>
+	<dc:creator>Chakraborti, Avik</dc:creator>
+	<dc:creator>Datta, Nilanjan</dc:creator>
+	<dc:creator>Jha, Ashwin</dc:creator>
+	<dc:creator>Mancillas-López, Cuauhtemoc</dc:creator>
+	<dc:creator>Nandi, Mridul</dc:creator>
+	<dc:creator>Sasaki, Yu</dc:creator>
+	<dc:subject xml:lang="en-US">OCB</dc:subject>
+	<dc:subject xml:lang="en-US">OTR</dc:subject>
+	<dc:subject xml:lang="en-US">TweGIFT</dc:subject>
+	<dc:subject xml:lang="en-US">Lightweight</dc:subject>
+	<dc:subject xml:lang="en-US">INT-RUP</dc:subject>
+	<dc:subject xml:lang="en-US">elastic-tweak</dc:subject>
+	<dc:description xml:lang="en-US">Owing to the growing demand for lightweight cryptographic solutions, NIST has initiated a standardization process for lightweight cryptographic algorithms. Specific to authenticated encryption (AE), the NIST draft demands that the scheme should have one primary member that has key length of 128 bits, and it should be secure for at least 250 − 1 byte queries and 2112 computations. Popular (lightweight) modes, such as OCB, OTR, CLOC, SILC, JAMBU, COFB, SAEB, Beetle, SUNDAE etc., require at least 128-bit primitives to meet the NIST criteria, as all of them are just birthday bound secure. Furthermore, most of them are sequential, and they either use a two pass mode or they do not offer any security when the adversary has access to unverified plaintext (RUP model). In this paper, we propose two new designs for lightweight AE modes, called LOCUS and LOTUS, structurally similar to OCB and OTR, respectively. These modes achieve notably higher AE security bounds with lighter primitives (only a 64-bit tweakable block cipher). Especially, they satisfy the NIST requirements: secure as long as the data complexity is less than 264 bytes and time complexity is less than 2128, even when instantiated with a primitive with 64-bit block and 128-bit key. Both these modes are fully parallelizable and provide full integrity security under the RUP model. We use TweGIFT-64[4,16,16,4] (also referred as TweGIFT-64), a tweakable variant of the GIFT block cipher, to instantiate our AE modes. TweGIFT-64-LOCUS and TweGIFT-64-LOTUS are significantly light in hardware implementation. To justify, we provide our FPGA based implementation results, which demonstrate that TweGIFT-64-LOCUS consumes only 257 slices and 690 LUTs, while TweGIFT-64-LOTUS consumes only 255 slices and 664 LUTs.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2020-01-31</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tosc.iacr.org/index.php/ToSC/article/view/8454</dc:identifier>
+	<dc:identifier>10.13154/tosc.v2019.i4.81-118</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Symmetric Cryptology; Volume 2019, Issue 4; 81-118</dc:source>
+	<dc:source>2519-173X</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/8454/8024</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2020 Avik Chakraborti, Nilanjan Datta, Ashwin Jha, Cuauhtemoc Mancillas-López, Mridul Nandi, Yu Sasaki</dc:rights>
+	<dc:rights xml:lang="en-US">http://creativecommons.org/licenses/by/4.0/</dc:rights>
+</oai_dc:dc>

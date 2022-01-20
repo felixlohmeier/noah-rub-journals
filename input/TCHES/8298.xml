@@ -1,0 +1,33 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>8298</id>
+	<dc:title xml:lang="en-US">Fast constant-time gcd computation and modular inversion</dc:title>
+	<dc:creator>Bernstein, Daniel J.</dc:creator>
+	<dc:creator>Yang, Bo-Yin</dc:creator>
+	<dc:subject xml:lang="en-US">Euclid’s algorithm</dc:subject>
+	<dc:subject xml:lang="en-US">greatest common divisor</dc:subject>
+	<dc:subject xml:lang="en-US">gcd</dc:subject>
+	<dc:subject xml:lang="en-US">modular reciprocal</dc:subject>
+	<dc:subject xml:lang="en-US">modular inversion</dc:subject>
+	<dc:subject xml:lang="en-US">constant-time computations</dc:subject>
+	<dc:subject xml:lang="en-US">branchless algorithms</dc:subject>
+	<dc:subject xml:lang="en-US">algorithm</dc:subject>
+	<dc:subject xml:lang="en-US">design</dc:subject>
+	<dc:subject xml:lang="en-US">NTRU</dc:subject>
+	<dc:subject xml:lang="en-US">Curve25519</dc:subject>
+	<dc:description xml:lang="en-US">This paper introduces streamlined constant-time variants of Euclid’s algorithm, both for polynomial inputs and for integer inputs. As concrete applications, this paper saves time in (1) modular inversion for Curve25519, which was previously believed to be handled much more efficiently by Fermat’s method, and (2) key generation for the ntruhrss701 and sntrup4591761 lattice-based cryptosystems.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2019-05-09</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tches.iacr.org/index.php/TCHES/article/view/8298</dc:identifier>
+	<dc:identifier>10.13154/tches.v2019.i3.340-398</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Cryptographic Hardware and Embedded Systems; Volume 2019, Issue 3; 340-398</dc:source>
+	<dc:source>2569-2925</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/8298/7648</dc:relation>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/8298/7879</dc:relation>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/8298/7880</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2019 Daniel J. Bernstein, Bo-Yin Yang</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0</dc:rights>
+</oai_dc:dc>

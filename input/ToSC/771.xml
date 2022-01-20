@@ -1,0 +1,29 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>771</id>
+	<dc:title xml:lang="en-US">Boolean functions with restricted input and their robustness; application to the FLIP cipher</dc:title>
+	<dc:creator>Carlet, Claude</dc:creator>
+	<dc:creator>Méaux, Pierrick</dc:creator>
+	<dc:creator>Rotella, Yann</dc:creator>
+	<dc:subject xml:lang="en-US">FLIP</dc:subject>
+	<dc:subject xml:lang="en-US">Boolean function</dc:subject>
+	<dc:subject xml:lang="en-US">balance</dc:subject>
+	<dc:subject xml:lang="en-US">nonlinearity</dc:subject>
+	<dc:subject xml:lang="en-US">algebraic immunity</dc:subject>
+	<dc:subject xml:lang="en-US">constrained input</dc:subject>
+	<dc:description xml:lang="en-US">We study the main cryptographic features of Boolean functions (balancedness, nonlinearity, algebraic immunity) when, for a given number n of variables, the input to these functions is restricted to some subset E of </dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2017-09-19</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tosc.iacr.org/index.php/ToSC/article/view/771</dc:identifier>
+	<dc:identifier>10.13154/tosc.v2017.i3.192-227</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Symmetric Cryptology; Volume 2017, Issue 3; 192-227</dc:source>
+	<dc:source>2519-173X</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/771/729</dc:relation>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/771/7610</dc:relation>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/771/7536</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2017 Claude Carlet, Pierrick Méaux, Yann Rotella</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0</dc:rights>
+</oai_dc:dc>

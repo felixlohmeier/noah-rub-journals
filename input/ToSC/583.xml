@@ -1,0 +1,30 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>583</id>
+	<dc:title xml:lang="en-US">The QARMA Block Cipher Family. Almost MDS Matrices Over Rings With Zero Divisors, Nearly Symmetric Even-Mansour Constructions With Non-Involutory Central Rounds, and Search Heuristics for Low-Latency S-Boxes</dc:title>
+	<dc:creator>Avanzi, Roberto</dc:creator>
+	<dc:subject xml:lang="en-US">Tweakable Block Ciphers</dc:subject>
+	<dc:subject xml:lang="en-US">Reflection Ciphers</dc:subject>
+	<dc:subject xml:lang="en-US">Even-Mansour Schemes</dc:subject>
+	<dc:subject xml:lang="en-US">Almost MDS Matrices</dc:subject>
+	<dc:subject xml:lang="en-US">S-Box Search Heuristics</dc:subject>
+	<dc:subject xml:lang="en-US">Memory Encryption</dc:subject>
+	<dc:subject xml:lang="en-US">Pointer Authentication</dc:subject>
+	<dc:subject xml:lang="en-US">Short Hashes</dc:subject>
+	<dc:subject xml:lang="en-US">Tweak Masking</dc:subject>
+	<dc:subject xml:lang="en-US">Tweak Extension</dc:subject>
+	<dc:description xml:lang="en-US">This paper introduces QARMA, a new family of lightweight tweakable block ciphers targeted at applications such as memory encryption, the generation of very short tags for hardware-assisted prevention of software exploitation, and the construction of keyed hash functions. QARMA is inspired by reflection ciphers such as PRINCE, to which it adds a tweaking input, and MANTIS. However, QARMA differs from previous reflector constructions in that it is a three-round Even-Mansour scheme instead of a FX-construction, and its middle permutation is non-involutory and keyed. We introduce and analyse a family of Almost MDS matrices defined over a ring with zero divisors that allows us to encode rotations in its operation while maintaining the minimal latency associated to {0, 1}-matrices. The purpose of all these design choices is to harden the cipher against various classes of attacks. We also describe new S-Box search heuristics aimed at minimising the critical path. QARMA exists in 64- and 128-bit block sizes, where block and tweak size are equal, and keys are twice as long as the blocks. We argue that QARMA provides sufficient security margins within the constraints determined by the mentioned applications, while still achieving best-in-class latency. Implementation results on a state-of-the art manufacturing process are reported. Finally, we propose a technique to extend the length of the tweak by using, for instance, a universal hash function, which can also be used to strengthen the security of QARMA.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2017-03-08</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tosc.iacr.org/index.php/ToSC/article/view/583</dc:identifier>
+	<dc:identifier>10.13154/tosc.v2017.i1.4-44</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Symmetric Cryptology; Volume 2017, Issue 1; 4-44</dc:source>
+	<dc:source>2519-173X</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/583/556</dc:relation>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/583/7473</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2017 Roberto Avanzi</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0</dc:rights>
+</oai_dc:dc>

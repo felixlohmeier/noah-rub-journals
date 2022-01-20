@@ -1,0 +1,25 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>8987</id>
+	<dc:title xml:lang="en-US">Probing Security through Input-Output Separation and Revisited Quasilinear Masking</dc:title>
+	<dc:creator>Goudarzi, Dahmun</dc:creator>
+	<dc:creator>Prest, Thomas</dc:creator>
+	<dc:creator>Rivain, Matthieu</dc:creator>
+	<dc:creator>Vergnaud, Damien</dc:creator>
+	<dc:subject xml:lang="en-US">Probing Security</dc:subject>
+	<dc:subject xml:lang="en-US">Composition</dc:subject>
+	<dc:subject xml:lang="en-US">Quasilinear Masking</dc:subject>
+	<dc:subject xml:lang="en-US">IOS Notion</dc:subject>
+	<dc:description xml:lang="en-US">The probing security model is widely used to formally prove the security of masking schemes. Whenever a masked implementation can be proven secure in this model with a reasonable leakage rate, it is also provably secure in a realistic leakage model known as the noisy leakage model. This paper introduces a new framework for the composition of probing-secure circuits. We introduce the security notion of input-output separation (IOS) for a refresh gadget. From this notion, one can easily compose gadgets satisfying the classical probing security notion –which does not ensure composability on its own– to obtain a region probing secure circuit. Such a circuit is secure against an adversary placing up to t probes in each gadget composing the circuit, which ensures a tight reduction to the more realistic noisy leakage model. After introducing the notion and proving our composition theorem, we compare our approach to the composition approaches obtained with the (Strong) Non-Interference (S/NI) notions as well as the Probe-Isolating Non-Interference (PINI) notion. We further show that any uniform SNI gadget achieves the IOS security notion, while the converse is not true. We further describe a refresh gadget achieving the IOS property for any linear sharing with a quasilinear complexity Θ(n log n) and a O(1/ log n) leakage rate (for an n-size sharing). This refresh gadget is a simplified version of the quasilinear SNI refresh gadget proposed by Battistello, Coron, Prouff, and Zeitoun (ePrint 2016). As an application of our composition framework, we revisit the quasilinear-complexity masking scheme of Goudarzi, Joux and Rivain (Asiacrypt 2018). We improve this scheme by generalizing it to any base field (whereas the original proposal only applies to field with nth powers of unity) and by taking advantage of our composition approach. We further patch a flaw in the original security proof and extend it from the random probing model to the stronger region probing model. Finally, we present some application of this extended quasilinear masking scheme to AES and MiMC and compare the obtained performances.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2021-07-09</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tches.iacr.org/index.php/TCHES/article/view/8987</dc:identifier>
+	<dc:identifier>10.46586/tches.v2021.i3.599-640</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Cryptographic Hardware and Embedded Systems; Volume 2021, Issue 3; 599-640</dc:source>
+	<dc:source>2569-2925</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/8987/8564</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2021 Dahmun Goudarzi, Thomas Prest, Matthieu Rivain, Damien Vergnaud </dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0/</dc:rights>
+</oai_dc:dc>

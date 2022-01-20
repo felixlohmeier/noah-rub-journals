@@ -1,0 +1,22 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>8361</id>
+	<dc:title xml:lang="en-US">Substitution Attacks against Message Authentication</dc:title>
+	<dc:creator>Armour, Marcel</dc:creator>
+	<dc:creator>Poettering, Bertram</dc:creator>
+	<dc:subject xml:lang="en-US">Algorithm Substitution Attacks</dc:subject>
+	<dc:subject xml:lang="en-US">Authentication</dc:subject>
+	<dc:subject xml:lang="en-US">Mass Surveillance</dc:subject>
+	<dc:description xml:lang="en-US">This work introduces Algorithm Substitution Attacks (ASAs) on message authentication schemes. In light of revelations concerning mass surveillance, ASAs were initially introduced by Bellare, Paterson and Rogaway as a novel attack class against the confidentiality of encryption schemes. Such an attack replaces one or more of the regular scheme algorithms with a subverted version that aims to reveal information to an adversary (engaged in mass surveillance), while remaining undetected by users. While most prior work focused on subverting encryption systems, we study options to subvert symmetric message authentication protocols. In particular we provide powerful generic attacks that apply e.g. to HMAC or Carter–Wegman based schemes, inducing only a negligible implementation overhead. As subverted authentication can act as an enabler for subverted encryption (software updates can be manipulated to include replacements of encryption routines), we consider attacks of the new class highly impactful and dangerous.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2019-09-20</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tosc.iacr.org/index.php/ToSC/article/view/8361</dc:identifier>
+	<dc:identifier>10.13154/tosc.v2019.i3.152-168</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Symmetric Cryptology; Volume 2019, Issue 3; 152-168</dc:source>
+	<dc:source>2519-173X</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/8361/7710</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2019 Marcel Armour, Bertram Poettering</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0</dc:rights>
+</oai_dc:dc>

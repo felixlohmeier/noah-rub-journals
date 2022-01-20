@@ -1,0 +1,32 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>7279</id>
+	<dc:title xml:lang="en-US">Standard Lattice-Based Key Encapsulation on Embedded Devices</dc:title>
+	<dc:creator>Howe, James</dc:creator>
+	<dc:creator>Oder, Tobias</dc:creator>
+	<dc:creator>Krausz, Markus</dc:creator>
+	<dc:creator>Güneysu, Tim</dc:creator>
+	<dc:subject xml:lang="en-US">Post-quantum cryptography</dc:subject>
+	<dc:subject xml:lang="en-US">standard lattices</dc:subject>
+	<dc:subject xml:lang="en-US">Frodo</dc:subject>
+	<dc:subject xml:lang="en-US">KEM</dc:subject>
+	<dc:subject xml:lang="en-US">FPGA</dc:subject>
+	<dc:subject xml:lang="en-US">microcontroller</dc:subject>
+	<dc:subject xml:lang="en-US">embedded security</dc:subject>
+	<dc:subject xml:lang="en-US">hardware security</dc:subject>
+	<dc:description xml:lang="en-US">Lattice-based cryptography is one of the most promising candidates being considered to replace current public-key systems in the era of quantum computing. In 2016, Bos et al. proposed the key exchange scheme FrodoCCS, that is also a submission to the NIST post-quantum standardization process, modified as a key encapsulation mechanism (FrodoKEM). The security of the scheme is based on standard lattices and the learning with errors problem. Due to the large parameters, standard latticebased schemes have long been considered impractical on embedded devices. The FrodoKEM proposal actually comes with parameters that bring standard lattice-based cryptography within reach of being feasible on constrained devices. In this work, we take the final step of efficiently implementing the scheme on a low-cost FPGA and microcontroller devices and thus making conservative post-quantum cryptography practical on small devices. Our FPGA implementation of the decapsulation (the computationally most expensive operation) needs 7,220 look-up tables (LUTs), 3,549 flip-flops (FFs), a single DSP, and only 16 block RAM modules. The maximum clock frequency is 162 MHz and it takes 20.7 ms for the execution of the decapsulation. Our microcontroller implementation has a 66% reduced peak stack usage in comparison to the reference implementation and needs 266 ms for key pair generation, 284 ms for encapsulation, and 286 ms for decapsulation. Our results contribute to the practical evaluation of a post-quantum standardization candidate.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2018-08-16</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tches.iacr.org/index.php/TCHES/article/view/7279</dc:identifier>
+	<dc:identifier>10.13154/tches.v2018.i3.372-393</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Cryptographic Hardware and Embedded Systems; Volume 2018, Issue 3; 372-393</dc:source>
+	<dc:source>2569-2925</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/7279/6457</dc:relation>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/7279/7948</dc:relation>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/7279/7949</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2018 James Howe, Tobias Oder, Markus Krausz, Tim Güneysu</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0</dc:rights>
+</oai_dc:dc>

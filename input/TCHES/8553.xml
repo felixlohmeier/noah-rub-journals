@@ -1,0 +1,29 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>8553</id>
+	<dc:title xml:lang="en-US">Low-Latency Hardware Masking with Application to AES</dc:title>
+	<dc:creator>Sasdrich, Pascal</dc:creator>
+	<dc:creator>Bilgin, Begül</dc:creator>
+	<dc:creator>Hutter, Michael</dc:creator>
+	<dc:creator>Marson, Mark E. </dc:creator>
+	<dc:subject xml:lang="en-US">AES</dc:subject>
+	<dc:subject xml:lang="en-US">Low-Latency Hardware</dc:subject>
+	<dc:subject xml:lang="en-US">LMDPL</dc:subject>
+	<dc:subject xml:lang="en-US">Masking</dc:subject>
+	<dc:subject xml:lang="en-US">Secure Logic Styles</dc:subject>
+	<dc:subject xml:lang="en-US">Differential Power Analysis</dc:subject>
+	<dc:subject xml:lang="en-US">TVLA</dc:subject>
+	<dc:subject xml:lang="en-US">Embedded Security</dc:subject>
+	<dc:description xml:lang="en-US">During the past two decades there has been a great deal of research published on masked hardware implementations of AES and other cryptographic primitives. Unfortunately, many hardware masking techniques can lead to increased latency compared to unprotected circuits for algorithms such as AES, due to the high-degree of nonlinear functions in their designs. In this paper, we present a hardware masking technique which does not increase the latency for such algorithms. It is based on the LUT-based Masked Dual-Rail with Pre-charge Logic (LMDPL) technique presented at CHES 2014. First, we show 1-glitch extended strong noninterference of a nonlinear LMDPL gadget under the 1-glitch extended probing model. We then use this knowledge to design an AES implementation which computes a full AES-128 operation in 10 cycles and a full AES-256 operation in 14 cycles. We perform practical side-channel analysis of our implementation using the Test Vector Leakage Assessment (TVLA) methodology and analyze univariate as well as bivariate t-statistics to demonstrate its DPA resistance level.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2020-03-02</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tches.iacr.org/index.php/TCHES/article/view/8553</dc:identifier>
+	<dc:identifier>10.13154/tches.v2020.i2.300-326</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Cryptographic Hardware and Embedded Systems; Volume 2020, Issue 2; 300-326</dc:source>
+	<dc:source>2569-2925</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/8553/8118</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2020 Pascal Sasdrich, Begül Bilgin, Michael Hutter, Mark E. Marson</dc:rights>
+	<dc:rights xml:lang="en-US">http://creativecommons.org/licenses/by/4.0/</dc:rights>
+</oai_dc:dc>

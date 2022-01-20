@@ -1,0 +1,27 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>8451</id>
+	<dc:title xml:lang="en-US">Deck-Based Wide Block Cipher Modes and an Exposition of the Blinded Keyed Hashing Model</dc:title>
+	<dc:creator>Gunsing, Aldo</dc:creator>
+	<dc:creator>Daemen, Joan</dc:creator>
+	<dc:creator>Mennink, Bart</dc:creator>
+	<dc:subject xml:lang="en-US">wide block cipher</dc:subject>
+	<dc:subject xml:lang="en-US">tweakable</dc:subject>
+	<dc:subject xml:lang="en-US">deck function</dc:subject>
+	<dc:subject xml:lang="en-US">double-decker</dc:subject>
+	<dc:subject xml:lang="en-US">docked-double-decker</dc:subject>
+	<dc:subject xml:lang="en-US">disk encryption</dc:subject>
+	<dc:subject xml:lang="en-US">incremental tweak</dc:subject>
+	<dc:description xml:lang="en-US">We present two tweakable wide block cipher modes from doubly-extendable cryptographic keyed (deck) functions and a keyed hash function: double-decker and docked-double-decker. Double-decker is a direct generalization of Farfalle-WBC of Bertoni et al. (ToSC 2017(4)), and is a four-round Feistel network on two arbitrarily large branches, where the middle two rounds call deck functions and the first and last rounds call the keyed hash function. Docked-double-decker is a variant of double-decker where the bulk of the input to the deck functions is moved to the keyed hash functions. We prove that the distinguishing advantage of the resulting wide block ciphers is simply two times the sum of the pseudorandom function distinguishing advantage of the deck function and the blinded keyed hashing distinguishing advantage of the keyed hash functions. We demonstrate that blinded keyed hashing is more general than the conventional notion of XOR-universality, and that it allows us to instantiate our constructions with keyed hash functions that have a very strong claim on bkh security but not necessarily on XOR-universality, such as Xoofffie (ePrint 2018/767). The bounds of double-decker and docked-double-decker are moreover reduced tweak-dependent, informally meaning that collisions on the keyed hash function for different tweaks only have a limited impact. We describe two use cases that can exploit this property opportunistically to get stronger security than what would be achieved with prior solutions: SSD encryption, where each sector can only be written to a limited number of times, and incremental tweaks, where one includes the state of the system in the variable-length tweak and appends new data incrementally.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2020-01-31</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tosc.iacr.org/index.php/ToSC/article/view/8451</dc:identifier>
+	<dc:identifier>10.13154/tosc.v2019.i4.1-22</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Symmetric Cryptology; Volume 2019, Issue 4; 1-22</dc:source>
+	<dc:source>2519-173X</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/8451/8021</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2020 Aldo Gunsing, Joan Daemen, Bart Mennink </dc:rights>
+	<dc:rights xml:lang="en-US">http://creativecommons.org/licenses/by/4.0/</dc:rights>
+</oai_dc:dc>

@@ -1,0 +1,31 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>9061</id>
+	<dc:title xml:lang="en-US">Chosen Ciphertext k-Trace Attacks on Masked CCA2 Secure Kyber</dc:title>
+	<dc:creator>Hamburg, Mike</dc:creator>
+	<dc:creator>Hermelink, Julius</dc:creator>
+	<dc:creator>Primas, Robert</dc:creator>
+	<dc:creator>Samardjiska, Simona</dc:creator>
+	<dc:creator>Schamberger, Thomas</dc:creator>
+	<dc:creator>Streit, Silvan</dc:creator>
+	<dc:creator>Strieder, Emanuele</dc:creator>
+	<dc:creator>van Vredendaal, Christine</dc:creator>
+	<dc:subject xml:lang="en-US">Kyber</dc:subject>
+	<dc:subject xml:lang="en-US">NTT</dc:subject>
+	<dc:subject xml:lang="en-US">belief propagation</dc:subject>
+	<dc:subject xml:lang="en-US">side-channel attack</dc:subject>
+	<dc:subject xml:lang="en-US">CCA</dc:subject>
+	<dc:subject xml:lang="en-US">BKZ</dc:subject>
+	<dc:description xml:lang="en-US">Single-trace attacks are a considerable threat to implementations of classic public-key schemes, and their implications on newer lattice-based schemes are still not well understood. Two recent works have presented successful single-trace attacks targeting the Number Theoretic Transform (NTT), which is at the heart of many lattice-based schemes. However, these attacks either require a quite powerful side-channel adversary or are restricted to specific scenarios such as the encryption of ephemeral secrets. It is still an open question if such attacks can be performed by simpler adversaries while targeting more common public-key scenarios. In this paper, we answer this question positively. First, we present a method for crafting ring/module-LWE ciphertexts that result in sparse polynomials at the input of inverse NTT computations, independent of the used private key. We then demonstrate how this sparseness can be incorporated into a side-channel attack, thereby significantly improving noise resistance of the attack compared to previous works. The effectiveness of our attack is shown on the use-case of CCA2 secure Kyber k-module-LWE, where k ∈ {2, 3, 4}. Our k-trace attack on the long-term secret can handle noise up to a σ ≤ 1.2 in the noisy Hamming weight leakage model, also for masked implementations. A 2k-trace variant for Kyber1024 even allows noise σ ≤ 2.2 also in the masked case, with more traces allowing us to recover keys up to σ ≤ 2.7. Single-trace attack variants have a noise tolerance depending on the Kyber parameter set, ranging from σ ≤ 0.5 to σ ≤ 0.7. As a comparison, similar previous attacks in the masked setting were only successful with σ ≤ 0.5.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2021-08-11</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tches.iacr.org/index.php/TCHES/article/view/9061</dc:identifier>
+	<dc:identifier>10.46586/tches.v2021.i4.88-113</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Cryptographic Hardware and Embedded Systems; Volume 2021, Issue 4; 88-113</dc:source>
+	<dc:source>2569-2925</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/9061/8648</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2021 Mike Hamburg, Julius Hermelink, Robert Primas, Simona Samardjiska, Thomas Schamberger, Silvan Streit, Emanuele Strieder, Christine van Vredendaal</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0/</dc:rights>
+</oai_dc:dc>

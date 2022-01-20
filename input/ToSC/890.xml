@@ -1,0 +1,25 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>890</id>
+	<dc:title xml:lang="en-US">Clustering Related-Tweak Characteristics: Application to MANTIS-6</dc:title>
+	<dc:creator>Eichlseder, Maria</dc:creator>
+	<dc:creator>Kales, Daniel</dc:creator>
+	<dc:subject xml:lang="en-US">(Truncated) Differential Cryptanalysis</dc:subject>
+	<dc:subject xml:lang="en-US">TWEAKEY</dc:subject>
+	<dc:subject xml:lang="en-US">MANTIS</dc:subject>
+	<dc:description xml:lang="en-US">The TWEAKEY/STK construction is an increasingly popular approach for designing tweakable block ciphers that notably uses a linear tweakey schedule. Several recent attacks have analyzed the implications of this approach for differential cryptanalysis and other attacks that can take advantage of related tweakeys. We generalize the clustering approach of a recent differential attack on the tweakable block cipher MANTIS5 and describe a tool for efficiently finding and evaluating such clusters. More specifically, we consider the set of all differential characteristics compatible with a given truncated characteristic, tweak difference, and optional constraints for the differential. We refer to this set as a semi-truncated characteristic and estimate its probability by analyzing the distribution of compatible differences at each step. We apply this approach to find a semi-truncated differential characteristic for MANTIS6 with probability about 2−67.73 and derive a key-recovery attack with a complexity of about 255.09 chosen-plaintext queries and 255.52 computations. The data-time product is 2110.61 &amp;lt;&amp;lt; 2126.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2018-06-07</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tosc.iacr.org/index.php/ToSC/article/view/890</dc:identifier>
+	<dc:identifier>10.13154/tosc.v2018.i2.111-132</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Symmetric Cryptology; Volume 2018, Issue 2; 111-132</dc:source>
+	<dc:source>2519-173X</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/890/841</dc:relation>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/890/7565</dc:relation>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/890/7740</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2018 Maria Eichlseder, Daniel Kales</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0</dc:rights>
+</oai_dc:dc>

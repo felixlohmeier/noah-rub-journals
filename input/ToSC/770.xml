@@ -1,0 +1,28 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>770</id>
+	<dc:title xml:lang="en-US">Accurate Estimate of the Advantage of Impossible Differential Attacks</dc:title>
+	<dc:creator>Blondeau, Céline</dc:creator>
+	<dc:subject xml:lang="en-US">impossible differential</dc:subject>
+	<dc:subject xml:lang="en-US">data complexity</dc:subject>
+	<dc:subject xml:lang="en-US">time complexity</dc:subject>
+	<dc:subject xml:lang="en-US">advantage</dc:subject>
+	<dc:subject xml:lang="en-US">binomial distribution</dc:subject>
+	<dc:subject xml:lang="en-US">multivariate distribution</dc:subject>
+	<dc:subject xml:lang="en-US">multivariate hypergeometric distribution</dc:subject>
+	<dc:description xml:lang="en-US">Impossible differential attacks, which are taking advantage of differentials that cannot occur, are powerful attacks for block cipher primitives. The power of such attacks is often measured in terms of the advantage — number of key-bits found during the key sieving phase — which determines the time complexity of the exhaustive key search phase. The statistical model used to compute this advantage has been introduced in the seminal work about the resistance of the DEAL cipher to impossible differential attacks. This model, which has not been modified since the end of the 1990s, is implicitly based on the Poisson approximation of the binomial distribution. In this paper, we investigate this commonly used model and experimentally illustrate that random permutations do not follow it. Based on this observation, we propose more accurate estimates of the advantage of an impossible differential attack. The experiments illustrate the accuracy of the estimate derived from the multivariate hypergeometric distribution. The maximal advantage –using the full codebook– of an impossible differential attack is also derived.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2017-09-19</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tosc.iacr.org/index.php/ToSC/article/view/770</dc:identifier>
+	<dc:identifier>10.13154/tosc.v2017.i3.169-191</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Symmetric Cryptology; Volume 2017, Issue 3; 169-191</dc:source>
+	<dc:source>2519-173X</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/770/728</dc:relation>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/770/7609</dc:relation>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/770/7535</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2017 Céline Blondeau</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0</dc:rights>
+</oai_dc:dc>

@@ -1,0 +1,28 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>831</id>
+	<dc:title xml:lang="en-US">FPGA-based Accelerator for Post-Quantum Signature Scheme SPHINCS-256</dc:title>
+	<dc:creator>Amiet, Dorian</dc:creator>
+	<dc:creator>Curiger, Andreas</dc:creator>
+	<dc:creator>Zbinden, Paul</dc:creator>
+	<dc:subject xml:lang="en-US">FPGA architecture</dc:subject>
+	<dc:subject xml:lang="en-US">digital signature</dc:subject>
+	<dc:subject xml:lang="en-US">post-quantum cryptography</dc:subject>
+	<dc:subject xml:lang="en-US">SPHINCS-256</dc:subject>
+	<dc:subject xml:lang="en-US">computer science</dc:subject>
+	<dc:description xml:lang="en-US">In recent years, a substantial amount of research has been conducted and progress made in the area of quantum computers. Small functional prototypes have already been reported. If they scale as expected, they will eventually be able to break current public-key cryptosystems. The goal of post-quantum cryptography is to develop cryptographic systems that are secure against attacks originating from both quantum and classical computers. Frequently referred post-quantum signature schemes are based on the security of hash functions. A promising candidate in this group is SPHINCS-256. This paper presents the first FPGA-based hardware accelerator for SPHINCS-256. It can be implemented on an entry-level FPGA, occupying roughly 19,000 LUTs, 38,000 FFs and 36 BRAMs. On a Kintex-7 Xilinx FPGA, signing takes 1.53 milliseconds, and verification needs only 65 microseconds. Area and throughput of the accelerator are in a range that outperform today’s widely used RSA signature scheme. The performance can even keep up with ECDSA accelerators. Hence, SPHINCS-256 is a hot candidate to replace RSA and ECDSA in a post-quantum world.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2018-02-14</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tches.iacr.org/index.php/TCHES/article/view/831</dc:identifier>
+	<dc:identifier>10.13154/tches.v2018.i1.18-39</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Cryptographic Hardware and Embedded Systems; Volume 2018, Issue 1; 18-39</dc:source>
+	<dc:source>2569-2925</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/831/783</dc:relation>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/831/7996</dc:relation>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/831/7997</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2018 Dorian Amiet, Andreas Curiger, Paul Zbinden</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0</dc:rights>
+</oai_dc:dc>

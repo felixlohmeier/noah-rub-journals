@@ -1,0 +1,29 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>875</id>
+	<dc:title xml:lang="en-US">High-Performance FV Somewhat Homomorphic Encryption on GPUs: An Implementation using CUDA</dc:title>
+	<dc:creator>Badawi, Ahmad Al</dc:creator>
+	<dc:creator>Veeravalli, Bharadwaj</dc:creator>
+	<dc:creator>Mun, Chan Fook</dc:creator>
+	<dc:creator>Aung, Khin Mi Mi</dc:creator>
+	<dc:subject xml:lang="en-US">Homomorphic Encryption</dc:subject>
+	<dc:subject xml:lang="en-US">FV</dc:subject>
+	<dc:subject xml:lang="en-US">Parallel Processing</dc:subject>
+	<dc:subject xml:lang="en-US">GPGPU</dc:subject>
+	<dc:subject xml:lang="en-US">CUDA</dc:subject>
+	<dc:description xml:lang="en-US">Homomorphic encryption (HE) offers great capabilities that can solve a wide range of privacy-preserving computing problems. This tool allows anyone to process encrypted data producing encrypted results that only the decryption key’s owner can decrypt. Although HE has been realized in several public implementations, its performance is quite demanding. The reason for this is attributed to the huge amount of computation required by secure HE schemes. In this work, we present a CUDAbased implementation of the Fan and Vercauteren (FV) Somewhat HomomorphicEncryption (SHE) scheme. We demonstrate several algebraic tools such as the Chinese Remainder Theorem (CRT), Residual Number System (RNS) and Discrete Galois Transform (DGT) to accelerate and facilitate FV computation on GPUs. We also show how the entire FV computation can be done on GPU without multi-precision arithmetic. We compare our GPU implementation with two mature state-of-the-art implementations: 1) Microsoft SEAL v2.3.0-4 and 2) NFLlib-FV. Our implementation outperforms them and achieves on average 5.37x, 7.37x, 22.22x, 5.11x and 13.18x (resp. 2.03x, 2.94x, 27.86x, 8.53x and 18.69x) for key generation, encryption, decryption, homomorphic addition and homomorphic multiplication against SEAL-FVRNS (resp. NFLlib-FV).</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2018-05-08</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tches.iacr.org/index.php/TCHES/article/view/875</dc:identifier>
+	<dc:identifier>10.13154/tches.v2018.i2.70-95</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Cryptographic Hardware and Embedded Systems; Volume 2018, Issue 2; 70-95</dc:source>
+	<dc:source>2569-2925</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/875/827</dc:relation>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/875/7974</dc:relation>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/875/7975</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2018 Ahmad Al Badawi, Bharadwaj Veeravalli, Chan Fook Mun, Khin Mi Mi Aung</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0</dc:rights>
+</oai_dc:dc>

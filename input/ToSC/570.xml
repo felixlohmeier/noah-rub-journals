@@ -1,0 +1,32 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>570</id>
+	<dc:title xml:lang="en-US">Improved Parameter Estimates for Correlation and Capacity Deviates in Linear Cryptanalysis</dc:title>
+	<dc:creator>Blondeau, Céline</dc:creator>
+	<dc:creator>Nyberg, Kaisa</dc:creator>
+	<dc:subject xml:lang="en-US">block cipher</dc:subject>
+	<dc:subject xml:lang="en-US">linear cryptanalysis</dc:subject>
+	<dc:subject xml:lang="en-US">key-recovery attack</dc:subject>
+	<dc:subject xml:lang="en-US">multidimensional linear attack</dc:subject>
+	<dc:subject xml:lang="en-US">multiple linear attack</dc:subject>
+	<dc:subject xml:lang="en-US">key-dependency</dc:subject>
+	<dc:subject xml:lang="en-US">correlation</dc:subject>
+	<dc:subject xml:lang="en-US">capacity</dc:subject>
+	<dc:subject xml:lang="en-US">known plaintext</dc:subject>
+	<dc:subject xml:lang="en-US">distinct known plaintext</dc:subject>
+	<dc:subject xml:lang="en-US">statistical model</dc:subject>
+	<dc:description xml:lang="en-US">Statistical attacks form an important class of attacks against block ciphers. By analyzing the distribution of the statistics involved in the attack, cryptanalysts aim at providing a good estimate of the data complexity of the attack. Recently multiple papers have drawn attention to how to improve the accuracy of the estimated success probability of linear key-recovery attacks. In particular, the effect of the key on the distribution of the sample correlation and capacity has been investigated and new statistical models developed. The major problem that remains open is how to obtain accurate estimates of the mean and variance of the correlation and capacity. In this paper, we start by presenting a solution for a linear approximation which has a linear hull comprising a number of strong linear characteristics. Then we generalize this approach to multiple and multidimensional linear cryptanalysis and derive estimates of the variance of the test statistic. Our simplest estimate can be computed given the number of the strong linear approximations involved in the offline analysis and the resulting estimate of the capacity. The results tested experimentally on SMALLPRESENT-[4] show the accuracy of the estimated variance is significantly improved. As an application we give more realistic estimates of the success probability of the multidimensional linear attack of Cho on 26 rounds of PRESENT.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2017-02-03</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tosc.iacr.org/index.php/ToSC/article/view/570</dc:identifier>
+	<dc:identifier>10.13154/tosc.v2016.i2.162-191</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Symmetric Cryptology; Volume 2016, Issue 2; 162-191</dc:source>
+	<dc:source>2519-173X</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/570/512</dc:relation>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/570/7600</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2017 Céline Blondeau, Kaisa Nyberg</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0</dc:rights>
+</oai_dc:dc>

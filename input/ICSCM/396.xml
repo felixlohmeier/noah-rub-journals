@@ -1,0 +1,25 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>396</id>
+	<dc:title xml:lang="en-US">Investigation of process forces of ultrasonically assisted scratch tests</dc:title>
+	<dc:creator>Stehle, T.</dc:creator>
+	<dc:creator>Eisseler, R.</dc:creator>
+	<dc:creator>Drewle, K.</dc:creator>
+	<dc:creator>Weiland, S.</dc:creator>
+	<dc:creator>Twiefel, J.</dc:creator>
+	<dc:subject xml:lang="en-US">stone</dc:subject>
+	<dc:subject xml:lang="en-US">ultrasonic</dc:subject>
+	<dc:subject xml:lang="en-US">diamond grain</dc:subject>
+	<dc:subject xml:lang="en-US">scratch test</dc:subject>
+	<dc:subject xml:lang="en-US">cutting force</dc:subject>
+	<dc:description xml:lang="en-US">Due to their abrasive qualities, machining of hard and brittle materials is predominantly performedusing tools with geometrically indefinite cutting edge. However, these processingmethods offer only low productivity, which often can be increased by superimposing ultrasonicvibrations to the process. At the same time this hybrid process design involves great uncertainties,as influencing factors and the mechanism of action are not sufficiently describedyet. In order to close this knowledge gap, firstly the occurrences on the scale of single abrasivegrains shall be observed. This should increase the overall process understanding andreveal fundamental interrelations of machining with geometrically indefinite cutting edge. Toachieve this, scratch tests with well-defined boundary conditions will be performed, analyzedand compared. As a result of the experiments the interdependencies of process forces, cuttingspeed, ultrasonic amplitude and depth of cut will be presented.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2015-11-25</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://icscm.ub.rub.de/index.php/ICSCM/article/view/396</dc:identifier>
+	<dc:identifier>10.13154/icscm.3.2015.137-145</dc:identifier>
+	<dc:source xml:lang="en-US">International Conference on Stone and Concrete Machining (ICSCM); Vol. 3 (2015); 137-145</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://icscm.ub.rub.de/index.php/ICSCM/article/view/396/353</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2015 T. Stehle, R. Eisseler, K. Drewle, S. Weiland, J. Twiefel</dc:rights>
+</oai_dc:dc>

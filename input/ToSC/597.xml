@@ -1,0 +1,25 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>597</id>
+	<dc:title xml:lang="en-US">New techniques for trail bounds and application to differential trails in Keccak</dc:title>
+	<dc:creator>Mella, Silvia</dc:creator>
+	<dc:creator>Daemen, Joan</dc:creator>
+	<dc:creator>Van Assche, Gilles</dc:creator>
+	<dc:subject xml:lang="en-US">differential cryptanalysis</dc:subject>
+	<dc:subject xml:lang="en-US">Keccak</dc:subject>
+	<dc:subject xml:lang="en-US">trail weight bounds</dc:subject>
+	<dc:description xml:lang="en-US">We present new techniques to efficiently scan the space of high-probability differential trails in bit-oriented ciphers. Differential trails consist in sequences of state patterns that we represent as ordered lists of basic components in order to arrange them in a tree. The task of generating trails with probability above some threshold starts with the traversal of the tree. Our choice of basic components allows us to efficiently prune the tree based on the fact that we can tightly bound the probability of all descendants for any node. Then we extend the state patterns resulting from the tree traversal into longer trails using similar bounding techniques. We apply these techniques to the 4 largest Keccak-f permutations, for which we are able to scan the space of trails with weight per round of 15. This space is orders of magnitude larger than previously best result published on Keccak-f[1600] that reached 12, which in turn is orders of magnitude larger than any published results achieved with standard tools, that reached at most 9. As a result we provide new and improved bounds for the minimum weight of differential trails on 3, 4, 5 and 6 rounds. We also report on new trails that are, to the best of our knowledge, the ones with the highest known probability.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2017-03-08</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tosc.iacr.org/index.php/ToSC/article/view/597</dc:identifier>
+	<dc:identifier>10.13154/tosc.v2017.i1.329-357</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Symmetric Cryptology; Volume 2017, Issue 1; 329-357</dc:source>
+	<dc:source>2519-173X</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/597/538</dc:relation>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/597/7487</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2017 Silvia Mella, Joan Daemen, Gilles Van Assche</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0</dc:rights>
+</oai_dc:dc>

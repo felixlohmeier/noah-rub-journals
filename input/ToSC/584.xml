@@ -1,0 +1,28 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>584</id>
+	<dc:title xml:lang="en-US">LIZARD – A Lightweight Stream Cipher for Power-constrained Devices</dc:title>
+	<dc:creator>Hamann, Matthias</dc:creator>
+	<dc:creator>Krause, Matthias</dc:creator>
+	<dc:creator>Meier, Willi</dc:creator>
+	<dc:subject xml:lang="en-US">Stream Ciphers</dc:subject>
+	<dc:subject xml:lang="en-US">Lightweight Cryptography</dc:subject>
+	<dc:subject xml:lang="en-US">Time-Memory-Data Tradeoff Attacks</dc:subject>
+	<dc:subject xml:lang="en-US">FP(1)-mode</dc:subject>
+	<dc:subject xml:lang="en-US">Grain</dc:subject>
+	<dc:subject xml:lang="en-US">RFID</dc:subject>
+	<dc:description xml:lang="en-US">Time-memory-data (TMD) tradeoff attacks limit the security level of many classical stream ciphers (like E0, A5/1, Trivium, Grain) to 1/2n, where n denotes the inner state length of the underlying keystream generator. In this paper, we present Lizard, a lightweight stream cipher for power-constrained devices like passive RFID tags. Its hardware efficiency results from combining a Grain-like design with the FP(1)-mode, a recently suggested construction principle for the state initialization of stream ciphers, which offers provable 2/3n-security against TMD tradeoff attacks aiming at key recovery. Lizard uses 120-bit keys, 64-bit IVs and has an inner state length of 121 bit. It is supposed to provide 80-bit security against key recovery attacks. Lizard allows to generate up to 218 keystream bits per key/IV pair, which would be sufficient for many existing communication scenarios like Bluetooth, WLAN or HTTPS.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2017-03-08</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:format>application/vnd.openxmlformats-officedocument.presentationml.presentation</dc:format>
+	<dc:identifier>https://tosc.iacr.org/index.php/ToSC/article/view/584</dc:identifier>
+	<dc:identifier>10.13154/tosc.v2017.i1.45-79</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Symmetric Cryptology; Volume 2017, Issue 1; 45-79</dc:source>
+	<dc:source>2519-173X</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/584/525</dc:relation>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/584/7474</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2017 Matthias Hamann, Matthias Krause, Willi Meier</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0</dc:rights>
+</oai_dc:dc>

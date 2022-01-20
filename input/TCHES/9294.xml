@@ -1,0 +1,23 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>9294</id>
+	<dc:title xml:lang="en-US">MIRACLE: MIcRo-ArChitectural Leakage Evaluation: A study of micro-architectural power leakage across many devices</dc:title>
+	<dc:creator>Marshall, Ben</dc:creator>
+	<dc:creator>Page, Dan</dc:creator>
+	<dc:creator>Webb, James</dc:creator>
+	<dc:subject xml:lang="en-US">side-channel attack</dc:subject>
+	<dc:subject xml:lang="en-US">micro-architectural leakage</dc:subject>
+	<dc:subject xml:lang="en-US">device leakage modelling</dc:subject>
+	<dc:description xml:lang="en-US">In this paper, we describe an extensible experimental infrastructure for evaluating the micro-architectural leakage, based on power consumption, that stems from a physical device. Building on existing literature, we use it to systematically study 14 different devices, which span 4 different instruction set architectures and 4 different vendors. The study allows a characterisation of each device with respect to any leakage effects stemming from sources within the micro-architectural implementation. We use it, for example, to identify and document several novel leakage effects (e.g., due to speculative instruction execution), and scenarios where an assumption about leakage is non-portable between different yet compatible devices.Ours is the widest study of its kind we are aware of, and highlights a range of challenges with respect to 1) the design, implementation, and evaluation of, e.g., masking schemes, 2) construction of accurate leakage models, and 3) selection of suitable devices for experimental research. For example, in relation to 1), we cast further doubt on whether a given device upholds the assumptions required by a given masking scheme; in relation to 2), we conclude that (statistical or formal) device leakage models must include information about the micro-architecture being modelled; in relation to 3), we claim the near mono-culture of devices that dominates existing literature is insufficient to support general claims regarding leakage. This is particularly important in the context of the FIPS 140-3 standard for non-invasive side-channel evaluation.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2021-11-19</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tches.iacr.org/index.php/TCHES/article/view/9294</dc:identifier>
+	<dc:identifier>10.46586/tches.v2022.i1.175-220</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Cryptographic Hardware and Embedded Systems; Volume 2022, Issue 1; 175-220</dc:source>
+	<dc:source>2569-2925</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/9294/8860</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2021 Ben Marshall, Dan Page, James Webb</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0/</dc:rights>
+</oai_dc:dc>

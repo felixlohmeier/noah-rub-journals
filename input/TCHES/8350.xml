@@ -1,0 +1,33 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>8350</id>
+	<dc:title xml:lang="en-US">Cache-Timing Attacks on RSA Key Generation</dc:title>
+	<dc:creator>Cabrera Aldaya, Alejandro</dc:creator>
+	<dc:creator>Pereida García, Cesar</dc:creator>
+	<dc:creator>Alvarez Tapia, Luis Manuel</dc:creator>
+	<dc:creator>Brumley, Billy Bob</dc:creator>
+	<dc:subject xml:lang="en-US">applied cryptography</dc:subject>
+	<dc:subject xml:lang="en-US">public key cryptography</dc:subject>
+	<dc:subject xml:lang="en-US">RSA</dc:subject>
+	<dc:subject xml:lang="en-US">side-channel</dc:subject>
+	<dc:subject xml:lang="en-US">analysis</dc:subject>
+	<dc:subject xml:lang="en-US">timing attacks</dc:subject>
+	<dc:subject xml:lang="en-US">cache-timing attacks</dc:subject>
+	<dc:subject xml:lang="en-US">OpenSSL</dc:subject>
+	<dc:subject xml:lang="en-US">CVE-2018-0737</dc:subject>
+	<dc:description xml:lang="en-US">During the last decade, constant-time cryptographic software has quickly transitioned from an academic construct to a concrete security requirement for real-world libraries. Most of OpenSSL’s constant-time code paths are driven by cryptosystem implementations enabling a dedicated flag at runtime. This process is perilous, with several examples emerging in the past few years of the flag either not being set or software defects directly mishandling the flag. In this work, we propose a methodology to analyze security-critical software for side-channel insecure code path traversal. Applying our methodology to OpenSSL, we identify three new code paths during RSA key generation that potentially leak critical algorithm state. Exploiting one of these leaks, we design, implement, and mount a single trace cache-timing attack on the GCD computation step. We overcome several hurdles in the process, including but not limited to: (1) granularity issues due to word-size operands to the GCD function; (2) bulk processing of desynchronized trace data; (3) non-trivial error rate during information extraction; and (4) limited high-confidence information on the modulus factors. Formulating lattice problem instances after obtaining and processing this limited information, our attack achieves roughly a 27% success rate for key recovery using the empirical data from 10K trials.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2019-08-09</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tches.iacr.org/index.php/TCHES/article/view/8350</dc:identifier>
+	<dc:identifier>10.13154/tches.v2019.i4.213-242</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Cryptographic Hardware and Embedded Systems; Volume 2019, Issue 4; 213-242</dc:source>
+	<dc:source>2569-2925</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/8350/7699</dc:relation>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/8350/7853</dc:relation>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/8350/7854</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2019 Alejandro Cabrera Aldaya, Cesar Pereida García, Luis Manuel Alvarez Tapia, Billy Bob Brumley</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0</dc:rights>
+</oai_dc:dc>

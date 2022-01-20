@@ -1,0 +1,23 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>8396</id>
+	<dc:title xml:lang="en-US">Share-slicing: Friend or Foe?</dc:title>
+	<dc:creator>Gao, Si</dc:creator>
+	<dc:creator>Marshall, Ben</dc:creator>
+	<dc:creator>Page, Dan</dc:creator>
+	<dc:creator>Oswald, Elisabeth</dc:creator>
+	<dc:subject xml:lang="en-US">Masking</dc:subject>
+	<dc:subject xml:lang="en-US">Side-Channel Analysis</dc:subject>
+	<dc:description xml:lang="en-US">Masking is a well loved and widely deployed countermeasure against side channel attacks, in particular in software. Under certain assumptions (w.r.t. independence and noise level), masking provably prevents attacks up to a certain security order and leads to a predictable increase in the number of required leakages for successful attacks beyond this order. The noise level in typical processors where software masking is used may not be very high, thus low masking orders are not sufficient for real world security. Higher order masking however comes at a great cost, and therefore a number techniques have been published over the years that make such implementations more efficient via parallelisation in the form of bit or share slicing. We take two highly regarded schemes (ISW and Barthe et al.), and some corresponding open source implementations that make use of share slicing, and discuss their true security on an ARM Cortex-M0 and an ARM Cortex-M3 processor (both from the LPC series). We show that micro-architectural features of the M0 and M3 undermine the independence assumptions made in masking proofs and thus their theoretical guarantees do not translate into practice (even worse it seems unpredictable at which order leaks can be expected). Our results demonstrate how difficult it is to link theoretical security proofs to practical real-world security guarantees.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2019-11-19</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tches.iacr.org/index.php/TCHES/article/view/8396</dc:identifier>
+	<dc:identifier>10.13154/tches.v2020.i1.152-174</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Cryptographic Hardware and Embedded Systems; Volume 2020, Issue 1; 152-174</dc:source>
+	<dc:source>2569-2925</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/8396/7780</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2019 Si Gao, Ben Marshall, Dan Page, Elisabeth Oswald</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0</dc:rights>
+</oai_dc:dc>

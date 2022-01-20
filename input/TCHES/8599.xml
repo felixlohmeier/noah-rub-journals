@@ -1,0 +1,29 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>8599</id>
+	<dc:title xml:lang="en-US">Protecting against Statistical Ineffective Fault Attacks</dc:title>
+	<dc:creator>Daemen, Joan</dc:creator>
+	<dc:creator>Dobraunig, Christoph</dc:creator>
+	<dc:creator>Eichlseder, Maria</dc:creator>
+	<dc:creator>Gross, Hannes</dc:creator>
+	<dc:creator>Mendel, Florian</dc:creator>
+	<dc:creator>Primas, Robert</dc:creator>
+	<dc:subject xml:lang="en-US">Fault countermeasures</dc:subject>
+	<dc:subject xml:lang="en-US">Implementation security</dc:subject>
+	<dc:subject xml:lang="en-US">Fault attack</dc:subject>
+	<dc:subject xml:lang="en-US">Masking</dc:subject>
+	<dc:subject xml:lang="en-US">SFA</dc:subject>
+	<dc:subject xml:lang="en-US">SIFA</dc:subject>
+	<dc:description xml:lang="en-US">Statistical Ineffective Fault Attacks (SIFA) pose a threat for many practical implementations of symmetric primitives. Countermeasures against both power analysis and fault attacks typically do not prevent straightforward SIFA attacks, which require only very limited knowledge about the concrete implementation. Therefore, the exploration of countermeasures against SIFA that do not rely on protocols or physical protection mechanisms is of great interest. In this paper, we describe different countermeasure strategies against SIFA. First, we introduce an abstraction layer between the algorithmic specification of a cipher and its implementation in hardware or software to study and describe resistance against SIFA. We then show that by basing the masked implementation on permutations as building blocks, we can build circuits that withstand single-fault SIFA and DPA attacks. We show how this approach can be applied to 3-bit, 4-bit, and 5-bit S-boxes and the AES S-box. Additionally, we present a strategy based on fine-grained fault detection suitable for protecting any circuit against SIFA attacks. Although this approach may lead to a higher implementation cost due to the fine-grained detection needed, it can be used to protect arbitrary circuits and can be generalized to cover multi-fault SIFA. For single-fault SIFA protection, our countermeasures only have a small computational overhead compared to a simple combination of masking and duplication.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2020-06-19</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tches.iacr.org/index.php/TCHES/article/view/8599</dc:identifier>
+	<dc:identifier>10.13154/tches.v2020.i3.508-543</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Cryptographic Hardware and Embedded Systems; Volume 2020, Issue 3; 508-543</dc:source>
+	<dc:source>2569-2925</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/8599/8166</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2020 Joan Daemen, Christoph Dobraunig, Maria Eichlseder, Hannes Gross, Florian Mendel, Robert Primas</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0</dc:rights>
+</oai_dc:dc>

@@ -1,0 +1,27 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>884</id>
+	<dc:title xml:lang="en-US">Smashing the Implementation Records of AES S-box</dc:title>
+	<dc:creator>Reyhani-Masoleh, Arash</dc:creator>
+	<dc:creator>Taha, Mostafa</dc:creator>
+	<dc:creator>Ashmawy, Doaa</dc:creator>
+	<dc:subject xml:lang="en-US">AES S-box</dc:subject>
+	<dc:subject xml:lang="en-US">Composite/Tower Field Arithmetic</dc:subject>
+	<dc:subject xml:lang="en-US">Logic-Minimization</dc:subject>
+	<dc:subject xml:lang="en-US">Heuristics</dc:subject>
+	<dc:description xml:lang="en-US">Canright S-box has been known as the most compact S-box design since its introduction back in CHES’05. Boyar-Peralta proposed logic-minimization heuristics that could reduce the gate count of Canright S-box from 120 gates to 113 gates, however synthesis results did not reflect much improvement. In CHES’15, Ueno et al. proposed an S-box that has a slightly higher area, but significantly faster than the previous designs, hence it was the most efficient (measured by area×delay) S-box implementation to date. In this paper, we propose two new designs for the AES S-box. One design has a smaller implementation area than both Canright and the 113-gate S-boxes. Hence, our first design is the smallest AES S-box to date, breaking the 13 years implementation record of Canright. The second design is faster and smaller than the Ueno S-box. Hence, our second design is both the fastest and the most efficient S-box design to date. While doing so, we also propose new logicminimization heuristics that outperform the previous algorithms of Boyar-Peralta. Finally, we conduct an exhaustive evaluation of each and every block in the S-box circuit, using both structural and behavioral HDL modeling, to reach the optimum synergy between theoretical algorithms and technology-supported optimization tools. We show that involving the technology-supported CAD tools in the analysis results in several counter-intuitive results.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2018-05-08</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tches.iacr.org/index.php/TCHES/article/view/884</dc:identifier>
+	<dc:identifier>10.13154/tches.v2018.i2.298-336</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Cryptographic Hardware and Embedded Systems; Volume 2018, Issue 2; 298-336</dc:source>
+	<dc:source>2569-2925</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/884/835</dc:relation>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/884/7992</dc:relation>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/884/7993</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2018 Arash Reyhani-Masoleh, Mostafa Taha, Doaa Ashmawy</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0</dc:rights>
+</oai_dc:dc>

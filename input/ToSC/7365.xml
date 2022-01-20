@@ -1,0 +1,28 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>7365</id>
+	<dc:title xml:lang="en-US">Key Assignment Scheme with Authenticated Encryption</dc:title>
+	<dc:creator>Kandele, Suyash</dc:creator>
+	<dc:creator>Paul, Souradyuti</dc:creator>
+	<dc:subject xml:lang="en-US">Key assignment schemes (KAS)</dc:subject>
+	<dc:subject xml:lang="en-US">Message-locked encryption (MLE)</dc:subject>
+	<dc:subject xml:lang="en-US">Authenticated encryption (AE)</dc:subject>
+	<dc:subject xml:lang="en-US">Hierarchial access control</dc:subject>
+	<dc:subject xml:lang="en-US">Partially ordered set</dc:subject>
+	<dc:subject xml:lang="en-US">Totally ordered set</dc:subject>
+	<dc:description xml:lang="en-US">The Key Assignment Scheme (KAS) is a well-studied cryptographic primitive used for hierarchical access control (HAC) in a multilevel organisation where the classes of people with higher privileges can access files of those with lower ones. Our first contribution is the formalization of a new cryptographic primitive, namely, KAS-AE that supports the aforementioned HAC solution with an additional authenticated encryption property. Next, we present three efficient KAS-AE schemes that solve the HAC and the associated authenticated encryption problem more efficiently – both with respect to time and memory – than the existing solutions that achieve it by executing KAS and AE separately. Our first KAS-AE construction is built by using the cryptographic primitive MLE (EUROCRYPT 2013) as a black box; the other two constructions (which are the most efficient ones) have been derived by cleverly tweaking the hash function FP (Indocrypt 2012) and the authenticated encryption scheme APE (FSE 2014). This high efficiency of our constructions is critically achieved by using two techniques: design of a mechanism for reverse decryption used for reduction of time complexity, and a novel key management scheme for optimizing storage requirements when organizational hierarchy forms an arbitrary access graph (instead of a linear graph). We observe that constructing a highly efficient KAS-AE scheme using primitives other than MLE, FP and APE is a non-trivial task. We leave it as an open problem. Finally, we provide a detailed comparison of all the KAS-AE schemes.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2018-12-13</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:format>application/vnd.openxmlformats-officedocument.presentationml.presentation</dc:format>
+	<dc:identifier>https://tosc.iacr.org/index.php/ToSC/article/view/7365</dc:identifier>
+	<dc:identifier>10.13154/tosc.v2018.i4.150-196</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Symmetric Cryptology; Volume 2018, Issue 4; 150-196</dc:source>
+	<dc:source>2519-173X</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/7365/6535</dc:relation>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/7365/7543</dc:relation>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/7365/7759</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2018 Suyash Kandele, Souradyuti Paul</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0</dc:rights>
+</oai_dc:dc>

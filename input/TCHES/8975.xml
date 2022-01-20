@@ -1,0 +1,24 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>8975</id>
+	<dc:title xml:lang="en-US">Analysis and Comparison of Table-based Arithmetic to Boolean Masking</dc:title>
+	<dc:creator>Van Beirendonck, Michiel</dc:creator>
+	<dc:creator>D’Anvers, Jan-Pieter</dc:creator>
+	<dc:creator>Verbauwhede, Ingrid</dc:creator>
+	<dc:subject xml:lang="en-US">Masking</dc:subject>
+	<dc:subject xml:lang="en-US">A2B conversion</dc:subject>
+	<dc:subject xml:lang="en-US">ARM Cortex-M4</dc:subject>
+	<dc:subject xml:lang="en-US">Post-Quantum Cryptography</dc:subject>
+	<dc:description xml:lang="en-US">Masking is a popular technique to protect cryptographic implementations against side-channel attacks and comes in several variants including Boolean and arithmetic masking. Some masked implementations require conversion between these two variants, which is increasingly the case for masking of post-quantum encryption and signature schemes. One way to perform Arithmetic to Boolean (A2B) mask conversion is a table-based approach first introduced by Coron and Tchulkine, and later corrected and adapted by Debraize in CHES 2012. In this work, we show both analytically and experimentally that the table-based A2B conversion algorithm proposed by Debraize does not achieve the claimed resistance against differential power analysis due to a non-uniform masking of an intermediate variable. This non-uniformity is hard to find analytically but leads to clear leakage in experimental validation. To address the non-uniform masking issue, we propose two new A2B conversions: one that maintains efficiency at the cost of additional memory and one that trades efficiency for a reduced memory footprint. We give analytical and experimental evidence for their security, and will make their implementations, which are shown to be free from side-channel leakage in 100.000 power traces collected on the ARM Cortex-M4, available online. We conclude that when designing side-channel protection mechanisms, it is of paramount importance to perform both a theoretical analysis and an experimental validation of the method.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2021-07-09</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tches.iacr.org/index.php/TCHES/article/view/8975</dc:identifier>
+	<dc:identifier>10.46586/tches.v2021.i3.275-297</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Cryptographic Hardware and Embedded Systems; Volume 2021, Issue 3; 275-297</dc:source>
+	<dc:source>2569-2925</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/8975/8553</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2021 Michiel Van Beirendonck, Jan-Pieter D’Anvers, Ingrid Verbauwhede</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0/</dc:rights>
+</oai_dc:dc>

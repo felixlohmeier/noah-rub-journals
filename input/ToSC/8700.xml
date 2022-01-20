@@ -1,0 +1,26 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>8700</id>
+	<dc:title xml:lang="en-US">Practical seed-recovery for the PCG Pseudo-Random Number Generator</dc:title>
+	<dc:creator>Bouillaguet, Charles</dc:creator>
+	<dc:creator>Martinez, Florette</dc:creator>
+	<dc:creator>Sauvage, Julia</dc:creator>
+	<dc:subject xml:lang="en-US">Pseudo-random number generator</dc:subject>
+	<dc:subject xml:lang="en-US">guess-and-determine attack</dc:subject>
+	<dc:subject xml:lang="en-US">truncated congruential generator</dc:subject>
+	<dc:subject xml:lang="en-US">euclidean lattices</dc:subject>
+	<dc:subject xml:lang="en-US">closest vector problem</dc:subject>
+	<dc:subject xml:lang="en-US">practical attack</dc:subject>
+	<dc:description xml:lang="en-US">The Permuted Congruential Generators (PCG) are popular conventional (non-cryptographic) pseudo-random generators designed in 2014. They are used by default in the NumPy scientific computing package. Even though they are not of cryptographic strength, their designer stated that predicting their output should nevertheless be "challenging".In this article, we present a practical algorithm that recovers all the hidden parameters and reconstructs the successive internal states of the generator. This enables us to predict the next “random” numbers, and output the seeds of the generator. We have successfully executed the reconstruction algorithm using 512 bytes of challenge input; in the worst case, the process takes 20 000 CPU hours.This reconstruction algorithm makes use of cryptanalytic techniques, both symmetric and lattice-based. In particular, the most computationally expensive part is a guessand-determine procedure that solves about 252 instances of the Closest Vector Problem on a very small lattice.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2020-09-28</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tosc.iacr.org/index.php/ToSC/article/view/8700</dc:identifier>
+	<dc:identifier>10.13154/tosc.v2020.i3.175-196</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Symmetric Cryptology; Volume 2020, Issue 3; 175-196</dc:source>
+	<dc:source>2519-173X</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/8700/8292</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2020 Charles Bouillaguet, Florette Martinez, Julia Sauvage</dc:rights>
+	<dc:rights xml:lang="en-US">http://creativecommons.org/licenses/by/4.0/</dc:rights>
+</oai_dc:dc>

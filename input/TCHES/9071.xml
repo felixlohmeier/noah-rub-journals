@@ -1,0 +1,31 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>9071</id>
+	<dc:title xml:lang="en-US">LifeLine for FPGA Protection: Obfuscated Cryptography for Real-World Security</dc:title>
+	<dc:creator>Stolz, Florian</dc:creator>
+	<dc:creator>Albartus, Nils</dc:creator>
+	<dc:creator>Speith, Julian</dc:creator>
+	<dc:creator>Klix, Simon</dc:creator>
+	<dc:creator>Nasenberg, Clemens</dc:creator>
+	<dc:creator>Gula, Aiden</dc:creator>
+	<dc:creator>Fyrbiak, Marc</dc:creator>
+	<dc:creator>Paar, Christof</dc:creator>
+	<dc:creator>Güneysu, Tim</dc:creator>
+	<dc:creator>Tessier, Russell</dc:creator>
+	<dc:subject xml:lang="en-US">FPGA Security</dc:subject>
+	<dc:subject xml:lang="en-US">Hardware Obfuscation</dc:subject>
+	<dc:subject xml:lang="en-US">Software Obfuscation</dc:subject>
+	<dc:subject xml:lang="en-US">Reverse Engineering</dc:subject>
+	<dc:description xml:lang="en-US">Over the last decade attacks have repetitively demonstrated that bitstream protection for SRAM-based FPGAs is a persistent problem without a satisfying solution in practice. Hence, real-world hardware designs are prone to intellectual property infringement and malicious manipulation as they are not adequately protected against reverse-engineering.In this work, we first review state-of-the-art solutions from industry and academia and demonstrate their ineffectiveness with respect to reverse-engineering and design manipulation. We then describe the design and implementation of novel hardware obfuscation primitives based on the intrinsic structure of FPGAs. Based on our primitives, we design and implement LifeLine, a hardware design protection mechanism for FPGAs using hardware/software co-obfuscated cryptography. We show that LifeLine offers effective protection for a real-world adversary model, requires minimal integration effort for hardware designers, and retrofits to already deployed (and so far vulnerable) systems.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2021-08-11</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tches.iacr.org/index.php/TCHES/article/view/9071</dc:identifier>
+	<dc:identifier>10.46586/tches.v2021.i4.412-446</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Cryptographic Hardware and Embedded Systems; Volume 2021, Issue 4; 412-446</dc:source>
+	<dc:source>2569-2925</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/9071/8658</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2021 Florian Stolz, Nils Albartus, Julian Speith, Simon Klix, Clemens Nasenberg, Aiden Gula, Marc Fyrbiak, Christof Paar, Tim Güneysu, Russell Tessier</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0/</dc:rights>
+</oai_dc:dc>

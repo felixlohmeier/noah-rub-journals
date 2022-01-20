@@ -1,0 +1,27 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>8916</id>
+	<dc:title xml:lang="en-US">On Length Independent Security Bounds for the PMAC Family</dc:title>
+	<dc:creator>Chakraborty, Bishwajit</dc:creator>
+	<dc:creator>Chattopadhyay, Soumya</dc:creator>
+	<dc:creator>Jha, Ashwin</dc:creator>
+	<dc:creator>Nandi, Mridul</dc:creator>
+	<dc:subject xml:lang="en-US">PMAC</dc:subject>
+	<dc:subject xml:lang="en-US">PMAC1</dc:subject>
+	<dc:subject xml:lang="en-US">PMAC_Plus</dc:subject>
+	<dc:subject xml:lang="en-US">PRF</dc:subject>
+	<dc:subject xml:lang="en-US">universal hash</dc:subject>
+	<dc:subject xml:lang="en-US">tight security</dc:subject>
+	<dc:description xml:lang="en-US">At FSE 2017, Gaži et al. demonstrated a pseudorandom function (PRF) distinguisher (Gaži et al., ToSC 2016(2)) on PMAC with Ω(lq2/2n) advantage, where q, l, and n, denote the number of queries, maximum permissible query length (in terms of n-bit blocks), and block size of the underlying block cipher. This, in combination with the upper bounds of Ο(lq2/2n) (Minematsu and Matsushima, FSE 2007) and Ο(qσ/2n) (Nandi and Mandal, J. Mathematical Cryptology 2008(2)), resolved the long-standing problem of exact security of PMAC. Gaži et al. also showed that the dependency on l can be dropped (i.e. O(q2/2n) bound up to l ≤ 2n/2) for a simplified version of PMAC, called sPMAC, by replacing the Gray code-based masking in PMAC with any 4-wise independent universal hash-based masking. Recently, Naito proposed another variant of PMAC with two powering-up maskings (Naito, ToSC 2019(2)) that achieves l-free bound of O(q2/2n), provided l ≤ 2n/2. In this work, we first identify a flaw in the analysis of Naito’s PMAC variant that invalidates the security proof. Apparently, the flaw is not easy to fix under the existing proof setup. We then formulate an equivalent problem which must be solved in order to achieve l-free security bounds for this variant. Second, we show that sPMAC achieves O(q2/2n) bound for a weaker notion of universality as compared to the earlier condition of 4-wise independence. Third, we analyze the security of PMAC1 (a popular variant of PMAC) with a simple modification in the linear combination of block cipher outputs. We show that this simple modification of PMAC1 has tight security O(q2/2n) provided l ≤ 2n/4. Even if l &amp;lt; 2n/4, we still achieve same tight bound as long as total number of blocks in all queries is less than 22n/3.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2021-06-11</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tosc.iacr.org/index.php/ToSC/article/view/8916</dc:identifier>
+	<dc:identifier>10.46586/tosc.v2021.i2.423-445</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Symmetric Cryptology; Volume 2021, Issue 2; 423-445</dc:source>
+	<dc:source>2519-173X</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/8916/8492</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2021 Bishwajit Chakraborty, Soumya Chattopadhyay, Ashwin Jha, Mridul Nandi</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0/</dc:rights>
+</oai_dc:dc>

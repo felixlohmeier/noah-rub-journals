@@ -1,0 +1,28 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>8313</id>
+	<dc:title xml:lang="en-US">ZOCB and ZOTR: Tweakable Blockcipher Modes for Authenticated Encryption with Full Absorption</dc:title>
+	<dc:creator>Bao, Zhenzhen</dc:creator>
+	<dc:creator>Guo, Jian</dc:creator>
+	<dc:creator>Iwata, Tetsu</dc:creator>
+	<dc:creator>Minematsu, Kazuhiko</dc:creator>
+	<dc:subject xml:lang="en-US">ZOCB</dc:subject>
+	<dc:subject xml:lang="en-US">ZOTR</dc:subject>
+	<dc:subject xml:lang="en-US">Authenticated encryption</dc:subject>
+	<dc:subject xml:lang="en-US">Associated data</dc:subject>
+	<dc:subject xml:lang="en-US">Tweakable</dc:subject>
+	<dc:subject xml:lang="en-US">blockcipher</dc:subject>
+	<dc:subject xml:lang="en-US">Provable security</dc:subject>
+	<dc:description xml:lang="en-US">We define ZOCB and ZOTR for nonce-based authenticated encryption with associated data, and analyze their provable security. These schemes use a tweakable blockcipher (TBC) as the underlying primitive, and fully utilize its input to process a plaintext and associated data (AD). This property is commonly referred to as full absorption, and this has been explored for schemes based on a permutation or a pseudorandom function (PRF). Our schemes improve the efficiency of TBC-based counterparts of OCB and OTR called OCB3 (Krovetz and Rogaway, FSE 2011) and OTR (Minematsu, EUROCRYPT 2014). Specifically, ΘCB3 and OTR have an independent part to process AD, and our schemes integrate this process into the encryption part of a plaintext by using the tweak input of the TBC. Up to a certain length of AD, ZOCB and ZOTR completely eliminate the independent process for it. Even for longer AD, our schemes process it efficiently by fully using the tweak input of the TBC. For this purpose, based on previous tweak extension schemes for TBCs, we introduce a scheme called XTX*. To our knowledge, ZOCB and ZOTR are the first efficiency improvement of ΘCB3 and OTR in terms of the number of TBC calls. Compared to Sponge-based and PRF-based schemes, ZOCB and ZOTR allow fully parallel computation of the underlying primitive, and have a unique design feature that an authentication tag is independent of a part of AD. We present experimental results illustrating the practical efficiency gain and clarifying the efficiency cost for it with a concrete instantiation. The results show that for long input data, our schemes have gains, while we have efficiency loss for short input data.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2019-06-11</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tosc.iacr.org/index.php/ToSC/article/view/8313</dc:identifier>
+	<dc:identifier>10.13154/tosc.v2019.i2.1-54</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Symmetric Cryptology; Volume 2019, Issue 2; 1-54</dc:source>
+	<dc:source>2519-173X</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/8313/7662</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2019 Zhenzhen Bao, Jian Guo, Tetsu Iwata, Kazuhiko Minematsu</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0</dc:rights>
+</oai_dc:dc>

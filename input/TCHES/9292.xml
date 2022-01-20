@@ -1,0 +1,28 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>9292</id>
+	<dc:title xml:lang="en-US">Multi-moduli NTTs for Saber on Cortex-M3 and Cortex-M4</dc:title>
+	<dc:creator>Abdulrahman, Amin</dc:creator>
+	<dc:creator>Chen, Jiun-Peng</dc:creator>
+	<dc:creator>Chen, Yu-Jia</dc:creator>
+	<dc:creator>Hwang, Vincent</dc:creator>
+	<dc:creator>Kannwischer, Matthias J.</dc:creator>
+	<dc:creator>Yang, Bo-Yin</dc:creator>
+	<dc:subject xml:lang="en-US">NTT</dc:subject>
+	<dc:subject xml:lang="en-US">Saber</dc:subject>
+	<dc:subject xml:lang="en-US">Cortex-M4</dc:subject>
+	<dc:subject xml:lang="en-US">Cortex-M3</dc:subject>
+	<dc:subject xml:lang="en-US">NISTPQC</dc:subject>
+	<dc:description xml:lang="en-US">The U.S. National Institute of Standards and Technology (NIST) has designated ARM microcontrollers as an important benchmarking platform for its Post-Quantum Cryptography standardization process (NISTPQC). In view of this, we explore the design space of the NISTPQC finalist Saber on the Cortex-M4 and its close relation, the Cortex-M3. In the process, we investigate various optimization strategies and memory-time tradeoffs for number-theoretic transforms (NTTs).Recent work by [Chung et al., TCHES 2021 (2)] has shown that NTT multiplication is superior compared to Toom–Cook multiplication for unprotected Saber implementations on the Cortex-M4 in terms of speed. However, it remains unclear if NTT multiplication can outperform Toom–Cook in masked implementations of Saber. Additionally, it is an open question if Saber with NTTs can outperform Toom–Cook in terms of stack usage. We answer both questions in the affirmative. Additionally, we present a Cortex-M3 implementation of Saber using NTTs outperforming an existing Toom–Cook implementation. Our stack-optimized unprotected M4 implementation uses around the same amount of stack as the most stack-optimized Toom–Cook implementation while being 33%-41% faster. Our speed-optimized masked M4 implementation is 16% faster than the fastest masked implementation using Toom–Cook. For the Cortex-M3, we outperform existing implementations by 29%-35% in speed. We conclude that for both stack- and speed-optimization purposes, one should base polynomial multiplications in Saber on the NTT rather than Toom–Cook for the Cortex-M4 and Cortex-M3. In particular, in many cases, multi-moduli NTTs perform best.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2021-11-19</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tches.iacr.org/index.php/TCHES/article/view/9292</dc:identifier>
+	<dc:identifier>10.46586/tches.v2022.i1.127-151</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Cryptographic Hardware and Embedded Systems; Volume 2022, Issue 1; 127-151</dc:source>
+	<dc:source>2569-2925</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/9292/8858</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2021 Amin Abdulrahman, Jiun-Peng Chen, Yu-Jia Chen, Vincent Hwang, Matthias J. Kannwischer, Bo-Yin Yang</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0/</dc:rights>
+</oai_dc:dc>

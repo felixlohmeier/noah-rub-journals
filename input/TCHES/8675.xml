@@ -1,0 +1,24 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>8675</id>
+	<dc:title xml:lang="en-US">A Hybrid-CPU-FPGA-based Solution to the Recovery of Sha256crypt-hashed Passwords</dc:title>
+	<dc:creator>Zhang, Zhendong</dc:creator>
+	<dc:creator>Liu, Peng</dc:creator>
+	<dc:subject xml:lang="en-US">Password recovery</dc:subject>
+	<dc:subject xml:lang="en-US">Linux security</dc:subject>
+	<dc:subject xml:lang="en-US">FPGA</dc:subject>
+	<dc:subject xml:lang="en-US">sha256crypt</dc:subject>
+	<dc:subject xml:lang="en-US">key derivation function</dc:subject>
+	<dc:description xml:lang="en-US">This paper presents an accelerator design for the password recovery of sha256crypt based on hybrid CPU-FPGA devices. By applying the brute-force attack computation model proposed in this paper, we decompose the sha256crypt function into two types of operations, namely the data dispatching and the block transforming. The data dispatching operation generates message blocks and the block transforming operation transforms message blocks into digests. These two operations are efficiently accelerated by the customized data dispatch unit and the pipelined block transform unit, respectively. Difficulties of adopting the pipeline technique are addressed also with the following techniques. The group scheduling is used to solve the data dependency that stalls the pipeline. The look-ahead execution eliminates the uncertainty of the execution path. The data path pruning and spatial-temporal multiplexing reduce the resource overhead of non-computing units.The proposed accelerator design is implemented and evaluated on the Xilinx Zynq-7000 XC7Z030-3 SoC. Our experimental results show that the proposed accelerator can improve energy efficiency by 2.54x over the state-of-the-art password recovery tool Hashcat running on an NVIDIA GTX1080Ti GPU. Compared with the pure FPGA-based implementation in John-the-Ripper, the proposed accelerator improves energy efficiency by 1.64x and improves resource efficiency by 1.69x.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2020-08-26</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tches.iacr.org/index.php/TCHES/article/view/8675</dc:identifier>
+	<dc:identifier>10.13154/tches.v2020.i4.1-23</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Cryptographic Hardware and Embedded Systems; Volume 2020, Issue 4; 1-23</dc:source>
+	<dc:source>2569-2925</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/8675/8234</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2020 Zhendong Zhang, Peng Liu</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0/</dc:rights>
+</oai_dc:dc>

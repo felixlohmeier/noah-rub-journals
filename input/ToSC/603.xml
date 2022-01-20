@@ -1,0 +1,30 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>603</id>
+	<dc:title xml:lang="en-US">On The Exact Security of Message Authentication Using Pseudorandom Functions</dc:title>
+	<dc:creator>Jha, Ashwin</dc:creator>
+	<dc:creator>Mandal, Avradip</dc:creator>
+	<dc:creator>Nandi, Mridul</dc:creator>
+	<dc:subject xml:lang="en-US">MAC</dc:subject>
+	<dc:subject xml:lang="en-US">CBC</dc:subject>
+	<dc:subject xml:lang="en-US">EMAC</dc:subject>
+	<dc:subject xml:lang="en-US">XCBC</dc:subject>
+	<dc:subject xml:lang="en-US">FCBC</dc:subject>
+	<dc:subject xml:lang="en-US">TMAC</dc:subject>
+	<dc:subject xml:lang="en-US">domain preserving PRF</dc:subject>
+	<dc:subject xml:lang="en-US">PRP</dc:subject>
+	<dc:description xml:lang="en-US">Traditionally, modes of Message Authentication Codes(MAC) such as Cipher Block Chaining (CBC) are instantiated using block ciphers or keyed Pseudo Random Permutations(PRP). However, one can also use domain preserving keyed Pseudo Random Functions(PRF) to instantiate MAC modes. The very first security proof of CBC-MAC [BKR00], essentially modeled the PRP as a PRF. Until now very little work has been done to investigate the difference between PRP vs PRF instantiations. Only known result is the rather loose folklore PRP-PRF transition of any PRP based security proof, which looses a factor of Ο( σ2/2n ) (domain of PRF/PRP is {0, 1}n and adversary makes σ many PRP/PRF calls in total). This loss is significant, considering the fact tight Θ( q2/2n ) security bounds have been known for PRP based EMAC and ECBC constructions (where q is the total number of adversary queries). In this work, we show for many variations of encrypted CBC MACs (i.e. EMAC, ECBC, FCBC, XCBC and TCBC), random function based instantiation has a security bound Ο( qσ/2n ). This is a significant improvement over the folklore PRP/PRF transition. We also show this bound is optimal by providing an attack against the underlying PRF based CBC construction. This shows for EMAC, ECBC and FCBC, PRP instantiations are substantially more secure than PRF instantiations. Where as, for XCBC and TMAC, PRP instantiations are at least as secure as PRF instantiations.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2017-03-08</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tosc.iacr.org/index.php/ToSC/article/view/603</dc:identifier>
+	<dc:identifier>10.13154/tosc.v2017.i1.427-448</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Symmetric Cryptology; Volume 2017, Issue 1; 427-448</dc:source>
+	<dc:source>2519-173X</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/603/544</dc:relation>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/603/7481</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2017 Ashwin Jha, Avradip Mandal, Mridul Nandi</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0</dc:rights>
+</oai_dc:dc>

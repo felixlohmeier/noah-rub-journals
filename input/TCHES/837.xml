@@ -1,0 +1,28 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>837</id>
+	<dc:title xml:lang="en-US">Mixing Additive and Multiplicative Masking for Probing Secure Polynomial Evaluation Methods</dc:title>
+	<dc:creator>Mathieu-Mahias, Axel</dc:creator>
+	<dc:creator>Quisquater, Michaël</dc:creator>
+	<dc:subject xml:lang="en-US">Side-channel countermeasure</dc:subject>
+	<dc:subject xml:lang="en-US">Masking</dc:subject>
+	<dc:subject xml:lang="en-US">Polynomial evaluation</dc:subject>
+	<dc:subject xml:lang="en-US">Probing security</dc:subject>
+	<dc:subject xml:lang="en-US">Block cipher</dc:subject>
+	<dc:subject xml:lang="en-US">Authenticated encryption</dc:subject>
+	<dc:description xml:lang="en-US">Masking is a sound countermeasure to protect implementations of block- cipher algorithms against Side Channel Analysis (SCA). Currently, the most efficient masking schemes use Lagrange’s Interpolation Theorem in order to represent any S- box by a polynomial function over a binary finite field. Masking the processing of an S-box is then achieved by masking every operation involved in the evaluation of its polynomial representation. While the common approach requires to use the well- known Ishai-Sahai-Wagner (ISW) scheme in order to secure this processing, there exist alternatives. In the particular case of power functions, Genelle, Prouff and Quisquater proposed an efficient masking scheme (GPQ). However, no generalization has been suggested for polynomial functions so far. In this paper, we solve the open problem of extending GPQ for polynomials, and we also solve the open problem of proving that both the original scheme and its variants for polynomials satisfy the t-SNI security definition. Our approach to extend GPQ is based on the cyclotomic method and results in an alternate cyclotomic method which is three times faster in practice than the original proposal in almost all scenarios we address. The best- known method for polynomial evaluation is currently CRV which requires to use the cyclotomic method for one of its step. We also show how to plug our alternate cyclo- tomic approach into CRV and again provide an alternate approach that outperforms the original in almost all scenarios. We consider the masking of n-bit S-boxes for n ∈ [4;8] and we get in practice 35% improvement of efficiency for S-boxes with dimension n ∈ {5,7,8} and 25% for 6-bit S-boxes.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2018-02-14</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tches.iacr.org/index.php/TCHES/article/view/837</dc:identifier>
+	<dc:identifier>10.13154/tches.v2018.i1.175-208</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Cryptographic Hardware and Embedded Systems; Volume 2018, Issue 1; 175-208</dc:source>
+	<dc:source>2569-2925</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/837/789</dc:relation>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/837/8010</dc:relation>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/837/8011</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2018 Axel Mathieu-Mahias, Michaël Quisquater</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0</dc:rights>
+</oai_dc:dc>

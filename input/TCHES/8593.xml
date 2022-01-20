@@ -1,0 +1,30 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>8593</id>
+	<dc:title xml:lang="en-US">Cortex-M4 optimizations for {R,M} LWE schemes</dc:title>
+	<dc:creator>Alkim, Erdem</dc:creator>
+	<dc:creator>Alper Bilgin, Yusuf</dc:creator>
+	<dc:creator>Cenk, Murat</dc:creator>
+	<dc:creator>Gérard, François</dc:creator>
+	<dc:subject xml:lang="en-US">ARM Cortex-M4</dc:subject>
+	<dc:subject xml:lang="en-US">Post-quantum key encapsulation</dc:subject>
+	<dc:subject xml:lang="en-US">lattice-based cryptography</dc:subject>
+	<dc:subject xml:lang="en-US">RLWE</dc:subject>
+	<dc:subject xml:lang="en-US">MLWE</dc:subject>
+	<dc:subject xml:lang="en-US">NTT</dc:subject>
+	<dc:subject xml:lang="en-US">Kyber</dc:subject>
+	<dc:subject xml:lang="en-US">NewHope</dc:subject>
+	<dc:subject xml:lang="en-US">NewHope-Compact</dc:subject>
+	<dc:description xml:lang="en-US">This paper proposes various optimizations for lattice-based key encapsulation mechanisms (KEM) using the Number Theoretic Transform (NTT) on the popular ARM Cortex-M4 microcontroller. Improvements come in the form of a faster code using more efficient modular reductions, optimized small-degree polynomial multiplications, and more aggressive layer merging in the NTT, but also in the form of reduced stack usage. We test our optimizations in software implementations of Kyber and NewHope, both round 2 candidates in the NIST post-quantum project, and also NewHope-Compact, a recently proposed variant of NewHope with smaller parameters. Our software is the first implementation of NewHope-Compact on the Cortex-M4 and shows speed improvements over previous high-speed implementations of Kyber and NewHope. Moreover, it gives a common framework to compare those schemes with the same level of optimization. Our results show that NewHope- Compact is the fastest scheme, followed by Kyber, and finally NewHope, which seems to suffer from its large modulus and error distribution for small dimensions.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2020-06-19</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tches.iacr.org/index.php/TCHES/article/view/8593</dc:identifier>
+	<dc:identifier>10.13154/tches.v2020.i3.336-357</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Cryptographic Hardware and Embedded Systems; Volume 2020, Issue 3; 336-357</dc:source>
+	<dc:source>2569-2925</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/8593/8160</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2020 Erdem Alkim, Yusuf Alper Bilgin, Murat Cenk, François Gérard</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0</dc:rights>
+</oai_dc:dc>

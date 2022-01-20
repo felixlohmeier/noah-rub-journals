@@ -1,0 +1,28 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>638</id>
+	<dc:title xml:lang="en-US">Human-readable Proof of the Related-Key Security of AES-128</dc:title>
+	<dc:creator>Khoo, Khoongming</dc:creator>
+	<dc:creator>Lee, Eugene</dc:creator>
+	<dc:creator>Peyrin, Thomas</dc:creator>
+	<dc:creator>Sim, Siang Meng</dc:creator>
+	<dc:subject xml:lang="en-US">AES</dc:subject>
+	<dc:subject xml:lang="en-US">related-key differential attack</dc:subject>
+	<dc:subject xml:lang="en-US">security proof</dc:subject>
+	<dc:subject xml:lang="en-US">key schedule</dc:subject>
+	<dc:description xml:lang="en-US">The related-key model is now considered an important scenario for block cipher security and many schemes were broken in this model, even AES-192 and AES-256. Recently were introduced efficient computer-based search tools that can produce the best possible related-key truncated differential paths for AES. However, one has to trust the implementation of these tools and they do not provide any meaningful information on how to design a good key schedule, which remains a challenge for the community as of today. We provide in this article the first human-readable proof on the minimal number of active Sboxes in the related-key model for AES-128, without any help from a computer. More precisely, we show that any related-key differential path for AES-128 will respectively contain at least 0, 1, 3 and 9 active Sboxes for 1, 2, 3 and 4 rounds. Our proof is tight, not trivial, and actually exhibits for the first time the interplay between the key state and the internal state of an AES-like block cipher with an AES-like key schedule. As application example, we leverage our proofs to propose a new key schedule, that is not only faster (a simple permutation on the byte positions) but also ensures a higher number of active Sboxes than AES-128’s key schedule. We believe this is an important step towards a good understanding of efficient and secure key schedule designs.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2017-06-19</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tosc.iacr.org/index.php/ToSC/article/view/638</dc:identifier>
+	<dc:identifier>10.13154/tosc.v2017.i2.59-83</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Symmetric Cryptology; Volume 2017, Issue 2; 59-83</dc:source>
+	<dc:source>2519-173X</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/638/606</dc:relation>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/638/7580</dc:relation>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/638/7497</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2017 Khoongming Khoo, Eugene Lee, Thomas Peyrin, Siang Meng Sim</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0</dc:rights>
+</oai_dc:dc>

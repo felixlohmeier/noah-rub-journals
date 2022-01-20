@@ -1,0 +1,24 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>8402</id>
+	<dc:title xml:lang="en-US">A Comprehensive Study of Deep Learning for Side-Channel Analysis</dc:title>
+	<dc:creator>Masure, Loïc</dc:creator>
+	<dc:creator>Dumas, Cécile</dc:creator>
+	<dc:creator>Prouff, Emmanuel</dc:creator>
+	<dc:subject xml:lang="en-US">Side-Channel Analysis</dc:subject>
+	<dc:subject xml:lang="en-US">Profiling Attacks</dc:subject>
+	<dc:subject xml:lang="en-US">machine learning</dc:subject>
+	<dc:subject xml:lang="en-US">deep learning</dc:subject>
+	<dc:description xml:lang="en-US">Recently, several studies have been published on the application of deep learning to enhance Side-Channel Attacks (SCA). These seminal works have practically validated the soundness of the approach, especially against implementations protected by masking or by jittering. Concurrently, important open issues have emerged. Among them, the relevance of machine (and thereby deep) learning based SCA has been questioned in several papers based on the lack of relation between the accuracy, a typical performance metric used in machine learning, and common SCA metrics like the Guessing entropy or the key-discrimination success rate. Also, the impact of the classical side-channel counter-measures on the efficiency of deep learning has been questioned, in particular by the semi-conductor industry. Both questions enlighten the importance of studying the theoretical soundness of deep learning in the context of side-channel and of developing means to quantify its efficiency, especially with respect to the optimality bounds published so far in the literature for side-channel leakage exploitation. The first main contribution of this paper directly concerns the latter point. It is indeed proved that minimizing the Negative Log Likelihood (NLL for short) loss function during the training of deep neural networks is actually asymptotically equivalent to maximizing the Perceived Information introduced by Renauld et al. at EUROCRYPT 2011 as a lower bound of the Mutual Information between the leakage and the target secret. Hence, such a training can be considered as an efficient and effective estimation of the PI, and thereby of the MI (known to be complex to accurately estimate in the context of secure implementations). As a second direct consequence of our main contribution, it is argued that, in a side-channel exploitation context, choosing the NLL loss function to drive the training is sound from an information theory point of view. As a third contribution, classical counter-measures like Boolean masking or execution flow shuffling, initially dedicated to classical SCA, are proved to stay sound against deep Learning based attacks.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2019-11-19</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tches.iacr.org/index.php/TCHES/article/view/8402</dc:identifier>
+	<dc:identifier>10.13154/tches.v2020.i1.348-375</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Cryptographic Hardware and Embedded Systems; Volume 2020, Issue 1; 348-375</dc:source>
+	<dc:source>2569-2925</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/8402/7786</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2019 Loïc Masure, Cécile Dumas, Emmanuel Prouff</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0</dc:rights>
+</oai_dc:dc>

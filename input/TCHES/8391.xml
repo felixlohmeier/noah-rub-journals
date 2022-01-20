@@ -1,0 +1,28 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>8391</id>
+	<dc:title xml:lang="en-US">Methodology for Efficient CNN Architectures in Profiling Attacks</dc:title>
+	<dc:creator>Zaid, Gabriel</dc:creator>
+	<dc:creator>Bossuet, Lilian</dc:creator>
+	<dc:creator>Habrard, Amaury</dc:creator>
+	<dc:creator>Venelli, Alexandre</dc:creator>
+	<dc:subject xml:lang="en-US">Side-Channel Attacks</dc:subject>
+	<dc:subject xml:lang="en-US">Deep Learning</dc:subject>
+	<dc:subject xml:lang="en-US">Architecture</dc:subject>
+	<dc:subject xml:lang="en-US">Weight Visualization</dc:subject>
+	<dc:subject xml:lang="en-US">Heatmap</dc:subject>
+	<dc:subject xml:lang="en-US">Feature selection</dc:subject>
+	<dc:subject xml:lang="en-US">Desynchronization</dc:subject>
+	<dc:description xml:lang="en-US">The side-channel community recently investigated a new approach, based on deep learning, to significantly improve profiled attacks against embedded systems. Previous works have shown the benefit of using convolutional neural networks (CNN) to limit the effect of some countermeasures such as desynchronization. Compared with template attacks, deep learning techniques can deal with trace misalignment and the high dimensionality of the data. Pre-processing is no longer mandatory. However, the performance of attacks depends to a great extent on the choice of each hyperparameter used to configure a CNN architecture. Hence, we cannot perfectly harness the potential of deep neural networks without a clear understanding of the network’s inner-workings. To reduce this gap, we propose to clearly explain the role of each hyperparameters during the feature selection phase using some specific visualization techniques including Weight Visualization, Gradient Visualization and Heatmaps. By highlighting which features are retained by filters, heatmaps come in handy when a security evaluator tries to interpret and understand the efficiency of CNN. We propose a methodology for building efficient CNN architectures in terms of attack efficiency and network complexity, even in the presence of desynchronization. We evaluate our methodology using public datasets with and without desynchronization. In each case, our methodology outperforms the previous state-of-the-art CNN models while significantly reducing network complexity. Our networks are up to 25 times more efficient than previous state-of-the-art while their complexity is up to 31810 times smaller. Our results show that CNN networks do not need to be very complex to perform well in the side-channel context.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2019-11-19</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tches.iacr.org/index.php/TCHES/article/view/8391</dc:identifier>
+	<dc:identifier>10.13154/tches.v2020.i1.1-36</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Cryptographic Hardware and Embedded Systems; Volume 2020, Issue 1; 1-36</dc:source>
+	<dc:source>2569-2925</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/8391/7787</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2019 Gabriel Zaid, Lilian Bossuet, Amaury Habrard, Alexandre Venelli</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0</dc:rights>
+</oai_dc:dc>

@@ -1,0 +1,26 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>9078</id>
+	<dc:title xml:lang="en-US">Rainbow on Cortex-M4</dc:title>
+	<dc:creator>Chou, Tung</dc:creator>
+	<dc:creator>Kannwischer, Matthias J.</dc:creator>
+	<dc:creator>Yang, Bo-Yin</dc:creator>
+	<dc:subject xml:lang="en-US">Rainbow</dc:subject>
+	<dc:subject xml:lang="en-US">NISTPQC</dc:subject>
+	<dc:subject xml:lang="en-US">Cortex-M4</dc:subject>
+	<dc:subject xml:lang="en-US">MQ signatures</dc:subject>
+	<dc:subject xml:lang="en-US">finite field arithmetic</dc:subject>
+	<dc:description xml:lang="en-US">We present the first Cortex-M4 implementation of the NISTPQC signature finalist Rainbow. We target the Giant Gecko EFM32GG11B which comes with 512 kB of RAM which can easily accommodate the keys of RainbowI.We present fast constant-time bitsliced F16 multiplication allowing multiplication of 32 field elements in 32 clock cycles. Additionally, we introduce a new way of computing the public map P in the verification procedure allowing vastly faster signature verification.Both the signing and verification procedures of our implementation are by far the fastest among the NISTPQC signature finalists. Signing of rainbowIclassic requires roughly 957 000 clock cycles which is 4× faster than the state of the art Dilithium2 implementation and 45× faster than Falcon-512. Verification needs about 239 000 cycles which is 5× and 2× faster respectively. The cost of signing can be further decreased by 20% when storing the secret key in a bitsliced representation.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2021-08-11</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tches.iacr.org/index.php/TCHES/article/view/9078</dc:identifier>
+	<dc:identifier>10.46586/tches.v2021.i4.650-675</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Cryptographic Hardware and Embedded Systems; Volume 2021, Issue 4; 650-675</dc:source>
+	<dc:source>2569-2925</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/9078/8665</dc:relation>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/9078/8707</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2021 Tung Chou, Matthias J. Kannwischer, Bo-Yin Yang</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0/</dc:rights>
+</oai_dc:dc>

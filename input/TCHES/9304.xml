@@ -1,0 +1,29 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>9304</id>
+	<dc:title xml:lang="en-US">A Finer-Grain Analysis of the Leakage (Non) Resilience of OCB</dc:title>
+	<dc:creator>Berti, Francesco</dc:creator>
+	<dc:creator>Bhasin, Shivam</dc:creator>
+	<dc:creator>Breier, Jakub</dc:creator>
+	<dc:creator>Hou, Xiaolu</dc:creator>
+	<dc:creator>Poussier, Romain</dc:creator>
+	<dc:creator>Standaert, François-Xavier</dc:creator>
+	<dc:creator>Udvarhelyi, Balasz</dc:creator>
+	<dc:subject xml:lang="en-US">OCB</dc:subject>
+	<dc:subject xml:lang="en-US">side-channel attacks</dc:subject>
+	<dc:subject xml:lang="en-US">horizontal DPA</dc:subject>
+	<dc:subject xml:lang="en-US">worst-case SPA</dc:subject>
+	<dc:subject xml:lang="en-US">leakage-resilience</dc:subject>
+	<dc:description xml:lang="en-US">OCB3 is one of the winners of the CAESAR competition and is among the most popular authenticated encryption schemes. In this paper, we put forward a fine-grain study of its security against side-channel attacks. We start from trivial key recoveries in settings where the mode can be attacked with standard Differential Power Analysis (DPA) against some block cipher calls in its execution (namely, initialization, processing of associated data or last incomplete block and decryption). These attacks imply that at least these parts must be strongly protected thanks to countermeasures like masking. We next show that if these block cipher calls of the mode are protected, practical attacks on the remaining block cipher calls remain possible. A first option is to mount a DPA with unknown inputs. A more efficient option is to mount a DPA that exploits horizontal relations between consecutive input whitening values. It allows trading a significantly reduced data complexity for a higher key guessing complexity and turns out to be the best attack vector in practical experiments performed against an implementation of OCB3 in an ARM Cortex-M0. Eventually, we consider an implementation where all the block cipher calls are protected. We first show that exploiting the leakage of the whitening values requires mounting a Simple Power Analysis (SPA) against linear operations. We then show that despite being more challenging than when applied to non-linear operations, such an SPA remains feasible against 8-bit implementations, leaving its generalization to larger implementations as an interesting open problem. We last describe how recovering the whitening values can lead to strong attacks against the confidentiality and integrity of OCB3. Thanks to this comprehensive analysis, we draw concrete requirements for side-channel resistant implementations of OCB3.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2021-11-19</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tches.iacr.org/index.php/TCHES/article/view/9304</dc:identifier>
+	<dc:identifier>10.46586/tches.v2022.i1.461-481</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Cryptographic Hardware and Embedded Systems; Volume 2022, Issue 1; 461-481</dc:source>
+	<dc:source>2569-2925</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/9304/8870</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2021 Francesco Berti, Shivam Bhasin, Jakub Breier, Xiaolu Hou, Romain Poussier, François-Xavier Standaert, Balasz Udvarhelyi</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0/</dc:rights>
+</oai_dc:dc>

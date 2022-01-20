@@ -1,0 +1,26 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>8729</id>
+	<dc:title xml:lang="en-US">The design of scalar AES Instruction Set Extensions for RISC-V</dc:title>
+	<dc:creator>Marshall, Ben</dc:creator>
+	<dc:creator>Newell, G. Richard </dc:creator>
+	<dc:creator>Page, Dan</dc:creator>
+	<dc:creator>Saarinen, Markku-Juhani O. </dc:creator>
+	<dc:creator>Wolf, Claire</dc:creator>
+	<dc:subject xml:lang="en-US">ISE</dc:subject>
+	<dc:subject xml:lang="en-US">AES</dc:subject>
+	<dc:subject xml:lang="en-US">RISC-V</dc:subject>
+	<dc:description xml:lang="en-US">Secure, efficient execution of AES is an essential requirement on most computing platforms. Dedicated Instruction Set Extensions (ISEs) are often included for this purpose. RISC-V is a (relatively) new ISA that lacks such a standardized ISE. We survey the state-of-the-art industrial and academic ISEs for AES, implement and evaluate five different ISEs, one of which is novel. We recommend separate ISEs for 32 and 64-bit base architectures, with measured performance improvements for an AES-128 block encryption of 4x and 10x with a hardware cost of 1.1K and 8.2K gates respectively, when compared to a software-only implementation based on use of T-tables. We also explore how the proposed standard bit-manipulation extension to RISC-V can be harnessed for efficient implementation of AES-GCM. Our work supports the ongoing RISC-V cryptography extension standardisation process.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2020-12-03</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tches.iacr.org/index.php/TCHES/article/view/8729</dc:identifier>
+	<dc:identifier>10.46586/tches.v2021.i1.109-136</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Cryptographic Hardware and Embedded Systems; Volume 2021, Issue 1; 109-136</dc:source>
+	<dc:source>2569-2925</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/8729/8329</dc:relation>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/8729/8601</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2020 Ben Marshall, G. Richard Newell, Dan Page, Markku-Juhani O. Saarinen, Claire Wolf</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0/</dc:rights>
+</oai_dc:dc>

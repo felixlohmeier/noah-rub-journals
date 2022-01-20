@@ -1,0 +1,29 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>8731</id>
+	<dc:title xml:lang="en-US">DAPA: Differential Analysis aided Power Attack on (Non-) Linear Feedback Shift Registers</dc:title>
+	<dc:creator>Sim, Siang Meng </dc:creator>
+	<dc:creator>Jap, Dirmanto</dc:creator>
+	<dc:creator>Bhasin, Shivam</dc:creator>
+	<dc:subject xml:lang="en-US">SCA</dc:subject>
+	<dc:subject xml:lang="en-US">Power analysis</dc:subject>
+	<dc:subject xml:lang="en-US">LFSR</dc:subject>
+	<dc:subject xml:lang="en-US">NLFSR</dc:subject>
+	<dc:subject xml:lang="en-US">Fresh re-keying scheme</dc:subject>
+	<dc:subject xml:lang="en-US">Keymill</dc:subject>
+	<dc:subject xml:lang="en-US">LR-Keymill</dc:subject>
+	<dc:subject xml:lang="en-US">Stream cipher</dc:subject>
+	<dc:subject xml:lang="en-US">Trivium</dc:subject>
+	<dc:description xml:lang="en-US">Differential power analysis (DPA) is a form of side-channel analysis (SCA) that performs statistical analysis on the power traces of cryptographic computations. DPA is applicable to many cryptographic primitives, including block ciphers, stream ciphers and even hash-based message authentication code (HMAC). At COSADE 2017, Dobraunig et al. presented a DPA on the fresh re-keying scheme Keymill to extract the bit relations of neighbouring bits in its shift registers, reducing the internal state guessing space from 128 to 4 bits. In this work, we generalise their methodology and combine with differential analysis, we called it differential analysis aided power attack (DAPA), to uncover more bit relations and take into account the linear or non-linear functions that feedback to the shift registers (i.e. LFSRs or NLFSRs). Next, we apply our DAPA on LR-Keymill, the improved version of Keymill designed to resist the aforementioned DPA, and breaks its 67.9-bit security claim with a 4-bit internal state guessing. We experimentally verified our analysis. In addition, we improve the previous DPA on Keymill by halving the amount of data resources needed for the attack. We also applied our DAPA to Trivium, a hardware-oriented stream cipher from the eSTREAM portfolio and reduces the key guessing space from 80 to 14 bits.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2020-12-03</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tches.iacr.org/index.php/TCHES/article/view/8731</dc:identifier>
+	<dc:identifier>10.46586/tches.v2021.i1.169-191</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Cryptographic Hardware and Embedded Systems; Volume 2021, Issue 1; 169-191</dc:source>
+	<dc:source>2569-2925</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/8731/8331</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2020 Siang Meng Sim, Dirmanto Jap, Shivam Bhasin</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0/</dc:rights>
+</oai_dc:dc>

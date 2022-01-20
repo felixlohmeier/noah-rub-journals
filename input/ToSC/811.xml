@@ -1,0 +1,31 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>811</id>
+	<dc:title xml:lang="en-US">Single Key Variant of PMAC_Plus</dc:title>
+	<dc:creator>Datta, Nilanjan</dc:creator>
+	<dc:creator>Dutta, Avijit</dc:creator>
+	<dc:creator>Nandi, Mridul</dc:creator>
+	<dc:creator>Paul, Goutam</dc:creator>
+	<dc:creator>Zhang, Liting</dc:creator>
+	<dc:subject xml:lang="en-US">PMAC</dc:subject>
+	<dc:subject xml:lang="en-US">PMAC_Plus</dc:subject>
+	<dc:subject xml:lang="en-US">Beyond Birthday</dc:subject>
+	<dc:subject xml:lang="en-US">Cover-free</dc:subject>
+	<dc:subject xml:lang="en-US">PRF</dc:subject>
+	<dc:subject xml:lang="en-US">Sum of PRPs</dc:subject>
+	<dc:description xml:lang="en-US">At CRYPTO 2011, Yasuda proposed the PMAC_Plus message authentication code based on an n-bit block cipher. Its design principle inherits the well known PMAC parallel network with a low additional cost. PMAC_Plus is a rate-1 construction like PMAC (i.e., one block cipher call per n-bit message block) but provides security against all adversaries (under black-box model) making queries altogether consisting of roughly upto 22n/3 blocks (strings of n-bits). Even though PMAC_Plus gives higher security than the standard birthday bound security, with currently available best bound, it provides weaker security than PMAC for certain choices of adversaries. Moreover, unlike PMAC, PMAC_Plus operates with three independent block cipher keys. In this paper, we propose 1k-PMAC_Plus, the first rate-1 single keyed block cipher based BBB (Beyond Birthday Bound) secure (in standard model) deterministic MAC construction without arbitrary field multiplications. 1k-PMAC_Plus, as the name implies, is a simple one-key variant of PMAC_Plus. In addition to the key reduction, we obtain a higher security guarantee than what was proved originally for PMAC_Plus, thus an improvement in two directions.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2017-12-15</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tosc.iacr.org/index.php/ToSC/article/view/811</dc:identifier>
+	<dc:identifier>10.13154/tosc.v2017.i4.268-305</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Symmetric Cryptology; Volume 2017, Issue 4; 268-305</dc:source>
+	<dc:source>2519-173X</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/811/764</dc:relation>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/811/7591</dc:relation>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/811/7514</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2017 Nilanjan Datta, Avijit Dutta, Mridul Nandi, Goutam Paul, Liting Zhang</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0</dc:rights>
+</oai_dc:dc>

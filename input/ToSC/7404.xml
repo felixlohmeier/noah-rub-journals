@@ -1,0 +1,26 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>7404</id>
+	<dc:title xml:lang="en-US">General Diffusion Analysis: How to Find Optimal Permutations for Generalized Type-II Feistel Schemes</dc:title>
+	<dc:creator>Cauchois, Victor</dc:creator>
+	<dc:creator>Gomez, Clément</dc:creator>
+	<dc:creator>Thomas, Gaël</dc:creator>
+	<dc:subject xml:lang="en-US">Feistel</dc:subject>
+	<dc:subject xml:lang="en-US">Diffusion</dc:subject>
+	<dc:subject xml:lang="en-US">Permutations</dc:subject>
+	<dc:description xml:lang="en-US">Type-II Generalized Feistel Schemes are one of the most popular versions of Generalized Feistel Schemes. Their round function consists in applying a classical Feistel transformation to p sub-blocks of two consecutive words and then shifting the k = 2p words cyclically. The low implementation costs it offers are balanced by a low diffusion, limiting its efficiency. Diffusion of such structures may however be improved by replacing the cyclic shift with a different permutation without any additional implementation cost. In this paper, we study ways to determine permutations with the fastest diffusion called optimal permutations.To do so, two ideas are used. First, we study the natural equivalence classes of permutations that preserve cryptographic properties; second, we use the representation of permutations as coloured trees.For both heuristic and historical reasons, we focus first on even-odd permutations, that is, those permutations for which images of even numbers are odd. We derive from their structure an upper bound on the number of their equivalence classes together with a strategy to perform exhaustive searches on classes. We performed those exhaustive searches for sizes k ≤ 24, while previous exhaustive searches on all permutations were limited to k ≤ 16. For sizes beyond the reach of this method, we use tree representations to find permutations with good intermediate diffusion properties. This heuristic leads to an optimal even-odd permutation for k = 26 and best-known results for sizes k = 64 and k = 128.Finally, we transpose these methods to all permutations. Using a new strategy to exhaust equivalence classes, we perform exhaustive searches on classes for sizes k ≤ 20 whose results confirmed the initial heuristic: there always exist optimal permutations that are even-odd and furthermore for k = 18 all optimal permutations are even-odd permutations.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2019-03-08</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tosc.iacr.org/index.php/ToSC/article/view/7404</dc:identifier>
+	<dc:identifier>10.13154/tosc.v2019.i1.264-301</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Symmetric Cryptology; Volume 2019, Issue 1; 264-301</dc:source>
+	<dc:source>2519-173X</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/7404/6576</dc:relation>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/7404/7552</dc:relation>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/7404/7768</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2019 Victor Cauchois, Clément Gomez, Gaël Thomas</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0</dc:rights>
+</oai_dc:dc>

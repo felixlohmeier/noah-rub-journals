@@ -1,0 +1,28 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>402</id>
+	<dc:title xml:lang="en-US">A contribution for an optimization of the polishing quality of stone slabs: simulation and experimental study using a single-head polishing machine</dc:title>
+	<dc:creator>Barbosa, A. R.</dc:creator>
+	<dc:creator>Coelho, A.</dc:creator>
+	<dc:creator>Fernandes, J. C.</dc:creator>
+	<dc:creator>Amaral, P. M.</dc:creator>
+	<dc:creator>Rosa, L. G.</dc:creator>
+	<dc:creator>Pereira, J. C.</dc:creator>
+	<dc:subject xml:lang="en-US">Polishing</dc:subject>
+	<dc:subject xml:lang="en-US">Pressure</dc:subject>
+	<dc:subject xml:lang="en-US">Water Flow</dc:subject>
+	<dc:subject xml:lang="en-US">Ornamental Stone</dc:subject>
+	<dc:subject xml:lang="en-US">Gloss</dc:subject>
+	<dc:subject xml:lang="en-US">Frankfurt Abrasives</dc:subject>
+	<dc:subject xml:lang="en-US">Modelling</dc:subject>
+	<dc:description xml:lang="en-US">This paper describes recent research regarding: 1) the influence of the water flow and the pressurein order to attain the best polishing in portuguese limestones; 2) the experimental validation of apolishing simulator under development at Instituto Superior Tecnico (Lisbon). The research workwas carried out using slabs of calcareous stone Moleanos, from Portugal, and the polishingsequence employed commercial Frankfurt-type abrasive tools applied for the last 3 stages of theprocess in order to attain maximum surface gloss. The study was conducted with a single-headlaboratory-type polishing machine, where all test conditions are adequately monitored andcontrolled. The polishing head contains 6 Frankfurt abrasives of the same grit size (320#, 400# and5Extra). The surface quality was assessed, after each polishing stage, by means of a glossmeter.In the end, it was possible to identify the optimum working parameters for each polishing stage.The results obtained also show that indeed a correlation exists between experimental values ofgloss and the abrasion data given by the simulator.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2015-11-25</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://icscm.ub.rub.de/index.php/ICSCM/article/view/402</dc:identifier>
+	<dc:identifier>10.13154/icscm.3.2015.178-187</dc:identifier>
+	<dc:source xml:lang="en-US">International Conference on Stone and Concrete Machining (ICSCM); Vol. 3 (2015); 178-187</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://icscm.ub.rub.de/index.php/ICSCM/article/view/402/358</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2015 A. R. Barbosa, A. Coelho, J. C. Fernandes, P. M. Amaral, L. G. Rosa, J. C. Pereira</dc:rights>
+</oai_dc:dc>

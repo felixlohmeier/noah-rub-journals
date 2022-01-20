@@ -1,0 +1,24 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>8321</id>
+	<dc:title xml:lang="en-US">Efficient Search for Optimal Diffusion Layers of Generalized Feistel Networks</dc:title>
+	<dc:creator>Derbez, Patrick</dc:creator>
+	<dc:creator>Fouque, Pierre-Alain</dc:creator>
+	<dc:creator>Lambin, Baptiste</dc:creator>
+	<dc:creator>Mollimard, Victor</dc:creator>
+	<dc:subject xml:lang="en-US">Diffusion round</dc:subject>
+	<dc:subject xml:lang="en-US">Feistel</dc:subject>
+	<dc:subject xml:lang="en-US">Permutations</dc:subject>
+	<dc:description xml:lang="en-US">The Feistel construction is one of the most studied ways of building block ciphers. Several generalizations were then proposed in the literature, leading to the Generalized Feistel Network, where the round function first applies a classical Feistel operation in parallel on an even number of blocks, and then a permutation is applied to this set of blocks. In 2010 at FSE, Suzaki and Minematsu studied the diffusion of such construction, raising the question of how many rounds are required so that each block of the ciphertext depends on all blocks of the plaintext. They thus gave some optimal permutations, with respect to this diffusion criteria, for a Generalized Feistel Network consisting of 2 to 16 blocks, as well as giving a good candidate for 32 blocks. Later at FSE’19, Cauchois et al. went further and were able to propose optimal even-odd permutations for up to 26 blocks.In this paper, we complete the literature by building optimal even-odd permutations for 28, 30, 32, 36 blocks which to the best of our knowledge were unknown until now. The main idea behind our constructions and impossibility proof is a new characterization of the total diffusion of a permutation after a given number of rounds. In fact, we propose an efficient algorithm based on this new characterization which constructs all optimal even-odd permutations for the 28, 30, 32, 36 blocks cases and proves a better lower bound for the 34, 38, 40 and 42 blocks cases. In particular, we improve the 32 blocks case by exhibiting optimal even-odd permutations with diffusion round of 9. The existence of such a permutation was an open problem for almost 10 years and the best known permutation in the literature had a diffusion round of 10. Moreover, our characterization can be implemented very efficiently and allows us to easily re-find all optimal even-odd permutations for up to 26 blocks with a basic exhaustive search</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2019-06-11</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tosc.iacr.org/index.php/ToSC/article/view/8321</dc:identifier>
+	<dc:identifier>10.13154/tosc.v2019.i2.218-240</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Symmetric Cryptology; Volume 2019, Issue 2; 218-240</dc:source>
+	<dc:source>2519-173X</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/8321/7669</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2019 Patrick Derbez, Pierre-Alain Fouque, Baptiste Lambin, Victor Mollimard</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0</dc:rights>
+</oai_dc:dc>

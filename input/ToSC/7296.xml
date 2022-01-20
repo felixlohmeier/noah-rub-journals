@@ -1,0 +1,29 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>7296</id>
+	<dc:title xml:lang="en-US">SUNDAE: Small Universal Deterministic Authenticated Encryption for the Internet of Things</dc:title>
+	<dc:creator>Banik, Subhadeep</dc:creator>
+	<dc:creator>Bogdanov, Andrey</dc:creator>
+	<dc:creator>Luykx, Atul</dc:creator>
+	<dc:creator>Tischhauser, Elmar</dc:creator>
+	<dc:subject xml:lang="en-US">lightweight</dc:subject>
+	<dc:subject xml:lang="en-US">block cipher</dc:subject>
+	<dc:subject xml:lang="en-US">mode of operation</dc:subject>
+	<dc:subject xml:lang="en-US">deterministic authenticated encryption</dc:subject>
+	<dc:subject xml:lang="en-US">nonce misuse resistance</dc:subject>
+	<dc:description xml:lang="en-US">Lightweight cryptography was developed in response to the increasing need to secure devices for the Internet of Things. After significant research effort, many new block ciphers have been designed targeting lightweight settings, optimizing efficiency metrics which conventional block ciphers did not. However, block ciphers must be used in modes of operation to achieve more advanced security goals such as data confidentiality and authenticity, a research area given relatively little attention in the lightweight setting. We introduce a new authenticated encryption (AE) mode of operation, SUNDAE, specially targeted for constrained environments. SUNDAE is smaller than other known lightweight modes in implementation area, such as CLOC, JAMBU, and COFB, however unlike these modes, SUNDAE is designed as a deterministic authenticated encryption (DAE) scheme, meaning it provides maximal security in settings where proper randomness is hard to generate, or secure storage must be minimized due to expense. Unlike other DAE schemes, such as GCM-SIV, SUNDAE can be implemented efficiently on both constrained devices, as well as the servers communicating with those devices. We prove SUNDAE secure relative to its underlying block cipher, and provide an extensive implementation study, with results in both software and hardware, demonstrating that SUNDAE offers improved compactness and power consumption in hardware compared to other lightweight AE modes, while simultaneously offering comparable performance to GCM-SIV on parallel high-end platforms.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2018-09-03</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tosc.iacr.org/index.php/ToSC/article/view/7296</dc:identifier>
+	<dc:identifier>10.13154/tosc.v2018.i3.1-35</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Symmetric Cryptology; Volume 2018, Issue 3; 1-35</dc:source>
+	<dc:source>2519-173X</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/7296/6470</dc:relation>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/7296/7577</dc:relation>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/7296/7742</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2018 Subhadeep Banik, Andrey Bogdanov, Atul Luykx, Elmar Tischhauser</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0</dc:rights>
+</oai_dc:dc>

@@ -1,0 +1,27 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>639</id>
+	<dc:title xml:lang="en-US">Security of Even–Mansour Ciphers under Key-Dependent Messages</dc:title>
+	<dc:creator>Farshim, Pooya</dc:creator>
+	<dc:creator>Khati, Louiza</dc:creator>
+	<dc:creator>Vergnaud, Damien</dc:creator>
+	<dc:subject xml:lang="en-US">Even–Mansour</dc:subject>
+	<dc:subject xml:lang="en-US">KDM security</dc:subject>
+	<dc:subject xml:lang="en-US">Ideal Cipher</dc:subject>
+	<dc:subject xml:lang="en-US">Provable Security</dc:subject>
+	<dc:description xml:lang="en-US">The iterated Even–Mansour (EM) ciphers form the basis of many blockcipher designs. Several results have established their security in the CPA/CCA models, under related-key attacks, and in the indifferentiability framework. In this work, we study the Even–Mansour ciphers under key-dependent message (KDM) attacks. KDM security is particularly relevant for blockciphers since non-expanding mechanisms are convenient in setting such as full disk encryption (where various forms of key-dependency might exist). We formalize the folklore result that the ideal cipher is KDM secure. We then show that EM ciphers meet varying levels of KDM security depending on the number of rounds and permutations used. One-round EM achieves some form of KDM security, but this excludes security against offsets of keys. With two rounds we obtain KDM security against offsets, and using different round permutations we achieve KDM security against all permutation-independent claw-free functions. As a contribution of independent interest, we present a modular framework that can facilitate the security treatment of symmetric constructions in models that allow for correlated inputs.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2017-06-19</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tosc.iacr.org/index.php/ToSC/article/view/639</dc:identifier>
+	<dc:identifier>10.13154/tosc.v2017.i2.84-104</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Symmetric Cryptology; Volume 2017, Issue 2; 84-104</dc:source>
+	<dc:source>2519-173X</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/639/607</dc:relation>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/639/7581</dc:relation>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/639/7498</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2017 Pooya Farshim, Louiza Khati, Damien Vergnaud</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0</dc:rights>
+</oai_dc:dc>

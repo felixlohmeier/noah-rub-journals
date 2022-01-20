@@ -1,0 +1,28 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>7301</id>
+	<dc:title xml:lang="en-US">Cube-Attack-Like Cryptanalysis of Round-Reduced Keccak Using MILP</dc:title>
+	<dc:creator>Song, Ling</dc:creator>
+	<dc:creator>Guo, Jian</dc:creator>
+	<dc:subject xml:lang="en-US">Ketje</dc:subject>
+	<dc:subject xml:lang="en-US">Xoodoo</dc:subject>
+	<dc:subject xml:lang="en-US">Keccak-MAC</dc:subject>
+	<dc:subject xml:lang="en-US">cube attack</dc:subject>
+	<dc:subject xml:lang="en-US">auxiliary variable</dc:subject>
+	<dc:subject xml:lang="en-US">MILP</dc:subject>
+	<dc:description xml:lang="en-US">Cube-attack-like cryptanalysis on round-reduced Keccak was proposed by Dinur et al. at EUROCRYPT 2015. It recovers the key through two phases: the preprocessing phase for precomputing a look-up table and online phase for querying the output and getting the cube sum with which the right key can be retrieved by looking up the precomputed table. It was shown that such attacks are efficient specifically for Keccak-based constructions with small nonce or message block size. In this paper, we provide a mixed integer linear programming (MILP) model for cubeattack- like cryptanalysis on keyed Keccak, which does not impose any unnecessary constraint on cube variables and finds almost optimal cubes by balancing the two phases of cube-attack-like cryptanalysis. Our model is applied to Ketje Jr, Ketje Sr, a Xoodoo-based authenticated encryption and Keccak-MAC-512, all of which have a relatively small nonce or message block size. As a result, time complexities of 5-round attacks on Ketje Jr and 7-round attacks on Ketje Sr can be improved significantly. Meanwhile, 6-round attacks, one more round than the previous best attack, are possible if the key size of Ketje V1 (V2) is reduced to 72 (80) bits. For Xoodoo-based AE in Ketje style, the attack reaches 6 rounds. Additionally, a 7-round attack of Keccak-MAC-512 is achieved. To verify the correctness of our attacks, a 5-round attack on Ketje V1 is implemented and tested practically. It is noted that this work does not threaten the security of any Keccak-based construction.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2018-09-04</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tosc.iacr.org/index.php/ToSC/article/view/7301</dc:identifier>
+	<dc:identifier>10.13154/tosc.v2018.i3.182-214</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Symmetric Cryptology; Volume 2018, Issue 3; 182-214</dc:source>
+	<dc:source>2519-173X</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/7301/6475</dc:relation>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/7301/7572</dc:relation>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/7301/7746</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2018 Ling Song, Jian Guo</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0</dc:rights>
+</oai_dc:dc>

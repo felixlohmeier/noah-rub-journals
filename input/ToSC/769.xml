@@ -1,0 +1,29 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>769</id>
+	<dc:title xml:lang="en-US">Analysis and Improvement of Entropy Estimators in NIST SP 800-90B for Non-IID Entropy Sources</dc:title>
+	<dc:creator>Zhu, Shuangyi</dc:creator>
+	<dc:creator>Ma, Yuan</dc:creator>
+	<dc:creator>Chen, Tianyu</dc:creator>
+	<dc:creator>Lin, Jingqiang</dc:creator>
+	<dc:creator>Jing, Jiwu</dc:creator>
+	<dc:subject xml:lang="en-US">Entropy estimation</dc:subject>
+	<dc:subject xml:lang="en-US">NIST SP 800-90B</dc:subject>
+	<dc:subject xml:lang="en-US">Min-entropy</dc:subject>
+	<dc:subject xml:lang="en-US">Random number generator</dc:subject>
+	<dc:description xml:lang="en-US">Random number generators (RNGs) are essential for cryptographic applications. In most practical applications, the randomness of RNGs is provided by entropy sources. If the randomness is less than the expected, the security of cryptographic applications could be undermined. Accurate entropy estimation is a critical method for the evaluation of RNG security, and significant overestimation and underestimation are both inadvisable. The NIST Special Publication 800-90B is one of the most common certifications for entropy estimation. It makes no assumption of the entropy source and provides min-entropy estimation results by a set of entropy estimators. It estimates the entropy sources in two tracks: the IID (independent and identically distributed) track and non-IID track. In practice, non-IID entropy sources are more common, as physical phenomenon, sampling process or external perturbation could cause the dependency of the outputs. In this paper, we prove that the Collision Estimate and the Compression Estimate in non-IID track could provide significant underestimates in theory. In order to accurately estimate the min-entropy of non-IID sources, we provide a formula of minentropybased on conditional probability, and propose a new estimator to approximate the result of this formula. Finally, we perform experiments to compare our estimator with the NIST estimators using simulated non-IID data. Results show that our estimator gives close estimates to the real min-entropy.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2017-09-19</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tosc.iacr.org/index.php/ToSC/article/view/769</dc:identifier>
+	<dc:identifier>10.13154/tosc.v2017.i3.151-168</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Symmetric Cryptology; Volume 2017, Issue 3; 151-168</dc:source>
+	<dc:source>2519-173X</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/769/727</dc:relation>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/769/7608</dc:relation>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/769/7534</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2017 Shuangyi Zhu, Yuan Ma, Tianyu Chen, Jingqiang Lin, Jiwu Jing</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0</dc:rights>
+</oai_dc:dc>

@@ -1,0 +1,25 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>8840</id>
+	<dc:title xml:lang="en-US">Accelerating the Search of Differential and Linear Characteristics with the SAT Method</dc:title>
+	<dc:creator>Sun, Ling</dc:creator>
+	<dc:creator>Wang, Wei</dc:creator>
+	<dc:creator>Wang, Meiqin</dc:creator>
+	<dc:subject xml:lang="en-US">Automatic search</dc:subject>
+	<dc:subject xml:lang="en-US">SAT method</dc:subject>
+	<dc:subject xml:lang="en-US">Differential cryptanalysis</dc:subject>
+	<dc:subject xml:lang="en-US">Linear cryptanalysis</dc:subject>
+	<dc:subject xml:lang="en-US">Matsui’s bounding condition</dc:subject>
+	<dc:description xml:lang="en-US">The introduction of the automatic search boosts the cryptanalysis of symmetric-key primitives to some degree. However, the performance of the automatic search is not always satisfactory for the search of long trails or ciphers with large state sizes. Compared with the extensive attention on the enhancement for the search with the mixed integer linear programming (MILP) method, few works care for the acceleration of the automatic search with the Boolean satisfiability problem (SAT) or satisfiability modulo theories (SMT) method. This paper intends to fill this vacancy. Firstly, with the additional encoding variables of the sequential counter circuit for the original objective function in the standard SAT method, we put forward a new encoding method to convert the Matsui’s bounding conditions into Boolean formulas. This approach does not rely on new auxiliary variables and significantly reduces the consumption of clauses for integrating multiple bounding conditions into one SAT problem. Then, we evaluate the accelerating effect of the novel encoding method under different sets of bounding conditions. With the observations and experience in the tests, a strategy on how to create the sets of bounding conditions that probably achieve extraordinary advances is proposed. The new idea is applied to search for optimal differential and linear characteristics for multiple ciphers. For PRESENT, GIFT-64, RECTANGLE, LBlock, TWINE, and some versions in SIMON and SPECK families of block ciphers, we obtain the complete bounds (full rounds) on the number of active S-boxes, the differential probability, as well as the linear bias. The acceleration method is also employed to speed up the search of related-key differential trails for GIFT-64. Based on the newly identified 18-round distinguisher with probability 2−58, we launch a 26-round key-recovery attack with 260.96 chosen plaintexts. To our knowledge, this is the longest attack on GIFT-64. Lastly, we note that the attack result is far from threatening the security of GIFT-64 since the designers recommended users to double the number of rounds under the related-key attack setting.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2021-03-19</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tosc.iacr.org/index.php/ToSC/article/view/8840</dc:identifier>
+	<dc:identifier>10.46586/tosc.v2021.i1.269-315</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Symmetric Cryptology; Volume 2021, Issue 1; 269-315</dc:source>
+	<dc:source>2519-173X</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/8840/8443</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2021 Ling Su, Wei Wang, Meiqin Wang</dc:rights>
+	<dc:rights xml:lang="en-US">http://creativecommons.org/licenses/by/4.0</dc:rights>
+</oai_dc:dc>

@@ -1,0 +1,26 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>9063</id>
+	<dc:title xml:lang="en-US">My other car is your car: compromising the Tesla Model X keyless entry system</dc:title>
+	<dc:creator>Wouters, Lennert</dc:creator>
+	<dc:creator>Gierlichs, Benedikt</dc:creator>
+	<dc:creator>Preneel, Bart</dc:creator>
+	<dc:subject xml:lang="en-US">Remote Keyless Entry</dc:subject>
+	<dc:subject xml:lang="en-US">Passive Keyless Entry and Start</dc:subject>
+	<dc:subject xml:lang="en-US">automotive security</dc:subject>
+	<dc:subject xml:lang="en-US">reverse engineering</dc:subject>
+	<dc:subject xml:lang="en-US">Bluetooth Low Energy</dc:subject>
+	<dc:subject xml:lang="en-US">Secure Element</dc:subject>
+	<dc:description xml:lang="en-US">This paper documents a practical security evaluation of the Tesla Model X keyless entry system. In contrast to other works, the keyless entry system analysed in this paper employs secure symmetric-key and public-key cryptographic primitives implemented by a Common Criteria certified Secure Element. We document the internal workings of this system, covering the key fob, the body control module and the pairing protocol. Additionally, we detail our reverse engineering techniques and document several security issues. The identified issues in the key fob firmware update mechanism and the key fob pairing protocol allow us to bypass all of the cryptographic security measures put in place. To demonstrate the practical impact of our research we develop a fully remote Proof-of-Concept attack that allows to gain access to the vehicle’s interior in a matter of minutes and pair a modified key fob, allowing to drive off. Our attack is not a relay attack, as our new key fob allows us to start the car anytime anywhere. Finally, we provide an analysis of the update performed by Tesla to mitigate our findings. Our work highlights how the increased complexity and connectivity of vehicular systems can result in a larger and easier to exploit attack surface.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2021-08-11</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tches.iacr.org/index.php/TCHES/article/view/9063</dc:identifier>
+	<dc:identifier>10.46586/tches.v2021.i4.149-172</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Cryptographic Hardware and Embedded Systems; Volume 2021, Issue 4; 149-172</dc:source>
+	<dc:source>2569-2925</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/9063/8650</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2021 Lennert Wouters, Benedikt Gierlichs, Bart Preneel</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0/</dc:rights>
+</oai_dc:dc>

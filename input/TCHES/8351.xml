@@ -1,0 +1,35 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>8351</id>
+	<dc:title xml:lang="en-US">The Interpose PUF: Secure PUF Design against State-of-the-art Machine Learning Attacks</dc:title>
+	<dc:creator>Nguyen, Phuong Ha</dc:creator>
+	<dc:creator>Sahoo, Durga Prasad</dc:creator>
+	<dc:creator>Jin, Chenglu</dc:creator>
+	<dc:creator>Mahmood, Kaleel</dc:creator>
+	<dc:creator>Rührmair, Ulrich</dc:creator>
+	<dc:creator>van Dijk, Marten</dc:creator>
+	<dc:subject xml:lang="en-US">Arbiter Physical Unclonable Function (APUF)</dc:subject>
+	<dc:subject xml:lang="en-US">Majority Voting</dc:subject>
+	<dc:subject xml:lang="en-US">Modeling Attack</dc:subject>
+	<dc:subject xml:lang="en-US">Strict Avalanche Criterion</dc:subject>
+	<dc:subject xml:lang="en-US">Reliability based Modeling</dc:subject>
+	<dc:subject xml:lang="en-US">XOR APUF</dc:subject>
+	<dc:subject xml:lang="en-US">CMA-ES</dc:subject>
+	<dc:subject xml:lang="en-US">Logistic Regression</dc:subject>
+	<dc:subject xml:lang="en-US">Deep Neural Network</dc:subject>
+	<dc:description xml:lang="en-US">The design of a silicon Strong Physical Unclonable Function (PUF) that is lightweight and stable, and which possesses a rigorous security argument, has been a fundamental problem in PUF research since its very beginnings in 2002. Various effective PUF modeling attacks, for example at CCS 2010 and CHES 2015, have shown that currently, no existing silicon PUF design can meet these requirements. In this paper, we introduce the novel Interpose PUF (iPUF) design, and rigorously prove its security against all known machine learning (ML) attacks, including any currently known reliability-based strategies that exploit the stability of single CRPs (we are the first to provide a detailed analysis of when the reliability based CMA-ES attack is successful and when it is not applicable). Furthermore, we provide simulations and confirm these in experiments with FPGA implementations of the iPUF, demonstrating its practicality. Our new iPUF architecture so solves the currently open problem of constructing practical, silicon Strong PUFs that are secure against state-of-the-art ML attacks.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2019-08-09</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tches.iacr.org/index.php/TCHES/article/view/8351</dc:identifier>
+	<dc:identifier>10.13154/tches.v2019.i4.243-290</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Cryptographic Hardware and Embedded Systems; Volume 2019, Issue 4; 243-290</dc:source>
+	<dc:source>2569-2925</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/8351/7700</dc:relation>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/8351/7855</dc:relation>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/8351/7856</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2019 Phuong Ha Nguyen, Durga Prasad Sahoo, Chenglu Jin, Kaleel Mahmood, Ulrich Rührmair, Marten van Dijk</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0</dc:rights>
+</oai_dc:dc>

@@ -1,0 +1,26 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>8583</id>
+	<dc:title xml:lang="en-US">A Novel Evaluation Metric for Deep Learning-Based Side Channel Analysis and Its Extended Application to Imbalanced Data</dc:title>
+	<dc:creator>Zhang, Jiajia</dc:creator>
+	<dc:creator>Zheng, Mengce</dc:creator>
+	<dc:creator>Nan, Jiehui</dc:creator>
+	<dc:creator>Hu, Honggang</dc:creator>
+	<dc:creator>Yu, Nenghai</dc:creator>
+	<dc:subject xml:lang="en-US">Side Channel Analysis</dc:subject>
+	<dc:subject xml:lang="en-US">Deep Learning</dc:subject>
+	<dc:subject xml:lang="en-US">Evaluation Metric</dc:subject>
+	<dc:subject xml:lang="en-US">Imbalanced Data</dc:subject>
+	<dc:description xml:lang="en-US">Since Kocher (CRYPTO’96) proposed timing attack, side channel analysis (SCA) has shown great potential to break cryptosystems via physical leakage. Recently, deep learning techniques are widely used in SCA and show equivalent and even better performance compared to traditional methods. However, it remains unknown why and when deep learning techniques are effective and efficient for SCA. Masure et al. (IACR TCHES 2020(1):348–375) illustrated that deep learning paradigm is suitable for evaluating implementations against SCA from a worst-case scenario point of view, yet their work is limited to balanced data and a specific loss function. Besides, deep learning metrics are not consistent with side channel metrics. In most cases, they are deceptive in foreseeing the feasibility and complexity of mounting a successful attack, especially for imbalanced data. To mitigate the gap between deep learning metrics and side channel metrics, we propose a novel Cross Entropy Ratio (CER) metric to evaluate the performance of deep learning models for SCA. CER is closely related to traditional side channel metrics Guessing Entropy (GE) and Success Rate (SR) and fits to deep learning scenario. Besides, we show that it works stably while deep learning metrics such as accuracy becomes rather unreliable when the training data tends to be imbalanced. However, estimating CER can be done as easy as natural metrics in deep learning algorithms with low computational complexity. Furthermore, we adapt CER metric to a new kind of loss function, namely CER loss function, designed specifically for deep learning in side channel scenario. In this way, we link directly the SCA objective to deep learning optimization. Our experiments on several datasets show that, for SCA with imbalanced data, CER loss function outperforms Cross Entropy loss function in various conditions.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2020-06-19</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tches.iacr.org/index.php/TCHES/article/view/8583</dc:identifier>
+	<dc:identifier>10.13154/tches.v2020.i3.73-96</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Cryptographic Hardware and Embedded Systems; Volume 2020, Issue 3; 73-96</dc:source>
+	<dc:source>2569-2925</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/8583/8150</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2020 Jiajia Zhang, Mengce Zheng, Jiehui Nan, Honggang Hu, Nenghai Yu</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0</dc:rights>
+</oai_dc:dc>

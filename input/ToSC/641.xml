@@ -1,0 +1,30 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>641</id>
+	<dc:title xml:lang="en-US">Understanding RUP Integrity of COLM</dc:title>
+	<dc:creator>Datta, Nilanjan</dc:creator>
+	<dc:creator>Luykx, Atul</dc:creator>
+	<dc:creator>Mennink, Bart</dc:creator>
+	<dc:creator>Nandi, Mridul</dc:creator>
+	<dc:subject xml:lang="en-US">Integrity</dc:subject>
+	<dc:subject xml:lang="en-US">Release of unverified plaintext</dc:subject>
+	<dc:subject xml:lang="en-US">COLM</dc:subject>
+	<dc:subject xml:lang="en-US">COPA</dc:subject>
+	<dc:subject xml:lang="en-US">ELmD</dc:subject>
+	<dc:subject xml:lang="en-US">ELmE</dc:subject>
+	<dc:description xml:lang="en-US">The authenticated encryption scheme COLM is a third-round candidate in the CAESAR competition. Much like its antecedents COPA, ELmE, and ELmD, COLM consists of two parallelizable encryption layers connected by a linear mixing function. While COPA uses plain XOR mixing, ELmE, ELmD, and COLM use a more involved invertible mixing function. In this work, we investigate the integrity of the COLM structure when unverified plaintext is released, and demonstrate that its security highly depends on the choice of mixing function. Our results are threefold. First, we discuss the practical nonce-respecting forgery by Andreeva et al. (ASIACRYPT 2014) against COPA’s XOR mixing. Then we present a noncemisusing forgery against arbitrary mixing functions with practical time complexity. Finally, by using significantly larger queries, we can extend the previous forgery to be nonce-respecting.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2017-06-19</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tosc.iacr.org/index.php/ToSC/article/view/641</dc:identifier>
+	<dc:identifier>10.13154/tosc.v2017.i2.143-161</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Symmetric Cryptology; Volume 2017, Issue 2; 143-161</dc:source>
+	<dc:source>2519-173X</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/641/609</dc:relation>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/641/7583</dc:relation>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/641/7500</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2017 Nilanjan Datta, Atul Luykx, Bart Mennink, Mridul Nandi</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0</dc:rights>
+</oai_dc:dc>

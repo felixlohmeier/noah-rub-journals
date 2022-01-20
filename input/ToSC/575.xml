@@ -1,0 +1,29 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>575</id>
+	<dc:title xml:lang="en-US">Multi-key Analysis of Tweakable Even-Mansour with Applications to Minalpher and OPP</dc:title>
+	<dc:creator>Guo, Zhiyuan</dc:creator>
+	<dc:creator>Wu, Wenling</dc:creator>
+	<dc:creator>Liu, Renzhang</dc:creator>
+	<dc:creator>Zhang, Liting</dc:creator>
+	<dc:subject xml:lang="en-US">Multi-key Setting</dc:subject>
+	<dc:subject xml:lang="en-US">Tweakable Even-Mansour Scheme</dc:subject>
+	<dc:subject xml:lang="en-US">Authenticated Encryption</dc:subject>
+	<dc:subject xml:lang="en-US">Collision-based Cryptanalysis</dc:subject>
+	<dc:subject xml:lang="en-US">Minalpher</dc:subject>
+	<dc:subject xml:lang="en-US">OPP</dc:subject>
+	<dc:description xml:lang="en-US">The tweakable Even-Mansour construction generalizes the conventional Even-Mansour scheme through replacing round keys by strings derived from a master key and a tweak. Besides providing plenty of inherent variability, such a design builds a tweakable block cipher from some lower level primitive. In the present paper, we evaluate the multi-key security of TEM-1, one of the most commonly used one-round tweakable Even-Mansour schemes (formally introduced at CRYPTO 2015), which is constructed from a single n-bit permutation P and a function f(k, t) linear in k from some tweak space to {0, 1} n. Based on giant component theorem in random graph theory, we propose a collision-based multi-key attack on TEM-1 in the known-plaintext setting. Furthermore, inspired by the methodology of Fouque et al. presented at ASIACRYPT 2014, we devise a novel way of detecting collisions and eventually obtain a memory-efficient multi-key attack in the adaptive chosen-plaintext setting. As important applications, we utilize our techniques to analyze the authenticated encryption algorithms Minalpher (a second-round candidate of CAESAR) and OPP (proposed at EUROCRYPT 2016) in the multi-key setting. We describe knownplaintext attacks on Minalpher and OPP without nonce misuse, which enable us to recover almost all O(2n/3) independent masks by making O(2n/3) queries per key and costing O(22n/3) memory overall. After defining appropriate iterated functions and accordingly changing the mode of creating chains, we improve the basic blockwiseadaptive chosen-plaintext attack to make it also applicable for the nonce-respecting setting. While our attacks do not contradict the security proofs of Minalpher and OPP in the classical setting, nor pose an immediate threat to their uses, our results demonstrate their security margins in the multi-user setting should be carefully considered. We emphasize this is the very first third-party analysis on Minalpher and OPP.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2017-02-03</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tosc.iacr.org/index.php/ToSC/article/view/575</dc:identifier>
+	<dc:identifier>10.13154/tosc.v2016.i2.288-306</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Symmetric Cryptology; Volume 2016, Issue 2; 288-306</dc:source>
+	<dc:source>2519-173X</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/575/517</dc:relation>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/575/7471</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2017 Zhiyuan Guo, Wenling Wu, Renzhang Liu, Liting Zhang</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0</dc:rights>
+</oai_dc:dc>

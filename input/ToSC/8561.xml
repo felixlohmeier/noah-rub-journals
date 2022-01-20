@@ -1,0 +1,25 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>8561</id>
+	<dc:title xml:lang="en-US">Combiners for AEAD</dc:title>
+	<dc:creator>Poettering, Bertram</dc:creator>
+	<dc:creator>Rösler, Paul</dc:creator>
+	<dc:subject xml:lang="en-US">Secure Combiners</dc:subject>
+	<dc:subject xml:lang="en-US">Provable Security</dc:subject>
+	<dc:subject xml:lang="en-US">AEAD</dc:subject>
+	<dc:subject xml:lang="en-US">Encrypt-then-MAC</dc:subject>
+	<dc:subject xml:lang="en-US">Ciphertext Translation</dc:subject>
+	<dc:subject xml:lang="en-US">Impossibility Result</dc:subject>
+	<dc:description xml:lang="en-US">The Authenticated Encryption with Associated Data (AEAD) primitive, which integrates confidentiality and integrity services under a single roof, found wide-spread adoption in industry and became indispensable in practical protocol design. Recognizing this, academic research put forward a large number of candidate constructions, many of which come with provable security guarantees. Nevertheless, the recent past has shaken up with the discovery of vulnerabilities, some of them fatal, in well-regarded schemes, stemming from weak underlying primitives, flawed security arguments, implementation-level vulnerabilities, and so on. Simply reacting to such findings by replacing broken candidates by better(?) ones is in many cases unduly, costly, and sometimes just impossible. On the other hand, as attack techniques and opportunities change over time, it seems venturous to propose any specific scheme if the intended lifetime of its application is, say, twenty years.In this work we study a workable approach towards increasing the resilience against unforeseen breaks of AEAD primitives. Precisely, we consider the ability to combine two AEAD schemes into one such that the resulting AEAD scheme is secure as long as at least one of its components is (or: as long as at most one component is broken). We propose a series of such combiners, some of which work with fully generic AEAD components while others assume specific internal structures of the latter (like an encrypt-then-MAC design). We complement our results by proving the optimality of our constructions by showing the impossibility of combiners that get along with less invocations of the component algorithms.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2020-05-07</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tosc.iacr.org/index.php/ToSC/article/view/8561</dc:identifier>
+	<dc:identifier>10.13154/tosc.v2020.i1.121-143</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Symmetric Cryptology; Volume 2020, Issue 1; 121-143</dc:source>
+	<dc:source>2519-173X</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/8561/8132</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2020 Bertram Poettering, Paul Rösler</dc:rights>
+	<dc:rights xml:lang="en-US">http://creativecommons.org/licenses/by/4.0/</dc:rights>
+</oai_dc:dc>

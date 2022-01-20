@@ -1,0 +1,32 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>7268</id>
+	<dc:title xml:lang="en-US">FPGAhammer: Remote Voltage Fault Attacks on Shared FPGAs, suitable for DFA on AES</dc:title>
+	<dc:creator>Krautter, Jonas</dc:creator>
+	<dc:creator>Gnad, Dennis R. E.</dc:creator>
+	<dc:creator>Tahoori, Mehdi B.</dc:creator>
+	<dc:subject xml:lang="en-US">FPGA</dc:subject>
+	<dc:subject xml:lang="en-US">DFA</dc:subject>
+	<dc:subject xml:lang="en-US">chosen-plaintext</dc:subject>
+	<dc:subject xml:lang="en-US">fault attack</dc:subject>
+	<dc:subject xml:lang="en-US">on-chip</dc:subject>
+	<dc:subject xml:lang="en-US">remote</dc:subject>
+	<dc:subject xml:lang="en-US">multi-user</dc:subject>
+	<dc:subject xml:lang="en-US">cloud</dc:subject>
+	<dc:subject xml:lang="en-US">AES</dc:subject>
+	<dc:description xml:lang="en-US">With each new technology generation, the available resources on Field Programmable Gate Arrays increase, making them more attractive for partial access from multiple users. They get increasingly adopted as accelerators in various application domains, embedded in shared Systems on Chip or remote cloud services. Thus, some recent works have already explored Denial-of-Service and side-channel attacks, where an FPGA fabric is shared among multiple users. In this work, we show how fault attacks can be launched within an FPGA, through software-provided bitstreams alone. Excessive voltage drops can be generated from legitimate logic mapped into the FPGA to cause timing faults, reaching from spatially and logically isolated partitions of one to another user of the FPGA fabric. To cause this voltage drop, we first show how specific patterns to activate Ring Oscillators can cause timing failures in simple test designs on various FPGA boards. Subsequently, we analyze and adapt an existing fault model for the Advanced Encryption Standard to match the accuracy of our fault attack. In the same multi-user scenario, we show as a proof-of-concept how a successful Differential Fault Analysis attack on an AES module can be launched. We perform experiments on three FPGA boards of the same model and confirm that the attack adapts to all systems and is successful under process variation, but with different susceptibility to faults. The paper is concluded by validating the attack on another platform, and analyzing the vulnerability based on a timing analysis, proving the applicability to different devices.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2018-08-14</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tches.iacr.org/index.php/TCHES/article/view/7268</dc:identifier>
+	<dc:identifier>10.13154/tches.v2018.i3.44-68</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Cryptographic Hardware and Embedded Systems; Volume 2018, Issue 3; 44-68</dc:source>
+	<dc:source>2569-2925</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/7268/6446</dc:relation>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/7268/7926</dc:relation>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/7268/7927</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2018 Jonas Krautter, Dennis R. E. Gnad, Mehdi B. Tahoori</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0</dc:rights>
+</oai_dc:dc>

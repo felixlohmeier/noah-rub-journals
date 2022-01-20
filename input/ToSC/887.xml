@@ -1,0 +1,35 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>887</id>
+	<dc:title xml:lang="en-US">ShiftRows Alternatives for AES-like Ciphers and Optimal Cell Permutations for Midori and Skinny</dc:title>
+	<dc:creator>Alfarano, Gianira N.</dc:creator>
+	<dc:creator>Beierle, Christof</dc:creator>
+	<dc:creator>Isobe, Takanori</dc:creator>
+	<dc:creator>Kölbl, Stefan</dc:creator>
+	<dc:creator>Leander, Gregor</dc:creator>
+	<dc:subject xml:lang="en-US">Block Cipher</dc:subject>
+	<dc:subject xml:lang="en-US">Midori</dc:subject>
+	<dc:subject xml:lang="en-US">Skinny</dc:subject>
+	<dc:subject xml:lang="en-US">AES</dc:subject>
+	<dc:subject xml:lang="en-US">ShiftRows</dc:subject>
+	<dc:subject xml:lang="en-US">Differential Cryptanalysis</dc:subject>
+	<dc:subject xml:lang="en-US">Linear Cryptanalysis</dc:subject>
+	<dc:subject xml:lang="en-US">Active S-boxes</dc:subject>
+	<dc:subject xml:lang="en-US">Matsui’s Algorithm</dc:subject>
+	<dc:subject xml:lang="en-US">Diffusion</dc:subject>
+	<dc:description xml:lang="en-US">We study possible alternatives for ShiftRows to be used as cell permutations in AES-like ciphers. As observed during the design process of the block cipher Midori, when using a matrix with a non-optimal branch number for the MixColumns operation, the choice of the cell permutation, i.e., an alternative for ShiftRows, can actually improve the security of the primitive. In contrast, when using an MDS matrix it is known that one cannot increase the minimum number of active S-boxes by deviating from the ShiftRows-type permutation. However, finding the optimal choice for the cell permutation for a given, non-optimal, MixColumns operation is a highly non-trivial problem. In this work, we propose techniques to speed up the search for the optimal cell permutations significantly. As case studies, we apply those techniques to Midori and Skinny and provide possible alternatives for their cell permutations. We finally state an easy-to-verify sufficient condition on a cell permutation, to be used as an alternative in Midori, that attains a high number of active S-boxes and thus provides good resistance against differential and linear attacks.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2018-06-07</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tosc.iacr.org/index.php/ToSC/article/view/887</dc:identifier>
+	<dc:identifier>10.13154/tosc.v2018.i2.20-47</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Symmetric Cryptology; Volume 2018, Issue 2; 20-47</dc:source>
+	<dc:source>2519-173X</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/887/838</dc:relation>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/887/7562</dc:relation>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/887/7736</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2018 Gianira N. Alfarano, Christof Beierle, Takanori Isobe, Stefan Kölbl, Gregor Leander</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0</dc:rights>
+</oai_dc:dc>

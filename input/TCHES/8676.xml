@@ -1,0 +1,25 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>8676</id>
+	<dc:title xml:lang="en-US">On the spectral features of robust probing security</dc:title>
+	<dc:creator>Molteni, Maria Chiara </dc:creator>
+	<dc:creator>Zaccaria, Vittorio</dc:creator>
+	<dc:subject xml:lang="en-US">Robust probing security and robust strong non-interference for hardware gadgets</dc:subject>
+	<dc:subject xml:lang="en-US">Boolean functions</dc:subject>
+	<dc:subject xml:lang="en-US">Random variables</dc:subject>
+	<dc:subject xml:lang="en-US">Correlation-immunity</dc:subject>
+	<dc:subject xml:lang="en-US">Spectral characterization</dc:subject>
+	<dc:subject xml:lang="en-US">Walsh transform</dc:subject>
+	<dc:description xml:lang="en-US">In this work we provide a spectral formalization of non-interference in the presence of glitches. Our goal is to present new theoretical and practical tools to reason about robust-d-probing security. We show that the current understanding of extended probes lends itself to probes that participate, during gadget composition, to the creation of additional extended probes. In turn, this enables a natural extension of non-interference definitions into robust ones to build a new reasoning framework that can formally explain some semi-formal results already appeared in the past and be used to synthesize new robust-d-SNI gadgets.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2020-08-26</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tches.iacr.org/index.php/TCHES/article/view/8676</dc:identifier>
+	<dc:identifier>10.13154/tches.v2020.i4.24-48</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Cryptographic Hardware and Embedded Systems; Volume 2020, Issue 4; 24-48</dc:source>
+	<dc:source>2569-2925</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/8676/8235</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2020 Maria Chiara Molteni, Vittorio Zaccaria</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0/</dc:rights>
+</oai_dc:dc>

@@ -1,0 +1,32 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>8456</id>
+	<dc:title xml:lang="en-US">Release of Unverified Plaintext: Tight Unified Model and Application to ANYDAE</dc:title>
+	<dc:creator>Chang, Donghoon</dc:creator>
+	<dc:creator>Datta, Nilanjan</dc:creator>
+	<dc:creator>Dutta, Avijit</dc:creator>
+	<dc:creator>Mennink, Bart</dc:creator>
+	<dc:creator>Nandi, Mridul</dc:creator>
+	<dc:creator>Sanadhya, Somitra</dc:creator>
+	<dc:creator>Sibleyras, Ferdinand</dc:creator>
+	<dc:subject xml:lang="en-US">authenticated encryption</dc:subject>
+	<dc:subject xml:lang="en-US">release of unverified plaintext</dc:subject>
+	<dc:subject xml:lang="en-US">AERUP</dc:subject>
+	<dc:subject xml:lang="en-US">generalization</dc:subject>
+	<dc:subject xml:lang="en-US">SUNDAE</dc:subject>
+	<dc:subject xml:lang="en-US">ANYDAE</dc:subject>
+	<dc:subject xml:lang="en-US">MONDAE</dc:subject>
+	<dc:subject xml:lang="en-US">TUESDAE</dc:subject>
+	<dc:description xml:lang="en-US">Authenticated encryption schemes are usually expected to offer confidentiality and authenticity. In case of release of unverified plaintext (RUP), an adversary gets separated access to the decryption and verification functionality, and has more power in breaking the scheme. Andreeva et al. (ASIACRYPT 2014) formalized RUP security using plaintext awareness, informally meaning that the decryption functionality gives no extra power in breaking confidentiality, and INT-RUP security, covering authenticity in case of RUP. We describe a single, unified model, called AERUP security, that ties together these notions: we prove that an authenticated encryption scheme is AERUP secure if and only if it is conventionally secure, plaintext aware, and INT-RUP secure. We next present ANYDAE, a generalization of SUNDAE of Banik et al. (ToSC 2018/3). ANYDAE is a lightweight deterministic scheme that is based on a block cipher with block size n and arbitrary mixing functions that all operate on an n-bit state. It is particularly efficient for short messages, it does not rely on a nonce, and it provides maximal robustness to a lack of secure state. Whereas SUNDAE is not secure under release of unverified plaintext (a fairly simple attack can be mounted in constant time), ANYDAE is. We make handy use of the AERUP security model to prove that ANYDAE achieves both conventional security as RUP security, provided that certain modest conditions on the mixing functions are met. We describe two simple instances, called MONDAE and TUESDAE, that conform to these conditions and that are competitive with SUNDAE, in terms of efficiency and optimality.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2020-01-31</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tosc.iacr.org/index.php/ToSC/article/view/8456</dc:identifier>
+	<dc:identifier>10.13154/tosc.v2019.i4.119-146</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Symmetric Cryptology; Volume 2019, Issue 4; 119-146</dc:source>
+	<dc:source>2519-173X</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/8456/8025</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2020 Donghoon Chang, Nilanjan Datta, Avijit Dutta, Bart Mennink, Mridul Nandi, Somitra Sanadhya, Ferdinand Sibleyras</dc:rights>
+	<dc:rights xml:lang="en-US">http://creativecommons.org/licenses/by/4.0/</dc:rights>
+</oai_dc:dc>

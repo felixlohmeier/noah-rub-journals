@@ -1,0 +1,26 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>8550</id>
+	<dc:title xml:lang="en-US">Time-memory trade-off in Toom-Cook multiplication: an application to module-lattice based cryptography</dc:title>
+	<dc:creator>Bermudo Mera, Jose Maria </dc:creator>
+	<dc:creator>Karmakar, Angshuman</dc:creator>
+	<dc:creator>Verbauwhede, Ingrid</dc:creator>
+	<dc:subject xml:lang="en-US">Toom-Cook multiplication</dc:subject>
+	<dc:subject xml:lang="en-US">key encapsulation mechanism</dc:subject>
+	<dc:subject xml:lang="en-US">post-quantum cryptography</dc:subject>
+	<dc:subject xml:lang="en-US">lattice-based cryptography</dc:subject>
+	<dc:subject xml:lang="en-US">efficient software</dc:subject>
+	<dc:subject xml:lang="en-US">Saber</dc:subject>
+	<dc:description xml:lang="en-US">Since the introduction of the ring-learning with errors problem, the number theoretic transform (NTT) based polynomial multiplication algorithm has been studied extensively. Due to its faster quasilinear time complexity, it has been the preferred choice of cryptographers to realize ring-learning with errors cryptographic schemes. Compared to NTT, Toom-Cook or Karatsuba based polynomial multiplication algorithms, though being known for a long time, still have a fledgling presence in the context of post-quantum cryptography.In this work, we observe that the pre- and post-processing steps in Toom-Cook based multiplications can be expressed as linear transformations. Based on this observation we propose two novel techniques that can increase the efficiency of Toom-Cook based polynomial multiplications. Evaluation is reduced by a factor of 2, and we call this method precomputation, and interpolation is reduced from quadratic to linear, and we call this method lazy interpolation.As a practical application, we applied our algorithms to the Saber post-quantum key-encapsulation mechanism. We discuss in detail the various implementation aspects of applying our algorithms to Saber. We show that our algorithm can improve the efficiency of the computationally costly matrix-vector multiplication by 12−37% compared to previous methods on their respective platforms. Secondly, we propose different methods to reduce the memory footprint of Saber for Cortex-M4 microcontrollers. Our implementation shows between 2.6 and 5.7 KB reduction in the memory usage with respect to the smallest implementation in the literature.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2020-03-02</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tches.iacr.org/index.php/TCHES/article/view/8550</dc:identifier>
+	<dc:identifier>10.13154/tches.v2020.i2.222-244</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Cryptographic Hardware and Embedded Systems; Volume 2020, Issue 2; 222-244</dc:source>
+	<dc:source>2569-2925</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/8550/8115</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2020 Jose Maria Bermudo Mera, Angshuman Karmakar, Ingrid Verbauwhede</dc:rights>
+	<dc:rights xml:lang="en-US">http://creativecommons.org/licenses/by/4.0/</dc:rights>
+</oai_dc:dc>

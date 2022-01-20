@@ -1,0 +1,23 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>9288</id>
+	<dc:title xml:lang="en-US">Quantum Period Finding against Symmetric Primitives in Practice</dc:title>
+	<dc:creator>Bonnetain, Xavier</dc:creator>
+	<dc:creator>Jaques, Samuel</dc:creator>
+	<dc:subject xml:lang="en-US">Quantum cryptanalysis</dc:subject>
+	<dc:subject xml:lang="en-US">quantum circuits</dc:subject>
+	<dc:subject xml:lang="en-US">symmetric cryptography</dc:subject>
+	<dc:subject xml:lang="en-US">Simon’s algorithm</dc:subject>
+	<dc:description xml:lang="en-US">We present the first complete descriptions of quantum circuits for the offline Simon’s algorithm, and estimate their cost to attack the MAC Chaskey, the block cipher PRINCE and the NIST lightweight finalist AEAD scheme Elephant. These attacks require a reasonable amount of qubits, comparable to the number of qubits required to break RSA-2048. They are faster than other collision algorithms, and the attacks against PRINCE and Chaskey are the most efficient known to date. As Elephant has a key smaller than its state size, the algorithm is less efficient and its cost ends up very close to or above the cost of exhaustive search.We also propose an optimized quantum circuit for boolean linear algebra as well as complete reversible implementations of PRINCE, Chaskey, spongent and Keccak which are of independent interest for quantum cryptanalysis. We stress that our attacks could be applied in the future against today’s communications, and recommend caution when choosing symmetric constructions for cases where long-term security is expected.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2021-11-19</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tches.iacr.org/index.php/TCHES/article/view/9288</dc:identifier>
+	<dc:identifier>10.46586/tches.v2022.i1.1-27</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Cryptographic Hardware and Embedded Systems; Volume 2022, Issue 1; 1-27</dc:source>
+	<dc:source>2569-2925</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/9288/8854</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2021 Xavier Bonnetain, Samuel Jaques</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0/</dc:rights>
+</oai_dc:dc>

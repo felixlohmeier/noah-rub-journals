@@ -1,0 +1,28 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>765</id>
+	<dc:title xml:lang="en-US">Security Analysis of SKINNY under Related-Tweakey Settings</dc:title>
+	<dc:creator>Liu, Guozhen</dc:creator>
+	<dc:creator>Ghosh, Mohona</dc:creator>
+	<dc:creator>Song, Ling</dc:creator>
+	<dc:subject xml:lang="en-US">Lightweight Block Cipher</dc:subject>
+	<dc:subject xml:lang="en-US">SKINNY</dc:subject>
+	<dc:subject xml:lang="en-US">Impossible Differential Attack</dc:subject>
+	<dc:subject xml:lang="en-US">Rectangle Attack</dc:subject>
+	<dc:subject xml:lang="en-US">Related-Tweakey</dc:subject>
+	<dc:description xml:lang="en-US">In CRYPTO’16, a new family of tweakable lightweight block ciphers - SKINNY was introduced. Denoting the variants of SKINNY as SKINNY-n-t, where n represents the block size and t represents the tweakey length, the design specifies t ∈ {n, 2n, 3n}. In this work, we evaluate the security of SKINNY against differential cryptanalysis in the related-tweakey model. First, we investigate truncated related-tweakey differential trails of SKINNY and search for the longest impossible and rectangle distinguishers where there is only one active cell in the input and the output. Based on the distinguishers obtained, 19, 23 and 27 rounds of SKINNY-n-n, SKINNY-n-2n and SKINNY-n-3n can be attacked respectively. Next, actual differential trails for SKINNY under related-tweakey model are explored and optimal differential trails of SKINNY-64 within certain number of rounds are searched with an indirect searching method based on Mixed-Integer Linear Programming. The results show a trend that as the number of rounds increases, the probability of optimal differential trails is much lower than the probability derived from the lower bounds of active Sboxes in SKINNY.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2017-09-19</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tosc.iacr.org/index.php/ToSC/article/view/765</dc:identifier>
+	<dc:identifier>10.13154/tosc.v2017.i3.37-72</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Symmetric Cryptology; Volume 2017, Issue 3; 37-72</dc:source>
+	<dc:source>2519-173X</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/765/723</dc:relation>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/765/7604</dc:relation>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/765/7530</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2017 Guozhen Liu, Mohona Ghosh, Ling Song</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0</dc:rights>
+</oai_dc:dc>

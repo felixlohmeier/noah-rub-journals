@@ -1,0 +1,28 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>8730</id>
+	<dc:title xml:lang="en-US">Rapidly Verifiable XMSS Signatures</dc:title>
+	<dc:creator>Bos, Joppe W. </dc:creator>
+	<dc:creator>Hülsing, Andreas</dc:creator>
+	<dc:creator>Renes, Joost</dc:creator>
+	<dc:creator>van Vredendaal, Christine</dc:creator>
+	<dc:subject xml:lang="en-US">Post-quantum cryptography</dc:subject>
+	<dc:subject xml:lang="en-US">XMSS</dc:subject>
+	<dc:subject xml:lang="en-US">RFC 8391</dc:subject>
+	<dc:subject xml:lang="en-US">embedded devices</dc:subject>
+	<dc:subject xml:lang="en-US">signature generation / verification trade-off</dc:subject>
+	<dc:subject xml:lang="en-US">exact security</dc:subject>
+	<dc:subject xml:lang="en-US">optimized implementation</dc:subject>
+	<dc:description xml:lang="en-US">This work presents new speed records for XMSS (RFC 8391) signature verification on embedded devices. For this we make use of a probabilistic method recently proposed by Perin, Zambonin, Martins, Custódio, and Martina (PZMCM) at ISCC 2018, that changes the XMSS signing algorithm to search for rapidly verifiable signatures. We improve the method, ensuring that the added signing cost for the search is independent of the message length. We provide a statistical analysis of the resulting verification speed and support it by experiments. We present a record setting RFC compatible implementation of XMSS verification on the ARM Cortex-M4. At a signing time of about one minute on a general purpose CPU, we create signatures that are verified about 1.44 times faster than traditionally generated signatures. Adding further well-known implementation optimizations to the verification algorithm we reduce verification time by over a factor two from 13.85 million to 6.56 million cycles. In contrast to previous works, we provide a detailed security analysis of the resulting signature scheme under classical and quantum attacks that justifies our selection of parameters. On the way, we fill a gap in the security analysis of XMSS as described in RFC 8391 proving that the modified message hashing in the RFC does indeed mitigate multi-target attacks. This was not shown before and might be of independent interest.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2020-12-03</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tches.iacr.org/index.php/TCHES/article/view/8730</dc:identifier>
+	<dc:identifier>10.46586/tches.v2021.i1.137-168</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Cryptographic Hardware and Embedded Systems; Volume 2021, Issue 1; 137-168</dc:source>
+	<dc:source>2569-2925</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/8730/8330</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2020 Joppe W. Bos, Andreas Hülsing, Joost Renes, Christine van Vredendaal</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0/</dc:rights>
+</oai_dc:dc>

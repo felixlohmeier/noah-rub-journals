@@ -1,0 +1,25 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>8977</id>
+	<dc:title xml:lang="en-US">Attacking and Defending Masked Polynomial Comparison for Lattice-Based Cryptography</dc:title>
+	<dc:creator>Bhasin, Shivam</dc:creator>
+	<dc:creator>D’Anvers, Jan-Pieter</dc:creator>
+	<dc:creator>Heinz, Daniel</dc:creator>
+	<dc:creator>Pöppelmann, Thomas</dc:creator>
+	<dc:creator>Van Beirendonck, Michiel</dc:creator>
+	<dc:subject xml:lang="en-US">Lattice-Based Cryptography</dc:subject>
+	<dc:subject xml:lang="en-US">Side-Channel Attack</dc:subject>
+	<dc:subject xml:lang="en-US">Fujisaki-Okamoto transform</dc:subject>
+	<dc:description xml:lang="en-US">In this work, we are concerned with the hardening of post-quantum key encapsulation mechanisms (KEM) against side-channel attacks, with a focus on the comparison operation required for the Fujisaki-Okamoto (FO) transform. We identify critical vulnerabilities in two proposals for masked comparison and successfully attack the masked comparison algorithms from TCHES 2018 and TCHES 2020. To do so, we use first-order side-channel attacks and show that the advertised security properties do not hold. Additionally, we break the higher-order secured masked comparison from TCHES 2020 using a collision attack, which does not require side-channel information. To enable implementers to spot such flaws in the implementation or underlying algorithms, we propose a framework that is designed to test the re-encryption step of the FO transform for information leakage. Our framework relies on a specifically parametrized t-test and would have identified the previously mentioned flaws in the masked comparison. Our framework can be used to test both the comparison itself and the full decapsulation implementation.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2021-07-09</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tches.iacr.org/index.php/TCHES/article/view/8977</dc:identifier>
+	<dc:identifier>10.46586/tches.v2021.i3.334-359</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Cryptographic Hardware and Embedded Systems; Volume 2021, Issue 3; 334-359</dc:source>
+	<dc:source>2569-2925</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/8977/8555</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2021 Shivam Bhasin, Jan-Pieter D’Anvers, Daniel Heinz, Thomas Pöppelmann, Michiel Van Beirendonck </dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0/</dc:rights>
+</oai_dc:dc>

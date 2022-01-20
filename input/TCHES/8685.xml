@@ -1,0 +1,25 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>8685</id>
+	<dc:title xml:lang="en-US">DANA Universal Dataflow Analysis for Gate-Level Netlist Reverse Engineering</dc:title>
+	<dc:creator>Albartus, Nils</dc:creator>
+	<dc:creator>Hoffmann, Max</dc:creator>
+	<dc:creator>Temme, Sebastian</dc:creator>
+	<dc:creator>Azriel, Leonid</dc:creator>
+	<dc:creator>Paar, Christof</dc:creator>
+	<dc:subject xml:lang="en-US">Hardware Reverse Engineering</dc:subject>
+	<dc:subject xml:lang="en-US">Gate Level Netlists</dc:subject>
+	<dc:subject xml:lang="en-US">Dataflow Analysis</dc:subject>
+	<dc:description xml:lang="en-US">Reverse engineering of integrated circuits, i.e., understanding the internals of Integrated Circuits (ICs), is required for many benign and malicious applications. Examples of the former are detection of patent infringements, hardware Trojans or Intellectual Property (IP)-theft, as well as interface recovery and defect analysis, while malicious applications include IP-theft and finding insertion points for hardware Trojans. However, regardless of the application, the reverse engineer initially starts with a large unstructured netlist, forming an incomprehensible sea of gates.This work presents DANA, a generic, technology-agnostic, and fully automated dataflow analysis methodology for flattened gate-level netlists. By analyzing the flow of data between individual Flip Flops (FFs), DANA recovers high-level registers. The key idea behind DANA is to combine independent metrics based on structural and control information with a powerful automated architecture. Notably, DANA works without any thresholds, scenario-dependent parameters, or other “magic” values that the user must choose. We evaluate DANA on nine modern hardware designs, ranging from cryptographic co-processors, over CPUs, to the OpenTitan, a stateof- the-art System-on-Chip (SoC), which is maintained by the lowRISC initiative with supporting industry partners like Google and Western Digital. Our results demonstrate almost perfect recovery of registers for all case studies, regardless whether they were synthesized as FPGA or ASIC netlists. Furthermore, we explore two applications for dataflow analysis: we show that the raw output of DANA often already allows to identify crucial components and high-level architecture features and also demonstrate its applicability for detecting simple hardware Trojans.Hence, DANA can be applied universally as the first step when investigating unknown netlists and provides major guidance for human analysts by structuring and condensing the otherwise incomprehensible sea of gates. Our implementation of DANA and all synthesized netlists are available as open source on GitHub.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2020-08-26</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tches.iacr.org/index.php/TCHES/article/view/8685</dc:identifier>
+	<dc:identifier>10.13154/tches.v2020.i4.309-336</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Cryptographic Hardware and Embedded Systems; Volume 2020, Issue 4; 309-336</dc:source>
+	<dc:source>2569-2925</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/8685/8244</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2020 Nils Albartus, Max Hoffmann, Sebastian Temme, Leonid Azriel, Christof Paar</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0/</dc:rights>
+</oai_dc:dc>

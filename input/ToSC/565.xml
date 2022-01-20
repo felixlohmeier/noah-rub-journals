@@ -1,0 +1,25 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>565</id>
+	<dc:title xml:lang="en-US">On Ciphers that Continuously Access the Non-Volatile Key</dc:title>
+	<dc:creator>Mikhalev, Vasily</dc:creator>
+	<dc:creator>Armknecht, Frederik</dc:creator>
+	<dc:creator>Müller, Christian</dc:creator>
+	<dc:subject xml:lang="en-US">Lightweight Ciphers</dc:subject>
+	<dc:subject xml:lang="en-US">Non-Volatile Memory</dc:subject>
+	<dc:subject xml:lang="en-US">Implementation</dc:subject>
+	<dc:description xml:lang="en-US">Due to the increased use of devices with restricted resources such as limited area size, power or energy, the community has developed various techniques for designing lightweight ciphers. One approach that is increasingly discussed is to use the cipher key that is stored on the device in non-volatile memory not only for the initialization of the registers but during the encryption/decryption process as well. Recent examples are the ciphers Midori (Asiacrypt’15) and Sprout (FSE’15). This may on the one hand help to save resources, but also may allow for a stronger key involvement and hence higher security. However, only little is publicly known so far if and to what extent this approach is indeed practical. Thus, cryptographers without strong engineering background face the problem that they cannot evaluate whether certain designs are reasonable (from a practical point of view) which hinders the development of new designs.In this work, we investigate this design principle from a practical point of view. After a discussion on reasonable approaches for storing a key in non-volatile memory, motivated by several commercial products we focus on the case that the key is stored in EEPROM. Here, we highlight existing constraints and derive that some designs, based on the impact on their throughput, are better suited for the approach of continuously reading the key from all types of non-volatile memory. Based on these findings, we improve the design of Sprout for proposing a new lightweight stream cipher that (i) has a significantly smaller area size than almost all other stream ciphers and (ii) can be efficiently realized using common non-volatile memory techniques. Hence, we see our work as an important step towards putting such designs on a more solid ground and to initiate further discussions on realistic designs.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2017-02-03</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:format>application/vnd.openxmlformats-officedocument.presentationml.presentation</dc:format>
+	<dc:identifier>https://tosc.iacr.org/index.php/ToSC/article/view/565</dc:identifier>
+	<dc:identifier>10.13154/tosc.v2016.i2.52-79</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Symmetric Cryptology; Volume 2016, Issue 2; 52-79</dc:source>
+	<dc:source>2519-173X</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/565/507</dc:relation>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/565/7462</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2017 Vasily Mikhalev, Frederik Armknecht, Christian Müller</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0</dc:rights>
+</oai_dc:dc>

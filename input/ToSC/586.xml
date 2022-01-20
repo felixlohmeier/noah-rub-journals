@@ -1,0 +1,27 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>586</id>
+	<dc:title xml:lang="en-US">A Fast Single-Key Two-Level Universal Hash Function</dc:title>
+	<dc:creator>Chakraborty, Debrup</dc:creator>
+	<dc:creator>Ghosh, Sebati</dc:creator>
+	<dc:creator>Sarkar, Palash</dc:creator>
+	<dc:subject xml:lang="en-US">universal hash function</dc:subject>
+	<dc:subject xml:lang="en-US">Horner’s rule</dc:subject>
+	<dc:subject xml:lang="en-US">BRW polynomial</dc:subject>
+	<dc:subject xml:lang="en-US">two-level hash function</dc:subject>
+	<dc:subject xml:lang="en-US">MAC schemes</dc:subject>
+	<dc:description xml:lang="en-US">Universal hash functions based on univariate polynomials are well known, e.g. Poly1305 and GHASH. Using Horner’s rule to evaluate such hash functionsrequire l − 1 field multiplications for hashing a message consisting of l blocks where each block is one field element. A faster method is based on the class of Bernstein-Rabin-Winograd (BRW) polynomials which require ⌊l/2⌋ multiplications and ⌊lgl⌋ squarings for l≥3 blocks. Though this is significantly smaller than Horner’s rule based hashing, implementation of BRW polynomials for variable length messages present significant difficulties. In this work, we propose a two-level hash function where BRW polynomial based hashing is done at the lower level and Horner’s rule based hashing is done at the higher level. The BRW polynomial based hashing is applied to a fixed number of blocks and hence the difficulties in handling variable length messages is avoided. Even though the hash function has two levels, we show that it is sufficient to use a single field element as the hash key. The basic idea is instantiated to propose two new hash functions, one which hashes a single binary string and the other can hash a vector of binary strings. We describe two actual implementations, one over F2128 and the other over F2256 both using the pclmulqdq instruction available in modern Intel processors. On both the Haswell and Skylake processors, the implementation over F2128 is faster than both an implementation of GHASH by Gueron; and a highly optimised implementation, also by Gueron, of another polynomial based hash function called POLYVAL. We further show that the Fast Fourier Transform based field multiplication over F2256 proposed by Bernstein and Chou can be used to evaluate the new hash function at a cost of about at most 46 bit operations per bit of digest, but, unlike the Bernstein-Chou analysis, there is no hidden cost of generating the hash key. More generally, the new idea of building a two-level hash function having a single field element as the hash key can be applied to other finite fields to build new hash functions.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2017-03-08</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tosc.iacr.org/index.php/ToSC/article/view/586</dc:identifier>
+	<dc:identifier>10.13154/tosc.v2017.i1.106-128</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Symmetric Cryptology; Volume 2017, Issue 1; 106-128</dc:source>
+	<dc:source>2519-173X</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/586/527</dc:relation>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/586/7476</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2017 Debrup Chakraborty, Sebati Ghosh, Palash Sarkar</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0</dc:rights>
+</oai_dc:dc>

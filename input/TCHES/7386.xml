@@ -1,0 +1,30 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>7386</id>
+	<dc:title xml:lang="en-US">Secure Data Retrieval on the Cloud: Homomorphic Encryption meets Coresets</dc:title>
+	<dc:creator>Akavia, Adi</dc:creator>
+	<dc:creator>Feldman, Dan</dc:creator>
+	<dc:creator>Shaul, Hayim</dc:creator>
+	<dc:subject xml:lang="en-US">Fully Homomorphic Encryption</dc:subject>
+	<dc:subject xml:lang="en-US">Secure Computation</dc:subject>
+	<dc:subject xml:lang="en-US">Secure Outsourcing of Computation</dc:subject>
+	<dc:subject xml:lang="en-US">Secure Search</dc:subject>
+	<dc:subject xml:lang="en-US">Coresets</dc:subject>
+	<dc:subject xml:lang="en-US">Sketches</dc:subject>
+	<dc:subject xml:lang="en-US">Group Testing</dc:subject>
+	<dc:description xml:lang="en-US">Secure report is the problem of a client that retrieves all records matching specified attributes from a database table at the server (e.g. cloud), as in SQL SELECT queries, but where the query and the database are encrypted. Here, only the client has the secret key, but still the server is expected to compute and return the encrypted result. Secure report is theoretically possible with Fully Homomorphic Encryption (FHE). However, the current state-of-the-art solutions are realized by a polynomial of degree that is at least linear in the number m of records, which is too slow in practice even for very small databases. We present the first solution that is realized by a polynomial that attains degree independent of the number of records m, as well as the first implementation of an FHE solution to Secure report. This is by suggesting a novel paradigm that forges a link between cryptography and modern data summarization techniques known as coresets (core-sets), and sketches in particular. The key idea is to compute only a coreset of the desired report. Since the coreset is small, the client can quickly decode the desired report that the server computes after decrypting the coreset. We implemented our main reporting system in an open source library. This is the first implemented system that can answer such database queries when processing only FHE encrypted data and queries. As our analysis promises, the experimental results show that we can run Secure report queries on billions records in minutes on an Amazon EC2 server, compared to less than a hundred-thousands in previous FHE based solutions.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2019-02-28</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tches.iacr.org/index.php/TCHES/article/view/7386</dc:identifier>
+	<dc:identifier>10.13154/tches.v2019.i2.80-106</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Cryptographic Hardware and Embedded Systems; Volume 2019, Issue 2; 80-106</dc:source>
+	<dc:source>2569-2925</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/7386/6558</dc:relation>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/7386/7885</dc:relation>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/7386/7886</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2019 Adi Akavia, Dan Feldman, Hayim Shaul</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0</dc:rights>
+</oai_dc:dc>

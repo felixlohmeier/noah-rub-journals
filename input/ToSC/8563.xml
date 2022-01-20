@@ -1,0 +1,25 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>8563</id>
+	<dc:title xml:lang="en-US">Swap and Rotate: Lightweight Linear Layers for SPN-based Blockciphers</dc:title>
+	<dc:creator>Banik, Subhadeep</dc:creator>
+	<dc:creator>Balli, Fatih</dc:creator>
+	<dc:creator>Regazzoni, Francesco</dc:creator>
+	<dc:creator>Vaudenay, Serge</dc:creator>
+	<dc:subject xml:lang="en-US">Lightweight circuit</dc:subject>
+	<dc:subject xml:lang="en-US">PRESENT</dc:subject>
+	<dc:subject xml:lang="en-US">GIFT</dc:subject>
+	<dc:subject xml:lang="en-US">FLIP</dc:subject>
+	<dc:description xml:lang="en-US">In CHES 2017, Jean et al. presented a paper on “Bit-Sliding” in which the authors proposed lightweight constructions for SPN based block ciphers like AES, PRESENT and SKINNY. The main idea behind these constructions was to reduce the length of the datapath to 1 bit and to reformulate the linear layer for these ciphers so that they require fewer scan flip-flops (which have built-in multiplexer functionality and so larger in area as compared to a simple flip-flop). In this paper, we develop their idea even further in few separate directions.First, we prove that given an arbitrary linear transformation, it is always possible to construct the linear layer using merely 2 scan flip-flops. This points to an optimistic venue to follow to gain further GE reductions, yet the straightforward application of the techniques in our proof to PRESENT and GIFT leads to inefficient implementations of the linear layer, as reducing ourselves to 2 scan flip-flops setting requires thousands of clock cycles and leads to very high latency.Equipped with the well-established formalism on permutation groups, we explore whether we can reduce the number of clock cycles to a practical level, i.e. few hundreds, by adding few more pairs of scan flip flops. For PRESENT, we show that 4 (resp. 8, 12) scan flip-flops are sufficient to complete the permutation layer in 384 (resp. 256, 128) clock cycles. For GIFT, we show that 4 (resp. 8, 10) scan flip flops correspond to 320 (resp. 192, 128) clock cycles. Finally, in order to provide the best of the two worlds (i.e. circuit area and latency), we push our scan flip-flop choices even further to completely eliminate the latency incurred by the permutation layer, without compromising our stringent GE budget. We show that not only 12 scan flip flops are sufficient to execute PRESENT permutation in 64 clock cycles, but also the same scan flip flops can be used readily in a combined encryption decryption circuit. Our final design of PRESENT and GIFT beat the record of Jean et al. and Banik et al. in both latency and in circuit-size metric. We believe that the techniques presented in our work can also be used at choosing bit-sliding-friendly linear layer permutations for the future SPN-based designs.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2020-05-07</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tosc.iacr.org/index.php/ToSC/article/view/8563</dc:identifier>
+	<dc:identifier>10.13154/tosc.v2020.i1.185-232</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Symmetric Cryptology; Volume 2020, Issue 1; 185-232</dc:source>
+	<dc:source>2519-173X</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/8563/8134</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2020 Subhadeep Banik, Fatih Balli, Francesco Regazzoni, Serge Vaudenay</dc:rights>
+	<dc:rights xml:lang="en-US">http://creativecommons.org/licenses/by/4.0/</dc:rights>
+</oai_dc:dc>
