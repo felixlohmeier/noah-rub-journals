@@ -1,0 +1,53 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8328">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Renaming of places in Namibia in the pre-colonial, colonial and post-colonial era</title>
+                        <subTitle>Colonising and decolonising place names</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Mbenzi, Petrus Angula</displayForm>
+                        <namePart type="family">Mbenzi</namePart>
+                        <namePart type="given">Petrus Angula</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2019-06-30</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">29</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Place names undergo metamorphosis in every country. There are various factors which lead to name changes, ranging from undesirability of a particular name to colonisation. Place names that are considered offensive may be changed while colonial rulers commonly replaced indigenous place names with names from their country of origin. The demise of colonial rule in Africa led to colonial names being replaced by place names which symbolise Africanness. This paper investigates the strategies used by colonisers to rename places and those used to replace colonial names. Based on the theory of colonialism and post- colonial theory the paper examines the impact of colonialism on Namibian indigenous place names and investigates how the indigenous people of Namibia attempted to remove reminders of past injustices. The name changes made by the colonial authorities through total replacement, hybridisation, and deformation are discussed and the haphazard manner in which the decolonisation of place names has been carried out with scant regard for the international guidelines as enshrined in the policy of the United Nations Group of Experts on Geographical Names (UNGEGN) is examined. It is recommended in this paper that Namibia establish a national place names committee to spearhead the naming and renaming of places in accordance with UNGEGN principles.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8328</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8328">
+                <mets:FLocat xlink:href="https://namibian-studies.com/index.php/JNS/article/download/8328/7677" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8328" DMDID="DMD_rub-journals_8328">
+            <mets:fptr FILEID="FILE0_rub-journals_8328"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

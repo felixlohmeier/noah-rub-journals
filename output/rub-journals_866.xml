@@ -1,0 +1,62 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_866">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Beta Israel (Ethiopian Jewish) Monastic Sites North of Lake Tana - Preliminary Results of an Exploratory Field Trip to Ethiopia in December 2015</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Kribus, Bar</displayForm>
+                        <namePart type="family">Kribus</namePart>
+                        <namePart type="given">Bar</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Krebs, Verena</displayForm>
+                        <namePart type="family">Krebs</namePart>
+                        <namePart type="given">Verena</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2018-04-17</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">36</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">This paper presents results of the first field trip aimed at locating and studying the remains of Beta Israel (Ethiopian Jewish) monasteries, as part of an ongoing research project aimed at shedding light on Beta Israel monasticism. Prior to this field trip, no Beta Israel monastery had ever been mapped, and no study focused on these monasteries has ever been conducted. On the trip, two former Beta Israel villages north of Lake Tana were examined: Amba Gwalit and Aṭeyä. At Amba Gwalit, the remains of a Beta Israel holy site, which may have been a monastery containing a synagogue and surrounded by an enclosure wall, were documented. In a nearby Beta Israel cemetery, the tomb of a well-known Beta Israel monk was found. At Aṭeyä, remains of well-preserved Beta Israel dwellings were examined. Both sites demonstrated that Beta Israel material culture in Ethiopia is sufficiently preserved to enable further research aimed at locating and examining Beta Israel monasteries.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/er.v6.2018.309-344</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0">CC BY-NC-ND 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_866</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_866">
+                <mets:FLocat xlink:href="https://er.ceres.rub.de/index.php/ER/article/download/866/820" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_866" DMDID="DMD_rub-journals_866">
+            <mets:fptr FILEID="FILE0_rub-journals_866"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

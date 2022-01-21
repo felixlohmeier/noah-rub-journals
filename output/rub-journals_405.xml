@@ -1,0 +1,61 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_405">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Tool steels for hot stamping of high strength automotive body parts</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Escher, Ch.</displayForm>
+                        <namePart type="family">Escher</namePart>
+                        <namePart type="given">Ch.</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Wilzer, J.</displayForm>
+                        <namePart type="family">Wilzer</namePart>
+                        <namePart type="given">J.</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015-11-25</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">10</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Hot stamping of high strength automotive body parts is a key technology to fulfill safety requirementsand CO2-emmision limit values which are made by the EU. In the last ten years, high effort was madeto improve the hot stamping process. Besides optimizing workflow and heating of the sheet metalblanks, new tools steel grades were developed which show beneficial properties with respect to hotstamping and hard cutting of high strength body parts. Furthermore, engineering of cooling systemsresults in different cooling strategies which all shall improve the cooling efficiency of hot stampingtools. In combination, these improvements lead to a reduction of cycle time and maintenance workand therefore increases productivity of hot stamping processes. This paper gives a short summaryof the latest developments with respect to tool steels for hot stamping and hard cutting tools includingconcepts for active cooled hot stamping tools.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/icscm.3.2015.219-228</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_405</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_405">
+                <mets:FLocat xlink:href="https://icscm.ub.rub.de/index.php/ICSCM/article/download/405/361" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_405" DMDID="DMD_rub-journals_405">
+            <mets:fptr FILEID="FILE0_rub-journals_405"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

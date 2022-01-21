@@ -1,0 +1,78 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8553">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Low-Latency Hardware Masking with Application to AES</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Sasdrich, Pascal</displayForm>
+                        <namePart type="family">Sasdrich</namePart>
+                        <namePart type="given">Pascal</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Bilgin, Begül</displayForm>
+                        <namePart type="family">Bilgin</namePart>
+                        <namePart type="given">Begül</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Hutter, Michael</displayForm>
+                        <namePart type="family">Hutter</namePart>
+                        <namePart type="given">Michael</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Marson, Mark E.</displayForm>
+                        <namePart type="family">Marson</namePart>
+                        <namePart type="given">Mark E.</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020-03-02</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">27</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">During the past two decades there has been a great deal of research published on masked hardware implementations of AES and other cryptographic primitives. Unfortunately, many hardware masking techniques can lead to increased latency compared to unprotected circuits for algorithms such as AES, due to the high-degree of nonlinear functions in their designs. In this paper, we present a hardware masking technique which does not increase the latency for such algorithms. It is based on the LUT-based Masked Dual-Rail with Pre-charge Logic (LMDPL) technique presented at CHES 2014. First, we show 1-glitch extended strong noninterference of a nonlinear LMDPL gadget under the 1-glitch extended probing model. We then use this knowledge to design an AES implementation which computes a full AES-128 operation in 10 cycles and a full AES-256 operation in 14 cycles. We perform practical side-channel analysis of our implementation using the Test Vector Leakage Assessment (TVLA) methodology and analyze univariate as well as bivariate t-statistics to demonstrate its DPA resistance level.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tches.v2020.i2.300-326</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8553</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8553">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/8553/8118" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8553" DMDID="DMD_rub-journals_8553">
+            <mets:fptr FILEID="FILE0_rub-journals_8553"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

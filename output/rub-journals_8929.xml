@@ -1,0 +1,52 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8929">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Towards a women-centric land redistribution model for Namibia</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Shoko, Moreblessings</displayForm>
+                        <namePart type="family">Shoko</namePart>
+                        <namePart type="given">Moreblessings</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2021-06-25</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">21</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Land remains a key resource for sustainable development in Namibia and the greater part of the developing world. In small-scale and also in large-scale commercial agriculture within Namibia, women continue to be seen as significant contributors to labour and agricultural activity. They are involved across the entire agricultural service chain contributing a significant amount of knowledge and physical work towards fulfilling the broader National Development Goals. Although great emphasis is placed equal opportunities for men and women in the modern era, Namibian Land redistribution matrix statistics still show that women, who make up the majority of the agricultural workforce, were still underrepresented in terms of land ownership in 2020. Policy reviews have shown that there are indeed pro-female land allocation provisions at administrative level which include criteria to improve the chances of all female applicants. However, this has not translated into the targeted percentages of female ownership of farms on the ground. This paper analyses the post redistribution land ownership database for Namibia and investigates a hypothesis that the current model of land allocation does not adequately support female ownership and should be redesigned to actually deliver on its gender related aims. The Namibian land redistribution case is used as a case study in the broader context of the women and land discourse. This study presents issues for consideration by governors when adjusting the model currently used to select beneficiaries for land redistribution. It recommends that further opportunities be offered to women’s cooperatives as a means of improved access and/or ownership for a pragmatic and gender inclusive land matrix.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8929</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8929">
+                <mets:FLocat xlink:href="https://namibian-studies.com/index.php/JNS/article/download/8929/8507" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8929" DMDID="DMD_rub-journals_8929">
+            <mets:fptr FILEID="FILE0_rub-journals_8929"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

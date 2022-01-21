@@ -1,0 +1,62 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8453">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Iterative Block Ciphers from Tweakable Block Ciphers with Long Tweaks</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Nakamichi, Ryota</displayForm>
+                        <namePart type="family">Nakamichi</namePart>
+                        <namePart type="given">Ryota</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Iwata, Tetsu</displayForm>
+                        <namePart type="family">Iwata</namePart>
+                        <namePart type="given">Tetsu</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020-01-31</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">27</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">We consider a problem of constructing a secure block cipher from a tweakable block cipher (TBC) with long tweaks. Given a TBC with n-bit blocks and Γn-bit tweaks for Γ ≥ 1, one of the constructions by Minematsu in DCC 2015 shows that a simple iteration of the TBC for 3d rounds yields a block cipher with dn-bit blocks that is secure up to 2dn/2 queries, where d = Γ + 1. In this paper, we show three results.1. Iteration of 3d − 2 rounds is enough for the security up to 2dn/2 queries, i.e., the security remains the same even if we reduce the number of rounds by two.2. When the number of queries is limited to 2n, d+1 rounds are enough, and with d + l rounds for 1 ≤ l ≤ d − 1, the security bound improves as l grows.3. A d-round construction gives a block cipher secure up to 2n/2 queries, i.e., it achieves the classical birthday-bound security. Our results show that a block cipher with beyond-birthday-bound (BBB) security (with respect to n) is obtained as low as d + 1 rounds, and we draw the security spectrum of d + l round version in the range of 1 ≤ l ≤ d−1 and l = 2d−2 for BBB security, and l = 0 for birthday-bound security.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tosc.v2019.i4.54-80</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8453</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8453">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/8453/8023" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8453" DMDID="DMD_rub-journals_8453">
+            <mets:fptr FILEID="FILE0_rub-journals_8453"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,53 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_404">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Abrasion resistant materials on Fe-base</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Theisen, W.</displayForm>
+                        <namePart type="family">Theisen</namePart>
+                        <namePart type="given">W.</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015-11-25</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">10</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Abrasion is one of the four main wear mechanisms that is determined in components being in contactwith mineral goods. Typical examples of use are found in the processing technology duringchopping up, classification, transport and storage of mineral goods as well as in contact of toolswith hard counterbodies like rock or concrete [1]. Characteristic for this kind of undesirable materialloss is a penetration of harder particles that, with movement relative to the surface, generategrooving abrasion. Worn surfaces are characterized through indentation marks of mineral particlesand grooves which, in their geometry, are defined through the particle size, their form and throughthe normal force in the tribological system.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/icscm.3.2015.209-218</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_404</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_404">
+                <mets:FLocat xlink:href="https://icscm.ub.rub.de/index.php/ICSCM/article/download/404/360" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_404" DMDID="DMD_rub-journals_404">
+            <mets:fptr FILEID="FILE0_rub-journals_404"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

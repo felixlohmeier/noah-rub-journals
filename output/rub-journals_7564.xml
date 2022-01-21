@@ -1,0 +1,53 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7564">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Europäische Genossenschafter im US-Exil – Wiederaufbaupläne im Spannungsfeld zwischen amerikanischem und internationalem Dachverband (1941–1946)</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Lembke, Hans H.</displayForm>
+                        <namePart type="family">Lembke</namePart>
+                        <namePart type="given">Hans H.</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015-01-30</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">20</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">After long stagnation and decline in the 1920s, the American consumer cooperatives managed a remarkable upturn during the years of the New Deal, in “spirit and economy”. The outbreak of war brought a second economic impetus. The cooperatives’ increasing societal weight strengthened their claim to political influence, not least in post-war reconstruction help. In this movement a group of European refugees – mostly cooperativists – got involved, pursuing the aim to contribute actively to the re-establishment of cooperatives in their countries of origin. The study focuses in particular on the role and impact of the International Committee for Cooperative Reconstruction (ICCR), an American umbrella association for exiled members of a cooperative.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/mts.43.2010.63-82</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7564</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7564">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/7564/6736" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7564" DMDID="DMD_rub-journals_7564">
+            <mets:fptr FILEID="FILE0_rub-journals_7564"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

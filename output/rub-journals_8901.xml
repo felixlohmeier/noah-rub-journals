@@ -1,0 +1,76 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8901">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>(PREPRINT) Dancing for the Saints in the Time of COVID-19</title>
+                        <subTitle>Responses to the Lockdown in the Texcoco and Teotihuacan Regions in Central Mexico</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Robichaux, David</displayForm>
+                        <namePart type="family">Robichaux</namePart>
+                        <namePart type="given">David</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Galván, Jorge Martínez</displayForm>
+                        <namePart type="family">Galván</namePart>
+                        <namePart type="given">Jorge Martínez</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Carvallo, José Manuel Moreno</displayForm>
+                        <namePart type="family">Carvallo</namePart>
+                        <namePart type="given">José Manuel Moreno</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2021-11-29</dateIssued>
+                    </originInfo>
+                    <abstract lang="eng">During religious feasts in the Teotihuacán and Texcoco regions northeast of Mexico City, people ‘dance for the saint,’ often to fulfill a vow made in a supplication for healing. Based on fieldwork carried out between 2011 and 2019, and online interviews and monitoring of Facebook postings in late 2020 and early 2021, in this article we explore the impact of the coronavirus on the devotional dances staged in the context of religious feasts. In particular, we examine the cases of new practices adopted during the lockdown. Drawing on Jeremy Stolow’s (2005) concept of “religions as media,” we show how a combination of digital and in-person media make it possible for local Catholic communities to maintain during the pandemic the relationship with their patron-saint, based on the principle of do ut des, “though differently.” We conclude by raising questions concerning the future of the devotional dances and religious feasts in these regions as pandemic restrictions enter their second year.The first review is now online and can be found under the following link: (Review A) &quot;Dancing for the Saints in the Time of COVID-19: Responses to the Lockdown in the Texcoco and Teotihuacan Regions in Central Mexico&quot; | Entangled Religions (rub.de)
+The second review is now online and can be found under the following link: (Review B) &quot;Dancing for the Saints in the Time of COVID-19: Responses to the Lockdown in the Texcoco and Teotihuacan Regions in Central Mexico&quot; | Entangled Religions (rub.de)</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8901</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8901">
+                <mets:FLocat xlink:href="https://er.ceres.rub.de/index.php/ER/article/download/8901/8883" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="text/html" ID="FILE1_rub-journals_8901">
+                <mets:FLocat xlink:href="https://er.ceres.rub.de/index.php/ER/article/download/8901/8884" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8901" DMDID="DMD_rub-journals_8901">
+            <mets:fptr FILEID="FILE0_rub-journals_8901"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_8901" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_8901"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

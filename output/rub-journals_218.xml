@@ -1,0 +1,53 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_218">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Paul Frölich</title>
+                        <subTitle>Autobiographie 1890-1921 / Hilde Kramer</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Luban, Ottokar</displayForm>
+                        <namePart type="family">Luban</namePart>
+                        <namePart type="given">Ottokar</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2014-05-28</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">4</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">• Paul Frölich: Autobiographie 1890-1921. Parcours d’un militant internationaliste allemand. De la social-démocratie au parti communiste. Traduit de l’allemand par Jacqueline Bois, Montreuil-sous-Bois, Éditions Science Marxiste, 2011. 257 pp. – ISBN 978-2912639493.• Hilde Kramer: Rebellin in München, Moskau und Berlin. Autobiographisches Fragment 1900-1924. Herausgegeben von Egon Günther unter Mitarbeit von Thies Marsen, Berlin, BasisDruck Verlag Berlin, 2011. 259 pp. (Pamphlete. 27). – ISBN 978-3861631446.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_218</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_218">
+                <mets:FLocat xlink:href="https://incs.ub.rub.de/index.php/INCS/article/download/218/176" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_218" DMDID="DMD_rub-journals_218">
+            <mets:fptr FILEID="FILE0_rub-journals_218"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

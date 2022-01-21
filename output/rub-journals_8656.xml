@@ -1,0 +1,77 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8656">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Cross-Movement Mobilization and New Modes of Solidarity in Times of Crisis in the Global North and South</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Zajak, Sabrina</displayForm>
+                        <namePart type="family">Zajak</namePart>
+                        <namePart type="given">Sabrina</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Jansson, Jenny</displayForm>
+                        <namePart type="family">Jansson</namePart>
+                        <namePart type="given">Jenny</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Pleyers, Geoffrey</displayForm>
+                        <namePart type="family">Pleyers</namePart>
+                        <namePart type="given">Geoffrey</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Lenz, Ilse</displayForm>
+                        <namePart type="family">Lenz</namePart>
+                        <namePart type="given">Ilse</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020-07-10</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">8</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Alliances between social movements constitute a vital part of understanding social movement mobilization. However, despite the advantages that come with cross movement mobilization, the construction and maintenance of alliances remains a fundamental challenge for activists and movements. This special issue aims to uncover and deepen our understanding of cross-movement mobilization in the global North and the global South. In this introduction we suggest to move beyond cross-movement mobilisation as relatively static cooperation between formally organised and bounded entities. Instead we need to observe cross-movement alliances as a succession of convergences around events and longer lineages of actions linked through multiple, intersecting, and non-linear processes and actions.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <identifier type="doi">10.13154/mts.63.2020.5-12</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8656</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8656">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/8656/8211" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8656" DMDID="DMD_rub-journals_8656">
+            <mets:fptr FILEID="FILE0_rub-journals_8656"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

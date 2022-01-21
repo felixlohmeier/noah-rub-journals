@@ -1,0 +1,55 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8532">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <nonSort>The </nonSort>
+                        <title>Journal &quot;Perspektive&quot; and Socialist Self-Management in Slovenia</title>
+                        <subTitle>In Search of a New Anti-Stalinist Society. Towards a Materialist Survey of Communist Ideology</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Centrih, Lev</displayForm>
+                        <namePart type="family">Centrih</namePart>
+                        <namePart type="given">Lev</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2009-01-01</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">23</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">University of Ljubljana (Slovenia)
+The paper deals with the social and political transformations in Slovenia (Yugoslavia) in the first half of the 1960s based on the example of the journal Perspektive, which was published from 1960 to 1964. Perspektive represented a continuation of the tradition of socio-cultural journals that, since the end of the war, had been developing a critical mindset and theory in Slovenia. The journal Perspektive progressed the furthest in this direction, reaching deep into socio-political issues and being eventually liquidated because of this. It has been argued very often that the Yugoslav system of socialist self-management hadbeen an illusion (a mere ideology) and one-party system-bureaucracy on the other hand its reality. The aim of the following article is not simply to provide another refutation of that common argument based on the ideology/reality dichotomy, but rather to show that a striking similar logic of argumentation can be found at the very ideological basis of the Yugoslav critique of Stalinism; a critique which had very concrete social effects. Unlike most of the contemporary critiques of socialist systems (those based on simple dichotomies), Yugoslav critique of Stalinism opened great possibilities for the developmentof social sciences and even political creativity. An ultimate aim of this paper is to show the (historical) structural reasons for this. These social effects will be illustrated and elaborated through the case of the journal Perspektive which provides a perfect outlook of the struggles taking place inside the ideological state apparatuses in socialist Slovenia (Yugoslavia). Perspektive could not be labeled a public enemy, like a street gang, because the masses had failed to react appropriately when it existed, and would be even less capable of doing so after it was gone. If that is the case, and Perspektive in fact never got the ideological status of an outlaw gang – the scum of society (as it was common practice in the USSR during the period of socialist construction) – then we may, in absence of a more appropriate notion, truly define it as a political Party.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8532</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8532">
+                <mets:FLocat xlink:href="https://incs.ub.rub.de/index.php/INCS/article/download/8532/8098" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8532" DMDID="DMD_rub-journals_8532">
+            <mets:fptr FILEID="FILE0_rub-journals_8532"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

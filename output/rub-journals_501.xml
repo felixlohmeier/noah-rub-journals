@@ -1,0 +1,53 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_501">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Primary Source. Josef Bendix</title>
+                        <subTitle>Briefe und Feldpostkarten aus Deutsch-Südwestafrika Oktober 1903 bis März 1904</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Bartmuß, Hartmut</displayForm>
+                        <namePart type="family">Bartmuß</namePart>
+                        <namePart type="given">Hartmut</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2016-06-10</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">14</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Josef Bendix, born in 1874, government architect, engineer and reserve lieutenant in the 3rd Royal Bavarian Pioneer Battalion, had come to German South West Africa on behalf of Arthur Koppel AG a few months before the outbreak of the Herero-German war, to work on the construction of the Otavi railway for the Otavi-Minen-und Eisenbahngesellschaft (OMEG). On 17 January 1904 he was called up as a Reserve Lieutenant of the Kaiserliche Schutztruppe for South West Africa. He was killed near Owikokorero on 13 March 1904 while an officer of the scouting section under Major Franz-Georg von Glasenapp. The letters and field postcards to his family from October 1903 to his death in March 1904 which are transcribed here are archived in the original and digitally in the Center for Jewish History in New York City as the Josef Bendix Collection 1903–1913, Leo Baeck Archives, AR 4736.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_501</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_501">
+                <mets:FLocat xlink:href="https://namibian-studies.com/index.php/JNS/article/download/501/452" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_501" DMDID="DMD_rub-journals_501">
+            <mets:fptr FILEID="FILE0_rub-journals_501"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

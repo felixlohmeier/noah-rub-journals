@@ -1,0 +1,112 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_9168">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Editorial</title>
+                        <subTitle>English Version - Deutsche Fassung - Version Français</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Eckl, Andreas</displayForm>
+                        <namePart type="family">Eckl</namePart>
+                        <namePart type="given">Andreas</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Koller, Markus</displayForm>
+                        <namePart type="family">Koller</namePart>
+                        <namePart type="given">Markus</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Krebs, Verena</displayForm>
+                        <namePart type="family">Krebs</namePart>
+                        <namePart type="given">Verena</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Mersch, Margit</displayForm>
+                        <namePart type="family">Mersch</namePart>
+                        <namePart type="given">Margit</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Platt, Kristin</displayForm>
+                        <namePart type="family">Platt</namePart>
+                        <namePart type="given">Kristin</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>von Rüden, Constance</displayForm>
+                        <namePart type="family">von Rüden</namePart>
+                        <namePart type="given">Constance</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2021-09-09</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">4</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">With the founding of the Center for Mediterranean Studies (ZMS) in 2010 a research institution came into being at Ruhr-Universität Bochum that deals with the history of the Mediterranean region and its contemporary rele­vance across epochs and disciplines. The scientific examination of this area has been subject to continual change in which the ZMS is closely involved through its diverse connections. In discussions of recent years, certain fundamental grounds have been established along which our research and our scientific activities are orientated and which now shall finally find their expression in the newly founded Zeitschrift für Mittelmeerstudien (ZfM).
+Mit der Gründung des Zentrums für Mittelmeerstudien (ZMS) im Jahre 2010 ist an der Ruhr-Universität Bochum eine Forschungseinrichtung entstanden, die sich epochen- und fächerübergreifend mit der Geschichte des Mittelmeerraumes und ihrem Gegenwartsbezug beschäftigt. Die wissenschaftliche Auseinandersetzung mit diesem Gebiet ist einem kontinuierlichen Wandel ausgesetzt, in den auch das ZMS durch seine vielfältigen Vernetz¬ungen eng eingebunden ist. In den Diskussionen der vergangenen Jahre haben sich jedoch auch Grundlinien herausgebildet, an denen sich unsere Forschungen bzw. wissenschaftlichen Aktivitäten orientieren und die schließlich auch in der nun ins Leben gerufenen Zeitschrift für Mittelmeerstudien (ZfM) ihren Niederschlag finden sollen.
+Avec la fondation du Centre d&apos;études méditerranéennes (ZMS) en 2010, une institution de recherche a émergé à la Ruhr-Universität Bochum qui traite de l’histoire de la région méditerranéenne et de sa pertinence con­temporaine à travers les époques et les disciplines. L’examen scientifique de ce domaine a été soumis à des changements continus auxquels le ZMS est étroitement associé grâce à ses diverses connexions. Les dis­cussions de ces dernières années ont permis d’établir certaines bases fondamentales sur lesquelles s’orientent nos recherches et nos activités scientifiques et qui trouveront finalement leur expression dans la nouvelle Zeitschrift für Mittelmeerstudien (ZfM).</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>Zeitschrift für Mittelmeerstudien</title>
+                        </titleInfo>
+                        <identifier type="issn">2749-7429</identifier>
+                        <part>
+                            <detail type="volume">
+                                <number>1</number>
+                            </detail>
+                            <extent unit="page">
+                                <start>1</start>
+                                <end>4</end>
+                            </extent>
+                        </part>
+                    </relatedItem>
+                    <identifier type="doi">10.46586/ZfM.v2021.1-4</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_9168</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_9168">
+                <mets:FLocat xlink:href="https://mittelmeerstudien.de/index.php/ZfM/article/download/9168/8746" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_9168" DMDID="DMD_rub-journals_9168">
+            <mets:fptr FILEID="FILE0_rub-journals_9168"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

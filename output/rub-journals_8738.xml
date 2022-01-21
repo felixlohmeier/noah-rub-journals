@@ -1,0 +1,79 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8738">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Exploring Crypto-Physical Dark Matter and Learning with Physical Rounding</title>
+                        <subTitle>Towards Secure and Efficient Fresh Re-Keying</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Duval, Sébastien</displayForm>
+                        <namePart type="family">Duval</namePart>
+                        <namePart type="given">Sébastien</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Méaux, Pierrick</displayForm>
+                        <namePart type="family">Méaux</namePart>
+                        <namePart type="given">Pierrick</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Momin, Charles</displayForm>
+                        <namePart type="family">Momin</namePart>
+                        <namePart type="given">Charles</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Standaert, François-Xavier</displayForm>
+                        <namePart type="family">Standaert</namePart>
+                        <namePart type="given">François-Xavier</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020-12-03</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">29</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">State-of-the-art re-keying schemes can be viewed as a tradeoff between efficient but heuristic solutions based on binary field multiplications, that are only secure if implemented with a sufficient amount of noise, and formal but more expensive solutions based on weak pseudorandom functions, that remain secure if the adversary accesses their output in full. Recent results on “crypto dark matter” (TCC 2018) suggest that low-complexity pseudorandom functions can be obtained by mixing linear functions over different small moduli. In this paper, we conjecture that by mixing some matrix multiplications in a prime field with a physical mapping similar to the leakage functions exploited in side-channel analysis, we can build efficient re-keying schemes based on “crypto-physical dark matter”, that remain secure against an adversary who can access noise-free measurements. We provide first analyzes of the security and implementation properties that such schemes provide. Precisely, we first show that they are more secure than the initial (heuristic) proposal by Medwed et al. (AFRICACRYPT 2010). For example, they can resist attacks put forward by Belaid et al. (ASIACRYPT 2014), satisfy some relevant cryptographic properties and can be connected to a “Learning with Physical Rounding” problem that shares some similarities with standard learning problems. We next show that they are significantly more efficient than the weak pseudorandom function proposed by Dziembowski et al. (CRYPTO 2016), by exhibiting hardware implementation results.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.46586/tches.v2021.i1.373-401</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8738</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8738">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/8738/8338" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8738" DMDID="DMD_rub-journals_8738">
+            <mets:fptr FILEID="FILE0_rub-journals_8738"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

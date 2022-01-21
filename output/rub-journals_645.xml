@@ -1,0 +1,86 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_645">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Differentially 4-Uniform Permutations with the Best Known Nonlinearity from Butterflies</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Fu, Shihui</displayForm>
+                        <namePart type="family">Fu</namePart>
+                        <namePart type="given">Shihui</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Feng, Xiutao</displayForm>
+                        <namePart type="family">Feng</namePart>
+                        <namePart type="given">Xiutao</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Wu, Baofeng</displayForm>
+                        <namePart type="family">Wu</namePart>
+                        <namePart type="given">Baofeng</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2017-06-19</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">22</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Many block ciphers use permutations defined over the finite field F22k with low differential uniformity, high nonlinearity, and high algebraic degree to provide confusion. Due to the lack of knowledge about the existence of almost perfect nonlinear (APN) permutations over F22k, which have lowest possible differential uniformity, when k &amp;gt; 3, constructions of differentially 4-uniform permutations are usually considered. However, it is also very difficult to construct such permutations together with high nonlinearity; there are very few known families of such functions, which can have the best known nonlinearity and a high algebraic degree. At Crypto’16, Perrin et al. introduced a structure named butterfly, which leads to permutations over F22k with differential uniformity at most 4 and very high algebraic degree when k is odd. It is posed as an open problem in Perrin et al.’s paper and solved by Canteaut et al. that the nonlinearity is equal to 22k−1−2k. In this paper, we extend Perrin et al.’s work and study the functions constructed from butterflies with exponent e = 2i + 1. It turns out that these functions over F22k with odd k have differential uniformity at most 4 and algebraic degree k +1. Moreover, we prove that for any integer i and odd k such that gcd(i, k) = 1, the nonlinearity equality holds, which also gives another solution to the open problem proposed by Perrin et al. This greatly expands the list of differentially 4-uniform permutations with good nonlinearity and hence provides more candidates for the design of block ciphers.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tosc.v2017.i2.228-249</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_645</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_645">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/645/613" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_rub-journals_645">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/645/7587" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="" ID="FILE2_rub-journals_645">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/645/7504" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_645" DMDID="DMD_rub-journals_645">
+            <mets:fptr FILEID="FILE0_rub-journals_645"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_645" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_645"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART2_rub-journals_645" LABEL="">
+                <mets:fptr FILEID="FILE2_rub-journals_645"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

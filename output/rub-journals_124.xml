@@ -1,0 +1,53 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_124">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Assessing Namibia’s performance two decades after Independence. Part 1</title>
+                        <subTitle>Initial position, external support, regional comparison</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Christiansen, Thomas</displayForm>
+                        <namePart type="family">Christiansen</namePart>
+                        <namePart type="given">Thomas</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2014-01-27</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">23</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">This paper presents the results of a study which reviews Namibia’s performance over its two decades since independence. The study examines the achievements and shortcomings of the country in various fields: politics, civil society, economy, and social / socio-economic development. The results have been split into two separate but interconnected papers. This first article analyses Namibia’s situation at the dawn of independence, its external support by foreign countries and Namibia’s overall performance as compared to the neighbouring countries Angola, Botswana, South Africa, Zambia, and Zimbabwe. The present paper evaluates in particular data drawn from the World Bank Development Indicator Database and the 2010 Ibrahim-Index of African Governance. A subsequent second paper will present a more detailed appraisal of the above-mentioned development sectors.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_124</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_124">
+                <mets:FLocat xlink:href="https://namibian-studies.com/index.php/JNS/article/download/124/91" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_124" DMDID="DMD_rub-journals_124">
+            <mets:fptr FILEID="FILE0_rub-journals_124"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

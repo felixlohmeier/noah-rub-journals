@@ -1,0 +1,54 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8392">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Recovering the CTR_DRBG state in 256 traces</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>De Meyer, Lauren</displayForm>
+                        <namePart type="family">De Meyer</namePart>
+                        <namePart type="given">Lauren</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2019-11-19</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">29</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">The NIST CTR_DRBG specification prescribes a maximum size on each random number request, limiting the number of encryptions in CTR mode with the same key to 4 096. Jaffe’s attack on AES in CTR mode without knowledge of the nonce from CHES 2007 requires 216 traces, which is safely above this recommendation. In this work, we exhibit an attack that requires only 256 traces, which is well within the NIST limits. We use simulated traces to investigate the success probability as a function of the signal-to-noise ratio. We also demonstrate its success in practice by attacking an AES-CTR implementation on a Cortex-M4 among others and recovering both the key and nonce. Our traces and code are made openly available for reproducibility.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tches.v2020.i1.37-65</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8392</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8392">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/8392/7776" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8392" DMDID="DMD_rub-journals_8392">
+            <mets:fptr FILEID="FILE0_rub-journals_8392"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,71 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8585">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>CPAmap</title>
+                        <subTitle>On the Complexity of Secure FPGA Virtualization, Multi-Tenancy, and Physical Design</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Krautter, Jonas</displayForm>
+                        <namePart type="family">Krautter</namePart>
+                        <namePart type="given">Jonas</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Gnad, Dennis</displayForm>
+                        <namePart type="family">Gnad</namePart>
+                        <namePart type="given">Dennis</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Tahoori, Mehdi</displayForm>
+                        <namePart type="family">Tahoori</namePart>
+                        <namePart type="given">Mehdi</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020-06-19</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">26</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">With virtualized Field Programmable Gate Arrays (FPGAs) on the verge of being deployed to the cloud computing domain, there is a rising interest in resolving recently identified security issues. Those issues result from different trusted and untrusted entities sharing the FPGA fabric and the Power Distribution Network. Researchers were able to perform both side-channel and fault attacks between logically isolated designs on the same FPGA fabric, compromising security of cryptographic modules and other critical implementations. Side-channel attacks specifically are enabled by the vast degree of freedom given to developers when making use of the basic FPGA resources. Both ring oscillators as well as long delay lines, implemented using low-level FPGA primitives, have been shown to provide sufficient data for simple or correlation-based power analysis attacks. In order to develop new or apply known countermeasures onto designs and implementations in a virtualized multi-tenant FPGA, we seek to fully understand the underlying mechanisms and dependencies of chip-internal side-channel attacks. Although the impact of process variation and other physical design parameters on side-channel vulnerability has been investigated in previous works, remote attacks between logically isolated partitions in multi-tenant FPGAs introduce new and unique challenges. Thus, we systematically analyze the impact of physical mapping of both attacker and victim design on the success of correlation power analysis attacks on the Advanced Encryption Standard (AES). We report our findings on a Xilinx Zynq 7000-based platform, which show that the effect of global and local placement as well as routing and process variation on the success of side-channel attacks almost exceeds the impact of hiding countermeasures. This result reveals fundamental challenges in secure virtualization of FPGAs, which have been mostly ignored so far. Eventually, our results may also help vendors and hypervisors in developing zero overhead side-channel countermeasures based on adequate global and local placement of isolated designs on a multi-tenant FPGA.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tches.v2020.i3.121-146</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8585</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8585">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/8585/8152" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8585" DMDID="DMD_rub-journals_8585">
+            <mets:fptr FILEID="FILE0_rub-journals_8585"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

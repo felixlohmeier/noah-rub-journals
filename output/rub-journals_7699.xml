@@ -1,0 +1,54 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7699">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <nonSort>Die </nonSort>
+                        <title>Ethnisierung des Proletariats. Arbeiter in der Ölindustrie Bakus im ersten Drittel des 20. Jahrhunderts</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Grünewald, Jörn</displayForm>
+                        <namePart type="family">Grünewald</namePart>
+                        <namePart type="given">Jörn</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015-01-20</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">20</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Revolutions are turning points of political development. However, they do not completely turn upside down all existing social practices in a society. Nor can they interrupt cultural traditions and memories. Yet, after 1917 the victorious Bolsheviks set out to do just that: they sought to create a “new man”, a person completely divided from the cultural past of Russia and the Russian Empire. But they sought to make people undergo a “double assimilation” (Francine Hirsch), as the population of the former Tsarist Empire was not only forced to adopt to the revolutionary new ways of the first socialist country in the world. Most people, especially those living outside the core of Russia, were forced to perceive of themselves as members of a modern nation. The European concept of nationhood was transferred by force to contexts where it had not existed before. The city of Baku‘s oil industry is an example of how this “nationalising” of identities lead to problematic results. The Bolsheviks‘ nation building drive was based on a pre-revolutionary tradition of percieving ethnic differences as markers of civilizational development. This eurocentric approach resulted in loading ethnic and cultural differences with additional potential for conflict.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/mts.37.2007.31-50</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7699</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7699">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/7699/6871" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7699" DMDID="DMD_rub-journals_7699">
+            <mets:fptr FILEID="FILE0_rub-journals_7699"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

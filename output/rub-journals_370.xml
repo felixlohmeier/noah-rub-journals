@@ -1,0 +1,52 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_370">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Miscellanea</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>-, Editors</displayForm>
+                        <namePart type="family">-</namePart>
+                        <namePart type="given">Editors</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2010-07-20</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">7</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">• In memoriam Marianna Borisovna Korčagina (1951-2010)• In memoriam Ryszard Nazarewicz (1921-2008)• In memoriam Robert V. Daniels (1926-2010)• In memoriam Richard Stites (1931-2010)• Clara Zetkin&apos;s Reception and Influence in British Politics (1886-1933) – Call for Help (John S. Partington)• Workers’ and Soldiers’ Club “3rd International” in Moscow 1917 – Call for Help (Gleb J. Albert)• Where Have They Gone….? Searching for Helios Gómez’ Lost Originals (Ursula Tjaden) </abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_370</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_370">
+                <mets:FLocat xlink:href="https://incs.ub.rub.de/index.php/INCS/article/download/370/328" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_370" DMDID="DMD_rub-journals_370">
+            <mets:fptr FILEID="FILE0_rub-journals_370"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

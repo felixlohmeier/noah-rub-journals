@@ -1,0 +1,70 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8670">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>On the Security of Sponge-type Authenticated Encryption Modes</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Chakraborty, Bishwajit</displayForm>
+                        <namePart type="family">Chakraborty</namePart>
+                        <namePart type="given">Bishwajit</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Jha, Ashwin</displayForm>
+                        <namePart type="family">Jha</namePart>
+                        <namePart type="given">Ashwin</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Nandi, Mridul</displayForm>
+                        <namePart type="family">Nandi</namePart>
+                        <namePart type="given">Mridul</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020-07-24</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">27</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">The sponge duplex is a popular mode of operation for constructing authenticated encryption schemes. In fact, one can assess the popularity of this mode from the fact that around 25 out of the 56 round 1 submissions to the ongoing NIST lightweight cryptography (LwC) standardization process are based on this mode. Among these, 14 sponge-type constructions are selected for the second round consisting of 32 submissions. In this paper, we generalize the duplexing interface of the duplex mode, which we call Transform-then-Permute. It encompasses Beetle as well as a new sponge-type mode SpoC (both are round 2 submissions to NIST LwC). We show a tight security bound for Transform-then-Permute based on b-bit permutation, which reduces to finding an exact estimation of the expected number of multi-chains (defined in this paper). As a corollary of our general result, authenticated encryption advantage of Beetle and SpoC is about T(D+r2r)/2b&amp;nbsp;where T, D and r denotes the number of offline queries (related to time complexity of the attack), number of construction queries (related to data complexity) and rate of the construction (related to efficiency). Previously the same bound has been proved for Beetle under the limitation that T &amp;lt;&amp;lt; min{2r, 2b/2} (that compels to choose larger permutation with higher rate). In the context of NIST LwC requirement, SpoC based on 192-bit permutation achieves the desired security with 64-bit rate, which is not achieved by either duplex or Beetle (as per the previous analysis).</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tosc.v2020.i2.93-119</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8670</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8670">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/8670/8228" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8670" DMDID="DMD_rub-journals_8670">
+            <mets:fptr FILEID="FILE0_rub-journals_8670"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

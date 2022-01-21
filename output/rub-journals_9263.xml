@@ -1,0 +1,60 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_9263">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>On Deserted Landscapes and Divine Iconography</title>
+                        <subTitle>Iconographic Perspectives on the Origins of YHWH</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Pyschny, Katharina</displayForm>
+                        <namePart type="family">Pyschny</namePart>
+                        <namePart type="given">Katharina</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2021-10-21</dateIssued>
+                    </originInfo>
+                    <abstract lang="eng">In light of three important trends and developments within recent research—first, the interpretation, the dating and the literary growth of the second commandment (Exod 20:4 ‖ Deut 5:8); second, the reevaluation of ancient Israel’s origins; and, third, the continuously increasing archaeological and iconographic record—the article surveys potential repre­senta­tions of YHWH from pre-exilic and post-exilic times in order to evaluate them against the background of YHWH’s origins. Without aiming at a clear identification of YHWH imagery, the study analyses a broad range of iconographic material: anthropomorphic and theriomorphic figurines, the motif of “the lord of the ostriches,” a cult stand from Taanach, the Bes-like figurines on the drawings from Kuntillet Ajrud, humanoid figures on a sherd from a strainer jar, the motif of an enthroned deity on a boat, the so-called horse and rider figurines and a famous Yehud coin depicting a deity on a winged wheel. Based on this evidence, it will be argued that the iconographic data can and should be included as a verifying or falsifying per­spec­tive into the discussion about YHWH’s origins. In order to fulfill this function, the iconographic evidence has to be studied without a specific religious-historical reconstruction in mind. Instead, the full range of possible interpretations and the polyvalent character of the imagery in particular should be taken into account.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.46586/er.12.2021.9263</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_9263</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_9263">
+                <mets:FLocat xlink:href="https://er.ceres.rub.de/index.php/ER/article/download/9263/8802" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="text/html" ID="FILE1_rub-journals_9263">
+                <mets:FLocat xlink:href="https://er.ceres.rub.de/index.php/ER/article/download/9263/8803" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_9263" DMDID="DMD_rub-journals_9263">
+            <mets:fptr FILEID="FILE0_rub-journals_9263"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_9263" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_9263"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

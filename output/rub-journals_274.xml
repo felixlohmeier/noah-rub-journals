@@ -1,0 +1,52 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_274">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Presentations and Announcements</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>-, Editors</displayForm>
+                        <namePart type="family">-</namePart>
+                        <namePart type="given">Editors</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2012-09-05</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">10</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">• John Riddell (ed.): Toward the United Front. Proceedings of the Fourth Congress of the Communist International 1922, Leiden, Brill, 2011. 1310 p. (Historical Materialism Book Series. 34). – ISBN 978-9-00420-778-3 • Fridrich I. Firsov: Sekrety Kommunističeskogo Internacionala. Šifroperepiska [Secrets of the Communist International. Coded Correspondence], Moskva, ROSSPĖN, 2011. 519 p. (Istorija stalinizma). – ISBN 978-5-8243-1461-8 • Ralf Hoffrogge: Sozialismus und Arbeiterbewegung in Deutschland. Von den Anfängen bis 1914 [Socialism and Workers’ Movement in Germany. From the Beginnings to 1914], Stuttgart, Schmetterling, 2011. 216 p. (Reihe theorie.org). – ISBN 978-3-89657-655-2• Richard Müller: Eine Geschichte der Novemberrevolution [The History of the November Revolution]. Vom Kaiserreich zur Republik. Die Novembverrevolution. Der Bürgerkrieg in Deutschland, Berlin, Die Buchmacherei, 2011. 756 p. – ISBN 978-3-00-035400-7• David North: Verteidigung Leo Trotzkis, Essen, Mehring-Verlag, 2010. 259 p. – ISBN 978-3-88634-085-9 • David Fernbach (ed.): In the Steps of Rosa Luxemburg. Selected Writings of Paul Levi, Leiden, Brill, 2011. VI, 349 p. (Historical Materialism Book Series. 31). – ISBN 978-90-04-19607-0 • Raquel Varela: A História do PCP na Revolução dos cravos [The History of the Portuguese Communist Party in the Carnations Revolution], Lisboa, Bertrand, 2011. 399 p. – ISBN 978-972-252295-3 • Tibor Frank: Widerstand im Gulag. Überlebensstrategien und aktiver Protest in sowjetischen Straflagern 1923-1960 [Resistance in the Gulag. Survival Strategies and Active Protest in Soviet Penal Camps, 1923-1960], Marburg, Tectum-Verlag, 2010. 136 p. – ISBN 978-3-8288-2326-6 • Angelo Priori: O Levante dos Posseiros. A revolta camponesa de Porecatu e a ação do Partido Comunista Brasileiro no campo [The Squatters’ Uprising. The Peasants’ Revolt in Porecatu, Brazil, and the Activities of the Brazilian Communist Party in the Rural Area], Maringá, EDUEM, 2011. 236 p. – ISBN 978-85-7628-390-4• Wolfgang Hesse (ed.): Die Eroberung der beobachtenden Maschinen. Zur Arbeiter-fotografie der Weimarer Republik [The Conquest of the Observing Machines. Workers’ Photography in the Weimar Republic], Leipzig, Leipziger Universitäts-Verlag, 2012. 491 p. (Schriften zur sächsischen Geschichte und Volkskunde. 37). – ISBN 978-3-86583-616-8 • Doris Danzer: Zwischen Vertrauen und Verrat. Deutschsprachige kommunistische Intel-lektuelle und ihre sozialen Beziehungen. 1918-1960 [Between Trust and Treason. German-language Communist Intellectuals and Their Social Relations. 1918-1960], Göttingen, V&amp;amp;R Unipress, 2012. 576 p. (Freunde – Gönner – Getreue. 5). – ISBN 978-3-89971-939-0 • José Gotovitch: Du communisme et des communiste en Belgique. Approches critiques [Communism and Communists in Belgium. Critical Approaches], Bruxelles, Aden, 2012. 436 p. – ISBN 978-280592-024-0 • Hilde Kramer: Rebellin in München, Moskau und Berlin. Autobiographisches Fragment 1900-1924 [Rebel in Munich, Moscow and Berlin. Autobiographical Fragment 1900-1924]. Herausgegeben von Egon Günther, unter Mitarbeit von Thies Marsen, Berlin, BasisDruck, 2011. 264 p. (Pamphlete. 27). – ISBN 978-86163-144-6 • James Ryan: Lenin’s Terror, The Ideological Origins of Early Soviet State Violence, London e.a., Routledge, 2012. XI, 260 p. (Routledge contemporary Russia and Eastern Europe series. 36). – ISBN 978-0-415-67396-9 • John Shepherd, Jonathan Davis, Chris Wrigley (eds.): The Second Labour Government, 1929-31. A Reappraisal, Manchester, Manchester University Press, 2012. 272 p. – ISBN 978-0-7190-8614-4 • Larissa Rosa Corrêa: A tessitura dos direitos. Patrões e empregados na justiça do trabalho. 1953-1964 [The Tissues of the Laws. Enterpreneurs and Employees in Labour Law. 1953-1964], São Paulo, LTr, 2011. 231 p. – ISBN 978-85-361-1654-9• Richard Pare, Maria Tsantsanoglou, Jean-Louis Cohen u.a.: Baumeister der Revolution.Sowjetische Kunst und Architektur 1915-1935 [Builders of the Revolution. Soviet Art and Architecture 1915-1935], Essen, Mehring Verlag, 2011. 272 pp. – ISBN 978-3-88634-096-5</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_274</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_274">
+                <mets:FLocat xlink:href="https://incs.ub.rub.de/index.php/INCS/article/download/274/232" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_274" DMDID="DMD_rub-journals_274">
+            <mets:fptr FILEID="FILE0_rub-journals_274"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

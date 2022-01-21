@@ -1,0 +1,54 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7524">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Decade of Equality</title>
+                        <subTitle>Employment, Pay and Gender in Finland in the 1970s</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Bergholm, Tapio</displayForm>
+                        <namePart type="family">Bergholm</namePart>
+                        <namePart type="given">Tapio</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015-01-31</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">16</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">The article discusses the great increase of female labour market participation in Finland in the 1970s. This had wider consequences for Finnish society. The phenomenon is seen in the context of the modernization of the economy, which turned the country from being largely agricultural in the 1950s to industrial thereafter. Economic growth was rapid after 1967, when the currency was devalued. In the early 1970s, however, there was a shortage of labour, largely due to emigration. This put employees in a strong bargaining position and a tradition of short successful strikes developed. Especially in 1971 and 1973 a very high number of working days was lost due to industrial conflict, while the incidence of such conflicts rose until 1976. But economic growth continued, and women joined the labour force with the support of both the Employers’ Confederation STK and the Trade Union Confederation SAK. A raft of employment legislation facilitated this development, such as the day care law of 1972 and increased maternal leave in 1974. The number of female trade union members increased dramatically. The article concludes that the 1970s were indeed a decade of equality.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/mts.48.2012.73-88</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7524</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7524">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/7524/6696" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7524" DMDID="DMD_rub-journals_7524">
+            <mets:fptr FILEID="FILE0_rub-journals_7524"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

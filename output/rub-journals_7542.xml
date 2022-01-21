@@ -1,0 +1,54 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7542">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Von den Nouvelles Equipes Internationales zur Europäischen Volkspartei</title>
+                        <subTitle>Grenzen und Möglichkeiten transnationaler Parteienkooperation nach dem Zweiten Weltkrieg bis zum Ende des Kalten Krieges in Europa – erste Projektergebnisse</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Gehler, Michael</displayForm>
+                        <namePart type="family">Gehler</namePart>
+                        <namePart type="given">Michael</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015-01-27</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">31</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">In this article single stages of transnational cooperation between catholic-conservative and Christian-democratic parties are traced, starting from the secret gatherings of the „Genfer Kreis“ (1947–1956), over the cooperation of the „Nouvelles Equipes Internationales“ (NEI) that were found in 1947 and their renaming into „European Union of Christian Democrats“ (EUCD) in 1956, finishing with the successional European People’s Party (EPP) (1976) and the European Democrat Union (EDU) (1978). Taking these party formations as an example, constraints and opportunities of source specific, content related and methodological questions regarding the single development stages are depicted. On top of that, a forecast of the further development of the EPP is given.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/mts.46.2011.9-39</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7542</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7542">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/7542/6714" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7542" DMDID="DMD_rub-journals_7542">
+            <mets:fptr FILEID="FILE0_rub-journals_7542"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

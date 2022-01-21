@@ -1,0 +1,87 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7397">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>libInterMAC</title>
+                        <subTitle>Beyond Confidentiality and Integrity in Practice</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Albrecht, Martin R.</displayForm>
+                        <namePart type="family">Albrecht</namePart>
+                        <namePart type="given">Martin R.</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Brandt Hansen, Torben</displayForm>
+                        <namePart type="family">Brandt Hansen</namePart>
+                        <namePart type="given">Torben</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Paterson, Kenneth G.</displayForm>
+                        <namePart type="family">Paterson</namePart>
+                        <namePart type="given">Kenneth G.</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2019-03-08</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">38</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Boldyreva et al. (Eurocrypt 2012) defined a fine-grained security model capturing ciphertext fragmentation attacks against symmetric encryption schemes. The model was extended by Albrecht et al. (CCS 2016) to include an integrity notion. The extended security model encompasses important security goals of SSH that go beyond confidentiality and integrity to include length hiding and denial-of-service resistance properties. Boldyreva et al. also defined and analysed the InterMAC scheme, while Albrecht et al. showed that InterMAC satisfies stronger security notions than all currently available SSH encryption schemes. In this work, we take the InterMAC scheme and make it fully ready for use in practice. This involves several steps. First, we modify the InterMAC scheme to support encryption of arbitrary length plaintexts and we replace the use of Encrypt-then-MAC in InterMAC with modern noncebased authenticated encryption. Second, we describe a reference implementation of the modified InterMAC scheme in the form of the library libInterMAC. We give a performance analysis of libInterMAC. Third, to test the practical performance of libInterMAC, we implement several InterMAC-based encryption schemes in OpenSSH and carry out a performance analysis for the use-case of file transfer using SCP. We measure the data throughput and the data overhead of using InterMAC-based schemes compared to existing schemes in OpenSSH. Our analysis shows that, for some network set-ups, using InterMAC-based schemes in OpenSSH only moderately affects performance whilst providing stronger security guarantees compared to existing schemes.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tosc.v2019.i1.46-83</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7397</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7397">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/7397/6569" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/vnd.openxmlformats-officedocument.presentationml.presentation" ID="FILE1_rub-journals_7397">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/7397/7555" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="" ID="FILE2_rub-journals_7397">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/7397/7763" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7397" DMDID="DMD_rub-journals_7397">
+            <mets:fptr FILEID="FILE0_rub-journals_7397"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_7397" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_7397"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART2_rub-journals_7397" LABEL="">
+                <mets:fptr FILEID="FILE2_rub-journals_7397"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

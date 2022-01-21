@@ -1,0 +1,54 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7410">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Fictional Academies as Strategy of Artists’ Institutional Critique</title>
+                        <subTitle>Jörg Immendorff’s LIDL-academy (1968 – 1970) and Gérard Gasiorowski’s Académie Worosis Kiga (1976 – 1982)</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Nisters, Theresa</displayForm>
+                        <namePart type="family">Nisters</namePart>
+                        <namePart type="given">Theresa</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2018-10-24</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">18</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Since the student movements of 1968, a wide range of educational alternatives has spread in France and Germany. In the scholarly discussion of this phenomenon, artistic contributions have not yet found the attention they deserve. As an important gatekeeper in an artist’s career, the art academy strives to legitimatise artists’ social status by procuring canonical norms for their formation. The academy thus aims to provide a basis of theoretical and practical knowledge that guarantees the quality of artistic production and hence its value on the art market; this ideological foundation, however, disagrees with the general idea of a liberal artist whose ingenious talent cannot be taught. Furthermore, in fact, not all successful artists emerged from an academic education. In this respect, the art academy has been subject to resistance. Using two exemplary art works, LIDL-academy (1968 – 1970) by the German artist Jörg Immendorff and Académie Worosis Kiga (1976 – 1982) by the Parisian painter Gérard Gasiorowski, this article discusses the case of the ‘fictional academy’ as a specific approach in the struggle for educational reform in the field of art during the uproars around 1968. Uncovering the tight connection between wider social tendencies and individual artistic practices, it proposes an outlook on the effects of artists’ claims on today’s art business.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/mts.60.2018.27-44</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7410</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7410">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/7410/6582" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7410" DMDID="DMD_rub-journals_7410">
+            <mets:fptr FILEID="FILE0_rub-journals_7410"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

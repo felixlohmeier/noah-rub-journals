@@ -1,0 +1,62 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_872">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Historical Engagements and Interreligious Encounters - Jews and Christians in Premodern and Early Modern Asia and Africa</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Cuffel, Alexandra</displayForm>
+                        <namePart type="family">Cuffel</namePart>
+                        <namePart type="given">Alexandra</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Gamliel, Ophira</displayForm>
+                        <namePart type="family">Gamliel</namePart>
+                        <namePart type="given">Ophira</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2018-04-17</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">369</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">The essays in this special issue are based on the proceedings of the workshop&amp;nbsp;Eastern Jews and Christians in Interaction and Exchange in the Islamic World and Beyond: A Comparative View&amp;nbsp;held in Jerusalem and Raʿanana in June 2016. Accordingly, the essays address interreligious encounters in the Islamic world and beyond, examining social and religious attitudes towards religious Others in a wide range of disciplinary approaches. What binds these essays together is an attempt to shed light on a little-known history of Jewish-Christian relations in premodern Asia and Africa, a subject that stands at the heart of the research project&amp;nbsp;Jews and Christians in the East: Strategies and Interactions between the Mediterranean and the Indian&amp;nbsp;Ocean.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <identifier type="doi">10.13154/er.v6.2018.0-368</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0">CC BY-NC-ND 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_872</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_872">
+                <mets:FLocat xlink:href="https://er.ceres.rub.de/index.php/ER/article/download/872/6420" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_872" DMDID="DMD_rub-journals_872">
+            <mets:fptr FILEID="FILE0_rub-journals_872"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

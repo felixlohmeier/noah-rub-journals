@@ -1,0 +1,63 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8317">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>On Beyond-Birthday-Bound Security</title>
+                        <subTitle>Revisiting the Development of ISO/IEC 9797-1 MACs</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Shen, Yaobin</displayForm>
+                        <namePart type="family">Shen</namePart>
+                        <namePart type="given">Yaobin</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Wang, Lei</displayForm>
+                        <namePart type="family">Wang</namePart>
+                        <namePart type="given">Lei</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2019-06-11</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">23</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">ISO/IEC 9797-1 is an international standard for block-cipher-based Message Authentication Code (MAC). The current version ISO/IEC 9797-1:2011 specifies six single-pass CBC-like MAC structures that are capped at the birthday bound security. For a higher security that is beyond-birthday bound, it recommends to use the concatenation combiner of two single-pass MACs. In this paper, we reveal the invalidity of the suggestion, by presenting a birthday bound forgery attack on the concatenation combiner, which is essentially based on Joux’s multi-collision. Notably, our new forgery attack for the concatenation of two MAC Algorithm 1 with padding scheme 2 only requires 3 queries. Moreover, we look for patches by revisiting the development of ISO/IEC 9797-1 with respect to the beyond-birthday bound security. More specifically, we evaluate the XOR combiner of single-pass CBC-like MACs, which was used in previous version of ISO/IEC 9797-1.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tosc.v2019.i2.146-168</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8317</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8317">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/8317/7666" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8317" DMDID="DMD_rub-journals_8317">
+            <mets:fptr FILEID="FILE0_rub-journals_8317"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,78 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7365">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Key Assignment Scheme with Authenticated Encryption</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Kandele, Suyash</displayForm>
+                        <namePart type="family">Kandele</namePart>
+                        <namePart type="given">Suyash</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Paul, Souradyuti</displayForm>
+                        <namePart type="family">Paul</namePart>
+                        <namePart type="given">Souradyuti</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2018-12-13</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">47</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">The Key Assignment Scheme (KAS) is a well-studied cryptographic primitive used for hierarchical access control (HAC) in a multilevel organisation where the classes of people with higher privileges can access files of those with lower ones. Our first contribution is the formalization of a new cryptographic primitive, namely, KAS-AE that supports the aforementioned HAC solution with an additional authenticated encryption property. Next, we present three efficient KAS-AE schemes that solve the HAC and the associated authenticated encryption problem more efficiently – both with respect to time and memory – than the existing solutions that achieve it by executing KAS and AE separately. Our first KAS-AE construction is built by using the cryptographic primitive MLE (EUROCRYPT 2013) as a black box; the other two constructions (which are the most efficient ones) have been derived by cleverly tweaking the hash function FP (Indocrypt 2012) and the authenticated encryption scheme APE (FSE 2014). This high efficiency of our constructions is critically achieved by using two techniques: design of a mechanism for reverse decryption used for reduction of time complexity, and a novel key management scheme for optimizing storage requirements when organizational hierarchy forms an arbitrary access graph (instead of a linear graph). We observe that constructing a highly efficient KAS-AE scheme using primitives other than MLE, FP and APE is a non-trivial task. We leave it as an open problem. Finally, we provide a detailed comparison of all the KAS-AE schemes.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tosc.v2018.i4.150-196</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7365</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7365">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/7365/6535" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/vnd.openxmlformats-officedocument.presentationml.presentation" ID="FILE1_rub-journals_7365">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/7365/7543" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="" ID="FILE2_rub-journals_7365">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/7365/7759" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7365" DMDID="DMD_rub-journals_7365">
+            <mets:fptr FILEID="FILE0_rub-journals_7365"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_7365" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_7365"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART2_rub-journals_7365" LABEL="">
+                <mets:fptr FILEID="FILE2_rub-journals_7365"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

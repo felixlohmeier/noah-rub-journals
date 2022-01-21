@@ -1,0 +1,55 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8963">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Breaking the self</title>
+                        <subTitle>Radical disruptions of self-consciousness and impossible conscious experiences</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Wiese, Wanja</displayForm>
+                        <namePart type="family">Wiese</namePart>
+                        <namePart type="given">Wanja</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020-03-24</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">27</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Are there logically possible types of conscious experience that are nomologically impossible, given independently justified assumptions about the neural underpinnings of consciousness in human beings? In one sense, this is trivial: just consider the fact that the types of perceptual experiences we can have are limited by our sensory organs. But there may be non-trivial types of conscious experience that are impossible. For instance, if there is a basic type of self-consciousness, corresponding to a phenomenal property that is nomologically necessary for consciousness, then experiences lacking this phenomenal property will be (nomologically) impossible. More generally, it may be that there are causal dependencies between the neural mechanisms that are required to instantiate distinct phenomenal properties (in human beings). If this is the case, instantiating one of these phenomenal properties without certain others may be impossible, which means there are non-trivial cases of nomologically impossible types of conscious experience. This paper clarifies this hypothesis, outlines a general methodology for its investigation, and relates it to research on radical disruptions of self-consciousness.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.33735/phimisci.2020.I.32</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8963</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8963">
+                <mets:FLocat xlink:href="https://philosophymindscience.org/index.php/phimisci/article/download/8963/8541" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8963" DMDID="DMD_rub-journals_8963">
+            <mets:fptr FILEID="FILE0_rub-journals_8963"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

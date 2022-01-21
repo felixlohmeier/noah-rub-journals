@@ -1,0 +1,87 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8626">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>From Combined to Hybrid</title>
+                        <subTitle>Making Feedback-based AE even Smaller</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Chakraborti, Avik</displayForm>
+                        <namePart type="family">Chakraborti</namePart>
+                        <namePart type="given">Avik</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Datta, Nilanjan</displayForm>
+                        <namePart type="family">Datta</namePart>
+                        <namePart type="given">Nilanjan</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Jha, Ashwin</displayForm>
+                        <namePart type="family">Jha</namePart>
+                        <namePart type="given">Ashwin</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Mitragotri, Snehal</displayForm>
+                        <namePart type="family">Mitragotri</namePart>
+                        <namePart type="given">Snehal</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Nandi, Mridul</displayForm>
+                        <namePart type="family">Nandi</namePart>
+                        <namePart type="given">Mridul</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020-06-22</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">29</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">In CHES 2017, Chakraborti et al. proposed COFB, a rate-1 sequential block cipher-based authenticated encryption (AE) with only 1.5n-bit state, where n denotes the block size. They used a novel approach, the so-called combined feedback, where each block cipher input has a combined effect of the previous block cipher output and the current plaintext block. In this paper, we first study the security of a general rate-1 feedback-based AE scheme in terms of its overall internal state size. For a large class of feedback functions, we show that the overlying AE scheme can be attacked in 2r queries if the internal state size is n + r bits for some r ≥ 0. This automatically shows that a birthday bound (i.e. 2n/2 queries) secure AE scheme must have at least 1.5n-bit state, whence COFB is almost-optimal (use 1.5n-bit state and provides security up to 2n/2/n queries). We propose a new feedback function, called the hybrid feedback or HyFB, which is a hybrid composition of plaintext and ciphertext feedbacks. HyFB has a key advantage of lower XOR counts over the combined feedback function. This essentially helps in reducing the hardware footprint. Based on HyFB we propose a new AE scheme, called HyENA, that achieves the state size, rate, and security of COFB. In addition, HyENA has significantly lower XOR counts as compared to COFB, whence it is expected to have a smaller implementation as compared to COFB.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tosc.v2020.iS1.417-445</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8626</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8626">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/8626/8192" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8626" DMDID="DMD_rub-journals_8626">
+            <mets:fptr FILEID="FILE0_rub-journals_8626"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,86 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_9068">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Revealing the Weakness of Addition Chain Based Masked SBox Implementations</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Ming, Jingdian</displayForm>
+                        <namePart type="family">Ming</namePart>
+                        <namePart type="given">Jingdian</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Li, Huizhong</displayForm>
+                        <namePart type="family">Li</namePart>
+                        <namePart type="given">Huizhong</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Zhou, Yongbin</displayForm>
+                        <namePart type="family">Zhou</namePart>
+                        <namePart type="given">Yongbin</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Cheng, Wei</displayForm>
+                        <namePart type="family">Cheng</namePart>
+                        <namePart type="given">Wei</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Qiao, Zehua</displayForm>
+                        <namePart type="family">Qiao</namePart>
+                        <namePart type="given">Zehua</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2021-08-11</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">25</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Addition chain is a well-known approach for implementing higher-order masked SBoxes. However, this approach induces more computations of intermediate monomials over F2n, which in turn leak more information related to the sensitive variables and may decrease its side-channel resistance consequently. In this paper, we introduce a new notion named polygon degree to measure the resistance of monomial computations. With the help of this notion, we select several typical addition chain implementations with the strongest or the weakest resistance. In practical experiments based on an ARM Cortex-M4 architecture, we collect power and electromagnetic traces in consideration of different noise levels. The results show that the resistance of the weakest masked SBox implementation is close to that of an unprotected implementation, while the strongest one can also be broken with fewer than 1,500 traces due to extra leakages. Moreover, we study the resistance of addition chain implementations against profiled attacks. We find that some monomials with smaller output size leak more information than the SBox output. The work by Duc et al. at JOC 2019 showed that for a balanced function, the smaller the output size is, the less information is leaked. Thus, our attacks demonstrate that this property of balanced functions does not apply to unbalanced functions.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.46586/tches.v2021.i4.326-350</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_9068</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_9068">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/9068/8653" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_9068" DMDID="DMD_rub-journals_9068">
+            <mets:fptr FILEID="FILE0_rub-journals_9068"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

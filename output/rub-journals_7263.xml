@@ -1,0 +1,55 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7263">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Presenting the Law</title>
+                        <subTitle>Text and Imagery on Dutch Ten Commandments Panels</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Wubs, Jacolien</displayForm>
+                        <namePart type="family">Wubs</namePart>
+                        <namePart type="given">Jacolien</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2018-07-27</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">31</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Many Dutch Calvinist churches house a Ten Commandments panel, installed in the late sixteenth or seventeenth century as part of the Reformed adaptation of the medieval&amp;nbsp;Catholic church interior. In this article, the characteristic design of Ten Commandments panels&amp;nbsp;is analyzed as a form of Calvinist visual culture. It suggests that these panels were primarilymade to be viewed rather than thoroughly read. The remarkably figurative Moses imagery on&amp;nbsp;panels points at a divergence between the rigid Reformed theological image prohibition and&amp;nbsp;the practice of the adaptation of the church interior. The placement of Ten Commandments&amp;nbsp;panels in the Reformed church interior highlights their symbolic value: It signified the need&amp;nbsp;for self-examination of the participants in the Lord’s Supper. The original spatial setting of Ten Commandments panels also shows how the newly Reformed furnishing and use of church space&amp;nbsp;was rooted in its late medieval Catholic past.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/er.v7.2018.78-108</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/">CC BY-NC-ND 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7263</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7263">
+                <mets:FLocat xlink:href="https://er.ceres.rub.de/index.php/ER/article/download/7263/6441" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7263" DMDID="DMD_rub-journals_7263">
+            <mets:fptr FILEID="FILE0_rub-journals_7263"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

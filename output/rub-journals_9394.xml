@@ -1,0 +1,53 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_9394">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <nonSort>The </nonSort>
+                        <title>Rhenish Mission Society’s Evangelists. An attempt to picture historical events with the help of biographical sketches</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Milk, Hans-Martin</displayForm>
+                        <namePart type="family">Milk</namePart>
+                        <namePart type="given">Hans-Martin</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2021-12-22</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">33</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">The role of Evangelists, the Namibian employees of the German protestant mission, the Rhenish Mission Society has been largely ignored in the writing of Namibian history. This paper is devoted to them exclusively. There are two probable reasons for neglect of their role: Firstly, the German missionaries – their contemporaries – who themselves liked to be in the spotlight, did not report on the Evangelists, and secondly they have not been the subject of scientific research so far. Indeed, the position of the Evangelists as the agents of the mission project meant that over a long period of predominantly binary thinking, it was difficult to place their role on the scale between colonial collaborators and champions of liberation. The following five abridged biographies seek to demonstrate that the ambiguity in which Evangelists lived and worked, however, opened up to them that social or liminal space, in which conservative and progressive attitudes were not mutually exclusive and in which traditional life and culture met Christian conviction and practice. The biographies of the most diverse periods show that they had to move deftly in this space – albeit often with severe personal consequences – in order to be heard at all.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_9394</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_9394">
+                <mets:FLocat xlink:href="https://namibian-studies.com/index.php/JNS/article/download/9394/8935" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_9394" DMDID="DMD_rub-journals_9394">
+            <mets:fptr FILEID="FILE0_rub-journals_9394"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

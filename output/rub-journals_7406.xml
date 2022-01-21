@@ -1,0 +1,94 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7406">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>PEIGEN – a Platform for Evaluation, Implementation, and Generation of S-boxes</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Bao, Zhenzhen</displayForm>
+                        <namePart type="family">Bao</namePart>
+                        <namePart type="given">Zhenzhen</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Guo, Jian</displayForm>
+                        <namePart type="family">Guo</namePart>
+                        <namePart type="given">Jian</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Ling, San</displayForm>
+                        <namePart type="family">Ling</namePart>
+                        <namePart type="given">San</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Sasaki, Yu</displayForm>
+                        <namePart type="family">Sasaki</namePart>
+                        <namePart type="given">Yu</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2019-03-08</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">65</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">In this paper, a platform named PEIGEN is presented to evaluate security, find efficient software/hardware implementations, and generate cryptographic S-boxes. Continuously developed for decades, S-boxes are constantly evolving in terms of the design criteria for both security requirements and software/hardware performances. PEIGEN is aimed to be a platform covering a comprehensive check-list of design criteria of S-boxes appearing in the literature. To do so, the security requirements are first intensively surveyed, existing tools of S-boxes are then comprehensively compared, and finally our platform PEIGEN is presented. The survey part is aimed to be a systematic reference for the theoretical study of S-boxes. The platform is aimed to be an assistant tool for the experimental study and practical use of S-boxes. PEIGEN not only integrates most of the features in existing tools, but also equips with functionalities to evaluate new security-related properties, improves the efficiency of the search algorithms for optimized implementations in several aspects. With the help of this powerful platform, many interesting observations are made in-between the security notations, as well as on the S-boxes used in the existing symmetrickey cryptographic primitives. PEIGEN will become an open platform and welcomes contributions from all parties to help the community to facilitate the research and use of S-boxes.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tosc.v2019.i1.330-394</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7406</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7406">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/7406/6578" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_rub-journals_7406">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/7406/7551" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="" ID="FILE2_rub-journals_7406">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/7406/7766" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7406" DMDID="DMD_rub-journals_7406">
+            <mets:fptr FILEID="FILE0_rub-journals_7406"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_7406" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_7406"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART2_rub-journals_7406" LABEL="">
+                <mets:fptr FILEID="FILE2_rub-journals_7406"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

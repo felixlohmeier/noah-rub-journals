@@ -1,0 +1,61 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_9222">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <nonSort>The </nonSort>
+                        <title>Sogdians and Their Religions in Turfan</title>
+                        <subTitle>Evidence in the Catalogue of the Middle Iranian Fragments in Sogdian Script of the Berlin Turfan Collection</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Reck, Christiane</displayForm>
+                        <namePart type="family">Reck</namePart>
+                        <namePart type="given">Christiane</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2021-11-10</dateIssued>
+                    </originInfo>
+                    <abstract lang="eng">We are able to verify the variety of the religions of the Sogdians by the text fragments found in the Turfan oasis (East Turkistan, today’s Xinjiang Autonomous Region of China). They are housed in several libraries and museums in Europe, Japan, and China. The Berlin Turfan collection contains a large part of them. The catalogue of the Sogdian text fragments in the indigenous Sogdian script of that collection was completed in 2018. The fragments represent parts of the literature of Christian, Manichaean and Buddhist communities in Turfan from the eighth to eleventh century CE. The best represented religion in the homeland of the Sogdians is a type of the Zoroastrian religion, as evidenced by archaeological findings and wall paintings. However, there are only very few texts found in Turfan and other locations in Central Asia which could be interpreted as Zoroastrian. The discussion about the religious affiliation of those texts is going on. The religious background of some other text fragments from Turfan is difficult to identify as well. Two of these examples will be published here. A remarkable feature of the religious communities in Turfan is the multilingual character of their literature, reflecting the development and path of the believers and the multi-ethnical structure of the community.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.46586/er.11.2020.9222</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_9222</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_9222">
+                <mets:FLocat xlink:href="https://er.ceres.rub.de/index.php/ER/article/download/9222/8839" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="text/html" ID="FILE1_rub-journals_9222">
+                <mets:FLocat xlink:href="https://er.ceres.rub.de/index.php/ER/article/download/9222/8840" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_9222" DMDID="DMD_rub-journals_9222">
+            <mets:fptr FILEID="FILE0_rub-journals_9222"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_9222" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_9222"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

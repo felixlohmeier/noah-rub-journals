@@ -1,0 +1,79 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_9312">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Cryptanalysis of Efficient Masked Ciphers</title>
+                        <subTitle>Applications to Low Latency</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Beyne, Tim</displayForm>
+                        <namePart type="family">Beyne</namePart>
+                        <namePart type="given">Tim</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Dhooghe, Siemen</displayForm>
+                        <namePart type="family">Dhooghe</namePart>
+                        <namePart type="given">Siemen</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Moradi, Amir</displayForm>
+                        <namePart type="family">Moradi</namePart>
+                        <namePart type="given">Amir</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Rezaei Shahmirzadi, Aein</displayForm>
+                        <namePart type="family">Rezaei Shahmirzadi</namePart>
+                        <namePart type="given">Aein</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2021-11-19</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">43</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">This work introduces second-order masked implementation of LED, Midori, Skinny, and Prince ciphers which do not require fresh masks to be updated at every clock cycle. The main idea lies on a combination of the constructions given by Shahmirzadi and Moradi at CHES 2021, and the theory presented by Beyne et al. at Asiacrypt 2020. The presented masked designs only use a minimal number of shares, i.e., three to achieve second-order security, and we make use of a trick to pair a couple of S-boxes to reduce their latency. The theoretical security analyses of our constructions are based on the linear-cryptanalytic properties of the underlying masked primitive as well as SILVER, the leakage verification tool presented at Asiacrypt 2020. To improve this cryptanalytic analysis, we use the noisy probing model which allows for the inclusion of noise in the framework of Beyne et al. We further provide FPGA-based experimental security analysis confirming second-order protection of our masked implementations.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.46586/tches.v2022.i1.679-721</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_9312</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_9312">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/9312/8877" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_9312" DMDID="DMD_rub-journals_9312">
+            <mets:fptr FILEID="FILE0_rub-journals_9312"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

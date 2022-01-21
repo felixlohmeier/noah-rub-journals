@@ -1,0 +1,60 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_9153">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>You can&apos;t always get what you want</title>
+                        <subTitle>Predictive processing and consciousness</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Schlicht, Tobias</displayForm>
+                        <namePart type="family">Schlicht</namePart>
+                        <namePart type="given">Tobias</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Dolega, Krzysztof</displayForm>
+                        <namePart type="family">Dolega</namePart>
+                        <namePart type="given">Krzysztof</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2021-07-19</dateIssued>
+                    </originInfo>
+                    <abstract lang="eng">The predictive processing framework has gained significant popularity across disciplines investigating the mind and brain. In this article we critically examine two of the recently made claims about the kind of headway that the framework can make in the neuroscientific and philosophical investigation of consciousness. Firstly, we argue that predictive processing is unlikely to yield significant breakthroughs in the search for the neural correlates of consciousness as it is still too vague to individuate neural mechanisms at a fine enough scale. Despite its unifying ambitions, the framework harbors a diverse family of competing computational models which rely on different assumptions and are under-constrained by neurological data. Secondly, we argue that the framework is also ill suited to provide a unifying theory of consciousness. Here, we focus on the tension between the claim that predictive processing is compatible with all of the leading neuroscientific models of consciousness with the fact that most attempts explaining consciousness within the framework rely heavily on external assumptions.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.33735/phimisci.2021.80</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_9153</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_9153">
+                <mets:FLocat xlink:href="https://philosophymindscience.org/index.php/phimisci/article/download/9153/8691" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_9153" DMDID="DMD_rub-journals_9153">
+            <mets:fptr FILEID="FILE0_rub-journals_9153"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

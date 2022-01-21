@@ -1,0 +1,63 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_151">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <nonSort>The </nonSort>
+                        <title>Dynamics of Adaptive Globalisation. Muslim Missionaries in Weimar Berlin</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Jonker, Gerdien</displayForm>
+                        <namePart type="family">Jonker</namePart>
+                        <namePart type="given">Gerdien</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2014-12-08</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">44</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">This study scrutinizes a case of adaptive globalisation at the interface of colonized India and post-war colonial Europe. It examines Muslim missionaries who, after World War I, made missionary efforts in Germany. Originating from British India, the missionaries’ determination was firmly rooted in the Indian colonial past. They saw their mission as a further step in the process of adaptive globalisation, that is, the drive to adapt to and to reverse Western domination.The paper retraces missionary competition in Weimar Berlin, revealing an amalgam of pan-Islamic ideas, political strategies, and reformist religious imagery. These attempts at winning Western converts were a knife that cut both ways: Missionaries approached German ‘moderns’ in their own symbolic language, while the latter steered between the different mission offers and adapted Islam to their own needs.Making use of fresh sources, the contribution offers three perspectives: (1) the Sunnī mission with its revolutionary tinge; (2) the Ahmadiyya mission, and (3) the interface.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/er.v1.2014.115-158</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0">CC BY-NC-ND 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_151</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_151">
+                <mets:FLocat xlink:href="https://er.ceres.rub.de/index.php/ER/article/download/151/114" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="text/html" ID="FILE1_rub-journals_151">
+                <mets:FLocat xlink:href="https://er.ceres.rub.de/index.php/ER/article/download/151/8271" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_151" DMDID="DMD_rub-journals_151">
+            <mets:fptr FILEID="FILE0_rub-journals_151"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_151" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_151"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

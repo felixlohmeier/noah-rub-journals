@@ -1,0 +1,54 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_9173">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Cryptanalysis of the SoDark Cipher for HF Radio Automatic Link Establishment</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Dansarie, Marcus</displayForm>
+                        <namePart type="family">Dansarie</namePart>
+                        <namePart type="given">Marcus</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2021-09-17</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">18</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">The SoDark cipher is used to protect transmitted frames in the second and third generation automatic link establishment (ALE) standards for high frequency (HF) radios. The cipher is primarily meant to prevent unauthorized linking and attacks on the availability of HF radio networks. This paper represents the first known security analysis of the cipher used by the second generation ALE protocol—the de facto world standard—and presents a related-tweak attack on the full eight round version of the algorithm. Under certain conditions, collisions of intermediate states several rounds into the cipher can be detected from the ciphertext with high probability. This enables testing against the intermediate states using only parts of the key. The best attack is a chosen-ciphertext attack which can recover the secret key in about an hour with 100% probability, using 29 chosen ciphertexts.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.46586/tosc.v2021.i3.36-53</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_9173</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_9173">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/9173/8711" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_9173" DMDID="DMD_rub-journals_9173">
+            <mets:fptr FILEID="FILE0_rub-journals_9173"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

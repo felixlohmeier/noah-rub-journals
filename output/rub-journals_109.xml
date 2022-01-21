@@ -1,0 +1,53 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_109">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <nonSort>A </nonSort>
+                        <title>suggested blueprint for the development of maritime archaeological research in Namibia</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Werz, Bruno E.J.S.</displayForm>
+                        <namePart type="family">Werz</namePart>
+                        <namePart type="given">Bruno E.J.S.</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2014-01-31</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">19</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">During the last few decades, maritime archaeology has developed into an internationally accepted field of specialisation within the discipline of archaeology. It has, however, only gained academic recognition in Southern Africa since the late 1980s, when a lecturing post for maritime archaeology was established at the University of Cape Town. This resulted in initial efforts being focused on South Africa. Now, however, the time has come to expand the development of maritime archaeology to neighbouring countries. Due to various positive factors - including the presence of an important research potential as well as growing interest and positive contributions by some organisations and private individuals - Namibia provides a fertile ground to extend the field of operations. This article first summarises the objectives and methodology of maritime archaeological research in general; then it offers suggestions as to how to establish this research specialisation in Namibia, bearing in mind local circumstances.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_109</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_109">
+                <mets:FLocat xlink:href="https://namibian-studies.com/index.php/JNS/article/download/109/78" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_109" DMDID="DMD_rub-journals_109">
+            <mets:fptr FILEID="FILE0_rub-journals_109"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,52 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8329">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Letter diary of Adolf Auffahrt, Zahlmeister in the Kaiserliche Schutztruppe for South West Africa, December 1904 – April 1905</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Eckl, Andreas</displayForm>
+                        <namePart type="family">Eckl</namePart>
+                        <namePart type="given">Andreas</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2019-06-30</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">19</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">This is a typescript of letters sent by Adolf Auffahrt to his family during his stay in German South West Africa where he served as Zahlmeister (paymaster) in the Kaiserliche Schutztruppe for South West Africa during the Herero and Nama wars. Auffahrt was almost forty when he signed up as a volunteer for the Schutztruppe in German South West Africa and – like many of his colonial South West African soldier colleagues – had taken part in the China-Expedition before. The letter diary begins with Auffahrt’s departure from Germany on Christmas Eve 1904 and ends with an entry in April 1905 when Auffahrt had learned of his father’s death. The letter diary is especially interesting with regard to the transit on board of the “Prinzregent” and Auffahrts expectations of the colony and the reality that he found there.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8329</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8329">
+                <mets:FLocat xlink:href="https://namibian-studies.com/index.php/JNS/article/download/8329/7678" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8329" DMDID="DMD_rub-journals_8329">
+            <mets:fptr FILEID="FILE0_rub-journals_8329"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,70 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8787">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Fault Attacks on CCA-secure Lattice KEMs</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Pessl, Peter</displayForm>
+                        <namePart type="family">Pessl</namePart>
+                        <namePart type="given">Peter</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Prokop, Lukas</displayForm>
+                        <namePart type="family">Prokop</namePart>
+                        <namePart type="given">Lukas</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2021-02-23</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">24</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">NIST’s post-quantum standardization effort very recently entered its final round. This makes studying the implementation-security aspect of the remaining candidates an increasingly important task, as such analyses can aid in the final selection process and enable appropriately secure wider deployment after standardization. However, lattice-based key-encapsulation mechanisms (KEMs), which are prominently represented among the finalists, have thus far received little attention when it comes to fault attacks.Interestingly, many of these KEMs exhibit structural similarities. They can be seen as variants of the encryption scheme of Lyubashevsky, Peikert, and Rosen, and employ the Fujisaki-Okamoto transform (FO) to achieve CCA2 security. The latter involves re-encrypting a decrypted plaintext and testing the ciphertexts for equivalence. This corresponds to the classic countermeasure of computing the inverse operation and hence prevents many fault attacks.In this work, we show that despite this inherent protection, practical fault attacks are still possible. We present an attack that requires a single instruction-skipping fault in the decoding process, which is run as part of the decapsulation. After observing if this fault actually changed the outcome (effective fault) or if the correct result is still returned (ineffective fault), we can set up a linear inequality involving the key coefficients. After gathering enough of these inequalities by faulting many decapsulations, we can solve for the key using a bespoke statistical solving approach. As our attack only requires distinguishing effective from ineffective faults, various detection-based countermeasures, including many forms of double execution, can be bypassed.We apply this attack to Kyber and NewHope, both of which belong to the aforementioned class of schemes. Using fault simulations, we show that, e.g., 6,500 faulty decapsulations are required for full key recovery on Kyber512. To demonstrate practicality, we use clock glitches to attack Kyber running on a Cortex M4. As we argue that other schemes of this class, such as Saber, might also be susceptible, the presented attack clearly shows that one cannot rely on the FO transform’s fault deterrence and that proper countermeasures are still needed.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.46586/tches.v2021.i2.37-60</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8787</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8787">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/8787/8387" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="" ID="FILE1_rub-journals_8787">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/8787/8607" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8787" DMDID="DMD_rub-journals_8787">
+            <mets:fptr FILEID="FILE0_rub-journals_8787"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_8787" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_8787"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

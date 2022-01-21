@@ -1,0 +1,71 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_9299">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Generic Hardware Private Circuits</title>
+                        <subTitle>Towards Automated Generation of Composable Secure Gadgets</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Knichel, David</displayForm>
+                        <namePart type="family">Knichel</namePart>
+                        <namePart type="given">David</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Sasdrich, Pascal</displayForm>
+                        <namePart type="family">Sasdrich</namePart>
+                        <namePart type="given">Pascal</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Moradi, Amir</displayForm>
+                        <namePart type="family">Moradi</namePart>
+                        <namePart type="given">Amir</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2021-11-19</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">22</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">With an increasing number of mobile devices and their high accessibility, protecting the implementation of cryptographic functions in the presence of physical adversaries has become more relevant than ever. Over the last decade, a lion’s share of research in this area has been dedicated to developing countermeasures at an algorithmic level. Here, masking has proven to be a promising approach due to the possibility of formally proving the implementation’s security solely based on its algorithmic description by elegantly modeling the circuit behavior. Theoretically verifying the security of masked circuits becomes more and more challenging with increasing circuit complexity. This motivated the introduction of security notions that enable masking of single gates while still guaranteeing the security when the masked gates are composed. Systematic approaches to generate these masked gates – commonly referred to as gadgets – were restricted to very simple gates like 2-input AND gates. Simply substituting such small gates by a secure gadget usually leads to a large overhead in terms of fresh randomness and additional latency (register stages) being introduced to the design.In this work, we address these problems by presenting a generic framework to construct trivially composable and secure hardware gadgets for arbitrary vectorial Boolean functions, enabling the transformation of much larger sub-circuits into gadgets. In particular, we present a design methodology to generate first-order secure masked gadgets which is well-suited for integration into existing Electronic Design Automation (EDA) tools for automated hardware masking as only the Boolean function expression is required. Furthermore, we practically verify our findings by conducting several case studies and show that our methodology outperforms various other masking schemes in terms of introduced latency or fresh randomness – especially for large circuits.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.46586/tches.v2022.i1.323-344</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_9299</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_9299">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/9299/8865" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_9299" DMDID="DMD_rub-journals_9299">
+            <mets:fptr FILEID="FILE0_rub-journals_9299"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

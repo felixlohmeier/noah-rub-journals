@@ -1,0 +1,93 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_384">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Influence of chromium as carbide forming doping element on the diamond retention in diamond tools</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Tillmann, W.</displayForm>
+                        <namePart type="family">Tillmann</namePart>
+                        <namePart type="given">W.</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Tolan, M.</displayForm>
+                        <namePart type="family">Tolan</namePart>
+                        <namePart type="given">M.</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Lopes-Dias, N. F.</displayForm>
+                        <namePart type="family">Lopes-Dias</namePart>
+                        <namePart type="given">N. F.</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Zimpel, M.</displayForm>
+                        <namePart type="family">Zimpel</namePart>
+                        <namePart type="given">M.</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Ferreira, M.</displayForm>
+                        <namePart type="family">Ferreira</namePart>
+                        <namePart type="given">M.</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Paulus, M.</displayForm>
+                        <namePart type="family">Paulus</namePart>
+                        <namePart type="given">M.</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015-11-25</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">10</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Diamond tools are widely used in drill tools, wire saws or circular saws to machine very hard materials such as concrete or natural stone in the construction as well as extractive industries. The mechanical and physical properties, such of these materials call for high requirements concerning the diamond tools. In particular, the bonding between the diamond particles and the metallic binder is an essential criterion for the tool quality. It is known that the type and strength of bonding is influenced by the diamond-metal interaction that occurs during the sintering process. Depending on the element used as a metallic binder, different thermally induced chemical reactions between the diamond and the metallic matrix take place. These reactions are (1) carbide formation, (2) graphite formation, and (3) inert behavior. However, there is still a high demand concerning the research of the diamond-metal interaction influenced by a carbide forming element.In this work, chromium as a carbide-forming element was used as a doping agent in order to increase the diamond retention in diamond tools. The elements iron, cobalt and nickel were selected as single metallic components due to their catalytic influence on the graphitization of diamonds; whereas three metallic matrix systems were additionally doped with 15% chromium. The samples were sintered by hot pressing. Furthermore, half of the samples were thermally treated in order to ensure a stronger thermal induction of the interfacial reactions. In order to analyze the bonding behavior of the diamonds in the metal matrix, the samples were broken and the interfacial area was analyzed by means scanning of electron microscopy. These experimental studies show an influence of the carbide-forming doping agent on the diamond-metal interaction.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/icscm.3.2015.21-30</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_384</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_384">
+                <mets:FLocat xlink:href="https://icscm.ub.rub.de/index.php/ICSCM/article/download/384/341" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_384" DMDID="DMD_rub-journals_384">
+            <mets:fptr FILEID="FILE0_rub-journals_384"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

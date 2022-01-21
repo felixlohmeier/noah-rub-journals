@@ -1,0 +1,54 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8306">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>‘It has almost been an underground movement’. The Development of Grassroots Football in Regional Ireland</title>
+                        <subTitle>the Case of the Donegal League, 1971–1996</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Curran, Conor</displayForm>
+                        <namePart type="family">Curran</namePart>
+                        <namePart type="given">Conor</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2019-05-28</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">28</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">This article assesses the development of association football at grassroots’ level in County Donegal, a peripheral county lying in the north-west of the Republic of Ireland. Despite the foundation of the County Donegal Football Association in 1894, soccer organisers there were unable to develop a permanent competitive structure for the game until the late 20th century and the more ambitious teams were generally forced to affiliate with leagues in nearby Derry city. In discussing the reasons for this lack of a regular structure, this paper will also focus on the success of the Donegal League, founded in 1971, in providing a season long calendar of games. It also looks at soccer administrators’ rivalry with those of Gaelic football there, and the impact of the nationalist Gaelic Athletic Association’s ‘ban’ on its members taking part in what the organisation termed ‘foreign games’. In particular, the extent to which the removal of the ‘ban’ in 1971 helped to ease co operation between organisers of Gaelic and Association football will be explored.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/mts.61.2019.33-60</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8306</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8306">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/8306/7655" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8306" DMDID="DMD_rub-journals_8306">
+            <mets:fptr FILEID="FILE0_rub-journals_8306"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

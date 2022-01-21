@@ -1,0 +1,53 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7630">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Spartakusgruppe, revolutionäre Obleute und die politischen Massenstreiks in Deutschland während des Ersten Weltkriegs</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Luban, Ottokar</displayForm>
+                        <namePart type="family">Luban</namePart>
+                        <namePart type="given">Ottokar</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015-01-24</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">16</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Considering shortfalls in supply and a general dissatisfaction with war that led to greater resentments amongst German workers, this essay focuses on the left-wing activities during the First World War in Germany − and their limits. It examines in particular various strikes such as the Liebknecht strike of June 1916 as well as the practices employed by activists, which ultimately culminated in the November Revolution and paved the way for the Weimar Republic. The contribution shows in how far left-wing supporters regarded political mass strikes as a suitable way of expressing their stance and the struggle for democratic rights. In addition, it reveals the different positions of historians on the state repression measures and the lacking participation of trade unions and social democrats that impeded the Spartacus League and chairmen of the Labour in their intentions for peace and democracy.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/mts.40.2008.23-38</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7630</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7630">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/7630/6802" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7630" DMDID="DMD_rub-journals_7630">
+            <mets:fptr FILEID="FILE0_rub-journals_7630"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

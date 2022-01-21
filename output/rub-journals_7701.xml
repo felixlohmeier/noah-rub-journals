@@ -1,0 +1,54 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7701">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <nonSort>Der </nonSort>
+                        <title>„neue sozialistische Donbass“ und der Aufstieg des Bergmanns zur kulturellen Leitfigur</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Penter, Tanja</displayForm>
+                        <namePart type="family">Penter</namePart>
+                        <namePart type="given">Tanja</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015-01-20</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">17</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">One of the most striking and discussed contradictions of Stalinist rule seems to be the fact that it was based not only on violence and terror, but also represented a specific system of values, which had a certain integrating impact, succeeded to mobilize the masses by means of propaganda, and engendered hopes for a better future. The miners of the Donbass during the 1930s on the one hand suffered from extremely hard working and living conditions, but on the other hand because of their significance for socialist construction held an especially high status in Stalinist society. The article shows how the coal mining region of the Donbass during the Five-Year-Plans increased its cultural importance as a “window of socialism” while the miners were stylized (f. e. in new cinema productions) as personification of the “new man” and cultural role-model for the whole Soviet Union.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/mts.37.2007.79-95</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7701</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7701">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/7701/6873" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7701" DMDID="DMD_rub-journals_7701">
+            <mets:fptr FILEID="FILE0_rub-journals_7701"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

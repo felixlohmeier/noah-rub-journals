@@ -1,0 +1,75 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8769">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Processes of Coping with Difference among Adolescents</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Powroznik, Natalie</displayForm>
+                        <namePart type="family">Powroznik</namePart>
+                        <namePart type="given">Natalie</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Tepeli, Dilek A.</displayForm>
+                        <namePart type="family">Tepeli</namePart>
+                        <namePart type="given">Dilek A.</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Loth, Martina</displayForm>
+                        <namePart type="family">Loth</namePart>
+                        <namePart type="given">Martina</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2021-01-14</dateIssued>
+                    </originInfo>
+                    <abstract lang="eng">Against the backdrop of their collective identity, identity formation poses a special challenge to young Alevis and Afghan Christians. In Turkey, Alevis constitute a marginalized group not officially recognized by the state. In Afghanistan, conversion to Christendom is denounced as apostasy and is punished with death. This contribution compares the coping strategies of two young adults who are radically segregated by the state’s majority due to their marginalized religious identity. German diaspora offers new degrees of freedom. Thus, besides many psychosocial burdens for immigrants and their descendants, the two adolescents can confidently accept their difference and integrate it into their diverse identity.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.46586/er.11.2020.8769</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8769</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8769">
+                <mets:FLocat xlink:href="https://er.ceres.rub.de/index.php/ER/article/download/8769/8370" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="text/html" ID="FILE1_rub-journals_8769">
+                <mets:FLocat xlink:href="https://er.ceres.rub.de/index.php/ER/article/download/8769/8371" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8769" DMDID="DMD_rub-journals_8769">
+            <mets:fptr FILEID="FILE0_rub-journals_8769"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_8769" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_8769"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

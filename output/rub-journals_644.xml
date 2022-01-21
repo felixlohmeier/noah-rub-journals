@@ -1,0 +1,110 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_644">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Refined Probability of Differential Characteristics Including Dependency Between Multiple Rounds</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Canteaut, Anne</displayForm>
+                        <namePart type="family">Canteaut</namePart>
+                        <namePart type="given">Anne</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Lambooij, Eran</displayForm>
+                        <namePart type="family">Lambooij</namePart>
+                        <namePart type="given">Eran</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Neves, Samuel</displayForm>
+                        <namePart type="family">Neves</namePart>
+                        <namePart type="given">Samuel</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Rasoolzadeh, Shahram</displayForm>
+                        <namePart type="family">Rasoolzadeh</namePart>
+                        <namePart type="given">Shahram</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Sasaki, Yu</displayForm>
+                        <namePart type="family">Sasaki</namePart>
+                        <namePart type="given">Yu</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Stevens, Marc</displayForm>
+                        <namePart type="family">Stevens</namePart>
+                        <namePart type="given">Marc</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2017-06-19</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">25</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">The current paper studies the probability of differential characteristics for an unkeyed (or with a fixed key) construction. Most notably, it focuses on the gap between two probabilities of differential characteristics: probability with independent S-box assumption, pind, and exact probability, pexact. It turns out that pexact is larger than pind in Feistel network with some S-box based inner function. The mechanism of this gap is then theoretically analyzed. The gap is derived from interaction of S-boxes in three rounds, and the gap depends on the size and choice of the S-box. In particular the gap can never be zero when the S-box is bigger than six bits. To demonstrate the power of this improvement, a related-key differential characteristic is proposed against a lightweight block cipher RoadRunneR. For the 128-bit key version, pind of 2−48 is improved to pexact of 2−43. For the 80-bit key version, pind of 2−68 is improved to pexact of 2−62. The analysis is further extended to SPN with an almost-MDS binary matrix in the core primitive of the authenticated encryption scheme Minalpher: pind of 2−128 is improved to pexact of 2−96, which allows to extend the attack by two rounds.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tosc.v2017.i2.203-227</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_644</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_644">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/644/612" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_rub-journals_644">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/644/7586" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="" ID="FILE2_rub-journals_644">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/644/7503" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_644" DMDID="DMD_rub-journals_644">
+            <mets:fptr FILEID="FILE0_rub-journals_644"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_644" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_644"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART2_rub-journals_644" LABEL="">
+                <mets:fptr FILEID="FILE2_rub-journals_644"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

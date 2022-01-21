@@ -1,0 +1,55 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_150">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <nonSort>The </nonSort>
+                        <title>Figure with a Bow in Gandhāran Great Departure Scenes. Some New Readings</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Pons, Jessie</displayForm>
+                        <namePart type="family">Pons</namePart>
+                        <namePart type="given">Jessie</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2014-10-31</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">80</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">The figure holding a bow on Gandhāran illustrations of the Bodhisattva’s departure from Kapilavastu has been the subject of controversy. First identified as Māra and Indra, the interpretation proposed by K. Tanabe that the protagonist is Vaiśravaṇa-Kubera rallied broader consensus. The present reassessment takes into account the multi-cultural and multi-religious context of production of the images, namely the Kushan era, to offer additional readings of the Gandhāran figure. The approach is two-fold. The examination of written and visual traditions of representing the episode is complemented by the analysis of the Gandhāran iconography in light of material from various cultural strands which came into contact in the region. As a final step, the article considers possible logics which might have constrained the construction of the Gandhāran portrayals and tests the hypothesis that further divinities from religious trends coeval in Gandhāra may be recognized under the guises of the bow-holder.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/er.v1.2014.15-94</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0">CC BY-NC-ND 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_150</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_150">
+                <mets:FLocat xlink:href="https://er.ceres.rub.de/index.php/ER/article/download/150/113" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_150" DMDID="DMD_rub-journals_150">
+            <mets:fptr FILEID="FILE0_rub-journals_150"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

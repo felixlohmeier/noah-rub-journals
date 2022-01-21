@@ -1,0 +1,55 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7806">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <nonSort>The </nonSort>
+                        <title>Gender of War and Peace</title>
+                        <subTitle>Rhetoric in the West German Peace Movement of the Early 1980s</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Davis, Belinda</displayForm>
+                        <namePart type="family">Davis</namePart>
+                        <namePart type="given">Belinda</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015-01-03</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">32</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">This article attempts to trace some of the gendered sources in drawing great numbers of feminists alongside other groups of West Germans into the unprecedentedly large peace movement of the early 1980s. It examines some of the tensions and paradoxes of these sources, including concerning the relation between &quot;everyday violence&quot; and war, and regarding the relation between &quot;feminine&quot; characteristics and pacifism, and whether these characteristics could apply to both men and women. Finally the piece looks at the ways in which a gendered rhetoric became mapped onto the question of &quot;rearmament alongside disarmament&quot; in a fashion simultaneously extremely effective and potentially problematic, in setting up more and less useful visions of &quot;self&apos; (as &quot;women&quot; and as &quot;West Germans&quot;) and &quot;other,&quot; and the relationship between them.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/mts.32.2004.99-130</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7806</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7806">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/7806/6978" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7806" DMDID="DMD_rub-journals_7806">
+            <mets:fptr FILEID="FILE0_rub-journals_7806"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,70 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8468">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Analyzing the Linear Keystream Biases in AEGIS</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Eichlseder, Maria</displayForm>
+                        <namePart type="family">Eichlseder</namePart>
+                        <namePart type="given">Maria</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Nageler, Marcel</displayForm>
+                        <namePart type="family">Nageler</namePart>
+                        <namePart type="given">Marcel</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Primas, Robert</displayForm>
+                        <namePart type="family">Primas</namePart>
+                        <namePart type="given">Robert</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020-01-31</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">21</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">AEGIS is one of the authenticated encryption designs selected for the final portfolio of the CAESAR competition. It combines the AES round function and simple Boolean operations to update its large state and extract a keystream to achieve an excellent software performance. In 2014, Minaud discovered slight biases in the keystream based on linear characteristics. For family member AEGIS-256, these could be exploited to undermine the confidentiality faster than generic attacks, but this still requires very large amounts of data. For final portfolio member AEGIS-128, these attacks are currently less efficient than generic attacks. We propose improved keystream approximations for the AEGIS family, but also prove upper bounds below 2−128 for the squared correlation contribution of any single suitable linear characteristic.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tosc.v2019.i4.348-368</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8468</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8468">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/8468/8034" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8468" DMDID="DMD_rub-journals_8468">
+            <mets:fptr FILEID="FILE0_rub-journals_8468"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

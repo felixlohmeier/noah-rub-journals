@@ -1,0 +1,101 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_383">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Numerical simulation of fatigue crack propagation in WC-Co hardmetal</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Özden, Utku Ahmet</displayForm>
+                        <namePart type="family">Özden</namePart>
+                        <namePart type="given">Utku Ahmet</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Jiang, Keng</displayForm>
+                        <namePart type="family">Jiang</namePart>
+                        <namePart type="given">Keng</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Bezold, Alexander</displayForm>
+                        <namePart type="family">Bezold</namePart>
+                        <namePart type="given">Alexander</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Broeckmann, Christoph</displayForm>
+                        <namePart type="family">Broeckmann</namePart>
+                        <namePart type="given">Christoph</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Tarragó, Jose María</displayForm>
+                        <namePart type="family">Tarragó</namePart>
+                        <namePart type="given">Jose María</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Mestra, Alvaro</displayForm>
+                        <namePart type="family">Mestra</namePart>
+                        <namePart type="given">Alvaro</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Llanes, Luis</displayForm>
+                        <namePart type="family">Llanes</namePart>
+                        <namePart type="given">Luis</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015-11-25</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">12</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">WC-Co cemented carbides (hardmetals) are a group of composite materials exhibiting outstandingcombinations of hardness and toughness. As a consequence, they are extensively used for highlydemanding applications, such as cutting and drilling tools, where cyclic loading is one of the mostcritical service conditions.A numerical study of the mesoscale fatigue crack growth in WC-Co is here conducted. Within thiscontext, a model based on a continuum damage mechanics approach was implemented incommercial solver Abaqus/Explicit for simulating the crack propagation in the material. Separatedamage laws, based on brittle failure and fatigue, were used for describing the mechanicalresponse of WC and Co phases, respectively. Material parameters for the carbide phase weretaken from literature, whereas those for the metallic phase were experimentally determined in amodel binder-like Co-base alloy, i.e. one with a composition representative of the binder phasewithin a commercial hardmetal grade.In order to validate the approach used, a numerical model based on a real damaged microstructurewas generated. It is found that proposed model is capable of capturing damage evolution withcyclic loading in WC-Co, as numerical results reflect satisfactory agreement with real crack patternresulting from experiments.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/icscm.3.2015.9-20</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_383</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_383">
+                <mets:FLocat xlink:href="https://icscm.ub.rub.de/index.php/ICSCM/article/download/383/340" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_383" DMDID="DMD_rub-journals_383">
+            <mets:fptr FILEID="FILE0_rub-journals_383"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,62 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8463">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Security of the Suffix Keyed Sponge</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Dobraunig, Christoph</displayForm>
+                        <namePart type="family">Dobraunig</namePart>
+                        <namePart type="given">Christoph</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Mennink, Bart</displayForm>
+                        <namePart type="family">Mennink</namePart>
+                        <namePart type="given">Bart</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020-01-31</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">26</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">We formalize and analyze the general suffix keyed sponge construction, a pseudorandom function built on top of a cryptographic permutation. The construction hashes its data using the (keyless) sponge construction, transforms part of the state using the secret key, and generates the tag from the output of a final permutation call. In its simplest form, if the key and tag size are at most the rate of the sponge, one can see the suffix keyed sponge as a simple sponge function evaluation whose input is the plaintext appended with the key. The suffix keyed sponge is, however, much more general: the key and tag size may exceed the rate without any need to make extra permutation calls. We prove that the suffix keyed sponge construction achieves birthday-bound PRF security in the capacity, even if key and tag size exceed the rate. Furthermore, we prove that if the absorption of the key into the state happens in a leakage resilient manner, the suffix keyed sponge itself is leakage resilient as well. Our findings show that the suffix keyed sponge compares favorably with the hash-then-MAC construction. For instance, to reach a security level of k bits, the side-channel protected component in the suffix keyed sponge just needs to process k bits of input besides the key, whereas schemes following the hash-then-MAC construction need a side-channel protected MAC function that processes 2k bits of input besides the key. Moreover, even if we just consider black-box attacks, the MAC function in a hash-then-MAC scheme needs to be cryptographically strong whereas in the suffix keyed sponge the key may be absorbed by a simple XOR. The security proofs are performed using the H-coefficient technique, and make effective use of the multicollision limit function results of Daemen et al. (ASIACRYPT 2017), both for arguing that state manipulation larger than the rate is tolerated after key processing and for upper bounding the amount of leakage an attacker may gain about the secret key.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tosc.v2019.i4.223-248</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8463</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8463">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/8463/8028" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8463" DMDID="DMD_rub-journals_8463">
+            <mets:fptr FILEID="FILE0_rub-journals_8463"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

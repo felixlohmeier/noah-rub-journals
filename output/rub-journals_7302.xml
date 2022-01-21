@@ -1,0 +1,78 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7302">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Conditional Linear Cryptanalysis – Cryptanalysis of DES with Less Than 242 Complexity</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Biham, Eli</displayForm>
+                        <namePart type="family">Biham</namePart>
+                        <namePart type="given">Eli</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Perle, Stav</displayForm>
+                        <namePart type="family">Perle</namePart>
+                        <namePart type="given">Stav</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2018-09-04</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">50</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">In this paper we introduce a new extension of linear cryptanalysis that may reduce the complexity of attacks by conditioning linear approximations on other linear approximations. We show that the bias of some linear approximations may increase under such conditions, so that after discarding the known plaintexts that do not satisfy the conditions, the bias of the remaining known plaintexts increases. We show that this extension can lead to improvements of attacks, which may require fewer known plaintexts and time of analysis. We present several types of such conditions, including one that is especially useful for the analysis of Feistel ciphers. We exemplify the usage of such conditions for attacks by a careful application of our extension to Matsui’s attack on the full 16-round DES, which succeeds to reduce the complexity of the best attack on DES to less than 242. We programmed a test implementation of our attack and verified our claimed results with a large number of runs. We also introduce a new type of approximations, to which we call scattered approximations, and discuss its applications.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tosc.v2018.i3.215-264</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7302</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7302">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/7302/6476" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_rub-journals_7302">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/7302/7571" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="" ID="FILE2_rub-journals_7302">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/7302/7747" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7302" DMDID="DMD_rub-journals_7302">
+            <mets:fptr FILEID="FILE0_rub-journals_7302"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_7302" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_7302"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART2_rub-journals_7302" LABEL="">
+                <mets:fptr FILEID="FILE2_rub-journals_7302"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

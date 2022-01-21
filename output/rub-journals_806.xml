@@ -1,0 +1,94 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_806">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Optimizing Implementations of Lightweight Building Blocks</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Jean, Jérémy</displayForm>
+                        <namePart type="family">Jean</namePart>
+                        <namePart type="given">Jérémy</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Peyrin, Thomas</displayForm>
+                        <namePart type="family">Peyrin</namePart>
+                        <namePart type="given">Thomas</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Sim, Siang Meng</displayForm>
+                        <namePart type="family">Sim</namePart>
+                        <namePart type="given">Siang Meng</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Tourteaux, Jade</displayForm>
+                        <namePart type="family">Tourteaux</namePart>
+                        <namePart type="given">Jade</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2017-12-15</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">39</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">We study the synthesis of small functions used as building blocks in lightweight cryptographic designs in terms of hardware implementations. This phase most notably appears during the ASIC implementation of cryptographic primitives. The quality of this step directly affects the output circuit, and while general tools exist to carry out this task, most of them belong to proprietary software suites and apply heuristics to any size of functions. In this work, we focus on small functions (4- and 8-bit mappings) and look for their optimal implementations on a specific weighted instructions set which allows fine tuning of the technology. We propose a tool named LIGHTER, based on two related algorithms, that produces optimized implementations of small functions. To demonstrate the validity and usefulness of our tool, we applied it to two practical cases: first, linear permutations that define diffusion in most of SPN ciphers; second, non-linear 4-bit permutations that are used in many lightweight block ciphers. For linear permutations, we exhibit several new MDS diffusion matrices lighter than the state-of-the-art, and we also decrease the implementation cost of several already known MDS matrices. As for non-linear permutations, LIGHTER outperforms the area-optimized synthesis of the state-of-the-art academic tool ABC. Smaller circuits can also be reached when ABC and LIGHTER are used jointly.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tosc.v2017.i4.130-168</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_806</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_806">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/806/760" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_rub-journals_806">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/806/7594" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="" ID="FILE2_rub-journals_806">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/806/7511" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_806" DMDID="DMD_rub-journals_806">
+            <mets:fptr FILEID="FILE0_rub-journals_806"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_806" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_806"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART2_rub-journals_806" LABEL="">
+                <mets:fptr FILEID="FILE2_rub-journals_806"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

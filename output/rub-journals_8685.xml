@@ -1,0 +1,86 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8685">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>DANA Universal Dataflow Analysis for Gate-Level Netlist Reverse Engineering</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Albartus, Nils</displayForm>
+                        <namePart type="family">Albartus</namePart>
+                        <namePart type="given">Nils</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Hoffmann, Max</displayForm>
+                        <namePart type="family">Hoffmann</namePart>
+                        <namePart type="given">Max</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Temme, Sebastian</displayForm>
+                        <namePart type="family">Temme</namePart>
+                        <namePart type="given">Sebastian</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Azriel, Leonid</displayForm>
+                        <namePart type="family">Azriel</namePart>
+                        <namePart type="given">Leonid</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Paar, Christof</displayForm>
+                        <namePart type="family">Paar</namePart>
+                        <namePart type="given">Christof</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020-08-26</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">28</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Reverse engineering of integrated circuits, i.e., understanding the internals of Integrated Circuits (ICs), is required for many benign and malicious applications. Examples of the former are detection of patent infringements, hardware Trojans or Intellectual Property (IP)-theft, as well as interface recovery and defect analysis, while malicious applications include IP-theft and finding insertion points for hardware Trojans. However, regardless of the application, the reverse engineer initially starts with a large unstructured netlist, forming an incomprehensible sea of gates.This work presents DANA, a generic, technology-agnostic, and fully automated dataflow analysis methodology for flattened gate-level netlists. By analyzing the flow of data between individual Flip Flops (FFs), DANA recovers high-level registers. The key idea behind DANA is to combine independent metrics based on structural and control information with a powerful automated architecture. Notably, DANA works without any thresholds, scenario-dependent parameters, or other “magic” values that the user must choose. We evaluate DANA on nine modern hardware designs, ranging from cryptographic co-processors, over CPUs, to the OpenTitan, a stateof- the-art System-on-Chip (SoC), which is maintained by the lowRISC initiative with supporting industry partners like Google and Western Digital. Our results demonstrate almost perfect recovery of registers for all case studies, regardless whether they were synthesized as FPGA or ASIC netlists. Furthermore, we explore two applications for dataflow analysis: we show that the raw output of DANA often already allows to identify crucial components and high-level architecture features and also demonstrate its applicability for detecting simple hardware Trojans.Hence, DANA can be applied universally as the first step when investigating unknown netlists and provides major guidance for human analysts by structuring and condensing the otherwise incomprehensible sea of gates. Our implementation of DANA and all synthesized netlists are available as open source on GitHub.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tches.v2020.i4.309-336</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8685</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8685">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/8685/8244" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8685" DMDID="DMD_rub-journals_8685">
+            <mets:fptr FILEID="FILE0_rub-journals_8685"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

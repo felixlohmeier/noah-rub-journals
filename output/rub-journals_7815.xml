@@ -1,0 +1,53 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7815">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Europe and Slave Protests in the Americas (1780-1850)</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Geary, Dick</displayForm>
+                        <namePart type="family">Geary</namePart>
+                        <namePart type="given">Dick</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015-01-14</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">14</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">This contribution firstly analyses the extent to which the Revolutions in France and Haiti in the late 18th century transformed the nature of slave revolts, which, according to Eugene Genovese, now aimed at the destruction of slavery as a system and were based on a modern ideology of &apos;the Rights of Man&apos; rather than an &apos;African call to holy war&apos;. It disputes Genovese&apos;s claims on the grounds that slave revolts before 1789 were no mere attempt to restore Africa; that conversely many slave revolts after that date continued to be led by African-born slaves with non-European agendas; that the relationship between ideological models and the motives of rebellious slaves were at the very least unclear; and that this was even true of in the case of Haiti. Secondly comparisons are made between the various forms of individual and collective protest adopted by slaves and those pursued by European workers. Many similarities are established, particularly in the field of economic bargaining, yet the presence of cultural transfers from Africa in the case of slaves constituted a crucial difference.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/mts.31.2004.9-22</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7815</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7815">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/7815/6987" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7815" DMDID="DMD_rub-journals_7815">
+            <mets:fptr FILEID="FILE0_rub-journals_7815"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

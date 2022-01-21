@@ -1,0 +1,61 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_389">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Development of Cuttability Chart for a Marble Cutting with Monowire Cutting Machine</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Yilmazkaya, Emre</displayForm>
+                        <namePart type="family">Yilmazkaya</namePart>
+                        <namePart type="given">Emre</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Ozcelik, Yilmaz</displayForm>
+                        <namePart type="family">Ozcelik</namePart>
+                        <namePart type="given">Yilmaz</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015-11-25</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">13</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Monowire block cutting machines can be used for natural stone block squaring operations and slabcutting operations from natural stone blocks. The efficient use of these machines reducesoperating costs by ensuring less diamond wire wear and longer wire life at high speeds. Thepurpose of this study is to develop cuttability chart for real marble sample based on unit wear andunit energy in monowire cutting system and also perform cutting optimization. For this purpose, thefull automatically servo controlled monowire cutting system which can cut blocks in threedimensions were developed in Hacettepe University Mining Engineering Department. Cuttingexperiments were performed at different wire rotation speed (peripheral speed) and wire downwardmovement speed (cutting speed) on the real marble block which was transported to the laboratory.A cuttability abacus in monowire cutting system taking into consideration the unit energyconsumption during cutting operation and unit wear on diamond beads was developed with DesignExpert 7.1 software for real marble sample by using the results obtained.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/icscm.3.2015.73-85</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_389</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_389">
+                <mets:FLocat xlink:href="https://icscm.ub.rub.de/index.php/ICSCM/article/download/389/346" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_389" DMDID="DMD_rub-journals_389">
+            <mets:fptr FILEID="FILE0_rub-journals_389"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

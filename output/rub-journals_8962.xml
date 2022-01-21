@@ -1,0 +1,57 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8962">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Perspectival self-consciousness and ego-dissolution</title>
+                        <subTitle>An analysis of (some) altered states of consciousness</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Sebastian, Miguel Angel</displayForm>
+                        <namePart type="family">Sebastian</namePart>
+                        <namePart type="given">Miguel Angel</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020-03-24</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">27</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">It is often claimed that a minimal form of self-awareness is constitutive of our conscious experience. Some have considered that such a claim is plausible for our ordinary experiences but false when considered unrestrictedly on the basis of the empirical evidence from altered states. In this paper I want to reject such a reasoning.
+This requires, first, a proper understanding of a minimal form of self-awareness – one that makes it plausible that minimal self-awareness is part of our ordinary experiences. I will argue that it should be understood as Perspectival First-Person Awareness (PFP-Awareness): a non-conceptual identification-free self-attribution that defines the first-person perspective for our conscious experience. I will offer a detailed characterization of PFP-Awareness in semantic and epistemological terms.
+With this tool in hand, I will review the empirical literature on altered states. I will focus on psychedelics, meditation and dreams, as they have been claimed to present the clearest cases in favor of a radical disruption of self-awareness. I will show that the rejection of the idea that minimal self-awareness is constitutive of our experience on the basis of this evidence is unfounded, for two main reasons. First, although there are good grounds to think that some forms of self-awareness that typically accompany our ordinary experiences are compromised, they do not support the claim that PFP-Awareness is absent. Secondly, the reports that could make us think of a radical disruption of self-awareness are most probably due to a confirmation bias – and hence we should mistrust them – derived from the expectations and metaphysical views of their subjects.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.33735/phimisci.2020.I.44</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8962</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8962">
+                <mets:FLocat xlink:href="https://philosophymindscience.org/index.php/phimisci/article/download/8962/8540" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8962" DMDID="DMD_rub-journals_8962">
+            <mets:fptr FILEID="FILE0_rub-journals_8962"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

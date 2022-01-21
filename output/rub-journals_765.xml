@@ -1,0 +1,86 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_765">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Security Analysis of SKINNY under Related-Tweakey Settings</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Liu, Guozhen</displayForm>
+                        <namePart type="family">Liu</namePart>
+                        <namePart type="given">Guozhen</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Ghosh, Mohona</displayForm>
+                        <namePart type="family">Ghosh</namePart>
+                        <namePart type="given">Mohona</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Song, Ling</displayForm>
+                        <namePart type="family">Song</namePart>
+                        <namePart type="given">Ling</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2017-09-19</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">36</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">In CRYPTO’16, a new family of tweakable lightweight block ciphers - SKINNY was introduced. Denoting the variants of SKINNY as SKINNY-n-t, where n represents the block size and t represents the tweakey length, the design specifies t ∈ {n, 2n, 3n}. In this work, we evaluate the security of SKINNY against differential cryptanalysis in the related-tweakey model. First, we investigate truncated related-tweakey differential trails of SKINNY and search for the longest impossible and rectangle distinguishers where there is only one active cell in the input and the output. Based on the distinguishers obtained, 19, 23 and 27 rounds of SKINNY-n-n, SKINNY-n-2n and SKINNY-n-3n can be attacked respectively. Next, actual differential trails for SKINNY under related-tweakey model are explored and optimal differential trails of SKINNY-64 within certain number of rounds are searched with an indirect searching method based on Mixed-Integer Linear Programming. The results show a trend that as the number of rounds increases, the probability of optimal differential trails is much lower than the probability derived from the lower bounds of active Sboxes in SKINNY.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tosc.v2017.i3.37-72</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_765</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_765">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/765/723" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_rub-journals_765">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/765/7604" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="" ID="FILE2_rub-journals_765">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/765/7530" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_765" DMDID="DMD_rub-journals_765">
+            <mets:fptr FILEID="FILE0_rub-journals_765"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_765" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_765"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART2_rub-journals_765" LABEL="">
+                <mets:fptr FILEID="FILE2_rub-journals_765"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

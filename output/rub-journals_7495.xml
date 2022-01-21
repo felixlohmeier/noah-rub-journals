@@ -1,0 +1,62 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7495">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Avantgarde einer egalitären Bewegung</title>
+                        <subTitle>Anarchosyndikalisten in Deutschland in der ersten Hälfte des 20. Jahrhunderts</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Nelles, Dieter</displayForm>
+                        <namePart type="family">Nelles</namePart>
+                        <namePart type="given">Dieter</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Rübner, Hartmut</displayForm>
+                        <namePart type="family">Rübner</namePart>
+                        <namePart type="given">Hartmut</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015-02-02</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">34</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">The historic impact of anarcho-syndicalism as an autonomous current within the German workers’ movement lasted approximately 40 years. On a national scale, the Free Workers’ Union of Germany (FAUD), as the most influential organisation of this kind, appears as a marginalised association on the periphery of the labour movement. Only during the years 1919 to 1922/23 the FAUD asserted itself temporarily as an influential factor at shop floor levels in some regions of Germany. Once reaching a membership of more than 120,000 in the first years of the Weimar Republic, its membership substantially declined to only 4,307 in 1932, compared to 3.5 million Social Democrats in the Allgemeiner Deutscher Gewerkschaftsbund. However, a more differentiated picture emerges locally. Anarcho-syndicalists frequently played an important role in the fight against the rise of the Nazi Party as well as in the inter-group culture and the self-help initiatives of the labour movement. Thereby, inter-generational social cohesion was gained not necessarily by acting as a trade union primarily committed to class conflict, but through diverse cultural engagements. In this respect, the formative influence of anarcho-syndicalist culture in everyday life functioned as an integrative agency of socialisation. The quasi-familial group structure at the base included all generations and therefore ensured continuity. In general, the organisation integrated children and attracted young people from socialist family backgrounds. Altogether, the generations possessed or developed long-standing political experiences and identified themselves with a “socialist-libertarian” model of society. This essay deals with this scope of persons, who – to a certain extent – shared the characteristics of an elite without deriving entitlements from it. Based on an approximately 40-year-long organisational history, four generations of actors can be distinguished: 1. socialist pioneers; 2. syndicalist founders; 3. industrial syndicalists; 4. young anarcho-syndicalists.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/mts.51.2014.179-212</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7495</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7495">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/7495/6667" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7495" DMDID="DMD_rub-journals_7495">
+            <mets:fptr FILEID="FILE0_rub-journals_7495"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

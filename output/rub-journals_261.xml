@@ -1,0 +1,53 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_261">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <nonSort>Die </nonSort>
+                        <title>Linke in Griechenland. Ein historischer Überblick von ihrer Entstehung bis zu den Maiwahlen 2012</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Stergiou, Andreas</displayForm>
+                        <namePart type="family">Stergiou</namePart>
+                        <namePart type="given">Andreas</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2012-09-05</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">17</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">The article offers a survey over the emergence and evolution of Greece’s left parties until today. By using both, historical and political science’s analytical tools, the article attempts to explain the big and wide popularity of the communist and left ideology in Greece, which has been documented in the electoral results of the parliamentary elections of Mai 2012 in Greece. Whereas many analysts interprets the electoral success of the Greek left parties as the outcome of frustration and protest against the austerity measures Greece’s government was forced to take in the last two years in order to satisfy its creditors, the author explains it in different way. He argues that the rise of the Greek left parties is the continuation of a development that began in 1974 after the collapse of the military junta and culminated in 2012 in the course of the economic meltdown Greece has faced since 2009.University of Crete</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_261</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_261">
+                <mets:FLocat xlink:href="https://incs.ub.rub.de/index.php/INCS/article/download/261/219" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_261" DMDID="DMD_rub-journals_261">
+            <mets:fptr FILEID="FILE0_rub-journals_261"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,60 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8742">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <nonSort>A </nonSort>
+                        <title>Metallurgical Perspective on the Birth of Ancient Israel</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Amzallag, Nissim</displayForm>
+                        <namePart type="family">Amzallag</namePart>
+                        <namePart type="given">Nissim</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2021-03-30</dateIssued>
+                    </originInfo>
+                    <abstract lang="eng">The re-emergence of the copper industry in the Arabah valley between the twelfth and ninth centuries BCE stimulated wealth and economic development across the whole Southern Levant. Combining this reality with the metallurgical background of ancient Yahwism provides a material basis for the spread, from the early Iron Age, of the worship of YHWH in ancient Israel and neighboring nations, especially Edom. These findings strengthen the Qenite hypothesis of the origin of the Israelite religion. They also suggest that an official cult of YHWH, replacing a traditional esoteric dimension, is the main novelty of the Israelite religion. The claim of YHWH’s intervention in history, apparently absent from traditional Yahwism, is the other theological novelty advanced by the Israelites. This article suggests that both innovations are rooted in a desert-shaped form of Yahwism especially adapted to the way of life and the environment of Northwestern Arabia, the land of Biblical Midian.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.46586/er.12.2021.8742</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8742</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8742">
+                <mets:FLocat xlink:href="https://er.ceres.rub.de/index.php/ER/article/download/8742/8372" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="text/html" ID="FILE1_rub-journals_8742">
+                <mets:FLocat xlink:href="https://er.ceres.rub.de/index.php/ER/article/download/8742/8373" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8742" DMDID="DMD_rub-journals_8742">
+            <mets:fptr FILEID="FILE0_rub-journals_8742"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_8742" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_8742"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

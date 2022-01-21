@@ -1,0 +1,77 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_391">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>An experimental investigation of vibration characteristics in the diamond wire sawing of granite</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Huang, Hui</displayForm>
+                        <namePart type="family">Huang</namePart>
+                        <namePart type="given">Hui</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Huang, Guoqin</displayForm>
+                        <namePart type="family">Huang</namePart>
+                        <namePart type="given">Guoqin</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Guo, Hua</displayForm>
+                        <namePart type="family">Guo</namePart>
+                        <namePart type="given">Hua</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Xu, Xipeng</displayForm>
+                        <namePart type="family">Xu</namePart>
+                        <namePart type="given">Xipeng</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015-11-25</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">7</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Compared with circular and gang sawing, diamond wire sawing is a flexible machiningmode due to its special structure characteristic. The diamond wire with the elastic steelcore bends and vibrates in sawing process. In this paper, the vibration characteristicsare analyzed in the granite sawing with the diamond wire. The vibration signals in thesawing process are simultaneously measured at six different measurement pointsalong the cutting zone. The influences of sawing parameters on the vibrationcharacteristics are explored. The results show that the vibration amplitude is aU-shaped distribution in the sawing arc. The vibration amplitude decreases with theincrease of wire speeds, feed rates and the tension forces. The vibration fundamentalfrequency is certainly proportional to the number of wheel speed times the number ofbeads per meter, which has no related to the feed rates and tension forces in the sawprocess. The wire vibration indicates the impact of bead acted on the workpiece.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/icscm.3.2015.93-99</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_391</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_391">
+                <mets:FLocat xlink:href="https://icscm.ub.rub.de/index.php/ICSCM/article/download/391/348" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_391" DMDID="DMD_rub-journals_391">
+            <mets:fptr FILEID="FILE0_rub-journals_391"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

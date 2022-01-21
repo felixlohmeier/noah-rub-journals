@@ -1,0 +1,102 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_813">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Shorter Linear Straight-Line Programs for MDS Matrices</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Kranz, Thorsten</displayForm>
+                        <namePart type="family">Kranz</namePart>
+                        <namePart type="given">Thorsten</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Leander, Gregor</displayForm>
+                        <namePart type="family">Leander</namePart>
+                        <namePart type="given">Gregor</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Stoffelen, Ko</displayForm>
+                        <namePart type="family">Stoffelen</namePart>
+                        <namePart type="given">Ko</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Wiemer, Friedrich</displayForm>
+                        <namePart type="family">Wiemer</namePart>
+                        <namePart type="given">Friedrich</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2017-12-15</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">24</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Recently a lot of attention is paid to the search for efficiently implementable MDS matrices for lightweight symmetric primitives. Most previous work concentrated on locally optimizing the multiplication with single matrix elements. Separate from this line of work, several heuristics were developed to find shortest linear straightline programs. Solving this problem actually corresponds to globally optimizing multiplications by matrices. In this work we combine those, so far largely independent lines of work. As a result, we achieve implementations of known, locally optimized, and new MDS matrices that significantly outperform all implementations from the literature. Interestingly, almost all previous locally optimized constructions behave very similar with respect to the globally optimized implementation. As a side effect, our work reveals the so far best implementation of the Aes Mix- Columns operation with respect to the number of XOR operations needed.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tosc.v2017.i4.188-211</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_813</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_813">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/813/766" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_rub-journals_813">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/813/7588" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="" ID="FILE2_rub-journals_813">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/813/7494" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="" ID="FILE3_rub-journals_813">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/813/7505" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_813" DMDID="DMD_rub-journals_813">
+            <mets:fptr FILEID="FILE0_rub-journals_813"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_813" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_813"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART2_rub-journals_813" LABEL="">
+                <mets:fptr FILEID="FILE2_rub-journals_813"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART3_rub-journals_813" LABEL="">
+                <mets:fptr FILEID="FILE3_rub-journals_813"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

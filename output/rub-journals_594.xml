@@ -1,0 +1,86 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_594">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Cube-like Attack on Round-Reduced Initialization of Ketje Sr</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Dong, Xiaoyang</displayForm>
+                        <namePart type="family">Dong</namePart>
+                        <namePart type="given">Xiaoyang</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Li, Zheng</displayForm>
+                        <namePart type="family">Li</namePart>
+                        <namePart type="given">Zheng</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Wang, Xiaoyun</displayForm>
+                        <namePart type="family">Wang</namePart>
+                        <namePart type="given">Xiaoyun</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Qin, Ling</displayForm>
+                        <namePart type="family">Qin</namePart>
+                        <namePart type="given">Ling</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2017-03-08</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">22</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">This paper studies the Keccak-based authenticated encryption (AE) scheme Ketje Sr against cube-like attacks. Ketje is one of the remaining 16 candidates of third round CAESAR competition, whose primary recommendation is Ketje Sr. Although the cube-like method has been successfully applied to Ketje’s sister ciphers, including Keccak-MAC and Keyak – another Keccak-based AE scheme, similar attacks are missing for Ketje. For Ketje Sr, the state (400-bit) is much smaller than Keccak-MAC and Keyak (1600-bit), thus the 128-bit key and cubes with the same dimension would occupy more lanes in Ketje Sr. Hence, the number of key bits independent of the cube sum is very small, which makes the divide-and-conquer method (it has been applied to 7-round attack on Keccak-MAC by Dinur et al.) can not be translated to Ketje Sr trivially. This property seems to be the barrier for the translation of the previous cube-like attacks to Ketje Sr. In this paper, we evaluate Ketje Sr against the divide-and-conquer method. Firstly, by applying the linear structure technique, we find some 32/64-dimension cubes of Ketje Sr that do not multiply with each other as well as some bits of the key in the first round. In addition, we introduce the new dynamic variable instead of the auxiliary variable (it was used in Dinur et al.’s divide-and-conquer attack to reduce the diffusion of the key) to reduce the diffusion of the key as well as the cube variables. Finally, we successfully launch a 6/7-round1 key recovery attack on Ketje Sr v1 and v2 (v2 is presented for the 3rd round CAESAR competition.). In 7-round attack, the complexity of online phase for Ketje Sr v1 is 2113, while for Ketje Sr v2, it is 297 (the preprocessing complexity is the same). We claim 7-round reduced Ketje Sr v2 is weaker than v1 against our attacks. In addition, some results on other Ketje instances and Ketje Sr with smaller nonce are given. Those are the first results on Ketje and bridge the gaps of cryptanalysis between its sister ciphers – Keyak and the Keccak keyed modes.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tosc.v2017.i1.259-280</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_594</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_594">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/594/535" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_rub-journals_594">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/594/7493" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_594" DMDID="DMD_rub-journals_594">
+            <mets:fptr FILEID="FILE0_rub-journals_594"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_594" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_594"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

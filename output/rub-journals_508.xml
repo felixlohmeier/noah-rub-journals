@@ -1,0 +1,58 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_508">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Christian Saṃnyāsis and the Enduring Influence of Bede Griffiths in California</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Beltramini, Enrico</displayForm>
+                        <namePart type="family">Beltramini</namePart>
+                        <namePart type="given">Enrico</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2016-06-27</dateIssued>
+                    </originInfo>
+                    <abstract lang="eng">This article thematizes a spiritual movement of ascetic hermits in California, which is based on the religious practice of Bede Griffiths. These hermits took their religious vows in India as Christian saṃnyāsis, in the hands of Father Bede, and then returned to California to ignite a contemplative renewal in the Christian dispirited tradition. Some tried to integrate such Indian tradition in the Benedictine order, while others traced new paths.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/er.v3.2016.AP-BI</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_508</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_508">
+                <mets:FLocat xlink:href="https://er.ceres.rub.de/index.php/ER/article/download/508/457" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="text/html" ID="FILE1_rub-journals_508">
+                <mets:FLocat xlink:href="https://er.ceres.rub.de/index.php/ER/article/download/508/8257" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_508" DMDID="DMD_rub-journals_508">
+            <mets:fptr FILEID="FILE0_rub-journals_508"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_508" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_508"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

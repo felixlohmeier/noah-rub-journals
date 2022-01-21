@@ -1,0 +1,86 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_767">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Practical Evaluation of FSE 2016 Customized Encoding Countermeasure</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Bhasin, Shivam</displayForm>
+                        <namePart type="family">Bhasin</namePart>
+                        <namePart type="given">Shivam</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Jap, Dirmanto</displayForm>
+                        <namePart type="family">Jap</namePart>
+                        <namePart type="given">Dirmanto</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Peyrin, Thomas</displayForm>
+                        <namePart type="family">Peyrin</namePart>
+                        <namePart type="given">Thomas</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2017-09-19</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">22</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">To protect against side-channel attacks, many countermeasures have been proposed. A novel customized encoding countermeasure was published in FSE 2016. Customized encoding exploits knowledge of the profiled leakage of the device to construct an optimal encoding and minimize the overall side-channel leakage. This technique was originally applied on a basic table look-up. In this paper, we implement a full block cipher with customized encoding countermeasure and investigate its security under simulated and practical setting for a general purpose microcontroller. Under simulated setting, we can verify that customized encoding shows strong security properties under proper assumption of leakage estimation and noise variance. However, in practical setting, our general observation is that the side-channel leakage will mostly be present even if the encoding scheme is applied, highlighting some limitation of the approach. The results are supported by experiments on 8-bit AVR and 32-bit ARM microcontroller.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tosc.v2017.i3.108-129</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_767</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_767">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/767/725" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_rub-journals_767">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/767/7606" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="" ID="FILE2_rub-journals_767">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/767/7532" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_767" DMDID="DMD_rub-journals_767">
+            <mets:fptr FILEID="FILE0_rub-journals_767"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_767" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_767"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART2_rub-journals_767" LABEL="">
+                <mets:fptr FILEID="FILE2_rub-journals_767"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

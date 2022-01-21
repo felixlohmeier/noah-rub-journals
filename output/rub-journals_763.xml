@@ -1,0 +1,87 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_763">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Grøstl Distinguishing Attack</title>
+                        <subTitle>A New Rebound Attack of an AES-like Permutation</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Cauchois, Victor</displayForm>
+                        <namePart type="family">Cauchois</namePart>
+                        <namePart type="given">Victor</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Gomez, Clément</displayForm>
+                        <namePart type="family">Gomez</namePart>
+                        <namePart type="given">Clément</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Lercier, Reynald</displayForm>
+                        <namePart type="family">Lercier</namePart>
+                        <namePart type="given">Reynald</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2017-09-19</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">23</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">We consider highly structured truncated differential paths to mount a new rebound attack on Grøstl-512, a hash functions based on two AES-like permutations, P1024 and Q1024, with non-square input and output registers. We explain how such differential paths can be computed using a Mixed-Integer Linear Programming approach. Together with a SuperSBox description, this allows us to build a rebound attack with a 6-round inbound phase whereas classical rebound attacks have 4-round inbound phases. This yields the first distinguishing attack on a 11-round version of P1024 and Q1024 with about 272 computations and a memory complexity of about 256 bytes, to be compared with the 296 computations required by the corresponding generic attack. Previous best results on this permutation reached 10 rounds with a computational complexity of about 2392 operations, to be compared with the 2448 computations required by the corresponding generic attack.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tosc.v2017.i3.1-23</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_763</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_763">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/763/721" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_rub-journals_763">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/763/7602" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="" ID="FILE2_rub-journals_763">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/763/7528" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_763" DMDID="DMD_rub-journals_763">
+            <mets:fptr FILEID="FILE0_rub-journals_763"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_763" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_763"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART2_rub-journals_763" LABEL="">
+                <mets:fptr FILEID="FILE2_rub-journals_763"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,53 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_817">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Learner absenteeism</title>
+                        <subTitle>A case study of rural primary schools in Kavango East</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Mudumbi, Katanga Marcelius</displayForm>
+                        <namePart type="family">Mudumbi</namePart>
+                        <namePart type="given">Katanga Marcelius</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2017-12-31</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">22</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">The article explores classroom challenges experienced by rural primary school teachers in the Kavango East region of Namibia when learners are absent from school and the strategies used to reduce learner absenteeism. It employs a qualitative approach and semi-structured interviews as data collection method. Literature indicates that learner absenteeism is more of a problem in rural schools than in urban schools. Managing learner performance when there is a high rate of absenteeism is a problem in teaching and learning, and is a hindrance to quality education. This article draws on ethic of care theory to explain the experience of the teachers. Interviews were carried out at four rural primary schools in Kavango East with two teachers from each school. The findings have implications for building a teacher-learner relationship that is based on caring for the learner’s education needs and well-being in general.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_817</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_817">
+                <mets:FLocat xlink:href="https://namibian-studies.com/index.php/JNS/article/download/817/770" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_817" DMDID="DMD_rub-journals_817">
+            <mets:fptr FILEID="FILE0_rub-journals_817"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

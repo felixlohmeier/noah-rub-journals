@@ -1,0 +1,61 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8674">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <nonSort>The </nonSort>
+                        <title>“Brilliant Teaching”</title>
+                        <subTitle>Iranian Christians in Tang China and Their Identity</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Deeg, Max</displayForm>
+                        <namePart type="family">Deeg</namePart>
+                        <namePart type="given">Max</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020-11-30</dateIssued>
+                    </originInfo>
+                    <abstract lang="eng">The last three decades or so have seen an increasing interest in the early history of Christianity in China, particularly in Christian communities in the Tang period. One of the pertinent questions asked—particularly by theologians—is whether the “Brilliant Teaching” (Jingjiao), as the religion called itself in Chinese, had a substantial number of Chinese converts, i.e. whether it was a proselytizing religion or rather an Iranian diaspora religion. While recent documents and new interpretations of existing sources has made it probable that we are indeed dealing with an “expat” religious community, the question of the cultural and religious identity of this community has not really been addressed: they were using Syriac as their liturgical and communal language, but were Persian, Sogdian and maybe even Bactrian in terms of origin and culture. This paper will summarize the data we can get from Chinese sources and discuss them in the light of religious and cultural identity.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.46586/er.11.2020.8674</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8674</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8674">
+                <mets:FLocat xlink:href="https://er.ceres.rub.de/index.php/ER/article/download/8674/8310" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="text/html" ID="FILE1_rub-journals_8674">
+                <mets:FLocat xlink:href="https://er.ceres.rub.de/index.php/ER/article/download/8674/8311" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8674" DMDID="DMD_rub-journals_8674">
+            <mets:fptr FILEID="FILE0_rub-journals_8674"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_8674" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_8674"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

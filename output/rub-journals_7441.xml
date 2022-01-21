@@ -1,0 +1,62 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7441">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Review Article</title>
+                        <subTitle>Prosopographies, Transnational Lives, and Multiple Identities in Global Humanitarianism</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Dal Lago, Enrico</displayForm>
+                        <namePart type="family">Dal Lago</namePart>
+                        <namePart type="given">Enrico</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>O’Sullivan, Kevin</displayForm>
+                        <namePart type="family">O’Sullivan</namePart>
+                        <namePart type="given">Kevin</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2017-05-31</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">16</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Bruno Cabanes: The Great War and the Origins of Humanitarianism 1918 – 1924, Cambridge / New York: Cambridge University Press, 2014, vii + 390 pp., ISBN: 978-1-107-60483-4.Jay Winter / Antoine Prost: René Cassin and Human Rights: From the Great War to the Universal Declaration, Cambridge / New York: Cambridge University Press, 2013, xxiii + 376 pp., ISBN: 978-1-107-65570-6.Marian Moser Jones: The American Red Cross from Clara Barton to the New Deal, Baltimore: Johns Hopkins University Press, 2013, xxviii + 365 pp., ISBN: 978-1-4214-0738-8.Alex Wright: Cataloguing the World: Paul Otlet and the Birth of the Information Age, Oxford / New York: Oxford University Press, 2014, 350 pp., ISBN: 978-0-19-993141-5.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <identifier type="doi">10.13154/mts.57.2017.159-174</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7441</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7441">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/7441/6613" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7441" DMDID="DMD_rub-journals_7441">
+            <mets:fptr FILEID="FILE0_rub-journals_7441"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,78 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_847">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Column Parity Mixers</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Stoffelen, Ko</displayForm>
+                        <namePart type="family">Stoffelen</namePart>
+                        <namePart type="given">Ko</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Daemen, Joan</displayForm>
+                        <namePart type="family">Daemen</namePart>
+                        <namePart type="given">Joan</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2018-03-01</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">34</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">We present column parity mixers (CPM), a generalization of the Θ mixing layer that is used in Keccak. Thanks to our description using matrix arithmetic, we can easily derive algebraic, diffusion, and mask propagation properties, leading to a surprising distinction between two types of CPMs. We compare CPMs to other popular types of mixing layers and argue that CPMs can be more efficient. While Keccak has a bit-oriented structure, we make the case that CPMs are also suitable for nibble- or byte-oriented designs. We outline a general substitution-permutation-network-based design strategy using a CPM, for which we show how one can attain strong bounds for differential and linear trails. We apply this strategy concretely to design a 256-bit permutation with an efficient inverse and strong trail bounds. Our permutation design uses a number of ideas that are of independent interest and allows a fast bitsliced implementation that compares quite well with other established ciphers and permutations.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tosc.v2018.i1.126-159</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_847</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_847">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/847/799" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_rub-journals_847">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/847/7620" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="" ID="FILE2_rub-journals_847">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/847/7520" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_847" DMDID="DMD_rub-journals_847">
+            <mets:fptr FILEID="FILE0_rub-journals_847"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_847" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_847"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART2_rub-journals_847" LABEL="">
+                <mets:fptr FILEID="FILE2_rub-journals_847"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

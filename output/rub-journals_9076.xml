@@ -1,0 +1,63 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_9076">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Yoroi</title>
+                        <subTitle>Updatable Whitebox Cryptography</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Koike, Yuji</displayForm>
+                        <namePart type="family">Koike</namePart>
+                        <namePart type="given">Yuji</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Isobe, Takanori</displayForm>
+                        <namePart type="family">Isobe</namePart>
+                        <namePart type="given">Takanori</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2021-08-11</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">31</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Whitebox cryptography aims to provide security in the whitebox setting where the adversary has unlimited access to the implementation and its environment. In order to ensure security in the whitebox setting, it should prevent key extraction attacks and code-lifting attacks, in which the adversary steals the original cryptographic implementation instead of the key, and utilizes it as a big key. Although recent published ciphers such as SPACE, SPNbox, and Whiteblock successfully achieve security against the key extraction attacks, they only provide mitigation of codelifting attack by the so-called space hardness and incompressibility properties of the underlying tables as the space-hard/incompressible table might be eventually stolen by continuous leakage. The complete prevention of such attacks may need to periodically update the secret key. However, that entails high costs and might introduce an additional vulnerability into the system due to the necessity for the reencryption of all data by the updated key. In this paper, we introduce a new property, denominated longevity, for whitebox cryptography. This property enhances security against code-lifting attacks with continuous leakage by updating incompressible tables instead of the secret key. We propose a family of new whitebox-secure block ciphers Yoroi that has the longevity property in addition to the space hardness. By updating its implementation periodically, Yoroi provides constant security against code-lifting attacks without key updating. Moreover, the performance of Yoroi is competitive with existing ciphers implementations in the blackbox and whitebox context.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.46586/tches.v2021.i4.587-617</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_9076</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_9076">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/9076/8663" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_9076" DMDID="DMD_rub-journals_9076">
+            <mets:fptr FILEID="FILE0_rub-journals_9076"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

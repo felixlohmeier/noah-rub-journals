@@ -1,0 +1,86 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_871">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Generic Low-Latency Masking in Hardware</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Gross, Hannes</displayForm>
+                        <namePart type="family">Gross</namePart>
+                        <namePart type="given">Hannes</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Iusupov, Rinat</displayForm>
+                        <namePart type="family">Iusupov</namePart>
+                        <namePart type="given">Rinat</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Bloem, Roderick</displayForm>
+                        <namePart type="family">Bloem</namePart>
+                        <namePart type="given">Roderick</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2018-05-08</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">21</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">In this work, we introduce a generalized concept for low-latency masking that is applicable to any implementation and protection order, and (in its most extreme form) does not require on-the-fly randomness. The main idea of our approach is to avoid collisions of shared variables in nonlinear circuit parts and to skip the share compression. We show the feasibility of our approach on a full implementation of a one-round unrolled Ascon variant and on an AES S-box case study. Additionally, we discuss possible trade-offs to make our approach interesting for practical implementations. As a result, we obtain a first-order masked AES S-box that is calculated in a single clock cycle with rather high implementation costs (60.7 kGE), and a two-cycle variant with much less implementation costs (6.7 kGE). The side-channel resistance of our Ascon S-box designs up to order three are then verified using the formal analysis tool of [BGI+18]. Furthermore, we introduce a taint checking based verification approach that works specifically for our low-latency approach and allows us to verify large circuits like our low-latency AES S-box design in reasonable time.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tches.v2018.i2.1-21</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_871</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_871">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/871/823" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_rub-journals_871">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/871/7968" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="" ID="FILE2_rub-journals_871">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/871/7969" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_871" DMDID="DMD_rub-journals_871">
+            <mets:fptr FILEID="FILE0_rub-journals_871"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_871" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_871"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART2_rub-journals_871" LABEL="">
+                <mets:fptr FILEID="FILE2_rub-journals_871"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

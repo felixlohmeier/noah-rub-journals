@@ -1,0 +1,62 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8424">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <nonSort>The </nonSort>
+                        <title>ascendency of Esther Utjiua Muinjangue to the NUDO presidency in Namibia</title>
+                        <subTitle>A challenge to patriarchy?</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Amupanda, Job Shipululo</displayForm>
+                        <namePart type="family">Amupanda</namePart>
+                        <namePart type="given">Job Shipululo</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Marenga, Ralph</displayForm>
+                        <namePart type="family">Marenga</namePart>
+                        <namePart type="given">Ralph</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2019-12-06</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">19</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">There will be a female presidential candidate running for office in 2019 Namibian Presidential Elections. This has never happened in the 29 years of independence and was made possible by a small political party, the National Unity Democratic Organisation (NUDO) which elected Ester Esther Utjiua Muinjangue as its President – making her the first woman leader of a political party in Namibia. This text records and introduces this historic phenomenon in the literature on Namibian politics. It deals with the nature of NUDO and the circumstances that led to Muinjangue ascending to the party presidency. While accepting that history has been made, it cautions against ‘over-celebration’, for patriarchy has not disappeared merely because a woman has ascended to a position of power. The text concludes that Muinjangue occupies a moral and strategic position to mount a meaningful challenge to patriarchy and bring about meaningful political participation for women.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8424</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8424">
+                <mets:FLocat xlink:href="https://namibian-studies.com/index.php/JNS/article/download/8424/7797" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8424" DMDID="DMD_rub-journals_8424">
+            <mets:fptr FILEID="FILE0_rub-journals_8424"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

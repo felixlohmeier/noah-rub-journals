@@ -1,0 +1,86 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7332">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Improving CEMA using Correlation Optimization</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Robyns, Pieter</displayForm>
+                        <namePart type="family">Robyns</namePart>
+                        <namePart type="given">Pieter</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Quax, Peter</displayForm>
+                        <namePart type="family">Quax</namePart>
+                        <namePart type="given">Peter</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Lamotte, Wim</displayForm>
+                        <namePart type="family">Lamotte</namePart>
+                        <namePart type="given">Wim</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2018-11-09</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">24</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Sensitive cryptographic information, e.g. AES secret keys, can be extracted from the electromagnetic (EM) leakages unintentionally emitted by a device using techniques such as Correlation Electromagnetic Analysis (CEMA). In this paper, we introduce Correlation Optimization (CO), a novel approach that improves CEMA attacks by formulating the selection of useful EM leakage samples in a trace as a machine learning optimization problem. To this end, we propose the correlation loss function, which aims to maximize the Pearson correlation between a set of EM traces and the true AES key during training. We show that CO works with high-dimensional and noisy traces, regardless of time-domain trace alignment and without requiring prior knowledge of the power consumption characteristics of the cryptographic hardware. We evaluate our approach using the ASCAD benchmark dataset and a custom dataset of EM leakages from an Arduino Duemilanove, captured with a USRP B200 SDR. Our results indicate that the masked AES implementation used in all three ASCAD datasets can be broken with a shallow Multilayer Perceptron model, whilst requiring only 1,000 test traces on average. A similar methodology was employed to break the unprotected AES implementation from our custom dataset, using 22,000 unaligned and unfiltered test traces.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tches.v2019.i1.1-24</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7332</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7332">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/7332/6504" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_rub-journals_7332">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/7332/7903" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="" ID="FILE2_rub-journals_7332">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/7332/7904" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7332" DMDID="DMD_rub-journals_7332">
+            <mets:fptr FILEID="FILE0_rub-journals_7332"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_7332" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_7332"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART2_rub-journals_7332" LABEL="">
+                <mets:fptr FILEID="FILE2_rub-journals_7332"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,53 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_366">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Directory of Periodicals on Communist Studies and Connected Areas</title>
+                        <subTitle>Conventional and Online Journals, Newsletters, Discussion Lists, Bulletins and Services</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>-, Editors</displayForm>
+                        <namePart type="family">-</namePart>
+                        <namePart type="given">Editors</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2010-07-20</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">9</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">This directory lists 249 periodical publications from all over the world relevant for studies on Communism in a broad sense. It aims to provide access to these sometimes disperse and ephemere sources of contemporary history including all periods, regions and fields of speciality. Suggestions for amending and updating this directory are always welcome. For further investigation, it is recommended to visit the IALHI Serials Service(http://serials.labourhistory.net), which covers diverse serials in the field of labour history and Communist studies and offers a Labour History Serials Alerting Service (http://serials.labourhistory.net/alerting_services.asp).</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_366</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_366">
+                <mets:FLocat xlink:href="https://incs.ub.rub.de/index.php/INCS/article/download/366/324" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_366" DMDID="DMD_rub-journals_366">
+            <mets:fptr FILEID="FILE0_rub-journals_366"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

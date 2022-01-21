@@ -1,0 +1,127 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_9297">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <nonSort>A </nonSort>
+                        <title>Compact and High-Performance Hardware Architecture for CRYSTALS-Dilithium</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Zhao, Cankun</displayForm>
+                        <namePart type="family">Zhao</namePart>
+                        <namePart type="given">Cankun</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Zhang, Neng</displayForm>
+                        <namePart type="family">Zhang</namePart>
+                        <namePart type="given">Neng</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Wang, Hanning</displayForm>
+                        <namePart type="family">Wang</namePart>
+                        <namePart type="given">Hanning</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Yang, Bohan</displayForm>
+                        <namePart type="family">Yang</namePart>
+                        <namePart type="given">Bohan</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Zhu, Wenping</displayForm>
+                        <namePart type="family">Zhu</namePart>
+                        <namePart type="given">Wenping</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Li, Zhengdong</displayForm>
+                        <namePart type="family">Li</namePart>
+                        <namePart type="given">Zhengdong</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Zhu, Min</displayForm>
+                        <namePart type="family">Zhu</namePart>
+                        <namePart type="given">Min</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Yin, Shouyi</displayForm>
+                        <namePart type="family">Yin</namePart>
+                        <namePart type="given">Shouyi</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Wei, Shaojun</displayForm>
+                        <namePart type="family">Wei</namePart>
+                        <namePart type="given">Shaojun</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Liu, Leibo</displayForm>
+                        <namePart type="family">Liu</namePart>
+                        <namePart type="given">Leibo</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2021-11-19</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">26</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">The lattice-based CRYSTALS-Dilithium scheme is one of the three thirdround digital signature finalists in the National Institute of Standards and Technology Post-Quantum Cryptography Standardization Process. Due to the complex calculations and highly individualized functions in Dilithium, its hardware implementations face the problems of large area requirements and low efficiency. This paper proposes several optimization methods to achieve a compact and high-performance hardware architecture for round 3 Dilithium. Specifically, a segmented pipelined processing method is proposed to reduce both the storage requirements and the processing time. Moreover, several optimized modules are designed to improve the efficiency of the proposed architecture, including a pipelined number theoretic transform module, a SampleInBall module, a Decompose module, and three modular reduction modules. Compared with state-of-the-art designs for Dilithium on similar platforms, our implementation requires 1.4×/1.4×/3.0×/4.5× fewer LUTs/FFs/BRAMs/DSPs, respectively, and 4.4×/1.7×/1.4× less time for key generation, signature generation, and signature verification, respectively, for NIST security level 5.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.46586/tches.v2022.i1.270-295</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_9297</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_9297">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/9297/8863" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_9297" DMDID="DMD_rub-journals_9297">
+            <mets:fptr FILEID="FILE0_rub-journals_9297"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

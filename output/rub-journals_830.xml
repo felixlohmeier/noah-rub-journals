@@ -1,0 +1,94 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_830">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Fast FPGA Implementations of Diffie-Hellman on the Kummer Surface of a Genus-2 Curve</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Koppermann, Philipp</displayForm>
+                        <namePart type="family">Koppermann</namePart>
+                        <namePart type="given">Philipp</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>De Santis, Fabrizio</displayForm>
+                        <namePart type="family">De Santis</namePart>
+                        <namePart type="given">Fabrizio</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Heyszl, Johann</displayForm>
+                        <namePart type="family">Heyszl</namePart>
+                        <namePart type="given">Johann</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Sigl, Georg</displayForm>
+                        <namePart type="family">Sigl</namePart>
+                        <namePart type="given">Georg</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2018-02-14</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">17</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">We present the first hardware implementations of Diffie-Hellman key exchange based on the Kummer surface of Gaudry and Schost’s genus-2 curve targeting a 128-bit security level. We describe a single-core architecture for lowlatency applications and a multi-core architecture for high-throughput applications. Synthesized on a Xilinx Zynq-7020 FPGA, our architectures perform a key exchange with lower latency and higher throughput than any other reported implementation using prime-field elliptic curves at the same security level. Our single-core architecture performs a scalar multiplication with a latency of 82 microseconds while our multicore architecture achieves a throughput of 91,226 scalar multiplications per second. When compared to similar implementations of Microsoft’s Fourℚ on the same FPGA, this translates to an improvement of 48% in latency and 40% in throughput for the single-core and multi-core architecture, respectively. Both our designs exhibit constant-time execution to thwart timing attacks, use the Montgomery ladder for improved resistance against SPA, and support a countermeasure against fault attacks.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tches.v2018.i1.1-17</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_830</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_830">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/830/782" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_rub-journals_830">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/830/7994" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="" ID="FILE2_rub-journals_830">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/830/7995" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_830" DMDID="DMD_rub-journals_830">
+            <mets:fptr FILEID="FILE0_rub-journals_830"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_830" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_830"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART2_rub-journals_830" LABEL="">
+                <mets:fptr FILEID="FILE2_rub-journals_830"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

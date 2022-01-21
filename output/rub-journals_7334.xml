@@ -1,0 +1,134 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7334">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Secure Physical Enclosures from Covers with Tamper-Resistance</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Immler, Vincent</displayForm>
+                        <namePart type="family">Immler</namePart>
+                        <namePart type="given">Vincent</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Obermaier, Johannes</displayForm>
+                        <namePart type="family">Obermaier</namePart>
+                        <namePart type="given">Johannes</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Ng, Kuan Kuan</displayForm>
+                        <namePart type="family">Ng</namePart>
+                        <namePart type="given">Kuan Kuan</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Ke, Fei Xiang</displayForm>
+                        <namePart type="family">Ke</namePart>
+                        <namePart type="given">Fei Xiang</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Lee, JinYu</displayForm>
+                        <namePart type="family">Lee</namePart>
+                        <namePart type="given">JinYu</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Lim, Yak Peng</displayForm>
+                        <namePart type="family">Lim</namePart>
+                        <namePart type="given">Yak Peng</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Oh, Wei Koon</displayForm>
+                        <namePart type="family">Oh</namePart>
+                        <namePart type="given">Wei Koon</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Wee, Keng Hoong</displayForm>
+                        <namePart type="family">Wee</namePart>
+                        <namePart type="given">Keng Hoong</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Sigl, Georg</displayForm>
+                        <namePart type="family">Sigl</namePart>
+                        <namePart type="given">Georg</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2018-11-09</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">46</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Ensuring physical security of multiple-chip embedded systems on a PCB is challenging, since the attacker can control the device in a hostile environment. To detect physical intruders as part of a layered approach to security, it is common to create a physical security boundary that is difficult to penetrate or remove, e.g., enclosures created from tamper-respondent envelopes or covers. Their physical integrity is usually checked by active sensing, i.e., a battery-backed circuit continuously monitors the enclosure. However, adoption is often hampered by the disadvantages of a battery and due to specialized equipment which is required to create the enclosure. In contrast, we present a batteryless tamper-resistant cover made from standard flexPCB technology, i.e., a commercially widespread, scalable, and proven technology. The cover comprises a fine mesh of electrodes and an evaluation unit underneath the cover checks their integrity by detecting short and open circuits. Additionally, it measures the capacitances between the electrodes of the mesh. Once its preliminary integrity is confirmed, a cryptographic key is derived from the capacitive measurements representing a PUF, to decrypt and authenticate sensitive data of the enclosed system. We demonstrate the feasibility of our concept, provide details on the layout, electrical properties of the cover, and explain the underlying security architecture. Practical results including statistics over a set of 115 flexPCB covers, physical attacks, and environmental testing support our design rationale. Hence, our work opens up a new direction of counteracting physical tampering without the need of batteries, while aiming at a physical security level comparable to FIPS 140-2 level 3.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tches.v2019.i1.51-96</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7334</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7334">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/7334/6506" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_rub-journals_7334">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/7334/7907" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="" ID="FILE2_rub-journals_7334">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/7334/7908" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7334" DMDID="DMD_rub-journals_7334">
+            <mets:fptr FILEID="FILE0_rub-journals_7334"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_7334" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_7334"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART2_rub-journals_7334" LABEL="">
+                <mets:fptr FILEID="FILE2_rub-journals_7334"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

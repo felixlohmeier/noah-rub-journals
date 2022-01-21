@@ -1,0 +1,59 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7459">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>“Something Old, Something New, Something Borrowed and Something Blue”</title>
+                        <subTitle>Recent Literature in Communist Studies</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>LaPorte, Norman</displayForm>
+                        <namePart type="family">LaPorte</namePart>
+                        <namePart type="given">Norman</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2016-10-14</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">27</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Stephen A. Smith: The Oxford Handbook of the History of Communism, Oxford 2014, ISBN 978-0-19-960205-6, pp. 658.
+Ralf Hoffrogge: Working-Class Politics in the German Revolution: Richard Müller, the Revolutionary Shop Stewards and the Origins of the Council Movement, Leiden / Boston 2014, ISBN 978-90-04-21921-2, pp. xv, 253.
+Marcel Bois: Kommunisten gegen Hitler und Stalin: Die Linke Opposition der KPD in der Weimarer Republik. Eine Gesamtdarstellung, Berlin 2014, ISBN 978-3-8375-1282-3.
+Bernhard H. Bayerlein et al. (eds): Deutschland, Russland, Komintern: Neue Perspektiven auf die Geschichte der KPD und die Deutsch-Russischen Beziehungen, Vol. 1: Überblicke, Analysen, Diskussionen, vol. 2: Dokumente (1918 – 1933), vol. 3: Dokumente (1933 – 43), Berlin 2014, pp. 1, 840.
+Jacob A. Zumoff: The Communist International and US Communism, 1919 – 1929, Leiden / Boston 2014, ISBN 978-90-04-21960-1, pp. 443.
+Henning Grunwald, Courtroom to Revolutionary Stage. Performance and Ideology in Weimar Political Trials, Oxford 2012, ISBN 978-0-19-960904-8, pp. 252.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <identifier type="doi">10.13154/mts.55.2016.113-139</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7459</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7459">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/7459/6631" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7459" DMDID="DMD_rub-journals_7459">
+            <mets:fptr FILEID="FILE0_rub-journals_7459"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

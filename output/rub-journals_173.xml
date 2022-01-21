@@ -1,0 +1,51 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_173">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Joshua Rodda</title>
+                        <subTitle>Public Religious Disputations in England 1558–1626, St Andrews Studies in Reformation History</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Schwend, Joachim</displayForm>
+                        <namePart type="family">Schwend</namePart>
+                        <namePart type="given">Joachim</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015-01-22</dateIssued>
+                    </originInfo>
+                    <abstract lang="eng">This contribution offers a review of Joshua Rodda&apos;sPublic Religious Disputations in England 1558–1626, St Andrews Studies in Reformation History.Farnham, Surrey: Ashgate, 2014. 252 pages, regular price £ 70, 234 x 156 mm, ISBN 978–1–4724–1555–4.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <identifier type="doi">10.13154/er.v2.2015.XV-XX</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_173</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_173">
+                <mets:FLocat xlink:href="https://er.ceres.rub.de/index.php/ER/article/download/173/135" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_173" DMDID="DMD_rub-journals_173">
+            <mets:fptr FILEID="FILE0_rub-journals_173"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

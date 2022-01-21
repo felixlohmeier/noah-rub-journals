@@ -1,0 +1,53 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7439">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Solidarity for Chile, Transnational Activism and the Evolution of Human Rights</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Moores, Chris</displayForm>
+                        <namePart type="family">Moores</namePart>
+                        <namePart type="given">Chris</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2017-05-31</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">22</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">This article discusses British manifestations of opposition to Augusto Pinochet’s regime including the Chile Solidarity Campaign, the Chile Committee for Human Rights and Amnesty International. It explores the intricacies of the evolution of human rights and its funcion as a political language by assessing their activities during the 1970s and 1980s. Chile was seen as a crucial moment in the “breakthrough” of a transnational politics of human rights, but assessing opposition to the Chilean regime also exposes a series of fractures within the transnational currents of the 1970s. At the heart of campaigns against the junta were a number of fissures, or points of tension; between “national” and “global”; between conceptualisation of human rights and solidarity and, perhaps most significantly, between progressive forms of transnationalism and alternative globalising forces with more ambiguous moral or political groundings. Chile helped expand the resonance of human rights, but also shows the complexities of this ascent, the ambiguities of this evolution and its legacies.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/mts.57.2017.115-136</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7439</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7439">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/7439/6611" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7439" DMDID="DMD_rub-journals_7439">
+            <mets:fptr FILEID="FILE0_rub-journals_7439"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

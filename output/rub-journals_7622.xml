@@ -1,0 +1,53 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7622">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Frauengeschichte und Geschlechterforschung in Slowenien</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Verginella, Marta</displayForm>
+                        <namePart type="family">Verginella</namePart>
+                        <namePart type="given">Marta</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015-01-24</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">12</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Since the late 1970s, Slovene social science has been developing an increasing interest in gender studies. It was mostly political groups of feminist women who initiated the academic interest in topics related to women, acting in various Yugoslav contexts, but most of all in Belgrade, Zagreb, and Ljubljana. The increased sensitivity towards gender issues did not yet reach the historiographic field. Only at the end of the 1980s and the beginning of the 1990s, with already numerous initiatives within the humanities and social sciences under way, some changes occured also in historiography. The first studies dedicated to the history of women were promoted by historians like Darja Mihelič, Sabina Žnideršič, Neda Pagon, and Peter Vodopivec. As a matter of fact, it still were mainly the sociologists, political scientists, and philosophers who more consistently investigated the history of women, proposing it as a subject for university courses and promulgating important editorial initiatives. During the last decade, however, quicker and more profound changes occured. First of all, the number of young female academics interested in social, economic, and cultural history and in the presence and agency of women in the various historical periods increased. But also the general historiographic context has opened itself towards an increased attention to women’s, and subsequently gender, history.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/mts.41.2009.147-158</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7622</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7622">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/7622/6794" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7622" DMDID="DMD_rub-journals_7622">
+            <mets:fptr FILEID="FILE0_rub-journals_7622"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,52 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_553">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Who owns education? Schooling, learning and livelihood for the Nyae Nyae Ju|&apos;hoansi</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Hays, Jennifer</displayForm>
+                        <namePart type="family">Hays</namePart>
+                        <namePart type="given">Jennifer</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2016-12-14</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">25</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">The Ju|’hoansi are one of the linguistic and cultural groups in southern Africa known collectively as the San. Like other indigenous groups, they have very low enrollment rates in the formal education system. This article describes one attempt to address these issues for the Ju|’hoansi: The Nyae Nyae Village Schools, in which children are educated in Ju|’hoansi language and live with their families for three years. However, despite these efforts, the Village Schools students drop out when they transfer to the mainstream education system in the fourth year. This article discusses three theoretical approaches to indigenous education and the problems faced by Ju|&apos;hoan students in the public schools that they join after their first three years of schooling. Based on 18 years of research on the Village Schools, and the educational dynamics for marginalized groups in southern Africa, this article argues that the Ju|’hoansi express pedagogically sound opinions about the way forward for their education and development, and they make strategic decisions based on realistic economic options available to them.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_553</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_553">
+                <mets:FLocat xlink:href="https://namibian-studies.com/index.php/JNS/article/download/553/496" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_553" DMDID="DMD_rub-journals_553">
+            <mets:fptr FILEID="FILE0_rub-journals_553"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

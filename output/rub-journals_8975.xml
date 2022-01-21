@@ -1,0 +1,70 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8975">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Analysis and Comparison of Table-based Arithmetic to Boolean Masking</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Van Beirendonck, Michiel</displayForm>
+                        <namePart type="family">Van Beirendonck</namePart>
+                        <namePart type="given">Michiel</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>D’Anvers, Jan-Pieter</displayForm>
+                        <namePart type="family">D’Anvers</namePart>
+                        <namePart type="given">Jan-Pieter</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Verbauwhede, Ingrid</displayForm>
+                        <namePart type="family">Verbauwhede</namePart>
+                        <namePart type="given">Ingrid</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2021-07-09</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">23</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Masking is a popular technique to protect cryptographic implementations against side-channel attacks and comes in several variants including Boolean and arithmetic masking. Some masked implementations require conversion between these two variants, which is increasingly the case for masking of post-quantum encryption and signature schemes. One way to perform Arithmetic to Boolean (A2B) mask conversion is a table-based approach first introduced by Coron and Tchulkine, and later corrected and adapted by Debraize in CHES 2012. In this work, we show both analytically and experimentally that the table-based A2B conversion algorithm proposed by Debraize does not achieve the claimed resistance against differential power analysis due to a non-uniform masking of an intermediate variable. This non-uniformity is hard to find analytically but leads to clear leakage in experimental validation. To address the non-uniform masking issue, we propose two new A2B conversions: one that maintains efficiency at the cost of additional memory and one that trades efficiency for a reduced memory footprint. We give analytical and experimental evidence for their security, and will make their implementations, which are shown to be free from side-channel leakage in 100.000 power traces collected on the ARM Cortex-M4, available online. We conclude that when designing side-channel protection mechanisms, it is of paramount importance to perform both a theoretical analysis and an experimental validation of the method.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.46586/tches.v2021.i3.275-297</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8975</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8975">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/8975/8553" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8975" DMDID="DMD_rub-journals_8975">
+            <mets:fptr FILEID="FILE0_rub-journals_8975"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

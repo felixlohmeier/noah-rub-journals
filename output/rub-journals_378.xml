@@ -1,0 +1,52 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_378">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Children of Empire. Childhood, education and space in  German South West Africa, c. 1880–1915</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Zollmann, Jakob</displayForm>
+                        <namePart type="family">Zollmann</namePart>
+                        <namePart type="given">Jakob</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015-07-01</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">54</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">The article deals with the upbringing and education of children in German South West Africa. It focusses on the experiences of girls and boys who were born into and grew up in a colonial context where they were expected to assume roles or positions ascribed to them by parents, colonial bureaucrats or ‘colonial society’ in general. A history of (different) childhood(s) in GSWA is a research subject which can prompt historiography to question the ‘natural’ dichotomies established by the colonial state. Neither a sense of belonging nor a sense of superiority or racist convictions were given facts for a new-born individual, but were the results of educational efforts and experiences. Barely two generations of German pupils were born and attended German schools in GSWA. This historical context is an invitation to widen the research focus beyond questions of schooling in order to come to a meaningful analysis of the everyday experiences of children on the one hand and the underlying ideologies of their education on the other. The article sheds light on these problems by discussing the state of research followed by demographic developments in the colony, births, and child healthcare. Subsequent sections recount the educational experiences of children within the family and in the state or mission schools in the colony, followed by an overview of the connections between (child) labour, violence and language skills, while a final section examines the relevance of experiencing different (colonial) spaces, rural and urban, in shaping different childhoods in GSWA.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_378</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_378">
+                <mets:FLocat xlink:href="https://namibian-studies.com/index.php/JNS/article/download/378/335" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_378" DMDID="DMD_rub-journals_378">
+            <mets:fptr FILEID="FILE0_rub-journals_378"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

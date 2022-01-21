@@ -1,0 +1,52 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_102">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>‘Damara’ labour recruitment to the Cape Colony and marginalisation and hegemony in late 19th century central Namibia</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Henrichsen, Dag</displayForm>
+                        <namePart type="family">Henrichsen</namePart>
+                        <namePart type="given">Dag</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2014-02-21</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">20</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">This essay analyses the labour recruitment and shipment of so-called ‘Damara’ people from central Namibia (Damara but also Herero and other people) to the Cape Colony in the 1870s and 1880s. Several hundred men, women and children engaged in the labour recruitment programme of the Cape Government and became indentured at the Cape in households and on farms. The analysis contextualises this particular incident of Namibia labour history in the 19 th century in two ways. Firstly, it analyses the labour demand at the Cape and the fate and experiences of ‘Damara’ labourers in the colony and makes reference to communities of ‘Damara’ which finally formed in the colony. Secondly, it analyses the socio-economic context in central Namibia at the time and links labour recruitment to a powerful process of re-pastoralisation in central Namibia accomplished by notably Herero people. In this process, Damara people in the modern sense of the term often became subjugated on violent terms. These relations of dependency during the early German colonial period of the 1890s were transformed into official colonial policies of labour recruitment and subjugation.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_102</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_102">
+                <mets:FLocat xlink:href="https://namibian-studies.com/index.php/JNS/article/download/102/71" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_102" DMDID="DMD_rub-journals_102">
+            <mets:fptr FILEID="FILE0_rub-journals_102"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

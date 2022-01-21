@@ -1,0 +1,94 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8546">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Dismantling DST80-based Immobiliser Systems</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Wouters, Lennert</displayForm>
+                        <namePart type="family">Wouters</namePart>
+                        <namePart type="given">Lennert</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Van den Herrewegen, Jan</displayForm>
+                        <namePart type="family">Van den Herrewegen</namePart>
+                        <namePart type="given">Jan</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Garcia, Flavio D.</displayForm>
+                        <namePart type="family">Garcia</namePart>
+                        <namePart type="given">Flavio D.</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Oswald, David</displayForm>
+                        <namePart type="family">Oswald</namePart>
+                        <namePart type="given">David</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Gierlichs, Benedikt</displayForm>
+                        <namePart type="family">Gierlichs</namePart>
+                        <namePart type="given">Benedikt</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Preneel, Bart</displayForm>
+                        <namePart type="family">Preneel</namePart>
+                        <namePart type="given">Bart</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020-03-02</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">29</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Car manufacturers deploy vehicle immobiliser systems in order to prevent car theft. However, in many cases the underlying cryptographic primitives used to authenticate a transponder are proprietary in nature and thus not open to public scrutiny. In this paper we publish the proprietary Texas Instruments DST80 cipher used in immobilisers of several manufacturers. Additionally, we expose serious flaws in immobiliser systems of major car manufacturers such as Toyota, Kia, Hyundai and Tesla. Specifically, by voltage glitching the firmware protection mechanisms of the microcontroller, we extracted the firmware from several immobiliser ECUs and reverse engineered the key diversification schemes employed within. We discovered that Kia and Hyundai immobiliser keys have only three bytes of entropy and that Toyota only relies on publicly readable information such as the transponder serial number and three constants to generate cryptographic keys. Furthermore, we present several practical attacks which can lead to recovering the full 80-bit cryptographic key in a matter of seconds or permanently disabling the transponder. Finally, even without key management or configuration issues, we demonstrate how an attacker can recover the cryptographic key using a profiled side-channel attack. We target the key loading procedure and investigate the practical applicability in the context of portability. Our work once again highlights the issues automotive vendors face in implementing cryptography securely.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tches.v2020.i2.99-127</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8546</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8546">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/8546/8111" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8546" DMDID="DMD_rub-journals_8546">
+            <mets:fptr FILEID="FILE0_rub-journals_8546"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

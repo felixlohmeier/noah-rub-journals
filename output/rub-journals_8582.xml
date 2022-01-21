@@ -1,0 +1,126 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8582">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Investigating Profiled Side-Channel Attacks Against the DES Key Schedule</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Heyszl, Johann</displayForm>
+                        <namePart type="family">Heyszl</namePart>
+                        <namePart type="given">Johann</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Miller, Katja</displayForm>
+                        <namePart type="family">Miller</namePart>
+                        <namePart type="given">Katja</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Unterstein, Florian</displayForm>
+                        <namePart type="family">Unterstein</namePart>
+                        <namePart type="given">Florian</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Schink, Marc</displayForm>
+                        <namePart type="family">Schink</namePart>
+                        <namePart type="given">Marc</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Wagner, Alexander</displayForm>
+                        <namePart type="family">Wagner</namePart>
+                        <namePart type="given">Alexander</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Gieser, Horst</displayForm>
+                        <namePart type="family">Gieser</namePart>
+                        <namePart type="given">Horst</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Freud, Sven</displayForm>
+                        <namePart type="family">Freud</namePart>
+                        <namePart type="given">Sven</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Damm, Tobias</displayForm>
+                        <namePart type="family">Damm</namePart>
+                        <namePart type="given">Tobias</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Klein, Dominik</displayForm>
+                        <namePart type="family">Klein</namePart>
+                        <namePart type="given">Dominik</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Kügler, Dennis</displayForm>
+                        <namePart type="family">Kügler</namePart>
+                        <namePart type="given">Dennis</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020-06-19</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">51</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Recent publications describe profiled single trace side-channel attacks (SCAs) against the DES key-schedule of a “commercially available security controller”. They report a significant reduction of the average remaining entropy of cryptographic keys after the attack, with surprisingly large, key-dependent variations of attack results, and individual cases with remaining key entropies as low as a few bits. Unfortunately, they leave important questions unanswered: Are the reported wide distributions of results plausible - can this be explained? Are the results device-specific or more generally applicable to other devices? What is the actual impact on the security of 3-key triple DES? We systematically answer those and several other questions by analyzing two commercial security controllers and a general purpose microcontroller. We observe a significant overall reduction and, importantly, also observe a large key-dependent variation in single DES key security levels, i.e. 49.4 bit mean and 0.9 % of keys &amp;lt; 40 bit (first investigated security controller; other results similar). We also observe a small fraction of keys with exceptionally low security levels that can be called weak keys. It is unclear, whether a device’s side-channel security should be assessed based on such rare weak key outliers. We generalize results to other leakage models by attacking the hardware DES accelerator of a general purpose microcontroller exhibiting a different leakage model. A highly simplified leakage simulation also confirms the wide distribution and shows that security levels are predictable to some extent. Through extensive investigations we find that the actual weakness of keys mainly stems from the specific switching noise they cause. Based on our investigations we expect that widely distributed results and weak outliers should be expected for all profiled attacks against (insufficiently protected) key-schedules, regardless of the algorithm and specific implementation. Finally, we describe a sound approach to estimate actual 3-key triple-DES security levels from empirical single DES results and find that the impact on the security of 3-key triple-DES is limited, i.e. 96.1 bit mean and 0.24 % of key-triples &amp;lt; 80 bit for the same security controller.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tches.v2020.i3.22-72</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8582</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8582">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/8582/8149" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8582" DMDID="DMD_rub-journals_8582">
+            <mets:fptr FILEID="FILE0_rub-journals_8582"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

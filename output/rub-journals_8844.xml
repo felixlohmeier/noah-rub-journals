@@ -1,0 +1,78 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8844">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>On the Relationships between Different Methods for Degree Evaluation</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Chen, Siwei</displayForm>
+                        <namePart type="family">Chen</namePart>
+                        <namePart type="given">Siwei</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Xiang, Zejun</displayForm>
+                        <namePart type="family">Xiang</namePart>
+                        <namePart type="given">Zejun</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Zeng, Xiangyong</displayForm>
+                        <namePart type="family">Zeng</namePart>
+                        <namePart type="given">Xiangyong</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Zhang, Shasha</displayForm>
+                        <namePart type="family">Zhang</namePart>
+                        <namePart type="given">Shasha</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2021-03-19</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">32</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">In this paper, we compare several non-tight degree evaluation methods i.e., Boura and Canteaut’s formula, Carlet’s formula as well as Liu’s numeric mapping and division property proposed by Todo, and hope to find the best one from these methodsfor practical applications. Specifically, for the substitution-permutation-network (SPN) ciphers, we first deeply explore the relationships between division property of an Sbox and its algebraic properties (e.g., the algebraic degree of its inverse). Based on these findings, we can prove theoretically that division property is never worse than Boura and Canteaut’s and Carlet’s formulas, and we also experimentally verified that the division property can indeed give a better bound than the latter two methods. In addition, for the nonlinear feedback shift registers (NFSR) based ciphers, according to the propagation of division property and the core idea of numeric mapping, we give a strict proof that the estimated degree using division property is never greater than that of numeric mapping. Moreover, our experimental results on Trivium and Kreyvium indicate the division property actually derives a much better bound than the numeric mapping. To the best of our knowledge, this is the first time to give a formal discussion on the relationships between division property and other degree evaluation methods, and we present the first theoretical proof and give the experimental verification to illustrate that division property is the optimal one among these methods in terms of the accuracy of the upper bounds on algebraic degree.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.46586/tosc.v2021.i1.411-442</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8844</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8844">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/8844/8447" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8844" DMDID="DMD_rub-journals_8844">
+            <mets:fptr FILEID="FILE0_rub-journals_8844"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

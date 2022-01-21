@@ -1,0 +1,53 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7927">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Konfessionsverschiedene Ehen und Familien als Instanzen der religiösen Sozialisation</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Owetschkin, Dimitrij</displayForm>
+                        <namePart type="family">Owetschkin</namePart>
+                        <namePart type="given">Dimitrij</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2013-05-02</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">30</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">The family ranks among the key agencies of religious socialisation. The transmission of religiosity in the family takes on denominational forms that represent a substantial element of individual as well as collective identity. This article investigates the impact of intrafamilial denominational heterogeneity on religious socialisation in West Germany after the Second World War. A first step follows the quantitative development of denominationally mixed family structures in its historical trends. The article will then consider different options of interpretation to these data which will be particularly applied to the analysis of action and communication structures within the familial environment of socialisation. Following these statistical and demoscopic data, the interrelations between denomination, religiosity, intentions of socialisation and principles of upbringing are examined and set in the wider context of religious and socialisational change in the second half of the twentieth century.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/mts.44.2010.59-88</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7927</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7927">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/7927/pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7927" DMDID="DMD_rub-journals_7927">
+            <mets:fptr FILEID="FILE0_rub-journals_7927"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

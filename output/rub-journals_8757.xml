@@ -1,0 +1,53 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8757">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Circulations</title>
+                        <subTitle>Colonial geology, the Prussian State Geological Institute and the South West African copper (1850–1919)</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Maier, Helmut</displayForm>
+                        <namePart type="family">Maier</namePart>
+                        <namePart type="given">Helmut</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020-12-31</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">25</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Science and technology were crucial for colonial expansion during the era of European imperialism. With the colony and motherland being so closely interconnected a circulation of knowledge began. Production of colonial knowledge and economic interpenetration had a massive influence on geological science. Although colonial history saw Africa as a mining continent, geology was never looked upon as a decisive scientific discipline in the colonial knowledge system. Copper ore was already being mined in South West Africa (SWA) in precolonial times while the first commercial mining only started in the middle of the 19th century. From the 1880s onwards, copper became a strategic resource in the second industrial revolution. The expectation of copper imports from SWA to supply German industry became a key argument for colonialists legitimizing German colonial expansion. From the mid-1880s onwards, a growing number of German geologists visited SWA. Their field research founded the tradition of what was known at the time as colonial geology (“Kolonialgeologie”). The Prussian State Geological Institute, founded in 1873, became the pivotal centre for research on colonial geo-resources. The exploration of the deposits up to 1919 culminated in the development of a new geological theory of the genesis of ore deposits.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8757</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8757">
+                <mets:FLocat xlink:href="https://namibian-studies.com/index.php/JNS/article/download/8757/8358" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8757" DMDID="DMD_rub-journals_8757">
+            <mets:fptr FILEID="FILE0_rub-journals_8757"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,53 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7633">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>„Inkorporierung“ und „Normalisierung“ einer Protestbewegung am Beispiel der westdeutschen Umweltproteste in den 1980er Jahren</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Engels, Jens Ivo</displayForm>
+                        <namePart type="family">Engels</namePart>
+                        <namePart type="given">Jens Ivo</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015-01-24</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">20</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Social or protest movements are mostly analysed in their early stages and when they reach their highest visibility by direct action. The article is devoted to the decay of (successful) social movements. In addition to the well known concept of &quot;institutionalisation&quot; it presents two categories in order to guide the description, i.e. &quot;incorporation&quot; and &quot;normalisation&quot;. Incorporation pictures the integration of the movement&apos;s actors or goals in existing political, social and institutional structures whereas normalisation considers the integration of the movement&apos;s values into predominant value systems. Both categories are meant to elucidate a double-sided process, including the movement&apos;s protagonists as well as the society as a whole, transforming both. These processes are exemplified by one of the most important social movements of recent contemporary German history, namely environmentalism during the 1980s. The focus is on the anti-nuclear movement, the debate on Waldsterben (= Forest Death) and on the Öko-Institut (ecological think tank and consulting agency).</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/mts.40.2008.81-100</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7633</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7633">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/7633/6805" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7633" DMDID="DMD_rub-journals_7633">
+            <mets:fptr FILEID="FILE0_rub-journals_7633"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

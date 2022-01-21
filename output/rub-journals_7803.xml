@@ -1,0 +1,53 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7803">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Towards a transnational social history of &quot;a peaceable Kingdom&quot;. Peace movements in post-1945 Britain</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Nehring, Holger</displayForm>
+                        <namePart type="family">Nehring</namePart>
+                        <namePart type="given">Holger</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015-01-03</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">27</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Peace movements in post-1945 Britain offer unique ways to problematise the ways in which the legacies of World War II, the Cold War, as well as social, cultural and political changes left indelible marks on British society after 1945. This chapter discusses recent literature on contemporary British history and shows ways in which we may contextualise the history of post-1945 British peace movements and regard them as an inroad into the social history of the time, thus avoiding to write their history sui generis. The themes which are discussed include: the social history of the Cold War, peace movements as social movements, peace movements, violence and civil society, as well as protests and the practice of peace. When we try to see post-World War II pacifism in context, we need to be aware that 1945 was not a concrete wall separating the inter-war years from the &quot;affluent society&quot; of the 1950s and 1960s. Rather, social, cultural and even political currents continued. All these developmenrs took place within a transnational context.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/mts.32.2004.21-47</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7803</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7803">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/7803/6975" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7803" DMDID="DMD_rub-journals_7803">
+            <mets:fptr FILEID="FILE0_rub-journals_7803"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

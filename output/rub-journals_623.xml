@@ -1,0 +1,54 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_623">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Ethnography, Objects and Reflexivity</title>
+                        <subTitle>A Case Study of the Selfie Stick</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Perriam, Jessamy</displayForm>
+                        <namePart type="family">Perriam</namePart>
+                        <namePart type="given">Jessamy</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2017-05-24</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">7</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">In her paper on Ethnography, Objects and Reflexivity: A Case Study of the Selfie Stick Jessamy Perriam focuses on how objects of a rather faddish nature such as the selfie-stick might be observed from a Science and Technology Studies perspective with the concept of disconcertment and an autoethnographic and ethnomethodological approach. The latter in terms of doing a breaching experiment. Perriam argues for the co-existence of discourses on the selfie-stick from strong rejection by journalists and the public to broad attention and wide use in everyday life. The former relate its use to narcissism and potential harm and the latter to its representations for social media platforms such as Instagram and Twitter. The selfie-stick and the specific images it produces may be understood as enabling a multi-layered socio-technical assemblage of (non-) human relations, existing in both material and digital field sites.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/eoo.1.2017.19-25</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_623</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_623">
+                <mets:FLocat xlink:href="https://ojs.ub.rub.de/index.php/EOO/article/download/623/591" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_623" DMDID="DMD_rub-journals_623">
+            <mets:fptr FILEID="FILE0_rub-journals_623"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

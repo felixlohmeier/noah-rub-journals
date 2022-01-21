@@ -1,0 +1,54 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7687">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>7 – 8 – 9 – 10 – Klasse. Uta Andrea Balbier</title>
+                        <subTitle>Kalter Krieg auf der Aschenbahn. Der deutsch-deutsche Sport 1950–1970. Eine politische Geschichte</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Seidel, Hans-Christoph</displayForm>
+                        <namePart type="family">Seidel</namePart>
+                        <namePart type="given">Hans-Christoph</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015-01-22</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">4</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Uta Andrea Balbier: Kalter Krieg auf der Aschenbahn. Der deutsch-deutsche Sport 1950–1970.&amp;nbsp; Eine politische Geschichte, Paderborn u. a.: Schöningh 2007, 277 Seiten, 32,90 €.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <identifier type="doi">10.13154/mts.38.2007.189-192</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7687</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7687">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/7687/6859" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7687" DMDID="DMD_rub-journals_7687">
+            <mets:fptr FILEID="FILE0_rub-journals_7687"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

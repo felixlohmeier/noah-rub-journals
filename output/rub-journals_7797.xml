@@ -1,0 +1,54 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7797">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <nonSort>The </nonSort>
+                        <title>State of Labour in Turkey, 1919-1938</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Gökmen, Özgür</displayForm>
+                        <namePart type="family">Gökmen</namePart>
+                        <namePart type="given">Özgür</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2014-12-17</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">14</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">The dissimilarity between the labour movements in Turkey and Western Europe is admitted to a great extent. The Turkish case is frequently interpreted as a divergence from the classical pattern resulting in assessments diminishing the role of these movements. Nonetheless, new insights by historians working on various cases in the semi-periphery help us to re-appraise this often non-disputed fact. This paper does not set as an aim to re-evaluate the history in the light of these new insights, but only attempts to provide a review of these insights and an outline of the state of labour in Turkey at the beginning of the last century.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/mts.33.2005.123-136</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7797</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7797">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/7797/6969" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7797" DMDID="DMD_rub-journals_7797">
+            <mets:fptr FILEID="FILE0_rub-journals_7797"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

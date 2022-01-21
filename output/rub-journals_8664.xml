@@ -1,0 +1,58 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8664">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Studies of Growth and Decline</title>
+                        <subTitle>New Books on the History of the Western Working Class</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Reick, Philipp</displayForm>
+                        <namePart type="family">Reick</namePart>
+                        <namePart type="given">Philipp</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020-07-10</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">13</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Nancy Isenberg: White Trash: The 400-Year Untold History of Class in America, London: Atlantic Books, 2017, 480 pp., ISBN 978-1-78649-300-2 (paperback).
+William A. Pelz: A People’s History of Modern Europe, London: Pluto Press, 2016, 288 pp., ISBN 978-0-7453-3245-1 (paperback).
+Selina Todd: The People: The Rise and Fall of the Working Class, London: John Murray, 2015, 512 pp., ISBN 978-1-84854-882-4.
+Jürgen Kocka, with cooperation of Jürgen Schmidt, Arbeiterleben und Arbeiterkultur: Die Entstehung einer sozialen Klasse, Bonn: J.H.W. Dietz Nachf., 2015, 512 pp., ISBN 978-3-8012-5040-9.
+Jürgen Schmidt: Arbeiter in der Moderne: Arbeitsbedingungen, Lebenswelten, Organisationen, Frankfurt/New York: Campus, 2015, 285 pp., ISBN 978-3-593-50340-0.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <identifier type="doi">10.13154/mts.63.2020.171-183</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8664</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8664">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/8664/8218" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8664" DMDID="DMD_rub-journals_8664">
+            <mets:fptr FILEID="FILE0_rub-journals_8664"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

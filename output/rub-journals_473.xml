@@ -1,0 +1,53 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_473">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Hans-Albert Hoffmann, Siegfried Stoof</title>
+                        <subTitle>Sowjetische Truppen in Deutschland und ihr Hauptquartier in Wünsdorf 1945-1994. Geschichte, Fakten, Hintergründe [review in German]</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Foitzik, Jan</displayForm>
+                        <namePart type="family">Foitzik</namePart>
+                        <namePart type="given">Jan</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2016-06-01</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">4</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Hans-Albert Hoffmann, Siegfried Stoof: Sowjetische Truppen in Deutschland und ihr Hauptquartier in Wünsdorf 1945-1994. Geschichte, Fakten, Hintergründe [Soviet Troops in Germany and the Headquarters in Wünsdorf, 1945-1994. Stories, Facts, Background], Berlin, Verlag Dr. Köster, 2013. 319 pp. – ISBN 9783895748356.Berlin, Deutschland</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_473</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_473">
+                <mets:FLocat xlink:href="https://incs.ub.rub.de/index.php/INCS/article/download/473/425" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_473" DMDID="DMD_rub-journals_473">
+            <mets:fptr FILEID="FILE0_rub-journals_473"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

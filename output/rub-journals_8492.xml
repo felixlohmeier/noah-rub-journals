@@ -1,0 +1,52 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8492">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Neue Literatur zur deutschen Novemberrevolution 1918–1920 [review essay in German]</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Luban, Ottokar</displayForm>
+                        <namePart type="family">Luban</namePart>
+                        <namePart type="given">Ottokar</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020-02-26</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">17</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">• Wolfgang Niess: Die Revolution von 1918/19. Der wahre Beginn unserer Demokratie [The Revolution of 1918/19. The True Beginning of Our Democracy], Berlin e.a., Europa Verlag, 2017. 463 pp. – ISBN 978-3-95890-074-5. • Joachim Käppner: 1918. Aufstand für die Freiheit. Die Revolution der Besonnenen [1918. Uprising for Freedom. The Revolution of the Sober-Minded], München, Piper Verlag, 2017. 524 pp. – ISBN 978-3-492-05733-2.• Mark Jones: Am Anfang war Gewalt. Die deutsche Revolution 1918/19 und der Beginn der Weimarer Republik [In the Beginning Was Violence. The German Revolution of 1918/19 and the Birth of the Weimar Republic], Berlin, Ullstein, 2017². 432 pp. – ISBN 978-3-549-07487-9.• Klaus Gietinger: November 1918. Der verpasste Frühling des 20. Jahrhunderts [November 1918. The Failed Spring of the 20th Century], Hamburg, Edition Nautilus, 2018. 270 pp. – ISBN 978-3-96054-075-5.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8492</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8492">
+                <mets:FLocat xlink:href="https://incs.ub.rub.de/index.php/INCS/article/download/8492/8058" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8492" DMDID="DMD_rub-journals_8492">
+            <mets:fptr FILEID="FILE0_rub-journals_8492"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

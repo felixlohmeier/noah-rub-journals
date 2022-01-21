@@ -1,0 +1,62 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7513">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <nonSort>The </nonSort>
+                        <title>Presence of Labour in the Urban Culture of Santos</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>da Silva, Fernando Teixeira</displayForm>
+                        <namePart type="family">da Silva</namePart>
+                        <namePart type="given">Fernando Teixeira</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Gitahy, Maria Lucia Caira</displayForm>
+                        <namePart type="family">Gitahy</namePart>
+                        <namePart type="given">Maria Lucia Caira</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2014-10-02</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">20</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">During the last quarter of the nineteenth century, a global productive restructuring, widely known as the second industrial revolution, led many countries to seek to better integrate their growing production of food and raw materials in the international market. This demand led to the construction of railroads and ports in various areas of what would later be known as part of the third world. In the case of Brazil, the second half of the nineteenth century witnessed a process of economic and social diversification, during which the country became defined primarily as an exporter of coffee. This process culminated in political reforms, namely the abolition of slavery (1888) and the proclamation of the republic (1889). Immigration and the formation of a labour market, in a moment of intense urbanisation, permitted the creation of a more complex social structure, including the emergence of a working class. This article analyses these processes in a specific city, Santos (São Paulo state), in which the presence of an important labour movement is evident in the urban culture itself.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/mts.49.2013.11-30</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7513</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7513">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/7513/6685" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7513" DMDID="DMD_rub-journals_7513">
+            <mets:fptr FILEID="FILE0_rub-journals_7513"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

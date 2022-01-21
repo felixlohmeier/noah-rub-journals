@@ -1,0 +1,70 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8752">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Improved Attacks on sLiSCP Permutation and Tight Bound of Limited Birthday Distinguishers</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Hosoyamada, Akinori</displayForm>
+                        <namePart type="family">Hosoyamada</namePart>
+                        <namePart type="given">Akinori</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Naya-Plasencia, María</displayForm>
+                        <namePart type="family">Naya-Plasencia</namePart>
+                        <namePart type="given">María</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Sasaki, Yu</displayForm>
+                        <namePart type="family">Sasaki</namePart>
+                        <namePart type="given">Yu</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020-12-10</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">26</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Limited birthday distinguishers (LBDs) are widely used tools for the cryptanalysis of cryptographic permutations. In this paper we propose LBDs on several variants of the sLiSCP permutation family that are building blocks of two round 2 candidates of the NIST lightweight standardization process: Spix and SpoC. We improve the number of steps with respect to the previously known best results, that used rebound attack. We improve the techniques used for solving the middle part, called inbound, and we relax the external conditions in order to extend the previous attacks. The lower bound of the complexity of LBDs has been proved only against functions. In this paper, we prove for the first time the bound against permutations, which shows that the known upper bounds are tight.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.46586/tosc.v2020.i4.147-172</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8752</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8752">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/8752/8350" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8752" DMDID="DMD_rub-journals_8752">
+            <mets:fptr FILEID="FILE0_rub-journals_8752"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

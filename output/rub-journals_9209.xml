@@ -1,0 +1,74 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_9209">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Nominalkomposita und komplexe Nominalphrasen im Leseerwerb</title>
+                    </titleInfo>
+                    <titleInfo type="translated">
+                        <title>Nominal compounds and complex noun phrases in reading acquisition</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Mesch, Birgit</displayForm>
+                        <namePart type="family">Mesch</namePart>
+                        <namePart type="given">Birgit</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Pappert, Sandra</displayForm>
+                        <namePart type="family">Pappert</namePart>
+                        <namePart type="given">Sandra</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2021-10-08</dateIssued>
+                    </originInfo>
+                    <abstract lang="ger">Kennzeichnend für die deutsche Bildungssprache ist die Verdichtung von Informationen mittels Komposita und komplexer Nominalphrasen. Deren Länge und morpho-syntaktische Komplexität stellen Schüler*innen vor Herausforderungen. Unklar ist, welche der oft komplementären Konstruktionen leichter zu lesen sind und ob sich dies im Leseerwerb verändert. In einem Lesezeitexperiment wurde getestet, ob Komposita oder komplexe Nominalphrasen in Satzkontexten schneller leise gelesen werden. Präsentiert wurden Teil-Ganzes-Beziehungen in Konstruktionen wie Komposita (Apfelkern), Nominalphrasen mit Genitiv- (Kern des Apfels) und Präpositionalattribut (Kern vom Apfel). Teilgenommen haben Leseanfänger*innen (Jg. 2) und leicht fortgeschrittene Leser*innen (Jg. 4). Insgesamt haben die Lesefortgeschrittenen schneller gelesen als die Leseanfänger*innen. Komposita und Nominalphrasen mit Präpositionalattribut wurden von beiden Gruppen schneller gelesen als Nominalphrasen mit Genitivattribut. Die Effekte waren unabhängig vom sprachlichen Hintergrund. Das Ergebnis relativiert die Möglichkeiten der syntaktischen Paraphrasierung von Komposita zur Heranführung an Bildungssprache.</abstract>
+                    <abstract lang="eng">Information density in German academic language is inter alia due to the high incidence of compounds and complex noun phrases. Their length and their morphosyntactic complexity have the potential to make nov-ice readers struggle. It is an open question whether the alternative constructions differ in processing complexity and whether their relative ease alters during reading acquisition. A self-paced reading experiment tested silent reading of compounds and complex noun phrases in sentence contexts. Critical phrases referred to part-whole relations, e.g., compound Apfelkern (‛apple seed’), noun phrase with genitive-marked attribute Kern des Apfels (seed the-genitive apple), and noun phrase with prepositional attribute Kern vom Apfel (‛seed of the apple’). Second and fourth graders participated in the experiment. More advanced readers performed faster than be-ginning readers. Both groups read compounds and noun phrases with prepositional attributes faster than noun phrases with genitive-marked attributes. There was no effect of linguistic background. These findings relativize the simplification potential of syntactic paraphrases for novice readers of academic language.</abstract>
+                    <subject lang="ger">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>Zeitschrift für Sprachlich-Literarisches Lernen und Deutschdidaktik</title>
+                        </titleInfo>
+                        <identifier type="issn">2701-0589</identifier>
+                        <part>
+                            <detail type="volume">
+                                <number>1</number>
+                            </detail>
+                        </part>
+                    </relatedItem>
+                    <identifier type="doi">10.46586/SLLD.Z.2021.9209</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_9209</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_9209">
+                <mets:FLocat xlink:href="https://ojs.ub.rub.de/index.php/SLLD/article/download/9209/8745" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_9209" DMDID="DMD_rub-journals_9209">
+            <mets:fptr FILEID="FILE0_rub-journals_9209"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,52 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_653">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Shikongo shaKalulu, Nakambale and shared memories. Olukonda historic mission station as a cultural memory and heritage site</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Groop, Kim</displayForm>
+                        <namePart type="family">Groop</namePart>
+                        <namePart type="given">Kim</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2017-06-28</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">23</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">In 1992, the old Finnish mission station Olukonda in the Oshikoto Region of northern Namibia was declared a national heritage site. This was the first such heritage declaration after Namibia gained its independence in 1990. In this article, I examine the Olukonda station from a historical and cultural memory perspective. The legendary missionary Martti Rautanen – or Nakambale – resided at the site between 1880 and his death in 1926, and he is buried at Olukonda together with most of his family members. Olukonda is the site where the relationship between the king(s) and the missionaries was tested, shaped, and consolidated. At Olukonda Finnish-missionary Lutheranism was gradually adopted by Ondonga society, and eventually Olukonda would become a site which the Ovambo would view as a part of their own heritage. In the article, I discuss remembrance and forgetting, time demarcations, and the different understandings of decisive events of the past. I argue that Olukonda is the main site which nurtures the memory of the Lutheran past in northern Namibia, but also that, at Olukonda, various mission and church related memories intermingle with nationalism and Ovambo culture.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_653</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_653">
+                <mets:FLocat xlink:href="https://namibian-studies.com/index.php/JNS/article/download/653/619" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_653" DMDID="DMD_rub-journals_653">
+            <mets:fptr FILEID="FILE0_rub-journals_653"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

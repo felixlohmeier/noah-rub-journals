@@ -1,0 +1,67 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7378">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Dominator und Moderator</title>
+                        <subTitle>Zur Emanzipation der Farbe Schwarz bei Günter Fruhtrunk</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Schrepper, Anna</displayForm>
+                        <namePart type="family">Schrepper</namePart>
+                        <namePart type="given">Anna</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2019-01-15</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">16</extent>
+                    </physicalDescription>
+                    <subject lang="ger">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>GA 2. Kunstgeschichtliches Journal für studentische Forschung und Kritik</title>
+                        </titleInfo>
+                        <identifier type="issn">2566-4999</identifier>
+                        <part>
+                            <detail type="issue">
+                                <number>03</number>
+                            </detail>
+                            <extent unit="page">
+                                <start>12</start>
+                                <end>27</end>
+                            </extent>
+                        </part>
+                    </relatedItem>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7378</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7378">
+                <mets:FLocat xlink:href="https://ojs.ub.rub.de/index.php/GA2/article/download/7378/6555" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7378" DMDID="DMD_rub-journals_7378">
+            <mets:fptr FILEID="FILE0_rub-journals_7378"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

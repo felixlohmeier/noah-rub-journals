@@ -1,0 +1,79 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_569">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <nonSort>The </nonSort>
+                        <title>Exact Security of PMAC</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Gaži, Peter</displayForm>
+                        <namePart type="family">Gaži</namePart>
+                        <namePart type="given">Peter</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Pietrzak, Krzysztof</displayForm>
+                        <namePart type="family">Pietrzak</namePart>
+                        <namePart type="given">Krzysztof</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Rybár, Michal</displayForm>
+                        <namePart type="family">Rybár</namePart>
+                        <namePart type="given">Michal</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2017-02-03</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">17</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">PMAC is a simple and parallel block-cipher mode of operation, which was introduced by Black and Rogaway at Eurocrypt 2002. If instantiated with a (pseudo)random permutation over n-bit strings, PMAC constitutes a provably secure variable input-length (pseudo)random function. For adversaries making q queries, each of length at most l (in n-bit blocks), and of total length σ ≤ ql, the original paper proves an upper bound on the distinguishing advantage of  Ο(σ2/2n), while the currently best bound is  Ο (qσ/2n).In this work we show that this bound is tight by giving an attack with advantage Ω (q2l/2n). In the PMAC construction one initially XORs a mask to every message block, where the mask for the ith block is computed as τi := γi·L, where L is a (secret) random value, and γi is the i-th codeword of the Gray code. Our attack applies more generally to any sequence of γi’s which contains a large coset of a subgroup of GF(2n). We then investigate if the security of PMAC can be further improved by using τi’s that are k-wise independent, for k &amp;gt; 1 (the original distribution is only 1-wise independent). We observe that the security of PMAC will not increase in general, even if the masks are chosen from a 2-wise independent distribution, and then prove that the security increases to O(q&amp;lt;2/2n), if the τi are 4-wise independent. Due to simple extension attacks, this is the best bound one can hope for, using any distribution on the masks. Whether 3-wise independence is already sufficient to get this level of security is left as an open problem.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tosc.v2016.i2.145-161</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_569</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_569">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/569/511" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_rub-journals_569">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/569/7466" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_569" DMDID="DMD_rub-journals_569">
+            <mets:fptr FILEID="FILE0_rub-journals_569"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_569" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_569"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

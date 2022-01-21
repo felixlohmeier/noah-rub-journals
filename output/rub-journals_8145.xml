@@ -1,0 +1,55 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8145">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <nonSort>Die </nonSort>
+                        <title>Rolle der Arbeitsbeziehungen im Ringen um Demokratie und Republik in der Zwischenkriegszeit. Petra Weber</title>
+                        <subTitle>Gescheiterte Sozialpartnerschaft – Gefährdete Republik? Industrielle Beziehungen, Arbeitskämpfe und der Sozialstaat. Deutschland und ...</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Mittag, Jürgen</displayForm>
+                        <namePart type="family">Mittag</namePart>
+                        <namePart type="given">Jürgen</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015-02-02</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">3</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Petra Weber: Gescheiterte Sozialpartnerschaft – Gefährdete Republik? Industrielle Beziehungen, Arbeitskämpfe und der Sozialstaat. Deutschland und Frankreich im Vergleich?, München: Oldenbourg Verlag: 2010.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <identifier type="doi">10.13154/mts.47.2012.238-240</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8145</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8145">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/8145/7316" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8145" DMDID="DMD_rub-journals_8145">
+            <mets:fptr FILEID="FILE0_rub-journals_8145"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,52 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8759">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Ons Dala die Ding by Odalate Naiteke. The curative, performance and publicness in Katutura</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Mushaandja, Nashilongweshipwe</displayForm>
+                        <namePart type="family">Mushaandja</namePart>
+                        <namePart type="given">Nashilongweshipwe</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020-12-31</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">25</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">This article reflects on a practice-led and Katutura-based intervention Operation Odalate Naiteke to explore how notions of performing and curating can be employed in mobilizing public art and trans-historic work. I relied on Oudano and other African concepts of performance such as Dala, to argue for an expansive and care-driven approach to curating and organizing radical education in the public sphere. Specific projects such as What is the Sound of Katutura in 1971? and Okapana Mobile Concert&amp;nbsp;demonstrate the intersecting trans-historic and care work in the public sphere. The artistic work by Ouma Paulina Hangara, Lamek Ndjaba, Lovisa the Superstar, Maspara Pantsula, Ten Ten, and Trianus Nakale is discussed to make these connections between performance, publicness and the curative. Operation Odalate Naiteke as a radical education programme that facilitates site-related, trans-historic and trans-generational dialogic action through alternative publics situated on the margins of dominant and centralized public culture.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8759</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8759">
+                <mets:FLocat xlink:href="https://namibian-studies.com/index.php/JNS/article/download/8759/8369" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8759" DMDID="DMD_rub-journals_8759">
+            <mets:fptr FILEID="FILE0_rub-journals_8759"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

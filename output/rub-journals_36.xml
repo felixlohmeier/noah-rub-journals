@@ -1,0 +1,52 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_36">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Visual afterlives of colonialism Images of Namibia on contemporary German television</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Annuß, Evelyn</displayForm>
+                        <namePart type="family">Annuß</namePart>
+                        <namePart type="given">Evelyn</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2014-01-27</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">10</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Namibia, the former ‘protectorate’ German South-West Africa and main colony of the German Empire, has long been absent from contemporary German popular culture. However, since the centenary of the German extermination campaign against the Herero and the Nama in 2004, Namibia has attracted the attention of public television in a highly specific way. Namibia’s desert has become the new regional background for a genre of melodramatic films that up until now had been set against Alpine backdrops. Starting with the genre itself, and then examining the material and the visual strategies, this paper considers the discursive relation between the new popularity of the Namibian setting on public television and critical explorations of colonial history.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_36</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_36">
+                <mets:FLocat xlink:href="https://namibian-studies.com/index.php/JNS/article/download/36/19" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_36" DMDID="DMD_rub-journals_36">
+            <mets:fptr FILEID="FILE0_rub-journals_36"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

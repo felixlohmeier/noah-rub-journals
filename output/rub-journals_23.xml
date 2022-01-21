@@ -1,0 +1,52 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_23">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>KhoeSan shamanistic relationships with snakes and rain</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Low, Chris</displayForm>
+                        <namePart type="family">Low</namePart>
+                        <namePart type="given">Chris</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2013-12-17</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">26</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">In 1874 an article on Bushman rock art by colonial magistrate Joseph Orpen was published in the Cape Monthly Magazine. The article, which subsequently proved to be highly influential in Southern African rock art studies, contains intriguing references to charm medicine containing ‘burnt snake powder’. Despite Orpen’s work being widely known and the highly unusual nature of his references, they have not, as yet, been examined in greater detail. In this paper I look at what makes these references so distinctive, how they might relate to a KhoeSan healing dance and whether they reveal a distinct later nineteenth century relationship between Bushmen, Khoekhoe, snakes and rain. Both historically and in more recent times there is evidence of people amongst the KhoeSan known as ‘poison doctors’ who profess immunity to snake-bites. I explore connections between this immunity and snake charm medicine and ask whether poison doctors of the past may have been called upon to beseech the divine Water Snake to bring rain. Outlining the broader context of KhoeSan snake beliefs and snake relationships, I then go on to examine the connections between snakes, rain and KhoeSan divinity, which place the snake, and particularly the python, at the heart of KhoeSan ontology and epistemology.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_23</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_23">
+                <mets:FLocat xlink:href="https://namibian-studies.com/index.php/JNS/article/download/23/11" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_23" DMDID="DMD_rub-journals_23">
+            <mets:fptr FILEID="FILE0_rub-journals_23"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

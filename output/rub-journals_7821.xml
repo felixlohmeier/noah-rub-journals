@@ -1,0 +1,62 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7821">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Neue Frauenbewegungen und soziale Bewegungsforschung</title>
+                        <subTitle>Ansichten eines Forschungsprojekts. Die Neue Frauenbewegung in Deutschland - eine Forschungslücke?</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Lenz, Ilse</displayForm>
+                        <namePart type="family">Lenz</namePart>
+                        <namePart type="given">Ilse</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Schneider, Brigitte</displayForm>
+                        <namePart type="family">Schneider</namePart>
+                        <namePart type="given">Brigitte</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015-01-14</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">23</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Since international research in New Women&apos;s Movements has evolved quickly through the last years the authors start off giving a short survey of recent publications of the sector. New theoretical approaches of research are portrayed, taking into focus problems of communication and internationalisation. The authors illuminate the situation of feminist archives throughout Germany and the relevant databases. By structuring the material and themes of the New Women&apos;s Movement into three periods the authors try to verify their assumption that the dynamic of the movement is considerably effected by three factors: the themes brought forward, the women&apos;s ability to organise themselves and recruit new activists, and the chances to build up networks in the political sector. The years 1968 to 1975 are presented as a time of gaining consciousness for the situation of women and finding means to articulate the problems, the late seventies to end-eighties were used by the movement to elaborate topics, to establish projects and find suitable institutions. Finally the period from 1989 until today was characterized by internationalisation and reconsideration. The article concludes that much more research is needed to get a grip on such complex developments.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/mts.31.2004.133-155</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7821</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7821">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/7821/6993" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7821" DMDID="DMD_rub-journals_7821">
+            <mets:fptr FILEID="FILE0_rub-journals_7821"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

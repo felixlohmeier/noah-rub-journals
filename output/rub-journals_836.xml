@@ -1,0 +1,94 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_836">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Practical CCA2-Secure and Masked Ring-LWE Implementation</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Oder, Tobias</displayForm>
+                        <namePart type="family">Oder</namePart>
+                        <namePart type="given">Tobias</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Schneider, Tobias</displayForm>
+                        <namePart type="family">Schneider</namePart>
+                        <namePart type="given">Tobias</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Pöppelmann, Thomas</displayForm>
+                        <namePart type="family">Pöppelmann</namePart>
+                        <namePart type="given">Thomas</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Güneysu, Tim</displayForm>
+                        <namePart type="family">Güneysu</namePart>
+                        <namePart type="given">Tim</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2018-02-14</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">33</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">During the last years public-key encryption schemes based on the hardness of ring-LWE have gained significant popularity. For real-world security applications assuming strong adversary models, a number of practical issues still need to be addressed. In this work we thus present an instance of ring-LWE encryption that is protected against active attacks (i.e., adaptive chosen-ciphertext attacks) and equipped with countermeasures against side-channel analysis. Our solution is based on a postquantum variant of the Fujisaki-Okamoto (FO) transform combined with provably secure first-order masking. To protect the key and message during decryption, we developed a masked binomial sampler that secures the re-encryption process required by FO. Our work shows that CCA2-secured RLWE-based encryption can be achieved with reasonable performance on constrained devices but also stresses that the required transformation and handling of decryption errors implies a performance overhead that has been overlooked by the community so far. With parameters providing 233 bits of quantum security, our implementation requires 4,176,684 cycles for encryption and 25,640,380 cycles for decryption with masking and hiding countermeasures on a Cortex-M4F. The first-order security of our masked implementation is also practically verified using the non-specific t-test evaluation methodology.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tches.v2018.i1.142-174</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_836</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_836">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/836/788" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_rub-journals_836">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/836/8008" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="" ID="FILE2_rub-journals_836">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/836/8009" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_836" DMDID="DMD_rub-journals_836">
+            <mets:fptr FILEID="FILE0_rub-journals_836"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_836" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_836"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART2_rub-journals_836" LABEL="">
+                <mets:fptr FILEID="FILE2_rub-journals_836"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

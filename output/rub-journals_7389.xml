@@ -1,0 +1,79 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7389">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Towards Globally Optimized Masking</title>
+                        <subTitle>From Low Randomness to Low Noise Rate</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Cassiers, Gaëtan</displayForm>
+                        <namePart type="family">Cassiers</namePart>
+                        <namePart type="given">Gaëtan</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Standaert, François-Xavier</displayForm>
+                        <namePart type="family">Standaert</namePart>
+                        <namePart type="given">François-Xavier</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2019-02-28</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">37</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">We improve the state-of-the-art masking schemes in two important directions. First, we propose a new masked multiplication algorithm that satisfies a recently introduced notion called Probe-Isolating Non-Interference (PINI). It captures a sufficient requirement for designing masked implementations in a trivial way, by combining PINI multiplications and linear operations performed share by share. Our improved algorithm has the best reported randomness complexity for large security orders (while the previous PINI multiplication was best for small orders). Second, we analyze the security of most existing multiplication algorithms in the literature against so-called horizontal attacks, which aim to reduce the noise of the actual leakages measured by an adversary, by combining the information of multiple target intermediate values. For this purpose, we leave the (abstract) probing model and consider a specialization of the (more realistic) noisy leakage / random probing models. Our (still partially heuristic but quantitative) analysis allows confirming the improved security of an algorithm by Battistello et al. from CHES 2016 in this setting. We then use it to propose new improved algorithms, leading to better tradeoffs between randomness complexity and noise rate, and suggesting the possibility to design efficient masked multiplication algorithms with constant noise rate in F2.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tches.v2019.i2.162-198</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7389</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7389">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/7389/6561" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_rub-journals_7389">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/7389/7891" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="" ID="FILE2_rub-journals_7389">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/7389/7892" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7389" DMDID="DMD_rub-journals_7389">
+            <mets:fptr FILEID="FILE0_rub-journals_7389"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_7389" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_7389"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART2_rub-journals_7389" LABEL="">
+                <mets:fptr FILEID="FILE2_rub-journals_7389"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

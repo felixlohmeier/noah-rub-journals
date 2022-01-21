@@ -1,0 +1,86 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_835">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Linear Repairing Codes and Side-Channel Attacks</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Chabanne, Hervé</displayForm>
+                        <namePart type="family">Chabanne</namePart>
+                        <namePart type="given">Hervé</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Maghrebi, Houssem</displayForm>
+                        <namePart type="family">Maghrebi</namePart>
+                        <namePart type="given">Houssem</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Prouff, Emmanuel</displayForm>
+                        <namePart type="family">Prouff</namePart>
+                        <namePart type="given">Emmanuel</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2018-02-14</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">24</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">To strengthen the resistance of countermeasures based on secret sharing,several works have suggested to use the scheme introduced by Shamir in 1978, which proposes to use the evaluation of a random d-degree polynomial into n ≥ d + 1 public points to share the sensitive data. Applying the same principles used against the classical Boolean sharing, all these works have assumed that the most efficient attack strategy was to exploit the minimum number of shares required to rebuild the sensitive value; which is d + 1 if the reconstruction is made with Lagrange’s interpolation. In this paper, we highlight first an important difference between Boolean and Shamir’s sharings which implies that, for some signal-to-noise ratio, it is more advantageous for the adversary to observe strictly more than d + 1 shares. We argue that this difference is related to the existence of so-called linear exact repairing codes, which themselves come with reconstruction formulae that need (much) less information (counted in bits) than Lagrange’s interpolation. In particular, this result implies that the choice of the public points in Shamir’s sharing has an impact on the countermeasure strength, which confirms previous observations made by Wang et al. at CARDIS 2016 for the so-called inner product sharing which is a generalization of Shamir’s scheme. As another contribution, we exhibit a positive impact of the existence of linear exact repairing schemes; we indeed propose to use them to improve the state-of-the-art multiplication algorithms dedicated to Shamir’s sharing. We argue that the improvement can be effective when the multiplication operation in the sub-fields is at least two times smaller than that of the base field.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tches.v2018.i1.118-141</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_835</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_835">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/835/787" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_rub-journals_835">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/835/8006" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="" ID="FILE2_rub-journals_835">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/835/8007" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_835" DMDID="DMD_rub-journals_835">
+            <mets:fptr FILEID="FILE0_rub-journals_835"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_835" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_835"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART2_rub-journals_835" LABEL="">
+                <mets:fptr FILEID="FILE2_rub-journals_835"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,70 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8908">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Improved Rectangle Attacks on SKINNY and CRAFT</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Hadipour, Hosein</displayForm>
+                        <namePart type="family">Hadipour</namePart>
+                        <namePart type="given">Hosein</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Bagheri, Nasour</displayForm>
+                        <namePart type="family">Bagheri</namePart>
+                        <namePart type="given">Nasour</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Song, Ling</displayForm>
+                        <namePart type="family">Song</namePart>
+                        <namePart type="given">Ling</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2021-06-11</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">59</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">The boomerang and rectangle attacks are adaptions of differential cryptanalysis that regard the target cipher E as a composition of two sub-ciphers, i.e., E = E1 ∘ E0, to construct a distinguisher for E with probability p2q2 by concatenating two short differential trails for E0 and E1 with probability p and q respectively. According to the previous research, the dependency between these two differential characteristics has a great impact on the probability of boomerang and rectangle distinguishers. Dunkelman et al. proposed the sandwich attack to formalise such dependency that regards E as three parts, i.e., E = E1 ∘ Em ∘ E0, where Em contains the dependency between two differential trails, satisfying some differential propagation with probability r. Accordingly, the entire probability is p2q2r. Recently, Song et al. have proposed a general framework to identify the actual boundaries of Em and systematically evaluate the probability of Em with any number of rounds, and applied their method to accurately evaluate the probabilities of the best SKINNY’s boomerang distinguishers. In this paper, using a more advanced method to search for boomerang distinguishers, we show that the best previous boomerang distinguishers for SKINNY can be significantly improved in terms of probability and number of rounds. More precisely, we propose related-tweakey boomerang distinguishers for up to 19, 21, 23, and 25 rounds of SKINNY-64-128, SKINNY-128-256, SKINNY-64-192 and SKINNY-128-384 respectively, which improve the previous boomerang distinguishers of these variants of SKINNY by 1, 2, 1, and 1 round respectively. Based on the improved boomerang distinguishers for SKINNY, we provide related-tweakey rectangle attacks on 23 rounds of SKINNY-64-128, 24 rounds of SKINNY-128-256, 29 rounds of SKINNY-64-192, and 30 rounds of SKINNY-128-384. It is worth noting that our improved related-tweakey rectangle attacks on SKINNY-64-192, SKINNY-128-256 and SKINNY-128-384 can be directly applied for the same number of rounds of ForkSkinny-64-192, ForkSkinny-128-256 and ForkSkinny-128-384 respectively. CRAFT is another SKINNY-like tweakable block cipher for which we provide the security analysis against rectangle attack for the first time. As a result, we provide a 14-round boomerang distinguisher for CRAFT in the single-tweak model based on which we propose a single-tweak rectangle attack on 18 rounds of this cipher. Moreover, following the previous research regarding the evaluation of switching in multiple rounds of boomerang distinguishers, we also introduce new tools called Double Boomerang Connectivity Table (DBCT), LBCT⫤, and UBCT⊨ to evaluate the boomerang switch through the multiple rounds more accurately.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.46586/tosc.v2021.i2.140-198</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8908</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8908">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/8908/8484" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8908" DMDID="DMD_rub-journals_8908">
+            <mets:fptr FILEID="FILE0_rub-journals_8908"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,53 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_355">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Horst Möller e.a. (ed.)</title>
+                        <subTitle>SMAD-Handbuch. Die Sowjetische Militäradministration in Deutschland 1945-1949, München, Oldenbourg Wissenschaftsverlag, 2009; Nikita V. Petrov, Jan Foitzik (eds.)</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Lange, Peer H.</displayForm>
+                        <namePart type="family">Lange</namePart>
+                        <namePart type="given">Peer H.</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2010-07-20</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">4</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Horst Möller, Alexandr O. Tschubarjan, Jan Foitzik, Tatjana W. Zarewskaja- Djakina (eds.): SMAD-Handbuch. Die Sowjetische Militäradministration in Deutschland 1945-1949, München, Oldenbourg Wissenschaftsverlag, 2009. IX + 822 p. ISBN 978-3-486-58696-1;1 Nikita V. Petrov, Jan Foitzik (eds.): Apparat NKVD-MGB v Germanii 1945-1953, Moskva, Meždunarodnyj Fond &quot;Demokratija&quot;, 2009. 540 p. (Rossija. XX vek. Dokumenty). ISBN 978-5-89511- 012-6.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_355</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_355">
+                <mets:FLocat xlink:href="https://incs.ub.rub.de/index.php/INCS/article/download/355/313" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_355" DMDID="DMD_rub-journals_355">
+            <mets:fptr FILEID="FILE0_rub-journals_355"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

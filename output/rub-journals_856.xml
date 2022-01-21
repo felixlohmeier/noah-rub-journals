@@ -1,0 +1,53 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_856">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Mattia Fumanti’s Politics of Distinction </title>
+                        <subTitle>Elite formation, the public space and the moral base of politics in (post)colonial Africa. Review article</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Castro, Josué Tomasini</displayForm>
+                        <namePart type="family">Castro</namePart>
+                        <namePart type="given">Josué Tomasini</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2017-06-28</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">9</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">The article presents a review of Mattia Fumanti’s The Politics of Distinction (2016), a provocative study on the complexities of elite formation and elites’ influence over emerging public spaces in post-apartheid Namibia. Based on an intermittent long-term fieldwork and archival research on old and new elites in Rundu, a frontier town in Northern Namibia, the book goes beyond its ethnographical setting, offering a plethora of alternatives to general pessimistic readings about colonial and post-colonial Africa. Recognizing its contribution to central analytical concepts in debates about state and society in the continent, the article unveils the ethnographic drama and attempts to contextualize it in relation to contemporaneous political changes taking place in the continent since 1990, the year of Namibian independence. As¬sessing the importance of the book in its capacity to suggest optimistic perspectives about African politics, the article expands its analysis of the moral bases of the public space in Rundu, suggesting that the future of democracy in Namibia and elsewhere in the continent might rest in the development of moralizing arenas of deliberation and dialogue.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_856</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_856">
+                <mets:FLocat xlink:href="https://namibian-studies.com/index.php/JNS/article/download/856/808" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_856" DMDID="DMD_rub-journals_856">
+            <mets:fptr FILEID="FILE0_rub-journals_856"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

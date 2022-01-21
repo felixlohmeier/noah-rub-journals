@@ -1,0 +1,52 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_106">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Internal colonisation and an oppressed minority? The dynamics of relations between Germans and Afrikaners against the background of constructing a colonial state in Namibia, 1884-1990</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Botha, Christo</displayForm>
+                        <namePart type="family">Botha</namePart>
+                        <namePart type="given">Christo</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2014-01-31</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">44</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">The paper aims to demonstrate how the colonial state, ostensibly engaged in a project designed to promote &apos;civilisation&apos; and &apos;development&apos;, often struggled to contain serious disagreements about the nature of the colonial project among members of the white settler community. The 19th century is touched upon to demonstrate a state of affairs sharply at odds with recollections about the period by Europeans. The focus on the German colonial period (1884-1915) points to certain advances and innovations that the South African Administration, it is claimed, either ignored or terminated. The first phase of South African rule, 1920-1950, is a record of ideological conflicts in intra- and intergroup contexts. The post-1950 period demonstrates how South Africa constructed a form of colonial domination that amounted to establishing Afrikaner hegemony over the public sector in particular. From a German point of view, this amounted to a case of de facto internal colonisation.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_106</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_106">
+                <mets:FLocat xlink:href="https://namibian-studies.com/index.php/JNS/article/download/106/75" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_106" DMDID="DMD_rub-journals_106">
+            <mets:fptr FILEID="FILE0_rub-journals_106"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,62 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8536">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <nonSort>Die </nonSort>
+                        <title>Komintern und Argentinien in den Jahren 1919-1922. Die Kommunistische Partei Argentiniens gegen die &quot;argentinischen Lenins&quot;</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Kheifets, Victor</displayForm>
+                        <namePart type="family">Kheifets</namePart>
+                        <namePart type="given">Victor</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Kheifets, Lazar</displayForm>
+                        <namePart type="family">Kheifets</namePart>
+                        <namePart type="given">Lazar</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2009-01-01</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">11</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">St. Petersburg State University (Russia)
+La izquierda radical argentina apoyó a la Comintern (y sus antecesores) en el año 1918, y el Partido Socialista Internacional de Argentina (PSIA) intentó desempeñar el papel de una “Internacional continental”. Sin embargo, los socialistas de izquierda tenían que competir con los representantes de los inmigrados rusos en el país que habían logrado establecer vínculos directos con Moscú. Los rusos Mijail Mashevich y Mijail Alexandrovsky regresaron a Buenos Aires como delegados de la Comintern. En aquel momento entonces, la dirección de la III Internacional estaba apostando en crear en Argentina un nuevo partido comunista sobre la base de los socialistas internacionales y los sindicatos revolucionarios. Este punto de vista nunca fue apoyado por el alemán Felix Weil (“Beatus Lucio”) – otro representante de la Comintern en el país – quien estaba muy en contra de la sobrevaloración del exilio ruso en Argentina. El conflicto estaba enraizado en la historia del socialismo argentino siempre vinculado con los grupos italianos y alemanes. Mientras tanto, nadie de los rusos formaba parte de la dirección del partido. El PSIA (desde 1920 se transformó en PC de Argentina) consideraba las actividades de Mashevich y Alexandrovsky como un intento de establecer un control externo por parte de quienes no tenían este derecho desde el punto de vista de su influencia dentro del PCA. En agosto de 1921 el PCA fue finalmente admitido en el seno de la III Internacional y recibió una encomienda de crear un Comité de Propaganda para Sudamerica (con el objeto de desarrollar el comunismo continental). El conflicto entre los comunistas argentinos y&amp;nbsp; Alexandrovsky siguió desarrollandose. Mientras el emisario de la Comintern detectó varios errores sectarios del PC y su incapacidad de llevar adelante el trabajo sindical, el PCA estaba descontento por el “dogmatismo” del mismo. Cabe notar, que este tipo de contradicciones nunca existió en las relaciones entre el PC del Uruguay y Moscú. Además, el representante de la III Internacional propuso fortalecer el Comité de Propaganda por parte de los comunistas uruguayos, brasileños y chilenos. La comisión especial del Presidium del CE de la IC en enero de 1922 detectó la debilidad del PCA y su incapacidad de dirigir el movimiento obrero. Sin embargo, ya en septiembre del mismo año estas conclusions fueron rechazadas por los dirigentes de la Comintern que no aceptaran la idea de trasladar el Buró de Propaganda Comunista al Uruguay. Estos cambios eran el resultado directo de la visita de la delegación del PCA a Moscú y su participación en las deliberaciones de la comisión. Los delegados argentinos hasta lograron incluir en el texto del dictamen final un punto sobre la necesidad de una selección más cuidadosa de los emisarios de Moscú y las consultas con los partidos en este asunto. La mayor parte de los problemas anotados por Alexandrovsky no fue resuelta a tiempo lo que resultó en una serie de crisis internas del comunismo argentino a lo largo de los siguientes años. La III Internacional se encontraba ante un dilema dificil: Moscú quería ansiosamente aumentar la cantidad de las secciones nacionales de la Comintern, pero su Buró Panamericano en México no logró realizar este trabajo; el PCA, en esta situación, era considerado como la única fuerza capaz de llevar adelante tal trabajo en Sudamerica. En estas circunstancias, la derrota de los “Lenins argentinos” (el exilio comunista ruso) era inevitable a pesar de su postura más adecuada acerca de la estrategia comunista bajo las condiciones de Argentina.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8536</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8536">
+                <mets:FLocat xlink:href="https://incs.ub.rub.de/index.php/INCS/article/download/8536/8102" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8536" DMDID="DMD_rub-journals_8536">
+            <mets:fptr FILEID="FILE0_rub-journals_8536"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

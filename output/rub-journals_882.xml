@@ -1,0 +1,87 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_882">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>ExpFault</title>
+                        <subTitle>An Automated Framework for Exploitable Fault Characterization in Block Ciphers</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Saha, Sayandeep</displayForm>
+                        <namePart type="family">Saha</namePart>
+                        <namePart type="given">Sayandeep</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Mukhopadhyay, Debdeep</displayForm>
+                        <namePart type="family">Mukhopadhyay</namePart>
+                        <namePart type="given">Debdeep</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Dasgupta, Pallab</displayForm>
+                        <namePart type="family">Dasgupta</namePart>
+                        <namePart type="given">Pallab</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2018-05-08</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">35</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Malicious exploitation of faults for extracting secrets is one of the most practical and potent threats to modern cryptographic primitives. Interestingly, not every possible fault for a cryptosystem is maliciously exploitable, and evaluation of the exploitability of a fault is nontrivial. In order to devise precise defense mechanisms against such rogue faults, a comprehensive knowledge is required about the exploitable part of the fault space of a cryptosystem. Unfortunately, the fault space is diversified and of formidable size even while a single cryptoprimitive is considered and traditional manual fault analysis techniques may often fall short to practically cover such a fault space within reasonable time. An automation for analyzing individual fault instances for their exploitability is thus inevitable. Such an automation is supposed to work as the core engine for analyzing the fault spaces of cryptographic primitives. In this paper, we propose an automation for evaluating the exploitability status of fault instances from block ciphers, mainly in the context of Differential Fault Analysis (DFA) attacks. The proposed framework is generic and scalable, which are perhaps the two most important features for covering diversified fault spaces of formidable size originating from different ciphers. As a proof-of-concept, we reconstruct some known attack examples on AES and PRESENT using the framework and finally analyze a recently proposed cipher GIFT [BPP+17] for the first time. It is found that the secret key of GIFT can be uniquely determined with 1 nibble fault instance injected at the beginning of the 25th round with a reasonable computational complexity of 214.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tches.v2018.i2.242-276</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_882</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_882">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/882/833" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_rub-journals_882">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/882/7988" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="" ID="FILE2_rub-journals_882">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/882/7989" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_882" DMDID="DMD_rub-journals_882">
+            <mets:fptr FILEID="FILE0_rub-journals_882"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_882" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_882"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART2_rub-journals_882" LABEL="">
+                <mets:fptr FILEID="FILE2_rub-journals_882"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,87 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7268">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>FPGAhammer</title>
+                        <subTitle>Remote Voltage Fault Attacks on Shared FPGAs, suitable for DFA on AES</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Krautter, Jonas</displayForm>
+                        <namePart type="family">Krautter</namePart>
+                        <namePart type="given">Jonas</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Gnad, Dennis R. E.</displayForm>
+                        <namePart type="family">Gnad</namePart>
+                        <namePart type="given">Dennis R. E.</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Tahoori, Mehdi B.</displayForm>
+                        <namePart type="family">Tahoori</namePart>
+                        <namePart type="given">Mehdi B.</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2018-08-14</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">25</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">With each new technology generation, the available resources on Field Programmable Gate Arrays increase, making them more attractive for partial access from multiple users. They get increasingly adopted as accelerators in various application domains, embedded in shared Systems on Chip or remote cloud services. Thus, some recent works have already explored Denial-of-Service and side-channel attacks, where an FPGA fabric is shared among multiple users. In this work, we show how fault attacks can be launched within an FPGA, through software-provided bitstreams alone. Excessive voltage drops can be generated from legitimate logic mapped into the FPGA to cause timing faults, reaching from spatially and logically isolated partitions of one to another user of the FPGA fabric. To cause this voltage drop, we first show how specific patterns to activate Ring Oscillators can cause timing failures in simple test designs on various FPGA boards. Subsequently, we analyze and adapt an existing fault model for the Advanced Encryption Standard to match the accuracy of our fault attack. In the same multi-user scenario, we show as a proof-of-concept how a successful Differential Fault Analysis attack on an AES module can be launched. We perform experiments on three FPGA boards of the same model and confirm that the attack adapts to all systems and is successful under process variation, but with different susceptibility to faults. The paper is concluded by validating the attack on another platform, and analyzing the vulnerability based on a timing analysis, proving the applicability to different devices.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tches.v2018.i3.44-68</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7268</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7268">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/7268/6446" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_rub-journals_7268">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/7268/7926" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="" ID="FILE2_rub-journals_7268">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/7268/7927" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7268" DMDID="DMD_rub-journals_7268">
+            <mets:fptr FILEID="FILE0_rub-journals_7268"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_7268" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_7268"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART2_rub-journals_7268" LABEL="">
+                <mets:fptr FILEID="FILE2_rub-journals_7268"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

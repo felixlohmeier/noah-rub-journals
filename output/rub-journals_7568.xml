@@ -1,0 +1,53 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7568">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>‚Gebremste Radikalisierung‘ – Zur Entwicklung der Gewerkschaftsjugend von 1968 bis Mitte der 1970er Jahre</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Andresen, Knud</displayForm>
+                        <namePart type="family">Andresen</namePart>
+                        <namePart type="given">Knud</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015-01-30</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">18</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">The notion of “1968” as an expression of civil disorder in western countries is primarily attributed to students, but also to young people in general. This article pays special attention to the group of wage earners, as the biggest population group, and especially to the youth, that was organized in trade unions. The reason for putting young trade unionists from “1968” under closer consideration lies in the significant shift to the left, by which German trade unions were captured during these times. It will be asked why this shift happened and how it was linked to the protests at this time. In addition, the contribution analyses the trade unions attitude towards the 1968-movement – and the roles that have been played by young trade unionists. It is argued, that according to a general radicalisation in “1968”, similar tendencies can also be observed in the trade union youth in general though substantial variation cannot be overlooked.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/mts.43.2010.141-158</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7568</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7568">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/7568/6740" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7568" DMDID="DMD_rub-journals_7568">
+            <mets:fptr FILEID="FILE0_rub-journals_7568"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

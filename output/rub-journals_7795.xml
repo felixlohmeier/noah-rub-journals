@@ -1,0 +1,54 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7795">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <nonSort>Der </nonSort>
+                        <title>Balkan im Blick der Gewerkschaftsinternationalen (Vom Vorabend des Ersten Weltkriegs bis zur Weltwirtschaftskrise)</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Tosstorff, Reiner</displayForm>
+                        <namePart type="family">Tosstorff</namePart>
+                        <namePart type="given">Reiner</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2014-12-17</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">22</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">The Balkans drew the attention of the Trade Union International, founded as a separate institution in 1901 under social-democratic dominance and led by the German Carl Legien. It organised essential support for the development of the Balkan trade unions. At the same time, it tried to mediate in the conflicts which shook the Bulgarian workers&apos; movement, with repercussions all over the Balkans. The consequences of the First World War led to the transformation of these organisational conflicts into political ones when the communist Red International of Labour Unions was founded. A bitter struggle was waged within the Balkan trade union movement which further undermined its weak position. The reconstruction of the intervention by the two trade union internationals not only shows the organisational consequences and the mutual interdependencies, but also highlights the difficulties of the &apos;gaze from afar&apos;, from the centre of the European labour movement, onto such an &apos;exotic region&apos;.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/mts.33.2005.77-98</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7795</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7795">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/7795/6967" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7795" DMDID="DMD_rub-journals_7795">
+            <mets:fptr FILEID="FILE0_rub-journals_7795"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

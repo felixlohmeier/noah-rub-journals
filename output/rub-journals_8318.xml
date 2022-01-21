@@ -1,0 +1,62 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8318">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Classification of Balanced Quadratic Functions</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>De Meyer, Lauren</displayForm>
+                        <namePart type="family">De Meyer</namePart>
+                        <namePart type="given">Lauren</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Bilgin, Begül</displayForm>
+                        <namePart type="family">Bilgin</namePart>
+                        <namePart type="given">Begül</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2019-06-11</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">24</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">S-boxes, typically the only nonlinear part of a block cipher, are the heart of symmetric cryptographic primitives. They significantly impact the cryptographic strength and the implementation characteristics of an algorithm. Due to their simplicity, quadratic vectorial Boolean functions are preferred when efficient implementations for a variety of applications are of concern. Many characteristics of a function stay invariant under affine equivalence. So far, all 6-bit Boolean functions, 3- and 4-bit permutations have been classified up to affine equivalence. At FSE 2017, Bozoliv et al. presented the first classification of 5-bit quadratic permutations. In this work, we propose an adaptation of their work resulting in a highly efficient algorithm to classify n x m functions for n ≥ m. Our algorithm enables for the first time a complete classification of 6-bit quadratic permutations as well as all balanced quadratic functions for n ≤ 6. These functions can be valuable for new cryptographic algorithm designs with efficient multi-party computation or side-channel analysis resistance as goal. In addition, we provide a second tool for finding decompositions of length two. We demonstrate its use by decomposing existing higher degree S-boxes and constructing new S-boxes with good cryptographic and implementation properties.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tosc.v2019.i2.169-192</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8318</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8318">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/8318/7667" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8318" DMDID="DMD_rub-journals_8318">
+            <mets:fptr FILEID="FILE0_rub-journals_8318"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

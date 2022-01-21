@@ -1,0 +1,80 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8734">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <nonSort>The </nonSort>
+                        <title>Area-Latency Symbiosis</title>
+                        <subTitle>Towards Improved Serial Encryption Circuits</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Balli, Fatih</displayForm>
+                        <namePart type="family">Balli</namePart>
+                        <namePart type="given">Fatih</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Caforio, Andrea</displayForm>
+                        <namePart type="family">Caforio</namePart>
+                        <namePart type="given">Andrea</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Banik, Subhadeep</displayForm>
+                        <namePart type="family">Banik</namePart>
+                        <namePart type="given">Subhadeep</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020-12-03</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">40</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">The bit-sliding paper of Jean et al. (CHES 2017) showed that the smallest-size circuit for SPN based block ciphers such as AES, SKINNY and PRESENT can be achieved via bit-serial implementations. Their technique decreases the bit size of the datapath and naturally leads to a significant loss in latency (as well as the maximum throughput). Their designs complete a single round of the encryption in 168 (resp. 68) clock cycles for 128 (resp. 64) bit blocks. A follow-up work by Banik et al. (FSE 2020) introduced the swap-and-rotate technique that both eliminates this loss in latency and achieves even smaller footprints.In this paper, we extend these results on bit-serial implementations all the way to four authenticated encryption schemes from NIST LWC. Our first focus is to decrease latency and improve throughput with the use of the swap-and-rotate technique. Our block cipher implementations have the most efficient round operations in the sense that a round function of an n-bit block cipher is computed in exactly n clock cycles. This leads to implementations that are similar in size to the state of the art, but have much lower latency (savings up to 20 percent). We then extend our technique to 4- and 8-bit implementations. Although these results are promising, block ciphers themselves are not end-user primitives, as they need to be used in conjunction with a mode of operation. Hence, in the second part of the paper, we use our serial block ciphers to bootstrap four active NIST authenticated encryption candidates: SUNDAE-GIFT, Romulus, SAEAES and SKINNY-AEAD. In the wake of this effort, we provide the smallest block-cipher-based authenticated encryption circuits known in the literature so far.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.46586/tches.v2021.i1.239-278</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8734</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8734">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/8734/8334" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="" ID="FILE1_rub-journals_8734">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/8734/8603" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8734" DMDID="DMD_rub-journals_8734">
+            <mets:fptr FILEID="FILE0_rub-journals_8734"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_8734" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_8734"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

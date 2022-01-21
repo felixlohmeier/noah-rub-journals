@@ -1,0 +1,59 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7651">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Parteien und Parteiensysteme im Wandel – Neuere Tendenzen der deutschen Parteienforschung (Rezensionsessay)</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Mittag, Jürgen</displayForm>
+                        <namePart type="family">Mittag</namePart>
+                        <namePart type="given">Jürgen</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015-01-24</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">9</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Hans Zehetmair (Hg.): Das deutsche Parteiensystem. Perspektiven für das 21. Jahrhundert, Wiesbaden 2004, 29,80 €.
+Heiko Biehl: Parteimitglieder im Wandel. Partizipation und Repräsentation, Wiesbaden 2005, 39,80 €.
+Daniel Dettling (Hg.): Parteien in der Bürgergesellschaft. Zum Verhältnis von Macht und Beteiligung, Wiesbaden 2005, 29,80 €.
+Daniela Forkmann / Michael Schlieben (Hg.): Die Parteivorsitzenden in der Bundesrepublik Deutschland 1949 –2005, Wiesbaden 2005, 34,80 €.
+Jürgen Dittberner: Die FDP. Geschichte, Personen, Organisation, Perspektiven. Eine Einführung, Wiesbaden 2005, 26,80 €.
+Wolfgang Merkel / Christoph Egle / Christian Henkes / Tobias Ostheim / Alexander Petring: Die Reformfähigkeit der Sozialdemokratie. Herausforderungen und Bilanz der Regierungspolitik in Westeuropa, Wiesbaden 2006, 39,80 €.
+Tim Spier / Felix Butzlaff / Matthias Micus / Franz Walter (Hg.): Die Linkspartei. Zeitgemäße Idee ohne Zukunft?, Wiesbaden 2007, 29,80 €.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <identifier type="doi">10.13154/mts.40.2008.213-221</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7651</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7651">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/7651/6823" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7651" DMDID="DMD_rub-journals_7651">
+            <mets:fptr FILEID="FILE0_rub-journals_7651"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

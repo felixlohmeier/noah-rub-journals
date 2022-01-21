@@ -1,0 +1,71 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8359">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Cryptanalysis of Plantlet</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Banik, Subhadeep</displayForm>
+                        <namePart type="family">Banik</namePart>
+                        <namePart type="given">Subhadeep</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Barooti, Khashayar</displayForm>
+                        <namePart type="family">Barooti</namePart>
+                        <namePart type="given">Khashayar</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Isobe, Takanori</displayForm>
+                        <namePart type="family">Isobe</namePart>
+                        <namePart type="given">Takanori</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2019-09-20</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">18</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Plantlet is a lightweight stream cipher designed by Mikhalev, Armknecht and Müller in IACR ToSC 2017. It has a Grain-like structure with two state registers of size 40 and 61 bits. In spite of this, the cipher does not seem to lose in security against generic Time-Memory-Data Tradeoff attacks due to the novelty of its design. The cipher uses a 80-bit secret key and a 90-bit IV. In this paper, we first present a key recovery attack on Plantlet that requires around 276.26 Plantlet encryptions. The attack leverages the fact that two internal states of Plantlet that differ in the 43rd LFSR location are guaranteed to produce keystream that are either equal or unequal in 45 locations with probability 1. Thus an attacker can with some probability guess that when 2 segments of keystream blocks possess the 45 bit difference just mentioned, they have been produced by two internal states that differ only in the 43rd LFSR location. Thereafter by solving a system of polynomial equations representing the keystream bits, the attacker can find the secret key if his guess was indeed correct, or reach some kind of contradiction if his guess was incorrect. In the latter event, he would repeat the procedure for other keystream blocks with the given difference. We show that the process when repeated a finite number of times, does indeed yield the value of the secret key.
+In the second part of the paper, we observe that the previous attack was limited to internal state differences that occurred at time instances that were congruent to 0 mod 80. We further observe that by generalizing the attack to include internal state differences that are congruent to all equivalence classed modulo 80, we lower the total number of keystream bits required to perform the attack and in the process reduce the attack complexity to 269.98 Plantlet encryptions.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <identifier type="doi">10.13154/tosc.v2019.i3.103-120</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8359</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8359">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/8359/7706" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8359" DMDID="DMD_rub-journals_8359">
+            <mets:fptr FILEID="FILE0_rub-journals_8359"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,53 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7427">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Still We Rise — The Contemporary Sex Worker Movement in Europe in the Context of Neo-Abolitionism and Repressive Policies</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Hofstetter, Joana Lilli</displayForm>
+                        <namePart type="family">Hofstetter</namePart>
+                        <namePart type="given">Joana Lilli</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2018-05-18</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">24</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">In 2015, sex worker activists across Europe celebrated the 40th anniversary of their political mobilisations. Despite having sustained and further institutionalised their transnational movement, these activists are currently confronted with an increasingly adversarial context formed by neo-abolitionist prostitution opponents and repressive policies. In this paper, I explore how sex workers in Europe engage in activism in this adversarial context and investigate how the latter impacts on their contemporary mobilisations. My analysis of the movement’s framing processes demonstrates that it is indeed strongly influenced by neo-abolitionism and repressive policies. Yet, activists continue to mobilise and adjust strategically in an attempt to reclaim self-representation, build coalitions, achieve legislative reform and ultimately, drive social change.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/mts.59.2018.47-70</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7427</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7427">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/7427/6599" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7427" DMDID="DMD_rub-journals_7427">
+            <mets:fptr FILEID="FILE0_rub-journals_7427"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

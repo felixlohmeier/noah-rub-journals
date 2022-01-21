@@ -1,0 +1,60 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_9398">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>“Met Duizend Groete” Jacob Marenke’s letter to Lothar von Trotha, 8 May 1905, responding to the “Proklamation an das Volk der Hottentotten”, dated 22 April 1905</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Häussler, Matthias</displayForm>
+                        <namePart type="family">Häussler</namePart>
+                        <namePart type="given">Matthias</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Eckl, Andreas</displayForm>
+                        <namePart type="family">Eckl</namePart>
+                        <namePart type="given">Andreas</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2021-12-22</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">10</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">The handwritten letter, dated 8 May 1905, by Jacob Marenke, also known as Morenga or Marengo, responding to Lothar von Trotha’s “Proklamation an das Volk der Hottentotten”, dated 22 April 1905, is part of the estate of Lieutenant General Lothar von Trotha, who was in command of the Imperial Schutztruppe for German South West Africa from May 1904 to November 1905. Marenke’s letter, reproduced and translated here for the first time, clearly documents that he lacked belief in the honesty of the Germans and their efforts for peace. It indicates that mistrust, fuelled by the performative contradictions of the Germans, who spoke of peace on the one hand, but engaged in hostile acts on the other, may be seen as the crucial reason why no peace agreement could be achieved by both parties.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_9398</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_9398">
+                <mets:FLocat xlink:href="https://namibian-studies.com/index.php/JNS/article/download/9398/8939" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_9398" DMDID="DMD_rub-journals_9398">
+            <mets:fptr FILEID="FILE0_rub-journals_9398"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

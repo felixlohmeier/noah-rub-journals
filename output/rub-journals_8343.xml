@@ -1,0 +1,119 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8343">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Security on Plastics</title>
+                        <subTitle>Fake or Real?</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Mentens, Nele</displayForm>
+                        <namePart type="family">Mentens</namePart>
+                        <namePart type="given">Nele</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Genoe, Jan</displayForm>
+                        <namePart type="family">Genoe</namePart>
+                        <namePart type="given">Jan</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Vandenabeele, Thomas</displayForm>
+                        <namePart type="family">Vandenabeele</namePart>
+                        <namePart type="given">Thomas</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Verschueren, Lynn</displayForm>
+                        <namePart type="family">Verschueren</namePart>
+                        <namePart type="given">Lynn</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Smets, Dirk</displayForm>
+                        <namePart type="family">Smets</namePart>
+                        <namePart type="given">Dirk</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Dehaene, Wim</displayForm>
+                        <namePart type="family">Dehaene</namePart>
+                        <namePart type="given">Wim</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Myny, Kris</displayForm>
+                        <namePart type="family">Myny</namePart>
+                        <namePart type="given">Kris</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2019-08-09</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">16</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Electronic devices on plastic foil, also referred to as flexible electronics, are making their way into mainstream applications. In the near future, flexible electronic labels can be embedded in smart blisters, but also used as mainstream technology for flexible medical patches. A key technology for flexible electronics is based on thin-film transistors, which have the potential to be manufactured at low cost, making them an ideal candidate for these applications. Yet, up to now, no-one is taking digital security into account in the design of flexible electronics.In this paper, we present, to our knowledge, the first cryptographic core on plastic foil. Two main research challenges arise. The first challenge is related to the reliability of the circuit, which typically decreases when the circuit area increases. By integrating cryptographic modules, we explore the limits of the technology, since the smallest lightweight block ciphers feature a larger area than the largest digital circuit on flex foil reported up to now. The second challenge is related to key hiding. The relatively large features on the chip and the fact that electronic chips on plastics are used as bare dies, i.e. they are not packaged, make it easy to read out the value of the stored secret key. Because there is no dedicated non-volatile memory technology yet, existing methods for writing data to the flexible chip after fabrication are based on wire cutting with a laser or inkjet printing. With these techniques, however, it is extremely easy to “see” the value of the secret key under a microscope. We propose a novel solution that allows us to invisibly program the key after fabrication.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tches.v2019.i4.1-16</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8343</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8343">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/8343/7691" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_rub-journals_8343">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/8343/7835" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="" ID="FILE2_rub-journals_8343">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/8343/7834" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8343" DMDID="DMD_rub-journals_8343">
+            <mets:fptr FILEID="FILE0_rub-journals_8343"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_8343" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_8343"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART2_rub-journals_8343" LABEL="">
+                <mets:fptr FILEID="FILE2_rub-journals_8343"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

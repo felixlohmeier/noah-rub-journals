@@ -1,0 +1,54 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7705">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <nonSort>Die </nonSort>
+                        <title>Bergarbeitergewerkschaften im Donbass zwischen ukrainischer Unabhängigkeit, Regionalismus und sowjetischem Erbe</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Zimmer, Kerstin</displayForm>
+                        <namePart type="family">Zimmer</namePart>
+                        <namePart type="given">Kerstin</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015-01-21</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">27</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">After more than ten years of political and economic transformation in Ukraine, trade unions are among the marginalized and peripheral actors. This also applies to the miners‘ unions in the Donbass, the formerly relevant coal mining area of the Soviet Union and the showcase of socialism. This diagnosis might come as a surprise because one might assume that trade unions play an important role in the transformation of an old industrial region. This contribution strives to prove the contrary and provides explanations for this contra intuitive phenomenon. It is led by the thesis that the powerlessness of the trade unions is an expression of the Soviet legacy of a “weak” society and owes to the predominance and structural and symbolic control strategies of powerful regional actors. The continuing cooptation by the political and economic establishment prevents social interests from taking effect.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/mts.37.2007.149-175</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7705</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7705">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/7705/6877" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7705" DMDID="DMD_rub-journals_7705">
+            <mets:fptr FILEID="FILE0_rub-journals_7705"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

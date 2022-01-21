@@ -1,0 +1,71 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8973">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Breaking Masked Implementations with Many Shares on 32-bit Software Platforms</title>
+                        <subTitle>or When the Security Order Does Not Matter</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Bronchain, Olivier</displayForm>
+                        <namePart type="family">Bronchain</namePart>
+                        <namePart type="given">Olivier</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Standaert, François-Xavier</displayForm>
+                        <namePart type="family">Standaert</namePart>
+                        <namePart type="given">François-Xavier</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2021-07-09</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">33</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">We explore the concrete side-channel security provided by state-of-theart higher-order masked software implementations of the AES and the (candidate to the NIST Lightweight Cryptography competition) Clyde, in ARM Cortex-M0 and M3 devices. Rather than looking for possibly reduced security orders (as frequently considered in the literature), we directly target these implementations by assuming their maximum security order and aim at reducing their noise level thanks to multivariate, horizontal and analytical attacks. Our investigations point out that the Cortex-M0 device has so limited physical noise that masking is close to ineffective. The Cortex-M3 shows a better trend but still requires a large number of shares to provide strong security guarantees. Practically, we first exhibit a full 128-bit key recovery in less than 10 traces for a 6-share masked AES implementation running on the Cortex-M0 requiring 232 enumeration power. A similar attack performed against the Cortex-M3 with 5 shares require 1,000 measurements with 244 enumeration power. We then show the positive impact of lightweight block ciphers with limited number of AND gates for side-channel security, and compare our attacks against a masked Clyde with the best reported attacks of the CHES 2020 CTF. We complement these experiments with a careful information theoretic analysis, which allows interpreting our results. We also discuss our conclusions under the umbrella of “backwards security evaluations” recently put forwards by Azouaoui et al. We finally extrapolate the evolution of the proposed attack complexities in the presence of additional countermeasures using the local random probing model proposed at CHES 2020.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.46586/tches.v2021.i3.202-234</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8973</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8973">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/8973/8551" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="" ID="FILE1_rub-journals_8973">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/8973/8628" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8973" DMDID="DMD_rub-journals_8973">
+            <mets:fptr FILEID="FILE0_rub-journals_8973"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_8973" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_8973"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

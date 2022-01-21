@@ -1,0 +1,60 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8323">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Memory and Alterity in Zar</title>
+                        <subTitle>Religious Contact and Change in the Sudan</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Kenyon, Susan M</displayForm>
+                        <namePart type="family">Kenyon</namePart>
+                        <namePart type="given">Susan M</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2019-06-24</dateIssued>
+                    </originInfo>
+                    <abstract lang="eng">Drawing on long-term ethnographic research in the Blue Nile town of Sennar,&amp;nbsp;supported by archival and historical documentation, this article explores the history of Zar&amp;nbsp;spirit possession in Sudan, and the light this throws on the interplay of religions over the&amp;nbsp;past 150 years. Life history data supports the argument that contemporary Zar is grounded&amp;nbsp;in forms and rituals derived from the ranks of the ninteenth-century Ottoman army, and&amp;nbsp;these remain the basis of ritual events, even as they accommodate ongoing changes in&amp;nbsp;this part of Africa. Many of these changes are linked to the dynamic interplay of Zar with&amp;nbsp;forms of Islam, on the one hand, and Christianity, on the other. In the former colonial&amp;nbsp;periods, political power resided with the British, and Khawaja (European) Christian Zar&amp;nbsp;spirits are remembered as far more important. Today that authority in Zar has shifted to&amp;nbsp;spirits of foreign Muslims and local holy men, on the one hand, and to subaltern Blacks,&amp;nbsp;on the other. These speak to concerns of new generations of adepts even as changes in the&amp;nbsp;larger political and religious landscapes continue to transform the context of Zar.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/er.8.2019.8323</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8323</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8323">
+                <mets:FLocat xlink:href="https://er.ceres.rub.de/index.php/ER/article/download/8323/7672" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="text/html" ID="FILE1_rub-journals_8323">
+                <mets:FLocat xlink:href="https://er.ceres.rub.de/index.php/ER/article/download/8323/7673" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8323" DMDID="DMD_rub-journals_8323">
+            <mets:fptr FILEID="FILE0_rub-journals_8323"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_8323" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_8323"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,103 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_9328">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Perfect Trees</title>
+                        <subTitle>Designing Energy-Optimal Symmetric Encryption Primitives</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Caforio, Andrea</displayForm>
+                        <namePart type="family">Caforio</namePart>
+                        <namePart type="given">Andrea</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Banik, Subhadeep</displayForm>
+                        <namePart type="family">Banik</namePart>
+                        <namePart type="given">Subhadeep</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Todo, Yosuke</displayForm>
+                        <namePart type="family">Todo</namePart>
+                        <namePart type="given">Yosuke</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Meier, Willi</displayForm>
+                        <namePart type="family">Meier</namePart>
+                        <namePart type="given">Willi</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Isobe, Takanori</displayForm>
+                        <namePart type="family">Isobe</namePart>
+                        <namePart type="given">Takanori</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Liu, Fukang</displayForm>
+                        <namePart type="family">Liu</namePart>
+                        <namePart type="given">Fukang</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Zhang, Bin</displayForm>
+                        <namePart type="family">Zhang</namePart>
+                        <namePart type="given">Bin</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2021-12-03</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">38</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Energy efficiency is critical in battery-driven devices, and designing energyoptimal symmetric-key ciphers is one of the goals for the use of ciphers in such environments. In the paper by Banik et al. (IACR ToSC 2018), stream ciphers were identified as ideal candidates for low-energy solutions. One of the main conclusions of this paper was that Trivium, when implemented in an unrolled fashion, was by far the most energy-efficient way of encrypting larger quantity of data. In fact, it was shown that as soon as the number of databits to be encrypted exceeded 320 bits, Trivium consumed the least amount of energy on STM 90 nm ASIC circuits and outperformed the Midori family of block ciphers even in the least energy hungry ECB mode (Midori was designed specifically for energy efficiency).In this work, we devise the first heuristic energy model in the realm of stream ciphers that links the underlying algebraic topology of the state update function to the consumptive behaviour. The model is then used to derive a metric that exhibits a heavy negative correlation with the energy consumption of a broad range of stream cipher architectures, i.e., the families of Trivium-like, Grain-like and Subterranean-like constructions. We demonstrate that this correlation is especially pronounced for Trivium-like ciphers which leads us to establish a link between the energy consumption and the security guarantees that makes it possible to find several alternative energy-optimal versions of Trivium that meet the requirements but consume less energy. We present two such designs Trivium-LE(F) and Trivium-LE(S) that consume around 15% and 25% less energy respectively making them the to date most energy-efficient encryption primitives. They inherit the same security level as Trivium, i.e., 80-bit security. We further present Triad-LE as an energy-efficient variant satisfying a higher security level. The simplicity and wide applicability of our model has direct consequences for the conception of future hardware-targeted stream ciphers as for the first time it is possible to optimize for energy during the design phase. Moreover, we extend the reach of our model beyond plain encryption primitives and propose a novel energy-efficient message authentication code Trivium-LE-MAC.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.46586/tosc.v2021.i4.36-73</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_9328</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_9328">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/9328/8887" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_9328" DMDID="DMD_rub-journals_9328">
+            <mets:fptr FILEID="FILE0_rub-journals_9328"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

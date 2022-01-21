@@ -1,0 +1,54 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_9408">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Taking Nativism to the Streets</title>
+                        <subTitle>Historical Perspectives on Right-Wing Extremist Protest Campaigns against Immigration in Germany</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Botsch, Gideon</displayForm>
+                        <namePart type="family">Botsch</namePart>
+                        <namePart type="given">Gideon</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2021-10-31</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">20</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">In this article, I give an overview on nativist street protests in Germany from the early&amp;nbsp;nineteenth century to the present from an historical perspective. In a preliminary remark,&amp;nbsp;I will reflect on some recent developments in Germany, where nativist protest&amp;nbsp;campaigns against immigration took place in the streets when voters were turning&amp;nbsp;towards the populist radical right party Alternative für Deutschland (AfD). In the first&amp;nbsp;section, I will outline an older tradition of anti-immigration protest in nineteenth and&amp;nbsp;early twentieth century Germany, which is closely connected to modern antisemitism.&amp;nbsp;In sections two and three, I will retrace how, from the late 1960s onward, the far&amp;nbsp;right in the Federal Republic of Germany (FRG) discovered concerns about immigration&amp;nbsp;in the German population, addressed them in protest campaigns and developed&amp;nbsp;narratives to integrate such sentiments into a broader right-wing extremist ideology,&amp;nbsp;itself deeply rooted in antisemitism. Studying nativism and the radical right from an&amp;nbsp;actor-oriented perspective, I will focus on traditionalist movements, including the&amp;nbsp;Nationaldemokratische Partei Deutschlands (NPD) and neo-Nazi groups.&amp;nbsp;</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.46586/mts.66.2021.43-62</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_9408</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_9408">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/9408/8952" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_9408" DMDID="DMD_rub-journals_9408">
+            <mets:fptr FILEID="FILE0_rub-journals_9408"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

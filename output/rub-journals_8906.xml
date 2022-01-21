@@ -1,0 +1,62 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8906">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Comparing Large-unit and Bitwise Linear Approximations of SNOW 2.0 and SNOW 3G and Related Attacks</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Gong, Xinxin</displayForm>
+                        <namePart type="family">Gong</namePart>
+                        <namePart type="given">Xinxin</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Zhang, Bin</displayForm>
+                        <namePart type="family">Zhang</namePart>
+                        <namePart type="given">Bin</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2021-06-11</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">33</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">In this paper, we study and compare the byte-wise and bitwise linear approximations of SNOW 2.0 and SNOW 3G, and present a fast correlation attack on SNOW 3G by using our newly found bitwise linear approximations. On one side, we reconsider the relation between the large-unit linear approximation and the smallerunit/ bitwise ones derived from the large-unit one, showing that approximations on large-unit alphabets have advantages over all the smaller-unit/bitwise ones in linear attacks. But then on the other side, by comparing the byte-wise and bitwise linear approximations of SNOW 2.0 and SNOW 3G respectively, we have found many concrete examples of 8-bit linear approximations whose certain 1-dimensional/bitwise linear approximations have almost the same SEI (Squared Euclidean Imbalance) as that of the original 8-bit ones. That is, each of these byte-wise linear approximations is dominated by a single bitwise approximation, and thus the whole SEI is not essentially larger than the SEI of the dominating single bitwise approximation. Since correlation attacks can be more efficiently implemented using bitwise approximations rather than large-unit approximations, improvements over the large-unit linear approximation attacks are possible for SNOW 2.0 and SNOW 3G. For SNOW 3G, we make a careful search of the bitwise masks for the linear approximations of the FSM and obtain many mask tuples which yield high correlations. By using these bitwise linear approximations, we mount a fast correlation attack to recover the initial state of the LFSR with the time/memory/data/pre-computation complexities all upper bounded by 2174.16, improving slightly the previous best one which used an 8-bit (vectorized) linear approximation in a correlation attack with all the complexities upper bounded by 2176.56. Though not a significant improvement, our research results illustrate that we have an opportunity to achieve improvement over the large-unit attacks by using bitwise linear approximations in a linear approximation attack, and provide a newinsight on the relation between large-unit and bitwise linear approximations.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.46586/tosc.v2021.i2.71-103</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8906</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8906">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/8906/8482" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8906" DMDID="DMD_rub-journals_8906">
+            <mets:fptr FILEID="FILE0_rub-journals_8906"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

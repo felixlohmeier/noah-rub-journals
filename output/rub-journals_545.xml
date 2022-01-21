@@ -1,0 +1,52 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_545">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Sind Eingeborenen-Reservate erwünscht?  Referat von Peter Friedrich Bernsmann Hererokonferenz, Otjimbingwe, September 1906</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Tröndle, Rainer</displayForm>
+                        <namePart type="family">Tröndle</namePart>
+                        <namePart type="given">Rainer</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2016-12-14</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">10</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">The following paper deals with the question “Are native reservations desirable?” and was presented by missionary Peter Friedrich Bernsmann at the Rhenish missionaries’ conference in Otjimbingwe in September 1906. It is an oft-quoted source especially because of the estimations of the number of Herero people before the outbreak of the Herero-German War in 1904. Bernsmann who was a missionary among Herero (1874–1888 in Otjimbingue, 1888–1890 in Otjikango and 1890–1904 in Omburo) discusses the pros and cons of reservations with respect to various aspects such as subsistence, cattle-breeding, contract labour and ‘education to work’. He concludes that from a missionary point of view the settling of Herero in towns, villages or farms was much more favourable than in reservations. According to him, Rhenish mission¬aries should not support the idea of reservations and should refuse to be involved in the administration of reservations. The paper and its amendment discussing the danger of “Verbastardisierung” (hybridisation) of Herero in reservations transcribed here are archived in the original in the Archives of the Vereinte Evangelische Mission (VEM) Wuppertal, Germany, under the heading 2.620.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_545</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_545">
+                <mets:FLocat xlink:href="https://namibian-studies.com/index.php/JNS/article/download/545/489" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_545" DMDID="DMD_rub-journals_545">
+            <mets:fptr FILEID="FILE0_rub-journals_545"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

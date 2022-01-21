@@ -1,0 +1,53 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_82">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Contested concepts of ‘white’/‘native’ and mixed marriages in German South-West Africa and the Cape Colony 1900-1914</title>
+                        <subTitle>A histoire croisée</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Lindner, Ulrike</displayForm>
+                        <namePart type="family">Lindner</namePart>
+                        <namePart type="given">Ulrike</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2014-01-31</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">23</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">The article examines the interactions between German and British colonies which arose over mixed marriages between British citizens from the Cape colony and mixed-race or African women living in German South-West Africa. When the German colonial administration banned mixed-race relations and degraded the offspring of these marriages during the years 1905-1907, the people affected tried to use their British citizenship to lodge complaints via the British Consul. Communications concerning the marriages in question evolved on colonial and imperial level between the Cape colony and German South-West Africa as well as between the respective motherlands. The article addresses the interactions through the multi-vectorial analysis of a histoire croisée, thus offering a new, comparative view on the often discussed issue of mixed marriages in the German colony. It also focuses on the negotiations of the categories ‘white’, ‘native’ and ‘mixed-race’ between colonies of different European empires, and points at different modes of implementation of racial policies in the Cape colony and German South - West Africa.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_82</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_82">
+                <mets:FLocat xlink:href="https://namibian-studies.com/index.php/JNS/article/download/82/56" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_82" DMDID="DMD_rub-journals_82">
+            <mets:fptr FILEID="FILE0_rub-journals_82"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

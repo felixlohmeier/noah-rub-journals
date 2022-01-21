@@ -1,0 +1,70 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7387">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Non-Profiled Deep Learning-based Side-Channel attacks with Sensitivity Analysis</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Timon, Benjamin</displayForm>
+                        <namePart type="family">Timon</namePart>
+                        <namePart type="given">Benjamin</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2019-02-28</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">25</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Deep Learning has recently been introduced as a new alternative to perform Side-Channel analysis [MPP16]. Until now, studies have been focused on applying Deep Learning techniques to perform Profiled Side-Channel attacks where an attacker has a full control of a profiling device and is able to collect a large amount of traces for different key values in order to characterize the device leakage prior to the attack. In this paper we introduce a new method to apply Deep Learning techniques in a Non-Profiled context, where an attacker can only collect a limited number of side-channel traces for a fixed unknown key value from a closed device. We show that by combining key guesses with observations of Deep Learning metrics, it is possible to recover information about the secret key. The main interest of this method is that it is possible to use the power of Deep Learning and Neural Networks in a Non-Profiled scenario. We show that it is possible to exploit the translation-invariance property of Convolutional Neural Networks [CDP17] against de-synchronized traces also during Non-Profiled side-channel attacks. In this case, we show that this method can outperform classic Non-Profiled attacks such as Correlation Power Analysis. We also highlight that it is possible to break masked implementations in black-box, without leakages combination pre-preprocessing and with no assumptions nor knowledge about the masking implementation. To carry the attack, we introduce metrics based on Sensitivity Analysis that can reveal both the secret key value as well as points of interest, such as leakages and masks locations in the traces. The results of our experiments demonstrate the interests of this new method and show that this attack can be performed in practice.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tches.v2019.i2.107-131</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7387</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7387">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/7387/6559" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_rub-journals_7387">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/7387/7887" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="" ID="FILE2_rub-journals_7387">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/7387/7888" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7387" DMDID="DMD_rub-journals_7387">
+            <mets:fptr FILEID="FILE0_rub-journals_7387"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_7387" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_7387"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART2_rub-journals_7387" LABEL="">
+                <mets:fptr FILEID="FILE2_rub-journals_7387"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

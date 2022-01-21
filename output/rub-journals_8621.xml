@@ -1,0 +1,104 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8621">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Saturnin</title>
+                        <subTitle>a suite of lightweight symmetric algorithms for post-quantum security</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Canteaut, Anne</displayForm>
+                        <namePart type="family">Canteaut</namePart>
+                        <namePart type="given">Anne</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Duval, Sébastien</displayForm>
+                        <namePart type="family">Duval</namePart>
+                        <namePart type="given">Sébastien</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Leurent, Gaëtan</displayForm>
+                        <namePart type="family">Leurent</namePart>
+                        <namePart type="given">Gaëtan</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Naya-Plasencia, María</displayForm>
+                        <namePart type="family">Naya-Plasencia</namePart>
+                        <namePart type="given">María</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Perrin, Léo</displayForm>
+                        <namePart type="family">Perrin</namePart>
+                        <namePart type="given">Léo</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Pornin, Thomas</displayForm>
+                        <namePart type="family">Pornin</namePart>
+                        <namePart type="given">Thomas</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Schrottenloher, André</displayForm>
+                        <namePart type="family">Schrottenloher</namePart>
+                        <namePart type="given">André</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020-06-22</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">48</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">The cryptographic algorithms needed to ensure the security of our communications have a cost. For devices with little computing power, whose number is expected to grow significantly with the spread of the Internet of Things (IoT), this cost can be a problem. A simple answer to this problem is a compromise on the security level: through a weaker round function or a smaller number of rounds, the security level can be decreased in order to cheapen the implementation of the cipher. At the same time, quantum computers are expected to disrupt the state of the art in cryptography in the near future. For public-key cryptography, the NIST has organized a dedicated process to standardize new algorithms. The impact of quantum computing is harder to assess in the symmetric case but its study is an active research area.In this paper, we specify a new block cipher, Saturnin, and its usage in different modes to provide hashing and authenticated encryption in such a way that we can rigorously argue its security in the post-quantum setting. Its security analysis follows naturally from that of the AES, while our use of components that are easily implemented in a bitsliced fashion ensures a low cost for our primitives. Our aim is to provide a new lightweight suite of algorithms that performs well on small devices, in particular micro-controllers, while providing a high security level even in the presence of quantum computers. Saturnin is a 256-bit block cipher with a 256-bit key and an additional 9-bit parameter for domain separation. Using it, we built two authenticated ciphers and a hash function.• Saturnin-CTR-Cascade is an authenticated cipher using the counter mode and a separate MAC. It requires two passes over the data but its implementation does not require the inverse block cipher.• Saturnin-Short is an authenticated cipher intended for messages with a length strictly smaller than 128 bits which uses only one call to Saturnin to providenconfidentiality and integrity.• Saturnin-Hash is a 256-bit hash function. In this paper, we specify this suite of algorithms and argue about their security in both the classical and the post-quantum setting.
+https://project.inria.fr/saturnin/</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tosc.v2020.iS1.160-207</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8621</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8621">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/8621/8187" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8621" DMDID="DMD_rub-journals_8621">
+            <mets:fptr FILEID="FILE0_rub-journals_8621"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

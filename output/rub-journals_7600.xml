@@ -1,0 +1,54 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7600">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Plattformen gewerkschaftlicher Europapolitik</title>
+                        <subTitle>IG Metall und IG CPK und der Prozess der europäischen Integration in den 1960er und 1970er Jahren</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Rumpf, Jörg</displayForm>
+                        <namePart type="family">Rumpf</namePart>
+                        <namePart type="given">Jörg</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015-02-16</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">18</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">The article focuses on influences and reactions of the German industrial unions IG Metall and IG CKP to the European integration process during the 1960s and 1970s. Within this context the author describes levels and instruments of engagement and points out the different views, problems and starting points of two leading industrial unions during the foundation of the EEC and ETUC. Therein, the article highlights different strategies of the trade unions due to their political and economic interests on the one hand and possibilities, given to them by European representative structures, on the other hand. In addition, the article also sketches their engagement at the level of sectoral trade union organisation.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/mts.42.2009.123-140</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7600</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7600">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/7600/6772" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7600" DMDID="DMD_rub-journals_7600">
+            <mets:fptr FILEID="FILE0_rub-journals_7600"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

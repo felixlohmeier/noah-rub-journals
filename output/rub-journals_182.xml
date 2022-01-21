@@ -1,0 +1,52 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_182">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Discursive traces of genocide in Johannes Spiecker’s travel diary (1905–1907)</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Siefkes, Martin</displayForm>
+                        <namePart type="family">Siefkes</namePart>
+                        <namePart type="given">Martin</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015-03-18</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">32</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">In his role as inspector for the Rhenish Missionary Society (RMG), Johannes Spiecker (1856–1920) traveled from 1905–1907 through the Cape Colony and through German South West Africa. During this voyage, he wrote a diary that merits attention in regard to Spiecker’s role in the conflict, and to the observations and discussions he reports. This contribution examines the diary with regard to the RMG’s efforts at pacification, Spiecker’s reports from the concentration camps, the question of the sexual exploitation of the prisoners, the political opinions of Governor von Lindequist and other influential colonial personages, and the military strategy of the Schutz¬truppe. A specific focus is on new information regarding the genocide question. Spiecker documents two separate incidents where German officers openly speak about the extermination of whole tribes as a possible goal of the German military strategy. This contribution proposes to take the statements of the officers as indicators of what might be called the ‘discursive normality’ of genocide. In a methodological perspective, the presence and content of discourses, in specific historical situations and on specific topics, should be regarded as complementary evidence in questions where factual evidence is scarce. Discourse analysis, as developed in sociology and linguistics, thus becomes a promising method of historical science, if it is used in combination with historical and source-critical methods.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_182</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_182">
+                <mets:FLocat xlink:href="https://namibian-studies.com/index.php/JNS/article/download/182/143" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_182" DMDID="DMD_rub-journals_182">
+            <mets:fptr FILEID="FILE0_rub-journals_182"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

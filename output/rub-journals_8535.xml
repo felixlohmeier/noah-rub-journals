@@ -1,0 +1,54 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8535">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <nonSort>A </nonSort>
+                        <title>Juventude Comunista do Brasil na era da Internacional Comunista</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Karepovs, Dainis</displayForm>
+                        <namePart type="family">Karepovs</namePart>
+                        <namePart type="given">Dainis</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2009-01-01</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">20</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Instituto de Filosofia e Ciências Humanas da Universidade Estadual de Campinas, São Paulo (Brazil)
+The Communist Youth organization has been commonly considered as an accessory tool of the Communist Party, a recruiting platform or a cadre school. If on one side, this is not completely incorrect, on the other hand, the article considers it as necessary to analyse some of the specificities of this movement, allowing a deeper comprehension of the activities and the importance of the communist movement in Brazil. With the exception of the memories of Leôncio Basbaum and Ivan Pedro de Martins the Juventude comunista has only been subject to some episodic and local studies and memories. Today, the opening of the archives of the different State police organizations and the documentation in the Archives of the Communist International in Moscow permits closer looks. The article at first gives a retrospective of the history of the Socialist Youth International and its radicalization from an apprentice school of the socialist parties to the opposition against the war in 1915-1918 and its subsequent convergence with the&amp;nbsp; objectives of the Communist International. This was heritage taken up for the constitution of an organizational nucleus of the Brazilian Communist Youth during the 1920&apos;s. One of the key findings is the&amp;nbsp; importance of the workers’ movement in giving an organizational form to the requirements and interests of the youth as a segment of the Brazilian society. The reconstruction of the history of the Communist Youth reveals a combination of a lack of experience, brusque alterations in the fundamental orientation of the Communist International, the changing political conjuncture of Brazilian politics and above all the debility of the workers organizations as well as those of the small agriculture. The Brazilian young Communists, in the 1920s and 30s, raised a series of questions to which they themselves just as the Brazilian society as a whole could not give an answer at that time. When the Communist youth organization was created five years after the foundation of the Communist Party of Brazil in 1922, inheriting a strong&amp;nbsp; anarchist tradition, in Latin America. With the exception of Argentina, the tradition of a a political left youth movement was lacking. The Federação da Juventude Comunista do Brasil (FJCB) was for 90% composed of young workers, with Leôncio Basbaum (Ps. Pereira) it had a first delegate as the Brazilian Section of the Communist Youth International. The organization was very small and had its centre in Rio de Janeiro. In his report in Moscow Basbaum describes the young Brazilian workers as not interested in politics and more in football, but if woken up they would turn into Communists. The first congress of the FJCB took place in January 1929, at a crucial point of sectarian radicalization of antiimperialist and antimilitary politics directly inherited from the party line under the sign of &quot;Red Unions&quot; and &quot;armed uprisings&quot;. After the Seventh Comintern Congress in 1935 the youth politics under Valduvino Barbosa Lourenço as General Secretary was orientated in a new &quot;popular front&quot; perspective, aiming the edification of a so-called &quot;Proletarian, Student and Popular Youth&quot; (Juventude Proletária, Estudantil e Popular). This contributed to a major role of the students and also the sports organizations within the Communist Youth Federation which counted not more than 1000 members, most of them young textile workers and members of sports associations and Labour Unions, with the largest nuclei in Rio de Janeiro and Sao Paulo.Just as for the Communist Party, the implantation among small peasants was efemere. Nevertheless these new types of activities including sports and recreation clubs, cultural associations, schools and others within the framework of the newly founded &quot;Aliança Libertadora Nacional&quot; (ALN) could not be established in consequence of its illegalization in the aftermath of the failed military uprisings in the Natal Province, Recife and Rio de Janeiro. Moreover, in 1937 the FCJB was dissolved because of its &quot;sectarismo&quot; and transformed into a Youth Bureau within the party structure. The reconstruction occuredone year later but had no impact after the instauration of the &quot;Estado Novo&quot; under Getúlio Vargas&apos; dictatorship.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8535</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8535">
+                <mets:FLocat xlink:href="https://incs.ub.rub.de/index.php/INCS/article/download/8535/8101" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8535" DMDID="DMD_rub-journals_8535">
+            <mets:fptr FILEID="FILE0_rub-journals_8535"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

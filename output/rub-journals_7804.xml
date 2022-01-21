@@ -1,0 +1,54 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7804">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Les Mouvements de Paix en France depuis 1945</title>
+                        <subTitle>Un Objet de Recherche en Construction</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Rousseau, Sabine</displayForm>
+                        <namePart type="family">Rousseau</namePart>
+                        <namePart type="given">Sabine</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015-01-05</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">17</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Historical studies about the peace movements in France since 1945 are still scarce. Three distinctive approaches do exist. One approach that is rather concerned with identity-politics than with scientific research is basically including studies about a minority of militant advocates of non-violent peace action: biographies that are conceived as role models (Gandhi, Martin Luther King), and essays contributing to a substantially militant output. Monographs about the way the great mass organisations worked, which emerged during the Cold War era (Mouvement de la paix, Pax Christi), account for the second approach. The privileged source material of this approach are the reports of the executive groups of these movements, which are related to an external body of decision making: The Communist Party (PCF) in the first case, the Catholic Church in the second one. Thirdly, there are studies about those concerted actions directed against wars of decolonialisation and wars on the periphery of the Cold War (Indochina War, Algerian War, Vietnam War). This strand of research is aiming to identify and characterise different forms and types of dedication and activity which were converging in the social movements of the 1950s and 1960s.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/mts.32.2004.49-65</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7804</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7804">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/7804/6976" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7804" DMDID="DMD_rub-journals_7804">
+            <mets:fptr FILEID="FILE0_rub-journals_7804"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

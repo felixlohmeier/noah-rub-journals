@@ -1,0 +1,86 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7273">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Cold Boot Attacks on Ring and Module LWE Keys Under the NTT</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Albrecht, Martin R.</displayForm>
+                        <namePart type="family">Albrecht</namePart>
+                        <namePart type="given">Martin R.</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Deo, Amit</displayForm>
+                        <namePart type="family">Deo</namePart>
+                        <namePart type="given">Amit</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Paterson, Kenneth G.</displayForm>
+                        <namePart type="family">Paterson</namePart>
+                        <namePart type="given">Kenneth G.</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2018-08-14</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">41</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">In this work, we consider the ring- and module- variants of the LWE problem and investigate cold boot attacks on cryptographic schemes based on these problems, wherein an attacker is faced with the problem of recovering a scheme’s secret key from a noisy version of that key. The leakage resilience of cryptography based on the learning with errors (LWE) problem has been studied before, but there are only limited results considering the parameters observed in cold boot attack scenarios. There are two main encodings for storing ring- and module-LWE keys, and, as we show, the performance of cold boot attacks can be highly sensitive to the exact encoding used. The first encoding stores polynomial coefficients directly in memory. The second encoding performs a number theoretic transform (NTT) before storing the key, a commonly used method leading to more efficient implementations. We first give estimates for a cold boot attack complexity on the first encoding method based on standard algorithms; this analysis confirms that this encoding method is vulnerable to cold boot attacks only at very low bit-flip rates. We then show that, for the second encoding method, the structure introduced by using an NTT is exploitable in the cold boot setting: we develop a bespoke attack strategy that is much cheaper than our estimates for the first encoding when considering module-LWE keys. For example, at a 1% bit-flip rate (which corresponds roughly to what can be achieved in practice for cold boot attacks when applying cooling), a cold boot attack on Kyber KEM parameters has a cost of 243 operations when the second, NTT-based encoding is used for key storage, compared to 270 operations with the first encoding. On the other hand, in the case of the ring-LWE-based KEM, New Hope, the cold boot attack complexities are similar for both encoding methods.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tches.v2018.i3.173-213</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7273</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7273">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/7273/6451" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_rub-journals_7273">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/7273/7936" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="" ID="FILE2_rub-journals_7273">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/7273/7937" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7273" DMDID="DMD_rub-journals_7273">
+            <mets:fptr FILEID="FILE0_rub-journals_7273"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_7273" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_7273"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART2_rub-journals_7273" LABEL="">
+                <mets:fptr FILEID="FILE2_rub-journals_7273"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

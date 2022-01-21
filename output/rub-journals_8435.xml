@@ -1,0 +1,59 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8435">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>How Tolerable is Cusa’s Tolerance? Revisiting Cusa’s Encounter with Islam</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Gottlöber, Susan</displayForm>
+                        <namePart type="family">Gottlöber</namePart>
+                        <namePart type="given">Susan</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2019-12-18</dateIssued>
+                    </originInfo>
+                    <abstract lang="eng">This paper will analyze Cusa’s approach to Islam as a test case regarding toleration. Firstly, we will establish toleration and its key components as tertium comparationis. Secondly, we will give a brief overview of Cusa’s main positions on Islam and (religious) diversity, including some shifts that occur within his sustained study of the Qur’an. Thirdly, we will apply the concept of toleration to some key points taken from two of Cusa’s works in which he engages in an imagined dialogue with Islam in order to identify his grounds for accepting, objecting to, and rejecting Islamic doctrines. We will argue that while Cusa’s irenic position and his concept of human nature remain constant principles regarding his toleration of Islam, Cusa’s application of the concept of rationabilitas plays a major role in shifting from tolerating to rejecting Islamic doctrines the more the latter are interpreted as heretical.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/er.8.2019.8435</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8435</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8435">
+                <mets:FLocat xlink:href="https://er.ceres.rub.de/index.php/ER/article/download/8435/7819" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="text/html" ID="FILE1_rub-journals_8435">
+                <mets:FLocat xlink:href="https://er.ceres.rub.de/index.php/ER/article/download/8435/7820" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8435" DMDID="DMD_rub-journals_8435">
+            <mets:fptr FILEID="FILE0_rub-journals_8435"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_8435" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_8435"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,94 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8789">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Secure, Accurate, and Practical Narrow-Band Ranging System</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Abidin, Aysajan</displayForm>
+                        <namePart type="family">Abidin</namePart>
+                        <namePart type="given">Aysajan</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>El Soussi, Mohieddine</displayForm>
+                        <namePart type="family">El Soussi</namePart>
+                        <namePart type="given">Mohieddine</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Romme, Jac</displayForm>
+                        <namePart type="family">Romme</namePart>
+                        <namePart type="given">Jac</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Boer, Pepijn</displayForm>
+                        <namePart type="family">Boer</namePart>
+                        <namePart type="given">Pepijn</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Singelée, Dave</displayForm>
+                        <namePart type="family">Singelée</namePart>
+                        <namePart type="given">Dave</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Bachmann, Christian</displayForm>
+                        <namePart type="family">Bachmann</namePart>
+                        <namePart type="given">Christian</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2021-02-23</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">30</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Relay attacks pose a serious security threat to wireless systems, such as, contactless payment systems, keyless entry systems, or smart access control systems. Distance bounding protocols, which allow an entity to not only authenticate another entity but also determine whether it is physically close by, effectively mitigate relay attacks. However, secure implementation of distance bounding protocols, especially of the time critical challenge-response phase, has been a challenging task. In this paper, we design and implement a secure and accurate distance bounding protocol based on Narrow-Band signals, such as Bluetooth Low Energy (BLE), to particularly mitigate relay attacks. Narrow-Band ranging, specifically, phase-based ranging, enables accurate distance measurement, but it is vulnerable to phase rollover attacks. In our solution, we mitigate phase rollover attacks by also measuring time-of-flight (ToF) to detect the delay introduced by such attacks. Therefore, our protocol effectively combines the best of both worlds: phase-based ranging for accuracy and time-of-flight (ToF) measurement for security. To demonstrate the feasibility and practicality of our solution, we prototype it on NXP KW36 BLE chips and evaluate its performance and relay attack resistance. The obtained precision and accuracy of the presented ranging solution are 2.5 cm and 30 cm, respectively, in wireless measurements.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.46586/tches.v2021.i2.106-135</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8789</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8789">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/8789/8389" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8789" DMDID="DMD_rub-journals_8789">
+            <mets:fptr FILEID="FILE0_rub-journals_8789"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,54 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_65">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <nonSort>The </nonSort>
+                        <title>hunt for the Damara IHaihab in 1903</title>
+                        <subTitle>Contemporary oral testimony</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Haacke, Wilfrid</displayForm>
+                        <namePart type="family">Haacke</namePart>
+                        <namePart type="given">Wilfrid</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2014-01-28</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">19</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">This paperpresents details pertaining to the assassination by hired Witbooi troopers of the Damara IHaihab IIGuruseb in 1903. IHaihab, also known as Blauberg or Blouperd in German parlance, the son of a Damara chief, was notorious as audacious robber. German troops were unable to eliminate him because of his evasive tactics. For that reason troopers were hired from the Nama chief, Hendrik Witbooi. Their eventual success in eliminating IHaihab was due solely to their knowledge of his shrewd tactics – a historical anecdote that has elevated IHaihab to legendary status among Damara, yet entirely absent from German archival records. The present paper correlates interviews with one of the hired troopers and his wife with archival evidence in the form of newspaper reports and the official military correspondence. The narratives of these more or less closely involved contemporary witnesses lend credibility to the popular anecdotal versions of IHaihab’s end. Next to furnishing details of the episode the paper attempts to show how oral accounts, once corroborated in essence by archival documentation, can provide pivotal information to facilitate the understanding of causalities and human interaction in historical events.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_65</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_65">
+                <mets:FLocat xlink:href="https://namibian-studies.com/index.php/JNS/article/download/65/40" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_65" DMDID="DMD_rub-journals_65">
+            <mets:fptr FILEID="FILE0_rub-journals_65"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

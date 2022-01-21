@@ -1,0 +1,60 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8774">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Lurching Towards a Canon</title>
+                        <subTitle>Mahāyāna Sūtras in Khotanese Garb</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Chen, Ruixuan</displayForm>
+                        <namePart type="family">Chen</namePart>
+                        <namePart type="given">Ruixuan</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2021-06-25</dateIssued>
+                    </originInfo>
+                    <abstract lang="eng">The concept of canon centers around authority. Assertions about canonicity both reflect and reshape the structure and the source of authority. In a Buddhist context, processes of canonization are highly fluid and complex, shedding light on the socio-religious landscapes of different Buddhist cultures. The present essay explores the complexities of canonization by focusing on a specific Buddhist culture on the ancient Silk Routes, where Mahāyāna sūtras, a collection of Buddhist literature of disputed authenticity in India, were accepted as scriptural and canonized in a remarkable manner. Through the lens of an indigenous Buddhist poem, the author argues that the reception and canonization of Mahāyāna sūtras give illuminating clues about a pivotal transition in the history of this Buddhist kingdom named Khotan, where both the removal and the bestowal of authority took place.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.46586/er.11.2020.8774</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8774</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8774">
+                <mets:FLocat xlink:href="https://er.ceres.rub.de/index.php/ER/article/download/8774/8381" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="text/html" ID="FILE1_rub-journals_8774">
+                <mets:FLocat xlink:href="https://er.ceres.rub.de/index.php/ER/article/download/8774/8382" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8774" DMDID="DMD_rub-journals_8774">
+            <mets:fptr FILEID="FILE0_rub-journals_8774"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_8774" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_8774"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

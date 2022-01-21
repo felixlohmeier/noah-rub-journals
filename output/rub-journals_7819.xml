@@ -1,0 +1,54 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7819">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <nonSort>Die </nonSort>
+                        <title>Proteste gegen Atomwaffen in der Bundesrepublik und Großbritannien, 1957-1964 - ein Vergleich zweier sozialer Bewegungen</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Nehring, Holger</displayForm>
+                        <namePart type="family">Nehring</namePart>
+                        <namePart type="given">Holger</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015-01-14</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">27</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">This article seeks to illuminate the connection between processes of social change and political protests by examining the British and West German protests against nuclear weapons in the late 1950s and early 1960s, the most important movements of their kind at the time. By using an approach which combines an awareness of social structures with a sensitivity to theuse of language, this article claims that protests and social change are not as clearly related as recent historical and sociological research has argued. While it does not dispute the &apos;modern&apos; character of the movements, the article highlights the importance of political and social traditions for the formation and maintenance of the movements. This is shown with respect to the ways in which the movements were organised, the social structure of the movements&apos; supporters, their relationship with the respective social-democratic party, and the forms of protest. These findings have implications for the debate on social change during the 1960s. They show, firstly, that these changes started earlier than previously assumed, often hidden by the traditional forms they took. Second, it suggests that the role social and political conditions played in the protests of the 1960s needs to be examined in more detail.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/mts.31.2004.81-107</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7819</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7819">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/7819/6991" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7819" DMDID="DMD_rub-journals_7819">
+            <mets:fptr FILEID="FILE0_rub-journals_7819"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

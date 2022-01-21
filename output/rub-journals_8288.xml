@@ -1,0 +1,78 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8288">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>New Insights to Key Derivation for Tamper-Evident Physical Unclonable Functions</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Immler, Vincent</displayForm>
+                        <namePart type="family">Immler</namePart>
+                        <namePart type="given">Vincent</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Uppund, Karthik</displayForm>
+                        <namePart type="family">Uppund</namePart>
+                        <namePart type="given">Karthik</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2019-05-09</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">36</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Several publications presented tamper-evident Physical Unclonable Functions (PUFs) for secure storage of cryptographic keys and tamper-detection. Unfortunately, previously published PUF-based key derivation schemes do not sufficiently take into account the specifics of the underlying application, i.e., an attacker that tampers with the physical parameters of the PUF outside of an idealized noise error model. This is a notable extension of existing schemes for PUF key derivation, as they are typically concerned about helper data leakage, i.e., by how much the PUF’s entropy is diminished when gaining access to its helper data.To address the specifics of tamper-evident PUFs, we formalize the aspect of tamper-sensitivity, thereby providing a new tool to rate by how much an attacker is allowed to tamper with the PUF. This complements existing criteria such as effective number of secret bits for entropy and failure rate for reliability. As a result, it provides a fair comparison among different schemes and independent of the PUF implementation, as its unit is based on the noise standard deviation of the underlying PUF measurement. To overcome the limitations of previous schemes, we then propose an Error-Correcting Code (ECC) based on the Lee metric, i.e., a distance metric well-suited to describe the distance between q-ary symbols as output from an equidistant quantization, i.e., a higher-order alphabet PUF. This novel approach is required, as the underlying symbols’ bits are not i.i.d. which hinders applying previous state-of-the-art approaches. We present the concept for our scheme and demonstrate its feasibility based on an empirical PUF distribution. The benefits of our approach are an increase by over 21% in effective secret bit compared to previous approaches based on equidistant quantization. At the same time, we improve tamper-sensitivity compared to an equiprobable quantization while ensuring similar reliability and entropy. Hence, this work opens up a new direction of how to interpret the PUF output and details a practically relevant scheme outperforming all previous constructions.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tches.v2019.i3.30-65</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8288</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8288">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/8288/7638" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_rub-journals_8288">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/8288/7859" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="" ID="FILE2_rub-journals_8288">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/8288/7860" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8288" DMDID="DMD_rub-journals_8288">
+            <mets:fptr FILEID="FILE0_rub-journals_8288"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_8288" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_8288"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART2_rub-journals_8288" LABEL="">
+                <mets:fptr FILEID="FILE2_rub-journals_8288"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

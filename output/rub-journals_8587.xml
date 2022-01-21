@@ -1,0 +1,95 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8587">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>JackHammer</title>
+                        <subTitle>Efficient Rowhammer on Heterogeneous FPGA-CPU Platforms</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Weissman, Zane</displayForm>
+                        <namePart type="family">Weissman</namePart>
+                        <namePart type="given">Zane</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Tiemann, Thore</displayForm>
+                        <namePart type="family">Tiemann</namePart>
+                        <namePart type="given">Thore</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Moghimi, Daniel</displayForm>
+                        <namePart type="family">Moghimi</namePart>
+                        <namePart type="given">Daniel</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Custodio, Evan</displayForm>
+                        <namePart type="family">Custodio</namePart>
+                        <namePart type="given">Evan</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Eisenbarth, Thomas</displayForm>
+                        <namePart type="family">Eisenbarth</namePart>
+                        <namePart type="given">Thomas</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Sunar, Berk</displayForm>
+                        <namePart type="family">Sunar</namePart>
+                        <namePart type="given">Berk</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020-06-19</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">27</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">After years of development, FPGAs are finally making an appearance on multi-tenant cloud servers. Heterogeneous FPGA-CPU microarchitectures require reassessment of common assumptions about isolation and security boundaries, as they introduce new attack vectors and vulnerabilities. In this work, we analyze the memory and cache subsystem and study Rowhammer and cache attacks enabled by two proposed heterogeneous FPGA-CPU platforms from Intel: the Arria 10 GX with an integrated FPGA-CPU platform, and the Arria 10 GX PAC expansion card which connects the FPGA to the CPU via the PCIe interface. We demonstrate JackHammer, a novel, efficient, and stealthy Rowhammer from the FPGA to the host’s main memory. Our results indicate that a malicious FPGA can perform twice as fast as a typical Rowhammer from the CPU on the same system and causes around four times as many bit flips as the CPU attack. We demonstrate the efficacy of JackHammer from the FPGA through a realistic fault attack on the WolfSSL RSA signing implementation that reliably causes a fault after an average of fifty-eight RSA signatures, 25% faster than a CPU Rowhammer. In some scenarios our JackHammer attack produces faulty signatures more than three times more often and almost three times faster than a conventional CPU Rowhammer. Finally, we systematically analyze new cache attacks in these environments following demonstration of a cache covert channel across FPGA and CPU.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tches.v2020.i3.169-195</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8587</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8587">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/8587/8154" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8587" DMDID="DMD_rub-journals_8587">
+            <mets:fptr FILEID="FILE0_rub-journals_8587"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

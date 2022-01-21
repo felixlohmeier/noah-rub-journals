@@ -1,0 +1,53 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7447">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>From Wyhl to Wall Street. Occupation and the Many Meanings of “Single-Issue” Protest</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Milder, Stephen</displayForm>
+                        <namePart type="family">Milder</namePart>
+                        <namePart type="given">Stephen</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2017-03-31</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">21</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">This article studies the mass protests that took place all around the globe in 2011 in order to reconsider scholars’ conclusions about the nature of protest since the 1970s. It challenges accounts that describe recent protest movements as overly self-referential by focusing on the protest tactic of occupation, perhaps the 2011 protests’ most self-evident commonality. The article shows how the tactic of occupation allows broad coalitions to develop around specific demands, and also the ways that disparate occupation protests are linked together across space, particularly in the imagination of their protagonists. As a result, it shows how occupations can serve as the basis for a new collective politics in an era when mass parties appear to be in decline. Using the 1975 occupation of the nuclear reactor construction site near the West German village of Wyhl as a model, the article looks closely at how occupations develop, the problems their diverse protagonists confront as they seek to work together, and their potential to help activists imagine alternative worlds. This case study reveals the importance of the “infrastructure of re-creation” that protesters build-up on occupied sites for coalition-building, for the broadening of protesters’ demands, and also for the expansion of activists’ sense of the possible. Paradoxically, I argue, it is precisely their fragmented nature that makes occupations so difficult to define, so open to people from different backgrounds, and thus so significant for the social totality.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/mts.56.2016.93-113</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7447</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7447">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/7447/6619" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7447" DMDID="DMD_rub-journals_7447">
+            <mets:fptr FILEID="FILE0_rub-journals_7447"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

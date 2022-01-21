@@ -1,0 +1,94 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_773">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Efficient Length Doubling From Tweakable Block Ciphers</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Chen, Yu Long</displayForm>
+                        <namePart type="family">Chen</namePart>
+                        <namePart type="given">Yu Long</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Luykx, Atul</displayForm>
+                        <namePart type="family">Luykx</namePart>
+                        <namePart type="given">Atul</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Mennink, Bart</displayForm>
+                        <namePart type="family">Mennink</namePart>
+                        <namePart type="given">Bart</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Preneel, Bart</displayForm>
+                        <namePart type="family">Preneel</namePart>
+                        <namePart type="given">Bart</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2017-09-19</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">18</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">We present a length doubler, LDT, that turns an n-bit tweakable block cipher into an efficient and secure cipher that can encrypt any bit string of length [n..2n − 1]. The LDT mode is simple, uses only two cryptographic primitive calls (while prior work needs at least four), and is a strong length-preserving pseudorandom permutation if the underlying tweakable block ciphers are strong tweakable pseudorandom permutations. We demonstrate that LDT can be used to neatly turn an authenticated encryption scheme for integral data into a mode for arbitrary-length data.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tosc.v2017.i3.253-270</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_773</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_773">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/773/731" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_rub-journals_773">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/773/7612" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="" ID="FILE2_rub-journals_773">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/773/7538" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_773" DMDID="DMD_rub-journals_773">
+            <mets:fptr FILEID="FILE0_rub-journals_773"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_773" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_773"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART2_rub-journals_773" LABEL="">
+                <mets:fptr FILEID="FILE2_rub-journals_773"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

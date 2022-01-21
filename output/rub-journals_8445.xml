@@ -1,0 +1,60 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8445">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Russian Orthodox Clergy and Laity Challenging Institutional Religious Authority Online</title>
+                        <subTitle>The Case of Ahilla.ru</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Staehle, Hanna</displayForm>
+                        <namePart type="family">Staehle</namePart>
+                        <namePart type="given">Hanna</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020-03-25</dateIssued>
+                    </originInfo>
+                    <abstract lang="eng">With the rise of new computer technologies, scholars of religion and media came to raise questions of how digital communication affects institutional forms of authority. In the digital realm, a number of alternative platforms emerged that empower religious communities to partake in the production of religious narratives outside organized religion. Ahilla.ru is a recent example of such an alternative place facilitated by digital technology. Founded by a former Russian Orthodox priest in February 2017, the website is a response to the politics and official rhetoric of Orthodox Church hierarchs who appeared ever more comfortable in conflating religion and politics and presenting themselves as the moral voice of the nation. Since his enthronement in 2009, Patriarch Kirill has centralized and hierarchized the Church, widening the gap between the episcopate and the low-level clergy and laity. Criticism of institutional religious authority that provides space for the articulation of alternative views of Orthodox faith and identity is at the core of Ahilla.ru. Ahilla.ru merits special attention, as it emerged not outside but within the Russian Orthodox Church and poses a challenge, via digital media space, to the dominant discourse articulated by Orthodox Church authorities and Russian mainstream media. This article seeks to answer the question of how online communication enhances media non-professionals to reflect upon their experiences within institutional religious settings and makes these experiences—previously unmediated and unknown—part of the media discourse.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/er.11.2020.8445</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8445</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8445">
+                <mets:FLocat xlink:href="https://er.ceres.rub.de/index.php/ER/article/download/8445/8122" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="text/html" ID="FILE1_rub-journals_8445">
+                <mets:FLocat xlink:href="https://er.ceres.rub.de/index.php/ER/article/download/8445/8123" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8445" DMDID="DMD_rub-journals_8445">
+            <mets:fptr FILEID="FILE0_rub-journals_8445"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_8445" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_8445"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

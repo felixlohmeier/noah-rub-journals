@@ -1,0 +1,53 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7745">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Gegen alles Front machen, was der Demokratie gefährlich werden kann. Ludwig Rosenberg und die Verarbeitung des Nationalsozialismus</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Ahland, Frank</displayForm>
+                        <namePart type="family">Ahland</namePart>
+                        <namePart type="given">Frank</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015-01-14</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">13</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Driven by the idea of a future democratic socialist Germany, Ludwig Rosenberg (1903–1977), forced into exile in Britain by the National Socialists and later to become chairman of the German Federation of Trade Unions, returns in June 1945 to his destroyed homeland. On the basis of his experience of a functioning democracy and a strong institutionalised worker’s movement gained in exile, he wants to investigate the possibilities of establishing a German equivalent of the Workers’ Educational Association. After six months in post-war Germany, Rosenberg, who lost part of his family to the Nazis, realises that the Nazis were far less successful in instilling their ideology in the minds of the German people than leaving behind a moral indifference and complete ignorance.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/mts.35.2006.45-57</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7745</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7745">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/7745/6917" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7745" DMDID="DMD_rub-journals_7745">
+            <mets:fptr FILEID="FILE0_rub-journals_7745"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

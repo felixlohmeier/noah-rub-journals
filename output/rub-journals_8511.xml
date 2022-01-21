@@ -1,0 +1,52 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8511">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>In Memoriam</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>-, Editors</displayForm>
+                        <namePart type="family">-</namePart>
+                        <namePart type="given">Editors</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020-02-26</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">6</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">• Anatolii Avrus (1930–2017)• Samuel H. Baron (1921–2017)• Bernd Bonwetsch (1940–2017)• Carter Elwood (1934–2018)• Maria Ferretti (1958–2018)• Hans Hautmann (1941–2018)• Narihiko Ito (1931–2017)• Annelies Laschitza (1934–2018)• André Mommen (1945–2017)• Aleksandra Novozhenova (1982–2019)• Bill Pelz (1951–2017)• Arsenii Roginskii (1946–2017)• Alfred Erich Senn (1932–2016)• Claudie Weill (1945–2018)• Larissa Zakharova (1977–2019)• Jürgen Zarusky (1958–2019)</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8511</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8511">
+                <mets:FLocat xlink:href="https://incs.ub.rub.de/index.php/INCS/article/download/8511/8077" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8511" DMDID="DMD_rub-journals_8511">
+            <mets:fptr FILEID="FILE0_rub-journals_8511"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,54 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7619">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <nonSort>The </nonSort>
+                        <title>social history of the Soča/Isonzo region in the First World War</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Svoljšak, Petra</displayForm>
+                        <namePart type="family">Svoljšak</namePart>
+                        <namePart type="given">Petra</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015-01-24</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">21</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">The Great War touched almost every Slovene family. Its outbreak in August 1914 called about 30.000 men from the Slovene lands to Austro-Hungarian arms; during the whole period of the war about 160.000 Slovene men were mobilized, and about 35.000 of them died for “God, the Fatherland, and the Emperor”. The Austrian military reports describe them as brave and loyal soldiers. In May 1915, Italy entered the war on the side of the Entente, after long negotiations that were concluded with the secret Pact of London in April 1915. The western margin of the Slovene ethnic territory became a part of the frontline between Austria-Hungary and Italy. This new battlefield affected the lives both of the population in the immediate war zone and of the people living further inland. Everywhere civil life was subjected to military laws, and the so-called war absolutism became even more rigorous. The Austro-Hungarian authorities ordered the complete evacuation of the villages along the frontline; 80.000 Slovene refugees were transported inland. While 50.000 of them could stay in Carniola and Styria, the rest was disseminated in refugee camps all over the Empire. The territory east to the frontline was occupied by the Italian army. The Italian authorities also ordered an immediate evacuation of 12.000 Slovenes, and had them transported to Italian towns. Italian was introduced as the official language – school lessons, personal names, surnames, the names of rivers, villages and mountains were turned into Italian. On the other hand, the authorities tried to assist the population with medical care, social subsidies, and regular provision supplies. Yet these measures only concealed the aim of gradually introducing the people to the planned annexation to the Kingdom of Italy. The 12th Soča offensive in October 1917, with the severe defeat of the Italian army near Kobarid/Caporetto, interrupted such endeavors for a year. Afterwards, the then victorious Italian army reoccupied the region, and for a much longer time.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/mts.41.2009.89-109</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7619</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7619">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/7619/6791" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7619" DMDID="DMD_rub-journals_7619">
+            <mets:fptr FILEID="FILE0_rub-journals_7619"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,52 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_136">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Township tourism and the political spaces of Katutura</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Suzan Ilcan, Laura Connoy;</displayForm>
+                        <namePart type="family">Suzan Ilcan</namePart>
+                        <namePart type="given">Laura Connoy;</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2014-06-10</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">22</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Contemporary postcolonial Namibia is experiencing an extension of the logic of camp biopolitics that stems from its colonial era. In this paper, the authors suggest that tourism is the conduit for this kind of development which takes on different contemporary forms in postcolonial configurations of biopolitics. In Namibia’s township of Katutura, the marginalised poor are subject to mechanisms of camp biopolitics that supplement Agamben’s conceptu­alisation of bare life. However, Agamben’s approach to biopolitics ahistoricises and depoliticises space in ways that obfuscate the presence of a political subject. The article first introduces a framework of colonialism, camp biopolitics, and tourism which is then followed by an analysis of the practice of township tourism, particularly in Katutura. The next section reveals Katutura as a political space made up of active subjects who engage in various contestations.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_136</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_136">
+                <mets:FLocat xlink:href="https://namibian-studies.com/index.php/JNS/article/download/136/101" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_136" DMDID="DMD_rub-journals_136">
+            <mets:fptr FILEID="FILE0_rub-journals_136"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

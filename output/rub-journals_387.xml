@@ -1,0 +1,61 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_387">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Analysis of the cutting process for milling of marble and sandstone with an end mill cutter</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Uhlmann, Eckart</displayForm>
+                        <namePart type="family">Uhlmann</namePart>
+                        <namePart type="given">Eckart</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Manthei, Marcel</displayForm>
+                        <namePart type="family">Manthei</namePart>
+                        <namePart type="given">Marcel</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015-11-25</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">7</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Research has shown that it is possible to machine natural stone materials using endmill cutters with geometrically defined cutting edges as they are used in metal cuttingprocesses. The milling process can be used as an energy efficient alternative to thewell-known grinding processes. A study of Fraunhofer IPK investigates the cuttingprocess for Postaer Sandstone and Carrara Marble using an end mill cutter. A highspeed video camera was used in order to analyze the cutting process. The producedstone particles (“chips”) were sorted according to their size distribution and theresulting surface roughness was measured in order to identify possible influences ofdifferent cutting parameters. For the study, the depth of cut ap, the feed per tooth fzand the cutting speed vc were varied. For the influence on the surface roughness,results show that all three parameters have a significant influence when machiningmarble. For the machining of sandstone, no significant influence has been identified.The distribution of sandstone particles after the milling process is independent fromthe cutting parameters as well, only the depth of cut shows an influence for marble.The high speed videography of the cutting process shows obvious differencesbetween the two investigated natural stone materials. The chip formation for CarraraMarble is a rather continuous process whereas for sandstone the cutting process israther random and can hardly be influenced by altering the process parameters.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/icscm.3.2015.54-60</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_387</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_387">
+                <mets:FLocat xlink:href="https://icscm.ub.rub.de/index.php/ICSCM/article/download/387/344" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_387" DMDID="DMD_rub-journals_387">
+            <mets:fptr FILEID="FILE0_rub-journals_387"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

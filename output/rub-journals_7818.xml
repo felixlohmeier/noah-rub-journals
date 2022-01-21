@@ -1,0 +1,54 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7818">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Bundesdeutsche Jugendkulturen zwischen Milieu und Lebensstil</title>
+                        <subTitle>Forschungsstand und Forschungsperspektiven</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Großbölting, Thomas</displayForm>
+                        <namePart type="family">Großbölting</namePart>
+                        <namePart type="given">Thomas</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015-01-14</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">22</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">The 1960s and 1970s were decades of rapid social and cultural change. Many contemporaries considered the generation gap to be the cause of &apos;1968&apos; and the flash point of this development. Historians cast doubt on the idea of the student movement as a &apos;revolution&apos; and the notion of the young generation as its mainspring.The contribution presented here aims to analyse more deeply the roots and the consequences of this fundamental change in almost every part of society: According to sociological considerations and studies the history of young people and its shifts after the Second World War offers avantage point for further research. In many respects during the 1950s public adolescent life was dominated by adult interventions and rules. Not until the last years of the Fifties young people started to create and to identify with (sub)cultural movements, new mental attitudes and varied lifestyles that, on the long run, influenced the whole society. The correlation is demonstrated by the example of catholic and socialist youth organizations and its development in the 1960s and 1970s.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/mts.31.2004.59-80</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7818</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7818">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/7818/6990" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7818" DMDID="DMD_rub-journals_7818">
+            <mets:fptr FILEID="FILE0_rub-journals_7818"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,70 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_9060">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Structural Attack (and Repair) of Diffused-Input-Blocked-Output White-Box Cryptography</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Carlet, Claude</displayForm>
+                        <namePart type="family">Carlet</namePart>
+                        <namePart type="given">Claude</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Guilley, Sylvain</displayForm>
+                        <namePart type="family">Guilley</namePart>
+                        <namePart type="given">Sylvain</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Mesnager, Sihem</displayForm>
+                        <namePart type="family">Mesnager</namePart>
+                        <namePart type="given">Sihem</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2021-08-11</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">31</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">In some practical enciphering frameworks, operational constraints may require that a secret key be embedded into the cryptographic algorithm. Such implementations are referred to as White-Box Cryptography (WBC). One technique consists of the algorithm’s tabulation specialized for its key, followed by obfuscating the resulting tables. The obfuscation consists of the application of invertible diffusion and confusion layers at the interface between tables so that the analysis of input/output does not provide exploitable information about the concealed key material.Several such protections have been proposed in the past and already cryptanalyzed thanks to a complete WBC scheme analysis. In this article, we study a particular pattern for local protection (which can be leveraged for robust WBC); we formalize it as DIBO (for Diffused-Input-Blocked-Output). This notion has been explored (albeit without having been nicknamed DIBO) in previous works. However, we notice that guidelines to adequately select the invertible diffusion ∅and the blocked bijections B were missing. Therefore, all choices for ∅ and B were assumed as suitable. Actually, we show that most configurations can be attacked, and we even give mathematical proof for the attack. The cryptanalysis tool is the number of zeros in a Walsh-Hadamard spectrum. This “spectral distinguisher” improves on top of the previously known one (Sasdrich, Moradi, Güneysu, at FSE 2016). However, we show that such an attack does not work always (even if it works most of the time).Therefore, on the defense side, we give a straightforward rationale for the WBC implementations to be secure against such spectral attacks: the random diffusion part ∅ shall be selected such that the rank of each restriction to bytes is full. In AES’s case, this seldom happens if ∅ is selected at random as a linear bijection of F322. Thus, specific care shall be taken. Notice that the entropy of the resulting ∅ (suitable for WBC against spectral attacks) is still sufficient to design acceptable WBC schemes.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.46586/tches.v2021.i4.57-87</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_9060</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_9060">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/9060/8647" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_9060" DMDID="DMD_rub-journals_9060">
+            <mets:fptr FILEID="FILE0_rub-journals_9060"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

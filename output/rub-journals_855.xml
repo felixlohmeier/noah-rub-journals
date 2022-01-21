@@ -1,0 +1,111 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_855">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Farfalle</title>
+                        <subTitle>parallel permutation-based cryptography</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Bertoni, Guido</displayForm>
+                        <namePart type="family">Bertoni</namePart>
+                        <namePart type="given">Guido</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Daemen, Joan</displayForm>
+                        <namePart type="family">Daemen</namePart>
+                        <namePart type="given">Joan</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Hoffert, Seth</displayForm>
+                        <namePart type="family">Hoffert</namePart>
+                        <namePart type="given">Seth</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Peeters, Michaël</displayForm>
+                        <namePart type="family">Peeters</namePart>
+                        <namePart type="given">Michaël</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Van Assche, Gilles</displayForm>
+                        <namePart type="family">Van Assche</namePart>
+                        <namePart type="given">Gilles</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Van Keer, Ronny</displayForm>
+                        <namePart type="family">Van Keer</namePart>
+                        <namePart type="given">Ronny</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2017-12-15</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">38</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">In this paper, we introduce Farfalle, a new permutation-based construction for building a pseudorandom function (PRF). The PRF takes as input a key and a sequence of arbitrary-length data strings, and returns an arbitrary-length output. It has a compression layer and an expansion layer, each involving the parallel application of a permutation. The construction also makes use of LFSR-like rolling functions for generating input and output masks and for updating the inner state during expansion. On top of the inherent parallelism, Farfalle instances can be very efficient because the construction imposes less requirements on the underlying primitive than, e.g., the duplex construction or typical block cipher modes. Farfalle has an incremental property: compression of common prefixes of inputs can be factored out. Thanks to its input-output characteristics, Farfalle is really versatile. We specify simple modes on top of it for authentication, encryption and authenticated encryption, as well as a wide block cipher mode. As a showcase, we present Kravatte, a very efficient instance of Farfalle based on Keccak-p[1600, nr] permutations and formulate concrete security claims against classical and quantum adversaries. The permutations in the compression and expansion layers of Kravatte have only 6 rounds apiece and the rolling functions are lightweight. We provide a rationale for our choices and report on software performance.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tosc.v2017.i4.1-38</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_855</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_855">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/855/807" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_rub-journals_855">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/855/7599" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="" ID="FILE2_rub-journals_855">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/855/7506" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_855" DMDID="DMD_rub-journals_855">
+            <mets:fptr FILEID="FILE0_rub-journals_855"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_855" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_855"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART2_rub-journals_855" LABEL="">
+                <mets:fptr FILEID="FILE2_rub-journals_855"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

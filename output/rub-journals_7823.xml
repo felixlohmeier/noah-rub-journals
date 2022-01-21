@@ -1,0 +1,53 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7823">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Mythos oder Realität? Demokratische Legitimität und die Formierung der europäischen Zivilgesellschaft seit 1945</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Mittag, Jürgen</displayForm>
+                        <namePart type="family">Mittag</namePart>
+                        <namePart type="given">Jürgen</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015-01-19</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">37</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">In the history of the European Union, a gradual shift from national responsibilities to the European level can be observed: Due to the overall dynamics of the EU system, instruments and competences for actions have been transferred from the national capitals to &apos;Brussels&apos;. In particular since &apos;Maastricht&apos;, this development has provoked a reinforced debate on democratic governance and public support for the European Union, raising the question whether or not the EU has a &apos;democratic deficit&apos;. A democratic deficit can either be explained by the institutional arrangements and especially the limits of the European Parliament as a full fledged parliament. Or it might be described wirh the lack of a European civil society serving as a communicaror between the EU and its national societies. Following this second approach, the article analyses - after having revealed the concept of civil society - several stages of public participation in the European Integration history, covering the integration process from the late 1940s up to the Laeken declaration and the European Convention in 2002/03. It scrutinizes in particular in how far the formation of a European civil society can be observed and discusses along the lines of public support if democratic legitimacy could be ensured by civil society actors.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/mts.31.2004.179-215</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7823</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7823">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/7823/6995" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7823" DMDID="DMD_rub-journals_7823">
+            <mets:fptr FILEID="FILE0_rub-journals_7823"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

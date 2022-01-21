@@ -1,0 +1,52 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_361">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Presentations and Announcements</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Authors, Various</displayForm>
+                        <namePart type="family">Authors</namePart>
+                        <namePart type="given">Various</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2010-07-20</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">12</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">• Vadim V. Damier: Anarcho-Syndicalism in the 20th Century. Translated from Russian by Malcolm Archibald, Edmonton, Black Cat Press, 2009. VI, 233 p. • Stefan Karner, Barbara Stelzl-Marx (eds.): Stalins letzte Opfer. Verschleppte und erschossene Österreicher in Moskau 1950-1953. Unter Mitartbeit von Daniela Almer, Wien-München, Böhlau, Oldenbourg, 2009. 676 p. (Kriegsfolgen-Forschung. 5).• Sobhanlal Datta Gupta (ed.): The Ryutin Platform. Stalin and the Crisis of Proletarian Dictatorship. Platform of the “Union of Marxists-Leninists”. Translated by Pranab Ghosh and Susmita Bhattacharya from the original Russian, Kolkata, Seribaan, 2010. 152 p. • Sonia Combe (ed.), in cooperation with Paul Gradvohl, Charles Kecskeméti, Antoine Marès and Jean-Charles Szurek: Archives et histoire dans les sociétés post-communistes, Paris, La Découverte, 2009. 332 p. (Collection Recherches). • Łukasz Kamiński, Krzysztof Persak, Jens Gieseke (eds.): Handbuch der kommunistischen Geheimdienste in Osteuropa 1944-1991, Göttingen, Vandenhoeck &amp;amp; Ruprecht, 2008. 420 p. (Wissenschaftliche Reihe der BStU. 33).• John Earl Haynes, Harvey Klehr, Alexander Vassiliev: Spies. The Rise and Fall of the KGB in America, New Haven, Yale University Press, 2009. LIII, 650 p. • Peter Huber, Ralph Hug (eds.): Die Schweizer Spanienfreiwilligen. Biografisches Handbuch, Zürich, Rotpunktverlag, 2009. 478 p.• Alexander Rabinowitch: Die Sowjetmacht. Das erste Jahr, Essen, Mehring Verlag, 2010.• Grigorij Grigorov: Povoroty sud&apos;by i proizvol. Vospominanija. 1905-1927 gody, Moskva, OGI, 2005. 536 p. (Častnyj archiv); Grigorij Grigorov: Povoroty sud’by I proizvol. Vospominanija. 1927-1972, [Akko, Israel], s.p., [2008]. 682 p.• David Lee McMullen: Strike! The Radical Insurrections of Ellen Dawson. Foreword by Richard Greenwald and Timothy Minchin, Gainesville, University Press of Florida, 2010. 264 p.• Xavier Botterman: Histoire du mouvement communiste à Verviers. 1919-1940. Avantpropos de Milou Rikir, Bruxelles, CARCOB, 2009. 193 p. (Travaux historiques. 3). • Manuel Bueno Lluch, Sergio Gálvez Biesca (eds.): Nosotros los comunistas. Memoria, identidad e historia social, Madrid-Sevilla, Fundación de Investigaciones Marxistas, Atrapasueños, 2009. 457 p. (FIM historia).</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_361</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_361">
+                <mets:FLocat xlink:href="https://incs.ub.rub.de/index.php/INCS/article/download/361/319" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_361" DMDID="DMD_rub-journals_361">
+            <mets:fptr FILEID="FILE0_rub-journals_361"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

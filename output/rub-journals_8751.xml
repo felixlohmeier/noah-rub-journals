@@ -1,0 +1,78 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8751">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Cryptanalysis of LowMC instances using single plaintext/ciphertext pair</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Banik, Subhadeep</displayForm>
+                        <namePart type="family">Banik</namePart>
+                        <namePart type="given">Subhadeep</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Barooti, Khashayar</displayForm>
+                        <namePart type="family">Barooti</namePart>
+                        <namePart type="given">Khashayar</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Durak, F. Betül</displayForm>
+                        <namePart type="family">Durak</namePart>
+                        <namePart type="given">F. Betül</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Vaudenay, Serge</displayForm>
+                        <namePart type="family">Vaudenay</namePart>
+                        <namePart type="given">Serge</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020-12-10</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">17</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Arguably one of the main applications of the LowMC family ciphers is in the post-quantum signature scheme PICNIC. Although LowMC family ciphers have been studied from a cryptanalytic point of view before, none of these studies were directly concerned with the actual use case of this cipher in PICNIC signature scheme. Due to the design paradigm of PICNIC, an adversary trying to perform a forgery attack on the signature scheme instantiated with LowMC would have access to only a single given plaintext/ciphertext pair, i.e. an adversary would only be able to perform attacks with data complexity 1 in a known-plaintext attack scenario. This restriction makes it impossible to employ classical cryptanalysis methodologies such as differential and linear cryptanalysis. In this paper we introduce two key-recovery attacks, both in known-plaintext model and of data complexity 1 for two variants of LowMC, both instances of the LowMC cryptanalysis challenge.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.46586/tosc.v2020.i4.130-146</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8751</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8751">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/8751/8349" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8751" DMDID="DMD_rub-journals_8751">
+            <mets:fptr FILEID="FILE0_rub-journals_8751"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

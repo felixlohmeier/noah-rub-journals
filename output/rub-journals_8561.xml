@@ -1,0 +1,62 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8561">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Combiners for AEAD</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Poettering, Bertram</displayForm>
+                        <namePart type="family">Poettering</namePart>
+                        <namePart type="given">Bertram</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Rösler, Paul</displayForm>
+                        <namePart type="family">Rösler</namePart>
+                        <namePart type="given">Paul</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020-05-07</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">23</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">The Authenticated Encryption with Associated Data (AEAD) primitive, which integrates confidentiality and integrity services under a single roof, found wide-spread adoption in industry and became indispensable in practical protocol design. Recognizing this, academic research put forward a large number of candidate constructions, many of which come with provable security guarantees. Nevertheless, the recent past has shaken up with the discovery of vulnerabilities, some of them fatal, in well-regarded schemes, stemming from weak underlying primitives, flawed security arguments, implementation-level vulnerabilities, and so on. Simply reacting to such findings by replacing broken candidates by better(?) ones is in many cases unduly, costly, and sometimes just impossible. On the other hand, as attack techniques and opportunities change over time, it seems venturous to propose any specific scheme if the intended lifetime of its application is, say, twenty years.In this work we study a workable approach towards increasing the resilience against unforeseen breaks of AEAD primitives. Precisely, we consider the ability to combine two AEAD schemes into one such that the resulting AEAD scheme is secure as long as at least one of its components is (or: as long as at most one component is broken). We propose a series of such combiners, some of which work with fully generic AEAD components while others assume specific internal structures of the latter (like an encrypt-then-MAC design). We complement our results by proving the optimality of our constructions by showing the impossibility of combiners that get along with less invocations of the component algorithms.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tosc.v2020.i1.121-143</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8561</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8561">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/8561/8132" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8561" DMDID="DMD_rub-journals_8561">
+            <mets:fptr FILEID="FILE0_rub-journals_8561"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,86 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8296">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Software Toolkit for HFE-based Multivariate Schemes</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Faugère, Jean-Charles</displayForm>
+                        <namePart type="family">Faugère</namePart>
+                        <namePart type="given">Jean-Charles</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Perret, Ludovic</displayForm>
+                        <namePart type="family">Perret</namePart>
+                        <namePart type="given">Ludovic</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Ryckeghem, Jocelyn</displayForm>
+                        <namePart type="family">Ryckeghem</namePart>
+                        <namePart type="given">Jocelyn</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2019-05-09</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">48</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">In 2017, NIST shook the cryptographic world by starting a process for standardizing post-quantum cryptography. Sixty-four submissions have been considered for the first round of the on-going NIST Post-Quantum Cryptography (PQC) process. Multivariate cryptography is a classical post-quantum candidate that turns to be the most represented in the signature category. At this stage of the process, it is of primary importance to investigate efficient implementations of the candidates. This article presents MQsoft, an efficient library which permits to implement HFE-based multivariate schemes submitted to the NIST PQC process such as GeMSS, Gui and DualModeMS. The library is implemented in C targeting Intel 64-bit processors and using avx2 set instructions. We present performance results for our library and its application to GeMSS, Gui and DualModeMS. In particular, we optimize several crucial parts for these schemes. These include root finding for HFE polynomials and evaluation of multivariate quadratic systems in F2. We propose a new method which accelerates root finding for specific HFE polynomials by a factor of two. For GeMSS and Gui, we obtain a speed-up of a factor between 2 and 19 for the keypair generation, between 1.2 and 2.5 for the signature generation, and between 1.6 and 2 for the verifying process. We have also improved the arithmetic in F2n by a factor of 4 compared to the NTL library. Moreover, a large part of our implementation is protected against timing attacks.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tches.v2019.i3.257-304</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8296</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8296">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/8296/7646" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_rub-journals_8296">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/8296/7875" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="" ID="FILE2_rub-journals_8296">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/8296/7876" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8296" DMDID="DMD_rub-journals_8296">
+            <mets:fptr FILEID="FILE0_rub-journals_8296"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_8296" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_8296"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART2_rub-journals_8296" LABEL="">
+                <mets:fptr FILEID="FILE2_rub-journals_8296"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

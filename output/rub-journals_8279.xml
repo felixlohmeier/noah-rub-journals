@@ -1,0 +1,64 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8279">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <nonSort>A </nonSort>
+                        <title>Muslim Holy Man to Convert Christians in a Transottoman Setting</title>
+                        <subTitle>Approaches to Sarı Saltuk from the Late Middle Ages to the Present</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Rohdewald, Stefan</displayForm>
+                        <namePart type="family">Rohdewald</namePart>
+                        <namePart type="given">Stefan</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2019-04-30</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">22</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Interpretations of texts on Sarı Saltuk may serve as a central example of the entanglement&amp;nbsp;of Muslim and Christian contexts in (south-)eastern Europe and the Near East. Analyzing the fifteenth-century&amp;nbsp;Saltuk-nâme and reports by Evliya Çelebi from the seventeenth century, a wide extension of the&amp;nbsp;area concerned, as far as Poland-Lithuania, Muscovy and Sweden, can be observed. With the change of&amp;nbsp;the contents of reports from the nineteenth and twentieth centuries, an increasing interest in Christians&amp;nbsp;participating in the veneration of sites connected to Sarı Saltuk can be remarked. Yet descriptions&amp;nbsp;of a veneration of Sarı S altuk in a non-Muslim setting r emain firmly embedded in Christian contexts,&amp;nbsp;complicating a transreligious interpretation of them. In today’s Turkish perspective, though, Sarı Saltuk is&amp;nbsp;no longer contextualized in a manner encompassing Russia and Poland, too, but much more in a context&amp;nbsp;focusing on and affirming national Turkish Anatolian or nationalized post-Ottoman contents in the Balkans.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/er.v9.2019.57-78</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8279</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8279">
+                <mets:FLocat xlink:href="https://er.ceres.rub.de/index.php/ER/article/download/8279/7630" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="text/html" ID="FILE1_rub-journals_8279">
+                <mets:FLocat xlink:href="https://er.ceres.rub.de/index.php/ER/article/download/8279/8278" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8279" DMDID="DMD_rub-journals_8279">
+            <mets:fptr FILEID="FILE0_rub-journals_8279"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_8279" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_8279"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

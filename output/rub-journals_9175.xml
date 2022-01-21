@@ -1,0 +1,70 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_9175">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Improved Preimage Attacks on 3-Round Keccak-224/256</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Lin, Xiaoen</displayForm>
+                        <namePart type="family">Lin</namePart>
+                        <namePart type="given">Xiaoen</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>He, Le</displayForm>
+                        <namePart type="family">He</namePart>
+                        <namePart type="given">Le</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Yu, Hongbo</displayForm>
+                        <namePart type="family">Yu</namePart>
+                        <namePart type="given">Hongbo</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2021-09-17</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">18</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">In this paper, we provide an improved method on preimage attacks of standard 3-round Keccak-224/256. Our method is based on the work by Li and Sun. Their strategy is to find a 2-block preimage instead of a 1-block one by constructing the first and second message blocks in two stages. Under this strategy, they design a new linear structure for 2-round Keccak-224/256 with 194 degrees of freedom left, which is able to construct the second message block with a complexity of 231/262. However, the bottleneck of this strategy is that the first stage needs much more expense than the second one. Therefore, we improve the first stage by using two techniques. The first technique is constructing multi-block messages rather than one-block message in the first stage, which can reach a better inner state. The second technique is setting restricting equations more efficiently, which can work in 3-round Keccak-256. As a result, the complexity of finding a preimage for 3-round Keccak-224/256 can be decreased from 238/281 to 232/265.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.46586/tosc.v2021.i3.84-101</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_9175</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_9175">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/9175/8713" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_9175" DMDID="DMD_rub-journals_9175">
+            <mets:fptr FILEID="FILE0_rub-journals_9175"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

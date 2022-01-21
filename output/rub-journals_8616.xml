@@ -1,0 +1,79 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8616">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Dumbo, Jumbo, and Delirium</title>
+                        <subTitle>Parallel Authenticated Encryption for the Lightweight Circus</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Beyne, Tim</displayForm>
+                        <namePart type="family">Beyne</namePart>
+                        <namePart type="given">Tim</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Chen, Yu Long</displayForm>
+                        <namePart type="family">Chen</namePart>
+                        <namePart type="given">Yu Long</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Dobraunig, Christoph</displayForm>
+                        <namePart type="family">Dobraunig</namePart>
+                        <namePart type="given">Christoph</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Mennink, Bart</displayForm>
+                        <namePart type="family">Mennink</namePart>
+                        <namePart type="given">Bart</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020-06-22</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">26</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">With the trend to connect more and more devices to the Internet, authenticated encryption has become a major backbone in securing the communication, not only between these devices and servers, but also the direct communication among these devices. Most authenticated encryption algorithms used in practice are developed to perform well on modern high-end devices, but are not necessarily suited for usage on resource-constrained devices. We present a lightweight authenticated encryption scheme, called Elephant. Elephant retains the advantages of GCM such as parallelism, but is tailored to the needs of resource-constrained devices. The two smallest instances of Elephant, Dumbo and Jumbo, are based on the 160-bit and 176-bit Spongent permutation, respectively, and are particularly suited for hardware; the largest instance of Elephant, Delirium, is based on 200-bit Keccak and is developed towards software use. All three instances are parallelizable, have a small state size while achieving a high level of security, and are constant time by design.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tosc.v2020.iS1.5-30</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8616</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8616">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/8616/8182" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8616" DMDID="DMD_rub-journals_8616">
+            <mets:fptr FILEID="FILE0_rub-journals_8616"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

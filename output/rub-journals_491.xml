@@ -1,0 +1,52 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_491">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Foreign policy-making for a pre-independent Namibia and the subsequent results</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Mushelenga, Peya</displayForm>
+                        <namePart type="family">Mushelenga</namePart>
+                        <namePart type="given">Peya</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2016-06-10</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">26</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">This paper presents an account of Namibia’s diplomatic historiography and foreign policy actions. It refers to early Namibian diplomatic initiatives at the United Nations by emissaries of the Herero Chief’s Council and organisations such as the Ovambo People’s Congress (OPC), Ovambo People’s Organisation (OPO), South West Africa National Union (SWANU) and South West Africa People’s Organisation (SWAPO). Namibian diplomacy enjoyed considerable success, from the chiefs’ humble initiatives to the more accomplished diplomacy of the nationalist movements. Supported by countries from the East Bloc of the Cold War world divide SWAPO emerged as a major player in pre-independence Namibian foreign policy. It established links with a number of countries and international organisations such as the United Nations (UN), Organisation of African Unity (AU) and the Non-Aligned Movement (NAM). These organisations and other inter-governmental bodies including the Western Contact Group (WCG), the Frontline States (FLS) and Nigeria played significant roles in the diplomatic negotiations for Namibia’s independence. Following independence the Namibian government adopted foreign policies based on the foundation laid by SWAPO and embraced new friends.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_491</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_491">
+                <mets:FLocat xlink:href="https://namibian-studies.com/index.php/JNS/article/download/491/442" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_491" DMDID="DMD_rub-journals_491">
+            <mets:fptr FILEID="FILE0_rub-journals_491"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

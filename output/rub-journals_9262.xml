@@ -1,0 +1,67 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_9262">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>(PREPRINT) Pandemic and Pentecostalism in Brazil</title>
+                        <subTitle>Religion, Politics, and Sanitary Measures in Dispute</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Côrtes, Mariana</displayForm>
+                        <namePart type="family">Côrtes</namePart>
+                        <namePart type="given">Mariana</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Moraes Teixeira, Jacqueline</displayForm>
+                        <namePart type="family">Moraes Teixeira</namePart>
+                        <namePart type="given">Jacqueline</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2021-10-18</dateIssued>
+                    </originInfo>
+                    <abstract lang="eng">Brazil has faced a health, economic, and political crisis related to the Covid 19 pandemic since mid-March 2020. From that period onwards an opposition towards governmental initiatives for closing trade, industry, churches and services broke out in several states, initiating a public debate on the effectiveness of social isolation in dealing with the pandemic. Since the beginning of the pandemic, evangelical churches, the second largest religious group in the country, have raised numerous controversies over their political alliance with the government of President Jair Bolsonaro, in opposition to the sanitary measures of social distance and closing of religious temples; calling for the recognition of religions as “essential services” by the State. Such controversies became even more acute when Bolsonaro began to openly defend the use of chloroquine in the prophylactic treatment of Covid-19, denouncing social isolation measures as part of a plot against his government. This article is an analysis of the intersections between religion, politics, and health, presenting public positions of pastors, bishops, and other Pentecostal leaders regarding the policies dealing with the epidemic. More than classifying these conducts simply as forms of denial of science, we see here the case of religious incursion into the academic field and an appropriation of the scientific vocabulary with the attempt to usurp the legitimate discourse. When thinking about how the circulation of this knowledge is entangled with political and religious debates, our final objective is to analyze how such processes reinterpret the relationship between religion and science, as well as the relationship between religion and the Nation State.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_9262</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_9262">
+                <mets:FLocat xlink:href="https://er.ceres.rub.de/index.php/ER/article/download/9262/8800" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="text/html" ID="FILE1_rub-journals_9262">
+                <mets:FLocat xlink:href="https://er.ceres.rub.de/index.php/ER/article/download/9262/8801" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_9262" DMDID="DMD_rub-journals_9262">
+            <mets:fptr FILEID="FILE0_rub-journals_9262"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_9262" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_9262"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

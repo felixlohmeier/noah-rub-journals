@@ -1,0 +1,95 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8624">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>ESTATE</title>
+                        <subTitle>A Lightweight and Low Energy Authenticated Encryption Mode</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Chakraborti, Avik</displayForm>
+                        <namePart type="family">Chakraborti</namePart>
+                        <namePart type="given">Avik</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Datta, Nilanjan</displayForm>
+                        <namePart type="family">Datta</namePart>
+                        <namePart type="given">Nilanjan</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Jha, Ashwin</displayForm>
+                        <namePart type="family">Jha</namePart>
+                        <namePart type="given">Ashwin</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Mancillas-López, Cuauhtemoc</displayForm>
+                        <namePart type="family">Mancillas-López</namePart>
+                        <namePart type="given">Cuauhtemoc</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Nandi, Mridul</displayForm>
+                        <namePart type="family">Nandi</namePart>
+                        <namePart type="given">Mridul</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Sasaki, Yu</displayForm>
+                        <namePart type="family">Sasaki</namePart>
+                        <namePart type="given">Yu</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020-06-22</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">40</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">NIST has recently initiated a standardization project for efficient lightweight authenticated encryption schemes. SUNDAE, a candidate in this project, achieves optimal state size which results in low circuit overhead on top of the underlying block cipher. In addition, SUNDAE provides security in nonce-misuse scenario as well. However, in addition to the block cipher circuit, SUNDAE also requires some additional circuitry for multiplication by a primitive element. Further, it requires an additional block cipher invocation to create the starting state. In this paper, we propose a new lightweight and low energy authenticated encryption family, called ESTATE, that significantly improves the design of SUNDAE in terms of implementation costs (both hardware area and energy) and efficient processing of short messages. In particular, ESTATE does not require an additional multiplication circuit, and it reduces the number of block cipher calls by one. Moreover, it provides integrity security even under the release of unverified plaintext (or RUP) model. ESTATE is based on short-tweak tweakable block ciphers (or tBC, small ’t’ denotes short tweaks) and we instantiate it with two recently designed tBCs: TweAES and TweGIFT. We also propose a low latency variant of ESTATE, called sESTATE, that uses a round-reduced (6 rounds) variant of TweAES called TweAES-6. We provide comprehensive FPGA based hardware implementation for all the three instances. The implementation results depict that ESTATE_TweGIFT-128 (681 LUTs, 263 slices) consumes much lesser area as compared to SUNDAE_GIFT-128 (931 LUTs, 310 slices). When we moved to the AES variants, along with the area-efficiency (ESTATE_TweAES consumes 1901 LUTs, 602 slices while SUNDAE_AES-128 needs 1922 LUTs, 614 slices), we also achieve higher throughput for short messages (For 16-byte message, a throughput of 1251.10 and 945.36 Mbps for ESTATE_TweAES and SUNDAE_AES-128 respectively).</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tosc.v2020.iS1.350-389</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8624</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8624">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/8624/8190" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8624" DMDID="DMD_rub-journals_8624">
+            <mets:fptr FILEID="FILE0_rub-journals_8624"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

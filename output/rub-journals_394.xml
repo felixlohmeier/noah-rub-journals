@@ -1,0 +1,78 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_394">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Diamond wire cutting technology and workability of natural stones</title>
+                        <subTitle>validation of a new classification method (EASE R3)</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Bellopede, R.</displayForm>
+                        <namePart type="family">Bellopede</namePart>
+                        <namePart type="given">R.</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Marini, P.</displayForm>
+                        <namePart type="family">Marini</namePart>
+                        <namePart type="given">P.</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Zichella, L.</displayForm>
+                        <namePart type="family">Zichella</namePart>
+                        <namePart type="given">L.</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Tori, A.</displayForm>
+                        <namePart type="family">Tori</namePart>
+                        <namePart type="given">A.</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015-11-25</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">9</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">In the diamond wire stone cutting process the objective is to remove a chip of material or a layer ofuniform thickness from the entire length of the cut. The aim of this study is to correlate the cuttingperformance to the characteristics of the natural stone and subsequently to propose a method ofclassification strictly connected to stone workability.Hardness and micro-hardness tests are currently considered important methods for acquiringuseful information about the workability of natural stones, but such gathered data alone do not giveenough information to establish a satisfying classification. The concept of workability and stonemachining has been, for the past thirty years, one of the main area of investigation in national andinternational researches. This study endorses a method for the prediction of stone-cutting toolsinteraction (mainly diamond wires) combining the micro-hardness and the UPV measurements,that better represent the mechanical, physical and petrographical stone properties.This paper studies eight different stones classified according to an “easy-to-cut” scale based on thehistorical company know-how (HIC - Historical Industrial Classification). This classification isbased upon experience and not on explicit or really scientifically quantified parameters,nonetheless, it describes the stones workability completely.In previous works, however, criteria based on quantifiable parameters (SSC - Scientific StoneClassification) have been pursued and this led to a scientific correlation with the industrialclassification. For each stone the following investigation techniques were performed: petrographicanalysis, micro-hardness, Schmidt rebound, Ultrasound Pulse Velocity (UPV). Moreover UPVmeasures in indirect and direct method have been executed on stone blocks in the cutting plantand compared with those performed on slabs. The results of all the performed tests were analyzedand good correlations with the industrial classification were found.Introduction</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <identifier type="doi">10.13154/icscm.3.2015.120-128</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_394</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_394">
+                <mets:FLocat xlink:href="https://icscm.ub.rub.de/index.php/ICSCM/article/download/394/351" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_394" DMDID="DMD_rub-journals_394">
+            <mets:fptr FILEID="FILE0_rub-journals_394"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

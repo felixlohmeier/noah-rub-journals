@@ -1,0 +1,55 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7595">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <nonSort>Der </nonSort>
+                        <title>große Umbau der europäischen Wirtschaft</title>
+                        <subTitle>Die Arbeiterbewegung der Zwischenkriegszeit und die europäische Einigung</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Buschak, Willy</displayForm>
+                        <namePart type="family">Buschak</namePart>
+                        <namePart type="given">Willy</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015-02-16</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">18</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">This article deals with the discussion about a united Europe during the interwar period from 1918 to 1936. Therefore the author points out some sources that provide information about the role and point of view taken by the labour movement in this time period. Referring to discussions on Europeanisation the article underlines some arguments for example the economic competition between the United States of America and Europe, problems caused by multinational companies and increased mobility of capital. By comparison some of these arguments sound surprisingly similar to current debates about European integration. Concepts regarding market freedom, tariff reduction and cooperation between the French and German mining- and steel industry as well as problems like mass unemployment, labour mobility and wage policy in a united Europe have already been considered during that period.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/mts.42.2009.25-42</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7595</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7595">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/7595/6767" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7595" DMDID="DMD_rub-journals_7595">
+            <mets:fptr FILEID="FILE0_rub-journals_7595"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

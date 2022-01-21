@@ -1,0 +1,53 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_463">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Kevin Morgan</title>
+                        <subTitle>Bolshevism, Syndicalism, and the General Strike. The Lost International World of A.A. Purcell [review in English]</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>O&apos;Connor, Emmet</displayForm>
+                        <namePart type="family">O&apos;Connor</namePart>
+                        <namePart type="given">Emmet</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2016-06-01</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">3</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Kevin Morgan: Bolshevism, Syndicalism, and the General Strike. The LostInternational World of A.A. Purcell, London, Lawrence &amp;amp; Wishart, 2013. 356 pp. (Bolshevism and the British Left. 3). – ISBN 9781905007271.University of UlsterColeraine, Northern Ireland, UK</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_463</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_463">
+                <mets:FLocat xlink:href="https://incs.ub.rub.de/index.php/INCS/article/download/463/415" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_463" DMDID="DMD_rub-journals_463">
+            <mets:fptr FILEID="FILE0_rub-journals_463"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

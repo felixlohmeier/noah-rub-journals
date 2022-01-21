@@ -1,0 +1,102 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7270">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Composable Masking Schemes in the Presence of Physical Defaults &amp; the Robust Probing Model</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Faust, Sebastian</displayForm>
+                        <namePart type="family">Faust</namePart>
+                        <namePart type="given">Sebastian</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Grosso, Vincent</displayForm>
+                        <namePart type="family">Grosso</namePart>
+                        <namePart type="given">Vincent</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Merino Del Pozo, Santos</displayForm>
+                        <namePart type="family">Merino Del Pozo</namePart>
+                        <namePart type="given">Santos</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Paglialonga, Clara</displayForm>
+                        <namePart type="family">Paglialonga</namePart>
+                        <namePart type="given">Clara</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Standaert, François-Xavier</displayForm>
+                        <namePart type="family">Standaert</namePart>
+                        <namePart type="given">François-Xavier</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2018-08-14</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">32</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Composability and robustness against physical defaults (e.g., glitches) are two highly desirable properties for secure implementations of masking schemes. While tools exist to guarantee them separately, no current formalism enables their joint investigation. In this paper, we solve this issue by introducing a new model, the robust probing model, that is naturally suited to capture the combination of these properties. We first motivate this formalism by analyzing the excellent robustness and low randomness requirements of first-order threshold implementations, and highlighting the difficulty to extend them to higher orders. Next, and most importantly, we use our theory to design and prove the first higher-order secure, robust and composable multiplication gadgets. While admittedly inspired by existing approaches to masking (e.g., Ishai-Sahai-Wagner-like, threshold, domain-oriented), these gadgets exhibit subtle implementation differences with these state-of-the-art solutions (none of which being provably composable and robust). Hence, our results illustrate how sound theoretical models can guide practically-relevant implementations.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tches.v2018.i3.89-120</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7270</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7270">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/7270/6448" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_rub-journals_7270">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/7270/7930" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="" ID="FILE2_rub-journals_7270">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/7270/7931" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7270" DMDID="DMD_rub-journals_7270">
+            <mets:fptr FILEID="FILE0_rub-journals_7270"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_7270" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_7270"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART2_rub-journals_7270" LABEL="">
+                <mets:fptr FILEID="FILE2_rub-journals_7270"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

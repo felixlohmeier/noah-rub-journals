@@ -1,0 +1,50 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8897">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>(PREPRINT) Pandemic, homo somatis, and Transformations of the Russian Orthodox Ethos</title>
+                    </titleInfo>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2021-11-17</dateIssued>
+                    </originInfo>
+                    <abstract lang="eng">The article examines the reactions within the Russian Orthodox Church to the coronavirus pandemic in 2020. Based on materials from the press, religious and secular Internet portals and online forums, the article systematizes the nature of the responses of Church leadership, priests, and laity to the unprecedented curtailment of liturgical practices and social interactions in quarantine period. The extraordinary challenges of the period of the pandemic made some important trends in the rhetoric and practices of the Orthodox environment more pronounced, and also revealed tensions that go back to the ambivalent relationship of religious culture with the key epistemes of the late modern society.The first review is now online and can be found under the following link: (Review A) &quot;Pandemic, homo somatis, and Transformations of the Russian Orthodox Ethos&quot; | Entangled Religions (rub.de)</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8897</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8897">
+                <mets:FLocat xlink:href="https://er.ceres.rub.de/index.php/ER/article/download/8897/8851" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="text/html" ID="FILE1_rub-journals_8897">
+                <mets:FLocat xlink:href="https://er.ceres.rub.de/index.php/ER/article/download/8897/8852" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8897" DMDID="DMD_rub-journals_8897">
+            <mets:fptr FILEID="FILE0_rub-journals_8897"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_8897" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_8897"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

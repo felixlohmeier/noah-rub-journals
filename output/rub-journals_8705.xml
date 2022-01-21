@@ -1,0 +1,62 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8705">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Efficient MILP Modelings for Sboxes and Linear Layers of SPN ciphers</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Boura, Christina</displayForm>
+                        <namePart type="family">Boura</namePart>
+                        <namePart type="given">Christina</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Coggia, Daniel</displayForm>
+                        <namePart type="family">Coggia</namePart>
+                        <namePart type="given">Daniel</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020-09-28</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">35</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Mixed Integer Linear Programming (MILP) solvers are regularly used by designers for providing security arguments and by cryptanalysts for searching for new distinguishers. For both applications, bitwise models are more refined and permit to analyze properties of primitives more accurately than word-oriented models. Yet, they are much heavier than these last ones. In this work, we first propose many new algorithms for efficiently modeling any subset of Fn2 with MILP inequalities. This permits, among others, to model differential or linear propagation through Sboxes. We manage notably to represent the differential behaviour of the AES Sbox with three times less inequalities than before. Then, we present two new algorithms inspired from coding theory to model complex linear layers without dummy variables. This permits us to represent many diffusion matrices, notably the ones of Skinny-128 and AES in a much more compact way. To demonstrate the impact of our new models on the solving time we ran experiments for both Skinny-128 and AES. Finally, our new models allowed us to computationally prove that there are no impossible differentials for 5-round AES and 13-round Skinny-128 with exactly one input and one output active byte, even if the details of both the Sbox and the linear layer are taken into account.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tosc.v2020.i3.327-361</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8705</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8705">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/8705/8297" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8705" DMDID="DMD_rub-journals_8705">
+            <mets:fptr FILEID="FILE0_rub-journals_8705"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

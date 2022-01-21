@@ -1,0 +1,63 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_148">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Reclaiming the Spirit through the Body</title>
+                        <subTitle>The Nascent Spirituality of Modern Postural Yoga</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Sarbacker, Stuart Ray</displayForm>
+                        <namePart type="family">Sarbacker</namePart>
+                        <namePart type="given">Stuart Ray</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2014-10-31</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">20</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">In viewing physical practice as instrumental, traditions of modern postural yoga contain an implicit spirituality that echoes its historical precursors in the medieval traditions of haṭhayoga. The physicality of modern postural yoga tradition links the practices of premodern haṭhayoga traditions with disciplines of body that are characteristic of modern cosmopolitanism, such as gymnastics and calisthenics. The principal modern yoga gurus of the twentieth century—such as B. K. S. Iyengar and K. Pattabhi Jois—viewed postural yoga as distinct from purely physical disciplines on the basis that yoga has an inner dimension that other systems do not possess. Contemporary yoga practitioners have sought to make this inner dimension more transparent through appeals to traditional Hindu and Buddhist philosophy and by adopting practices that are explicitly contemplative or spiritual in nature.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/er.v1.2014.95-114</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0">CC BY-NC-ND 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_148</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_148">
+                <mets:FLocat xlink:href="https://er.ceres.rub.de/index.php/ER/article/download/148/112" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="text/html" ID="FILE1_rub-journals_148">
+                <mets:FLocat xlink:href="https://er.ceres.rub.de/index.php/ER/article/download/148/8280" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_148" DMDID="DMD_rub-journals_148">
+            <mets:fptr FILEID="FILE0_rub-journals_148"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_148" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_148"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

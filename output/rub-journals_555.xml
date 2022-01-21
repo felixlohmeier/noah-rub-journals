@@ -1,0 +1,61 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_555">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Book - Material - Text (Download Book)</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Bachmann, Christian A.</displayForm>
+                        <namePart type="family">Bachmann</namePart>
+                        <namePart type="given">Christian A.</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Heimgartner, Stephanie</displayForm>
+                        <namePart type="family">Heimgartner</namePart>
+                        <namePart type="given">Stephanie</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2017-01-09</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">78</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Proceedings of the SeminarBOOK—MATERIAL—TEXT of the 20th Congress of theInternational Comparative Literature Association (ICLA/AICL)Paris, Sorbonne, 18–24 July 2013.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <identifier type="doi">10.13154/bmt.1.2016.1-78</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_555</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_555">
+                <mets:FLocat xlink:href="https://bmt.ub.rub.de/index.php/BMT/article/download/555/498" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_555" DMDID="DMD_rub-journals_555">
+            <mets:fptr FILEID="FILE0_rub-journals_555"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

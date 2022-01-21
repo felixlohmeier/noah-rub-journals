@@ -1,0 +1,53 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7712">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Sozialisationsforschung und religiöse Sozialisation im 20. Jahrhundert aus historischer Sicht. Ein Forschungsaufriss</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Owetschkin, Dimitrij</displayForm>
+                        <namePart type="family">Owetschkin</namePart>
+                        <namePart type="given">Dimitrij</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015-01-21</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">20</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">The article analyses problems of historical research into socialization with special regard of the field of religious socialisation. is issue attracts growing interest because transformation processes of religion in modernity express themselves − among others − in terms of socialisation. Yet, a consistent theory of socialisation does not exist. Socialization research is an interdisciplinary branch of study with each discipline focusing on its own key aspects of activity. is applies to historical socialization research, too, which initially roots in historical pedagogy. However, to assess changes in religious socialization a social historical perspective is required. is implies that both objects and agents of socialisation – primarily family and church – are considered carefully.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/mts.36.2006.65-84</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7712</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7712">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/7712/6884" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7712" DMDID="DMD_rub-journals_7712">
+            <mets:fptr FILEID="FILE0_rub-journals_7712"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

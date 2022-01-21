@@ -1,0 +1,62 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7807">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <nonSort>Die </nonSort>
+                        <title>Friedensbewegungen in Italien</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Giuseppe, Massimo De</displayForm>
+                        <namePart type="family">Giuseppe</namePart>
+                        <namePart type="given">Massimo De</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Veccio, Giorgio</displayForm>
+                        <namePart type="family">Veccio</namePart>
+                        <namePart type="given">Giorgio</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015-01-05</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">27</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">The article investigates the history of peace movements in Italy from the beginning of the 20th century to the 1970s, and is also intended to assess the historiography about this subject, indicating its gaps and belatedness. The more profound roots of Italian peace movements are identified, among other things, in the Nobel Prize conferred to E. T. Moneta, in individuals such as A. Capitini and G. Lanza del Vasto, as well as in protests conducted by Catholic priests against the First and the Second World Wars and in the conscientious objection of Jehovah&apos;s Witnesses. All of these, however, were only minority groups. The first mass movement in Italy developed between 1948 and 1955: the Partisans of Peace, a group aligned to the Communist Party. The years of the Cold War brought forth some extraordinary figures, like don P. Mazzolari and D. Dolci. During the 1960s, the autonomous diplomacy of G. La Pira had its effects, as well as the experience of the march from Perugia to Assisi, which had as its departure point the hope to emancipate the organized peace movement from the control of the political parties. In these years attempts were made to create networks and committees, in order to free the peace movement from being seen as an elitist phenomenon. In the period of protest around 1968, finally, conscientious objectors, antimilitarism as well as an interest in &quot;third world&quot; problems gained importance.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/mts.32.2004.131-157</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7807</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7807">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/7807/6979" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7807" DMDID="DMD_rub-journals_7807">
+            <mets:fptr FILEID="FILE0_rub-journals_7807"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

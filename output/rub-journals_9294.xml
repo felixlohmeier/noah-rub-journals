@@ -1,0 +1,71 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_9294">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>MIRACLE</title>
+                        <subTitle>MIcRo-ArChitectural Leakage Evaluation</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Marshall, Ben</displayForm>
+                        <namePart type="family">Marshall</namePart>
+                        <namePart type="given">Ben</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Page, Dan</displayForm>
+                        <namePart type="family">Page</namePart>
+                        <namePart type="given">Dan</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Webb, James</displayForm>
+                        <namePart type="family">Webb</namePart>
+                        <namePart type="given">James</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2021-11-19</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">46</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">In this paper, we describe an extensible experimental infrastructure for evaluating the micro-architectural leakage, based on power consumption, that stems from a physical device. Building on existing literature, we use it to systematically study 14 different devices, which span 4 different instruction set architectures and 4 different vendors. The study allows a characterisation of each device with respect to any leakage effects stemming from sources within the micro-architectural implementation. We use it, for example, to identify and document several novel leakage effects (e.g., due to speculative instruction execution), and scenarios where an assumption about leakage is non-portable between different yet compatible devices.Ours is the widest study of its kind we are aware of, and highlights a range of challenges with respect to 1) the design, implementation, and evaluation of, e.g., masking schemes, 2) construction of accurate leakage models, and 3) selection of suitable devices for experimental research. For example, in relation to 1), we cast further doubt on whether a given device upholds the assumptions required by a given masking scheme; in relation to 2), we conclude that (statistical or formal) device leakage models must include information about the micro-architecture being modelled; in relation to 3), we claim the near mono-culture of devices that dominates existing literature is insufficient to support general claims regarding leakage. This is particularly important in the context of the FIPS 140-3 standard for non-invasive side-channel evaluation.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.46586/tches.v2022.i1.175-220</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_9294</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_9294">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/9294/8860" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_9294" DMDID="DMD_rub-journals_9294">
+            <mets:fptr FILEID="FILE0_rub-journals_9294"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

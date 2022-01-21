@@ -1,0 +1,52 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_81">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Contraceptive use among women in Namibia. A case study of Khorixas, Kunene South</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Gockel-Frank, Martina</displayForm>
+                        <namePart type="family">Gockel-Frank</namePart>
+                        <namePart type="given">Martina</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2014-01-31</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">29</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">This article deals with patterns of contraceptive use in Namibia. Historical data as well as data from recent ethnological fieldwork in Khorixas, Kunene South, are presented. Though the majority of women have practised contraception it is not applied systematically. Mothers who already find themselves in difficult economic situations have further children even though modern contraceptives are available for free in Namibia. This article tries to identify what women know about contraception, why and when they choose to control their fertility and how sex education is dealt with in general. Different aspects such as gender roles and relations, social norms defining the value of children and influences from colonial times will be presented to show the effect they have on the use of contraception and thus reproductive decisions.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_81</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_81">
+                <mets:FLocat xlink:href="https://namibian-studies.com/index.php/JNS/article/download/81/55" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_81" DMDID="DMD_rub-journals_81">
+            <mets:fptr FILEID="FILE0_rub-journals_81"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

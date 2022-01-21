@@ -1,0 +1,52 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_97">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Continuities, parallels, receptions. Reflections on the ‘colonization’ of National Socialism</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Kundrus, Birthe</displayForm>
+                        <namePart type="family">Kundrus</namePart>
+                        <namePart type="given">Birthe</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2014-01-31</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">22</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">The colonial turn has now reached German historiography. Whether colonial structures and mentalities also existed outside of classic overseas empires, and, as a result, the analytical categories of colonial history can also be applied to the interpretation of issues that would appear at first to differ from ‘colonial’ ones, is currently the focus of various debates. One of these discussions centers on whether the German occupation of Eastern Europe in World War II can be described as ‘colonial’ and whether the violent practices that characterized the occupation had their antecedents in formal German colonial rule in the period from 1884 to 1918. The article discusses these questions on two levels: on a methodological level it proposes to distinguish between continuity, transfer, and parallelism. In its empirical part it examines – as part of a transfer history – how the proponents of National Socialism perceived the traditions of colonialism and how they related National Socialism to those traditions. Thereby it stresses the creative character of these receptions, which did not necessarily have anything in common with the original colonial phenomenon.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_97</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_97">
+                <mets:FLocat xlink:href="https://namibian-studies.com/index.php/JNS/article/download/97/69" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_97" DMDID="DMD_rub-journals_97">
+            <mets:fptr FILEID="FILE0_rub-journals_97"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

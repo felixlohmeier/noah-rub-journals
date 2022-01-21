@@ -1,0 +1,78 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8969">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Optimizing BIKE for the Intel Haswell and ARM Cortex-M4</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Chen, Ming-Shing</displayForm>
+                        <namePart type="family">Chen</namePart>
+                        <namePart type="given">Ming-Shing</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Chou, Tung</displayForm>
+                        <namePart type="family">Chou</namePart>
+                        <namePart type="given">Tung</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Krausz, Markus</displayForm>
+                        <namePart type="family">Krausz</namePart>
+                        <namePart type="given">Markus</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2021-07-09</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">28</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">BIKE is a key encapsulation mechanism that entered the third round of the NIST post-quantum cryptography standardization process. This paper presents two constant-time implementations for BIKE, one tailored for the Intel Haswell and one tailored for the ARM Cortex-M4. Our Haswell implementation is much faster than the avx2 implementation written by the BIKE team: for bikel1, the level-1 parameter set, we achieve a 1.39x speedup for decapsulation (which is the slowest operation) and a 1.33x speedup for the sum of all operations. For bikel3, the level-3 parameter set, we achieve a 1.5x speedup for decapsulation and a 1.46x speedup for the sum of all operations. Our M4 implementation is more than two times faster than the non-constant-time implementation portable written by the BIKE team. The speedups are achieved by both algorithm-level and instruction-level optimizations.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.46586/tches.v2021.i3.97-124</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8969</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8969">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/8969/8547" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="" ID="FILE1_rub-journals_8969">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/8969/8627" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8969" DMDID="DMD_rub-journals_8969">
+            <mets:fptr FILEID="FILE0_rub-journals_8969"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_8969" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_8969"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

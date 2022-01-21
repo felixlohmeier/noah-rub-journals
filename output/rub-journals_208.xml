@@ -1,0 +1,52 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_208">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Former Worker Oppositionists’ Personal and Personnel Files in the Russian State Archive of the Economy, 1918-1929</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Allen, Barbara C.</displayForm>
+                        <namePart type="family">Allen</namePart>
+                        <namePart type="given">Barbara C.</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2014-05-28</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">6</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">This article surveys information available in Russian State Archive of the Economy (RGAE) personal and personnel files for former Worker Oppositionists employed at high levels in military industry. The goal of research is to explore the connections that actually existed among former Worker Oppositionists after the movement was banned and how party and secret police leaders perceived these ties. The horizontal links between them in an increasingly centralized political and economic system and the ways in which they, as individuals, interacted with other “networks” in the Soviet Union during the 1920s-1930s may contribute to the overall project of studying networks in Soviet history. The conclusion is that the information found in these files is fragmentary, sparse, and challenging to contextualize without resort to richer source bases that are currently difficult to access.La Salle University, Philadelphia</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_208</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_208">
+                <mets:FLocat xlink:href="https://incs.ub.rub.de/index.php/INCS/article/download/208/166" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_208" DMDID="DMD_rub-journals_208">
+            <mets:fptr FILEID="FILE0_rub-journals_208"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

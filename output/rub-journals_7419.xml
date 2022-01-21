@@ -1,0 +1,54 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7419">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Marginalised Neo-Rurals and Alternative Trailerists</title>
+                        <subTitle>Self-made Housing as a Counter Concept of the 1970s and 1980s in Germany and France</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Möller, Matthias</displayForm>
+                        <namePart type="family">Möller</namePart>
+                        <namePart type="given">Matthias</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2017-10-20</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">22</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Alternative concepts for everyday life often unfold in the context of social movements, as marginalised niches become laboratories for new ways of living. This was especially true in Western Europe in the 1970s and 1980s, when new forms of self-made housing experienced a fundamental shift. Until that time, light and self-made dwellings brought to mind socially scorned shanty towns. But when countercultural groups appropriated similar construction techniques and adopted corresponding daily routines, these dwellings became an influential image and reference point for a freely chosen, off-the-grid lifestyle beyond capitalist consumer society.In retrospect, this process appears straightforward and self-evident, and the ruptures, contingencies and specific conditions accompanying it are easily overlooked. This article seeks to expose those gaps by describing the challenges and experimental steps that led to the introduction of light, ephemeral and mobile housing alternatives in Germany and France as a lived practise. To do so, it relies on a qualitative examination of publications and grey literature from countercultural movements in France and Germany. This provides new insights into how this form of alternative housing evolved from the first reports of US-American examples, and how diverse directions were taken in the two different national contexts.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/mts.58.2017.29-50</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7419</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7419">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/7419/6591" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7419" DMDID="DMD_rub-journals_7419">
+            <mets:fptr FILEID="FILE0_rub-journals_7419"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

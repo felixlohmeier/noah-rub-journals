@@ -1,0 +1,54 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8285">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <nonSort>The </nonSort>
+                        <title>Changing Landscapes of Cross-Faith Places and Practices</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Sing, Manfred</displayForm>
+                        <namePart type="family">Sing</namePart>
+                        <namePart type="given">Manfred</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2019-04-30</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">272</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">The present special issue&amp;nbsp;of&amp;nbsp;Entangled Religions&amp;nbsp;has emerged from a conference about “Shared Sacred Places&amp;nbsp;and Multi-Religious Space” that took place at the Leibniz Institute of European History&amp;nbsp;(IEG) in Mainz in September 2016. As the title of the conference indicates, a main&amp;nbsp;interest was to re-think the relation between place and space and between different&amp;nbsp;religions. The conference took place in the framework of the IEG focus topic “Europe&amp;nbsp;from the Margins,” which also included a lecture series on processes of marginalization&amp;nbsp;and exclusion with regard to social and religious minorities within and beyond Europe.&amp;nbsp;This background explains the range of topics in this special issue to a certain degree,&amp;nbsp;because the conference had the aim to de-centre established notions of Europe and&amp;nbsp;religion and understand them in their multi-dimensionality. While cross-faith practices&amp;nbsp;are a worldwide phenomenon, the main geographical focus of the following articles is&amp;nbsp;on southeastern Europe and the Mediterranean with their spatial extensions to Asia.&amp;nbsp;Proceeding from here, the contributions in this volume understand multi-faith practices&amp;nbsp;as embedded in local arrangements as well as in larger multi-religious landscapes,&amp;nbsp;thus taking account of the interconnection between the local and the global and paying&amp;nbsp;attention to the micro and macro levels of analysis.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <identifier type="doi">10.13154/er.v9.2019.1-272</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8285</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8285">
+                <mets:FLocat xlink:href="https://er.ceres.rub.de/index.php/ER/article/download/8285/7636" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8285" DMDID="DMD_rub-journals_8285">
+            <mets:fptr FILEID="FILE0_rub-journals_8285"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

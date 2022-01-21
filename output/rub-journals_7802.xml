@@ -1,0 +1,54 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7802">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Peace Movements in Western Europe, Japan and the USA since 1945</title>
+                        <subTitle>Introduction</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Ziemann, Benjamin</displayForm>
+                        <namePart type="family">Ziemann</namePart>
+                        <namePart type="given">Benjamin</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015-01-05</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">15</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">The article situates the study of postwar peace protest in the triangle between contemporary history, peace history and sociological research about social movements. Discussing some of the master narratives of recent research in the field, fresh conceptual perspectives for the analysis of peace movements are developed. They aim to leave behind a moral distinction between &apos;doves&apos; and &apos;hawks&apos; and stress the importance of protest communication and its connectivity for the emergence of peace movements. Finally, some topics for future historical research are outlined, among them the importance of scientific experts and visual imaginations of peace for the symbolic performance of peace movements. Another important issue that needs further conceptual reflection is the interaction between peace protest and the decision-making process in the military and government.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/mts.32.2004.5-19</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7802</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7802">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/7802/6974" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7802" DMDID="DMD_rub-journals_7802">
+            <mets:fptr FILEID="FILE0_rub-journals_7802"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

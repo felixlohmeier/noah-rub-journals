@@ -1,0 +1,54 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7669">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <nonSort>Die </nonSort>
+                        <title>Bergarbeiterschaft und der Aufstieg des Anarcho-Syndikalismus im Ruhrgebiet bis 1919</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Jenko, Jürgen</displayForm>
+                        <namePart type="family">Jenko</namePart>
+                        <namePart type="given">Jürgen</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015-01-21</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">20</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">In the revolutionary period between 1918/19 and 1923/24 the syndicalist movement in Germany obtained social relevance – at least temporarily. In addition to the craftsmen predominating in quantitative terms, the syndicalist movement succeeded in this time period to attract other members and “mass workers” in metal industry and mining. Having laid the foundations for the organisational breakthrough during the strikes of December 1918 in Hamborn, the syndicalists witnessed a massive influx of new members in the entire region in the course of a strike wave the following spring. At the end of the year, the organisation comprised of at least 34.100 miners and was supported by unionists as well as syndicalists until the organisational split in 1920. Most studies on syndicalism still rely on workplaceoriented aspects. For further research, this essay advocates a more profound analysis of the “proletarian lifestyle” in specific Ruhr cities. Additionally, the process of constructing and reformulating a collective identity as well as its social localisation by symbolic and communicative actions is examined. In this framework special attention is given to the gender-based character of syndicalism.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/mts.38.2007.7-26</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7669</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7669">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/7669/6841" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7669" DMDID="DMD_rub-journals_7669">
+            <mets:fptr FILEID="FILE0_rub-journals_7669"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

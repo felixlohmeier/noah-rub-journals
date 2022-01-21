@@ -1,0 +1,52 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_345">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Félix Weil y un libro pionero sobre la historia del movimiento obrero y las izquierdas en la Argentina</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Camarero, Hernán</displayForm>
+                        <namePart type="family">Camarero</namePart>
+                        <namePart type="given">Hernán</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2010-07-20</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">9</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Universidad de Buenos Aires„Die Arbeiterbewegung in Argentinien. Ein Beitrag zu ihrer Geschichte“ is a rare and exceptional historical piece. Published only once in the German city of Leipzig in 1923, it remained since then in an almost complete ignorance to Argentine readers and is still awaiting a local edition in Spanish. An examination of its pages is an appropriate task and very useful. First, because we can learn about their author, the Argentine-German Felix Weil, a singular intellectual figure who has a fascinating biography which mingled his activities as a prosperous businessman in the field of agricultural trade with those of a Communist activist and Marxist theorist, in addition to its known role as a financial promoter of the “Frankfurt School”. He spent his life between those two roles and differentterritories: Argentina and Europe. Along with his exotic biography his book allows us to approach one of the first attempts at historical reconstruction of the origins of the labor movement and the Left in Argentina. This essay will outline some profiles of Felix Weil’s work and analyze the context and the contents trying to point out its main contributions and limitations.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_345</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_345">
+                <mets:FLocat xlink:href="https://incs.ub.rub.de/index.php/INCS/article/download/345/303" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_345" DMDID="DMD_rub-journals_345">
+            <mets:fptr FILEID="FILE0_rub-journals_345"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

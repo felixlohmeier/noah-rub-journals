@@ -1,0 +1,62 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8728">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Doppelganger Obfuscation — Exploring theDefensive and Offensive Aspects of Hardware Camouflaging</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Hoffmann, Max</displayForm>
+                        <namePart type="family">Hoffmann</namePart>
+                        <namePart type="given">Max</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Paar, Christof</displayForm>
+                        <namePart type="family">Paar</namePart>
+                        <namePart type="given">Christof</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020-12-03</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">27</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Hardware obfuscation is widely used in practice to counteract reverse engineering. In recent years, low-level obfuscation via camouflaged gates has been increasingly discussed in the scientific community and industry. In contrast to classical high-level obfuscation, such gates result in recovery of an erroneous netlist. This technology has so far been regarded as a purely defensive tool. We show that low-level obfuscation is in fact a double-edged sword that can also enable stealthy malicious functionalities.In this work, we present Doppelganger, the first generic design-level obfuscation technique that is based on low-level camouflaging. Doppelganger obstructs central control modules of digital designs, e.g., Finite State Machines (FSMs) or bus controllers, resulting in two different design functionalities: an apparent one that is recovered during reverse engineering and the actual one that is executed during operation. Notably, both functionalities are under the designer’s control.In two case studies, we apply Doppelganger to a universal cryptographic coprocessor. First, we show the defensive capabilities by presenting the reverse engineer with a different mode of operation than the one that is actually executed. Then, for the first time, we demonstrate the considerable threat potential of low-level obfuscation. We show how an invisible, remotely exploitable key-leakage Trojan can be injected into the same cryptographic coprocessor just through obfuscation. In both applications of Doppelganger, the resulting design size is indistinguishable from that of an unobfuscated design, depending on the choice of encodings.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.46586/tches.v2021.i1.82-108</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8728</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8728">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/8728/8328" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8728" DMDID="DMD_rub-journals_8728">
+            <mets:fptr FILEID="FILE0_rub-journals_8728"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

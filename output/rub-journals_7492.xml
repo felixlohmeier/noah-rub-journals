@@ -1,0 +1,54 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7492">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Robert Dißmann</title>
+                        <subTitle>Zwischen Metallarbeitergewerkschaft und linker Sozialdemokratie</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Tosstorff, Reiner</displayForm>
+                        <namePart type="family">Tosstorff</namePart>
+                        <namePart type="given">Reiner</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015-02-02</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">31</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Robert Dißmann (8 August 1878–30 October 1926) belonged to the generation of the German labour movement’s golden age in the Wilhelminian Reich. In 1900, just 22 years old, he became a local secretary of the Deutscher Metallarbeiterverband in Barmen and remained a full-time official in the workers’ movement until his death. In 1905 he moved to the much more important Frankfurt, but just three years later switched to a party position, first as local secretary in Hanau, one of the strongholds of the radical left, and in 1912 to the regional secretariat for the Rhein-Main area. Consequently he became involved in the anti-war opposition from the outset. Even although he kept close contact with Rosa Luxemburg from 1913 onwards, Dißmann tended towards the “left centre”, partially due to his long-time friendship with Wilhelm Dittmann. When the USPD was formed in 1917, he became one of its leaders outside Berlin and acted as its principal spokesperson in the Frankfurt region during the November Revolution. But having never completely abandoned his contacts with the metal workers union, he refocused his activism here with the emergence of a strong oppositional current during the war. He was elected one of the chairpersons when the union’s left wing, strongly allied to the USPD, took the leadership in 1919. He was one of the rare cases of former trade union officials who had begun a political career, which usually led them to the very right wing of the SPD, but then returned to trade union work under a left perspective (even though simultaneously he guarded important positions in the USPD and later on as one of the spokespersons of the SPD’s left wing). His untimely and sudden death left a gap which was not filled until 1933.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/mts.51.2014.95-125</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7492</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7492">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/7492/6664" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7492" DMDID="DMD_rub-journals_7492">
+            <mets:fptr FILEID="FILE0_rub-journals_7492"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

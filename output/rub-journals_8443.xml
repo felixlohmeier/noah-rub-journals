@@ -1,0 +1,61 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8443">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <nonSort>A </nonSort>
+                        <title>Generative Entanglement</title>
+                        <subTitle>Word and Image in Roman Catholic Devotional Practice</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Morgan, David</displayForm>
+                        <namePart type="family">Morgan</namePart>
+                        <namePart type="given">David</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020-01-20</dateIssued>
+                    </originInfo>
+                    <abstract lang="eng">Devotional piety broadly depends on events that are not accessible for direct observation and commonly offer very little, if anything, in the way of historical documentation. Sometimes the experiences to which devotion is directed in the veneration of saints is based on visionary experience for which reports are contradictory. This essay explores ways in which word and image are brought together to anchor evanescent or ephemeral, or entirely uncertain, origins and provide devotion with stable objects. I develop the view that word and image are generatively entangled, meaning that their ambiguous connections with one another are able to produce a medium in which devotion finds a footing. The discussion focuses on two case studies: Our Lady of Fátima and Saint Jude. Fátima is based on a series of apparitions to young children in 1917 and Jude is a historically shadowy figure whose cult underwent a modern revival, in part assisted by new iconographic developments that allowed devotees to link their saint to very old traditions. Lore and imagery work together as forms of saying and seeing that bring elusive origins into focus.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/er.11.2020.8443</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8443</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8443">
+                <mets:FLocat xlink:href="https://er.ceres.rub.de/index.php/ER/article/download/8443/8000" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="text/html" ID="FILE1_rub-journals_8443">
+                <mets:FLocat xlink:href="https://er.ceres.rub.de/index.php/ER/article/download/8443/8001" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8443" DMDID="DMD_rub-journals_8443">
+            <mets:fptr FILEID="FILE0_rub-journals_8443"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_8443" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_8443"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

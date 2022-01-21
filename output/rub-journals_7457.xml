@@ -1,0 +1,54 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7457">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <nonSort>The </nonSort>
+                        <title>Ecological Movement and Internationalism</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Brüggemeier, Franz-Josef</displayForm>
+                        <namePart type="family">Brüggemeier</namePart>
+                        <namePart type="given">Franz-Josef</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2016-10-14</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">18</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">The ecological movement is a very prominent, popular and influential element of the new social movements. Among them, it also has the most global outlook since many of today’s environmental problems have a global dimension and cannot be solved on a national, let alone a regional or even local level. As a consequence, the movement often takes up international, transnational and global issues; it organises its own international conferences and contributes to many others; it tries to coordinate its activities and can draw on its own international / global organisations. At the same time however, most of the activities take part on a local, regional and at the most national level. It is here, where most environmental organisations and especially political parties become well known and where they concentrate their energies. The same is true for environmental debates, which often have global dimensions but more importantly are shaped by national contexts and national or even local issues. At the same time, the best known global organisation, Green Peace, is organised hierarchically and run form a dominant centre leaving almost no autonomy to its national subsidiaries. Apart from this organisation, however, theecological movement is characterised by its international and global outlook, but derives its strength from and has its base on national and especially local levels.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/mts.55.2016.75-92</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7457</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7457">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/7457/6629" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7457" DMDID="DMD_rub-journals_7457">
+            <mets:fptr FILEID="FILE0_rub-journals_7457"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

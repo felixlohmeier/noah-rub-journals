@@ -1,0 +1,54 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8719">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Challenging the Myths of the Scottish Sixties</title>
+                        <subTitle>Student Protests in the Wake of ‘1968’ at the University of Stirling</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Nehring, Holger</displayForm>
+                        <namePart type="family">Nehring</namePart>
+                        <namePart type="given">Holger</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020-12-01</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">28</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">This article challenges two myths about the British and Scottish Sixties: first, that there was no real student radicalism in Scotland in the long 1960s, and second that this radicalism was confined to narrow groups of the extreme left. Rather than focusing on processes of cultural change and their manifestations, this essay conceptualises ‘1968’ as a series of political contestations over the form of university governance and, by implication, government in the United Kingdom from the mid-1960s and to the mid-1970s. Conceptually, this article brings together an analysis of governmental and university policy making with the politics of protest. It draws attention to the interaction between local experiences and central structures in framing the protests, and it highlights how the student protests on the Stirling campus gave expression to broader fractures within the UK polity. Thus, this article demonstrates how students expressed dissatisfaction with the realities of technocratic planning in the context of the centralised UK state by calling for more representation. In doing so, it offers two conceptual messages for scholars working on ‘1968’ more generally: ideological currents and value changes should be connected to specific local places of contestations; and the call for student representation against technocratic planning should be taken more seriously and analysed in the context of these contestations and embedded in a discussion about the relationship between culture and politics.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.46586/mts.64.2020.53-80</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8719</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8719">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/8719/8319" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8719" DMDID="DMD_rub-journals_8719">
+            <mets:fptr FILEID="FILE0_rub-journals_8719"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

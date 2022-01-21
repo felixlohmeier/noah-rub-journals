@@ -1,0 +1,60 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8693">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Comparing Comparisons in Muslim Polemical Writings from Christian Iberia and Exile</title>
+                        <subTitle>Muḥammad al-Qaysī’s Kitāb Miftāḥ al-Dīn and the Anonymous Tratado de los dos caminos</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Colominas Aparicio, Mònica</displayForm>
+                        <namePart type="family">Colominas Aparicio</namePart>
+                        <namePart type="given">Mònica</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020-10-13</dateIssued>
+                    </originInfo>
+                    <abstract lang="eng">Comparison figures prominently in the polemics of the Muslim, Christian, and Jewish inhabitants of the Iberian Peninsula in premodern and early modern times. Its pervasiveness as a figure of thought in their sources raises the question of variety in regard to comparison—that is, the multiple expressions of comparison as well as its numerous uses—particularly in the field of polemics. This paper discusses the functions of comparison in polemics as a necessary first step to advance current knowledge of comparison as a historical practice in the making of one’s identity and the definition of groups and individuals. The discussion will focus on writings by Muslims who lived in Christian Iberia. It will focus particularly on two anti-Christian polemics: that by the Tunisian author Muḥammad al-Qaysī in an as-yet unstudied Aljamiado copy (Spanish in Arabic characters); and the Tratado de los dos caminos (Treatise of the Two Roads), an early-seventeenth-century work of Islamic doctrine by the so-called “Refugee in Tunisia”. The analysis of these two works will address the most important common points and differences between their respective polemical comparisons.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.46586/er.11.2020.8693</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8693</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8693">
+                <mets:FLocat xlink:href="https://er.ceres.rub.de/index.php/ER/article/download/8693/8302" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="text/html" ID="FILE1_rub-journals_8693">
+                <mets:FLocat xlink:href="https://er.ceres.rub.de/index.php/ER/article/download/8693/8303" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8693" DMDID="DMD_rub-journals_8693">
+            <mets:fptr FILEID="FILE0_rub-journals_8693"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_8693" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_8693"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

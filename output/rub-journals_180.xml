@@ -1,0 +1,52 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_180">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Contract labourers from Kavango on farms in Namibia, 1925–1972</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Likuwa, Kletus Muhena</displayForm>
+                        <namePart type="family">Likuwa</namePart>
+                        <namePart type="given">Kletus Muhena</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015-03-18</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">14</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">This article is about the experiences of contract farm labourers from Kavango in Namibia from 1925 (when the contract labour system became institutionalised) to 1972 (when the system ended) and focuses on the subjectivity of oral sources. About 30 former contract labourers were interviewed from July to September 2009 but for this paper only 11 interviews were used as they relate primarily to farm labour experiences. Based on recorded oral interviews supplemented with archival and written literature the article explores the labourers’ experience of the migration process and their intra-personal relations at work and sleeping places. Furthermore it explains the social and economic impact of contract labour system on workers and their perceptions of the contract labour system. The aim is to explain how contract labourers present their personal experiences under the contract labour system and what their opinions about the contract labour system are. The significance of this article lies in the fact that it explores contract farm workers’ perceptions and sub¬jectivities which have so far been neglected in efforts to understand the experiences of contract farm workers in Namibia. Furthermore, the focus on Kavango will expand our knowledge of colonial farm work on a wider Namibian spectrum.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_180</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_180">
+                <mets:FLocat xlink:href="https://namibian-studies.com/index.php/JNS/article/download/180/141" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_180" DMDID="DMD_rub-journals_180">
+            <mets:fptr FILEID="FILE0_rub-journals_180"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

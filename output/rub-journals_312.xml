@@ -1,0 +1,53 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_312">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Barry McLoughlin, Hannes Leidinger, Verena Moritz</title>
+                        <subTitle>Kommunismus in Österreich 1918-1938. Innsbruck-Wien-Bozen, Studien-Verlag, 2009. 529 p. ISBN</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Mugrauer, Manfred</displayForm>
+                        <namePart type="family">Mugrauer</namePart>
+                        <namePart type="given">Manfred</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2011-09-23</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">4</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Barry McLoughlin, Hannes Leidinger, Verena Moritz: Kommunismus in Österreich 1918-1938. Innsbruck-Wien-Bozen, Studien-Verlag, 2009. 529 p. ISBN: 978-3-7065-4459-7.Alfred Klahr Gesellschaft, Vienna</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_312</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_312">
+                <mets:FLocat xlink:href="https://incs.ub.rub.de/index.php/INCS/article/download/312/270" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_312" DMDID="DMD_rub-journals_312">
+            <mets:fptr FILEID="FILE0_rub-journals_312"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

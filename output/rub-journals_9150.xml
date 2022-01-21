@@ -1,0 +1,68 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_9150">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Progress and paradigms in the search for the neural correlates of consciousness</title>
+                        <subTitle>Editorial introduction to the special issue “The neural correlates of consciousness”</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Fink, Sascha Benjamin</displayForm>
+                        <namePart type="family">Fink</namePart>
+                        <namePart type="given">Sascha Benjamin</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Lin, Ying-Tung</displayForm>
+                        <namePart type="family">Lin</namePart>
+                        <namePart type="given">Ying-Tung</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2022-01-06</dateIssued>
+                    </originInfo>
+                    <abstract lang="eng">An introduction to the second part of the special issue celebrating the neural correlates of consciousness. Here, we focus on progress and paradigms in the science of consciousness from the perspective of philosophy of science.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.33735/phimisci.2021.103</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_9150</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="text/html" ID="FILE0_rub-journals_9150">
+                <mets:FLocat xlink:href="https://philosophymindscience.org/index.php/phimisci/article/download/9150/8955" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_rub-journals_9150">
+                <mets:FLocat xlink:href="https://philosophymindscience.org/index.php/phimisci/article/download/9150/8956" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_9150" DMDID="DMD_rub-journals_9150">
+            <mets:fptr FILEID="FILE0_rub-journals_9150"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_9150" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_9150"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

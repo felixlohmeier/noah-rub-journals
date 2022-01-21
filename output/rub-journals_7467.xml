@@ -1,0 +1,62 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7467">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Conference Report Summer School</title>
+                        <subTitle>Social Movements in Global Perspectives – Past, Present and Future</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Gondorová, Eva</displayForm>
+                        <namePart type="family">Gondorová</namePart>
+                        <namePart type="given">Eva</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Teichmann, Ulf</displayForm>
+                        <namePart type="family">Teichmann</namePart>
+                        <namePart type="given">Ulf</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015-12-17</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">14</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">During the summer semester 2014, Stefan Berger and Sabrina Zajak from the Institute for Social Movement (ISB) convened an interdisciplinary summer school at Ruhr-Universität Bochum, entitled Social Movements in Global Perspectives: Past, Present and Future. The summer school was organised as part of the university’s inSTUDIES programme, aiming at the advancement of teaching and enhancement of individual student profiles. At the heart of the summer school was an international and interdisciplinary conference, which took place in September 2014.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <identifier type="doi">10.13154/mts.54.2015.129-142</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7467</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7467">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/7467/6639" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7467" DMDID="DMD_rub-journals_7467">
+            <mets:fptr FILEID="FILE0_rub-journals_7467"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

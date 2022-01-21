@@ -1,0 +1,55 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7345">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Linking Khotan and Dūnhuáng</title>
+                        <subTitle>Buddhist Narratives in Text and Image</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Anderl, Christoph</displayForm>
+                        <namePart type="family">Anderl</namePart>
+                        <namePart type="given">Christoph</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2018-12-04</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">62</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">In the propagation and spread of Buddhism throughout Asia, jātaka&amp;nbsp;and avadāna narratives played a decisive role, both in the form of texts and&amp;nbsp;iconographical representations. In this paper I will focus on another set of narratives&amp;nbsp;which enjoyed great popularity in the Dūnhuáng area during the later Tang and&amp;nbsp;Five Dynasties period, dealing with historical projections concerning the origin and&amp;nbsp;transmission of Buddhism. In this stories, “Auspicious Statues” (ruìxiàng 瑞像) play a&amp;nbsp;key role. These “living” statues were thought to have moved from Indian monasteries&amp;nbsp;to Khotan and other regions, serving as agents of the transmission of the Dharma in&amp;nbsp;these areas. Besides reflecting religious key concern during that period, the historical&amp;nbsp;narratives on the spread of Buddhism also give witness to the close diplomatic and&amp;nbsp;family relations between Dunhuang and the Kingdom of Khotan during that period.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/er.v5.2018.250-311</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7345</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7345">
+                <mets:FLocat xlink:href="https://er.ceres.rub.de/index.php/ER/article/download/7345/6517" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7345" DMDID="DMD_rub-journals_7345">
+            <mets:fptr FILEID="FILE0_rub-journals_7345"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

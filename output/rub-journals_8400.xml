@@ -1,0 +1,86 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8400">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>TEDT, a Leakage-Resist AEAD Mode for High Physical Security Applications</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Berti, Francesco</displayForm>
+                        <namePart type="family">Berti</namePart>
+                        <namePart type="given">Francesco</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Guo, Chun</displayForm>
+                        <namePart type="family">Guo</namePart>
+                        <namePart type="given">Chun</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Pereira, Olivier</displayForm>
+                        <namePart type="family">Pereira</namePart>
+                        <namePart type="given">Olivier</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Peters, Thomas</displayForm>
+                        <namePart type="family">Peters</namePart>
+                        <namePart type="given">Thomas</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Standaert, François-Xavier</displayForm>
+                        <namePart type="family">Standaert</namePart>
+                        <namePart type="given">François-Xavier</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2019-11-19</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">65</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">We propose TEDT, a new Authenticated Encryption with Associated Data (AEAD) mode leveraging Tweakable Block Ciphers (TBCs). TEDT provides the following features: (i) It offers full leakage-resistance, that is, it limits the exploitability of physical leakages via side-channel attacks, even if these leakages happen during every message encryption and decryption operation. Moreover, the leakage integrity bound is asymptotically optimal in the multi-user setting. (ii) It offers nonce misuse-resilience, that is, the repetition of nonces does not impact the security of ciphertexts produced with fresh nonces. (iii) It can be implemented with a remarkably low energy cost when strong resistance to side-channel attacks is needed, supports online encryption and handles static and incremental associated data efficiently. Concretely, TEDT encourages so-called leveled implementations, in which two TBCs are implemented: the first one needs strong and energy demanding protections against side-channel attacks but is used in a limited way, while the other only requires weak and energy-efficient protections and performs the bulk of the computation. As a result, TEDT leads to more energy-efficient implementations compared to traditional AEAD schemes, whose side-channel security requires to uniformly protect every (T)BC execution.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tches.v2020.i1.256-320</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8400</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8400">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/8400/7784" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8400" DMDID="DMD_rub-journals_8400">
+            <mets:fptr FILEID="FILE0_rub-journals_8400"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,54 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_622">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Losing and Finding</title>
+                        <subTitle>On the Curious Life of Ethnographic Objects</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Ivanova, Dara</displayForm>
+                        <namePart type="family">Ivanova</namePart>
+                        <namePart type="given">Dara</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2017-05-24</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">9</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Dara Ivanova´s essay on Losing and Finding: On the curious Life of ethnographic Objects deals with how a researcher’s emotions towards his or her research object can be turned into an epistemological tool when working ethnographically with an object. Drawing on her work on a foundling room for infants to be left safely and anonymously for adoption, she describes how researcher and research object form a relationship throughout different phases. Following an object means here to find the relationship one builds with the research object: first becoming attached through curiosity, then thinking through the normativities it provokes in the researcher, follow it into the infrastructures in which it is embedded and embrace the researchers’ emotions towards it by finally turning these emotions into a reflexive ground of making, un-making and re-making an object within the research process.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/eoo.1.2017.8-16</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_622</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_622">
+                <mets:FLocat xlink:href="https://ojs.ub.rub.de/index.php/EOO/article/download/622/590" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_622" DMDID="DMD_rub-journals_622">
+            <mets:fptr FILEID="FILE0_rub-journals_622"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

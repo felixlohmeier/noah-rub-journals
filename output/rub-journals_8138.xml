@@ -1,0 +1,54 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8138">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>100 Jahre Bergbau am linken Niederrhein. Stefan Moitra</title>
+                        <subTitle>Tief im Westen. Ein Jahrhundert Steinkohlenförderung am linken Niederrhein. Von Friedrich Heinrich zum Bergwerk West, Bochum</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Gawehn, Gunnar</displayForm>
+                        <namePart type="family">Gawehn</namePart>
+                        <namePart type="given">Gunnar</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015-01-29</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">4</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Stefan Moitra: Tief im Westen. Ein Jahrhundert Steinkohlenförderung am linken Niederrhein. Von Friedrich Heinrich zum Bergwerk West, Bochum: Deutsches Bergbau-Museum 2012.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <identifier type="doi">10.13154/mts.47.2012.210-213</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8138</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8138">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/8138/7309" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8138" DMDID="DMD_rub-journals_8138">
+            <mets:fptr FILEID="FILE0_rub-journals_8138"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

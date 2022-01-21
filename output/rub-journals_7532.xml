@@ -1,0 +1,53 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7532">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>„Nicht die Hautfarbe macht den Indigenen“. Eine Diskursanalyse der Bedeutungsgebung des Ethnischen in der zapatistischen Bewegung</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Lange, Karina</displayForm>
+                        <namePart type="family">Lange</namePart>
+                        <namePart type="given">Karina</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015-01-29</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">25</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Since the 1970s the prevalence of ethnic social movements has increased in Latin America. Until recently such movements have typically been peasant uprisings, but today ethnic and cultural recognition and indigenous rights form their central discourse. This article focuses on the Zapatista movement, using it as an example to analyse the importance of ethnic identity in the creation of indigenous social movements, and how they are shaped and discursively positioned. This article takes an in-depth look at the Zapatistas’ public statements, the so-called comunicados, as well as key academic debates relating to the two events being examined: the armed rebellion in 1994 and the dialogue about the “rights and culture of indigenous people” in 1996. The discourse analysis uses framing to demonstrate the importance of constructed inclusive and exclusive identification. It deals explicitly with the collective identity that is inherent within social, and in particular, indigenous movements. After this analysis, which focuses mainly on the inner workings of the movement itself, the results are discussed in relation to the “social context of the structure of new collectivity”, as an open, fractional and processual interaction with culture and identity.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/mts.47.2012.15-39</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7532</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7532">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/7532/6704" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7532" DMDID="DMD_rub-journals_7532">
+            <mets:fptr FILEID="FILE0_rub-journals_7532"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

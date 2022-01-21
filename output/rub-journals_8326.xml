@@ -1,0 +1,62 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8326">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <nonSort>The </nonSort>
+                        <title>construction and representation of sexual and gender diversity in Namibian school textbooks</title>
+                        <subTitle>Global discourses or Southern African realities?</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Brown, Anthony</displayForm>
+                        <namePart type="family">Brown</namePart>
+                        <namePart type="given">Anthony</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Reygan, Finn</displayForm>
+                        <namePart type="family">Reygan</namePart>
+                        <namePart type="given">Finn</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2019-06-30</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">16</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Liberal, western approaches to non-normative sexuality and gender have been roundly critiqued by queer education theorists for their regulation of sexuality and their perpetuation of cisgenderism and heteronormativity. School textbooks are a key regulatory site for the control of gender and sexuality and create zones of inclusion and exclusion in school systems. In Southern Africa sexuality and gender diversity has become a key site for global culture wars between locally embedded understandings and more global (read Western) discourses. Therefore we analysed 5 school textbooks in the Life Skills subject area in Namibia and found a clear attempt at liberal constructions and representations of sexual and gender diversity. This contrasts with local and national level understandings of non-normative sexualities and genders and is strongly influenced by Namibia’s signatory status to a wide number of global education agreements that reflect a liberal humanistic under­standing of sexual and gender rights.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8326</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8326">
+                <mets:FLocat xlink:href="https://namibian-studies.com/index.php/JNS/article/download/8326/7675" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8326" DMDID="DMD_rub-journals_8326">
+            <mets:fptr FILEID="FILE0_rub-journals_8326"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,86 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7366">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Sound Hashing Modes of Arbitrary Functions, Permutations, and Block Ciphers</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Daemen, Joan</displayForm>
+                        <namePart type="family">Daemen</namePart>
+                        <namePart type="given">Joan</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Mennink, Bart</displayForm>
+                        <namePart type="family">Mennink</namePart>
+                        <namePart type="given">Bart</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Van Assche, Gilles</displayForm>
+                        <namePart type="family">Van Assche</namePart>
+                        <namePart type="given">Gilles</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2018-12-13</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">32</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Cryptographic hashing modes come in many flavors, including Merkle-Damgård with various types of strengthening, Merkle trees, and sponge functions. As underlying primitives, these functions use arbitrary functions, permutations, or block ciphers. In this work we provide three simple proofs, one per primitive type, that cover all modes where the input to the primitive consists of message bits, chaining value bits, and bits that only depend on the mode and message length. Our approach generalizes and simplifies over earlier attempts of Dodis et al. (FSE 2009) and Bertoni et al. (Int. J. Inf. Sec. 2014). We prove tight indifferentiability bounds for modes using each of these three primitive types provided that the mode satisfies some easy to verify conditions.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tosc.v2018.i4.197-228</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7366</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7366">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/7366/6536" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_rub-journals_7366">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/7366/7549" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="" ID="FILE2_rub-journals_7366">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/7366/7760" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7366" DMDID="DMD_rub-journals_7366">
+            <mets:fptr FILEID="FILE0_rub-journals_7366"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_7366" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_7366"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART2_rub-journals_7366" LABEL="">
+                <mets:fptr FILEID="FILE2_rub-journals_7366"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,54 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7518">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Participatory Budgeting in Porto Alegre</title>
+                        <subTitle>An Experience in Democratic Innovation and its Historical Background</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Fortes, Alexandre</displayForm>
+                        <namePart type="family">Fortes</namePart>
+                        <namePart type="given">Alexandre</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2014-10-02</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">23</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">This article examines the successful experiences of democratic innovation created by the Workers’ Party in four consecutive terms at the local government in the largest town in Southern Brazil. The Participatory Budgeting came to be praised both, on the one hand, by the World Social Forum (held in Porto Alegre precisely for that reason) as an example of a counterhegemonic policy able to challenge neoliberalism; and, on the other hand, it was praised by the World Bank as an example of a “good practice” proving that higher levels of transparency could lead to increased efficiency in public management. Already the subject of a vast body of literature produced mostly by political scientists, activists, NGO members and public administrators, Porto Alegre’s Participatory Budgeting is placed here in an historical perspective, mostly by a critical examination of the hypothesis that past social and political struggles created a peculiar political culture that turned the Rio Grande do Sul state capital into an “ideal type” of participatory citizenship.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/mts.49.2013.113-135</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7518</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7518">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/7518/6690" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7518" DMDID="DMD_rub-journals_7518">
+            <mets:fptr FILEID="FILE0_rub-journals_7518"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,52 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_9397">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>An analysis of the depth of corruption in Namibia’s political system, with reference to the fishing industry scandal known as ‘Fishrot’</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Coetzee, Johan</displayForm>
+                        <namePart type="family">Coetzee</namePart>
+                        <namePart type="given">Johan</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2021-12-22</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">22</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">This article focuses on how corruption is rooted in Namibia’s system of political representation with Fishrot as illustration. Those with political and business connections colluded to facilitate thousands of illegal transactions. One of the main reasons for the depth of Namibian corruption is that members of the National Assembly are not accountable to the electorate for their decisions but follow party directives. Another factor contributing to corruption is the excessive power of the executive branch, which overlaps with and dominates the legislature. The executive branch abused its power to amend legislation thus enabling the allocation of a massive quota to the National Fishing Corporation of Namibia. The Icelandic company, Samherji, benefitted from the quota by use of bribery. Fishrot is the epitome of the corruption made possible by a distorted political system and the abuse of legislative power to afford protection against prosecution to those involved in corrupt practices. Obliging Members of Parliament declare their interests is one way to combat corruption. If there is no political will for a state-centric approach, then a citizen-centric approach is necessary to bring about transformation with lasting effects. Based on the history of best practices in Hong Kong and Singapore, it could take up to four decades to transform Namibia from being systemically corrupt to reaching sustainable levels of governance, provided all the comparable variables are similar, which is most probably not the case.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_9397</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_9397">
+                <mets:FLocat xlink:href="https://namibian-studies.com/index.php/JNS/article/download/9397/8938" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_9397" DMDID="DMD_rub-journals_9397">
+            <mets:fptr FILEID="FILE0_rub-journals_9397"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

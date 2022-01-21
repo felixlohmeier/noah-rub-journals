@@ -1,0 +1,70 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8909">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Linear Cryptanalyses of Three AEADs with GIFT-128 as Underlying Primitives</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Sun, Ling</displayForm>
+                        <namePart type="family">Sun</namePart>
+                        <namePart type="given">Ling</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Wang, Wei</displayForm>
+                        <namePart type="family">Wang</namePart>
+                        <namePart type="given">Wei</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Wang, Meiqin</displayForm>
+                        <namePart type="family">Wang</namePart>
+                        <namePart type="given">Meiqin</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2021-06-11</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">23</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">This paper considers the linear cryptanalyses of Authenticated Encryptions with Associated Data (AEADs) GIFT-COFB, SUNDAE-GIFT, and HyENA. All of these proposals take GIFT-128 as underlying primitives. The automatic search with the Boolean satisfiability problem (SAT) method is implemented to search for linear approximations that match the attack settings concerning these primitives. With the newly identified approximations, we launch key-recovery attacks on GIFT-COFB, SUNDAE-GIFT, and HyENA when the underlying primitives are replaced with 16-round, 17-round, and 16-round versions of GIFT-128. The resistance of GIFT-128 against linear cryptanalysis is also evaluated. We present a 24-round key-recovery attack on GIFT-128 with a newly obtained 19-round linear approximation. We note that the attack results in this paper are far from threatening the security of GIFT-COFB, SUNDAE-GIFT, HyENA, and GIFT-128.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.46586/tosc.v2021.i2.199-221</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8909</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8909">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/8909/8485" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8909" DMDID="DMD_rub-journals_8909">
+            <mets:fptr FILEID="FILE0_rub-journals_8909"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

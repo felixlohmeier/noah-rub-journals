@@ -1,0 +1,111 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_834">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <nonSort>A </nonSort>
+                        <title>Cautionary Note When Looking for a Truly Reconfigurable Resistive RAM PUF</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Chuang, Kai-Hsin</displayForm>
+                        <namePart type="family">Chuang</namePart>
+                        <namePart type="given">Kai-Hsin</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Degraeve, Robin</displayForm>
+                        <namePart type="family">Degraeve</namePart>
+                        <namePart type="given">Robin</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Fantini, Andrea</displayForm>
+                        <namePart type="family">Fantini</namePart>
+                        <namePart type="given">Andrea</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Groeseneken, Guido</displayForm>
+                        <namePart type="family">Groeseneken</namePart>
+                        <namePart type="given">Guido</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Linten, Dimitri</displayForm>
+                        <namePart type="family">Linten</namePart>
+                        <namePart type="given">Dimitri</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Verbauwhede, Ingrid</displayForm>
+                        <namePart type="family">Verbauwhede</namePart>
+                        <namePart type="given">Ingrid</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2018-02-14</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">20</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">The reconfigurable physically unclonable function (PUF) is an advanced security hardware primitive, suitable for applications requiring key renewal or similar refresh functions. The Oxygen vacancies-based resistive RAM (RRAM), has been claimed to be a physically reconfigurable PUF due to its intrinsic switching variability. This paper first analyzes and compares various previously published RRAM-based PUFs with a physics-based RRAM model. We next discuss their possible reconfigurability assuming an ideal configuration-to-configuration behavior. The RRAM-to-RRAM variability, which mainly originates from a variable number of unremovable vacancies inside the RRAM filament, however, has been observed to have significant impact on the reconfigurability. We show by quantitative analysis on the clear uniqueness degradation from the ideal situation in all the discussed implementations. Thus we conclude that true reconfigurability with RRAM PUFs might be unachievable due to this physical phenomena.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tches.v2018.i1.98-117</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_834</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_834">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/834/786" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_rub-journals_834">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/834/8004" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="" ID="FILE2_rub-journals_834">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/834/8005" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_834" DMDID="DMD_rub-journals_834">
+            <mets:fptr FILEID="FILE0_rub-journals_834"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_834" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_834"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART2_rub-journals_834" LABEL="">
+                <mets:fptr FILEID="FILE2_rub-journals_834"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

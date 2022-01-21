@@ -1,0 +1,78 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_844">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Distinguishing Attack on NORX Permutation</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Huang, Tao</displayForm>
+                        <namePart type="family">Huang</namePart>
+                        <namePart type="given">Tao</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Wu, Hongjun</displayForm>
+                        <namePart type="family">Wu</namePart>
+                        <namePart type="given">Hongjun</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2018-03-01</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">17</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">NORX is a permutation-based authentication scheme which is currently a third-round candidate of the ongoing CAESAR competition. The security bound of NORX is derived from the sponge construction applied to an ideal underlying permutation. In this paper, we show that the NORX core permutation is non-ideal with a new distinguishing attack. More specifically, we can distinguish NORX64 permutation with 248.5 queries and distinguish NORX32 permutation with 264.7 queries using carefully crafted differential-linear attacks. We have experimentally verified the distinguishing attack on NORX64 permutation. Although the distinguishing attacks reveal the weakness of the NORX permutation, it does not directly threat the security of the NORX authenticated encryption scheme.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tosc.v2018.i1.57-73</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_844</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_844">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/844/796" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_rub-journals_844">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/844/7617" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="" ID="FILE2_rub-journals_844">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/844/7518" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_844" DMDID="DMD_rub-journals_844">
+            <mets:fptr FILEID="FILE0_rub-journals_844"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_844" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_844"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART2_rub-journals_844" LABEL="">
+                <mets:fptr FILEID="FILE2_rub-journals_844"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

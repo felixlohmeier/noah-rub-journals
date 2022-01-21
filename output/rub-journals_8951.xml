@@ -1,0 +1,51 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8951">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>What is a global state of consciousness?</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Mckilliam, Andy Kenneth</displayForm>
+                        <namePart type="family">Mckilliam</namePart>
+                        <namePart type="given">Andy Kenneth</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020-12-30</dateIssued>
+                    </originInfo>
+                    <abstract lang="eng">The notion of a global state (or level) of consciousness is an increasingly important construct in the science of consciousness. However, exactly what a global state of consciousness is remains poorly understood. In this paper I offer an account of global states of consciousness as consciousness-related capacity modulations. On this view global states are not themselves phenomenal states – they are not occurring experiences. Rather, they are states that specify which of a creature’s overall consciousness-related capacities are currently online. Given that the search for the neural correlates of consciousness (NCC), as it is currently conceived, is the search for the neural basis of occurrent experiences, the NCC framework is incapable of revealing the neural basis of global states. As such, a mature science of consciousness will need to move beyond the search for NCCs, as that project is currently conceived.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.33735/phimisci.2020.II.58</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8951</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8951">
+                <mets:FLocat xlink:href="https://philosophymindscience.org/index.php/phimisci/article/download/8951/8525" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8951" DMDID="DMD_rub-journals_8951">
+            <mets:fptr FILEID="FILE0_rub-journals_8951"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

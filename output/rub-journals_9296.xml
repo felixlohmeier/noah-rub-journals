@@ -1,0 +1,70 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_9296">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Efficient Implementations of Rainbow and UOV using AVX2</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Shim, Kyung-Ah</displayForm>
+                        <namePart type="family">Shim</namePart>
+                        <namePart type="given">Kyung-Ah</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Lee, Sangyub</displayForm>
+                        <namePart type="family">Lee</namePart>
+                        <namePart type="given">Sangyub</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Koo, Namhun</displayForm>
+                        <namePart type="family">Koo</namePart>
+                        <namePart type="given">Namhun</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2021-11-19</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">25</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">A signature scheme based on multivariate quadratic equations, Rainbow, was selected as one of digital signature finalists for NIST Post-Quantum Cryptography Standardization Round 3. In this paper, we provide efficient implementations of Rainbow and UOV using the AVX2 instruction set. These efficient implementations include several optimizations for signing to accelerate solving linear systems and the Vinegar value substitution. We propose a new block matrix inversion (BMI) method using the Lower-Diagonal-Upper decomposition of blocks matrices based on the Schur complement that accelerates solving linear systems. Compared to UOV implemented with Gaussian elimination, our implementations with the BMI result in speedups of 12.36%, 24.3%, and 34% for signing at security categories I, III, and V, respectively. Compared to Rainbow implemented with Gaussian elimination, our implementations with the BMI result in speedups of 16.13% and 20.73% at the security categories III and V, respectively. We show that precomputation for the Vinegar value substitution and solving linear systems dramatically improve their signing. UOV with precomputation is 16.9 times, 35.5 times, and 62.8 times faster than UOV without precomputation at the three security categories, respectively. Rainbow with precomputation is 2.1 times, 2.2 times, and 2.8 times faster than Rainbow without precomputation at the three security categories, respectively. We then investigate resilience against leakage or reuse of the precomputed values in UOV and Rainbow to use the precomputation securely: leakage or reuse of the precomputed values leads to their full secret key recoveries in polynomial-time.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.46586/tches.v2022.i1.245-269</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_9296</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_9296">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/9296/8862" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_9296" DMDID="DMD_rub-journals_9296">
+            <mets:fptr FILEID="FILE0_rub-journals_9296"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

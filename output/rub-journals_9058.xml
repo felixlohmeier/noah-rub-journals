@@ -1,0 +1,86 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_9058">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Novel Key Recovery Attack on Secure ECDSA Implementation by Exploiting Collisions between Unknown Entries</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Jin, Sunghyun</displayForm>
+                        <namePart type="family">Jin</namePart>
+                        <namePart type="given">Sunghyun</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Lee, Sangyub</displayForm>
+                        <namePart type="family">Lee</namePart>
+                        <namePart type="given">Sangyub</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Cho, Sung Min</displayForm>
+                        <namePart type="family">Cho</namePart>
+                        <namePart type="given">Sung Min</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Kim, HeeSeok</displayForm>
+                        <namePart type="family">Kim</namePart>
+                        <namePart type="given">HeeSeok</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Hong, Seokhie</displayForm>
+                        <namePart type="family">Hong</namePart>
+                        <namePart type="given">Seokhie</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2021-08-11</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">26</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">In this paper, we propose a novel key recovery attack against secure ECDSA signature generation employing regular table-based scalar multiplication. Our attack exploits novel leakage, denoted by collision information, which can be constructed by iteratively determining whether two entries loaded from the table are the same or not through side-channel collision analysis. Without knowing the actual value of the table entries, an adversary can recover the private key of ECDSA by finding the condition for which several nonces are linearly dependent by exploiting only the collision information. We show that this condition can be satisfied practically with a reasonable number of digital signatures and corresponding traces. Furthermore, we also show that all entries in the pre-computation table can be recovered using the recovered private key and a sufficient number of digital signatures based on the collision information. As case studies, we find that fixed-base comb and T_SM scalar multiplication are vulnerable to our attack. Finally, we verify that our attack is a real threat by conducting an experiment with power consumption traces acquired during T_SM scalar multiplication operations on an ARM Cortex-M based microcontroller. We also provide the details for validation process.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.46586/tches.v2021.i4.1-26</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_9058</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_9058">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/9058/8645" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_9058" DMDID="DMD_rub-journals_9058">
+            <mets:fptr FILEID="FILE0_rub-journals_9058"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

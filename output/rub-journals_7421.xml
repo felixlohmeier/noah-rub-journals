@@ -1,0 +1,54 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7421">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Darwin goes to Sarajevo</title>
+                        <subTitle>Evolutionary Theories Underlying a Century of Historiography on the Outbreak of the First World War</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Fernández, Juan L.</displayForm>
+                        <namePart type="family">Fernández</namePart>
+                        <namePart type="given">Juan L.</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2017-10-20</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">26</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Historiography on the outbreak of the First World War is a useful touchstone for understanding in practice the conceptual architecture of historical storytelling. Along with overarching narrative concepts such as Fritz Fischer’s German Bid for World Power (Griff nach der Weltmacht), historians could, and often did, employ implicit or explicit theoretical frameworks created in other disciplines such as economics or political science. Since Charles Darwin published On the Origin of Species, natural evolution was also one of the most widespread inspiring models.A century of study on the causes of the Great War shows three major narrative patterns with underlying evolutionary assumptions: (i) the struggle for existence; (ii) the self-destroying system; and (iii) the chain of mistakes. They correspond in part to the temporal development of interpretations: from early narratives focused on who-questions, responsibilities, and personified nations (G-stories, for ‘gigantomachy’); through syntheses aiming at why-questions, causes, and societies (D-stories, for ‘doom’); up to current analyses of how-questions, origins, and elite decision-making (M-stories, for ‘mistakes’). From G-stories to M-stories, Clio has been moving away from Darwin, thus reducing her explanatory capabilities. The paradox of a huge scientific effort ending in an unconquerable riddle could be overcome by linking D-stories to a nascent evolutionary social science.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/mts.58.2017.81-106</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7421</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7421">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/7421/6593" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7421" DMDID="DMD_rub-journals_7421">
+            <mets:fptr FILEID="FILE0_rub-journals_7421"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

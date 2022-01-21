@@ -1,0 +1,52 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_14">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Figures of disintegration. ‘Half-castes’ and ‘frontiersmen’ in German colonial literature on South West Africa</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Brehl, Medardus</displayForm>
+                        <namePart type="family">Brehl</namePart>
+                        <namePart type="given">Medardus</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2013-12-17</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">21</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Processes of collective identity formation, its establishment, endangerment and possible destruction can not only be described as a common pattern of German colonial literature on South West Africa, but rather must be seen as one of its main subjects. As a precondition for community and identity a radical discretion or exclusivity is drawn up between antagonists in colonial literature whereby any comprehension, any mutual understanding is impossible. All contact between ‘black’ and ‘white’ is presented as an existential and fatal indiscretion, which – for both sides – leads to bastardization, identity loss, ‘Verkafferung’ and, ultimately, to decline. In the context of these virulent problems of construction of, threats to and preservation of collective identity in an environment coded fundamentally as alien, which afflict colonial discourse projections, the marking of a border as the demarcation line, as the point of no return, but also the crossing of that border as a challenge or threat, constitute only apparently diametrically opposed forms, which are compressed into the figures of the ‘border runner’ on the one hand and the ‘hybrid&apos; on the other. This essay traces back these constructions through a broad range of material and by means of examples of German colonial literature on South West Africa and locates them in the literary historical, historical discourse and historically-epistemologically contexts of the 19th to early 20th centuries.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_14</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_14">
+                <mets:FLocat xlink:href="https://namibian-studies.com/index.php/JNS/article/download/14/9" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_14" DMDID="DMD_rub-journals_14">
+            <mets:fptr FILEID="FILE0_rub-journals_14"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

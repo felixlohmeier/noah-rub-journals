@@ -1,0 +1,60 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_554">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Thanatographical narration in Jane Katjavivi’s memoir Undisciplined Heart</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Tjiramanga, Alexandra</displayForm>
+                        <namePart type="family">Tjiramanga</namePart>
+                        <namePart type="given">Alexandra</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Pasi, Juliet</displayForm>
+                        <namePart type="family">Pasi</namePart>
+                        <namePart type="given">Juliet</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2016-12-14</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">16</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Autobiographical writing is the narration of one’s own life. This simple act which entails the retrospective narrative in prose has become one of the most contested issues in written discourses. Using Jane Katjavivi’s memoir Undisciplined Heart, this paper explores dying and death and the ways culture impacts care for the dying, the overall experience of dying and how the dead are remembered. In the memoir, life writing is often entwined with stories of death and bereavement. As such, the paper argues that thanatographical and autothanatographical narration are approaches used for therapy purposes. It also posits that life writing is not about resurrecting the dead through language or burying them in a mass of words; rather, it seeks to interpret the myriad of interrelations and interactions that exist between death and culture. Thus, culture operates as a vehicle and medium through which the meaning of death is communicated and understood. This paper concludes that thanatographical narration in Undisciplined Heart, allows Katjavivi to contemplate the loss of her friends, chronicles her struggle with grief and also, supposedly provides consolation for her loss.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_554</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_554">
+                <mets:FLocat xlink:href="https://namibian-studies.com/index.php/JNS/article/download/554/497" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_554" DMDID="DMD_rub-journals_554">
+            <mets:fptr FILEID="FILE0_rub-journals_554"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

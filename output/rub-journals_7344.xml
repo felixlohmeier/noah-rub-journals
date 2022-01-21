@@ -1,0 +1,62 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7344">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Official Buddhism in Russia’s Politics and Education - Religion, Indigeneity, and Patriotism in Buryatia</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Sablin, Ivan</displayForm>
+                        <namePart type="family">Sablin</namePart>
+                        <namePart type="given">Ivan</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2018-11-26</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">40</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Focusing on organized Buddhism in the Republic of Buryatia and analyzing the&amp;nbsp;statements of Khambo Lama Damba Aiusheev of the Buddhist Traditional Sangha of Russia and&amp;nbsp;the textbooks used for teaching religion in public schools, the article discusses the different&amp;nbsp;aspects of the relations between religion and state as applied to Buddhism in contemporary&amp;nbsp;Russia in general and Buryatia in particular. The imperial politics of diversity management and&amp;nbsp;especially the legacies of confessional governance in the Russian Empire and the Soviet Union&amp;nbsp;made the four “traditional religions”—Orthodox Christianity, Islam, Buddhism, and Judaism—an important part of “federal” nation-building. Despite the overall desecularization of the&amp;nbsp;Russian state and the long history of relations between the state and organized Buddhism, the&amp;nbsp;predominantly Buryat, centralized organization Buddhist Traditional Sangha of Russia did not&amp;nbsp;assert its claim to represent all Russian Buddhists. State efforts to establish a system of four&amp;nbsp;“traditional religions,” providing inter alia a spiritual foundation for Russian patriotism, also did&amp;nbsp;not succeed. Buddhism remained decentralized in both administrative and semantic terms and&amp;nbsp;did not lose its connections to the communities outside Russia. In Buryatia itself, Shamanism&amp;nbsp;and Orthodox Christianity continuously challenged attempts to present Buddhism as the only&amp;nbsp;Buryat “traditional religion.”</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/er.v5.2018.210-249</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7344</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7344">
+                <mets:FLocat xlink:href="https://er.ceres.rub.de/index.php/ER/article/download/7344/6516" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="text/html" ID="FILE1_rub-journals_7344">
+                <mets:FLocat xlink:href="https://er.ceres.rub.de/index.php/ER/article/download/7344/8279" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7344" DMDID="DMD_rub-journals_7344">
+            <mets:fptr FILEID="FILE0_rub-journals_7344"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_7344" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_7344"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,53 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_80">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Conflicting memories, competing narratives and complicating histories</title>
+                        <subTitle>Revisiting the Cassinga controversy</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Baines, Gary</displayForm>
+                        <namePart type="family">Baines</namePart>
+                        <namePart type="given">Gary</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2014-01-31</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">20</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Notwithstanding public perceptions to the contrary, the past is unstable and contested. When it comes to controversial episodes such as alleged atrocities and other war crimes, the stake of those with vested interests in how the past is remembered becomes that much higher. Perpetrators and victims have conflicting memories and construct competing narratives about their roles in such episodes. The stories told by members of the South African Defence Force who attacked Cassinga on 4 May 1978 are diametrically opposed to those told by the Namibian survivors: for the apartheid state’s soldiers it was a legitimate military operation in a counter-revolutionary war whereas for the South West Africa People’s Organization it was a massacre of innocent civilians. If the SADF story is sanitized, then SWAPO’s version is contradictory. These mutually exclusive stories have been appropriated for partisan causes that illustrate the workings of the politics of memory in southern Africa’s post-conflict societies. This paper reveals how the rhetorical battle has been rejoined and examines the ongoing tug of war over the meaning of Cassinga.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_80</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_80">
+                <mets:FLocat xlink:href="https://namibian-studies.com/index.php/JNS/article/download/80/54" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_80" DMDID="DMD_rub-journals_80">
+            <mets:fptr FILEID="FILE0_rub-journals_80"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

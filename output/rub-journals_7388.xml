@@ -1,0 +1,126 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7388">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Deep Learning to Evaluate Secure RSA Implementations</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Carbone, Mathieu</displayForm>
+                        <namePart type="family">Carbone</namePart>
+                        <namePart type="given">Mathieu</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Conin, Vincent</displayForm>
+                        <namePart type="family">Conin</namePart>
+                        <namePart type="given">Vincent</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Cornélie, Marie-Angela</displayForm>
+                        <namePart type="family">Cornélie</namePart>
+                        <namePart type="given">Marie-Angela</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Dassance, François</displayForm>
+                        <namePart type="family">Dassance</namePart>
+                        <namePart type="given">François</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Dufresne, Guillaume</displayForm>
+                        <namePart type="family">Dufresne</namePart>
+                        <namePart type="given">Guillaume</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Dumas, Cécile</displayForm>
+                        <namePart type="family">Dumas</namePart>
+                        <namePart type="given">Cécile</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Prouff, Emmanuel</displayForm>
+                        <namePart type="family">Prouff</namePart>
+                        <namePart type="given">Emmanuel</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Venelli, Alexandre</displayForm>
+                        <namePart type="family">Venelli</namePart>
+                        <namePart type="given">Alexandre</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2019-02-28</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">30</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">This paper presents the results of several successful profiled side-channel attacks against a secure implementation of the RSA algorithm. The implementation was running on a ARM Core SC 100 completed with a certified EAL4+ arithmetic co-processor. The analyses have been conducted by three experts’ teams, each working on a specific attack path and exploiting information extracted either from the electromagnetic emanation or from the power consumption. A particular attention is paid to the description of all the steps that are usually followed during a security evaluation by a laboratory, including the acquisitions and the observations preprocessing which are practical issues usually put aside in the literature. Remarkably, the profiling portability issue is also taken into account and different device samples are involved for the profiling and testing phases. Among other aspects, this paper shows the high potential of deep learning attacks against secure implementations of RSA and raises the need for dedicated countermeasures.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tches.v2019.i2.132-161</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7388</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7388">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/7388/6560" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_rub-journals_7388">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/7388/7889" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="" ID="FILE2_rub-journals_7388">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/7388/7890" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7388" DMDID="DMD_rub-journals_7388">
+            <mets:fptr FILEID="FILE0_rub-journals_7388"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_7388" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_7388"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART2_rub-journals_7388" LABEL="">
+                <mets:fptr FILEID="FILE2_rub-journals_7388"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

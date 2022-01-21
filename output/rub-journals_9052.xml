@@ -1,0 +1,54 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_9052">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Anti-Immigration Propaganda in the Northern League and the Freedom Party of Austria</title>
+                        <subTitle>Discursive Changes with Reference to Gender, Muslim Migrants, Ethnicity and Class</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Tekin, Caner</displayForm>
+                        <namePart type="family">Tekin</namePart>
+                        <namePart type="given">Caner</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2021-08-09</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">20</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Over the past two decades, populist-radical parties of Western Europe arguably re- vised their propaganda towards the rejection of Muslim migrants with gender-sen- sitive arguments. Among these parties, the Northern League (LN) and the Freedom Party of Austria (FPÖ) achieved their electoral breakthrough thanks to their anti-mi- gration campaigns, which, inter alia, aligned peculiar gender perspectives with long- term attitudes towards ethnicity, welfare and Islam. Drawing on the LN’s and FPÖ’s election programmes, visuals and leader statements from the early 2000s, the present article discusses the common assumptions regarding the populist radical right’s dis- cursive changes towards anti-Islamism. The paper argues that the two parties in the mentioned period forged their propaganda against the rejection of Muslim migrants in religious and gender-sensitive terms, but their ethnic and class-oriented exclusions equally remained. The documents in question also revealed that these parties recent- ly softened their attitudes towards migrant caregivers to preserve traditional gender images in Austria and Italy. The LN’s and FPÖ’s long-term preoccupations with Ital- ian and Austrian women’s roles in worklife, family and reproduction are likely to bring about changes in the conceptions of female migrants in the care sector. The question still remains whether the parties began to tolerate Muslim female workers, since their propaganda, in contrast to the literature, did not suggest the acknowledgement of Muslims in any of the labour fields.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.46586/mts.65.2021.81-100</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_9052</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_9052">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/9052/8637" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_9052" DMDID="DMD_rub-journals_9052">
+            <mets:fptr FILEID="FILE0_rub-journals_9052"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

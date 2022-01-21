@@ -1,0 +1,95 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7396">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>CRAFT</title>
+                        <subTitle>Lightweight Tweakable Block Cipher with Efficient Protection Against DFA Attacks</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Beierle, Christof</displayForm>
+                        <namePart type="family">Beierle</namePart>
+                        <namePart type="given">Christof</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Leander, Gregor</displayForm>
+                        <namePart type="family">Leander</namePart>
+                        <namePart type="given">Gregor</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Moradi, Amir</displayForm>
+                        <namePart type="family">Moradi</namePart>
+                        <namePart type="given">Amir</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Rasoolzadeh, Shahram</displayForm>
+                        <namePart type="family">Rasoolzadeh</namePart>
+                        <namePart type="given">Shahram</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2019-03-08</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">41</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Traditionally, countermeasures against physical attacks are integrated into the implementation of cryptographic primitives after the algorithms have been designed for achieving a certain level of cryptanalytic security. This picture has been changed by the introduction of PICARO, ZORRO, and FIDES, where efficient protection against Side-Channel Analysis (SCA) attacks has been considered in their design. In this work we present the tweakable block cipher CRAFT: the efficient protection of its implementations against Differential Fault Analysis (DFA) attacks has been one of the main design criteria, while we provide strong bounds for its security in the related-tweak model. Considering the area footprint of round-based hardware implementations, CRAFT outperforms the other lightweight ciphers with the same state and key size. This holds not only for unprotected implementations but also when fault-detection facilities, side-channel protection, and their combination are integrated into the implementation. In addition to supporting a 64-bit tweak, CRAFT has the additional property that the circuit realizing the encryption can support the decryption functionality as well with very little area overhead.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tosc.v2019.i1.5-45</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7396</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7396">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/7396/6568" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_rub-journals_7396">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/7396/7554" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="" ID="FILE2_rub-journals_7396">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/7396/7762" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7396" DMDID="DMD_rub-journals_7396">
+            <mets:fptr FILEID="FILE0_rub-journals_7396"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_7396" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_7396"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART2_rub-journals_7396" LABEL="">
+                <mets:fptr FILEID="FILE2_rub-journals_7396"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

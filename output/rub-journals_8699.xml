@@ -1,0 +1,94 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8699">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>On the Security Margin of TinyJAMBU with Refined Differential and Linear Cryptanalysis</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Saha, Dhiman</displayForm>
+                        <namePart type="family">Saha</namePart>
+                        <namePart type="given">Dhiman</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Sasaki, Yu</displayForm>
+                        <namePart type="family">Sasaki</namePart>
+                        <namePart type="given">Yu</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Shi, Danping</displayForm>
+                        <namePart type="family">Shi</namePart>
+                        <namePart type="given">Danping</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Sibleyras, Ferdinand</displayForm>
+                        <namePart type="family">Sibleyras</namePart>
+                        <namePart type="given">Ferdinand</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Sun, Siwei</displayForm>
+                        <namePart type="family">Sun</namePart>
+                        <namePart type="given">Siwei</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Zhang, Yingjie</displayForm>
+                        <namePart type="family">Zhang</namePart>
+                        <namePart type="given">Yingjie</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020-09-28</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">23</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">This paper presents the first third-party security analysis of TinyJAMBU, which is one of 32 second-round candidates in NIST’s lightweight cryptography standardization process. TinyJAMBU adopts an NLFSR based keyed-permutation that computes only a single NAND gate as a non-linear component per round. The designers evaluated the minimum number of active AND gates, however such a counting method neglects the dependency between multiple AND gates. There also exist previous works considering such dependencies with stricter models, however those are known to be too slow. In this paper, we present a new model that provides a good balance of efficiency and accuracy by only taking into account the first-order correlation of AND gates that frequently occurs in TinyJAMBU. With the refined model, we show a 338-round differential with probability 2−62.68 that leads to a forgery attack breaking 64-bit security. This implies that the security margin of TinyJAMBU with respect to the number of unattacked rounds is approximately 12%. We also show a differential on full 384 rounds with probability 2−70.64, thus the security margin of full rounds with respect to the data complexity, namely the gap between the claimed security bits and the attack complexity, is less than 8 bits. Our attacks also point out structural weaknesses of the mode that essentially come from the minimal state size to be lightweight.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tosc.v2020.i3.152-174</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8699</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8699">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/8699/8291" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8699" DMDID="DMD_rub-journals_8699">
+            <mets:fptr FILEID="FILE0_rub-journals_8699"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

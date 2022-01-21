@@ -1,0 +1,54 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7743">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Gewerkschaftseliten nach 1945 – Kontinuität und Wandel der Führungsgruppen deutscher Gewerkschaften</title>
+                        <subTitle>Das wiederbelebte Interesse an den gewerkschaftlichen Führungsgruppen</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Dörre, Klaus</displayForm>
+                        <namePart type="family">Dörre</namePart>
+                        <namePart type="given">Klaus</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015-01-14</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">21</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">The elite of the German trade unions is characterised by a high continuity regarding the social profile of the leadership, the recruiting patterns and the position of power inside the organisations. Despite the political integration of the trade unions this elite remains an outsider in a socio-cultural manner. Nowadays the unions are standing at a crossroads. The conditions have changed fundamentally: a tremendous loss of members, a dwindling political influence, a declining loyalty of the works councils and a diminishing ability to mobilise the rank and file. This process, caused by the erosion of the cooperative industrial relations in the course of the transformation of global capitalism, also has an effect on the leadership. One can notice an external recruitment of some chairmen, a rising importance of the works council chairmen of the big companies, a growing distance to the traditional ally, the socialdemocratic party, but the outcome stays open.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/mts.35.2006.7-27</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7743</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7743">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/7743/6915" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7743" DMDID="DMD_rub-journals_7743">
+            <mets:fptr FILEID="FILE0_rub-journals_7743"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

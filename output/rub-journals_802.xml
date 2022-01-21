@@ -1,0 +1,94 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_802">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Preimage Attacks on the Round-reduced Keccak with Cross-linear Structures</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Li, Ting</displayForm>
+                        <namePart type="family">Li</namePart>
+                        <namePart type="given">Ting</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Sun, Yao</displayForm>
+                        <namePart type="family">Sun</namePart>
+                        <namePart type="given">Yao</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Liao, Maodong</displayForm>
+                        <namePart type="family">Liao</namePart>
+                        <namePart type="given">Maodong</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Wang, Dingkang</displayForm>
+                        <namePart type="family">Wang</namePart>
+                        <namePart type="given">Dingkang</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2017-12-15</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">19</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">In this paper, based on the work pioneered by Aumasson and Meier, Dinur et al., and Guo et al., we construct some new delicate structures from the roundreduced versions of Keccakhash function family. The new constructed structures are called cross-linear structures, because linear polynomials appear across in different equations of these structures. And we apply cross-linear structures to do preimage attacks on some instances of the round-reduced Keccak. There are three main contributions in this paper. First, we construct a kind of cross-linear structures by setting the statuses carefully. With these cross-linear structures, guessing the value of one linear polynomial could lead to three linear equations (including the guessed one). Second, for some special cases, e.g. the 3-round Keccakchallenge instance Keccak[r=240, c=160, nr=3], a more special kind of cross-linear structures is constructed, and these structures can be used to obtain seven linear equations (including the guessed) if the values of two linear polynomials are guessed. Third, as applications of the cross-linear structures, we practically found a preimage for the 3-round KeccakChallenge instance Keccak[r=240, c=160, nr=3]. Besides, by constructing similar cross-linear structures, the complexity of the preimage attack on 3-round Keccak-256/SHA3-256/SHAKE256 can be lowered to 2150/2151/2153 operations, while the previous best known result on Keccak-256 is 2192.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tosc.v2017.i4.39-57</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_802</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_802">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/802/756" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_rub-journals_802">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/802/7598" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="" ID="FILE2_rub-journals_802">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/802/7507" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_802" DMDID="DMD_rub-journals_802">
+            <mets:fptr FILEID="FILE0_rub-journals_802"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_802" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_802"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART2_rub-journals_802" LABEL="">
+                <mets:fptr FILEID="FILE2_rub-journals_802"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

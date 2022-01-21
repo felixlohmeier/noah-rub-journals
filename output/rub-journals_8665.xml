@@ -1,0 +1,59 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8665">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <nonSort>A </nonSort>
+                        <title>Decade of Research on the Second International</title>
+                        <subTitle>New Insights and Methods</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Callahan, Kevin J.</displayForm>
+                        <namePart type="family">Callahan</namePart>
+                        <namePart type="given">Kevin J.</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020-07-10</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">15</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Laura Polexe: Netzwerke und Freundschaft: Sozialdemokraten in Rumänien, Russland und der Schweiz an der Schwelle zum 20. Jahrhundert, Göttingen: V &amp;amp; R, 2011, 270 pp., ISBN: 978-3-89971-807-2 (hardcover).
+Sebastian D. Schickl: Universalismus und Partikularismus: Erfahrungsraum, Erwartungshorizont und Territorialdebatten in der diskursiven Praxis der II. Internationale 1889 –1917, St. Ingbert: Röhrig Universitätsverlag, 2012, 561 pp., ISBN/EAN: 9783861105213.
+Pierre Alayrac: L’Internationale Au Milieu Du Gué: De L’Internationalisme Socialiste Au Congrès de Londres (1896), Rennes: Presses Universitaires de Rennes, 2018, 224 pp., ISBN: 978-2-7535-7459-5.
+Horst Lademacher: Die Illusion vom Frieden: Die Zweite Internationale wider den Krieg, 1889 –1919, Münster/New York: Waxmann, 2018, 658 pp., ISBN: 978-3- 8309-3840-8 (hardcover).
+Elisa Marcobelli: I’Internationalisme à L’Épreuve Des Crises: La deuxième Internationale et les Socialistes Français, Allemands et Italien (1889 –1915), Rouen: arbre bleu éditions, 2020, 341 pp., ISBN: 9791090129092.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <identifier type="doi">10.13154/mts.63.2020.185-199</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8665</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8665">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/8665/8219" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8665" DMDID="DMD_rub-journals_8665">
+            <mets:fptr FILEID="FILE0_rub-journals_8665"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

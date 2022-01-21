@@ -1,0 +1,52 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_140">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Searching for justice – the pursuit of a liberal tradition in colonial Namibia</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Botha, Christo</displayForm>
+                        <namePart type="family">Botha</namePart>
+                        <namePart type="given">Christo</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2014-10-21</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">39</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Despite an inauspicious environment in which to operate, the result of a hostile government and an indifferent white community, a small number of individuals managed to actively pursue ideals of justice and respect for basic human rights. The absence of an organised political or social tradition that could provide the foundation for the realization of these ideals effectively ensured that these individuals had to largely operate in isolation. In the process much resistance had been encountered, both in the pre- and post-independent phases of Namibian history. This raises the question as to whether the commitment to liberal values, as enshrined in the constitution, will survive the test of time.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_140</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_140">
+                <mets:FLocat xlink:href="https://namibian-studies.com/index.php/JNS/article/download/140/104" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_140" DMDID="DMD_rub-journals_140">
+            <mets:fptr FILEID="FILE0_rub-journals_140"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

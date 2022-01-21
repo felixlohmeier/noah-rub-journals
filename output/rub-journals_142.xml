@@ -1,0 +1,52 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_142">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>German South West Africa – A focus of research in cultural studies during the Wilhelmine Era? Research note</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Duchhardt, Heinz</displayForm>
+                        <namePart type="family">Duchhardt</namePart>
+                        <namePart type="given">Heinz</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2014-10-21</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">8</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">The Protectorate German South West Africa was the only German colony which attracted a noteworthy number of German settlers and hence had a special relationship to the German Reich. This research note asks whether or to what extent German South West Africa became a subject of research, a challenge for the humanists and cultural scientists between 1884 and 1915. How, if at all, did the humanities and cultural studies concerned with historical developments approach this new component of the German Reich? Was there an academic appropriation of the Protectorate by historians, ethnologists and linguists as was implied occasionally in contemporary writings?</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_142</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_142">
+                <mets:FLocat xlink:href="https://namibian-studies.com/index.php/JNS/article/download/142/106" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_142" DMDID="DMD_rub-journals_142">
+            <mets:fptr FILEID="FILE0_rub-journals_142"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

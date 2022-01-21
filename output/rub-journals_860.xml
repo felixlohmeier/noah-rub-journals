@@ -1,0 +1,63 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_860">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>“Oil, which shall not quit my head”</title>
+                        <subTitle>Jewish-Christian Interaction in Eleventh-century Baghdad</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Dubovick, Yosaif</displayForm>
+                        <namePart type="family">Dubovick</namePart>
+                        <namePart type="given">Yosaif</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2018-04-17</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">29</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">The last influential head of the Pumbadithan Academy in Baghdad, R. Hayya Gaʾon (939–1038), requested his Sicilian student R. Maṣliaḥ ben Eliah al-Baṣaq to inquire with the Nestorian Patriarch (Catholicos) about the Syriac definition of a word in Psalms (141:5). Upon R. Maṣliaḥ’s protests, R. Hayya rebuked his student, saying “our pious forefathers and ancestors would inquire regarding languages and their explanations from members of different religions, even from shepherds”. Despite scholarly treatment since 1855, a new, analytical reading of the text, based upon manuscripts, external sources, and comparative literature, provides fresh approaches towards understanding Jewish-Christian scholarly interaction in Baghdad at the turn of the eleventh century, particularly in comparison to those in Sicily. Additionally presented are new facets in Peshitta studies.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/er.v6.2018.95-123</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0">CC BY-NC-ND 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_860</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_860">
+                <mets:FLocat xlink:href="https://er.ceres.rub.de/index.php/ER/article/download/860/814" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="text/html" ID="FILE1_rub-journals_860">
+                <mets:FLocat xlink:href="https://er.ceres.rub.de/index.php/ER/article/download/860/8264" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_860" DMDID="DMD_rub-journals_860">
+            <mets:fptr FILEID="FILE0_rub-journals_860"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_860" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_860"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,62 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8469">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Multiple Linear Cryptanalysis Using Linear Statistics</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Lee, Jung-Keun</displayForm>
+                        <namePart type="family">Lee</namePart>
+                        <namePart type="given">Jung-Keun</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Kim, Woo-Hwan</displayForm>
+                        <namePart type="family">Kim</namePart>
+                        <namePart type="given">Woo-Hwan</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020-01-31</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">38</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">We propose an improved and extended approach of the multiple linear cryptanalysis presented by A. Biryukov et al. at CRYPTO 2004 that exploits dominant and statistically independent linear trails. While they presented only rank based attacks with success probability 1, we present threshold based attacks as well as rank based ones using newly introduced statistic that is a linear combination of the component statistics for the trails and is an approximation of the LLR statistic. The rank based Algorithm 1 style attack yields the same estimate for the gain with Biryukov et al.’s Algorithm 1 style attack. For each of the threshold based Algorithm 1 style and Algorithm 2 style attacks, we provide a formula for its advantage in terms of the correlations of the trails, the data complexity, and the success probability in case the aimed success probability is not 1. Combining the threshold based attacks with the rank based ones, we get attacks each of which has better estimates for the advantage compared to the threshold based one in case the aimed success probability is close to 1. We then extend the methods to get a new framework of multiple linear attacks exploiting close-to-dominant linear trails that may not be statistically independent. We apply the methods to full DES and get linear attacks using 4 linear trails with about the same or better complexity compared to those presented at ASIACRYPT 2017 that use 4 additional trails. With data complexity less than 241, the attack has better complexity than existing attacks on DES.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tosc.v2019.i4.369-406</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8469</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8469">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/8469/8035" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8469" DMDID="DMD_rub-journals_8469">
+            <mets:fptr FILEID="FILE0_rub-journals_8469"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

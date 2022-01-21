@@ -1,0 +1,62 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7431">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Governance, Politics, and Environmentalism in the Age of Mass Recreation</title>
+                        <subTitle>The Campaign Against ‘Village Lake Louise’</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Ingram, Darcy</displayForm>
+                        <namePart type="family">Ingram</namePart>
+                        <namePart type="given">Darcy</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Smart, Sarah</displayForm>
+                        <namePart type="family">Smart</namePart>
+                        <namePart type="given">Sarah</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2018-05-18</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">26</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">This article examines the successful environmental campaign against a massive ski resort development proposal known as ‘Village Lake Louise’ that was to be established in the 1970s in Banff National Park, Canada. Using postmaterialism and governance as conceptual lenses, the article presents this campaign as an early example of an environmental conflict that did not centre on primary resource extraction industries, for example forestry, mining, or hydroelectric development. At issue in this case was a growing recreation-based economy that drew on and reflected many of the same postmaterial values and perspectives that informed the environmentalists opposed to the project. In the process, the article demonstrates how the campaign against Village Lake Louise contributed to the institutionalisation of Canada’s environmental movement and to the development of a complex framework for environmental governance in that nation.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/mts.59.2018.129-154</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7431</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7431">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/7431/6603" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7431" DMDID="DMD_rub-journals_7431">
+            <mets:fptr FILEID="FILE0_rub-journals_7431"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,54 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7546">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Transnationale Parteienkooperationen in der politschen Praxis</title>
+                        <subTitle>Die Sozialistische Internationale im 20. und 21. Jahrhundert</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Zöpel, Christoph</displayForm>
+                        <namePart type="family">Zöpel</namePart>
+                        <namePart type="given">Christoph</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015-01-27</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">14</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">International cooperation of left parties has been developed in the 1860s due to the international agenda of the parties. In the 20th century the conflict between Communist and Social Democratic parties became more and more important. In 1951, in opposition to the Soviet dominated Communist Information Bureau (Cominforn), the Socialist International was reestablished by 34 predominantly European member parties. Links to non-European parties, mainly incurred in joint efforts to decolonization. Since 1976, under the chairmanship of Willy Brandt, the SI expanded purposefully in all regions of the world. The SI was a key player in the cold war – both due to the conflict with communist parties, as well as by the opposition to right-wing authoritarian systems and through contacts with the KPDSU. After the implosion of the communist parties in Eastern Europe, the SI supported the formation of social-democratic parties and fostered their integration into the social democratic party family, but failed to establish strong non-European member parties in the US, in India Abstracts 155 and in Brazil. Ideologically, the SI is focused on the post-1989 democratic and social globalization, on conflict mediation and on disarmament. Institutionally, the SI primarily becomes active in its bi-annual meetings of the Council which were attended by over 100 parties. The Council meetings are nodes in a network that can be used continuously for mutual assistance in case of elections, in national or international conflicts or even in preparing negotiations for the UN Security Council. The article examines in how far the international features of transnational party cooperation are shaped by peculiarities and specifics – also in comparison to the European wide party cooperation.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/mts.46.2011.97-110</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7546</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7546">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/7546/6718" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7546" DMDID="DMD_rub-journals_7546">
+            <mets:fptr FILEID="FILE0_rub-journals_7546"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

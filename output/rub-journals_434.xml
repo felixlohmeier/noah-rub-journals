@@ -1,0 +1,51 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_434">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Gregory Price Grieve &amp; Daniel Veidlinger (eds.)</title>
+                        <subTitle>Buddhism, the Internet and Digital Media. The Pixel and the Lotus</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Franco, Eli</displayForm>
+                        <namePart type="family">Franco</namePart>
+                        <namePart type="given">Eli</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2016-02-03</dateIssued>
+                    </originInfo>
+                    <abstract lang="eng">This contribution offers a review of:Gregory Price Grieve &amp;amp; Daniel Veidlinger (eds.): Buddhism, the Internet and Digital Media. The Pixel and the Lotus Routledge: New York/London, 2015. 232 pages, hardback: USD 125.00, ISBN: 978-0-415-72166-0.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <identifier type="doi">10.13154/er.v3.2016.XII-XVII</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_434</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_434">
+                <mets:FLocat xlink:href="https://er.ceres.rub.de/index.php/ER/article/download/434/389" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_434" DMDID="DMD_rub-journals_434">
+            <mets:fptr FILEID="FILE0_rub-journals_434"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

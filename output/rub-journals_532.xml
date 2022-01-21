@@ -1,0 +1,70 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_532">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Chosen-Key Distinguishers on 12-Round Feistel-SP and 11-Round Collision Attacks on Its Hashing Modes</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Dong, Xiaoyang</displayForm>
+                        <namePart type="family">Dong</namePart>
+                        <namePart type="given">Xiaoyang</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Wang, Xiaoyun</displayForm>
+                        <namePart type="family">Wang</namePart>
+                        <namePart type="given">Xiaoyun</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2016-12-01</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">20</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Since Knudsen and Rijmen proposed the known-key attacks in ASIACRYPT 2007, the open-key model becomes more and more popular. As the other component of the open-key model, chosen-key model was applied to the full attacks on AES-256 by Biryukov et al. in CRYPTO 2009. In this paper, we explore how practically the chosen-key model affect the real-world cryptography and show that 11-round generic Feistel-SP block cipher is no longer safe in its hashing modes (MMO and MP mode) as there exist collision attacks. This work improves Sasaki and Yasuda’s collision attacks by 2 rounds with two interesting techniques. First, we for the first time use the available degrees of freedom in the key to reduce the complexity of the inbound phase, which extends the previous 5-round inbound differential to a 7-round one. This results in a 12-round chosen-key distinguisher of Feistel-SP block cipher. Second, inspired by the idea of Wang et al., we construct collisions using two blocks. The rebound attack is used in the second compression function. We carefully balance the freedom of the first block and the complexity of the rebound attack, and extend the chosen-key attack to a 11-round collision attack on its hashing modes (MMO and MP mode).</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tosc.v2016.i1.13-32</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_532</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_532">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/532/476" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_rub-journals_532">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/532/7453" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_532" DMDID="DMD_rub-journals_532">
+            <mets:fptr FILEID="FILE0_rub-journals_532"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_532" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_532"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

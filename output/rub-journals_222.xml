@@ -1,0 +1,53 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_222">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Hans Coppi, Stefan Heinz (eds.)</title>
+                        <subTitle>Der vergessene Widerstand der Arbeiter. Gewerkschafter, Kommunisten, Sozialdemokraten, Trotzkisten, Anarchisten und Zwangsarbeiter, Berlin, Karl Dietz Verlag, 2012. 383 pp. (Geschichte des Kommunismus und Linkssozialismus.</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Bois, Marcel</displayForm>
+                        <namePart type="family">Bois</namePart>
+                        <namePart type="given">Marcel</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2014-05-28</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">4</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Hans Coppi, Stefan Heinz (eds.): Der vergessene Widerstand der Arbeiter. Gewerkschafter, Kommunisten, Sozialdemokraten, Trotzkisten, Anarchisten und Zwangsarbeiter [The Forgotten Workers’ Resistance. Trade Unionists, Communists, Social Democrats, Trotskyists, Anarchists, and Forced Labourers], Berlin, Karl Dietz Verlag, 2012. 383 pp. (Geschichte des Kommunismus und Linkssozialismus. 16). – ISBN 978-3320022648.Center for Research on Antisemitism, Technical University Berlin</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_222</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_222">
+                <mets:FLocat xlink:href="https://incs.ub.rub.de/index.php/INCS/article/download/222/180" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_222" DMDID="DMD_rub-journals_222">
+            <mets:fptr FILEID="FILE0_rub-journals_222"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

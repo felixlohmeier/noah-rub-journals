@@ -1,0 +1,95 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8394">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>SITM</title>
+                        <subTitle>See-In-The-Middle Side-Channel Assisted Middle Round Differential Cryptanalysis on SPN Block Ciphers</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Bhasin, Shivam</displayForm>
+                        <namePart type="family">Bhasin</namePart>
+                        <namePart type="given">Shivam</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Breier, Jakub</displayForm>
+                        <namePart type="family">Breier</namePart>
+                        <namePart type="given">Jakub</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Hou, Xiaolu</displayForm>
+                        <namePart type="family">Hou</namePart>
+                        <namePart type="given">Xiaolu</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Jap, Dirmanto</displayForm>
+                        <namePart type="family">Jap</namePart>
+                        <namePart type="given">Dirmanto</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Poussier, Romain</displayForm>
+                        <namePart type="family">Poussier</namePart>
+                        <namePart type="given">Romain</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Sim, Siang Meng</displayForm>
+                        <namePart type="family">Sim</namePart>
+                        <namePart type="given">Siang Meng</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2019-11-19</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">28</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Side-channel analysis constitutes a powerful attack vector against cryptographic implementations. Techniques such as power and electromagnetic side-channel analysis have been extensively studied to provide an efficient way to recover the secret key used in cryptographic algorithms. To protect against such attacks, countermeasure designers have developed protection methods, such as masking and hiding, to make the attacks harder. However, due to significant overheads, these protections are sometimes deployed only at the beginning and the end of encryption, which are the main targets for side-channel attacks.In this paper, we present a methodology for side-channel assisted differential cryptanalysis attack to target middle rounds of block cipher implementations. Such method presents a powerful attack vector against designs that normally only protect the beginning and end rounds of ciphers. We generalize the attack to SPN based ciphers and calculate the effort the attacker needs to recover the secret key. We provide experimental results on 8-bit and 32-bit microcontrollers. We provide case studies on state-of-the-art symmetric block ciphers, such as AES, SKINNY, and PRESENT. Furthermore, we show how to attack shuffling-protected implementations.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tches.v2020.i1.95-122</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8394</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8394">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/8394/7778" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8394" DMDID="DMD_rub-journals_8394">
+            <mets:fptr FILEID="FILE0_rub-journals_8394"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

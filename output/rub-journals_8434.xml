@@ -1,0 +1,53 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8434">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <nonSort>A </nonSort>
+                        <title>place of eclectic remembrance. The former German concentration camp on Namibia’s Shark Island</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Lehmann, Fabian</displayForm>
+                        <namePart type="family">Lehmann</namePart>
+                        <namePart type="given">Fabian</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2019-12-06</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">22</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Shark Island is a tranquil peninsula on the outskirts of the harbour town of Luderitz in Namibia’s south. It hosts a campsite that is popular with international tourists. It is also the location of the central memorial site of Luderitz and features an eclectic collection of memorials representing various times in the history of Namibia. By contrast, the history of the peninsula itself, which was used as a German concentration and extermination camp during the German Namibian War between 1904 and 1907, is all but ignored. In this paper, I first present an overview of the historical concentration camp, then analyse its current appearance focusing on the monuments on the central memorial site and discussing the extent to which the peninsula’s cruel history is represented there. Subsequently, I will introduce two works by Namibian artist Nicola Brandt, who confronts popular images of the Namibian landscape presented as empty and ahistorical with gloomy pictures that lead the viewer to histories rarely acknowledged. Her work demonstrates that the images produced by the Namibian tourism industry are hardly compatible with the urge to address a past with which one has not yet come to terms. In the end, I determine if Shark Island can, indeed, be understood as a lieu de mémoire in the sense of Pierre Nora.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8434</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8434">
+                <mets:FLocat xlink:href="https://namibian-studies.com/index.php/JNS/article/download/8434/7808" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8434" DMDID="DMD_rub-journals_8434">
+            <mets:fptr FILEID="FILE0_rub-journals_8434"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

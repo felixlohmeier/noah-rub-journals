@@ -1,0 +1,62 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8753">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Increasing Precision of Division Property</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Derbez, Patrick</displayForm>
+                        <namePart type="family">Derbez</namePart>
+                        <namePart type="given">Patrick</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Fouque, Pierre-Alain</displayForm>
+                        <namePart type="family">Fouque</namePart>
+                        <namePart type="given">Pierre-Alain</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020-12-10</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">22</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">In this paper we propose new techniques related to division property. We describe for the first time a practical algorithm for computing the propagation tables of 16-bit Super-Sboxes, increasing the precision of the division property by removing a lot of false division trails. We also improve the complexity of the procedure introduced by Lambin et al. (Design, Codes and Cryptography, 2020) to extend a cipher with linear mappings and show how to decrease the number of transitions to look for. While search procedures for integral distinguishers most often rely on MILP or SAT solvers for their ease of programming the propagation constraints, such generic solvers can only handle small 4/8-bit Sboxes. Thus we developed an ad-hoc tool handling larger Sboxes and all the improvements described in the paper. As a result, we found new integral distinguishers on SKINNY-64, HIGHT and Midori-64.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.46586/tosc.v2020.i4.173-194</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8753</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8753">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/8753/8351" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8753" DMDID="DMD_rub-journals_8753">
+            <mets:fptr FILEID="FILE0_rub-journals_8753"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,54 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_624">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Accomplishing Autonomous Driving</title>
+                        <subTitle>An Unfinished Description</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Both, Göde</displayForm>
+                        <namePart type="family">Both</namePart>
+                        <namePart type="given">Göde</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2017-05-24</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">7</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">In his contribution on Accomplishing Autonomous Driving: An unfinished Description Göde Both stresses the multiplicity of possible answers to what his research object might be: an autonomous or self-driving car and its related practices. Drawing on ethnographic descriptions Both questions the definition of autonomy in this context in which there is a constant oscillation between manual and autonomous driving. This leads to a conceptualization of autonomous driving as a collective achievement of heterogeneous elements. Both thus argues for the multitude of spatial, temporal and personal configurations and distributions across related objects, humans and practices.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/eoo.1.2017.29-35</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_624</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_624">
+                <mets:FLocat xlink:href="https://ojs.ub.rub.de/index.php/EOO/article/download/624/592" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_624" DMDID="DMD_rub-journals_624">
+            <mets:fptr FILEID="FILE0_rub-journals_624"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

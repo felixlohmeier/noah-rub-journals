@@ -1,0 +1,78 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8391">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Methodology for Efficient CNN Architectures in Profiling Attacks</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Zaid, Gabriel</displayForm>
+                        <namePart type="family">Zaid</namePart>
+                        <namePart type="given">Gabriel</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Bossuet, Lilian</displayForm>
+                        <namePart type="family">Bossuet</namePart>
+                        <namePart type="given">Lilian</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Habrard, Amaury</displayForm>
+                        <namePart type="family">Habrard</namePart>
+                        <namePart type="given">Amaury</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Venelli, Alexandre</displayForm>
+                        <namePart type="family">Venelli</namePart>
+                        <namePart type="given">Alexandre</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2019-11-19</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">36</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">The side-channel community recently investigated a new approach, based on deep learning, to significantly improve profiled attacks against embedded systems. Previous works have shown the benefit of using convolutional neural networks (CNN) to limit the effect of some countermeasures such as desynchronization. Compared with template attacks, deep learning techniques can deal with trace misalignment and the high dimensionality of the data. Pre-processing is no longer mandatory. However, the performance of attacks depends to a great extent on the choice of each hyperparameter used to configure a CNN architecture. Hence, we cannot perfectly harness the potential of deep neural networks without a clear understanding of the network’s inner-workings. To reduce this gap, we propose to clearly explain the role of each hyperparameters during the feature selection phase using some specific visualization techniques including Weight Visualization, Gradient Visualization and Heatmaps. By highlighting which features are retained by filters, heatmaps come in handy when a security evaluator tries to interpret and understand the efficiency of CNN. We propose a methodology for building efficient CNN architectures in terms of attack efficiency and network complexity, even in the presence of desynchronization. We evaluate our methodology using public datasets with and without desynchronization. In each case, our methodology outperforms the previous state-of-the-art CNN models while significantly reducing network complexity. Our networks are up to 25 times more efficient than previous state-of-the-art while their complexity is up to 31810 times smaller. Our results show that CNN networks do not need to be very complex to perform well in the side-channel context.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tches.v2020.i1.1-36</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8391</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8391">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/8391/7787" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8391" DMDID="DMD_rub-journals_8391">
+            <mets:fptr FILEID="FILE0_rub-journals_8391"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,86 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_9070">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Low-Latency Keccak at any Arbitrary Order</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Zarei, Sara</displayForm>
+                        <namePart type="family">Zarei</namePart>
+                        <namePart type="given">Sara</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Rezaei Shahmirzadi, Aein</displayForm>
+                        <namePart type="family">Rezaei Shahmirzadi</namePart>
+                        <namePart type="given">Aein</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Soleimany, Hadi</displayForm>
+                        <namePart type="family">Soleimany</namePart>
+                        <namePart type="given">Hadi</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Salarifard, Raziyeh</displayForm>
+                        <namePart type="family">Salarifard</namePart>
+                        <namePart type="given">Raziyeh</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Moradi, Amir</displayForm>
+                        <namePart type="family">Moradi</namePart>
+                        <namePart type="given">Amir</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2021-08-11</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">24</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Correct application of masking on hardware implementation of cryptographic primitives necessitates the instantiation of registers in order to achieve the non-completeness (commonly said to stop the propagation of glitches). This sometimes leads to a high latency overhead, making the implementation not necessarily suitable for the underlying application. As a concrete example, this holds for Keccak. Application of d + 1 Domain Oriented Masking (DOM) on a round-based implementation of Keccak leads to the introduction of two register stages per round, i.e., two times higher latency. On the other hand, Rhythmic-Keccak, introduced in CHES 2018, unrolls two rounds to half the latency compared to an unprotected ordinary round-based implementation. To that end, td + 1 masking is used which requires a notable area, and – apart from the difficulty to construct – its extension to higher orders seems beyond the bounds of feasibility.In this paper, we focus on d + 1 masking and introduce a methodology which enables us to stay with the latency of an unprotected round-based implementation, i.e., one register stage per round. While being secure under glitch-extended probing model, we provide a general design where the desired security order can be easily adjusted without any effect on the above-given latency. Compared to the Rhythmic-Keccak, the synthesis results show that our first-order design is able to accomplish the entire operations of Keccak-f[200] in the same period of time while decreasing the area by 74.5%. Notably, our implementations achieve around 30% less delay compared to the corresponding original DOM-Keccak designs.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.46586/tches.v2021.i4.388-411</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_9070</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_9070">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/9070/8654" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_9070" DMDID="DMD_rub-journals_9070">
+            <mets:fptr FILEID="FILE0_rub-journals_9070"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

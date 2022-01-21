@@ -1,0 +1,54 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_9406">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Dealing with Violent Protest in West Germany and the Netherlands </title>
+                        <subTitle>Societal Dynamics of Left-Wing Political Violence in the 1960s and 1970s</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Pekelder, Jacco</displayForm>
+                        <namePart type="family">Pekelder</namePart>
+                        <namePart type="given">Jacco</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2021-10-31</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">21</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Political violence is a specific category of participation that is frowned upon in most societies. This article compares how two western-style post war democracies, West Germany and the Netherlands, dealt with violent politics from the left in the 1960s and 1970s. On the macro level, a lack of integrative mechanisms in the West German political system fostered a radicalization that the Netherlands was able to avoid. On the mesolevel of intra-movement dynamics, this also produced different outcomes. While West German radicals such as the founders of the left-wing terrorist Red Army Faction were able to enhance their reputations and find sympathy and support within the broad new left movement family through an embrace of the idea and practice of armed struggle, similar Dutch groups found no footing. Still, it would be a foregone conclusion to deem the Netherlands immune to the kinds of counter-productive policies towards unwelcome forms of political participation that befell West Germany. When the Netherlands was put to the ultimate stress test in 1977 –1978 during a direct confrontation with the RAF, its police, justice system and political apparatus proved nearly as vulnerable to the negative societal dynamics of political violence as their counterparts to the East.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.46586/mts.66.2021.21-41</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_9406</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_9406">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/9406/8954" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_9406" DMDID="DMD_rub-journals_9406">
+            <mets:fptr FILEID="FILE0_rub-journals_9406"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

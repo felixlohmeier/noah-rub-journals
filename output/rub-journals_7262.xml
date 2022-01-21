@@ -1,0 +1,55 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7262">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Contested Space in a Contested Border Area</title>
+                        <subTitle>The Sint Jan in ‘s Hertogenbosch - Or</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Esser, Raingard</displayForm>
+                        <namePart type="family">Esser</namePart>
+                        <namePart type="given">Raingard</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2018-07-27</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">32</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">This article investigates contemporary perceptions of church space in the border town of ‘s Hertogenbosch in the aftermath of the Peace of Westphalia. Through a&amp;nbsp;close reading of two chorographies, the study sheds light on ways in which historians can try to grasp contemporary views on what mattered in a church interior in the contested border&amp;nbsp;areas of the Generality Lands, regions in the Dutch Republic, where the Calvinist political elite&amp;nbsp;remained a minority. The study alerts us to the temporality of changes to church interiors and&amp;nbsp;its embeddedness in local and regional circumstances.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/er.v7.2018.46-77</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/">CC BY-NC-ND 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7262</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7262">
+                <mets:FLocat xlink:href="https://er.ceres.rub.de/index.php/ER/article/download/7262/6440" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7262" DMDID="DMD_rub-journals_7262">
+            <mets:fptr FILEID="FILE0_rub-journals_7262"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

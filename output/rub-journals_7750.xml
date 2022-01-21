@@ -1,0 +1,53 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7750">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Heinz Brandt – Ein streitbarer Intellektueller und die IG Metall</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Andresen, Knud</displayForm>
+                        <namePart type="family">Andresen</namePart>
+                        <namePart type="given">Knud</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015-01-14</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">15</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Heinz Brandt (1909–1986), a jewish-born socialist, worked since 1959 as editorial journalist for the “metall”, the official magazine for the members of the trade-union IG Metall. Brandts life and work is an example for a part of the labour movement, which tried to keep up the emancipatoric and even utopistic horizon of liberation from a capitalistic society. Brandt, who spent ten years in prison and concentration-camps in Nazi-Germany, fled from GDR in 1958. He was kidnapped in the GDR in 1961. An international campaign for his release had success in 1964.After the release, Brandt tried to work for a human socialism, which was strongly inspired by his grand-cousin Erich Fromms ideas of a Being-society instead of a Having-Society. In the seventies he played a prominent role in the new social movements and in undogmatical leftwing critics in the trade unions, especially against the civil use of nuclear power. This prominence brought him in conflict with the trade union. This attitude was strongly noncompatible with the institutional character of the west-german trade union, nonetheless of the emancipatoric horizon, specially the IG Metall. As prominent trade unionist and active writer, he had power of discourse.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/mts.35.2006.121-135</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7750</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7750">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/7750/6922" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7750" DMDID="DMD_rub-journals_7750">
+            <mets:fptr FILEID="FILE0_rub-journals_7750"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

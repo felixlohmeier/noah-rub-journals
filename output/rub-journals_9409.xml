@@ -1,0 +1,53 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_9409">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Non-Citizens Protests in Germany since the 1980s</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Alexopoulou, Maria</displayForm>
+                        <namePart type="family">Alexopoulou</namePart>
+                        <namePart type="given">Maria</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2021-10-31</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">35</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">This article focuses on three specific episodes of non-citizen protests in the Federal Republic&amp;nbsp;of Germany. The common characteristic of these protests, fought out by different&amp;nbsp;groups in different contexts and at different times, was a “claim to the political,” which&amp;nbsp;were made visible through a demonstration of a precarious civil rights status. Embedded&amp;nbsp;in a long history of racial knowledge about the German and its Other, these migrant protests&amp;nbsp;indicate how essential “performative forms of power” are for individuals and groups&amp;nbsp;without the specific political rights that remain the prerogative of nation-bound citizens.&amp;nbsp;Special attention is paid to transgressions that delegitimized these non-citizen protests&amp;nbsp;even in the eyes of some of their supporters and to actions that are considered illegal by&amp;nbsp;established law, and are thus classified as unwelcome. Instead of providing a closed narrative&amp;nbsp;or recounting the history of migrant protests, the goal here is to add more pieces&amp;nbsp;to the unwritten history of the (ongoing) migrant civil rights movement in Germany.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.46586/mts.66.2021.53-87</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_9409</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_9409">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/9409/8951" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_9409" DMDID="DMD_rub-journals_9409">
+            <mets:fptr FILEID="FILE0_rub-journals_9409"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

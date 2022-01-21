@@ -1,0 +1,53 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7253">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Pre-colonial and postcolonial identity formations in Namibia</title>
+                        <subTitle>an exploration of the origin of Nehale lyaMpingana’s dualism</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Amupanda, Job Shipululo</displayForm>
+                        <namePart type="family">Amupanda</namePart>
+                        <namePart type="given">Job Shipululo</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2018-07-06</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">21</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Nehale lyaMpingana is not only one of the best-known historical figures in Aandonga history, he is one of the most celebrated figures in the history of anti-colonialism in Namibia. Despite being such a well-known historical figure, there is still some confusion as to his identity. He is often referred to as a ‘King’ and/or ‘Chief’ on the one hand, and ‘warrior’ on the other. This confusion has prevailed not only amongst ordinary people but is also to be found in state institutions and academic historical writings. This article explores the origin of lyaMpingana’s dual identity by looking at identity formation in pre-colonial and post-colonial Namibia. In precolonial and colonial Namibia Nehale lyaMpingana was simply known as a member of the Aakwanekamba family, the Ondonga royal family, and as a fearless warrior who fought against the colonial forces. In post-colonial Namibia, the state, and its principal officials such as the President, used their constitutional powers and relevant laws to bestow upon Nehale lyaMpingana the titles of ‘King’ or ‘Chief’. The evidence, particularly from the Aandonga customs, shows that Nehale lyaMpingana was never a ‘King’ or ‘Chief’ of the Aandonga. The article further demonstrates the state’s monopoly on national identity formation in post-independence Namibia, sometimes to the exclusion and suppression of indigenous communities’ positions and customs.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7253</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7253">
+                <mets:FLocat xlink:href="https://namibian-studies.com/index.php/JNS/article/download/7253/6434" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7253" DMDID="DMD_rub-journals_7253">
+            <mets:fptr FILEID="FILE0_rub-journals_7253"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

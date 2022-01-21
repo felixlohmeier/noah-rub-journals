@@ -1,0 +1,54 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7744">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Hans Gottfurcht</title>
+                        <subTitle>Ein gewerkschaftlicher Handlungsreisender</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Bitzegeio, Ursula</displayForm>
+                        <namePart type="family">Bitzegeio</namePart>
+                        <namePart type="given">Ursula</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015-01-14</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">16</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">The political participation of trade unionists in post-war Germany politics has already not been pointed out. Within the representations of the young Federal Republic of Germany, the leader of the trade unions are often out of the question, although the design of the German Trade Union Federation had been such an exceptional factor for the re-establishment of Democracy in Germany. The biographical essay will introduce Hans Gottfurcht (1896–1982), who was the chairman of the national group of German trade unionists in British exile during the Second World War. The proposals of Hans Gottfurcht and the London group, in particular the setting up of industrial unions, based on the principles of voluntary membership and political independence, have made an important contribution to the re-organisation of the trade union movement in Germany.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/mts.35.2006.29-44</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7744</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7744">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/7744/6916" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7744" DMDID="DMD_rub-journals_7744">
+            <mets:fptr FILEID="FILE0_rub-journals_7744"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

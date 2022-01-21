@@ -1,0 +1,143 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8733">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Polynomial Multiplication in NTRU Prime</title>
+                        <subTitle>Comparison of Optimization Strategies on Cortex-M4</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Alkim, Erdem</displayForm>
+                        <namePart type="family">Alkim</namePart>
+                        <namePart type="given">Erdem</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Cheng, Dean Yun-Li</displayForm>
+                        <namePart type="family">Cheng</namePart>
+                        <namePart type="given">Dean Yun-Li</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Chung, Chi-Ming Marvin</displayForm>
+                        <namePart type="family">Chung</namePart>
+                        <namePart type="given">Chi-Ming Marvin</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Evkan, Hülya</displayForm>
+                        <namePart type="family">Evkan</namePart>
+                        <namePart type="given">Hülya</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Huang, Leo Wei-Lun</displayForm>
+                        <namePart type="family">Huang</namePart>
+                        <namePart type="given">Leo Wei-Lun</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Hwang, Vincent</displayForm>
+                        <namePart type="family">Hwang</namePart>
+                        <namePart type="given">Vincent</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Li, Ching-Lin Trista</displayForm>
+                        <namePart type="family">Li</namePart>
+                        <namePart type="given">Ching-Lin Trista</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Niederhagen, Ruben</displayForm>
+                        <namePart type="family">Niederhagen</namePart>
+                        <namePart type="given">Ruben</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Shih, Cheng-Jhih</displayForm>
+                        <namePart type="family">Shih</namePart>
+                        <namePart type="given">Cheng-Jhih</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Wälde, Julian</displayForm>
+                        <namePart type="family">Wälde</namePart>
+                        <namePart type="given">Julian</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Yang, Bo-Yin</displayForm>
+                        <namePart type="family">Yang</namePart>
+                        <namePart type="given">Bo-Yin</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020-12-03</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">22</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">This paper proposes two different methods to perform NTT-based polynomial multiplication in polynomial rings that do not naturally support such a multiplication. We demonstrate these methods on the NTRU Prime key-encapsulation mechanism (KEM) proposed by Bernstein, Chuengsatiansup, Lange, and Vredendaal, which uses a polynomial ring that is, by design, not amenable to use with NTT. One of our approaches is using Good’s trick and focuses on speed and supporting more than one parameter set with a single implementation. The other approach is using a mixed radix NTT and focuses on the use of smaller multipliers and less memory. On a ARM Cortex-M4 microcontroller, we show that our three NTT-based implementations, one based on Good’s trick and two mixed radix NTTs, provide between 32% and 17% faster polynomial multiplication. For the parameter-set ntrulpr761, this results in between 16% and 9% faster total operations (sum of key generation, encapsulation, and decapsulation) and requires between 15% and 39% less memory than the current state-of-the-art NTRU Prime implementation on this platform, which is using Toom-Cook-based polynomial multiplication.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.46586/tches.v2021.i1.217-238</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8733</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8733">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/8733/8333" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="" ID="FILE1_rub-journals_8733">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/8733/8602" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8733" DMDID="DMD_rub-journals_8733">
+            <mets:fptr FILEID="FILE0_rub-journals_8733"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_8733" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_8733"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

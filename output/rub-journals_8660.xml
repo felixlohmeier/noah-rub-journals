@@ -1,0 +1,54 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8660">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <nonSort>The </nonSort>
+                        <title>(Trans)National Mobilisation of Sámi Women in Norway</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Halsaa, Beatrice</displayForm>
+                        <namePart type="family">Halsaa</namePart>
+                        <namePart type="given">Beatrice</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020-07-10</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">27</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">This article explores how the Norwegian Sámi women’s movement developed at the crossroad of indigenous, anti-racist, and women’s movements. How did Sámi women negotiate feminist and indigenous rights, and in what ways did they frame the three Nordic Forum conferences as opportunities for activism or threats? The article accounts for the making of the movement since the 1970s, and explores its’ presence/ absence during the three specific Nordic women’s conferences, the Nordic Forum of 1988, 1994 and 2014. In what ways were the Nordic Forums framed as opportunities for activism, and what kind of new actors and institutional logics were produced (or not) in relation to the three events? The article illuminates how the political opportunity structures differed across time, and how Sámi feminists framed them and took advantage of them. The analysis is inspired by post-colonial and indigenous feminist theories, and firstly examines what enabled Sámi women to organise on their own, secondly it explores how alliance formations played into the movements’ startling presence at the two first Nordic Forums, and its absence from the last one. The analysis draws on new empirical material, such as extensive archival work and semi-structured interviews with Sámi women, stakeholders and participants in the three conferences. Methodological considerations of insider and outsider dynamics lend support to the relevance of postcolonial and indigenous feminist theories in research practice, but also critically question indigenous epistemology.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/mts.63.2020.119-145</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8660</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8660">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/8660/8215" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8660" DMDID="DMD_rub-journals_8660">
+            <mets:fptr FILEID="FILE0_rub-journals_8660"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

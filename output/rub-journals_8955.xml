@@ -1,0 +1,63 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8955">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Dissolving the self</title>
+                        <subTitle>Active inference, psychedelics, and ego-dissolution</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Deane, George</displayForm>
+                        <namePart type="family">Deane</namePart>
+                        <namePart type="given">George</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020-03-24</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">27</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Psychedelic drugs such as psilocybin, LSD and DMT are known to induce powerful alterations in phenomenology. Perhaps of most philosophical and scientific interest is their capacity to disrupt and even “dissolve” one of the most primary features of normal experience: that of being a self. Such “peak” or “mystical” experiences are of increasing interest for their potentially transformative therapeutic value. While empirical research is underway, a theoretical conception of the mechanisms underpinning these experiences remains elusive. In the following paper, psychedelic-induced ego-dissolution is accounted for within an active inference framework, as a collapse in the “temporal thickness” of an agent’s deep temporal model, as a result of lowered precision on high-level priors. The argument here is composed of three moves: first, a view of the self-model is proposed as arising within a temporally deep generative model of an embodied organism navigating an affordance landscape in the service of allostasis. Next, a view of the action of psychedelics as lowering the precision of high-level priors within the generative model is unpacked in terms of a high Bayesian learning rate. Finally, the relaxation of high-level priors is argued to cause a “collapse” in the temporal thickness of the generative model, resulting in a collapse in the self-model and a loss of the ordinary sense of being a self. This account has implications for our understanding of ordinary self-consciousness and disruptions in self-consciousness present in psychosis, autism, depression, and dissociative disorders. The philosophical, theoretical and therapeutic implications of this account are touched upon.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.33735/phimisci.2020.I.39</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8955</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8955">
+                <mets:FLocat xlink:href="https://philosophymindscience.org/index.php/phimisci/article/download/8955/8733" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="text/html" ID="FILE1_rub-journals_8955">
+                <mets:FLocat xlink:href="https://philosophymindscience.org/index.php/phimisci/article/download/8955/8734" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8955" DMDID="DMD_rub-journals_8955">
+            <mets:fptr FILEID="FILE0_rub-journals_8955"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_8955" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_8955"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

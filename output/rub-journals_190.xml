@@ -1,0 +1,51 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_190">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Manav Ratti</title>
+                        <subTitle>The Postsecular Imagination. Postcolonialism, Religion and Literature</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Gruber-Scheller, Bettina</displayForm>
+                        <namePart type="family">Gruber-Scheller</namePart>
+                        <namePart type="given">Bettina</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015-04-22</dateIssued>
+                    </originInfo>
+                    <abstract lang="eng">This contribution offers a review of Manav Ratti&apos;s bookThe Postsecular Imagination.Postcolonialism, Religion and Literature.Routledge Research in Postcolonial Literatures, Vol. 45.New York &amp;amp; Oxfordshire: Routledge, 2013.242 pages, $48.95, ISBN: 978-1138822375 (paperback).</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <identifier type="doi">10.13154/er.v2.2015.XXIX-XXXIV</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_190</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_190">
+                <mets:FLocat xlink:href="https://er.ceres.rub.de/index.php/ER/article/download/190/150" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_190" DMDID="DMD_rub-journals_190">
+            <mets:fptr FILEID="FILE0_rub-journals_190"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

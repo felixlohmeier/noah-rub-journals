@@ -1,0 +1,52 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7354">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Extract of S. Garforth Pearson’s Diary for the Kaokoveldt Expedition, 1895–1896</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Voeltz, Richard A.</displayForm>
+                        <namePart type="family">Voeltz</namePart>
+                        <namePart type="given">Richard A.</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2018-12-12</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">24</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">S. Garforth Pearson was a mining engineer, and an employee of the South West Africa Company, Ltd., an Anglo-German mining and concessionary company founded in 1892 and operating in what was then the German colony of South West Africa. He kept a diary that gives an account of the northern part of the Kaokoveldt expedition that his company undertook in 1895–1896. Pearson was sent by the company to explore the Kaokoveldt region for any mineral resources, particularly gold, and that mineral was not only the chief object of his searches, but it also occupied his imagination as well. His careful, and frequently arrogant, narrative presented here for the first time is revealing about the conditions of the European occupation of Namibia in the late nineteenth century. It includes important information on ‘trekking’, the geography and wildlife of Namibia, gold mining frauds, white traders, the German colonial soldier, European towns, European-Boer, and European-African ‘race relations’ in the very young German colony of South West Africa.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7354</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7354">
+                <mets:FLocat xlink:href="https://namibian-studies.com/index.php/JNS/article/download/7354/6524" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7354" DMDID="DMD_rub-journals_7354">
+            <mets:fptr FILEID="FILE0_rub-journals_7354"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

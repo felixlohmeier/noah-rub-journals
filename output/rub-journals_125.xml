@@ -1,0 +1,52 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_125">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>“We are going to put South West Africa on the map this time.” The homogenisation and differentiation of Namibian tourist spaces</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Breitwieser, Lukas</displayForm>
+                        <namePart type="family">Breitwieser</namePart>
+                        <namePart type="given">Lukas</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2014-01-31</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">21</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Drawing on elements of spatial theory, this article examines the establishment and development of Namibian tourism. Current literature on Namibian tourism covers the period since the Second World War only. This article seeks to fill the gaps between the experience of the early explorers and the formal beginning of Namibian tourism in the 1950s. Travel planning, guide books, travel brochures, advertising and publicity, as well as the congress of the “South African Publicity Association” offer a variety of perspectives for the period between the 1920s and the 1950s. Namibian tourist spaces were homogenised and - at the same time - differentiated. These spaces do not have to show compelling common characteristics with real spaces on site, but are idealised tourist dream worlds, temporarily realised tourist utopias. I n tourism, safe spaces and spaces of adventure, or spaces of modernity and wilderness, are no longer seen as opposites. Thus, tourism has made possible the imagination and construction of more and more tourist spaces and forged the perception of today’s Namibia as a tourist destination.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_125</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_125">
+                <mets:FLocat xlink:href="https://namibian-studies.com/index.php/JNS/article/download/125/92" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_125" DMDID="DMD_rub-journals_125">
+            <mets:fptr FILEID="FILE0_rub-journals_125"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

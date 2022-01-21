@@ -1,0 +1,87 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8589">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>ISA Extensions for Finite Field Arithmetic</title>
+                        <subTitle>Accelerating Kyber and NewHope on RISC-V</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Alkim, Erdem</displayForm>
+                        <namePart type="family">Alkim</namePart>
+                        <namePart type="given">Erdem</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Evkan, Hülya</displayForm>
+                        <namePart type="family">Evkan</namePart>
+                        <namePart type="given">Hülya</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Lahr, Norman</displayForm>
+                        <namePart type="family">Lahr</namePart>
+                        <namePart type="given">Norman</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Niederhagen, Ruben</displayForm>
+                        <namePart type="family">Niederhagen</namePart>
+                        <namePart type="given">Ruben</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Petri, Richard</displayForm>
+                        <namePart type="family">Petri</namePart>
+                        <namePart type="given">Richard</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020-06-19</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">24</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">We present and evaluate a custom extension to the RISC-V instruction set for finite field arithmetic. The result serves as a very compact approach to software-hardware co-design of PQC implementations in the context of small embedded processors such as smartcards. The extension provides instructions that implement finite field operations with subsequent reduction of the result. As small finite fields are used in various PQC schemes, such instructions can provide a considerable speedup for an otherwise software-based implementation. Furthermore, we create a prototype implementation of the presented instructions for the extendable VexRiscv core, integrate the result into a chip design, and evaluate the design on two different FPGA platforms. The effectiveness of the extension is evaluated by using the instructions to optimize the Kyber and NewHope key-encapsulation schemes. To that end, we also present an optimized software implementation for the standard RISC-V instruction set for the polynomial arithmetic underlying those schemes, which serves as basis for comparison. Both variants are tuned on an assembler level to optimally use the processor pipelines of contemporary RISC-V CPUs. The result shows a speedup for the polynomial arithmetic of up to 85% over the basic software implementation. Using the custom instructions drastically reduces the code and data size of the implementation without introducing runtime-performance penalties at a small cost in circuit size. When used in the selected schemes, the custom instructions can be used to replace a full general purpose multiplier to achieve very compact implementations.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tches.v2020.i3.219-242</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8589</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8589">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/8589/8156" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8589" DMDID="DMD_rub-journals_8589">
+            <mets:fptr FILEID="FILE0_rub-journals_8589"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

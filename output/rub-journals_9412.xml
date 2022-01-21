@@ -1,0 +1,55 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_9412">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <nonSort>The </nonSort>
+                        <title>History of Historiography as a Form of Disciplinary Self-Reflection</title>
+                        <subTitle>In Memoriam</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Antolović, Michael</displayForm>
+                        <namePart type="family">Antolović</namePart>
+                        <namePart type="given">Michael</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2021-10-31</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">18</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">This article addresses the theoretical and methodological conceptions of Georg G.&amp;nbsp;Iggers (1926 –2017) in the context of his work on the history of historiography. In&amp;nbsp;addition to the autobiography written by Wilma and George Iggers, the present study&amp;nbsp;focuses on the main subjects of his research: the emergence and development of German&amp;nbsp;historical scholarship (Geschichtswissenschaft ) from Leopold Ranke to the present,&amp;nbsp;the role of the Enlightenment in the constitution of “scientific historiography,” different&amp;nbsp;forms of New History in the twentieth century, the relationship between Marxism&amp;nbsp;and historiography, and the challenge to historical writing posed by postmodernism&amp;nbsp;and globalization. Moreover, special attention is given to Iggers’ ideas as one of the&amp;nbsp;foremost engaged public intellectuals.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.46586/mts.66.2021.125-142</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_9412</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_9412">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/9412/8948" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_9412" DMDID="DMD_rub-journals_9412">
+            <mets:fptr FILEID="FILE0_rub-journals_9412"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

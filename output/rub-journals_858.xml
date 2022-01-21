@@ -1,0 +1,70 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_858">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Historical Engagements and Interreligious Encounters - Jews and Christians in Premodern and Early Modern Asia and Africa</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Cuffel, Alexandra</displayForm>
+                        <namePart type="family">Cuffel</namePart>
+                        <namePart type="given">Alexandra</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Gamliel, Ophira</displayForm>
+                        <namePart type="family">Gamliel</namePart>
+                        <namePart type="given">Ophira</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2018-04-17</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">33</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Introduction to all essays of the special issue Entangled Histories and Interreligious Encounters - Jews and Christians in Premodern and Early Modern Asia and Africa that is based on the proceedings of the workshop Eastern Jews and Christians in Interaction and Exchange in the Islamic World and Beyond: A Comparative View held in Jerusalem and Raʿanana in June 2016.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <identifier type="doi">10.13154/er.v6.2018.1-33</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0">CC BY-NC-ND 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_858</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_858">
+                <mets:FLocat xlink:href="https://er.ceres.rub.de/index.php/ER/article/download/858/812" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="text/html" ID="FILE1_rub-journals_858">
+                <mets:FLocat xlink:href="https://er.ceres.rub.de/index.php/ER/article/download/858/8270" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_858" DMDID="DMD_rub-journals_858">
+            <mets:fptr FILEID="FILE0_rub-journals_858"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_858" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_858"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

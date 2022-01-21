@@ -1,0 +1,54 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7494">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Joseph Berger</title>
+                        <subTitle>Communist Activist in Palestine and Victim of Stalinism (1904–1978)</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Kessler, Mario</displayForm>
+                        <namePart type="family">Kessler</namePart>
+                        <namePart type="given">Mario</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015-02-02</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">20</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">The Polish-born Joseph Berger took part in the founding of the Palestine Communist Party. The party had to operate under illegal conditions. Berger became deputy secretary of the party that joined the Comintern in March 1924. After the first Arab-Jewish civil war in August 1929 he became secretary of the party, but was, in 1930, expelled from the country by British mandate authorities. In Berlin he worked for the League against Imperialism. In 1932 he headed the Comintern’s Near Eastern Department in Moscow. In 1934 he was dismissed from his post and expelled from the party without any given reason. In January 1935 Berger was arrested and charged with being a Trotskyite agitator. He refused to “confess” and spent the next sixteen years in various Siberian labor camps. In 1951, he was released, only to be banished to life-long exile in Siberia. His wife and his son were also persecuted on his account, and they could see him only when they were allowed to visit him in Siberia. In 1956 Berger was officially rehabilitated and allowed to leave the Soviet Union for Poland. Soon the family decided to immigrate to Israel. Berger was invited to give lectures at Bar Ilan University. Later the university appointed him as an associate professor of political science. Berger had completely abandoned his communist faith and had become religious. He nevertheless considered himself left-leaning. In the late 1960s he dictated his memoirs to friends about his time in Soviet camps and prisons.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/mts.51.2014.159-178</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7494</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7494">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/7494/6666" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7494" DMDID="DMD_rub-journals_7494">
+            <mets:fptr FILEID="FILE0_rub-journals_7494"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

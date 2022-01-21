@@ -1,0 +1,86 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_9077">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Batching CSIDH Group Actions using AVX-512</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Cheng, Hao</displayForm>
+                        <namePart type="family">Cheng</namePart>
+                        <namePart type="given">Hao</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Fotiadis, Georgios</displayForm>
+                        <namePart type="family">Fotiadis</namePart>
+                        <namePart type="given">Georgios</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Großschädl, Johann</displayForm>
+                        <namePart type="family">Großschädl</namePart>
+                        <namePart type="given">Johann</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Ryan, Peter Y. A.</displayForm>
+                        <namePart type="family">Ryan</namePart>
+                        <namePart type="given">Peter Y. A.</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Rønne, Peter B.</displayForm>
+                        <namePart type="family">Rønne</namePart>
+                        <namePart type="given">Peter B.</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2021-08-11</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">32</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Commutative Supersingular Isogeny Diffie-Hellman (or CSIDH for short) is a recently-proposed post-quantum key establishment scheme that belongs to the family of isogeny-based cryptosystems. The CSIDH protocol is based on the action of an ideal class group on a set of supersingular elliptic curves and comes with some very attractive features, e.g. the ability to serve as a “drop-in” replacement for the standard elliptic curve Diffie-Hellman protocol. Unfortunately, the execution time of CSIDH is prohibitively high for many real-world applications, mainly due to the enormous computational cost of the underlying group action. Consequently, there is a strong demand for optimizations that increase the efficiency of the class group action evaluation, which is not only important for CSIDH, but also for related cryptosystems like the signature schemes CSI-FiSh and SeaSign. In this paper, we explore how the AVX-512 vector extensions (incl. AVX-512F and AVX-512IFMA) can be utilized to optimize constant-time evaluation of the CSIDH-512 class group action with the goal of, respectively, maximizing throughput and minimizing latency. We introduce different approaches for batching group actions and computing them in SIMD fashion on modern Intel processors. In particular, we present a hybrid batching technique that, when combined with optimized (8 × 1)-way prime-field arithmetic, increases the throughput by a factor of 3.64 compared to a state-of-the-art (non-vectorized) x64 implementation. On the other hand, vectorization in a 2-way fashion aimed to reduce latency makes our AVX-512 implementation of the group action evaluation about 1.54 times faster than the state-of-the-art. To the best of our knowledge, this paper is the first to demonstrate the high potential of using vector instructions to increase the throughput (resp. decrease the latency) of constant-time CSIDH.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.46586/tches.v2021.i4.618-649</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_9077</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_9077">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/9077/8664" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_9077" DMDID="DMD_rub-journals_9077">
+            <mets:fptr FILEID="FILE0_rub-journals_9077"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

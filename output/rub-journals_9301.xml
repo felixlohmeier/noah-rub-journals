@@ -1,0 +1,94 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_9301">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Practical Multiple Persistent Faults Analysis</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Soleimany, Hadi</displayForm>
+                        <namePart type="family">Soleimany</namePart>
+                        <namePart type="given">Hadi</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Bagheri, Nasour</displayForm>
+                        <namePart type="family">Bagheri</namePart>
+                        <namePart type="given">Nasour</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Hadipour, Hosein</displayForm>
+                        <namePart type="family">Hadipour</namePart>
+                        <namePart type="given">Hosein</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Ravi, Prasanna</displayForm>
+                        <namePart type="family">Ravi</namePart>
+                        <namePart type="given">Prasanna</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Bhasin, Shivam</displayForm>
+                        <namePart type="family">Bhasin</namePart>
+                        <namePart type="given">Shivam</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Mansouri, Sara</displayForm>
+                        <namePart type="family">Mansouri</namePart>
+                        <namePart type="given">Sara</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2021-11-19</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">24</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">We focus on the multiple persistent faults analysis in this paper to fill existing gaps in its application in a variety of scenarios. Our major contributions are twofold. First, we propose a novel technique to apply persistent fault apply in the multiple persistent faults setting that decreases the number of survived keys and the required data. We demonstrate that by utilizing 1509 and 1448 ciphertexts, the number of survived keys after performing persistent fault analysis on AES in the presence of eight and sixteen faults can be reduced to only 29 candidates, whereas the best known attacks need 2008 and 1643 ciphertexts, respectively, with a time complexity of 250. Second, we develop generalized frameworks for retrieving the key in the ciphertext-only model. Our methods for both performing persistent fault attacks and key-recovery processes are highly flexible and provide a general trade-off between the number of required ciphertexts and the time complexity. To break AES with 16 persistent faults in the Sbox, our experiments show that the number of required ciphertexts can be decreased to 477 while the attack is still practical with respect to the time complexity. To confirm the accuracy of our methods, we performed several simulations as well as experimental validations on the ARM Cortex-M4 microcontroller with electromagnetic fault injection on AES and LED, which are two well-known block ciphers to validate the types of faults and the distribution of the number of faults in practice.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.46586/tches.v2022.i1.367-390</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_9301</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_9301">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/9301/8867" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_9301" DMDID="DMD_rub-journals_9301">
+            <mets:fptr FILEID="FILE0_rub-journals_9301"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

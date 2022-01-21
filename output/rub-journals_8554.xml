@@ -1,0 +1,78 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8554">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>On the Security Goals of White-Box Cryptography</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Alpirez Bock, Estuardo</displayForm>
+                        <namePart type="family">Alpirez Bock</namePart>
+                        <namePart type="given">Estuardo</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Amadori, Alessandro</displayForm>
+                        <namePart type="family">Amadori</namePart>
+                        <namePart type="given">Alessandro</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Brzuska, Chris</displayForm>
+                        <namePart type="family">Brzuska</namePart>
+                        <namePart type="given">Chris</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Michiels, Wil</displayForm>
+                        <namePart type="family">Michiels</namePart>
+                        <namePart type="given">Wil</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020-03-02</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">31</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">We discuss existing and new security notions for white-box cryptography and comment on their suitability for Digital Rights Management and Mobile Payment Applications, the two prevalent use-cases of white-box cryptography. In particular, we put forward indistinguishability for white-box cryptography with hardware-binding (IND-WHW) as a new security notion that we deem central. We also discuss the security property of application-binding and explain the issues faced when defining it as a formal security notion. Based on our proposed notion for hardware-binding, we describe a possible white-box competition setup which assesses white-box implementations w.r.t. hardware-binding. Our proposed competition setup allows us to capture hardware-binding in a practically meaningful way.While some symmetric encryption schemes have been proven to admit plain white-box implementations, we show that not all secure symmetric encryption schemes are white-boxeable in the plain white-box attack scenario, i.e., without hardware-binding. Thus, even strong assumptions such as indistinguishability obfuscation cannot be used to provide secure white-box implementations for arbitrary ciphers. Perhaps surprisingly, our impossibility result does not carry over to the hardware-bound scenario. In particular, Alpirez Bock, Brzuska, Fischlin, Janson and Michiels (ePrint 2019/1014) proved a rather general feasibility result in the hardware-bound model. Equally important, the apparent theoretical distinction between the plain white-box model and the hardware-bound white-box model also translates into practically reduced attack capabilities as we explain in this paper.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tches.v2020.i2.327-357</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8554</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8554">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/8554/8119" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8554" DMDID="DMD_rub-journals_8554">
+            <mets:fptr FILEID="FILE0_rub-journals_8554"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

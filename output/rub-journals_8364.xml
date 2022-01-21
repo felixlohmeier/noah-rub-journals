@@ -1,0 +1,70 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8364">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Exhaustive Search for Various Types of MDS Matrices</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Kesarwani, Abhishek</displayForm>
+                        <namePart type="family">Kesarwani</namePart>
+                        <namePart type="given">Abhishek</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Sarkar, Santanu</displayForm>
+                        <namePart type="family">Sarkar</namePart>
+                        <namePart type="given">Santanu</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Venkateswarlu, Ayineedi</displayForm>
+                        <namePart type="family">Venkateswarlu</namePart>
+                        <namePart type="given">Ayineedi</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2019-09-20</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">26</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">MDS matrices are used in the design of diffusion layers in many block ciphers and hash functions due to their optimal branch number. But MDS matrices, in general, have costly implementations. So in search for efficiently implementable MDS matrices, there have been many proposals. In particular, circulant, Hadamard, and recursive MDS matrices from companion matrices have been widely studied. In a recent work, recursive MDS matrices from sparse DSI matrices are studied, which are of interest due to their low fixed cost in hardware implementation. In this paper, we present results on the exhaustive search for (recursive) MDS matrices over GL(4, F2). Specifically, circulant MDS matrices of order 4, 5, 6, 7, 8; Hadamard MDS matrices of order 4, 8; recursive MDS matrices from companion matrices of order 4; recursive MDS matrices from sparse DSI matrices of order 4, 5, 6, 7, 8 are considered. It is to be noted that the exhaustive search is impractical with a naive approach. We first use some linear algebra tools to restrict the search to a smaller domain and then apply some space-time trade-off techniques to get the solutions. From the set of solutions in the restricted domain, one can easily generate all the solutions in the full domain. From the experimental results, we can see the (non) existence of (involutory) MDS matrices for the choices mentioned above. In particular, over GL(4, F2), we provide companion matrices of order 4 that yield involutory MDS matrices, circulant MDS matrices of order 8, and establish the nonexistence of involutory circulant MDS matrices of order 6, 8, circulant MDS matrices of order 7, sparse DSI matrices of order 4 that yield involutory MDS matrices, and sparse DSI matrices of order 5, 6, 7, 8 that yield MDS matrices. To the best of our knowledge, these results were not known before. For the choices mentioned above, if such MDS matrices exist, we provide base sets of MDS matrices, from which all the MDS matrices with the least cost (with respect to d-XOR and s-XOR counts) can be obtained. We also take this opportunity to present some results on the search for sparse DSI matrices over finite fields that yield MDS matrices. We establish that there is no sparse DSI matrix S of order 8 over F28 such that S8 is MDS.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tosc.v2019.i3.231-256</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8364</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8364">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/8364/7713" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8364" DMDID="DMD_rub-journals_8364">
+            <mets:fptr FILEID="FILE0_rub-journals_8364"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

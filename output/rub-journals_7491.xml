@@ -1,0 +1,54 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7491">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>An Autobiographical Pact</title>
+                        <subTitle>The Memoirs of Marshal Georgy Zhukov</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Roberts, Geoffrey</displayForm>
+                        <namePart type="family">Roberts</namePart>
+                        <namePart type="given">Geoffrey</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015-02-02</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">22</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">The “autobiographical pact” is what Philippe Lejeune calls the commitment made by autobiographers and memoirists to speak truthfully about themselves. In his memoirs Marshal Georgy Zhukov (1896–1974) committed to tell the truth about his life and the great events in which he took part and went to inordinate lengths to persuade his readers they could trust what he wrote. This article shows that Zhukov’s autobiographical pact was severely compromised by the process of censorship undergone by the memoirs prior to publication. In post-Soviet times the memoirs were reissued in editions that restored many cuts and changes imposed by the censors. While this restored Zhukov’s original autobiographical pact with his readers it also accentuated the distortions resulting from his striving to set the record straight in his favour. The article also locates Zhukov’s memoirs in the Soviet autobiographising tradition explored by Jochen Hellbeck and others. Like all officially published memoirs Zhukov’s story was intended to celebrate the Soviet project. As a committed communist soldier Zhukov was willing to contribute to this endeavour but not at the expense of his individuality or of the truth as he saw it. As Roy Pascal argued, while the truth in memoirs and autobiography is often elusive, it is not unfathomable.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/mts.51.2014.73-94</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7491</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7491">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/7491/6663" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7491" DMDID="DMD_rub-journals_7491">
+            <mets:fptr FILEID="FILE0_rub-journals_7491"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,95 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7296">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>SUNDAE</title>
+                        <subTitle>Small Universal Deterministic Authenticated Encryption for the Internet of Things</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Banik, Subhadeep</displayForm>
+                        <namePart type="family">Banik</namePart>
+                        <namePart type="given">Subhadeep</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Bogdanov, Andrey</displayForm>
+                        <namePart type="family">Bogdanov</namePart>
+                        <namePart type="given">Andrey</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Luykx, Atul</displayForm>
+                        <namePart type="family">Luykx</namePart>
+                        <namePart type="given">Atul</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Tischhauser, Elmar</displayForm>
+                        <namePart type="family">Tischhauser</namePart>
+                        <namePart type="given">Elmar</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2018-09-03</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">35</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Lightweight cryptography was developed in response to the increasing need to secure devices for the Internet of Things. After significant research effort, many new block ciphers have been designed targeting lightweight settings, optimizing efficiency metrics which conventional block ciphers did not. However, block ciphers must be used in modes of operation to achieve more advanced security goals such as data confidentiality and authenticity, a research area given relatively little attention in the lightweight setting. We introduce a new authenticated encryption (AE) mode of operation, SUNDAE, specially targeted for constrained environments. SUNDAE is smaller than other known lightweight modes in implementation area, such as CLOC, JAMBU, and COFB, however unlike these modes, SUNDAE is designed as a deterministic authenticated encryption (DAE) scheme, meaning it provides maximal security in settings where proper randomness is hard to generate, or secure storage must be minimized due to expense. Unlike other DAE schemes, such as GCM-SIV, SUNDAE can be implemented efficiently on both constrained devices, as well as the servers communicating with those devices. We prove SUNDAE secure relative to its underlying block cipher, and provide an extensive implementation study, with results in both software and hardware, demonstrating that SUNDAE offers improved compactness and power consumption in hardware compared to other lightweight AE modes, while simultaneously offering comparable performance to GCM-SIV on parallel high-end platforms.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tosc.v2018.i3.1-35</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7296</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7296">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/7296/6470" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_rub-journals_7296">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/7296/7577" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="" ID="FILE2_rub-journals_7296">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/7296/7742" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7296" DMDID="DMD_rub-journals_7296">
+            <mets:fptr FILEID="FILE0_rub-journals_7296"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_7296" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_7296"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART2_rub-journals_7296" LABEL="">
+                <mets:fptr FILEID="FILE2_rub-journals_7296"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

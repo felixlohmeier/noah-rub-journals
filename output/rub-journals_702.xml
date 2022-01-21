@@ -1,0 +1,52 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_702">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>El anticomunismo argentino entre 1930 y 1943. Los orígenes de la construcción de un enemigo</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>López Cantera, Mercedes F.</displayForm>
+                        <namePart type="family">López Cantera</namePart>
+                        <namePart type="given">Mercedes F.</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2017-07-24</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">10</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">The objective of this paper is to give a more specific characterization of anticommunism in 1930s Argentina. For many years, historiography of the Argentinian interwar period has minimised the importance of anticommunism. In order to achieve our aim, we will analize the political repression against communism and the characterization of communism made by the nationalist (or extreme right) groups during the 1930s. This article has two central hypothesis. Firstly, during the 1930s, the Argentinan police force strove to criminalize the political activities of the communist movement in order to control working class activities. Secondly, the extreme right groups thoroughly analyzed the different practices and ideas of the local communist movement in order to develop their own specific political strategies. By means of these two presumptions we will try to outline a characterization of anticommunism in 1930s Argentina.University of Buenos Aires, Argentina</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_702</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_702">
+                <mets:FLocat xlink:href="https://incs.ub.rub.de/index.php/INCS/article/download/702/660" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_702" DMDID="DMD_rub-journals_702">
+            <mets:fptr FILEID="FILE0_rub-journals_702"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

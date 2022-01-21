@@ -1,0 +1,86 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7300">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Cryptanalysis of Low-Data Instances of Full LowMCv2</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Rechberger, Christian</displayForm>
+                        <namePart type="family">Rechberger</namePart>
+                        <namePart type="given">Christian</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Soleimany, Hadi</displayForm>
+                        <namePart type="family">Soleimany</namePart>
+                        <namePart type="given">Hadi</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Tiessen, Tyge</displayForm>
+                        <namePart type="family">Tiessen</namePart>
+                        <namePart type="given">Tyge</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2018-09-04</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">19</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">LowMC is a family of block ciphers designed for a low multiplicative complexity. The specification allows a large variety of instantiations, differing in block size, key size, number of S-boxes applied per round and allowed data complexity. The number of rounds deemed secure is determined by evaluating a number of attack vectors and taking the number of rounds still secure against the best of these. In this paper, we demonstrate that the attacks considered by the designers of LowMC in the version 2 of the round-formular were not sufficient to fend off all possible attacks. In the case of instantiations of LowMC with one of the most useful settings, namely with few applied S-boxes per round and only low allowable data complexities, efficient attacks based on difference enumeration techniques can be constructed. We show that it is most effective to consider tuples of differences instead of simple differences, both to increase the range of the distinguishers and to enable key recovery attacks. All applications for LowMC we are aware of, including signature schemes like Picnic and more recent (ring/group) signature schemes have used version 3 of the roundformular for LowMC, which takes our attack already into account.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tosc.v2018.i3.163-181</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7300</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7300">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/7300/6474" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_rub-journals_7300">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/7300/7573" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="" ID="FILE2_rub-journals_7300">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/7300/7745" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7300" DMDID="DMD_rub-journals_7300">
+            <mets:fptr FILEID="FILE0_rub-journals_7300"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_7300" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_7300"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART2_rub-journals_7300" LABEL="">
+                <mets:fptr FILEID="FILE2_rub-journals_7300"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

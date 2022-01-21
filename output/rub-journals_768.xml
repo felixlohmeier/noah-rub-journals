@@ -1,0 +1,86 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_768">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Tight Security Analysis of EHtM MAC</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Dutta, Avijit</displayForm>
+                        <namePart type="family">Dutta</namePart>
+                        <namePart type="given">Avijit</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Jha, Ashwin</displayForm>
+                        <namePart type="family">Jha</namePart>
+                        <namePart type="given">Ashwin</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Nandi, Mridul</displayForm>
+                        <namePart type="family">Nandi</namePart>
+                        <namePart type="given">Mridul</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2017-09-19</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">21</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">The security of a probabilistic Message Authentication Code (MAC) usually depends on the uniqueness of the random salt which restricts the security to birthday bound of the salt size due to the collision on random salts (e.g XMACR). To overcome the birthday bound limit, the natural approach to use (a) either a larger random salt (e.g MACRX3 uses 3n bits of random salt where n is the input and output size of the underlying non-compressing pseudorandom function or PRF) or (b) a PRF with increased domain size (e.g RWMAC or Randomized WMAC). Enhanced Hashthen- Mask (EHtM), proposed by Minematsu in FSE 2010, is the first probabilistic MAC scheme that provides beyond birthday bound security without increasing the randomness of the salt and the domain size of the non-compressing PRF. The author proved the security of EHtM as long as the number of MAC query is smaller than 22n/3 where n is the input size of the underlying non-compressing PRF. In this paper, we provide the exact security bound of EHtM and prove that this construction offers security up to 23n/4 MAC queries. The exactness is shown by demonstrating a matching attack.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tosc.v2017.i3.130-150</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_768</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_768">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/768/726" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_rub-journals_768">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/768/7607" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="" ID="FILE2_rub-journals_768">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/768/7533" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_768" DMDID="DMD_rub-journals_768">
+            <mets:fptr FILEID="FILE0_rub-journals_768"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_768" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_768"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART2_rub-journals_768" LABEL="">
+                <mets:fptr FILEID="FILE2_rub-journals_768"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

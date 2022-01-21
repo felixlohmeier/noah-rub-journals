@@ -1,0 +1,62 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_9329">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Diving Deep into the Weak Keys of Round Reduced Ascon</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Rohit, Raghvendra</displayForm>
+                        <namePart type="family">Rohit</namePart>
+                        <namePart type="given">Raghvendra</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Sarkar, Santanu</displayForm>
+                        <namePart type="family">Sarkar</namePart>
+                        <namePart type="given">Santanu</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2021-12-03</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">26</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">At ToSC 2021, Rohit et al. presented the first distinguishing and key recovery attacks on 7 rounds Ascon without violating the designer’s security claims of nonce-respecting setting and data limit of 264 blocks per key. So far, these are the best attacks on 7 rounds Ascon. However, the distinguishers require (impractical) 260 data while the data complexity of key recovery attacks exactly equals 264. Whether there are any practical distinguishers and key recovery attacks (with data less than 264) on 7 rounds Ascon is still an open problem.In this work, we give positive answers to these questions by providing a comprehensive security analysis of Ascon in the weak key setting. Our first major result is the 7-round cube distinguishers with complexities 246 and 233 which work for 282 and 263 keys, respectively. Notably, we show that such weak keys exist for any choice (out of 64) of 46 and 33 specifically chosen nonce variables. In addition, we improve the data complexities of existing distinguishers for 5, 6 and 7 rounds by a factor of 28, 216 and 227, respectively. Our second contribution is a new theoretical framework for weak keys of Ascon which is solely based on the algebraic degree. Based on our construction, we identify 2127.99, 2127.97 and 2116.34 weak keys (out of 2128) for 5, 6 and 7 rounds, respectively. Next, we present two key recovery attacks on 7 rounds with different attack complexities. The best attack can recover the secret key with 263 data, 269 bits of memory and 2115.2 time. Our attacks are far from threatening the security of full 12 rounds Ascon, but we expect that they provide new insights into Ascon’s security.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.46586/tosc.v2021.i4.74-99</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_9329</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_9329">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/9329/8888" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_9329" DMDID="DMD_rub-journals_9329">
+            <mets:fptr FILEID="FILE0_rub-journals_9329"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

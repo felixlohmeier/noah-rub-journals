@@ -1,0 +1,53 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_635">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Ethnographies of Objects in Science and Technology Studies (Download Book)</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Mewes, Julie</displayForm>
+                        <namePart type="family">Mewes</namePart>
+                        <namePart type="given">Julie</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2017-05-24</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">89</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Summer School Ruhr-University Bochum June 6th to 10th, 2016</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <identifier type="doi">10.13154/eoo.1.2017.1-89</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_635</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_635">
+                <mets:FLocat xlink:href="https://ojs.ub.rub.de/index.php/EOO/article/download/635/603" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_635" DMDID="DMD_rub-journals_635">
+            <mets:fptr FILEID="FILE0_rub-journals_635"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

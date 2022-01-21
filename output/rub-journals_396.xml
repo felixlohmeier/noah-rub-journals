@@ -1,0 +1,85 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_396">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Investigation of process forces of ultrasonically assisted scratch tests</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Stehle, T.</displayForm>
+                        <namePart type="family">Stehle</namePart>
+                        <namePart type="given">T.</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Eisseler, R.</displayForm>
+                        <namePart type="family">Eisseler</namePart>
+                        <namePart type="given">R.</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Drewle, K.</displayForm>
+                        <namePart type="family">Drewle</namePart>
+                        <namePart type="given">K.</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Weiland, S.</displayForm>
+                        <namePart type="family">Weiland</namePart>
+                        <namePart type="given">S.</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Twiefel, J.</displayForm>
+                        <namePart type="family">Twiefel</namePart>
+                        <namePart type="given">J.</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015-11-25</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">9</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Due to their abrasive qualities, machining of hard and brittle materials is predominantly performedusing tools with geometrically indefinite cutting edge. However, these processingmethods offer only low productivity, which often can be increased by superimposing ultrasonicvibrations to the process. At the same time this hybrid process design involves great uncertainties,as influencing factors and the mechanism of action are not sufficiently describedyet. In order to close this knowledge gap, firstly the occurrences on the scale of single abrasivegrains shall be observed. This should increase the overall process understanding andreveal fundamental interrelations of machining with geometrically indefinite cutting edge. Toachieve this, scratch tests with well-defined boundary conditions will be performed, analyzedand compared. As a result of the experiments the interdependencies of process forces, cuttingspeed, ultrasonic amplitude and depth of cut will be presented.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/icscm.3.2015.137-145</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_396</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_396">
+                <mets:FLocat xlink:href="https://icscm.ub.rub.de/index.php/ICSCM/article/download/396/353" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_396" DMDID="DMD_rub-journals_396">
+            <mets:fptr FILEID="FILE0_rub-journals_396"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

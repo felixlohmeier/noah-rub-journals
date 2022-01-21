@@ -1,0 +1,64 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8387">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>What’s New in the History of Social Movements</title>
+                        <subTitle>a Review Article</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Berger, Stefan</displayForm>
+                        <namePart type="family">Berger</namePart>
+                        <namePart type="given">Stefan</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2019-10-15</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">20</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Craig Browne: Critical Social Theory, London: Sage, 2017, 216 pp., ISBN: 978-1- 44624-693-1 (pbk).
+Timothy J. LeCain: The Matter of History: How Things Create the Past, Cambridge: Cambridge University Press, 2017, 366 pp., ISBN: 978-1-31646-025-2.
+Constance Bantman and Bert Altena (eds.): Reassessing the Transnational Turn: Scales of Analysis in Anarchist and Syndicalist Studies, Oakland, CA: PM Press, 2017, 256 pp., ISBN: 978-1-62963-391-6.
+Kevin Morgan: International Communism and the Cult of the Individual: Leaders, Tribunes and Martyrs under Lenin and Stalin, Basingstoke: Palgrave MacMillan, 2017, 363 pp., ISBN: 978-1-137-55667-7.
+Konstantin Vössing: How Leaders Mobilize Workers: Social Democracy, Revolution, and Moderate Syndicalism, Cambridge: Cambridge University Press, 2017, 320 pp., ISBN: 978-1-107-16517-5.
+Marcelo Badaró Mattos: Laborers and Enslaved Workers: Experiences in Common in the Making of Rio de Janeiro’s Working Class, 1850–1920, Oxford: Berghahn Books, 2017, 186 pp., ISBN: 978-1-78533-629-4.
+Markus Lundström: The Making of Resistance: Brazil’s Landless Movement and Narrative Enactment, Cham: Springer, 2017, 143 pp., ISBN: 978-3-319-55347-4. Priska Daphi: Becoming a Movement: Identity, Narrative and Memory in the European Global Justice Movement, London: Rowman &amp;amp; Littlefield, 2017, 164 pp., ISBN: 978-1-78660-380-7 (pbk).
+Ekaterina Tarasova: Anti-Nuclear Movements in Discursive and Political Contexts: Between Expert Voices and Local Protests, Stockholm: Södertörn University, 2017, 305 pp., ISBN: 978-91-87843-81-5.
+You Jae Lee: Koloniale Zivilgemeinschaft: Alltag und Lebensweise der Christen in Korea (1894 –1954), Frankfurt/Main: Campus, 2017, 323 pp., ISBN: 978-3-593- 50672-2.
+Amerigo Caruso: Nationalstaat als Telos? Der konservative Diskurs in Preussen und Sardinien-Piemont 1840 –1870, Berlin: De Gruyter, 2017, 516 pp., ISBN: 978-3-11- 054207-3.
+Uwe Fuhrmann: Die Entstehung der „Sozialen Marktwirtschaft“ 1948/49: Eine historische Dispositivanalyse, Konstanz: UVK, 2017, 359 pp., ISBN: 978-3-86764-665-9.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <identifier type="doi">10.13154/mts.62.2019.73-92</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8387</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8387">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/8387/7732" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8387" DMDID="DMD_rub-journals_8387">
+            <mets:fptr FILEID="FILE0_rub-journals_8387"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

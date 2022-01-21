@@ -1,0 +1,86 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7289">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Efficient Side-Channel Protections of ARX Ciphers</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Jungk, Bernhard</displayForm>
+                        <namePart type="family">Jungk</namePart>
+                        <namePart type="given">Bernhard</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Petri, Richard</displayForm>
+                        <namePart type="family">Petri</namePart>
+                        <namePart type="given">Richard</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Stöttinger, Marc</displayForm>
+                        <namePart type="family">Stöttinger</namePart>
+                        <namePart type="given">Marc</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2018-08-16</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">27</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">The current state of the art of Boolean masking for the modular addition operation in software has a very high performance overhead. Firstly, the instruction count is very high compared to a normal addition operation. Secondly, until recently, the entropy consumed by such protections was also quite high. Our paper significantly improves both aspects, by applying the Threshold Implementation (TI) methodology with two shares and by reusing internal values as randomness source in such a way that the uniformity is always preserved. Our approach performs considerably faster compared to the previously known masked addition and subtraction algorithms by Coron et al. and Biryukov et al. improving the state of the art by 36%, if we only consider the number of ARM assembly instructions. Furthermore, similar to the masked adder from Biryukov et al. we reduce the amount of randomness and only require one bit additional entroy per addition, which is a good trade-off for the improved performance. We applied our improved masked adder to ChaCha20, for which we provide two new first-order protected implementations and achieve a 36% improvement over the best published result for ChaCha20 using an ARM Cortex-M4 microprocessor.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tches.v2018.i3.627-653</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7289</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7289">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/7289/6466" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_rub-journals_7289">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/7289/7966" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="" ID="FILE2_rub-journals_7289">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/7289/7967" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7289" DMDID="DMD_rub-journals_7289">
+            <mets:fptr FILEID="FILE0_rub-journals_7289"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_7289" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_7289"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART2_rub-journals_7289" LABEL="">
+                <mets:fptr FILEID="FILE2_rub-journals_7289"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

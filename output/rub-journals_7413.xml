@@ -1,0 +1,53 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7413">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Alternative Legal Publicism? Four Legal Publications from the Long 1970s and Their Reception in Legal Studies and Legal Practice</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Löhnig, Martin</displayForm>
+                        <namePart type="family">Löhnig</namePart>
+                        <namePart type="given">Martin</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2018-10-24</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">26</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Between 1968 and the early 1980s, four long-term orientated legal publication media came into being in the Federal Republic of Germany: the journals Kritische Justiz (KJ) and Zeitschrift für Rechtspolitik (ZRP), as well as the Alternativkommentar zum Bürgerlichen Gesetzbuch (AK-BGB) and the Münchener Kommentar zum Bürgerlichen Gesetzbuch (MünchKomm-BGB). Albeit in a different manner, each of these four claimed to constitute an alternative to more established publication media in law. The article describes which aspirations led to the foundation of these media — two of which competed with one another –, how they developed and how they were received in legal studies and legal practice. By doing so, the article exemplifies interactions between social movements and academic knowledge formation in contemporary history through the lens of jurisprudential publicism.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/mts.60.2018.95-120</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7413</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7413">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/7413/6585" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7413" DMDID="DMD_rub-journals_7413">
+            <mets:fptr FILEID="FILE0_rub-journals_7413"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,60 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8442">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Isaac&apos;s Sacrifice</title>
+                        <subTitle>Operation of Word and Image in Ashkenazi Religious Ceremonies</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Shalev-Eyni, Sarit</displayForm>
+                        <namePart type="family">Shalev-Eyni</namePart>
+                        <namePart type="given">Sarit</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020-02-25</dateIssued>
+                    </originInfo>
+                    <abstract lang="eng">In the Ashkenazi public prayer domain, narratives and figures were limited to the illumination of large prayer books used by the cantor and smaller copies for private use, ordered by those members of the community who could afford them. Operation of word and image in this context enabled worshipers to interact with the human ancestors of the Jewish people and related fundamental biblical events perceived in the liturgy as ancestral merits. However, while the basic texts used in such collaborations were recited or sung by the cantor or believers and formed a consistent obligatory part of the liturgy, the images were always a flexible nonobligatory addition, open to variation. Often, there may be a clear gap between the two in regard to contents, a result of the way the Jewish visual language crystallized in Christian Europe. This article exemplifies the complexities involved in the process of such an operation as expressed in two Ashkenazi liturgical manuscripts of around 1300.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <identifier type="doi">10.13154/er.11.2020.8442</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8442</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8442">
+                <mets:FLocat xlink:href="https://er.ceres.rub.de/index.php/ER/article/download/8442/8039" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="text/html" ID="FILE1_rub-journals_8442">
+                <mets:FLocat xlink:href="https://er.ceres.rub.de/index.php/ER/article/download/8442/8040" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8442" DMDID="DMD_rub-journals_8442">
+            <mets:fptr FILEID="FILE0_rub-journals_8442"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_8442" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_8442"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

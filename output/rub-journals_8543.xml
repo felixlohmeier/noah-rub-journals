@@ -1,0 +1,71 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8543">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <nonSort>A </nonSort>
+                        <title>Fast and Accurate Guessing Entropy Estimation Algorithm for Full-key Recovery</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Zhang, Ziyue</displayForm>
+                        <namePart type="family">Zhang</namePart>
+                        <namePart type="given">Ziyue</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Ding, A. Adam</displayForm>
+                        <namePart type="family">Ding</namePart>
+                        <namePart type="given">A. Adam</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Fei, Yunsi</displayForm>
+                        <namePart type="family">Fei</namePart>
+                        <namePart type="given">Yunsi</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020-03-02</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">23</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Guessing entropy (GE) is a widely adopted metric that measures the average computational cost needed for a successful side-channel analysis (SCA). However, with current estimation methods where the evaluator has to average the correct key rank over many independent side-channel leakage measurement sets, full-key GE estimation is impractical due to its prohibitive computing requirement. A recent estimation method based on posterior probabilities, although scalable, is not accurate.We propose a new guessing entropy estimation algorithm (GEEA) based on theoretical distributions of the ranking score vectors. By discovering the relationship of GE with pairwise success rates and utilizing it, GEEA uses a sum of many univariate Gaussian probabilities instead of multi-variate Gaussian probabilities, significantly improving the computation efficiency.We show that GEEA is more accurate and efficient than all current GE estimations. To the best of our knowledge, it is the only practical full-key GE evaluation on given experimental data sets which the evaluator has access to. Moreover, it can accurately predict the GE for larger sizes than the experimental data sets, providing comprehensive security evaluation.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tches.v2020.i2.26-48</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8543</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8543">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/8543/8108" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8543" DMDID="DMD_rub-journals_8543">
+            <mets:fptr FILEID="FILE0_rub-journals_8543"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

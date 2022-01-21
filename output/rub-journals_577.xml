@@ -1,0 +1,60 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_577">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Mapping the Border. Die Grenze als künstliches und künstlerisches Objekt</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Yildirim, Samira</displayForm>
+                        <namePart type="family">Yildirim</namePart>
+                        <namePart type="given">Samira</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2017-04-11</dateIssued>
+                    </originInfo>
+                    <abstract lang="ger">Die Darstellbarkeit einer Grenze oder Grenzüberschreitung ist Thema zeitgenössischer künstlerischer Arbeiten, die sich verstärkt seit den 2000er-Jahren mit Flucht- und Migrationsrouten beschäftigen. Künstler_innen, die sich explizit mit dem Vorgang der Grenzüberschreitung befassen, thematisieren auch gleichzeitig die jeweiligen Regime an dieser Grenze, was anhand der Kunstwerke von Multiplicity, Bouchra Khalili und Javier Téllez besprochen wird.</abstract>
+                    <subject lang="ger">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>GA 2. Kunstgeschichtliches Journal für studentische Forschung und Kritik</title>
+                        </titleInfo>
+                        <identifier type="issn">2566-4999</identifier>
+                        <part>
+                            <detail type="issue">
+                                <number>01</number>
+                            </detail>
+                        </part>
+                    </relatedItem>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_577</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_577">
+                <mets:FLocat xlink:href="https://ojs.ub.rub.de/index.php/GA2/article/download/577/561" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_577" DMDID="DMD_rub-journals_577">
+            <mets:fptr FILEID="FILE0_rub-journals_577"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

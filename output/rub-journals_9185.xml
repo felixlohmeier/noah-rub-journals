@@ -1,0 +1,51 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_9185">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Brain structural complexity and consciousness</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Song, Chen</displayForm>
+                        <namePart type="family">Song</namePart>
+                        <namePart type="given">Chen</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2021-10-26</dateIssued>
+                    </originInfo>
+                    <abstract lang="eng">Structure shapes function. Understanding what is structurally special about the brain that allows&amp;nbsp;it to generate consciousness remains a fundamental scientific challenge. Recently, advances in&amp;nbsp;brain imaging techniques have made it possible to measure the structure of human brain, from&amp;nbsp;the morphology of neurons and neuronal connections to the gross anatomy of brain regions,&amp;nbsp;in-vivo and non-invasively. Using advanced brain imaging techniques, it was discovered that the&amp;nbsp;structural diversity between neurons and the topology of neuronal connections, as opposed to the&amp;nbsp;sheer number of neurons or neuronal connections, are key to consciousness. When the structural&amp;nbsp;diversity is high and the connections follow a modular topology, neurons will become functionally&amp;nbsp;differentiable and functionally integrable with one another. The high levels of differentiation&amp;nbsp;and integration, in turn, enable the brain to produce the richest conscious experiences from the&amp;nbsp;smallest number of neurons and neuronal connections. Consequently, across individuals, those&amp;nbsp;with a smaller brain volume but a higher structural diversity tend to have richer conscious experiences than those with a larger brain volume but a lower structural diversity. Moreover, within&amp;nbsp;individuals, a reduction in neuronal connections, if accompanied by an increase in structural&amp;nbsp;diversity, will result in richer conscious experiences, and vice versa. These findings suggest&amp;nbsp;that having a larger number of neurons and neuronal connections is not necessarily beneficial&amp;nbsp;for consciousness; in contrast, an optimal brain architecture for consciousness is one where&amp;nbsp;the richest conscious experiences are generated from the smallest number of neurons and neuronal connections, at the minimal cost of biological material, physical space, and metabolic energy.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.33735/phimisci.2021.9185</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_9185</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_9185">
+                <mets:FLocat xlink:href="https://philosophymindscience.org/index.php/phimisci/article/download/9185/8827" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_9185" DMDID="DMD_rub-journals_9185">
+            <mets:fptr FILEID="FILE0_rub-journals_9185"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

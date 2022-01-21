@@ -1,0 +1,62 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8186">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Geschichte der Arbeiterschaft und der Arbeiterbewegung in Schottland</title>
+                        <subTitle>Die Geschichtsschreibung der letzten zwanzig Jahre</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Fischer, Conan</displayForm>
+                        <namePart type="family">Fischer</namePart>
+                        <namePart type="given">Conan</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Knox, William</displayForm>
+                        <namePart type="family">Knox</namePart>
+                        <namePart type="given">William</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2014-09-05</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">26</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Scottish labour history has developed within the distinctive context of a nation which possesses a well-defined set of civil institutions and a fiercely-held identity, but which lacks a legislature of its own. The involvement of the Scottish labour movement in the campaign to restore Scotland&apos;s parliament complicates its historiography, while historians themselves have, directly or indirectly, become caught up in attempts to assert a Scottish national iden-tity. Thus, in addition to the more familiar and universal issue of social class, questions of nationhood define the subject matter of Scottish labour history. Labour history writing in Scotland has also been influenced and, to a degree, inspired, by external factors - notably by the work of the English historian E.P. Thompson - and all in all a flourishing labour history lit-erature based both in the universities and more widely has developed. This werk, however, has yet to examine all the facets of the working class&apos; historical experience; werk on popular struggle, women&apos;s history and the rise of the salaried employee are among themes to be explored more fully. In more general terms Scottish labour histo-rians have yet to integrate themselves significantly within a broader, European historiography.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/mts.11.1991.59-84</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8186</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8186">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/8186/7357" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8186" DMDID="DMD_rub-journals_8186">
+            <mets:fptr FILEID="FILE0_rub-journals_8186"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

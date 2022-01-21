@@ -1,0 +1,95 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_402">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <nonSort>A </nonSort>
+                        <title>contribution for an optimization of the polishing quality of stone slabs</title>
+                        <subTitle>simulation and experimental study using a single-head polishing machine</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Barbosa, A. R.</displayForm>
+                        <namePart type="family">Barbosa</namePart>
+                        <namePart type="given">A. R.</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Coelho, A.</displayForm>
+                        <namePart type="family">Coelho</namePart>
+                        <namePart type="given">A.</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Fernandes, J. C.</displayForm>
+                        <namePart type="family">Fernandes</namePart>
+                        <namePart type="given">J. C.</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Amaral, P. M.</displayForm>
+                        <namePart type="family">Amaral</namePart>
+                        <namePart type="given">P. M.</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Rosa, L. G.</displayForm>
+                        <namePart type="family">Rosa</namePart>
+                        <namePart type="given">L. G.</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Pereira, J. C.</displayForm>
+                        <namePart type="family">Pereira</namePart>
+                        <namePart type="given">J. C.</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015-11-25</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">10</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">This paper describes recent research regarding: 1) the influence of the water flow and the pressurein order to attain the best polishing in portuguese limestones; 2) the experimental validation of apolishing simulator under development at Instituto Superior Tecnico (Lisbon). The research workwas carried out using slabs of calcareous stone Moleanos, from Portugal, and the polishingsequence employed commercial Frankfurt-type abrasive tools applied for the last 3 stages of theprocess in order to attain maximum surface gloss. The study was conducted with a single-headlaboratory-type polishing machine, where all test conditions are adequately monitored andcontrolled. The polishing head contains 6 Frankfurt abrasives of the same grit size (320#, 400# and5Extra). The surface quality was assessed, after each polishing stage, by means of a glossmeter.In the end, it was possible to identify the optimum working parameters for each polishing stage.The results obtained also show that indeed a correlation exists between experimental values ofgloss and the abrasion data given by the simulator.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/icscm.3.2015.178-187</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_402</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_402">
+                <mets:FLocat xlink:href="https://icscm.ub.rub.de/index.php/ICSCM/article/download/402/358" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_402" DMDID="DMD_rub-journals_402">
+            <mets:fptr FILEID="FILE0_rub-journals_402"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

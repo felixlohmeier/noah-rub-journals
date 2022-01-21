@@ -1,0 +1,71 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8837">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Exploiting Weak Diffusion of Gimli</title>
+                        <subTitle>Improved Distinguishers and Preimage Attacks</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Liu, Fukang</displayForm>
+                        <namePart type="family">Liu</namePart>
+                        <namePart type="given">Fukang</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Isobe, Takanori</displayForm>
+                        <namePart type="family">Isobe</namePart>
+                        <namePart type="given">Takanori</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Meier, Willi</displayForm>
+                        <namePart type="family">Meier</namePart>
+                        <namePart type="given">Willi</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2021-03-19</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">32</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">The Gimli permutation proposed in CHES 2017 was designed for cross-platform performance. One main strategy to achieve such a goal is to utilize a sparse linear layer (Small-Swap and Big-Swap), which occurs every two rounds. In addition, the round constant addition occurs every four rounds and only one 32-bit word is affected by it. The above two facts have been recently exploited to construct a distinguisher for the full Gimli permutation with time complexity 264. By utilizing a new property of the SP-box, we demonstrate that the time complexity of the full-round distinguisher can be further reduced to 252 while a significant bias still remains. Moreover, for the 18-round Gimli permutation, we could construct a distinguisher even with only 2 queries. Apart from the permutation itself, the weak diffusion can also be utilized to accelerate the preimage attacks on reduced Gimli-Hash and Gimli-XOF-128 with a divide-and-conquer method. As a consequence, the preimage attacks on reduced Gimli-Hash and Gimli-XOF-128 can reach up to 5 rounds and 9 rounds, respectively. Since Gimli is included in the second round candidates in NIST’s Lightweight Cryptography Standardization process, we expect that our analysis can further advance the understanding of Gimli. To the best of our knowledge, the distinguishing attacks and preimage attacks are the best so far.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.46586/tosc.v2021.i1.185-216</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8837</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8837">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/8837/8440" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8837" DMDID="DMD_rub-journals_8837">
+            <mets:fptr FILEID="FILE0_rub-journals_8837"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

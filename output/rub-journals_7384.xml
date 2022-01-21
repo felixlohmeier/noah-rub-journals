@@ -1,0 +1,79 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7384">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>AuCPace</title>
+                        <subTitle>Efficient verifier-based PAKE protocol tailored for the IIoT</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Haase, Björn</displayForm>
+                        <namePart type="family">Haase</namePart>
+                        <namePart type="given">Björn</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Labrique, Benoît</displayForm>
+                        <namePart type="family">Labrique</namePart>
+                        <namePart type="given">Benoît</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2019-02-28</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">48</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Increasingly connectivity becomes integrated in products and devices that previously operated in a stand-alone setting. This observation holds for many consumer applications in the so-called &quot;Internet of Things&quot; (IoT) as well as for corresponding industry applications (IIoT), such as industrial process sensors. Often the only practicable means for authentication of human users is a password. The security of password-based authentication schemes frequently forms the weakest point of the security infrastructure. In this paper we first explain why a tailored protocol designed for the IIoT use case is considered necessary. The differences between IIoT and the conventional Internet use-cases result in largely modified threats and require special procedures for allowing both, convenient and secure use in the highly constrained industrial setting. Specifically the use of a verifier-based password-authenticated key-exchange (V-PAKE) protocol as a hedge against public-key-infrastructure (PKI) failures is considered important. Availability concerns for the case of failures of (part of) the communication infrastructure makes local storage of access credentials mandatory. The larger threat of physical attacks makes it important to use memory-hard password hashing. This paper presents a corresponding tailored protocol, AuCPace, together with a security proof within the Universal Composability (UC) framework considering fully adaptive adversaries. We also introduce a new security notion of partially augmented PAKE that provides specific performance advantages and makes them suitable for a larger set of IIoT applications. We also present an actual instantiation of our protocol, AuCPace25519, and present performance results on ARM Cortex-M0 and Cortex-M4 microcontrollers. Our implementation realizes new speed-records for PAKE and X25519 Diffie-Hellman for the ARM Cortex M4 architecture.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tches.v2019.i2.1-48</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7384</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7384">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/7384/6556" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_rub-journals_7384">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/7384/7881" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="" ID="FILE2_rub-journals_7384">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/7384/7882" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7384" DMDID="DMD_rub-journals_7384">
+            <mets:fptr FILEID="FILE0_rub-journals_7384"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_7384" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_7384"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART2_rub-journals_7384" LABEL="">
+                <mets:fptr FILEID="FILE2_rub-journals_7384"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,110 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8581">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Strengthening Sequential Side-Channel Attacks Through Change Detection</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Frittoli, Luca</displayForm>
+                        <namePart type="family">Frittoli</namePart>
+                        <namePart type="given">Luca</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Bocchi, Matteo</displayForm>
+                        <namePart type="family">Bocchi</namePart>
+                        <namePart type="given">Matteo</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Mella, Silvia</displayForm>
+                        <namePart type="family">Mella</namePart>
+                        <namePart type="given">Silvia</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Carrera, Diego</displayForm>
+                        <namePart type="family">Carrera</namePart>
+                        <namePart type="given">Diego</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Rossi, Beatrice</displayForm>
+                        <namePart type="family">Rossi</namePart>
+                        <namePart type="given">Beatrice</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Fragneto, Pasqualina</displayForm>
+                        <namePart type="family">Fragneto</namePart>
+                        <namePart type="given">Pasqualina</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Susella, Ruggero</displayForm>
+                        <namePart type="family">Susella</namePart>
+                        <namePart type="given">Ruggero</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Boracchi, Giacomo</displayForm>
+                        <namePart type="family">Boracchi</namePart>
+                        <namePart type="given">Giacomo</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020-06-19</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">21</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">The sequential structure of some side-channel attacks makes them subject to error propagation, i.e. when an error occurs during the recovery of some part of a secret key, all the following guesses might as well be chosen randomly. We propose a methodology that strengthens sequential attacks by automatically identifying and correcting errors. The core ingredient of our methodology is a change-detection test that monitors the distribution of the distinguisher values used to reconstruct the secret key. Our methodology includes an error-correction procedure that can cope both with false positives of the change-detection test, and inaccuracies of the estimated location of the wrong key guess. The proposed methodology is general and can be included in several attacks. As meaningful examples, we conduct two different side-channel attacks against RSA-2048: an horizontal power-analysis attack based on correlation and a vertical timing attack. Our experiments show that, in all the considered cases, strengthened attacks outperforms their original counterparts and alternative solutions that are based on thresholds. In particular, strengthened attacks achieve high success rates even when the side-channel measurements are noisy or limited in number, without prohibitively increasing the computing time.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tches.v2020.i3.1-21</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8581</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8581">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/8581/8148" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8581" DMDID="DMD_rub-journals_8581">
+            <mets:fptr FILEID="FILE0_rub-journals_8581"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

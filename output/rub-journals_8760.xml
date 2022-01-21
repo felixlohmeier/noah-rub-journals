@@ -1,0 +1,61 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8760">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Narratives of genocide</title>
+                        <subTitle>Lothar von Trotha’s written and photographic legacy. A critical edition in preparation</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Eckl, Andreas</displayForm>
+                        <namePart type="family">Eckl</namePart>
+                        <namePart type="given">Andreas</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Häussler, Matthias</displayForm>
+                        <namePart type="family">Häussler</namePart>
+                        <namePart type="given">Matthias</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020-12-31</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">10</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">The Deutsche Forschungsgemeinschaft has recently approved a project to produce a critical edition of Lothar von Trotha’s legacy. The project entitled “Textual and pictorial narrative of genocide. A critical edition of the written and photographic legacy of Lothar von Trotha, commander-in-chief of the colonial troops in German South West Africa from 1904 to 1905” will be hosted by the Institute for Diaspora Research and Genocide Studies at the Ruhr University Bochum and will officially start in February 2021. Lothar von Trotha’s legacy includes not only his handwritten diary which constitutes a corpus of about 900 pages, but also a hitherto completely unknown collection of personal photographs, documents and correspondence. The edited diary will be complemented by Lothar von Trotha’s personal photo album entitled “Pictures from the War in South West Africa by Lieutenant General v. Trotha”, representing the second pillar of the project. Given their inestimable value for scientific, legal and political purposes, it is of extraordinary significance that these sources which have been kept out of the public domain for so long are finally being made available to a wider audience in form of a reliable critical edition.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8760</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8760">
+                <mets:FLocat xlink:href="https://namibian-studies.com/index.php/JNS/article/download/8760/8360" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8760" DMDID="DMD_rub-journals_8760">
+            <mets:fptr FILEID="FILE0_rub-journals_8760"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

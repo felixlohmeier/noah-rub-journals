@@ -1,0 +1,94 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7341">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Practical Evaluation of Protected Residue Number System Scalar Multiplication</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Papachristodoulou, Louiza</displayForm>
+                        <namePart type="family">Papachristodoulou</namePart>
+                        <namePart type="given">Louiza</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Fournaris, Apostolos P.</displayForm>
+                        <namePart type="family">Fournaris</namePart>
+                        <namePart type="given">Apostolos P.</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Papagiannopoulos, Kostas</displayForm>
+                        <namePart type="family">Papagiannopoulos</namePart>
+                        <namePart type="given">Kostas</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Batina, Lejla</displayForm>
+                        <namePart type="family">Batina</namePart>
+                        <namePart type="given">Lejla</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2018-11-09</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">24</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">The Residue Number System (RNS) arithmetic is gaining grounds in public key cryptography, because it offers fast, efficient and secure implementations over large prime fields or rings of integers. In this paper, we propose a generic, thorough and analytic evaluation approach for protected scalar multiplication implementations with RNS and traditional Side Channel Attack (SCA) countermeasures in an effort to assess the SCA resistance of RNS. This paper constitutes the first robust evaluation of RNS software for Elliptic Curve Cryptography against electromagnetic (EM) side-channel attacks. Four different countermeasures, namely scalar and point randomization, random base permutations and random moduli operation sequence, are implemented and evaluated using the Test Vector Leakage Assessment (TVLA) and template attacks. More specifically, variations of RNS-based Montgomery Powering Ladder scalar multiplication algorithms are evaluated on an ARM Cortex A8 processor using an EM probe for acquisition of the traces. We show experimentally and theoretically that new bounds should be put forward when TVLA evaluations on public key algorithms are performed. On the security of RNS, our data and location dependent template attacks show that even protected implementations are vulnerable to these attacks. A combination of RNS-based countermeasures is the best way to protect against side-channel leakage.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tches.v2019.i1.259-282</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7341</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7341">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/7341/6513" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_rub-journals_7341">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/7341/7921" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="" ID="FILE2_rub-journals_7341">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/7341/7922" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7341" DMDID="DMD_rub-journals_7341">
+            <mets:fptr FILEID="FILE0_rub-journals_7341"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_7341" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_7341"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART2_rub-journals_7341" LABEL="">
+                <mets:fptr FILEID="FILE2_rub-journals_7341"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

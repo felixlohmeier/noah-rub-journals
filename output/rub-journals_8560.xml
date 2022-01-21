@@ -1,0 +1,79 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8560">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Duel of the Titans</title>
+                        <subTitle>The Romulus and Remus Families of Lightweight AEAD Algorithms</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Iwata, Tetsu</displayForm>
+                        <namePart type="family">Iwata</namePart>
+                        <namePart type="given">Tetsu</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Khairallah,  Mustafa</displayForm>
+                        <namePart type="family">Khairallah</namePart>
+                        <namePart type="given"> Mustafa</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Minematsu, Kazuhiko</displayForm>
+                        <namePart type="family">Minematsu</namePart>
+                        <namePart type="given">Kazuhiko</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Peyrin, Thomas</displayForm>
+                        <namePart type="family">Peyrin</namePart>
+                        <namePart type="given">Thomas</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020-05-07</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">78</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">In this article, we propose two new families of very lightweight and efficient authenticated encryption with associated data (AEAD) modes, Romulus and Remus, that provide security beyond the birthday bound with respect to the block-length n. The former uses a tweakable block cipher (TBC) as internal primitive and can be proven secure in the standard model. The later uses a block cipher (BC) as internal primitive and can be proven secure in the ideal cipher model. Both our modes allow to switch very easily from the nonce-respecting to the nonce-misuse scenario.Previous constructions, such as ΘCB3, are quite computationally efficient, yet needing a large memory for implementation, which makes them unsuitable for platforms where lightweight cryptography should play a key role. Romulus and Remus break this barrier by introducing a new architecture evolved from a BC mode COFB. They achieve the best of what can be possible with TBC – the optimal computational efficiency (rate-1 operation) and the minimum state size of a TBC mode (i.e., (n + t)-bit for n-bit block, t-bit tweak TBC), with almost equivalent provable security as ΘCB3. Actually, our comparisons show that both our designs present superior performances when compared to all other recent lightweight AEAD modes, being BC-based, TBC-based or sponge-based, in the nonce-respecting or nonce-misuse scenario. We eventually describe how to instantiate Romulus and Remus modes using the Skinny lightweight tweakable block cipher proposed at CRYPTO 2016, including the hardware implementation results</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tosc.v2020.i1.43-120</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8560</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8560">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/8560/8131" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8560" DMDID="DMD_rub-journals_8560">
+            <mets:fptr FILEID="FILE0_rub-journals_8560"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

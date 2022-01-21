@@ -1,0 +1,52 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8503">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Presentations and Announcements</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>-, Editors</displayForm>
+                        <namePart type="family">-</namePart>
+                        <namePart type="given">Editors</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020-02-26</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">10</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">• Bernhard H. Bayerlein, Kasper Braskén, and Uwe Sonnenberg (eds.): Globale Räume für radikale transnationale Solidarität. Beiträge zum Ersten Internationalen Willi-Münzenberg-Kongress 2015 in Berlin / Global Spaces for Radical Transnational Solidarity. Contributions to the First International Willi Münzenberg Congress 2015 in Berlin, Berlin, Rosa-Luxemburg-Stiftung, Münzenbergforum Berlin, 2018. 583 pp. – ISBN 978-3-00-059381-9.• Michael Taber and John Riddell (eds.): The Communist Movement at a Crossroads. Plenums of the Communist International’s Executive Committee, 1922–1923, Leiden e.a., Brill, 2018. XII, 796 pp. (Historical Materialism Book Series. 160). – ISBN 978-90-04-36678-7. [Paperback edition: Chicago, Haymarket Books, 2019. – ISBN 978-1-6425-9012-8].• John Sexton (ed.): Alliance of Adversaries: The Congress of the Toilers of the Far East. Leiden e.a.: Brill, 2019. XIV, 369 pp. (Historical Materialism Book Series. 173). – ISBN 978-90-04-28066-3. • Kasper Braskén, Nigel Copsey, and Johan A. Lundin (eds.): Anti-Fascism in the Nordic Countries: New Perspectives, Comparisons and Transnational Connections. London: Routledge, 2019. 290 pp. (Routledge Studies in Fascism and the Far Right). – ISBN 978-1-1380-4694-8. • David Brandenberger and Mikhail V. Zelenov (eds.): Stalin’s Master Narrative. A Critical Edition of the History of the Communist Party of the Soviet Union (Bolsheviks): Short Course, New Haven, Yale University Press, 2019. 744 pp. (Annals of Communism). – ISBN 978-0-300-15536-5. • Frank Wolff: Die Mauergesellschaft. Kalter Krieg, Menschenrechte und die deutsch-deutsche Migration 1961–1989 [Society Shaped by the Wall. Cold War, Human Rights, and East-West-German Migration, 1961–1989], Berlin, Suhrkamp, 2019. 1026 pp. – ISBN 978-3-518-29897-8. • Brendan McGeever: Antisemitism and the Russian Revolution, Cambridge, Cambridge University Press, 2019. 258 pp. – ISBN 978-1-107-19599-8.• Jonathan Waterlow: It’s Only a Joke, Comrade! Humour, Trust and Everyday Life Under Stalin, Oxford, CreateSpace, 2018. XXI, 285 pp. – ISBN 978-1-985635-82-1.• Christian Koller and Matthias Marschik (eds.): Die ungarische Räterepublik 1919. Innenansichten – Außenperspektiven – Folgewirkungen [The Hungarian Soviet Republic of 1919. Insights – Outside Perspectives – Effects], Wien, Promedia, 2018. 280 pp. – ISBN 978-3-85371-446-1.• Lucas Federer, Gleb J. Albert, and Monika Dommann (eds.): Archive des Aktivismus. Schweizer Trotzkist*innen im Kalten Krieg [Archives of Activism. Swiss Trotskyists in the Cold War Era], Zürich, intercom Verlag, 2018. (Æther. 2). – ISBN 978-3-9524954-1-4.• Werner Röhr: Der gelbe Nebel. Drei Studien zur jüngeren marxistischen Stalinismus-Kritik [The Green Fog. Three Essays on Recent Marxist Critique of Stalinism], Berlin, Verlag am Park, 2018. 228 pp. – ISBN 978-3-947094-35-6.• Manfred Mugrauer (ed.): Partei in Bewegung. 100 Jahre KPÖ in Bildern [A Party in Motion. A Centenary of the Communist Party of Austria in Pictures], Wien, Globus-Verlag, 2018. 448 pp. – ISBN 978-3-9504548-2-6.• Jörn Schütrumpf (ed.): ‘Spartakusaufstand’. Der unterschlagene Bericht des Untersuchungsausschusses der verfassunggebenden Preußischen Landes- versammlung über die Januar-Unruhen 1919 in Berlin [‘Spartacus Uprising’. The Concealed Report by the Fact-Finding Committee of the Prussian Constitutional Assembly About the January Riots of 1919 in Berlin], Berlin, Dietz, 2018. 639 pp. – ISBN 978-3-320-02357-7.• Matilde Eiroa San Francisco: Españoles tras el Telón de Acero. El exilio republicano y comunista en la Europa socialista [Spaniards Behind the Iron Curtain. The Republican and Communist Exile in Socialist Europe], Madrid, Marcial Pons Historia, 2018. 255 pp. – ISBN 978-84-16662-28-9.• Rosa Luxemburg: Gesammelte Werke [Collected Works]. VII: 1907 bis 1918. 2 vols. Edited by Annelies Laschitza and Eckhard Müller, Berlin, Karl Dietz Verlag, 2017. 1233 pp. – ISBN 978-3-320-02332-4.• James D. White: Red Hamlet. The Life and Ideas of Alexander Bogdanov, Leiden e.a., Brill, 2018. XIV, 494 pp. (Historical Materialism Book Series. 172). – ISBN 978-90-04-26891-3. [Paperback edition: Chicago, Haymarket Books, 2019. – ISBN 978-1-6425-9048-7].• Avgust Lešnik: Rdeča mavrica. Delavska socialistična gibanja na razpotjih 1848–1918–1948. Historično-sociološki traktati [Red Rainbow: The Labour Socialist Movements at the Crossroads, 1848–1918–1948. Historical-Sociological Treatises], Ljubljana, Znanstvena založba Filozofske fakultete, 2018. 544 pp. – ISBN 978-961-06-0119-7.• Barbara C. Allen (ed.): Leaflets of the Russian Revolution. Socialist Organizing in 1917, Chicago, Haymarket Books, 2018. 168 pp. – ISBN 978-1-6084-6970-3. • Lara Douds: Inside Lenin’s Government. Ideology, Power and Practice in the Early Soviet State, London, Bloomsbury Academic, 2018. 240 pp. – ISBN 978-1-4742-8670-1.• Florian Wilde: Revolution als Realpolitik. Ernst Meyer (1887–1930). Biographie eines KPD-Vorsitzenden, Konstanz, UVK Verlagsgesellschaft, 2018. 452 pp. – ISBN 978-3-86764-773-1.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8503</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8503">
+                <mets:FLocat xlink:href="https://incs.ub.rub.de/index.php/INCS/article/download/8503/8069" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8503" DMDID="DMD_rub-journals_8503">
+            <mets:fptr FILEID="FILE0_rub-journals_8503"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

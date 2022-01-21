@@ -1,0 +1,54 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8491">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <nonSort>The </nonSort>
+                        <title>Use of Lenin in Chinese Sovietology after 1989</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Li, Jie</displayForm>
+                        <namePart type="family">Li</namePart>
+                        <namePart type="given">Jie</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020-02-26</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">27</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Hong Kong
+In 1989, China faced global criticism due to the brutal military crackdown ordered by its ruling Communist party over civilians during the pro-democratic Tiananmen demonstrations in the summer of that year. The article examines how Chinese Soviet-watchers manipulated the symbol of Vladimir Lenin and his post-1917 foreign policy, to support Chinese leader Deng Xiaoping’s post-Tiananmen agenda of buying time and keeping a low profile; while finding a way out of isolation and re-connecting with the world. After the Tiananmen Incident in 1989, interpretation of Lenin’s writings by Chinese scholars generally supported Deng’s reformist policies and legitimized his position at home against the comeback of the leftist offensive. Chinese scholarship put Deng and Lenin on the same level and stated that Deng had long followed Lenin’s principle of building socialism. Moreover, Lenin’s foreign policy and his rule during the early Soviet Union were selected as they had meshed well with the stance and interest of China after Tiananmen, since both regimes were bound by the common aspirations of rising to be global powers amid international hostility. Chinese scholars praised Lenin’s agenda that embraced reforms and learning from the West, while persisting with communist dictatorship, as the key to saving China from the setback of Tiananmen and to keeping socialism vital in the future.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8491</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8491">
+                <mets:FLocat xlink:href="https://incs.ub.rub.de/index.php/INCS/article/download/8491/8057" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8491" DMDID="DMD_rub-journals_8491">
+            <mets:fptr FILEID="FILE0_rub-journals_8491"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

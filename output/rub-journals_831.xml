@@ -1,0 +1,86 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_831">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>FPGA-based Accelerator for Post-Quantum Signature Scheme SPHINCS-256</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Amiet, Dorian</displayForm>
+                        <namePart type="family">Amiet</namePart>
+                        <namePart type="given">Dorian</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Curiger, Andreas</displayForm>
+                        <namePart type="family">Curiger</namePart>
+                        <namePart type="given">Andreas</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Zbinden, Paul</displayForm>
+                        <namePart type="family">Zbinden</namePart>
+                        <namePart type="given">Paul</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2018-02-14</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">22</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">In recent years, a substantial amount of research has been conducted and progress made in the area of quantum computers. Small functional prototypes have already been reported. If they scale as expected, they will eventually be able to break current public-key cryptosystems. The goal of post-quantum cryptography is to develop cryptographic systems that are secure against attacks originating from both quantum and classical computers. Frequently referred post-quantum signature schemes are based on the security of hash functions. A promising candidate in this group is SPHINCS-256. This paper presents the first FPGA-based hardware accelerator for SPHINCS-256. It can be implemented on an entry-level FPGA, occupying roughly 19,000 LUTs, 38,000 FFs and 36 BRAMs. On a Kintex-7 Xilinx FPGA, signing takes 1.53 milliseconds, and verification needs only 65 microseconds. Area and throughput of the accelerator are in a range that outperform today’s widely used RSA signature scheme. The performance can even keep up with ECDSA accelerators. Hence, SPHINCS-256 is a hot candidate to replace RSA and ECDSA in a post-quantum world.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tches.v2018.i1.18-39</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_831</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_831">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/831/783" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_rub-journals_831">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/831/7996" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="" ID="FILE2_rub-journals_831">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/831/7997" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_831" DMDID="DMD_rub-journals_831">
+            <mets:fptr FILEID="FILE0_rub-journals_831"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_831" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_831"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART2_rub-journals_831" LABEL="">
+                <mets:fptr FILEID="FILE2_rub-journals_831"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

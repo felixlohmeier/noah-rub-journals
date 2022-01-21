@@ -1,0 +1,60 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8800">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Japanese Concepts of Angels</title>
+                        <subTitle>Analyzing Depictions of Celestial Beings in the shōjo Manga Kamikaze Kaitō Jeanne</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Sharbat Dar, Dunja</displayForm>
+                        <namePart type="family">Sharbat Dar</namePart>
+                        <namePart type="given">Dunja</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2021-03-16</dateIssued>
+                    </originInfo>
+                    <abstract lang="eng">White wings, long hair, &apos;pure&apos; faces: the appearance of angels frequently follows similar aesthetics connected to Christian imagery. Angels and Christian religion also are popular themes in manga, Japanese comics, often intermingled with Buddhist or Shinto notions. Since imagery in popular culture resonates and shapes vernacular and cultural perspectives, manga like Kamikaze Kaitō Jeanne (KKJ) provide an important insight into the conceptualization of angels in Japan. This article therefore analyzes the contrary role of angels in KKJ as the Other, the mysterious, serene one, while simultaneously angels are depicted as part of the circle of life every creature undergoes in Buddhist cosmology. Based on a visual hermeneutic approach, this article demonstrates how the intermix of both visual and religious traditions in Japan shape the depiction of angels in Japanese popcultural media.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.46586/er.12.2021.8800</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8800</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8800">
+                <mets:FLocat xlink:href="https://er.ceres.rub.de/index.php/ER/article/download/8800/8425" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="text/html" ID="FILE1_rub-journals_8800">
+                <mets:FLocat xlink:href="https://er.ceres.rub.de/index.php/ER/article/download/8800/8426" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8800" DMDID="DMD_rub-journals_8800">
+            <mets:fptr FILEID="FILE0_rub-journals_8800"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_8800" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_8800"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

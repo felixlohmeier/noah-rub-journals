@@ -1,0 +1,61 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_489">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>From shack dweller to home owner</title>
+                        <subTitle>The power of the MBOP, Africana womanism, and self-help housing among the Shack Dwellers Federation of Namibia</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Cowser, Angela</displayForm>
+                        <namePart type="family">Cowser</namePart>
+                        <namePart type="given">Angela</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Barnes, Sandra L.</displayForm>
+                        <namePart type="family">Barnes</namePart>
+                        <namePart type="given">Sandra L.</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2016-06-10</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">27</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Africana womanism holds that African women hand down generational wisdom, think and act communally, and routinely confront issues of race, class, and gender exclusion. This ethnography uses data gathered during a seven-month field study in 2010 from a little-researched group of nearly 300 female members of the Shack Dwellers Federation of Namibia (SDFN) to explore how Federation membership develops leaders and converts shack dwellers into homeowners. Organizational challenges, accomplishments, values, and beliefs were used to measure Federation women’s knowledge, politics, and practices. Overall, findings suggest that a combi¬nation of factors, including the membership-based organization of the poor, Africana womanist ideologies, self-help housing, and communal leadership practices, help poor women catalyze women’s rights, develop leadership skills, and reduce poverty by converting Federation shack dwellers into Federation homeowners. Those dwellings, in turn, stabilize and make more secure the economic, social, and political lives of Federation families. Results have academic and applied importance to illumine how Africana womanist and self-help practices are occurring in severely impoverished spaces, as well as how ideology translates into praxis.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_489</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_489">
+                <mets:FLocat xlink:href="https://namibian-studies.com/index.php/JNS/article/download/489/440" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_489" DMDID="DMD_rub-journals_489">
+            <mets:fptr FILEID="FILE0_rub-journals_489"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

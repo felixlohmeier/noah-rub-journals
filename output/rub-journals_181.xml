@@ -1,0 +1,53 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_181">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <nonSort>The </nonSort>
+                        <title>relationship between concepts of home, colonialism and exoticism in the works of Gustav Frenssen and Hans Grimm</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Parr, Rolf</displayForm>
+                        <namePart type="family">Parr</namePart>
+                        <namePart type="given">Rolf</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015-03-18</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">22</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">This article traces the reciprocal facilitation of colonialism and the ideology of regional art based on two examples: Gustav Frenssen’s Peter Moor’s Journey to Southwest (1906), addressing the topic of the German war of extermination against the Herero and the Nama 1904-1908, and Hans Grimm’s Südafrikanische Novellen (1913), with their many scenarios on the inextricable aporia of making the colonies a place of home and belonging on the one hand, and exoticistic fascination on the other hand. The focus is not merely on semantic situations of encounter between ‘black’ and ‘white’, which here and there appear to succeed, however only temporarily before they too fall victim to the inescapable aporia of the German imperial construct of a colonial home. For when the aim is not only the colonial or imperial-military annexation of the outland, but making it one’s home in the sense of successful ‘cultural border work’ (Homi K. Bhabha), it becomes imperative for the encounter with the ‘other’ that it not to be allowed to partake in the ‘continuum of past and present’. German imperialism’s construction of home, with its projection of an anachronistic image of home onto the colonies, however, prevented exactly that.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_181</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_181">
+                <mets:FLocat xlink:href="https://namibian-studies.com/index.php/JNS/article/download/181/142" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_181" DMDID="DMD_rub-journals_181">
+            <mets:fptr FILEID="FILE0_rub-journals_181"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

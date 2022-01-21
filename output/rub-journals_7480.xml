@@ -1,0 +1,53 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7480">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Human rights challenged by European policy responses to irregular migration</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Dreyer, Domenica</displayForm>
+                        <namePart type="family">Dreyer</namePart>
+                        <namePart type="given">Domenica</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015-03-04</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">38</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Irregular migration has become a particular challenge for the European Union (EU) in the 21st century since thousands of people cross borders without legal permits and thereby undercut the sovereign state. Yet, many of these migrants are legitimate asylum-seekers with international and EU law legalising their irregular border crossing. This article argues that international and EU human rights and refugee law have only a limited impact on the state’s sovereign immigration and asylum policies at the cost of individuals’ human rights. At the example of the case study countries Italy and Malta, the lawfulness of two common policy responses – namely return and detention – is analysed on the basis of European and international law. The challenged human rights are freedom from torture and inhuman or degrading treatment extending to an effective right to seek asylum and the non-refoulement principle in refugee law.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/mts.52.2014.49-86</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7480</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7480">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/7480/6652" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7480" DMDID="DMD_rub-journals_7480">
+            <mets:fptr FILEID="FILE0_rub-journals_7480"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

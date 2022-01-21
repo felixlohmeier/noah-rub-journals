@@ -1,0 +1,94 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8362">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>New Semi-Free-Start Collision Attack Framework for Reduced RIPEMD-160</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Liu, Fukang</displayForm>
+                        <namePart type="family">Liu</namePart>
+                        <namePart type="given">Fukang</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Dobraunig, Christoph</displayForm>
+                        <namePart type="family">Dobraunig</namePart>
+                        <namePart type="given">Christoph</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Mendel, Florian</displayForm>
+                        <namePart type="family">Mendel</namePart>
+                        <namePart type="given">Florian</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Isobe, Takanori</displayForm>
+                        <namePart type="family">Isobe</namePart>
+                        <namePart type="given">Takanori</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Wang, Gaoli</displayForm>
+                        <namePart type="family">Wang</namePart>
+                        <namePart type="given">Gaoli</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Cao, Zhenfu</displayForm>
+                        <namePart type="family">Cao</namePart>
+                        <namePart type="given">Zhenfu</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2019-09-20</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">24</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">RIPEMD-160 is a hash function published in 1996, which shares similarities with other hash functions designed in this time-period like MD4, MD5 and SHA-1. However, for RIPEMD-160, no (semi-free-start) collision attacks on the full number of steps are known. Hence, it is still used, e.g., to generate Bitcoin addresses together with SHA-256, and is an ISO/IEC standard. Due to its dual-stream structure, even semifree- start collision attacks starting from the first step only reach 36 steps, which were firstly shown by Mendel et al. at Asiacrypt 2013 and later improved by Liu, Mendel and Wang at Asiacrypt 2017. Both of the attacks are based on a similar freedom degree utilization technique as proposed by Landelle and Peyrin at Eurocrypt 2013. However, the best known semi-free-start collision attack on 36 steps of RIPEMD-160 presented at Asiacrypt 2017 still requires 255.1 time and 232 memory. Consequently, a practical semi-free-start collision attack for the first 36 steps of RIPEMD-160 still requires a significant amount of resources. Considering the structure of these previous semi-free-start collision attacks for 36 steps of RIPEMD-160, it seems hard to extend it to more steps. Thus, we develop a different semi-free-start collision attack framework for reduced RIPEMD-160 by carefully investigating the message expansion of RIPEMD-160. Our new framework has several advantages. First of all, it allows to extend the attacks to more steps. Second, the memory complexity of the attacks is negligible. Hence, we were able to mount semi-free-start collision attacks on 36 and 37 steps of RIPEMD-160 with practical time complexity 241 and 249 respectively. Additionally, we describe semi-free-start collision attacks on 38 and 40 (out of 80) steps of RIPEMD-160 with time complexity 252 and 274.6, respectively. To the best of our knowledge, these are the best semi-free-start collision attacks for RIPEMD-160 starting from the first step with respect to the number of steps, including the first practical colliding message pairs for 36 and 37 steps of RIPEMD-160.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tosc.v2019.i3.169-192</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8362</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8362">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/8362/7711" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8362" DMDID="DMD_rub-journals_8362">
+            <mets:fptr FILEID="FILE0_rub-journals_8362"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

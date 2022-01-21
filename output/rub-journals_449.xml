@@ -1,0 +1,52 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_449">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>News on Archives, Collections and Institutions</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>-, Editors</displayForm>
+                        <namePart type="family">-</namePart>
+                        <namePart type="given">Editors</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2016-06-01</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">6</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">• Comintern Online Archives Back on Russian Portal • Ukraine Opens KGB Archives • “Each One’s Personal File”: New Memorial Online Project • Monoskop.org Guide to Digitised Avantgarde Magazines • “Latin America and the Comintern” Biographical Encyclopedia Online • “Using Archives &amp;amp; Libraries in the Former Soviet Union”: New Edition Published • “Prozhito”:Over 250 Soviet Diaries Online • Melbourne University Archives: Communist Party Collection Finding Aids • 1914-1918 Online: International Encyclopedia of the First World War • 70 Years of Partisan Review Now Online • Archivo Biografico del Movimento Operaio • “Russia’s Great War and Revolution”: New Book Series • Marxist Internet Archive: French Academic Journal Cahiers Léon Trotsky Digitised • Henry Sara’s Lantern Lectures Online • Chronicle of Current Events Digitized by “Memorial” • JahrBuch für Forschungen zur Geschichte der Arbeiterbewegung: Neuer Name, neuer Verlag • Early American Marxism: Proletarian Party of America Internal Bulletin Online • “Krasnaia Tatariia” Newspaper 1924-1953 Online • The Newsletter 1957-1958 Online • Der Arbeiter-Fotograf 1926-1933digitalisiert • The NEP Era Back Issues Online</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_449</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_449">
+                <mets:FLocat xlink:href="https://incs.ub.rub.de/index.php/INCS/article/download/449/401" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_449" DMDID="DMD_rub-journals_449">
+            <mets:fptr FILEID="FILE0_rub-journals_449"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

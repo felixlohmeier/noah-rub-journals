@@ -1,0 +1,52 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_428">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>(Sm)othering others? Post-millennial anthropology in Namibia</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Gordon, Robert</displayForm>
+                        <namePart type="family">Gordon</namePart>
+                        <namePart type="given">Robert</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015-12-16</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">17</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">This paper provides a selective overview of the social science literature produced on Namibia since the start of the millennium with a particular focus on anthropology. While still concerned with ‘peripheral areas’ like Kunene and Bushmanland, more recent studies have shifted their focus to the north, the most densely populated region. On the basis of this overview, suggestions are made concerning future topics. Speculation is also offered on how priorities are established, and concerns are raised about the increasing bifurcation of outputs between Namibian- and non-Namibian-based researchers. The possible smothering of local researchers has implications as the Government’s efforts to control research take on new forms.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_428</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_428">
+                <mets:FLocat xlink:href="https://namibian-studies.com/index.php/JNS/article/download/428/384" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_428" DMDID="DMD_rub-journals_428">
+            <mets:fptr FILEID="FILE0_rub-journals_428"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

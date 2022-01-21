@@ -1,0 +1,54 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_9050">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Gender, Populism and Anti-Immigrations</title>
+                        <subTitle>Ethno-Sexist, Femonationalist and Femoglobal Alliance</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Roth, Julia</displayForm>
+                        <namePart type="family">Roth</namePart>
+                        <namePart type="given">Julia</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2021-08-09</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">19</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">In current struggles over cultural hegemony, conservative and right-wing populist dis- course is marked by an omni-presence of topics related to gender and sexuality. This article examines the ways in which diverse actors of what will be called the ‘right-wing populist complex’ use gender in order to catapult a variety of arguments into the public sphere with particular focus on actors in the Americas and Germany. Suggest- ing a first set of Right-Wing Populist Patterns of Gendering1, the article pursues the question how seemingly emancipatory arguments function in right-wing discourse, especially in performing a modernisation paradigm, while simultaneously, and in of- ten paradoxical ways, promoting a program of re-traditionalisation. Therefore, often, gender arguments—like the sexual freedom of ‘autochtonous’ women—are used to justify anti-immigration and racist politics. One’s own society can thus be depicted as supposedly already fully emancipated in contrast to the alleged ‘backward’ social order of immigrants. Through this ethno-sexist twist, the article argues that gender provides right-wing populist discourse a useful tool for affectively bridging seemingly paradoxical arguments and transferring diverse social hierarchies shaped by late neo- liberalism onto the gender hierarchy of a society. Since gender as a discursive element is foundational for right-wing discourse, an analytical, systematic and intersectional gender lens—or a critical gender theory—is crucial in right-wing populism research in order to grasp patterns of gendering and their entanglements with racialisation and racist structures.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.46586/mts.65.2021.61-79</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_9050</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_9050">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/9050/8636" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_9050" DMDID="DMD_rub-journals_9050">
+            <mets:fptr FILEID="FILE0_rub-journals_9050"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,60 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8775">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Bishops and People</title>
+                        <subTitle>Looking for Local Religious Life in Late Antiquity</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Kahlos, Maijastina</displayForm>
+                        <namePart type="family">Kahlos</namePart>
+                        <namePart type="given">Maijastina</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2021-02-15</dateIssued>
+                    </originInfo>
+                    <abstract lang="eng">The religiosity of late antique and early medieval communities in the Mediterranean world has been vigorously examined and debated. This religious life has been called (among many other terms) ‘popular Christianity,’ ‘local Christianity,’ the ‘second church,’ ‘Religion zweiter Ordnung,’ and ‘the third paganism.’ In my article, I analyse late antique religious life from the viewpoint of encounters—between the ideals of the ecclesiastical elite and the people’s local cultic practices. These practices, embedded in the local communities, varied by regions but we can see similarities in the interaction of bishops with their local population. I will show how the ecclesiastical writers portrayed local cultic practices in negative terms as another religion (‘paganism,’ ‘idolatry,’ ‘demonic/ diabolic practices’), divergent from their own (‘Christianity’), or even as a distortion beyond ‘proper’ religion (‘magic’, ‘superstition’, ‘sacrilege’). In my analysis, I discuss and test various approaches that scholars have developed to understand the tensions between the bishops and the local people: David Frankfurter (local religion), Rubina Raja and Jörg Rüpke (local lived religion), and Nicola Denzey Lewis (magic as lived religion), Lisa Kaaren Bailey (lay religion) and Lucy Grig (popular culture). My focus is on the western Mediterranean world from the fourth to sixth centuries, and the cases of polemical encounters I analyse come from the writings of North Italian, Gallic and Hispanic bishops (Paulinus of Nola, Maximus of Turin, Philaster of Brescia, Caesarius of Arles, and Martin of Braga). I also compare the North Italian, Gallic and Hispanic situations with those in North Africa depicted by Augustine of Hippo.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.46586/er.12.2021.8775</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8775</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8775">
+                <mets:FLocat xlink:href="https://er.ceres.rub.de/index.php/ER/article/download/8775/8383" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="text/html" ID="FILE1_rub-journals_8775">
+                <mets:FLocat xlink:href="https://er.ceres.rub.de/index.php/ER/article/download/8775/8384" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8775" DMDID="DMD_rub-journals_8775">
+            <mets:fptr FILEID="FILE0_rub-journals_8775"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_8775" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_8775"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

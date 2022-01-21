@@ -1,0 +1,53 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_262">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <nonSort>Der </nonSort>
+                        <title>lange Schatten der Mauer. Neuerscheinungen zur Emigration aus der DDR [Review essay]</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Wolff, Frank</displayForm>
+                        <namePart type="family">Wolff</namePart>
+                        <namePart type="given">Frank</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2012-09-05</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">10</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">• Andreas H. Apelt (ed.): Flucht, Ausreise, Freikauf. (Aus-)Wege aus der DDR, Halle (Saale), Mitteldeutscher Verlag, 2011. 120 p. – ISBN 978-3-898128-59-9.• Manfred Gehrmann: Die Überwindung des „Eisernen Vorhangs“. Die Abwanderung aus der DDR in die BRD und nach West-Berlin als innerdeutsches Migranten-Netzwerk, Berlin, Ch.Links, 2009. 656 p. – ISBN 978-3-861535-39-3.• Thomas von Lindheim: Bezahlte Freiheit. Der Häftingsfreikauf zwischen beiden deutschen Staaten. Baden-Baden, Nomos, 2011. 143 p. – ISBN 978-3-832964-95-5.• Ludwig A. Rehlinger: Freikauf. Die Geschäfte der DDR mit politisch Verfolgten, 1963-1989. Neue Ausg., Halle (Saale), Mitteldeutscher Verlag, 2011. 279 p. – ISBN 978-3-898128-29-2.Institut für Migrationsforschung und interkulturelle Studien (IMIS), Universität Osnabrück</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_262</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_262">
+                <mets:FLocat xlink:href="https://incs.ub.rub.de/index.php/INCS/article/download/262/220" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_262" DMDID="DMD_rub-journals_262">
+            <mets:fptr FILEID="FILE0_rub-journals_262"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

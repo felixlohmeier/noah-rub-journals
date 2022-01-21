@@ -1,0 +1,54 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7414">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Against Japanese and Italian Imperialism</title>
+                        <subTitle>The Anti-War Campaigns of Communist International Trade Union Organizations, 1931 – 1936</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Weiss, Holger</displayForm>
+                        <namePart type="family">Weiss</namePart>
+                        <namePart type="given">Holger</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2018-10-24</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">26</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">This essay discusses the international anti-war campaigns of the International of Seamen and Harbour Workers (ISH) and the International Trade Union Committee of Negro Workers (ITUCNW) against Japanese imperialism in Manchuria and Italian imperialism in Ethiopia during the first half of the 1930s. Both crises propelled international campaigns, ‘Hands off China’ and ‘Hands off Abyssinia’, that were orchestrated by the Third (Communist) International or the Comintern and the Red International of Labour Unions (Profintern) and their affiliated organisations such as the ISH and ITUCNW. Comintern / Profintern anti-war campaigns were organized under the banner of the prevailing ‘class-against-class’ strategy. In practice, this meant that the campaigns were both calls for international solidarity and at the same time attempts to position communist activities against those of the ‘social fascists’, i.e., socialist, social democratic, reformist and / or syndicalist controlled parties and trade unions.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/mts.60.2018.121-146</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7414</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7414">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/7414/6586" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7414" DMDID="DMD_rub-journals_7414">
+            <mets:fptr FILEID="FILE0_rub-journals_7414"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

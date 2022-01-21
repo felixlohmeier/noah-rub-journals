@@ -1,0 +1,61 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8694">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <nonSort>The </nonSort>
+                        <title>Yogi and the Scholar</title>
+                        <subTitle>Rhetorical Polemics as Literary Frames and Conceptual Framework in Tibetan Buddhist Discourse</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Viehbeck, Markus</displayForm>
+                        <namePart type="family">Viehbeck</namePart>
+                        <namePart type="given">Markus</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020-10-13</dateIssued>
+                    </originInfo>
+                    <abstract lang="eng">Tibetan polemical literature is especially known and enjoyed for its harsh language and offensive comparisons, which stand in marked contrast to the philosophical and doctrinal matters that works of the genre commonly discuss. Drawing from a detailed literary analysis of a particular polemical exchange between Ju Mipam (1846–1912) and Pari Rapsel (1840–1912), this article calls for a distinction between what might be called “rhetorical polemics” and “formal argumentation,” and argues that the former is used to exercise framing functions towards the latter, in both structural and conceptual terms. With regard to conceptual considerations, polemical comparisons play an important role. Through frequent allusions to a stereotypical divide of Buddhist experts in practice-oriented yogis and logic-oriented scholars, these discourses connect to a larger narrative framework about the correct or incorrect transmission of Buddhism on the Tibetan plateau, which individual agents use to characterize their opponents. In so doing, they contribute to the further solidification and promotion of the master narrative that this framework entails.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.46586/er.11.2020.8694</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8694</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8694">
+                <mets:FLocat xlink:href="https://er.ceres.rub.de/index.php/ER/article/download/8694/8304" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="text/html" ID="FILE1_rub-journals_8694">
+                <mets:FLocat xlink:href="https://er.ceres.rub.de/index.php/ER/article/download/8694/8305" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8694" DMDID="DMD_rub-journals_8694">
+            <mets:fptr FILEID="FILE0_rub-journals_8694"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_8694" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_8694"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

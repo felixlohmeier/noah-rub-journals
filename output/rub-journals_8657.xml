@@ -1,0 +1,70 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8657">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Cross-Movement in Latin America</title>
+                        <subTitle>Lessons from the Mercosur Confederation of Family Farming Organisations (Coprofam)</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Luiz, Juliana R.</displayForm>
+                        <namePart type="family">Luiz</namePart>
+                        <namePart type="given">Juliana R.</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Delgado de Carvalho, Priscila</displayForm>
+                        <namePart type="family">Delgado de Carvalho</namePart>
+                        <namePart type="given">Priscila</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Teixeira, Marco Antonio</displayForm>
+                        <namePart type="family">Teixeira</namePart>
+                        <namePart type="given">Marco Antonio</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020-07-10</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">23</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">In this article, we analyse the Mercosur Confederation of Family Farming Organisations (Coprofam), a transnational organisation of South American rural social movements and trade unions. Based on the dialogue mirrored in the literature on coalition formation, a contextual-spatial perspective and a pragmatist approach, we aim to understand the process of alliance building that led to the creation of Coprofam, as well as its sustainability and longevity. The paper highlights the importance of political context, previous social ties, political cultures and historical memories, debates about coalitional identity, as well as Coprofam’s actions to expand relations with other movements, organisations and regions, which have influenced Coprofam’s formation and development, through the decades. In terms of data and methods, the research is based on the analysis of documents, participant observation and interviews with Coprofam’s activists.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/mts.63.2020.41-63</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8657</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8657">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/8657/8212" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8657" DMDID="DMD_rub-journals_8657">
+            <mets:fptr FILEID="FILE0_rub-journals_8657"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,53 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7499">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>From Son of the Bourgeoisie to Servant of the Revolution The Roots of Daniel Guérin’s Revolutionary Socialism</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Berry, David</displayForm>
+                        <namePart type="family">Berry</namePart>
+                        <namePart type="given">David</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015-02-02</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">29</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">This article explores the early years of Daniel Guérin (1904–88), a prominent and original figure on the French left from the mid-1930s onwards, in order to better understand his transformation from a son of the grande bourgeoisie into a leading revolutionary socialist and campaigner for decolonisation, racial equality, homosexual liberation and peace. It is based on a close reading of Guérin’s own retrospective representation of this period through his several autobiographical or semi-autobiographical works, as well as published and filmed interviews. This public self-representation is complemented and partly challenged by original research on other sources not intended for public consumption, including correspondence and other private papers. The article examines the influence of Guérin’s extremely wealthy yet also highly cultured, liberal, Dreyfusard family, especially his antimilitarist father’s Tolstoyan leanings and social conscience. It also highlights, notably through an analysis of the young Guérin’s poetry and novels and his intense friendship with the Catholic novelist François Mauriac, the disillusion provoked by the Geat War and the importance of a spiritual crisis which he experienced during the 1920s. Two other personal experiences had a profound impact on Guérin’s consciousness: first, his belated exposure to the realities of Parisian working-class life (deepened by a series of homosexual relationships with young proletarians), and secondly his awakening to the realities of French colonialism through his travels in the Middle East and in Indochina. These factors and his subsequent discovery not just of Marx, but also of Tolstoy and Gandhi, are essential, it is argued, to an understanding of the roots of the deeply ethical libertarian socialism for which Guérin would become known in later years.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/mts.51.2014.283-311</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7499</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7499">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/7499/6671" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7499" DMDID="DMD_rub-journals_7499">
+            <mets:fptr FILEID="FILE0_rub-journals_7499"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

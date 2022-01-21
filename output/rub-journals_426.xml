@@ -1,0 +1,52 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_426">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Technology and innovation landscapes in the context of a knowledge-based economy</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Geingos-Onuegbu, Immolatrix L.</displayForm>
+                        <namePart type="family">Geingos-Onuegbu</namePart>
+                        <namePart type="given">Immolatrix L.</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015-12-16</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">11</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">As a country rich in natural resources Namibia seeks to move towards a Knowledge Based Economy (KBE) by 2030. However, the aim of reconciling more effective exploitation of these resources with the conservation of biodiversity and sustainable development, poses political and legal challenges that promise to have a substantial impact on research, science, technology and innovation (RSTI). This article critically reviews the current state of Namibia’s RSTI policy and framework. It argues that even though Namibia has made substantial progress in improving the institutional and policy frameworks of RSTI, a lack of consensus on what RSTI entails and on how (or even whether) it should be contextualized and adapted to the social and economic particularities of Namibia is hindering its development and implementation.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_426</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_426">
+                <mets:FLocat xlink:href="https://namibian-studies.com/index.php/JNS/article/download/426/382" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_426" DMDID="DMD_rub-journals_426">
+            <mets:fptr FILEID="FILE0_rub-journals_426"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

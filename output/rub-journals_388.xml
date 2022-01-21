@@ -1,0 +1,61 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_388">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Analysis of the material removing mechanism for an automated chiselling approach</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Steinhagen, G.</displayForm>
+                        <namePart type="family">Steinhagen</namePart>
+                        <namePart type="given">G.</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Kuhlenkötter, Bernd</displayForm>
+                        <namePart type="family">Kuhlenkötter</namePart>
+                        <namePart type="given">Bernd</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015-11-25</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">11</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">The European stone industry was exposed to great competition during the last years. However theEuropean market is still the most important one for natural stone products. Especially traditionalartistic processing techniques are very expensive due to the high personnel requirement. Thusautomation becomes interesting for economic reasons. To process individually designed stoneproducts it is planned to use a robot mounted tool.One of the issues to achieve this goal is the analysis of the material removal to get repeatableresults. We analysed different manual techniques used for sandstone surfaces in a first step andmeasured the movement of the chisel with a high speed camera system. We chose two techniquesfor further analysis and designed a first mechanical testbed to achieve repeatable kinetic energies.The material removal was analysed with the camera. Thus we are able to see the movement of thechisel and the flow of the removed material.With this knowledge the analysis of relevant material and process properties will be shown as well.Furthermore, this paper discusses the relevant result parameters which define the optical quality ofthe surface. Combining these data it is possible to analyse the working parameters of anautomated system which is able to process various sandstones with individual surface geometries.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/icscm.3.2015.61-71</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_388</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_388">
+                <mets:FLocat xlink:href="https://icscm.ub.rub.de/index.php/ICSCM/article/download/388/345" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_388" DMDID="DMD_rub-journals_388">
+            <mets:fptr FILEID="FILE0_rub-journals_388"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

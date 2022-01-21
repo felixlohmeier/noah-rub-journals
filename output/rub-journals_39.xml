@@ -1,0 +1,60 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_39">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Encodings of society in Namibian literature</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Winterfeldt, Volker</displayForm>
+                        <namePart type="family">Winterfeldt</namePart>
+                        <namePart type="given">Volker</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Vale, Helen</displayForm>
+                        <namePart type="family">Vale</namePart>
+                        <namePart type="given">Helen</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2014-01-27</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">24</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">This article examines a selection of contemporary Namibian prose and poetry. In Brian Harlech-Jones’s A Small Space (1999) and To Dream Again (2002), the embodiment of socio-cultural experience and its subjective adaptation, in the Bourdieuvian sense of a class-typical imprint of the individual’s habitus, can be traced in the development of the novels’ main protagonists. In Breaking Contract (1974), Vinnia Ndadi’s autobiographical account of the transition of a migrant worker from peasant to colonial wage slave and, eventually, to party official, is not accompanied by evidence of a marked cultural transformation that would reflect the experience of different social worlds. Contemporary Namibian poetry, on the other hand, presents the most outspoken portrait of social reality, both of postcolonial conditions and of the authors themselves. From a sociological perspective, the paper investigates the aesthetic encoding of the social world of the authors and their work. The realities of anti-colonial resistance and postcolonial realignment of society are reflected in the fictional identities of protagonists. The paper understands the fashioning of narratives as the creative process of re-enactment of the ‘real’ that takes place within the literary field.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_39</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_39">
+                <mets:FLocat xlink:href="https://namibian-studies.com/index.php/JNS/article/download/39/21" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_39" DMDID="DMD_rub-journals_39">
+            <mets:fptr FILEID="FILE0_rub-journals_39"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

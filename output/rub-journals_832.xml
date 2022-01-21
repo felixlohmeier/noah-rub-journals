@@ -1,0 +1,86 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_832">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>High Order Masking of Look-up Tables with Common Shares</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Coron, Jean-Sébastien</displayForm>
+                        <namePart type="family">Coron</namePart>
+                        <namePart type="given">Jean-Sébastien</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Rondepierre, Franck</displayForm>
+                        <namePart type="family">Rondepierre</namePart>
+                        <namePart type="given">Franck</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Zeitoun, Rina</displayForm>
+                        <namePart type="family">Zeitoun</namePart>
+                        <namePart type="given">Rina</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2018-02-14</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">33</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Masking is an effective countermeasure against side-channel attacks. In this paper, we improve the efficiency of the high-order masking of look-up tables countermeasure introduced at Eurocrypt 2014, based on a combination of three techniques, and still with a proof of security in the Ishai-Sahai-Wagner (ISW) probing model. The first technique consists in proving security under the stronger t-SNI definition, which enables to use n = t+1 shares instead of n = 2t+1 against t-th order attacks. The second technique consists in progressively incrementing the number of shares within the countermeasure, from a single share to n, thereby reducing the complexity of the countermeasure. The third technique consists in adapting the common shares approach introduced by Coron et al. at CHES 2016, so that half of a randomized look-up table can be pre-computed for multiple SBoxes. We show that our techniques perform well in practice. In theory, the combination of the three techniques should lead to a factor 10.7 improvement in efficiency, for a large number of shares. For a practical implementation with a reasonable number of shares, we get a 4.8 speed-up factor for AES.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tches.v2018.i1.40-72</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_832</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_832">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/832/784" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_rub-journals_832">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/832/7998" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="" ID="FILE2_rub-journals_832">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/832/7999" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_832" DMDID="DMD_rub-journals_832">
+            <mets:fptr FILEID="FILE0_rub-journals_832"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_832" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_832"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART2_rub-journals_832" LABEL="">
+                <mets:fptr FILEID="FILE2_rub-journals_832"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

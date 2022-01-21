@@ -1,0 +1,53 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_34">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <nonSort>The </nonSort>
+                        <title>church, the state and the issue of national reconciliation in Namibia</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Groop, Kim Stefan</displayForm>
+                        <namePart type="family">Groop</namePart>
+                        <namePart type="given">Kim Stefan</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2014-01-31</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">20</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">The Church in Namibia, from its birth until today, has often been criticised for its ties to the governing powers.1 While much of the critique has been justified, the realities were often far more complex than portrayed by the critics. This article scrutinizes the relationship between the Church and state before and after independence and in particular the significant but sensitive issue of national reconciliation in Namibia. It has been suggested that the Church could have played a more prominent role as a promoter of unity and reconciliation, but that it has been hampered by its owntradition of fighting for justice alongside the liberation movement, in particular SWAPO, rather than independently. The Namibian Church and state have generally opted for stability, fostering prosperity and local relations rather than working towards an improved climate for discussion on a national level, i.e. they have opted for the comfort of silence rather than the inconvenience of a reconciliation process.But it is also suggested that there have been genuine attempts, within Church and society, at presenting alternatives to silence.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_34</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_34">
+                <mets:FLocat xlink:href="https://namibian-studies.com/index.php/JNS/article/download/34/18" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_34" DMDID="DMD_rub-journals_34">
+            <mets:fptr FILEID="FILE0_rub-journals_34"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,55 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8316">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <nonSort>The </nonSort>
+                        <title>Exact Security of PMAC with Two Powering-Up Masks</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Naito, Yusuke</displayForm>
+                        <namePart type="family">Naito</namePart>
+                        <namePart type="given">Yusuke</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2019-06-11</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">21</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">PMAC is a rate-1, parallelizable, block-cipher-based message authentication code (MAC), proposed by Black and Rogaway (EUROCRYPT 2002). Improving the security bound is a main research topic for PMAC. In particular, showing a tight bound is the primary goal of the research, since Luykx et al.’s paper (EUROCRYPT 2016). Regarding the pseudo-random-function (PRF) security of PMAC, a collision of the hash function, or the difference between a random permutation and a random function offers the lower bound Ω(q2/2n) for q queries and the block cipher size n. Regarding the MAC security (unforgeability), a hash collision for MAC queries, or guessing a tag offers the lower bound Ω(q2m /2n + qv/2n) for qm MAC queries and qv verification queries (forgery attempts). The tight upper bound of the PRF-security O(q2/2n) of PMAC was given by Gaži et el. (ToSC 2017, Issue 1), but their proof requires a 4-wise independent masking scheme that uses 4 n-bit random values. Open problems from their work are: (1) find a masking scheme with three or less random values with which PMAC has the tight upper bound for PRF-security; (2) find a masking scheme with which PMAC has the tight upper bound for MAC-security.In this paper, we consider PMAC with two powering-up masks that uses two random values for the masking scheme. Using the structure of the powering-up masking scheme, we show that the PMAC has the tight upper bound O(q2/2n) for PRF-security, which answers the open problem (1), and the tight upper bound O(q2m /2n + qv/2n) for MAC-security, which answers the open problem (2). Note that these results deal with two-key PMACs, thus showing tight upper bounds of PMACs with single-key and/or with one powering-up mask are open problems.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tosc.v2019.i2.125-145</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8316</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8316">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/8316/7665" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8316" DMDID="DMD_rub-journals_8316">
+            <mets:fptr FILEID="FILE0_rub-journals_8316"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

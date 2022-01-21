@@ -1,0 +1,53 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7798">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Workers&apos; Self-Management in Tito&apos;s Yugoslavia Revisited</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Jakir, Aleksandar</displayForm>
+                        <namePart type="family">Jakir</namePart>
+                        <namePart type="given">Aleksandar</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2014-12-17</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">19</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">The paper examines the connection between economic development and the genesis of different forms of nationalism in socialist Yugoslavia with its specific system of workers self-management. It seems that the pivots of divergent national interests reflecting particular economic situations of industrial concerns in individual republics were engaged, on the federal level, in a fierce competition for the limited economic resources, in other words, national rivalry found expression primarily in economic terms, subsequently to be emotionally charged with the rather familiar historical, linguistic and cultural arguments (as became dear in the movement known as the &quot;Croatian Spring&quot; of 1971). The preliminary results of a research project on &quot;Socialist State Enterprises and the Spread of Nationalism on a Regional Level: the Example of Yugoslavia, 1953-1974&quot; seem to support the view that a national mobilization took place only after economic conflicts had taken hold of large parts of the population. At least the results of research we have conducted so far seem to support the view that a national mobilization took place only after economic conflicts had taken hold of large parts of the population. In other words, we are confronted here with an interesting case in which primarily specialist debates on economic questions developed into issues of nationalism involving larger segments of society.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/mts.33.2005.137-155</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7798</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7798">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/7798/6970" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7798" DMDID="DMD_rub-journals_7798">
+            <mets:fptr FILEID="FILE0_rub-journals_7798"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,53 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_654">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <nonSort>The </nonSort>
+                        <title>internment camp ‘Klein-Danzig’ in Windhoek 1939–1941</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Pech, Tobias</displayForm>
+                        <namePart type="family">Pech</namePart>
+                        <namePart type="given">Tobias</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2017-06-28</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">28</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">The internment camp ‘Klein-Danzig’ in Windhoek was in existence during the first years of the Second World War between 1939 and 1941. Its overall capacity rose from 70 up to 200 men. Mainly based on a solid corpus of camp records which include a wide range of documents such as disciplinary files of internees, blue prints for the barracks or even dentist’s files, a detailed picture of the organization, social structure and all-day life in the Windhoek camp is given. The main focus of the article lies on the description of the internees’ disobedience and insubordination which finally led to the shut-down of the camp in 1941. A short summary of the history of the German speaking minority in South West Africa between the World Wars serves to put the internment camp into historical context.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_654</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_654">
+                <mets:FLocat xlink:href="https://namibian-studies.com/index.php/JNS/article/download/654/620" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_654" DMDID="DMD_rub-journals_654">
+            <mets:fptr FILEID="FILE0_rub-journals_654"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

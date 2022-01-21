@@ -1,0 +1,78 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8730">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Rapidly Verifiable XMSS Signatures</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Bos, Joppe W.</displayForm>
+                        <namePart type="family">Bos</namePart>
+                        <namePart type="given">Joppe W.</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Hülsing, Andreas</displayForm>
+                        <namePart type="family">Hülsing</namePart>
+                        <namePart type="given">Andreas</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Renes, Joost</displayForm>
+                        <namePart type="family">Renes</namePart>
+                        <namePart type="given">Joost</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>van Vredendaal, Christine</displayForm>
+                        <namePart type="family">van Vredendaal</namePart>
+                        <namePart type="given">Christine</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020-12-03</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">32</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">This work presents new speed records for XMSS (RFC 8391) signature verification on embedded devices. For this we make use of a probabilistic method recently proposed by Perin, Zambonin, Martins, Custódio, and Martina (PZMCM) at ISCC 2018, that changes the XMSS signing algorithm to search for rapidly verifiable signatures. We improve the method, ensuring that the added signing cost for the search is independent of the message length. We provide a statistical analysis of the resulting verification speed and support it by experiments. We present a record setting RFC compatible implementation of XMSS verification on the ARM Cortex-M4. At a signing time of about one minute on a general purpose CPU, we create signatures that are verified about 1.44 times faster than traditionally generated signatures. Adding further well-known implementation optimizations to the verification algorithm we reduce verification time by over a factor two from 13.85 million to 6.56 million cycles. In contrast to previous works, we provide a detailed security analysis of the resulting signature scheme under classical and quantum attacks that justifies our selection of parameters. On the way, we fill a gap in the security analysis of XMSS as described in RFC 8391 proving that the modified message hashing in the RFC does indeed mitigate multi-target attacks. This was not shown before and might be of independent interest.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.46586/tches.v2021.i1.137-168</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8730</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8730">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/8730/8330" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8730" DMDID="DMD_rub-journals_8730">
+            <mets:fptr FILEID="FILE0_rub-journals_8730"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

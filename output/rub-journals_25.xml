@@ -1,0 +1,54 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_25">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <nonSort>The </nonSort>
+                        <title>GDR’s UNTAG involvement 1989/90</title>
+                        <subTitle>A short and unique chapter in German-Namibian history</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Lange, Daniel</displayForm>
+                        <namePart type="family">Lange</namePart>
+                        <namePart type="given">Daniel</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2013-12-17</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">24</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">For the first and only time in history the German Democratic Republic (GDR) took part in an international peace mission under supervision of the United Nations (UN) during the independence process in Namibia 1989/90. A unit of 30 East German police observers was sent to support the civil police component (CIVPOL) of the United Nations Transition Assistance Group (UNTAG). Developments in both the GDR andNamibia at the time threw up a series of parallels, contrasts and historical curiosities which have since been largely overlooked by historians. The Federal Republic of Germany also sent a contingent of police observers to support the UNTAG missionand for a few months between September 1989 and March 1990 the historically unique situation, in which officers from both German states served side by side, came about at the station in Ombalantu. This paper explores the long term goals behindthe GDR’s participation in UNTAG and examines its position towards Namibia in the months before the East German state collapsed in 1989/90.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_25</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_25">
+                <mets:FLocat xlink:href="https://namibian-studies.com/index.php/JNS/article/download/25/12" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_25" DMDID="DMD_rub-journals_25">
+            <mets:fptr FILEID="FILE0_rub-journals_25"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,52 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_9395">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Safeguarding the musical bows and associated rituals of the Ju/’hoansi</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Sam, Ismael</displayForm>
+                        <namePart type="family">Sam</namePart>
+                        <namePart type="given">Ismael</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2021-12-22</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">18</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">This article provides an overview of existing literature and previous research on the significance of Intangible Cultural Heritage (ICH) globally. It also discusses the way in which Namibia implemented the UNESCO 2003 Convention on Intangible Cultural Heritage (ICH). The article takes the form of a qualitative case study, which is interpretive in nature. A defining characteristic of case studies is the possibility of using a combination of methods to collect data. Thus, the author utilized a multi-method approach. Data was collected by means of a questionnaire, semi-structured interviews, and document analysis. The article describes various musical bows that are found among and played by the Ju/’hoansi people in Namibia. The instruments are not only used to entertain the community’s members but also function as mediating accessories between the living and their ancestral spirits, and as comforters among the Ju/’hoansi musicians and community.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_9395</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_9395">
+                <mets:FLocat xlink:href="https://namibian-studies.com/index.php/JNS/article/download/9395/8936" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_9395" DMDID="DMD_rub-journals_9395">
+            <mets:fptr FILEID="FILE0_rub-journals_9395"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

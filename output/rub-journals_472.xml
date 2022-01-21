@@ -1,0 +1,53 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_472">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Jack M. Bloom</title>
+                        <subTitle>Seeing through the Eyes of the Polish Revolution. Solidarity and the Struggle Against Communism in Poland / Ireneusz Krzemiński</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Schlott, Wolfgang</displayForm>
+                        <namePart type="family">Schlott</namePart>
+                        <namePart type="given">Wolfgang</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2016-06-01</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">3</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Jack M. Bloom: Seeing through the Eyes of the Polish Revolution. Solidarity and the Struggle Against Communism in Poland, Leiden e.a., Brill, 2013. (Historical Materialism Books Series. 50). 428 pp. – ISBN 9789004231801;Ireneusz Krzemiński: Solidarność. Niespełniony projekt polskiej demokracji [Solidarność. An Uncompleted Project of Polish Democracy], Gdańsk, Europejskie Centrum Solidarności, 2013. 587 pp. – ISBN 9788362853083.Forschungsstelle Osteuropa, Universität BremenDeutschland</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_472</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_472">
+                <mets:FLocat xlink:href="https://incs.ub.rub.de/index.php/INCS/article/download/472/424" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_472" DMDID="DMD_rub-journals_472">
+            <mets:fptr FILEID="FILE0_rub-journals_472"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

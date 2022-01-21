@@ -1,0 +1,54 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7528">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Norway Then and Now</title>
+                        <subTitle>A Comparison of Norwegian Society in the Late 1960s and Today</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Archer, Clive</displayForm>
+                        <namePart type="family">Archer</namePart>
+                        <namePart type="given">Clive</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015-01-31</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">22</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Political, economic and social change in Norway from the late 1960s to the early 2010s has been substantial, though key elements of the politics and society have endured. Change is mapped using seven areas of interest, including economic growth, change in the country’s societal composition and in its relations to the rest of the world. In particular, the developments in social movements and the continuation of Norway as an “organisational society” are examined. It seems that, while Norway’s organisations went into decline at the end of the last century, they have made something of a come-back. This may be in response to outside challenges in areas such as the environment but also may reflect an upsurge in youth activity. The country is now involved in European and world events as never before. Norway is becoming like many other West European societies, only it is better organised and richer.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/mts.48.2012.157-178</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7528</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7528">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/7528/6700" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7528" DMDID="DMD_rub-journals_7528">
+            <mets:fptr FILEID="FILE0_rub-journals_7528"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

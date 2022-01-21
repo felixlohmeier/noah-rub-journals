@@ -1,0 +1,78 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_888">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>MDS Matrices with Lightweight Circuits</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Duval, Sébastien</displayForm>
+                        <namePart type="family">Duval</namePart>
+                        <namePart type="given">Sébastien</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Leurent, Gaëtan</displayForm>
+                        <namePart type="family">Leurent</namePart>
+                        <namePart type="given">Gaëtan</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2018-06-07</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">31</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">MDS matrices are an important element for the design of block ciphers such as the AES. In recent years, there has been a lot of work on the construction of MDS matrices with a low implementation cost, in the context of lightweight cryptography. Most of the previous efforts focused on local optimization, constructing MDS matrices with coefficients that can be efficiently computed. In particular, this led to a matrix with a direct xor count of only 106, while a direct implementation of the MixColumn matrix of the AES requires 152 bitwise xors. More recently, techniques based on global optimization have been introduced, where the implementation can reuse some intermediate variables. In particular, Kranz et al. used optimization tools to find a good implementation from the description of an MDS matrix. They have lowered the cost of implementing the MixColumn matrix to 97 bitwise xors, and proposed a new matrix with only 72 bitwise xors, the lowest cost known so far. In this work we propose a different approach to global optimization. Instead of looking for an optimized circuit of a given matrix, we run a search through a space of circuits, to find optimal circuits yielding MDS matrices. This results in MDS matrices with an even lower cost, with only 67 bitwise xors.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tosc.v2018.i2.48-78</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_888</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_888">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/888/839" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_rub-journals_888">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/888/7563" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="" ID="FILE2_rub-journals_888">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/888/7738" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_888" DMDID="DMD_rub-journals_888">
+            <mets:fptr FILEID="FILE0_rub-journals_888"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_888" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_888"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART2_rub-journals_888" LABEL="">
+                <mets:fptr FILEID="FILE2_rub-journals_888"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

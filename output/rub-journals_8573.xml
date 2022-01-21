@@ -1,0 +1,60 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8573">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>From Manichaeism to Zoroastrianism</title>
+                        <subTitle>On the History of the Teaching of the ‘Two Principles’</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>König, Götz</displayForm>
+                        <namePart type="family">König</namePart>
+                        <namePart type="given">Götz</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020-07-29</dateIssued>
+                    </originInfo>
+                    <abstract lang="eng">The essential feature in the religious history of Pre-Islamic Iran is its dualistic worldview.&amp;nbsp; It marks all stages of Zoroastrianism and also Manichaeism, in which dualism can be regarded as the most important Zoroastrian piece of inheritance. The following essay concentrates on two aspects of this ‘inheritance’ that have been&amp;nbsp; overlooked until today: 1) The Manichaean dualism is consistently built on elements and tendencies that already existed, albeit covertly, in the Younger Avesta; and 2) The Manichaean dualism has thereby confronted Zoroastrian theologians with the task of giving an alternative and consistent formulation of dualism. Thus, the continuous attention both Dēnkard III and the Škand Gumānīg ī Wizār, two of the most philosophically inclined works in Pahlavi, give the concept of dualism seeks to articulate a relation between the notion of evil and the idea of the “finite,” and also to formulate the notion of &quot;principle,&quot; seen as a demarcation from the Manichaean solution.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/er.11.2020.8573</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8573</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8573">
+                <mets:FLocat xlink:href="https://er.ceres.rub.de/index.php/ER/article/download/8573/8230" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="text/html" ID="FILE1_rub-journals_8573">
+                <mets:FLocat xlink:href="https://er.ceres.rub.de/index.php/ER/article/download/8573/8231" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8573" DMDID="DMD_rub-journals_8573">
+            <mets:fptr FILEID="FILE0_rub-journals_8573"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_8573" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_8573"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

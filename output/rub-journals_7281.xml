@@ -1,0 +1,94 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7281">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Extending Glitch-Free Multiparty Protocols to Resist Fault Injection Attacks</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Seker, Okan</displayForm>
+                        <namePart type="family">Seker</namePart>
+                        <namePart type="given">Okan</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Fernandez-Rubio, Abraham</displayForm>
+                        <namePart type="family">Fernandez-Rubio</namePart>
+                        <namePart type="given">Abraham</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Eisenbarth, Thomas</displayForm>
+                        <namePart type="family">Eisenbarth</namePart>
+                        <namePart type="given">Thomas</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Steinwandt, Rainer</displayForm>
+                        <namePart type="family">Steinwandt</namePart>
+                        <namePart type="given">Rainer</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2018-08-16</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">37</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Side channel analysis and fault attacks are two powerful methods to analyze and break cryptographic implementations. At CHES 2011, Roche and Prouff applied secure multiparty computation to prevent side-channel attacks. While multiparty computation is known to be fault-resistant as well, the particular scheme used for side-channel protection does not currently offer this feature. This work introduces a new secure multiparty circuit to prevent both fault injection attacks and sidechannel analysis. The new scheme extends the Roche and Prouff scheme to make faults detectable. Arithmetic operations have been redesigned to propagate fault information until a new secrecy-preserving fault detection can be performed. A new recombination operation ensures randomization of the output in the case of a fault, ensuring that nothing can be learned from the faulty output. The security of the new scheme is proved in the ISW probing model, using the reformulated t-SNI security notion. Besides the new scheme and its security proof, we also present an extensive performance analysis, including a proof-of-concept, software-based AES implementation featuring the masking technique to resist both fault and side-channel attacks at the same time. The performance analysis for different security levels are given for the ARM-M0+ MCU with its memory requirements. A comprehensive leakage analysis shows that a careful implementation of the scheme achieves the expected security level.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tches.v2018.i3.394-430</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7281</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7281">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/7281/6458" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_rub-journals_7281">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/7281/7950" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="" ID="FILE2_rub-journals_7281">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/7281/7951" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7281" DMDID="DMD_rub-journals_7281">
+            <mets:fptr FILEID="FILE0_rub-journals_7281"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_7281" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_7281"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART2_rub-journals_7281" LABEL="">
+                <mets:fptr FILEID="FILE2_rub-journals_7281"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

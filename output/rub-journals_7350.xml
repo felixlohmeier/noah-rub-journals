@@ -1,0 +1,52 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7350">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Political effects of the General Contract Strike 1971–72 on Owambo contract workers</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Shiweda, Napandulwe</displayForm>
+                        <namePart type="family">Shiweda</namePart>
+                        <namePart type="given">Napandulwe</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2018-12-12</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">26</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Being based on oral interviews, archival records and much of the published literature on the topic as well as press reports, this article analyses the political effects of the General Contract Workers Strike of 1971–72 on Owambo contract workers. It shows how, through the workers’ political consciousness and organizational potential, the strike was successful in the struggle against the colonial contract labour system. The first part of the article provides a brief outline of how the workers developed their campaign from a growing sense of discontentment with the oppressive contract system. It explores the various factors that led to the strike, and examines the court hearings, Owambo unrest, and the public floggings that ensued. The second part traces the role of the Owambo ‘traditional’ authorities in the public floggings which had an enormous impact on the state of politics in Owambo. The article maintains that while Owambo headmen had authority over contract workers their position lacked legitimacy. When the Owambo kingships came under colonial control, chiefs and headmen found their authority profoundly changed, and allied themselves with colonial officials. They used public floggings to consolidate their power, claiming that they were an old ‘tribal’ custom based on traditional forms of discipline and punish­ment. The final section outlines the key debates surrounding the public floggings and the aftermath of the strike. The analysis shows that although the strike did not end the poor working conditions and workers were still separated from their families, it laid the foundations for the struggle for the underlying political aim: independence from colonial South Africa.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7350</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7350">
+                <mets:FLocat xlink:href="https://namibian-studies.com/index.php/JNS/article/download/7350/6520" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7350" DMDID="DMD_rub-journals_7350">
+            <mets:fptr FILEID="FILE0_rub-journals_7350"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

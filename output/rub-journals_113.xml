@@ -1,0 +1,53 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_113">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Reports from &apos;beyond the line&apos;</title>
+                        <subTitle>The accumulation of knowledge of Kavango and its peoples by the German colonial administration 1891-1911</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Eckl, Andreas</displayForm>
+                        <namePart type="family">Eckl</namePart>
+                        <namePart type="given">Andreas</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2014-01-31</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">31</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">This paper explores the accumulation of knowledge of the Kavango region and its peoples by analysing twenty reports on expeditions which cover a wide range of observations. The article intends to determine the internal logic of the accumulation of knowledge by German officials as part of the deconstruction of colonial discourse. Kavango became a matter of interest for the colonial administration only at a late stage. It will be shown that all reports by German officials on the region paid tribute to the fact that Kavango was always a region which still had to be brought under control, but actually never was. As a result, the accumulation of knowledge was mostly limited to the economic value of the region while interest in the Kavango peoples themselves remained weak.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_113</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_113">
+                <mets:FLocat xlink:href="https://namibian-studies.com/index.php/JNS/article/download/113/81" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_113" DMDID="DMD_rub-journals_113">
+            <mets:fptr FILEID="FILE0_rub-journals_113"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

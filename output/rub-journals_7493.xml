@@ -1,0 +1,54 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7493">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Ernst Thälmann</title>
+                        <subTitle>The Making of a German Communist, 1886–1921</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>LaPorte, Norman</displayForm>
+                        <namePart type="family">LaPorte</namePart>
+                        <namePart type="given">Norman</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015-02-02</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">31</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">During the Cold War Ernst Thälmann was remembered in polar opposite ways in the divided Germany. In the East, he was presented as a paragon of the regime’s official antifascism; in the West, he symbolised Moscow’s domination of German communism and was dismissed as a local politician promoted above and beyond his competences. This article aims to historicise Thälmann by contextualising his political choices, from his early experiences as an unskilled worker in Hamburg’s giant docks in the pre-war workers’ movement, the frontline service in the First World War, participation in the November Revolution and, finally, his path to the KPD via the radical local USPD. In the massbased early KPD, the article identifies Thälmann importance as a leader of a local form of ultra-militant communism and, initially at least, someone who believed his proletarian credential enabled him to challenge even Lenin – who tried to “moderate” party policy at the Third Congress of the Comintern in 1921. If Thälmann ultimately became dependent on Stalin and Moscow, then this appraisal of his early political life shows how important specific local experiences were in shaping his worldview and political actions.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/mts.51.2014.127-157</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7493</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7493">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/7493/6665" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7493" DMDID="DMD_rub-journals_7493">
+            <mets:fptr FILEID="FILE0_rub-journals_7493"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

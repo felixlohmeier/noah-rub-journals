@@ -1,0 +1,103 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8289">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Fast, Furious and Insecure</title>
+                        <subTitle>Passive Keyless Entry and Start Systems in Modern Supercars</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Wouters, Lennert</displayForm>
+                        <namePart type="family">Wouters</namePart>
+                        <namePart type="given">Lennert</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Marin, Eduard</displayForm>
+                        <namePart type="family">Marin</namePart>
+                        <namePart type="given">Eduard</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Ashur, Tomer</displayForm>
+                        <namePart type="family">Ashur</namePart>
+                        <namePart type="given">Tomer</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Gierlichs, Benedikt</displayForm>
+                        <namePart type="family">Gierlichs</namePart>
+                        <namePart type="given">Benedikt</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Preneel, Bart</displayForm>
+                        <namePart type="family">Preneel</namePart>
+                        <namePart type="given">Bart</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2019-05-09</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">20</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">The security of immobiliser and Remote Keyless Entry systems has been extensively studied over many years. Passive Keyless Entry and Start systems, which are currently deployed in luxury vehicles, have not received much attention besides relay attacks. In this work we fully reverse engineer a Passive Keyless Entry and Start system and perform a thorough analysis of its security.Our research reveals several security weaknesses. Specifically, we document the use of an inadequate proprietary cipher using 40-bit keys, the lack of mutual authentication in the challenge-response protocol, no firmware readout protection features enabled and the absence of security partitioning.In order to validate our findings, we implement a full proof of concept attack allowing us to clone a Tesla Model S key fob in a matter of seconds with low cost commercial off the shelf equipment. Our findings most likely apply to other manufacturers of luxury vehicles including McLaren, Karma and Triumph motorcycles as they all use the same system developed by Pektron.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tches.v2019.i3.66-85</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8289</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8289">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/8289/7639" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_rub-journals_8289">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/8289/7861" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="" ID="FILE2_rub-journals_8289">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/8289/7862" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8289" DMDID="DMD_rub-journals_8289">
+            <mets:fptr FILEID="FILE0_rub-journals_8289"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_8289" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_8289"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART2_rub-journals_8289" LABEL="">
+                <mets:fptr FILEID="FILE2_rub-journals_8289"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,53 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8931">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Negotiating the past, the present and the future</title>
+                        <subTitle>No end-state</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>du Pisani, André</displayForm>
+                        <namePart type="family">du Pisani</namePart>
+                        <namePart type="given">André</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2021-06-25</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">3</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">The current framework agreement between Namibia and Germany illustrates the primacy of justice and fairness in negotiations, while at the same time, tells the story of how difficult it is to substantively satisfy notions of justice and fairness. From a principled perspective of moral philosophy, it is even more difficult to answer the interdependent questions of justice and fairness, especially if negotiations deal with the presence of the past, the future, and with genocide – killing by design, annihilating the sanctity of Life itself.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8931</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8931">
+                <mets:FLocat xlink:href="https://namibian-studies.com/index.php/JNS/article/download/8931/8501" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8931" DMDID="DMD_rub-journals_8931">
+            <mets:fptr FILEID="FILE0_rub-journals_8931"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

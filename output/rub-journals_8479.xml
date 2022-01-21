@@ -1,0 +1,53 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8479">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Personal Papers of Scholars of Communist Studies</title>
+                        <subTitle>A Preliminary List</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Albert, Gleb J.</displayForm>
+                        <namePart type="family">Albert</namePart>
+                        <namePart type="given">Gleb J.</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020-02-26</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">13</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Department of History, University of Zurich, SwitzerlandScholars in the humanities and the social sciences who work with written sources produce numerous sources themselves over the course of their lifetime: notes, manuscripts, diaries, oral history interviews, copies of archival documents, etc. The collections they leave behind are meaningful for further generations of researchers in at least two ways: They contain materials which allow future scholars to continue their (often unfinished) paths of enquiry, and they provide materials for the historiography of particular disciplines, developments and trends of research. Both aspects are of particular importance for communist studies. On the one hand, it is a discipline shaped by the tectonic shift of the international “archival revolution” in the 1990s, resulting in the sudden availability of massive amounts of new data which can, in its unprecedented scope, only be assessed in a collaborative and intergenerational way: What was began by the generation of scholars who were part of the “archival revolution”, must be continued by the younger generation, and the formers’ research materials are an essential resource. On the other hand, the field of communist studies has itself a rich history which is intensely intertwined with broader themes of 20th century history, and thus the personal papers of scholars of communism are a fertile ground to study the intellectual history of the Cold War, the political history of the humanities and the social sciences, and, last not least, the history of the communist movement itself. This list comprises personal papers of scholars of communism (historians, political scientists and others) which are preserved in publicly accessible archives and research institutions.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8479</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8479">
+                <mets:FLocat xlink:href="https://incs.ub.rub.de/index.php/INCS/article/download/8479/8046" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8479" DMDID="DMD_rub-journals_8479">
+            <mets:fptr FILEID="FILE0_rub-journals_8479"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

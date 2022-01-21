@@ -1,0 +1,53 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_398">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Evaluation of the operational costs for chain saw cutting</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Dagrain, Fabrice</displayForm>
+                        <namePart type="family">Dagrain</namePart>
+                        <namePart type="given">Fabrice</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015-11-25</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">10</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Chain saw cutting technology has been widely described by the author those last years in severalscientific and technical articles. The main problems encountered on chain saw machines havebeen described. Several experimental approaches have been developed in laboratory to betterunderstand the stone cutting mechanisms and to improve the efficiency of the machines. Newcutting designs have been developed increasing the performances of the machines. Monitoringsystems have been introduced on the machines to follow their performances while operating inquarries. Even if the technology is well described, very few information can be found on the costsof the technique.This paper overcomes this lack of information and introduces a rigorous methodology to estimatethe real costs of the sawing operations with chain saw machines. The technological parametersintroduced and described in the literature have been implemented in a cost evaluation programdeveloped by Stone Assistance, in order to evaluate their influence on the chain saw operationalcosts. The objective of the paper is to present some interesting results that should be consideredby the engineers or operators working with chain saw machines, and that could help them tomanage the operations with chain saw machines in quarries.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/icscm.3.2015.158-167</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_398</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_398">
+                <mets:FLocat xlink:href="https://icscm.ub.rub.de/index.php/ICSCM/article/download/398/355" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_398" DMDID="DMD_rub-journals_398">
+            <mets:fptr FILEID="FILE0_rub-journals_398"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

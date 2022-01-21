@@ -1,0 +1,87 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7386">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Secure Data Retrieval on the Cloud</title>
+                        <subTitle>Homomorphic Encryption meets Coresets</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Akavia, Adi</displayForm>
+                        <namePart type="family">Akavia</namePart>
+                        <namePart type="given">Adi</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Feldman, Dan</displayForm>
+                        <namePart type="family">Feldman</namePart>
+                        <namePart type="given">Dan</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Shaul, Hayim</displayForm>
+                        <namePart type="family">Shaul</namePart>
+                        <namePart type="given">Hayim</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2019-02-28</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">27</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Secure report is the problem of a client that retrieves all records matching specified attributes from a database table at the server (e.g. cloud), as in SQL SELECT queries, but where the query and the database are encrypted. Here, only the client has the secret key, but still the server is expected to compute and return the encrypted result. Secure report is theoretically possible with Fully Homomorphic Encryption (FHE). However, the current state-of-the-art solutions are realized by a polynomial of degree that is at least linear in the number m of records, which is too slow in practice even for very small databases. We present the first solution that is realized by a polynomial that attains degree independent of the number of records m, as well as the first implementation of an FHE solution to Secure report. This is by suggesting a novel paradigm that forges a link between cryptography and modern data summarization techniques known as coresets (core-sets), and sketches in particular. The key idea is to compute only a coreset of the desired report. Since the coreset is small, the client can quickly decode the desired report that the server computes after decrypting the coreset. We implemented our main reporting system in an open source library. This is the first implemented system that can answer such database queries when processing only FHE encrypted data and queries. As our analysis promises, the experimental results show that we can run Secure report queries on billions records in minutes on an Amazon EC2 server, compared to less than a hundred-thousands in previous FHE based solutions.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tches.v2019.i2.80-106</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7386</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7386">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/7386/6558" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_rub-journals_7386">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/7386/7885" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="" ID="FILE2_rub-journals_7386">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/7386/7886" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7386" DMDID="DMD_rub-journals_7386">
+            <mets:fptr FILEID="FILE0_rub-journals_7386"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_7386" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_7386"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART2_rub-journals_7386" LABEL="">
+                <mets:fptr FILEID="FILE2_rub-journals_7386"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

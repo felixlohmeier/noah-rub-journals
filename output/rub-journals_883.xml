@@ -1,0 +1,78 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_883">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Stealthy Opaque Predicates in Hardware - Obfuscating Constant Expressions at Negligible Overhead</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Hoffmann, Max</displayForm>
+                        <namePart type="family">Hoffmann</namePart>
+                        <namePart type="given">Max</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Paar, Christof</displayForm>
+                        <namePart type="family">Paar</namePart>
+                        <namePart type="given">Christof</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2018-05-08</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">21</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Opaque predicates are a well-established fundamental building block for software obfuscation. Simplified, an opaque predicate implements an expression that provides constant Boolean output, but appears to have dynamic behavior for static analysis. Even though there has been extensive research regarding opaque predicates in software, techniques for opaque predicates in hardware are barely explored. In this work, we propose a novel technique to instantiate opaque predicates in hardware, such that they (1) are resource-efficient, and (2) are challenging to reverse engineer even with dynamic analysis capabilities. We demonstrate the applicability of opaque predicates in hardware for both, protection of intellectual property and obfuscation of cryptographic hardware Trojans. Our results show that we are able to implement stealthy opaque predicates in hardware with minimal overhead in area and no impact on latency.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tches.v2018.i2.277-297</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_883</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_883">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/883/834" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_rub-journals_883">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/883/7990" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="" ID="FILE2_rub-journals_883">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/883/7991" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_883" DMDID="DMD_rub-journals_883">
+            <mets:fptr FILEID="FILE0_rub-journals_883"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_883" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_883"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART2_rub-journals_883" LABEL="">
+                <mets:fptr FILEID="FILE2_rub-journals_883"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,53 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_211">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Bolcheviques en Ecuador</title>
+                        <subTitle>Un abordaje en torno a los orígenes del Partido Comunista Ecuatoriano</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Kersffeld, Daniel</displayForm>
+                        <namePart type="family">Kersffeld</namePart>
+                        <namePart type="given">Daniel</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2014-05-28</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">10</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">The Communist Party of Ecuador has a complex history, particularly in its early stages. Concerning the Socialist Party, the dispute was installed from the beginning about the relationship with the Comintern, rejected by a large group of party leaders. Ricardo Paredes played a major role in strengthening the relationship with Moscow in an attempt that was not known by the whole party. The mandates given by the Comintern forced the party to realize different policies that favored ideological purity, but at the same time, contributed to isolation from the masses. A major challenge for the Ecuadorian left party was the regional isolation and the scarce contacts with other South American revolutionary organizations. This process of party building culminated in 1931 in the recognition of the Communist Party of Ecuador as a formal member of the Comintern.Universidad Nacional Autónoma de México</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_211</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_211">
+                <mets:FLocat xlink:href="https://incs.ub.rub.de/index.php/INCS/article/download/211/169" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_211" DMDID="DMD_rub-journals_211">
+            <mets:fptr FILEID="FILE0_rub-journals_211"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

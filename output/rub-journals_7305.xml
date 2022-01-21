@@ -1,0 +1,110 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7305">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Lightweight and Side-channel Secure 4 × 4 S-Boxes from Cellular Automata Rules</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Ghoshal, Ashrujit</displayForm>
+                        <namePart type="family">Ghoshal</namePart>
+                        <namePart type="given">Ashrujit</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Sadhukhan, Rajat</displayForm>
+                        <namePart type="family">Sadhukhan</namePart>
+                        <namePart type="given">Rajat</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Patranabis, Sikhar</displayForm>
+                        <namePart type="family">Patranabis</namePart>
+                        <namePart type="given">Sikhar</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Datta, Nilanjan</displayForm>
+                        <namePart type="family">Datta</namePart>
+                        <namePart type="given">Nilanjan</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Picek, Stjepan</displayForm>
+                        <namePart type="family">Picek</namePart>
+                        <namePart type="given">Stjepan</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Mukhopadhyay, Debdeep</displayForm>
+                        <namePart type="family">Mukhopadhyay</namePart>
+                        <namePart type="given">Debdeep</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2018-09-04</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">24</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">This work focuses on side-channel resilient design strategies for symmetrickey cryptographic primitives targeting lightweight applications. In light of NIST’s lightweight cryptography project, design choices for block ciphers must consider not only security against traditional cryptanalysis, but also side-channel security, while adhering to low area and power requirements. In this paper, we explore design strategies for substitution-permutation network (SPN)-based block ciphers that make them amenable to low-cost threshold implementations (TI) - a provably secure strategy against side-channel attacks. The core building blocks for our strategy are cryptographically optimal 4×4 S-Boxes, implemented via repeated iterations of simple cellular automata (CA) rules. We present highly optimized TI circuits for such S-Boxes, that consume nearly 40% less area and power as compared to popular lightweight S-Boxes such as PRESENT and GIFT. We validate our claims via implementation results on ASIC using 180nm technology. We also present a comparison of TI circuits for two popular lightweight linear diffusion layer choices - bit permutations and MixColumns using almost-maximum-distance-separable (almost-MDS) matrices. We finally illustrate design paradigms that combine the aforementioned TI circuits for S-Boxes and diffusion layers to obtain fully side-channel secure SPN block cipher implementations with low area and power requirements.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tosc.v2018.i3.311-334</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7305</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7305">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/7305/6479" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_rub-journals_7305">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/7305/7570" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="" ID="FILE2_rub-journals_7305">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/7305/7750" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7305" DMDID="DMD_rub-journals_7305">
+            <mets:fptr FILEID="FILE0_rub-journals_7305"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_7305" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_7305"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART2_rub-journals_7305" LABEL="">
+                <mets:fptr FILEID="FILE2_rub-journals_7305"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,62 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7516">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <nonSort>The </nonSort>
+                        <title>Strength of Working-Class Social Memory in a Northeast-Brazilian Deindustrialised Town</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Lopes, Jose Sergio Leite</displayForm>
+                        <namePart type="family">Lopes</namePart>
+                        <namePart type="given">Jose Sergio Leite</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Alvim, Rosilene</displayForm>
+                        <namePart type="family">Alvim</namePart>
+                        <namePart type="given">Rosilene</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015-02-22</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">22</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">This article discusses the making of working-class social memory in the city of Paulista in Northeast-Brazil. When returning to the place researched twenty years before, the authors noticed the depth of social change that had followed its de-industrialisation and decided to produce a documentary film about the local workers, who welcomed the researchers as collaborators in their quest to preserve their local history. In this article, the authors assess the transformations of life experiences among textile workers from Paulista during an earlier period of Brazilian industrialisation in comparison to the more recent context of de-industrialisation, which has left its mark on many communities in the country. In comparing their past and present field experiences, the authors describe the history of the previous industrial regime as a process which combined new and traditional forms of legitimisation of class domination.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/mts.49.2013.75-96</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7516</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7516">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/7516/6688" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7516" DMDID="DMD_rub-journals_7516">
+            <mets:fptr FILEID="FILE0_rub-journals_7516"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

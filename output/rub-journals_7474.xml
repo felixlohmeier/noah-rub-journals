@@ -1,0 +1,54 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7474">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <nonSort>A </nonSort>
+                        <title>Blind Spot of a Guiding Country? Human Rights and Dutch Disability Groups Since 1981</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Trigt, Paul van</displayForm>
+                        <namePart type="family">Trigt</namePart>
+                        <namePart type="given">Paul van</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015-12-17</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">16</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">This article investigates how and why the framework of human rights was (not) used by two important Dutch cross-disability organisations, the Dutch Council of People with Disability and the Dutch department of Independent Living, since the International United Nations Year of Disabled Persons (1981) until now. As in other countries the word human is added to give the fight for equal civil rights by disability activists more power. In striving for civil rights and equal citizenship, Dutch disability activists were in particular inspired by the disability rights movement in the United States (US). At the beginning of the 1990s the Dutch disability activists hoped to realise equal citizenship as was achieved with the Americans with Disabilities Act and to play a role as guiding country in Europe. When disability was not added to Dutch non-discrimination legislation in 1994, a narrative of “lagging behind” with regard to disability policies came into being. This narrative inspires Dutch disability activists until today. In their struggle for equal citizenship it became increasingly common to refer to human rights. In referring to rights, the Dutch were relatively late in comparison to other Western countries and this can be explained by a combination of Dutch particularities.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/mts.53.2015.87-102</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7474</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7474">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/7474/6646" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7474" DMDID="DMD_rub-journals_7474">
+            <mets:fptr FILEID="FILE0_rub-journals_7474"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

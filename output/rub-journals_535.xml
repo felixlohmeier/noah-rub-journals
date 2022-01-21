@@ -1,0 +1,70 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_535">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Rotational Cryptanalysis in the Presence of Constants</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Ashur, Tomer</displayForm>
+                        <namePart type="family">Ashur</namePart>
+                        <namePart type="given">Tomer</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Liu, Yunwen</displayForm>
+                        <namePart type="family">Liu</namePart>
+                        <namePart type="given">Yunwen</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2016-12-01</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">14</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Rotational cryptanalysis is a statistical method for attacking ARX constructions. It was previously shown that ARX-C, i.e., ARX with the injection of constants can be used to implement any function. In this paper we investigate how rotational cryptanalysis is affected when constants are injected into the state. We introduce the notion of an RX-difference, generalizing the idea of a rotational difference. We show how RX-differences behave around modular addition, and give a formula to calculate their transition probability. We experimentally verify the formula using Speck32/64, and present a 7-round distinguisher based on RX-differences. We then discuss two types of constants: round constants, and constants which are the result of using a fixed key, and provide recommendations to designers for optimal choice of parameters.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tosc.v2016.i1.57-70</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_535</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_535">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/535/479" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_rub-journals_535">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/535/7455" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_535" DMDID="DMD_rub-journals_535">
+            <mets:fptr FILEID="FILE0_rub-journals_535"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_535" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_535"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

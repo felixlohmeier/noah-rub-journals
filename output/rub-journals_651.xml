@@ -1,0 +1,52 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_651">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Swapo forever? Prospect for liberal democracy or prolonged one-party dominance in Namibia</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Bayer, Markus</displayForm>
+                        <namePart type="family">Bayer</namePart>
+                        <namePart type="given">Markus</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2017-06-28</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">28</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Like most other National Liberation Movements (NLM), the Namibian South West African People’s Organization (SWAPO) was transformed after independence and went on to become Swapo party (Swapo) and take power in 1990. Since then, Swapo has ruled Namibia with its support growing and its position as dominant party unchallenged. Following on from Roger Southall’s prediction of the slow death of liberation movements, this article investigates whether SWAPO as a movement is dying and, if so, what this means for Swapo. Will Namibia soon take the road towards a more liberal democracy or will Swapo continue to dominate? Recurring to the literature on dominant party systems and competitive authoritarianism and based on expert interviews, the article finds Swapo’s dominance to be Janus-faced: On the one hand, its electoral dominance and consequently its control of state resources is ensuring its further dominance. On the other hand, its clientelistic use of its power is alienating growing sections of society, especially the younger generation, and is contributing to its slow death as an NLM and dominant party.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_651</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_651">
+                <mets:FLocat xlink:href="https://namibian-studies.com/index.php/JNS/article/download/651/617" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_651" DMDID="DMD_rub-journals_651">
+            <mets:fptr FILEID="FILE0_rub-journals_651"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

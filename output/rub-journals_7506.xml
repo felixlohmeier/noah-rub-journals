@@ -1,0 +1,55 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7506">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <nonSort>The </nonSort>
+                        <title>Latin American Social Movement Repertoire</title>
+                        <subTitle>How It Has Changed, When, and Why</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Eckstein, Susan</displayForm>
+                        <namePart type="family">Eckstein</namePart>
+                        <namePart type="given">Susan</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2014-05-14</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">22</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">This article addresses the changing repertoire of resistance movements in Latin America, as the economic and political conditions adapted to regional changes: the shift from import substitution industrialisation to neoliberalism, populist based regimes via dictatorships to democratic rule, and growing awareness of global norms concerning social, economic and political rights. Increasing industrialisation and the rise in living costs meant agrarian protests dwindled and labour movements grew in number, though their focus shifted from work conditions to the increased cost of consumption. Similarly, students protested against the rising cost of schooling and inequities in access to education, rather than Marxist-Leninist inspired movements for radical societal change. Women shifted their focus from human to gender rights. Further, indigenous and race-based movements gained traction, which had been ignored by class-based and modernisation theories.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/mts.50.2013.81-102</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7506</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7506">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/7506/6678" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7506" DMDID="DMD_rub-journals_7506">
+            <mets:fptr FILEID="FILE0_rub-journals_7506"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

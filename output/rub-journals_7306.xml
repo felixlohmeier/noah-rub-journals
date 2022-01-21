@@ -1,0 +1,62 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7306">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Representation of Transcendence. The Armenian Letter “On the Image-Fighters” from the Seventh Century CE</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Jurczyk, Thomas</displayForm>
+                        <namePart type="family">Jurczyk</namePart>
+                        <namePart type="given">Thomas</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2018-09-13</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">59</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">The major aim of this article is to study the Armenian Letter “On the Image-Fighters” by Vrt’anes K’ert’oł (approx. seventh century CE) from a religious studies’ perspective&amp;nbsp;by examining the use and the role of representation (through images) in the Letter. The topic of&amp;nbsp;representation is important both for the study of religion as well as for the history of iconoclasm&amp;nbsp;and closely connected to the analytical concept of immanence/transcendence. The peculiarities&amp;nbsp;of the use of representation in the Letter demonstrate that some aspects of the broader&amp;nbsp;notion of representation must be adjusted when talking about religious representation. The&amp;nbsp;approach of this article combines an in-depth investigation of the Letter (including an English&amp;nbsp;translation in the appendix) with comparisons to different semantic layers of the modern notion&amp;nbsp;of representation and the use of representation in Greek (pre-)iconoclastic sources from the&amp;nbsp;same period.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/er.v5.2018.95-153</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/">CC BY-NC-ND 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7306</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7306">
+                <mets:FLocat xlink:href="https://er.ceres.rub.de/index.php/ER/article/download/7306/6481" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="text/html" ID="FILE1_rub-journals_7306">
+                <mets:FLocat xlink:href="https://er.ceres.rub.de/index.php/ER/article/download/7306/8272" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7306" DMDID="DMD_rub-journals_7306">
+            <mets:fptr FILEID="FILE0_rub-journals_7306"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_7306" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_7306"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

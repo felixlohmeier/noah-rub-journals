@@ -1,0 +1,102 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_887">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>ShiftRows Alternatives for AES-like Ciphers and Optimal Cell Permutations for Midori and Skinny</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Alfarano, Gianira N.</displayForm>
+                        <namePart type="family">Alfarano</namePart>
+                        <namePart type="given">Gianira N.</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Beierle, Christof</displayForm>
+                        <namePart type="family">Beierle</namePart>
+                        <namePart type="given">Christof</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Isobe, Takanori</displayForm>
+                        <namePart type="family">Isobe</namePart>
+                        <namePart type="given">Takanori</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Kölbl, Stefan</displayForm>
+                        <namePart type="family">Kölbl</namePart>
+                        <namePart type="given">Stefan</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Leander, Gregor</displayForm>
+                        <namePart type="family">Leander</namePart>
+                        <namePart type="given">Gregor</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2018-06-07</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">28</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">We study possible alternatives for ShiftRows to be used as cell permutations in AES-like ciphers. As observed during the design process of the block cipher Midori, when using a matrix with a non-optimal branch number for the MixColumns operation, the choice of the cell permutation, i.e., an alternative for ShiftRows, can actually improve the security of the primitive. In contrast, when using an MDS matrix it is known that one cannot increase the minimum number of active S-boxes by deviating from the ShiftRows-type permutation. However, finding the optimal choice for the cell permutation for a given, non-optimal, MixColumns operation is a highly non-trivial problem. In this work, we propose techniques to speed up the search for the optimal cell permutations significantly. As case studies, we apply those techniques to Midori and Skinny and provide possible alternatives for their cell permutations. We finally state an easy-to-verify sufficient condition on a cell permutation, to be used as an alternative in Midori, that attains a high number of active S-boxes and thus provides good resistance against differential and linear attacks.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tosc.v2018.i2.20-47</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_887</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_887">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/887/838" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_rub-journals_887">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/887/7562" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="" ID="FILE2_rub-journals_887">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/887/7736" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_887" DMDID="DMD_rub-journals_887">
+            <mets:fptr FILEID="FILE0_rub-journals_887"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_887" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_887"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART2_rub-journals_887" LABEL="">
+                <mets:fptr FILEID="FILE2_rub-journals_887"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

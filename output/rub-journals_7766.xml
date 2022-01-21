@@ -1,0 +1,54 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7766">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <nonSort>Die </nonSort>
+                        <title>Institutionalisierung des Tatsachenblicks. Katholische Kirche und empirische Sozialforschung in der Bundesrepublik 1950–1970</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Ziemann, Benjamin</displayForm>
+                        <namePart type="family">Ziemann</namePart>
+                        <namePart type="given">Benjamin</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015-01-10</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">19</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">The article explores an important feature of the process of “scientizing the social”, i.e. how the social sciences have been applied to describe the ‘social reality‘ of contemporary society and to solve ‘social problems’ in the postwar Federal Republic of Germany from 1950 to 1970. The Catholic Church is taken as an example, and the focus is on the way scientific expertise was institutionalized through the foundation of particular institutes devoted to research and empirical analyses in the field of church sociology. The analytical framework for these surveys was ‘sociography’, which basically aimed at describing the social stratification of churchgoers with quantitative methods. Social scientists, diocesan church officials and members of the missionary orders, who all worked together in applying sociography, were not part of a ‘reform coalition’ (Peter Wagner) for substantial change through the use of scientific facts, but rather understood, in varying degrees, church sociography as a tool for technocratic adjustment of pastoral structures.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/mts.34.2005.107-125</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7766</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7766">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/7766/6938" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7766" DMDID="DMD_rub-journals_7766">
+            <mets:fptr FILEID="FILE0_rub-journals_7766"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

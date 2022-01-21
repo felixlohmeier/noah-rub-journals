@@ -1,0 +1,62 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8696">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Dasta – Alternative Linear Layer for Rasta</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Hebborn, Phil</displayForm>
+                        <namePart type="family">Hebborn</namePart>
+                        <namePart type="given">Phil</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Leander, Gregor</displayForm>
+                        <namePart type="family">Leander</namePart>
+                        <namePart type="given">Gregor</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020-09-28</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">41</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Progress in the areas of multi-party computation (MPC) and fully homomorphic encryption (FHE) caused the demand of new design strategies, that minimize the number of multiplications in symmetric primitives. Rasta is an approach for a family of stream ciphers with an exceptional low AND depth, which equals the number of ANDs per encrypted bit. This is achieved in particular by randomizing parts of the computation with the help of a PRNG, implying that the security arguments rely on the provided randomness and the encryption/ decryption is potentially slowed down by this generation.In this paper we propose a variant of Rasta that achieves the same performance with respect to the AND depth and the number of ANDs per encrypted bit, but does not rely on a PRNG, i.e. is based on fixed linear layers.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tosc.v2020.i3.46-86</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8696</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8696">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/8696/8288" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8696" DMDID="DMD_rub-journals_8696">
+            <mets:fptr FILEID="FILE0_rub-journals_8696"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

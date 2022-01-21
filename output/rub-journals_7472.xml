@@ -1,0 +1,53 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7472">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Informal Networks, International Developments and the Founding of the First Interest-Representing Associations of Disabled People in Hungary in the Late Socialist Period (1970s – 1980s)</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Baár, Monika</displayForm>
+                        <namePart type="family">Baár</namePart>
+                        <namePart type="given">Monika</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015-12-17</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">24</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">The article focuses on the grassroots activities of disabled citizens in Hungary during the recent socialist period and relates to the emergence of the first two interest-representing organisations, the National Association of People with Physical Disabilities and the National Association of Parents of Children with Mental and Intellectual Disabilities in 1981. By contextualising the disabled people’s activities within the state socialist system, the article also contemplates the broader question if and to what extent it is possible to speak about a “social movement” and how the Hungarian disabled people’s activities compare to those of disabilty rights movement participants elsewhere in the world. With regard to the specific traits of the Hungarian case, the article emphasises the crucial role of informal networks. Moreover, it argues that contrary to other (capitalist) countries where the efforts of self-determination were directed against the patronising attidues of medical and professional experts, disabled activists in Hungary were actively and wholeheartedly assisted in their emancipatory desires by these professional groups. Last but not least, the article points to the significance of international connections and accommodates the activities of Hungarian disabled people within international developments and particularly within the increased activities in several countries during the International Year of Disabled Persons (1981).</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/mts.53.2015.39-62</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7472</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7472">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/7472/6644" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7472" DMDID="DMD_rub-journals_7472">
+            <mets:fptr FILEID="FILE0_rub-journals_7472"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,78 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7391">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Analysis and Improvement of Differential Computation Attacks against Internally-Encoded White-Box Implementations</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Rivain, Matthieu</displayForm>
+                        <namePart type="family">Rivain</namePart>
+                        <namePart type="given">Matthieu</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Wang, Junwei</displayForm>
+                        <namePart type="family">Wang</namePart>
+                        <namePart type="given">Junwei</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2019-02-28</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">31</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">White-box cryptography is the last security barrier for a cryptographic software implementation deployed in an untrusted environment. The principle of internal encodings is a commonly used white-box technique to protect block cipher implementations. It consists in representing an implementation as a network of look-up tables which are then encoded using randomly generated bijections (the internal encodings). When this approach is implemented based on nibble (i.e. 4-bit wide) encodings, the protected implementation has been shown to be vulnerable to differential computation analysis (DCA). The latter is essentially an adaptation of differential power analysis techniques to computation traces consisting of runtime information, e.g., memory accesses, of the target software. In order to thwart DCA, it has then been suggested to use wider encodings, and in particular byte encodings, at least to protect the outer rounds of the block cipher which are the prime targets of DCA.In this work, we provide an in-depth analysis of when and why DCA works. We pinpoint the properties of the target variables and the encodings that make the attack (in)feasible. In particular, we show that DCA can break encodings wider than 4-bit, such as byte encodings. Additionally, we propose new DCA-like attacks inspired from side-channel analysis techniques. Specifically, we describe a collision attack particularly effective against the internal encoding countermeasure. We also investigate mutual information analysis (MIA) which naturally applies in this context. Compared to the original DCA, these attacks are also passive and they require very limited knowledge of the attacked implementation, but they achieve significant improvements in terms of trace complexity. All the analyses of our work are experimentally backed up with various attack simulation results. We also verified the practicability of our analyses and attack techniques against a publicly available white-box AES implementation protected with byte encodings –which DCA has failed to break before– and against a “masked” white-box AES implementation –which intends to resist DCA.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tches.v2019.i2.225-255</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7391</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7391">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/7391/6563" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_rub-journals_7391">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/7391/7895" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="" ID="FILE2_rub-journals_7391">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/7391/7896" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7391" DMDID="DMD_rub-journals_7391">
+            <mets:fptr FILEID="FILE0_rub-journals_7391"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_7391" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_7391"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART2_rub-journals_7391" LABEL="">
+                <mets:fptr FILEID="FILE2_rub-journals_7391"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

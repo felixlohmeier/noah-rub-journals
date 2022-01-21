@@ -1,0 +1,95 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7359">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <nonSort>The </nonSort>
+                        <title>design of Xoodoo and Xoofff</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Daemen, Joan</displayForm>
+                        <namePart type="family">Daemen</namePart>
+                        <namePart type="given">Joan</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Hoffert, Seth</displayForm>
+                        <namePart type="family">Hoffert</namePart>
+                        <namePart type="given">Seth</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Van Assche, Gilles</displayForm>
+                        <namePart type="family">Van Assche</namePart>
+                        <namePart type="given">Gilles</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Van Keer, Ronny</displayForm>
+                        <namePart type="family">Van Keer</namePart>
+                        <namePart type="given">Ronny</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2018-12-13</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">38</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">This paper presents Xoodoo, a 48-byte cryptographic permutation with excellent propagation properties. Its design approach is inspired by Keccak-p, while it is dimensioned like Gimli for efficiency on low-end processors. The structure consists of three planes of 128 bits each, which interact per 3-bit columns through mixing and nonlinear operations, and which otherwise move as three independent rigid objects. We analyze its differential and linear propagation properties and, in particular, prove lower bounds on the weight of trails using the tree search-based technique of Mella et al. (ToSC 2017). Xoodoo’s primary target application is in the Farfalle construction that we instantiate for the doubly-extendable cryptographic keyed (or deck) function Xoofff. Combining a relatively narrow permutation with the parallelism of Farfalle results in very efficient schemes on a wide range of platforms, from low-end devices to high-end processors with vector instructions.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tosc.v2018.i4.1-38</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7359</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7359">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/7359/6529" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_rub-journals_7359">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/7359/7544" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="" ID="FILE2_rub-journals_7359">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/7359/7753" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7359" DMDID="DMD_rub-journals_7359">
+            <mets:fptr FILEID="FILE0_rub-journals_7359"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_7359" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_7359"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART2_rub-journals_7359" LABEL="">
+                <mets:fptr FILEID="FILE2_rub-journals_7359"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

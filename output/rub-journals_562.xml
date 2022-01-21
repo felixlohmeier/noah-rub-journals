@@ -1,0 +1,53 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_562">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Do digitally induced transformations of the book media system establish a ‘new literature’, require a ‘new literary scholarship’? A book / media studies view</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Bläsi, Christoph</displayForm>
+                        <namePart type="family">Bläsi</namePart>
+                        <namePart type="given">Christoph</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2017-01-09</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">12</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">This paper is driven by two fundamental questions: which are the major transformations that the book as a medium and the book industry as a whole are undergoing through the advent of digitalization? And in how far can the products of this new digital environment be understood as an altogether new sort of literature. If this new literature is on the rise, as this paper argues, then the analytical practices of literary studies as well as book / media studies must answer this new challenge with adequate new theories and methods.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/bmt.1.2016.67-78</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_562</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_562">
+                <mets:FLocat xlink:href="https://bmt.ub.rub.de/index.php/BMT/article/download/562/504" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_562" DMDID="DMD_rub-journals_562">
+            <mets:fptr FILEID="FILE0_rub-journals_562"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

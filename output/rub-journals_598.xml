@@ -1,0 +1,78 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_598">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Optimal Differential Trails in SIMON-like Ciphers</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Liu, Zhengbin</displayForm>
+                        <namePart type="family">Liu</namePart>
+                        <namePart type="given">Zhengbin</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Li, Yongqiang</displayForm>
+                        <namePart type="family">Li</namePart>
+                        <namePart type="given">Yongqiang</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Wang, Mingsheng</displayForm>
+                        <namePart type="family">Wang</namePart>
+                        <namePart type="given">Mingsheng</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2017-03-08</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">22</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">In the present paper, we propose an automatic search algorithm for optimal differential trails in SIMON-like ciphers. First, we give a more accurate upper bound on the differential probability of SIMON-like round function. It is shown that when the Hamming weight of the input difference α , which is denoted by wt(α), is less than one half of the input size, the corresponding maximum differential probability of SIMON-like round function is less than or equal to 2−wt(α)−1. Based on this, we adapt Matsui’s algorithm and propose an efficient algorithm for searching for optimal differential trails. With the proposed algorithm, we find the provably optimal differential trails for 12, 16, 19, 28 and 37 rounds of SIMON32/48/64/96/128. To the best of our knowledge, it is the first time that the provably optimal differential trails for SIMON64, SIMON96 and SIMON128 are reported. The provably optimal differential trails for 13, 19 and 25 rounds of SIMECK32/48/64 are also found respectively, which confirm the results given by Kölbl et al. [KR15]. Besides the optimal differential trails, we also find the 14, 17, 23, 31 and 41-round differentials for SIMON32/48/64/96/128, and 14, 21 and 27-round differentials for SIMECK32/48/64, respectively. As far as we know, these are the best differential distinguishers for SIMON and SIMECK so far. Compared with the approach based on SAT/SMT solvers used by K¨olbl et al., our algorithm is more efficient and more practical to evaluate the security against differential cryptanalysis in the design of SIMON-like ciphers.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tosc.v2017.i1.358-379</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_598</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_598">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/598/539" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_rub-journals_598">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/598/7486" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_598" DMDID="DMD_rub-journals_598">
+            <mets:fptr FILEID="FILE0_rub-journals_598"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_598" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_598"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

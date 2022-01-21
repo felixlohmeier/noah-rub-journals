@@ -1,0 +1,78 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8321">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Efficient Search for Optimal Diffusion Layers of Generalized Feistel Networks</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Derbez, Patrick</displayForm>
+                        <namePart type="family">Derbez</namePart>
+                        <namePart type="given">Patrick</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Fouque, Pierre-Alain</displayForm>
+                        <namePart type="family">Fouque</namePart>
+                        <namePart type="given">Pierre-Alain</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Lambin, Baptiste</displayForm>
+                        <namePart type="family">Lambin</namePart>
+                        <namePart type="given">Baptiste</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Mollimard, Victor</displayForm>
+                        <namePart type="family">Mollimard</namePart>
+                        <namePart type="given">Victor</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2019-06-11</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">23</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">The Feistel construction is one of the most studied ways of building block ciphers. Several generalizations were then proposed in the literature, leading to the Generalized Feistel Network, where the round function first applies a classical Feistel operation in parallel on an even number of blocks, and then a permutation is applied to this set of blocks. In 2010 at FSE, Suzaki and Minematsu studied the diffusion of such construction, raising the question of how many rounds are required so that each block of the ciphertext depends on all blocks of the plaintext. They thus gave some optimal permutations, with respect to this diffusion criteria, for a Generalized Feistel Network consisting of 2 to 16 blocks, as well as giving a good candidate for 32 blocks. Later at FSE’19, Cauchois et al. went further and were able to propose optimal even-odd permutations for up to 26 blocks.In this paper, we complete the literature by building optimal even-odd permutations for 28, 30, 32, 36 blocks which to the best of our knowledge were unknown until now. The main idea behind our constructions and impossibility proof is a new characterization of the total diffusion of a permutation after a given number of rounds. In fact, we propose an efficient algorithm based on this new characterization which constructs all optimal even-odd permutations for the 28, 30, 32, 36 blocks cases and proves a better lower bound for the 34, 38, 40 and 42 blocks cases. In particular, we improve the 32 blocks case by exhibiting optimal even-odd permutations with diffusion round of 9. The existence of such a permutation was an open problem for almost 10 years and the best known permutation in the literature had a diffusion round of 10. Moreover, our characterization can be implemented very efficiently and allows us to easily re-find all optimal even-odd permutations for up to 26 blocks with a basic exhaustive search</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tosc.v2019.i2.218-240</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8321</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8321">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/8321/7669" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8321" DMDID="DMD_rub-journals_8321">
+            <mets:fptr FILEID="FILE0_rub-journals_8321"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

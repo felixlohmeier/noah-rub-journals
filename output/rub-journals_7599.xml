@@ -1,0 +1,53 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7599">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Nachholende Europäisierung? Reaktionen und Strategien der IG Metall gegenüber der Montanunion in den 1950er Jahren</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Jojević, Jelena</displayForm>
+                        <namePart type="family">Jojević</namePart>
+                        <namePart type="given">Jelena</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015-02-16</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">20</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Confronted with a fait accompli by the ratification of the ECSC Treaty in 1951, the biggest German metalworkers’ organization – IG Metall – initially came to the conclusion, not to support the foundation of the new community. However, switching to the year 1957, when the Treaties of Rome marked the next step of European integration, this position became significantly modified: IG Metall was not merely participating in all the trade unions related ECSC structures, but rather drew the conclusion, that the ECSC has been an economic success and that integration should be deepened. Reviewing the development of this change and its reasons, this article states that IG Metall had undergone a process of Europeanization.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/mts.42.2009.103-122</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7599</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7599">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/7599/6771" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7599" DMDID="DMD_rub-journals_7599">
+            <mets:fptr FILEID="FILE0_rub-journals_7599"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

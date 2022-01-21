@@ -1,0 +1,55 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7567">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <nonSort>Die </nonSort>
+                        <title>Rezeption von ’68 in Südkorea – oder</title>
+                        <subTitle>Warum gab es kein 1968 in Südkorea?</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Chung, Hyunback</displayForm>
+                        <namePart type="family">Chung</namePart>
+                        <namePart type="given">Hyunback</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015-01-30</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">16</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Though the protests of 1968 can be viewed as a transnational episode, significant social and resistance movements were formed only in a few countries, while others were left out. This contribution pays particular attention to the case of South Korea. It is asked whether the protests have found an echo in this country, which at the same time had to deal with national problems as the dictatorship of Park Chung-Hee or the rising tensions between north and south? And how did the reception of the western 1968 movement look like in South Korea? Based on contemporary newspaper reports and oral history interviews this paper approaches these questions, while mainly concentrating on the former South Korean student body, as the 1968 movement in core can be considered as a student movement.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/mts.43.2010.125-140</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7567</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7567">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/7567/6739" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7567" DMDID="DMD_rub-journals_7567">
+            <mets:fptr FILEID="FILE0_rub-journals_7567"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,70 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8793">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Revisiting the functional bootstrap in TFHE</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Guimarães, Antonio</displayForm>
+                        <namePart type="family">Guimarães</namePart>
+                        <namePart type="given">Antonio</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Borin, Edson</displayForm>
+                        <namePart type="family">Borin</namePart>
+                        <namePart type="given">Edson</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Aranha, Diego F.</displayForm>
+                        <namePart type="family">Aranha</namePart>
+                        <namePart type="given">Diego F.</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2021-02-23</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">25</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">The FHEW cryptosystem introduced the idea that an arbitrary function can be evaluated within the bootstrap procedure as a table lookup. The faster bootstraps of TFHE strengthened this approach, which was later named Functional Bootstrap (Boura et al., CSCML’19). From then on, little effort has been made towards defining efficient ways of using it to implement functions with high precision. In this paper, we introduce two methods to combine multiple functional bootstraps to accelerate the evaluation of reasonably large look-up tables and highly precise functions. We thoroughly analyze and experimentally validate the error propagation in both methods, as well as in the functional bootstrap itself. We leverage the multi-value bootstrap of Carpov et al. (CT-RSA’19) to accelerate (single) lookup table evaluation, and we improve it by lowering the complexity of its error variance growth from quadratic to linear in the value of the output base. Compared to previous literature using TFHE’s functional bootstrap, our methods are up to 2.49 times faster than the lookup table evaluation of Carpov et al. (CT-RSA’19) and up to 3.19 times faster than the 32-bit integer comparison of Bourse et al. (CT-RSA’20). Compared to works using logic gates, we achieved speedups of up to 6.98, 8.74, and 3.55 times over 8-bit implementations of the functions ReLU, Addition, and Maximum, respectively.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.46586/tches.v2021.i2.229-253</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8793</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8793">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/8793/8393" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8793" DMDID="DMD_rub-journals_8793">
+            <mets:fptr FILEID="FILE0_rub-journals_8793"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,53 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7411">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>‘Project Studies!’. Reform Experiments in Academic Learning and Teaching in the 1960s and 1970s</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Rudloff, Wilfried</displayForm>
+                        <namePart type="family">Rudloff</namePart>
+                        <namePart type="given">Wilfried</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2018-10-24</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">26</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">In the growing literature on the history of the student movement and university reform in the 1960s and 1970s, little emphasis is placed on the contested discourse surrounding academic learning and teaching. This article attempts to shed some light on the strong criticism that students directed at the traditional methods of teaching during this period, and on the subsequent proposals that emerged for a reform of tertiary education. After a short outline of the critical comments made by students and of the scattered attempts undertaken to initiate self-organised forms of learning, this paper analyses the reform proposals instigated by the assistant movement. At the heart of these proposals stood the highly ambitious concept of ‘project studies (‘Projektstudium’), which in a number of places — especially at some of the newly founded universities — was put into effect in the early 1970s. The concluding remarks address obstacles and constraints that contributed to the limited success of the reform concept, which is currently experiencing a certain revival albeit in a modified form.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/mts.60.2018.45-70</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7411</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7411">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/7411/6583" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7411" DMDID="DMD_rub-journals_7411">
+            <mets:fptr FILEID="FILE0_rub-journals_7411"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

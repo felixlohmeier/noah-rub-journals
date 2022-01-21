@@ -1,0 +1,54 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8957">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Cotard syndrome, self-awareness, and I-concepts</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Gennaro, Rocco Joseph</displayForm>
+                        <namePart type="family">Gennaro</namePart>
+                        <namePart type="given">Rocco Joseph</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020-03-24</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">20</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Various psychopathologies of self-awareness, such as somatoparaphrenia and thought insertion in schizophrenia, might seem to threaten the viability of the higher-order thought (HOT) theory of consciousness since it requires a HOT about one’s own mental state to accompany every conscious state. The HOT theory of consciousness says that what makes a mental state a conscious mental state is that there is a HOT to the effect that “I am in mental state M.” I have argued in previous work that a HOT theorist can adequately respond to this concern with respect to somatoparaphrenia and thought insertion. There is also Cotard syndrome which is a rare neuropsychiatric disorder in which people hold the delusional belief that they are dead, do not exist, or have lost their blood or internal organs. In this paper, I argue that HOT theory has nothing to fear from it either and can consistently account for what happens in such unusual cases. I analyze Cotard syndrome in light of my previous discussion of somatoparaphrenia and thought insertion, and argue that HOT theory can provide a somewhat analogous account without the worry of inconsistency. It is crucial to recognize that there are multiple “self-concepts” and levels of HOTs which can help to provide a more nuanced explanation. With regard to the connection between consciousness and self-consciousness, it is proposed that Cotard patients are indeed capable of having some “I-thoughts” about their bodies and mental states.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.33735/phimisci.2020.I.41</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8957</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8957">
+                <mets:FLocat xlink:href="https://philosophymindscience.org/index.php/phimisci/article/download/8957/8535" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8957" DMDID="DMD_rub-journals_8957">
+            <mets:fptr FILEID="FILE0_rub-journals_8957"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

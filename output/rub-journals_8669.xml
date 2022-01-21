@@ -1,0 +1,62 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8669">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Beyond-Birthday-Bound Secure Cryptographic Permutations from Ideal Ciphers with Long Keys</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Nakamichi, Ryota</displayForm>
+                        <namePart type="family">Nakamichi</namePart>
+                        <namePart type="given">Ryota</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Iwata, Tetsu</displayForm>
+                        <namePart type="family">Iwata</namePart>
+                        <namePart type="given">Tetsu</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020-07-24</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">25</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Coron et al. showed a construction of a 3-round 2n-bit cryptographic permutation from three independent n-bit ideal ciphers with n-bit keys (TCC 2010). Guo and Lin showed a construction of a (2d − 1)-round dn-bit cryptographic permutation from 2d − 1 independent n-bit ideal ciphers with kn-bit keys, where d = k + 1 (Cryptography and Communications, 2015). These constructions have an indifferentiability security bound of O(q2/2n) against adversaries that make at most q queries. The bound is commonly referred to as birthday-bound security. In this paper, we show that a 5-round version of Coron et al.’s construction and (2d+1)-round version of Guo and Lin’s construction yield a cryptographic permutation with an indifferentiability security bound of O(q2/22n), i.e., by adding two more rounds, these constructions have beyond-birthday-bound security. Furthermore, under the assumption that q ≤ 2n, we show that Guo and Lin’s construction with 2d+2l−1 rounds yields a cryptographic permutation with a security bound of O(q2/2(l+1)n), where 1 ≤ l ≤ d − 1, i.e., the security bound exponentially improves by adding every two more rounds, up to 4d − 3 rounds. To the best of our knowledge, our result gives the first cryptographic permutation that is built from n-bit ideal ciphers and has a full n-bit indifferentiability security bound.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tosc.v2020.i2.68-92</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8669</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8669">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/8669/8227" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8669" DMDID="DMD_rub-journals_8669">
+            <mets:fptr FILEID="FILE0_rub-journals_8669"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

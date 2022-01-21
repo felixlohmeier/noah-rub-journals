@@ -1,0 +1,54 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7523">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Female Workers but not Women</title>
+                        <subTitle>Paradoxes in Women’s Conditions and Strategies in Swedish Trade Unions, 1900–1925</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Uppenberg, Carolina</displayForm>
+                        <namePart type="family">Uppenberg</namePart>
+                        <namePart type="given">Carolina</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015-01-31</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">24</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">This article compares the opportunities that existed for trade union organisation by women and the scope for pursuing women’s issues in the Swedish Tailoring Workers’ Union (Skrädderiarbetareförbundet), the Swedish Textile Workers’ Union (Textilarbetareförbundet) and the Swedish Women’s Trade Union (Kvinnornas fackförbund). Trade union minutes are analysed using theories on women’s organisation, in which exposure of male standards in trade union organisation and the concept of women as powerless are central. The results reveal some differences in the opportunities for women to become members of the Tailoring Workers’ Union, which initially tried to exclude women, and the Textile Workers’ Union, which saw it as a priority to recruit more women. Nevertheless, both unions shared a similar view of women as weak and especially difficult to organise as trade union members. A lack of debate about women’s conditions is also clear in both unions. Comparison with the Women’s Trade Union shows that dedicated organisations for women played a major role in women’s opportunities for union involvement, but that gender-based union organisation was regarded as a threat to the supposedly genderless trade unions.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/mts.48.2012.49-72</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7523</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7523">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/7523/6695" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7523" DMDID="DMD_rub-journals_7523">
+            <mets:fptr FILEID="FILE0_rub-journals_7523"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

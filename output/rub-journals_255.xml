@@ -1,0 +1,52 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_255">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Wilhelm Reich und Willy Brandt als „Hochverräter“</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Peglau, Andreas</displayForm>
+                        <namePart type="family">Peglau</namePart>
+                        <namePart type="given">Andreas</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2012-09-05</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">5</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">In a recent biography of Willy Brandt’s close associate Gertrud Meyer, the relationship between the psychologist and representative of Left Freudiansim, Wilhelm Reich, and the latter Chancelor of the German Federal Republic has been highlighted (see: INCS Online (2011), no. 24, p. 49-77). This picture can now be completed. The following contribution introduces new documents discovered in the German Federal Archive. It shows that Willy Brandt and Wilhelm Reich, as activists in the left socialist Anti-Hitler resistance in Norway, were both at the same time accused of preparation of high treason and put on a wanted list of the „Oberreichsanwalt beim Volksgerichtshof“. Both could, however, escape, and Reich succeeded in fleeing into US exile in 1939.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_255</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_255">
+                <mets:FLocat xlink:href="https://incs.ub.rub.de/index.php/INCS/article/download/255/213" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_255" DMDID="DMD_rub-journals_255">
+            <mets:fptr FILEID="FILE0_rub-journals_255"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

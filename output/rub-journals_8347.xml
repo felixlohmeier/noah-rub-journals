@@ -1,0 +1,79 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8347">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>On-Device Power Analysis Across Hardware Security Domains.</title>
+                        <subTitle>Stop Hitting Yourself.</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>O’Flynn, Colin</displayForm>
+                        <namePart type="family">O’Flynn</namePart>
+                        <namePart type="given">Colin</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Dewar, Alex</displayForm>
+                        <namePart type="family">Dewar</namePart>
+                        <namePart type="given">Alex</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2019-08-09</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">28</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Side-channel power analysis is a powerful method of breaking secure cryptographic algorithms, but typically power analysis is considered to require specialized measurement equipment on or near the device. Assuming an attacker first gained the ability to run code on the unsecure side of a device, they could trigger encryptions and use the on-board ADC to capture power traces of that hardware encryption engine.This is demonstrated on a SAML11 which contains a M23 core with a TrustZone-M implementation as the hardware security barrier. This attack requires 160 × 106 traces, or approximately 5 GByte of data. This attack does not use any external measurement equipment, entirely performing the power analysis using the ADC on-board the microcontroller under attack. The attack is demonstrated to work both from the non-secure and secure environment on the chip, being a demonstration of a cross-domain power analysis attack.To understand the effect of noise and sample rate reduction, an attack is mounted on the SAML11 hardware AES peripheral using classic external equipment, and results are compared for various sample rates and hardware setups. A discussion on how users of this device can help prevent such remote attacks is also presented, along with metrics that can be used in evaluating other devices. Complete copies of all recorded power traces and scripts used by the authors are publicly presented.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tches.v2019.i4.126-153</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8347</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8347">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/8347/7696" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_rub-journals_8347">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/8347/7847" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="" ID="FILE2_rub-journals_8347">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/8347/7848" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8347" DMDID="DMD_rub-journals_8347">
+            <mets:fptr FILEID="FILE0_rub-journals_8347"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_8347" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_8347"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART2_rub-journals_8347" LABEL="">
+                <mets:fptr FILEID="FILE2_rub-journals_8347"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

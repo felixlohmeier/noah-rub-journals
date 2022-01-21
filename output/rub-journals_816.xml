@@ -1,0 +1,53 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_816">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Heroic narratives, patriotic history and Namibian politics</title>
+                        <subTitle>The case of (Herman) Andimba Toivo Ya Toivo (1924–2017)</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Melber, Henning</displayForm>
+                        <namePart type="family">Melber</namePart>
+                        <namePart type="given">Henning</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2017-12-31</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">14</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">On 9 June 2017 Namibia became poorer. A moral beacon physically left behind the people, whose right to live in freedom and dignity was his core motivation throughout most of his 92 years. (Herman) Andimba Toivo Ya Toivo – Toivo is Finnish for hope – was active until the end. He had just returned from a trip with his close friend and fellow inmate on Robben Island Helao Shityuwe – another largely ignored and little recognized icon in Namibia’s struggle for liberation. Hours later, at his home, Ya Toivo died in his sleep. The article combines a portrait of Ya Toivo and his legacy with the heroic narratives at play when the history of the liberation struggle is rewritten for political purposes.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_816</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_816">
+                <mets:FLocat xlink:href="https://namibian-studies.com/index.php/JNS/article/download/816/769" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_816" DMDID="DMD_rub-journals_816">
+            <mets:fptr FILEID="FILE0_rub-journals_816"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

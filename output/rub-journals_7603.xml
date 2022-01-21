@@ -1,0 +1,54 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7603">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <nonSort>Die </nonSort>
+                        <title>Bedeutung der europäischen Beschäftigungspolitik für den Strategiewandel der deutschen Gewerkschaften in der Phase der „Eurosklerose“ (1973 –1986)</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Seifen, Stephan</displayForm>
+                        <namePart type="family">Seifen</namePart>
+                        <namePart type="given">Stephan</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015-02-16</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">27</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">The article deals with the evolution towards a European social agenda during the period of “Eurosclerosis” and its relevance for a change in German trade unions’ strategy. It follows the thesis that German trade unions changed their attitude concerning Europeanisation from an only complementary national strategy to a real multilevel strategy, shortly after the evolution of social policy issues like the European employment policy and the expansion of participation rights at the European level during the 1970s. Hence, the article includes a short description of German trade unions’ evolution at national and European level by the time and beyond, an overview of the evolution of social issues at European level; it discusses national restrictions and problems and tries to work out a scientific classification applying a political science theory to work out coherences and interdependencies of important actors, parameters and strategies.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/mts.42.2009.187-213</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7603</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7603">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/7603/6775" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7603" DMDID="DMD_rub-journals_7603">
+            <mets:fptr FILEID="FILE0_rub-journals_7603"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

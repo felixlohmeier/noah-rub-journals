@@ -1,0 +1,70 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8953">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Is mental time travel real time travel?</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Barkasi, Michael</displayForm>
+                        <namePart type="family">Barkasi</namePart>
+                        <namePart type="given">Michael</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Rosen, Melanie G.</displayForm>
+                        <namePart type="family">Rosen</namePart>
+                        <namePart type="given">Melanie G.</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020-05-26</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">27</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Episodic memory (memories of the personal past) and prospecting the future (anticipating events) are often described as mental time travel (MTT). While most use this description metaphorically, we argue that episodic memory may allow for MTT in at least some robust sense. While episodic memory experiences may not allow us to literally travel through time, they do afford genuine awareness of past-perceived events. This is in contrast to an alternative view on which episodic memory experiences present past-perceived events as mere intentional contents. Hence, episodic memory is a way of coming into experiential contact with, or being again aware of, what happened in the past. We argue that episodic memory experiences depend on a causal-informational link with the past events being remembered, and that, assuming direct realism about episodic memory experiences, this link suffices for genuine awareness. Since there is no such link in future prospection, a similar argument cannot be used to show that it also affords genuine awareness of future events. Constructivist views of memory might challenge the idea of memory as genuine awareness of remembered events. We explain how our view is consistent with both constructivist and anti-causalist conceptions of memory. There is still room for an interpretation of episodic memory as enabling genuine awareness of past events, even if it involves reconstruction.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.33735/phimisci.2020.1.28</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8953</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8953">
+                <mets:FLocat xlink:href="https://philosophymindscience.org/index.php/phimisci/article/download/8953/8729" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="text/html" ID="FILE1_rub-journals_8953">
+                <mets:FLocat xlink:href="https://philosophymindscience.org/index.php/phimisci/article/download/8953/8730" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8953" DMDID="DMD_rub-journals_8953">
+            <mets:fptr FILEID="FILE0_rub-journals_8953"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_8953" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_8953"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

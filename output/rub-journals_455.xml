@@ -1,0 +1,61 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_455">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <nonSort>The </nonSort>
+                        <title>Spanish Female Volunteers from Yugoslavia as Example of Solidarity in a Transnational Context</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Lešnik, Avgust</displayForm>
+                        <namePart type="family">Lešnik</namePart>
+                        <namePart type="given">Avgust</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Vidmar Horvat, Ksenija</displayForm>
+                        <namePart type="family">Vidmar Horvat</namePart>
+                        <namePart type="given">Ksenija</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2016-06-01</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">15</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">The paper examines the historical legacy of volunteers in the Spanish Civil War, with a special emphasis on the biographical portraits of female volunteers. This segment of transnational solidarity in the Spanish Civil War has not yet been submitted to an appropriate socio-historical review, although it could, according to both authors, considerably influence the contemporary discourse on global (cosmopolitan) solidarity, especially in the branch of cosmofeminist theory, which emphasises the politics of compassion and empathy. The essence of the movement of Spanish volunteers, in other words, surpassed the issue of identification with the suffering of others, although this also represented an important element of mobilisation. Nevertheless, identification was not only generally humanistic, but was political and ideational more than anything else, the evidence of which manifested itself in sacrificing one’s life for the sake of others. This perspective throws light on contemporary post-humanistic humanitarian solidarity and enables us to critically evaluate its contribution to global justice.University of LjubljanaSlovenia</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_455</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_455">
+                <mets:FLocat xlink:href="https://incs.ub.rub.de/index.php/INCS/article/download/455/407" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_455" DMDID="DMD_rub-journals_455">
+            <mets:fptr FILEID="FILE0_rub-journals_455"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

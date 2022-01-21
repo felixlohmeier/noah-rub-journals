@@ -1,0 +1,62 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7526">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>An Explorative Study of the Impact of Local Political Opportunity</title>
+                        <subTitle>Structures on the Electoral Mobilisation of the Far-Right Movement in Sweden</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Peterson, Abby</displayForm>
+                        <namePart type="family">Peterson</namePart>
+                        <namePart type="given">Abby</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Mattsson-Wallinder, Ylva</displayForm>
+                        <namePart type="family">Mattsson-Wallinder</namePart>
+                        <namePart type="given">Ylva</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015-01-31</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">22</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Since the early European labour movements, one preferred action and organisational strategy of social movements has been to mobilise their followers in political parties. As an outgrowth of the environmental movement the Swedish Environmental Party was formed in 1980 and first entered the parliament in 1988, the same year that the Sweden Democrats, at that time a rather obscure sect within the Swedish neo-Nazi movement, was formed. In 2010 the party successfully mobilised voters and entered the Swedish parliament with 5.7 per cent of the vote. However, voters were mobilised unevenly across the spread of Sweden’s 290 municipalities – more successful in some and less in others. In this paper we utilise the notion of local political opportunity structure (POS) to interrogate these geographical differences in mobilisation outcomes. While the original concept of POS formulated by Eisinger in the early 1970s focused on local government structures, the notion has been more commonly employed in Europe in cross-national research. By re-focusing on local political opportunity structures the aim of the paper is to contribute new insights into the favourable circumstances for voter mobilisation of a movement-party.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/mts.48.2012.111-132</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7526</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7526">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/7526/6698" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7526" DMDID="DMD_rub-journals_7526">
+            <mets:fptr FILEID="FILE0_rub-journals_7526"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

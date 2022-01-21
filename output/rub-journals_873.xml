@@ -1,0 +1,86 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_873">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Improved High-Order Conversion From Boolean to Arithmetic Masking</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Bettale, Luk</displayForm>
+                        <namePart type="family">Bettale</namePart>
+                        <namePart type="given">Luk</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Coron, Jean-Sébastien</displayForm>
+                        <namePart type="family">Coron</namePart>
+                        <namePart type="given">Jean-Sébastien</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Zeitoun, Rina</displayForm>
+                        <namePart type="family">Zeitoun</namePart>
+                        <namePart type="given">Rina</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2018-05-08</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">24</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Masking is a very common countermeasure against side channel attacks. When combining Boolean and arithmetic masking, one must be able to convert between the two types of masking, and the conversion algorithm itself must be secure against side-channel attacks. An efficient high-order Boolean to arithmetic conversion scheme was recently described at CHES 2017, with complexity independent of the register size. In this paper we describe a simplified variant with fewer mask refreshing, and still with a proof of security in the ISW probing model. In practical implementations, our variant is roughly 25% faster.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tches.v2018.i2.22-45</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_873</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_873">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/873/825" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_rub-journals_873">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/873/7970" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="" ID="FILE2_rub-journals_873">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/873/7971" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_873" DMDID="DMD_rub-journals_873">
+            <mets:fptr FILEID="FILE0_rub-journals_873"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_873" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_873"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART2_rub-journals_873" LABEL="">
+                <mets:fptr FILEID="FILE2_rub-journals_873"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

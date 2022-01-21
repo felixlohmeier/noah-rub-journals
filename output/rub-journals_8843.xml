@@ -1,0 +1,62 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8843">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Resistance of SNOW-V against Fast Correlation Attacks</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Gong, Xinxin</displayForm>
+                        <namePart type="family">Gong</namePart>
+                        <namePart type="given">Xinxin</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Zhang, Bin</displayForm>
+                        <namePart type="family">Zhang</namePart>
+                        <namePart type="given">Bin</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2021-03-19</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">33</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">SNOW-V is a new member in the SNOW family of stream ciphers, hoping to be competitive in the 5G mobile communication system. In this paper, we study the resistance of SNOW-V against bitwise fast correlation attacks by constructing bitwise linear approximations. First, we propose and summarize some efficient algorithms using the slice-like techniques to compute the bitwise linear approximations of certain types of composition functions composed of basic operations like ⊞, ⊕, Permutation, and S-box, which have been widely used in word-oriented stream ciphers such as SNOW-like ciphers. Then, using these algorithms, we find a number of stronger linear approximations for the FSM of the two variants of SNOW-V given in the design document, i.e., SNOW-V σ0 and SNOW-V⊞8, ⊞8. For SNOW-V σ0, where there is no byte-wise permutation, we find some bitwise linear approximations of the FSM with the SEI (Squared Euclidean Imbalance) around 2−37.34 and mount a bitwise fast correlation attack with the time complexity 2251.93 and memory complexity 2244, given 2103.83 keystream outputs, which improves greatly the results in the design document. For SNOW-V⊞8, ⊞8, where both of the two 32-bit adders in the FSM are replaced by 8-bit adders, we find our best bitwise linear approximations of the FSM with the SEI 2−174.14, while the best byte-wise linear approximation in the design document of SNOW-V has the SEI 2−214.80. Finally, we study the security of a closer variant of SNOW-V, denoted by SNOW-V⊞32, ⊞8, where only the 32-bit adder used for updating the first register is replaced by the 8-bit adder, while everything else remains identical. For SNOW-V⊞32, ⊞8, we derive many mask tuples yielding the bitwise linear approximations of the FSM with the SEI larger than 2−184. Using these linear approximations, we mount a fast correlation attack with the time complexity 2377.01 and a memory complexity 2363, given 2253.73 keystream outputs. Note that neither of our attack threatens the security of SNOW-V. We hope our research could further help in understanding bitwise linear approximation attacks and also the structure of SNOW-like stream ciphers.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.46586/tosc.v2021.i1.378-410</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8843</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8843">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/8843/8446" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8843" DMDID="DMD_rub-journals_8843">
+            <mets:fptr FILEID="FILE0_rub-journals_8843"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

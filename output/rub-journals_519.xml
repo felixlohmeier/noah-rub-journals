@@ -1,0 +1,60 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_519">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Religious competition</title>
+                        <subTitle>is it a useful concept?</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Naerebout, Frederick G.</displayForm>
+                        <namePart type="family">Naerebout</namePart>
+                        <namePart type="given">Frederick G.</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2016-10-04</dateIssued>
+                    </originInfo>
+                    <abstract lang="eng">In recent years ‘competition’ has become an ever more popular concept in the study of ancient religions. Or should that be a label? Innovative concept or mere label: to come to a decision, we should ask some questions. What are the studies that advertise themselves as dealing with competition about, what do people understand by it? Does competition do what it should be doing: provide some new interpretative framework, and, in the case of edited volumes, tie the different contributions together? In order to answer these questions, a fairly recently published volume (Rosenblum, Vuong &amp;amp; DesRosiers, 2014) will be analyzed in some detail and compared to some other publications that cover (or seem to cover) the same ground.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/er.v3.2016.BJ-CC</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0">CC BY-NC-ND 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_519</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_519">
+                <mets:FLocat xlink:href="https://er.ceres.rub.de/index.php/ER/article/download/519/464" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="text/html" ID="FILE1_rub-journals_519">
+                <mets:FLocat xlink:href="https://er.ceres.rub.de/index.php/ER/article/download/519/8274" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_519" DMDID="DMD_rub-journals_519">
+            <mets:fptr FILEID="FILE0_rub-journals_519"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_519" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_519"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

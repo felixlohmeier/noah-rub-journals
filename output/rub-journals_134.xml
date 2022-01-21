@@ -1,0 +1,53 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_134">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Vicious vets and lazy locals</title>
+                        <subTitle>Experimentation, politics and CBPP in north-west Namibia, 1925 – 1980</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Van Wolputte, Steven</displayForm>
+                        <namePart type="family">Van Wolputte</namePart>
+                        <namePart type="given">Steven</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2014-06-10</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">22</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">The colonial encounter in the northern Kunene Region (or Kaoko) in north-west Namibia was epitomized in the events associated with the coming of Contagious Bovine Pleuropneumonia (CBPP) to the region. This contribution is mainly based on archival sources. It probes into the genealogy of a disease that made animals ‘putrefy from the inside out’ and argues that the colonial perception of the region as a remote borderland, the ardent zeal of a relatively new profession within the South West African Administration to prove its legitimacy, and the nature of the disease led the colonial administration to engage in a series of experiments that were at once biological, social and political. These experiments involved the implementation of a new technology – large-scale vaccination campaigns: they and their often unexpected outcomes throw into sharp relief the various ambiguities and outright contradictions that were quintessential to colonial rule in the region.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_134</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_134">
+                <mets:FLocat xlink:href="https://namibian-studies.com/index.php/JNS/article/download/134/99" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_134" DMDID="DMD_rub-journals_134">
+            <mets:fptr FILEID="FILE0_rub-journals_134"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,79 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7283">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>FACE</title>
+                        <subTitle>Fast AES CTR mode Encryption Techniques based on the Reuse of Repetitive Data</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Park, Jin Hyung</displayForm>
+                        <namePart type="family">Park</namePart>
+                        <namePart type="given">Jin Hyung</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Lee, Dong Hoon</displayForm>
+                        <namePart type="family">Lee</namePart>
+                        <namePart type="given">Dong Hoon</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2018-08-16</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">31</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">The Advanced Encryption Standard (AES) algorithm and Counter (CTR) mode are used for numerous services as an encryption technique that provides confidentiality. Even though the AES with counter (AES CTR) mode has an advantage in that it can process multiple data blocks in parallel, its implementation should also be observed to reduce the computational burden of current services.In this paper, we propose an implementation method called FACE that can improve the performance of the AES CTR mode. The proposed method is based on five caches of frequently occurring intermediate values, so that it reduces the number of unnecessary computations. Our method can be employed in any AES CTR implementation, regardless of the platform, environment, or implementation method. There are two known AES implementation techniques, namely, counter-mode caching and bitslicing. FACE extends counter-mode caching in order to optimize the previous result and to maximize the scope of caching. We show that FACE can be applied efficiently to various implementations (table-based, bitsliced, and AES-NI-based). In particular, this is the first attempt to combine our extended counter-mode caching with bitsliced implementations of AES, and is also the first to apply counter-mode caching up to the round transformations of AES-NI implementation. To prove the efficiency of our proposed method, we conduct a performance evaluation in various environments, which we then compare with the previous fastest results. Our bitsliced FACE needs 6.41 cycles/byte on an Intel Core 2, and AES-NI-based FACE records 0.44 cycles/byte on an Intel Core i7.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tches.v2018.i3.469-499</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7283</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7283">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/7283/6460" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_rub-journals_7283">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/7283/7954" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="" ID="FILE2_rub-journals_7283">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/7283/7955" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7283" DMDID="DMD_rub-journals_7283">
+            <mets:fptr FILEID="FILE0_rub-journals_7283"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_7283" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_7283"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART2_rub-journals_7283" LABEL="">
+                <mets:fptr FILEID="FILE2_rub-journals_7283"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

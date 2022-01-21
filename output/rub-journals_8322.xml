@@ -1,0 +1,60 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8322">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Between Secrecy and Transparency</title>
+                        <subTitle>Conversions to Protestantism Among Iranian Refugees in Germany</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Stadlbauer, Susanne</displayForm>
+                        <namePart type="family">Stadlbauer</namePart>
+                        <namePart type="given">Susanne</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2019-06-19</dateIssued>
+                    </originInfo>
+                    <abstract lang="eng">Present-day scholarship on religious conversions diverts from classic Protestant&amp;nbsp;paradigms of sudden conversions and instant transformations of the self. Instead, it&amp;nbsp;stresses that converts make active choices that are influenced by specific contexts and&amp;nbsp;historical changes. This becomes evident in an ethnographic study of one controversial&amp;nbsp;aspect of the recent refugee influx in Germany: the so-called mass conversions of Iranian&amp;nbsp;refugees from Shia Islam to Christianity, which have been highly publicized and criticized&amp;nbsp;since the height of immigration in 2015. The analysis draws on interview data with Iranian&amp;nbsp;refugee converts and their pastors in Protestant churches in North Rhine-Westphalia&amp;nbsp;between October 2017 and January 2018. The study reveals the need to theorize the symbiotic&amp;nbsp;connection between religious contacts, forced migration, and conversion to Christianity.&amp;nbsp;It applies Rambo’s (1993) stage model of conversion and the analytical concept&amp;nbsp;of secrecy (Jones 2014, Manderson et al. 2015, Simmel 1906) to demonstrate that the&amp;nbsp;Iranian refugees’ conversions are shaped by contexts, crises, encounters, quests, interactions,&amp;nbsp;commitments, and consequences (Rambo 1993) as they negotiate the forces of secrecy, risk,&amp;nbsp;transparency, and the benefits of being a Christian. The goal of this paper is to find thematic&amp;nbsp;patterns in their narratives that can be systematized and can build a foundation for&amp;nbsp;further study.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/er.8.2019.8322</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8322</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8322">
+                <mets:FLocat xlink:href="https://er.ceres.rub.de/index.php/ER/article/download/8322/7670" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="text/html" ID="FILE1_rub-journals_8322">
+                <mets:FLocat xlink:href="https://er.ceres.rub.de/index.php/ER/article/download/8322/7671" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8322" DMDID="DMD_rub-journals_8322">
+            <mets:fptr FILEID="FILE0_rub-journals_8322"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_8322" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_8322"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

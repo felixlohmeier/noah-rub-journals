@@ -1,0 +1,61 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7430">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>What is New in the History of Social Movements?</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Berger, Stefan</displayForm>
+                        <namePart type="family">Berger</namePart>
+                        <namePart type="given">Stefan</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2018-05-18</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">13</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Michael Ruck (ed.): Gegner — Instrument — Partner: Gewerkschaftliche Staatsverständnisse vom Industrialismus bis zum Informationszeitalter, Baden-Baden: Nomos, 2017.
+Mary Hilson/Silke Neunsiger/Greg Patmore (eds.): A Global History of Consumer Cooperation since 1850: Movements and Businesses, Leiden: Brill, 2017.
+Neville Kirk: Transnational Radicalism and the Connected Lives of Tom Mann and Robert Samuel Ross, Liverpool: Liverpool University Press, 2017.
+Christina Morina: Die Erfindung des Marxismus. Wie eine Idee die Welt eroberte, Berlin: Siedler, 2017.
+Verity Burgmann: Globalization and Labour in the Twenty-First Century, Abingdon: Routledge, 2016.
+Greg Patmore: Worker Voice: Employee Representation in the Workplace in Australia, Canada, Germany, the UK and the US, 1914 — 1939, Liverpool: Liverpool University Press, 2016.
+Ulrich Brieler/Rainer Eckert (eds.): Unruhiges Leipzig: Beiträge zu einer Geschichte des Ungehorsams in Leipzig, Leipzig: Leipziger Universitätsverlag, 2016.
+Gareth Stedman Jones: Karl Marx: Greatness and Illusion, London: Allen Lane, 2016.
+Claudia Kemper: Medizin gegen den Kalten Krieg: Ärzte in der anti-atomaren Friedensbewegung der 1980er Jahre, Göttingen: Wallstein, 2016.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <identifier type="doi">10.13154/mts.59.2018.115-127</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7430</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7430">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/7430/6602" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7430" DMDID="DMD_rub-journals_7430">
+            <mets:fptr FILEID="FILE0_rub-journals_7430"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

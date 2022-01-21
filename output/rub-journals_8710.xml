@@ -1,0 +1,59 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8710">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Buddhist and Indian Elements in the Onomastics of the Iranian Manichaean Texts</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Colditz, Iris</displayForm>
+                        <namePart type="family">Colditz</namePart>
+                        <namePart type="given">Iris</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020-12-15</dateIssued>
+                    </originInfo>
+                    <abstract lang="eng">The use of names and terms of Indian origin bears witness to encounters of Iranian-speaking Manichaeans with Indian religious traditions and cultures, but the importance of an impact of Indian religions on Manichaeism is still subject of scholarly discussions. This paper focuses on Buddhist and Indian elements in Manichaean onomastics. Recent research in the context of the project *Iranisches Personennamenbuch* has provided, for the first time, a complete collection of proper names in the Iranian Manichaean texts from the Turfan region. The transmitted Iranian, hybrid, and non-Iranian names of Manichaean and non-Manichaean historical persons, literary, and mythological figures reflect the ethnic, religious, and multilingual diversity of the peoples along the Silk Roads. The results of this study enable us to analyse the various influences in Manichaean onomastics. Here this refers to proper names of Indian origin, loan-translations, Buddha and Bodhisattva names, names from the Buddhist tradition, and the like. This paper shall show which Indian names occur in Iranian Manichaean texts and how they have been adapted to the Manichaean context.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <identifier type="doi">10.46586/er.11.2020.8710</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8710</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8710">
+                <mets:FLocat xlink:href="https://er.ceres.rub.de/index.php/ER/article/download/8710/8353" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="text/html" ID="FILE1_rub-journals_8710">
+                <mets:FLocat xlink:href="https://er.ceres.rub.de/index.php/ER/article/download/8710/8354" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8710" DMDID="DMD_rub-journals_8710">
+            <mets:fptr FILEID="FILE0_rub-journals_8710"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_8710" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_8710"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

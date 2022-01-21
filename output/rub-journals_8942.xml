@@ -1,0 +1,55 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8942">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Seeing the forest for the trees</title>
+                        <subTitle>Scene perception and the admissible contents of perceptual Experience</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>McClelland, Tom</displayForm>
+                        <namePart type="family">McClelland</namePart>
+                        <namePart type="given">Tom</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2021-05-10</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">27</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Debates surrounding the high-level contents of perceptual experience focus on whether weperceive the high-level properties of visual objects, such as the property of being a pine tree. Thispaper considers instead whether we perceive the high-level properties of visual scenes, such asthe property of being a forest. Liberals about the contents of perceptual experience have offered avariety of phenomenal contrast cases designed to reveal how the high-level properties of objectsfigure in our visual experience. I offer a series of equivalent phenomenal contrast cases intendedto show how the high-level properties of visual scenes also figure in visual experience. Thisfirst-person evidence of high-level scene perception is combined with third-person evidence fromthe extensive empirical literature on scene categorisation. Critics of liberalism have attempted todeflate existing phenomenal contrast cases by explaining the contrasts in terms of non-perceptualcontents or in terms of attentional changes. I show that neither response is applicable to mycontrast cases and conclude that we do indeed perceptually experience the high-level propertiesof visual scenes.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.33735/phimisci.2021.19</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8942</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8942">
+                <mets:FLocat xlink:href="https://philosophymindscience.org/index.php/phimisci/article/download/8942/8510" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8942" DMDID="DMD_rub-journals_8942">
+            <mets:fptr FILEID="FILE0_rub-journals_8942"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

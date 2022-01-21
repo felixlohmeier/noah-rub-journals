@@ -1,0 +1,52 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_107">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Making South West Africa German? Attempting imperial, juridical, colonial, conjugal and moral order</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Hartmann, Wolfram</displayForm>
+                        <namePart type="family">Hartmann</namePart>
+                        <namePart type="given">Wolfram</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2014-01-31</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">34</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">This article addresses the origins of a decree prohibiting racially-mixed marriages that was issued in German South West Africa in September 1905. A close reading of the archival sources together with the observation that only a negligible number of such marriages took place raises the crucial question as to why such a drastic measure was deemed necessary. It is argued that a lack of experience in a new and developing legal field combined with administrative inefficiencies to allow a wide leeway to implement whatever was deemed desirable by the respective administrative official in the colony, regardless of what Berlin argued. The determinist, even teleological, notion that German racism was imposing itself in this situation has to be re-evaluated.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_107</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_107">
+                <mets:FLocat xlink:href="https://namibian-studies.com/index.php/JNS/article/download/107/76" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_107" DMDID="DMD_rub-journals_107">
+            <mets:fptr FILEID="FILE0_rub-journals_107"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

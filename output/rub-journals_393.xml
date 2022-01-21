@@ -1,0 +1,94 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_393">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Diamond wire – stone interaction during the cutting process</title>
+                        <subTitle>mechanical, physical and chemical investigations</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Spriano, S.</displayForm>
+                        <namePart type="family">Spriano</namePart>
+                        <namePart type="given">S.</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Ferraris, S.</displayForm>
+                        <namePart type="family">Ferraris</namePart>
+                        <namePart type="given">S.</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Bellopede, R.</displayForm>
+                        <namePart type="family">Bellopede</namePart>
+                        <namePart type="given">R.</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Marini, P.</displayForm>
+                        <namePart type="family">Marini</namePart>
+                        <namePart type="given">P.</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Zichella, L.</displayForm>
+                        <namePart type="family">Zichella</namePart>
+                        <namePart type="given">L.</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Tori, A.</displayForm>
+                        <namePart type="family">Tori</namePart>
+                        <namePart type="given">A.</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015-11-25</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">8</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Stone cutting with diamond wires results in the progressive and concurrent wear of the naturalstone and the cutting tool (diamond wires - diamond beads). This phenomenon has beeninvestigated since the beginning of stone machining, but there are still several open questionsconcerning the parameters controlling it. The aim of this study is to establish correlations betweenthe natural stone mineralogical composition and the diamond wires cut performance in terms ofefficiency, productivity and diamond beads consumption. This investigation requires amultidisciplinary approach. Microscopic analysis have been done in order to investigate the wearprocesses of the diamond beads in terms of super-abrasive grains (diamond grits) damage andpull out. Petrographic analysis and mineralogical investigation have been considered in order tocorrelate the removal rate during the cutting action with the characteristics of the stones. Mudsderived from cutting have been characterized for the complete comprehension of the cuttingprocess. The erosion analysis concerned both stone debris and diamond beads, characterizingboth the metal powder and super-abrasive grains (diamond) in the cut waste (mud). Moreover, themetal matrix is the core of the diamond wire technology and it drives cutting performance andefficiency.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/icscm.3.2015.112-119</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_393</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_393">
+                <mets:FLocat xlink:href="https://icscm.ub.rub.de/index.php/ICSCM/article/download/393/350" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_393" DMDID="DMD_rub-journals_393">
+            <mets:fptr FILEID="FILE0_rub-journals_393"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

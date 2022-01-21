@@ -1,0 +1,52 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_349">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>De la minorité de guerre au premier communisme français. Construire l’histoire et les archives de la scission de Tours</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Ducoulombier, Romain</displayForm>
+                        <namePart type="family">Ducoulombier</namePart>
+                        <namePart type="given">Romain</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2010-07-20</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">9</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Sur la base du vaste ensemble des nouvelles archives, l&apos;article donne une nouvelle vision critique sur le mouvement de &quot;regéneration&quot; des pratiques et des idées socialistes pendant la première guerre mondiale et menant à la constitution d&apos;un &quot;parti de type&quot; nouveau avec la fondation du Parti comuniste français comme Section Francaise de l&apos;Internationale communiste en 1921. La relève militante en tant que résultat de ce processus de régénération l’explique beaucoup mieux que la thèse d&apos;une greffe ou de d&apos;un accident dominante dans l&apos;historiographie depuis Annie Kriegel. Elle réhabilite en meme temps les narratives anteriéures sur la naissance du communisme français de Robert Wohl ou les documents contenus dans les Archives Humbert-Droz. L&apos;auteur présente en même temps le concept d&apos;une &quot;jeune relève militante&quot; contre celui d’un gap générationnel pour expliquer l&apos;activité de la minorité socialiste contre la guerre et avance celui d&apos;une histoire &quot;enchassée&quot; contre une explication trop accidentaliste ou évènementielle.University of Metz (France)</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_349</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_349">
+                <mets:FLocat xlink:href="https://incs.ub.rub.de/index.php/INCS/article/download/349/307" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_349" DMDID="DMD_rub-journals_349">
+            <mets:fptr FILEID="FILE0_rub-journals_349"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

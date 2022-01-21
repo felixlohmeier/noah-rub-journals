@@ -1,0 +1,54 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7367">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Acculturated Otherness. Christian Churches and Wedding Chapels in Modern Japanese Society</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Löffler, Beate</displayForm>
+                        <namePart type="family">Löffler</namePart>
+                        <namePart type="given">Beate</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2018-12-18</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">35</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">During the latter half of the nineteenth century, the Japanese government&amp;nbsp;ended the centuries-long Japanese policy of isolation and initiated a rapid modernization&amp;nbsp;effort that aimed to create a competitive Japanese nation state. In addition to such changes&amp;nbsp;as new family law, compulsory education, and redistribution of property, the government&amp;nbsp;contracted foreign experts with the goal of importing western knowledge. As a result, civil&amp;nbsp;engineers, artists, and physicians started moving to Japan, as did missionaries. This resulted in&amp;nbsp;intense cultural encounter and negotiation, in the course of which Christian faith and Western&amp;nbsp;church architecture became acculturated in Japan. This article sketches the socio-cultural and&amp;nbsp;technological parameters shaping Japanese Christian church buildings from the 1860s onwards&amp;nbsp;as well as the transfer of meanings and forms from an explicitly Western tradition into a&amp;nbsp;Western-looking and yet entirely Japanese tradition of Christianity. It sketches a second line&amp;nbsp;of transfer as well, that reinterpreted the ‘church’ as an architectural form into the Wedding-Chapel-Romanticism of the non-Christian Japanese mainstream wedding industry.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/er.v5.2018.312-346</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7367</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7367">
+                <mets:FLocat xlink:href="https://er.ceres.rub.de/index.php/ER/article/download/7367/6537" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7367" DMDID="DMD_rub-journals_7367">
+            <mets:fptr FILEID="FILE0_rub-journals_7367"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

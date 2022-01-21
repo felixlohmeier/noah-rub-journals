@@ -1,0 +1,87 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7390">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Shaping the Glitch</title>
+                        <subTitle>Optimizing Voltage Fault Injection Attacks</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Bozzato, Claudio</displayForm>
+                        <namePart type="family">Bozzato</namePart>
+                        <namePart type="given">Claudio</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Focardi, Riccardo</displayForm>
+                        <namePart type="family">Focardi</namePart>
+                        <namePart type="given">Riccardo</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Palmarini, Francesco</displayForm>
+                        <namePart type="family">Palmarini</namePart>
+                        <namePart type="given">Francesco</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2019-02-28</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">26</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Voltage fault injection is a powerful active side channel attack that modifies the execution-flow of a device by creating disturbances on the power supply line. The attack typically aims at skipping security checks or generating side-channels that gradually leak sensitive data, including the firmware code. In this paper we propose a new voltage fault injection technique that generates fully arbitrary voltage glitch waveforms using off-the-shelf and low cost equipment. To show the effectiveness of our setup, we present new, unpublished firmware extraction attacks on six microcontrollers from three major manufacturers: STMicroelectronics, Texas Instruments and Renesas Electronics that, in 2016 declared a market of $1.5 billion, $800 million and $2.5 billion on units sold, respectively. Among the presented attacks, the most challenging ones exploit multiple vulnerabilities and inject over one million glitches, heavily leveraging on the performance and repeatability of the new proposed technique. We perform a thorough evaluation of arbitrary glitch waveforms by comparing the attack performance against two other major V-FI techniques in the literature. Along a responsible disclosure policy, all the vulnerabilities have been timely reported to the manufacturers.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tches.v2019.i2.199-224</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7390</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7390">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/7390/6562" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_rub-journals_7390">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/7390/7893" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="" ID="FILE2_rub-journals_7390">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/7390/7894" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7390" DMDID="DMD_rub-journals_7390">
+            <mets:fptr FILEID="FILE0_rub-journals_7390"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_7390" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_7390"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART2_rub-journals_7390" LABEL="">
+                <mets:fptr FILEID="FILE2_rub-journals_7390"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

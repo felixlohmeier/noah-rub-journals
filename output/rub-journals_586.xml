@@ -1,0 +1,79 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_586">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <nonSort>A </nonSort>
+                        <title>Fast Single-Key Two-Level Universal Hash Function</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Chakraborty, Debrup</displayForm>
+                        <namePart type="family">Chakraborty</namePart>
+                        <namePart type="given">Debrup</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Ghosh, Sebati</displayForm>
+                        <namePart type="family">Ghosh</namePart>
+                        <namePart type="given">Sebati</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Sarkar, Palash</displayForm>
+                        <namePart type="family">Sarkar</namePart>
+                        <namePart type="given">Palash</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2017-03-08</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">23</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Universal hash functions based on univariate polynomials are well known, e.g. Poly1305 and GHASH. Using Horner’s rule to evaluate such hash functionsrequire l − 1 field multiplications for hashing a message consisting of l blocks where each block is one field element. A faster method is based on the class of Bernstein-Rabin-Winograd (BRW) polynomials which require ⌊l/2⌋ multiplications and ⌊lgl⌋ squarings for l≥3 blocks. Though this is significantly smaller than Horner’s rule based hashing, implementation of BRW polynomials for variable length messages present significant difficulties. In this work, we propose a two-level hash function where BRW polynomial based hashing is done at the lower level and Horner’s rule based hashing is done at the higher level. The BRW polynomial based hashing is applied to a fixed number of blocks and hence the difficulties in handling variable length messages is avoided. Even though the hash function has two levels, we show that it is sufficient to use a single field element as the hash key. The basic idea is instantiated to propose two new hash functions, one which hashes a single binary string and the other can hash a vector of binary strings. We describe two actual implementations, one over F2128 and the other over F2256 both using the pclmulqdq instruction available in modern Intel processors. On both the Haswell and Skylake processors, the implementation over F2128 is faster than both an implementation of GHASH by Gueron; and a highly optimised implementation, also by Gueron, of another polynomial based hash function called POLYVAL. We further show that the Fast Fourier Transform based field multiplication over F2256 proposed by Bernstein and Chou can be used to evaluate the new hash function at a cost of about at most 46 bit operations per bit of digest, but, unlike the Bernstein-Chou analysis, there is no hidden cost of generating the hash key. More generally, the new idea of building a two-level hash function having a single field element as the hash key can be applied to other finite fields to build new hash functions.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tosc.v2017.i1.106-128</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_586</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_586">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/586/527" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_rub-journals_586">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/586/7476" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_586" DMDID="DMD_rub-journals_586">
+            <mets:fptr FILEID="FILE0_rub-journals_586"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_586" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_586"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

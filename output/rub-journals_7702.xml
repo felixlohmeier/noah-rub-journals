@@ -1,0 +1,54 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7702">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <nonSort>Das </nonSort>
+                        <title>Bergwerk Dubovskaja Šachta − Produktionsstätte und Strafisolator des Karlag</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Hedeler, Wladislaw</displayForm>
+                        <namePart type="family">Hedeler</namePart>
+                        <namePart type="given">Wladislaw</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015-01-21</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">15</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">The article examines the forced labour of prisoners of the Karlag labour camp in Karaganda/ Kazachstan over the time period from 1929 to 1960. On the basis of new archival material from the archive of the Karlag camp new light is shed on the forced labour of prisoners in the coal mines, which belonged to the camp. Most evident is the growing economic significance of forced labour: while at the beginning the punishment and reeducation of the prisoners who worked under extremely hard conditions in the coal mines stood in the foreground later on, in connection with an increasing demand for coal the economic aspects of forced labour became more and more important. The growing interest of the state in the coal production of the prisoners also led to a general improvement of their working and living conditions and health care.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/mts.37.2007.97-111</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7702</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7702">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/7702/6874" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7702" DMDID="DMD_rub-journals_7702">
+            <mets:fptr FILEID="FILE0_rub-journals_7702"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

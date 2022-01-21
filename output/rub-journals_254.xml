@@ -1,0 +1,54 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_254">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <nonSort>Die </nonSort>
+                        <title>zwei Leben des Anton Saefkow</title>
+                        <subTitle>kommunistischer Widerstandskämpfer und sozialistischer Held (1903-1944). Biographische Skizzen und Fragen der historischen Erinnerung</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Margain, Constance</displayForm>
+                        <namePart type="family">Margain</namePart>
+                        <namePart type="given">Constance</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2012-09-05</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">12</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Anton Saefkow is a crucial figure of the communist resistance against Nazi rule in Germany. The experience militant of the Communist Party of Germany was arrested in April 1933. Being kept in different camps and prisons until his release in 1939, he was rearrested after a brief period of underground activity and executed in 1944. This article shows how Seafkow’s life was used from 1949 on in East Germany to project an image of an exemplary communist. Through different means of propaganda, Saefkow’s image was present in manifold areas of East German political and everyday life.Université du Havre / Zentrum für Zeithistorische Forschung Potsdam</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_254</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_254">
+                <mets:FLocat xlink:href="https://incs.ub.rub.de/index.php/INCS/article/download/254/212" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_254" DMDID="DMD_rub-journals_254">
+            <mets:fptr FILEID="FILE0_rub-journals_254"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

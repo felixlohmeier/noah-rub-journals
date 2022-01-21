@@ -1,0 +1,53 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7465">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Conflicting Visions The Shaping of Industrial Relations in Japan and the Founding of the Friedrich- Ebert-Stiftung Asian Labour Institute</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Heideck, Christian</displayForm>
+                        <namePart type="family">Heideck</namePart>
+                        <namePart type="given">Christian</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015-12-17</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">22</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">This research paper seeks to shed light on the involvement of the Friedrich Ebert Foundation (FES) and the trade unions of West Germany in the shaping of industrial relations in Japan. The period observed starts with the domestic crisis of 1960 flowing from the labour dispute at the Mitsui Miike coal mines and the renewal of the Japanese-American Security Treaty and concludes with the consolidation of industrial relations in Japan at the beginning of the 1970s. By examining the ways in which the key proponents with conflicting approaches toward Japan’s future industrial relations interacted with both the FES and West German trade union affiliates, it shall be demonstrated that the exchange between West Germany and Japan on trade union level provided positive impetus to the process of shaping industrial relations in Japan during the 1960s.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/mts.54.2015.85-106</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7465</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7465">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/7465/6637" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7465" DMDID="DMD_rub-journals_7465">
+            <mets:fptr FILEID="FILE0_rub-journals_7465"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

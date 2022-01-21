@@ -1,0 +1,60 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_580">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>(Nicht-) Sichtbarkeit in Barthélémy Toguos „Road to Exile“</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Datlı, Şirin Luisa</displayForm>
+                        <namePart type="family">Datlı</namePart>
+                        <namePart type="given">Şirin Luisa</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2017-04-11</dateIssued>
+                    </originInfo>
+                    <abstract lang="ger">Barthélémy Toguo präsentiert den Betrachter_innen mit seiner Installation Road to Exile eine kompositionell schlichte, dennoch semantisch komplexe Arbeit. Das einfache Holzboot, das schwer beladen mit bunten Stoffbündeln über ein Meer aus Glasflaschen fährt, wirft Fragen nach Reise und Flucht sowie der Sichtbarkeit bzw. Unsichtbarkeit geflohener Menschen auf. Der Beitrag geht diesen Fragen nach. Durch den bewussten Einsatz bereits bestehender Darstellungsstrategien gelingt es Toguo, übliche - häufig viktimisierende oder rassistische - Darstellungsweisen Geflohener zu umgehen und Kritik an ihnen zu üben.</abstract>
+                    <subject lang="ger">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>GA 2. Kunstgeschichtliches Journal für studentische Forschung und Kritik</title>
+                        </titleInfo>
+                        <identifier type="issn">2566-4999</identifier>
+                        <part>
+                            <detail type="issue">
+                                <number>01</number>
+                            </detail>
+                        </part>
+                    </relatedItem>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_580</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_580">
+                <mets:FLocat xlink:href="https://ojs.ub.rub.de/index.php/GA2/article/download/580/586" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_580" DMDID="DMD_rub-journals_580">
+            <mets:fptr FILEID="FILE0_rub-journals_580"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

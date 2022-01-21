@@ -1,0 +1,59 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_9155">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Finding the neural correlates of consciousness will not solve all our problems</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Overgaard, Morten S.</displayForm>
+                        <namePart type="family">Overgaard</namePart>
+                        <namePart type="given">Morten S.</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Kirkeby-Hinrup, Asger</displayForm>
+                        <namePart type="family">Kirkeby-Hinrup</namePart>
+                        <namePart type="given">Asger</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2021-07-19</dateIssued>
+                    </originInfo>
+                    <abstract lang="eng">Subjective experience has often taken center stage in debates between competing conceptual theories of the mind. This is also a central object of concern in the empirical domain, and especially in the search for the neural correlates of consciousness (NCCs). By now, most of the competing conceptual theories of consciousness have become aligned with distinct hypotheses about the NCCs. These hypotheses are usually distinguished by reference to their proposed location of the NCCs. This difference in hypothesized location of the NCCs has tempted participants in these debates to infer that evidence indicating the location of the NCCs in one or the other brain region can be taken as direct evidence for or against a given conceptual theory of consciousness. We argue that this is an overestimation of the work finding the NCCs can do for us, and that there are principled reasons to resist this kind of inference. To show this we point out the lack of both an isomorphism and a homomorphism between the conceptual frameworks in which most theories are cached, and the kind of data we can get from neuroimaging. The upshot is that neural activation profiles are insufficient to distinguish between competing theories in the conceptual domain. We suggest two ways to go about ameliorating this issue.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.33735/phimisci.2021.37</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_9155</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_9155">
+                <mets:FLocat xlink:href="https://philosophymindscience.org/index.php/phimisci/article/download/9155/8693" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_9155" DMDID="DMD_rub-journals_9155">
+            <mets:fptr FILEID="FILE0_rub-journals_9155"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

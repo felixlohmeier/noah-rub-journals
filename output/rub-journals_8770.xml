@@ -1,0 +1,68 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8770">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Publizieren in der Deutschdidaktik</title>
+                        <subTitle>Reflexionen anlässlich der Eröffnung einer neuen deutschdidaktischen Publikationsplattform</subTitle>
+                    </titleInfo>
+                    <titleInfo type="translated">
+                        <title>Publishing in the field of German L1 education research</title>
+                        <subTitle>Considerations on the occasion of a new publication platform being launched</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Funke, Reinold</displayForm>
+                        <namePart type="family">Funke</namePart>
+                        <namePart type="given">Reinold</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2021-02-01</dateIssued>
+                    </originInfo>
+                    <abstract lang="ger">Die Bedingungen des Publizierens gehören zu den zentralen Determinanten der wissenschaftlichen Arbeit einer forschenden Disziplin. Sie werden nicht willkürlich geschaffen, sondern ergeben sich aus dem Kontext, in dem ein Fach seine Arbeit tut. Der Beitrag geht von dem Kontext aus, wie er sich mit Blick auf die Deutschdidaktik darstellt, und erörtert die Konsequenzen für Publizieren unter vier Aspekten: (1) Nachfrage- und Angebotsorientierung beim Publizieren, (2) Internationalität und Interdisziplinarität, (3) Peer Review und Qualitätssicherung, (4) Zitieren und Plagiieren.</abstract>
+                    <abstract lang="eng">The conditions of researchers’ publishing activities impact markedly on their work. These conditions are not set arbitrarily by the people involved; rather, they result from the given context in which research is done. The present article focuses on the context set for research on first-language education (Deutschdidaktik) in German speaking regions. It discusses how this context shapes publishing according to four dimensions: (1) publishing on demand versus publishing on initiative, (2) internationality and interdisciplinarity, (3) peer review and quality monitoring, (4) plagiarism versus giving credit.</abstract>
+                    <subject lang="ger">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>Zeitschrift für Sprachlich-Literarisches Lernen und Deutschdidaktik</title>
+                        </titleInfo>
+                        <identifier type="issn">2701-0589</identifier>
+                        <part>
+                            <detail type="volume">
+                                <number>1</number>
+                            </detail>
+                        </part>
+                    </relatedItem>
+                    <identifier type="doi">10.46586/SLLD.Z.2021.8770</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8770</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8770">
+                <mets:FLocat xlink:href="https://ojs.ub.rub.de/index.php/SLLD/article/download/8770/8378" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8770" DMDID="DMD_rub-journals_8770">
+            <mets:fptr FILEID="FILE0_rub-journals_8770"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

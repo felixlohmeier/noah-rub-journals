@@ -1,0 +1,53 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_96">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <nonSort>The </nonSort>
+                        <title>military campaign in German Southwest Africa, 1904 - 1907 and the genocide of the Herero and Nama</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Hull, Isabel V.</displayForm>
+                        <namePart type="family">Hull</namePart>
+                        <namePart type="given">Isabel V.</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2014-01-31</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">18</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">This article examines the military campaign to suppress the Herero and Nama Revolts in German Southwest Africa from 1904 to 1907. These operations led to genocide in both cases. Rather than focusing on ideology (racism) as the main causal factor, this article analyzes the genocide as the result of a conventional European-style military campaign whose tenets and propensity to go to extremes developed out of Imperial Germany&apos;s military culture. After analyzing the four phases of the military campaign, the article goes on to delineate the characteristic features of German military culture that led to mass killing.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_96</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_96">
+                <mets:FLocat xlink:href="https://namibian-studies.com/index.php/JNS/article/download/96/68" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_96" DMDID="DMD_rub-journals_96">
+            <mets:fptr FILEID="FILE0_rub-journals_96"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,86 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7298">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>More Accurate Differential Properties of LED64 and Midori64</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Sun, Ling</displayForm>
+                        <namePart type="family">Sun</namePart>
+                        <namePart type="given">Ling</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Wang, Wei</displayForm>
+                        <namePart type="family">Wang</namePart>
+                        <namePart type="given">Wei</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Wang, Meiqin</displayForm>
+                        <namePart type="family">Wang</namePart>
+                        <namePart type="given">Meiqin</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2018-09-04</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">31</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">In differential cryptanalysis, a differential is more valuable than the single trail belonging to it in general. The traditional way to compute the probability of the differential is to sum the probabilities of all trails within it. The automatic tool for the search of differentials based on Mixed Integer Linear Programming (MILP) has been proposed and realises the task of finding multiple trails of a given differential. The problem is whether it is reliable to evaluate the probability of the differential traditionally. In this paper, we focus on two lightweight block ciphers – LED64 and Midori64 and show the more accurate estimation of differential probability considering the key schedule. Firstly, an automated tool based on Boolean Satisfiability Problem (SAT) is put forward to accomplish the automatic search of differentials for ciphers with S-boxes and is applied to LED64 and Midori64. Secondly, we provide an automatic approach to detect the right pairs following a given differential, which can be exploited to calculate the differential property. Applying this technique to the STEP function of LED64, we discover some differentials with enhanced probability. As a result, the previous attacks relying upon high probability differentials can be improved definitely. Thirdly, we present a method to compute an upper-bound of the weak-key ratio for a given differential, which is utilised to analyse 4-round differentials of Midori64. We detect two differentials whose weak-key ratios are much lower than the expected 50%. More than 78% of the keys will make these two differentials being impossible differentials. The idea of the estimation for an upper-bound of the weak-key ratio can be employed for other ciphers and allows us to launch differential attacks more reliably. Finally, we introduce how to compute the enhanced differential probability and evaluate the size of keys achieving the improved probability. Such a property may incur an efficient weak-key attack. For a 4-round differential of Midori64, we obtain an improved differential property for a portion of keys.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tosc.v2018.i3.93-123</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7298</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7298">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/7298/6472" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_rub-journals_7298">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/7298/7575" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="" ID="FILE2_rub-journals_7298">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/7298/7744" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7298" DMDID="DMD_rub-journals_7298">
+            <mets:fptr FILEID="FILE0_rub-journals_7298"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_7298" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_7298"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART2_rub-journals_7298" LABEL="">
+                <mets:fptr FILEID="FILE2_rub-journals_7298"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

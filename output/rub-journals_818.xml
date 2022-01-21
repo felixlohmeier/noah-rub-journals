@@ -1,0 +1,52 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_818">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Yearning to be modern? Dreams and desires of Ovambo contract workers in Namibia</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Shiweda, Napandulwe</displayForm>
+                        <namePart type="family">Shiweda</namePart>
+                        <namePart type="given">Napandulwe</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2017-12-31</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">18</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">The article investigates the desire for modernity as represented by western commodities, Christianity and education, among Ovambo. It addresses the reasons why Ovambo men in particular entered contract waged labour, the struggles they went through due to the work environment, and the different ways in which waged labour was integrated into their lives. Sources include elements of former migrant labourers’ biographies. The article argues that the way in which Ovambo men set about acquiring European commodities was mediated by an existing set of motivations, which suggested disillusionment with their traditional leaders and headmen from the late 1930s to the early 1950s and that, while in most cases the immediate reason given for men becoming migrant labourers was the monetary benefit, young men were also attracted by the status symbols possessed by the elite such as clothing and consumer goods.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_818</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_818">
+                <mets:FLocat xlink:href="https://namibian-studies.com/index.php/JNS/article/download/818/771" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_818" DMDID="DMD_rub-journals_818">
+            <mets:fptr FILEID="FILE0_rub-journals_818"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

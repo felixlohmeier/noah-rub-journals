@@ -1,0 +1,78 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_9078">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Rainbow on Cortex-M4</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Chou, Tung</displayForm>
+                        <namePart type="family">Chou</namePart>
+                        <namePart type="given">Tung</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Kannwischer, Matthias J.</displayForm>
+                        <namePart type="family">Kannwischer</namePart>
+                        <namePart type="given">Matthias J.</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Yang, Bo-Yin</displayForm>
+                        <namePart type="family">Yang</namePart>
+                        <namePart type="given">Bo-Yin</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2021-08-11</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">26</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">We present the first Cortex-M4 implementation of the NISTPQC signature finalist Rainbow. We target the Giant Gecko EFM32GG11B which comes with 512 kB of RAM which can easily accommodate the keys of RainbowI.We present fast constant-time bitsliced F16 multiplication allowing multiplication of 32 field elements in 32 clock cycles. Additionally, we introduce a new way of computing the public map P in the verification procedure allowing vastly faster signature verification.Both the signing and verification procedures of our implementation are by far the fastest among the NISTPQC signature finalists. Signing of rainbowIclassic requires roughly 957 000 clock cycles which is 4× faster than the state of the art Dilithium2 implementation and 45× faster than Falcon-512. Verification needs about 239 000 cycles which is 5× and 2× faster respectively. The cost of signing can be further decreased by 20% when storing the secret key in a bitsliced representation.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.46586/tches.v2021.i4.650-675</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_9078</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_9078">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/9078/8665" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="" ID="FILE1_rub-journals_9078">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/9078/8707" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_9078" DMDID="DMD_rub-journals_9078">
+            <mets:fptr FILEID="FILE0_rub-journals_9078"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_9078" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_9078"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

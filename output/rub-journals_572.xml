@@ -1,0 +1,78 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_572">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Multiset-Algebraic Cryptanalysis of Reduced Kuznyechik, Khazad, and secret SPNs</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Biryukov, Alex</displayForm>
+                        <namePart type="family">Biryukov</namePart>
+                        <namePart type="given">Alex</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Khovratovich, Dmitry</displayForm>
+                        <namePart type="family">Khovratovich</namePart>
+                        <namePart type="given">Dmitry</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Perrin, Léo</displayForm>
+                        <namePart type="family">Perrin</namePart>
+                        <namePart type="given">Léo</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2017-02-03</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">22</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">We devise the first closed formula for the number of rounds of a blockcipher with secret components so that these components can be revealed using multiset, algebraic-degree, or division-integral properties, which in this case are equivalent. Using the new result, we attack 7 (out of 9) rounds of Kuznyechik, the recent Russian blockcipher standard, thus halving its security margin. With the same technique we attack 6 (out of 8) rounds of Khazad, the legacy 64-bit blockcipher. Finally, we show how to cryptanalyze and find a decomposition of generic SPN construction for which the inner-components are secret. All the attacks are the best to date.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tosc.v2016.i2.226-247</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_572</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_572">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/572/514" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_rub-journals_572">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/572/7468" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_572" DMDID="DMD_rub-journals_572">
+            <mets:fptr FILEID="FILE0_rub-journals_572"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_572" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_572"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,53 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7710">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Katholische Kirche und Sonntagsarbeit Entwicklungslinien am Beispiel der Eisen- und Stahlindustrie im Ruhrgebiet</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Karlheim, Christel</displayForm>
+                        <namePart type="family">Karlheim</namePart>
+                        <namePart type="given">Christel</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015-01-21</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">15</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Since the middle of the 19th century, industrialisation has changed the working conditions in the Ruhr Area tremendously. Considering social questions, the poor working conditions have been for a long time a major topic of political debate − especially before the law for the protection of working people has passed. ough working on Sunday and public holidays is constitutionally protected by the basic law of the in the Federal Republic of Germany, in modern European societies Sunday working is no longer a taboo. e article reveals the cleavages and actors in the different debates focussing in particular on Sunday working in the iron- and steel industry of the Ruhr area.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/mts.36.2006.29-43</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7710</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7710">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/7710/6882" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7710" DMDID="DMD_rub-journals_7710">
+            <mets:fptr FILEID="FILE0_rub-journals_7710"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

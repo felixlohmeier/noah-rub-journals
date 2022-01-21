@@ -1,0 +1,63 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8358">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Revisit Division Property Based Cube Attacks</title>
+                        <subTitle>Key-Recovery or Distinguishing Attacks?</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Ye, Chen-Dong</displayForm>
+                        <namePart type="family">Ye</namePart>
+                        <namePart type="given">Chen-Dong</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Tian, Tian</displayForm>
+                        <namePart type="family">Tian</namePart>
+                        <namePart type="given">Tian</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2019-09-20</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">22</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Cube attacks are an important type of key recovery attacks against stream ciphers. In particular, they are shown to be powerful against Trivium-like ciphers. Traditional cube attacks are experimental attacks which could only exploit cubes of size less than 40. At CRYPTO 2017, division property based cube attacks were proposed by Todo et al., and an advantage of introducing the division property to cube attacks is that large cube sizes which are beyond the experimental range could be explored, and so powerful theoretical attacks were mounted on many lightweight stream ciphers.In this paper, we revisit the division property based cube attacks. There is an important assumption, called Weak Assumption, proposed in division property based cube attacks to support the effectiveness of key recovery. Todo et al. in CRYPTO 2017 said that the Weak Assumption was expected to hold for theoretically recovered superpolies of Trivium according to some experimental results on small cubes. In this paper, it is shown that the Weak Assumption often fails in cube attacks against Trivium, and moreover a new method to recover the exact superpoly of a given cube is developed based on the bit-based division property. With our method, for the cube I proposed by Todo et al. at CRYPTO 2017 to attack the 832-round Trivium, we recover its superpoly pI(x, v) = v68v78 · (x58⊕v70) · (x59x60⊕x34⊕x61). Furthermore, we prove that some best key recovery results given at CRYPTO 2018 on Trivium are actually distinguishing attacks. Hopefully this paper gives some new insights on accurately recovering the superpolies with the bit-based division property and also attract some attention on the validity of division property based cube attacks against stream ciphers.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tosc.v2019.i3.81-102</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8358</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8358">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/8358/7708" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8358" DMDID="DMD_rub-journals_8358">
+            <mets:fptr FILEID="FILE0_rub-journals_8358"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

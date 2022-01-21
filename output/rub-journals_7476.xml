@@ -1,0 +1,58 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7476">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Review Article Disability Movements – A Growing Field of Research?</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Weinert, Sebastian</displayForm>
+                        <namePart type="family">Weinert</namePart>
+                        <namePart type="given">Sebastian</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015-12-17</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">17</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Rosalyn Benjamin Darling: Disability and Identity: Negotiating Self in a Changing Society, Boulder/London: Lynne Rienner Publishers, 2013, ISBN: 978 – 1-58826 – 864 – 8, 189 pp.
+Swantje Köbsell: Wegweiser Behindertenbewegung: Neues (Selbst-)Verständnis von Behinderung, Neu Ulm: AG SPAK Bücher, 2012, ISBN: 978 – 3-940865 – 35 – 9, 102 pp.
+Nils Löffelbein: Ehrenbürger der Nation: Die Kriegsbeschädigten des Ersten Weltkriegs in Politik und Propaganda des Nationalsozialismus, Essen: Klartext Verlag, 2013, ISBN: 978 – 3-8375 – 0839 – 0, 494 pp.
+Fred Pelka: What Have We Done: An Oral History of the Disability Rights Movement, Amherst/Boston: University of Massachusetts Press, 2012, ISBN: 978 – 1-55849 – 919 – 5, 656 pp.
+Heather Ridolfo/Brian W. Ward: Mobility Impairment and the Construction of Identity, Boulder/London: Lynne Rienner Publishers, 2013, ISBN: 978 – 1-935049 – 96 – 8, 188 pp.
+Ylva Söderfeldt: From Pathology to Public Sphere: The German Deaf Movement 1848 – 1914, Bielefeld: transcript Verlag, 2013, ISBN: 978 – 3-8376 – 2119 – 8, 316 pp.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <identifier type="doi">10.13154/mts.53.2015.139-155</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7476</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7476">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/7476/6648" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7476" DMDID="DMD_rub-journals_7476">
+            <mets:fptr FILEID="FILE0_rub-journals_7476"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

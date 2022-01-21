@@ -1,0 +1,79 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_852">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Frequency-smoothing encryption</title>
+                        <subTitle>preventing snapshot attacks on deterministically encrypted data</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Lacharité, Marie-Sarah</displayForm>
+                        <namePart type="family">Lacharité</namePart>
+                        <namePart type="given">Marie-Sarah</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Paterson, Kenneth G.</displayForm>
+                        <namePart type="family">Paterson</namePart>
+                        <namePart type="given">Kenneth G.</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2018-03-01</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">37</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Statistical analysis of ciphertexts has been recently used to carry out devastating inference attacks on deterministic encryption (Naveed, Kamara, and Wright, CCS 2015), order-preserving/revealing encryption (Grubbs et al., S&amp;amp;P 2017), and searchable encryption (Pouliot and Wright, CCS 2016). At the heart of these inference attacks is classical frequency analysis. In this paper, we propose and evaluate another classical technique, homophonic encoding, as a means to combat these attacks. We introduce and develop the concept of frequency-smoothing encryption (FSE) which provably prevents inference attacks in the snapshot attack model, wherein the adversary obtains a static snapshot of the encrypted data, while preserving the ability to efficiently and privately make point queries. We provide provably secure constructions for FSE schemes, and we empirically assess their security for concrete parameters by evaluating them against real data. We show that frequency analysis attacks (and optimal generalisations of them for the FSE setting) no longer succeed.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tosc.v2018.i1.277-313</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_852</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_852">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/852/804" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_rub-journals_852">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/852/7625" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="" ID="FILE2_rub-journals_852">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/852/7525" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_852" DMDID="DMD_rub-journals_852">
+            <mets:fptr FILEID="FILE0_rub-journals_852"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_852" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_852"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART2_rub-journals_852" LABEL="">
+                <mets:fptr FILEID="FILE2_rub-journals_852"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

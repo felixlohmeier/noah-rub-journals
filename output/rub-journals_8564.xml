@@ -1,0 +1,70 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8564">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Cryptanalysis of Forkciphers</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Bariant, Augustin</displayForm>
+                        <namePart type="family">Bariant</namePart>
+                        <namePart type="given">Augustin</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>David, Nicolas</displayForm>
+                        <namePart type="family">David</namePart>
+                        <namePart type="given">Nicolas</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Leurent, Gaëtan</displayForm>
+                        <namePart type="family">Leurent</namePart>
+                        <namePart type="given">Gaëtan</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020-05-07</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">33</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">The forkcipher framework was designed in 2018 by Andreeva et al. for authenticated encryption of short messages. Two dedicated ciphers were proposed in this framework: ForkAES based on the AES (and its tweakable variant Kiasu-BC), and ForkSkinny based on Skinny. The main motivation is that the forked ciphers should keep the same security as the underlying ciphers, but offer better performances thanks to the larger output. Recent cryptanalysis results at ACNS ’19 have shown that ForkAES actually offers a reduced security margin compared to the AES with an 8-round attack, and this was taken into account in the design of ForkSkinny.In this paper, we present new cryptanalysis results on forkciphers. First we improve the previous attack on ForkAES in order to attack the full 10 rounds. This is the first attack challenging the security of full ForkAES. Then we present the first analysis of ForkSkinny, showing that the best attacks on Skinny can be extended to one round for most ForkSkinny variants, and up to three rounds for ForkSkinny-128-256. This allows to evaluate the security degradation between ForkSkinny and the underlying block cipher.Our analysis shows that all components of a forkcipher must be carefully designed: the attack against ForkAES uses the weak diffusion of the middle rounds in reconstruction queries (going from one ciphertext to the other), but the attack against ForkSkinny uses a weakness of the tweakey schedule in encryption queries (when one branch of the tweakey schedule is skipped).</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tosc.v2020.i1.233-265</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8564</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8564">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/8564/8135" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8564" DMDID="DMD_rub-journals_8564">
+            <mets:fptr FILEID="FILE0_rub-journals_8564"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

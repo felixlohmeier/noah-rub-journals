@@ -1,0 +1,95 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7297">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Double-block Hash-then-Sum</title>
+                        <subTitle>A Paradigm for Constructing BBB Secure PRF</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Datta, Nilanjan</displayForm>
+                        <namePart type="family">Datta</namePart>
+                        <namePart type="given">Nilanjan</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Dutta, Avijit</displayForm>
+                        <namePart type="family">Dutta</namePart>
+                        <namePart type="given">Avijit</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Nandi, Mridul</displayForm>
+                        <namePart type="family">Nandi</namePart>
+                        <namePart type="given">Mridul</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Paul, Goutam</displayForm>
+                        <namePart type="family">Paul</namePart>
+                        <namePart type="given">Goutam</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2018-09-03</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">57</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">SUM-ECBC (Yasuda, CT-RSA 2010) is the first beyond birthday bound (BBB) secure block cipher based deterministic MAC. After this work, some more BBB secure deterministic MACs have been proposed, namely PMAC_Plus (Yasuda, CRYPTO 2011), 3kf9 (Zhang et al., ASIACRYPT 2012) and LightMAC_Plus (Naito, ASIACRYPT 2017). In this paper, we have abstracted out the inherent design principle of all these BBB secure MACs and present a generic design paradigm to construct a BBB secure pseudo random function, namely Double-block Hash-then- Sum or in short (DbHtS). A DbHtS construction, as the name implies, computes a double block hash on the message and then sum the encrypted output of the two hash blocks. Our result renders that if the underlying hash function meets certain security requirements (namely cover-free and block-wise universal advantage is low), DbHtS construction provides 2n/3-bit security. We demonstrate the applicability of our result by instantiating all the existing beyond birthday secure deterministic MACs (e.g., SUM-ECBC, PMAC_Plus, 3kf9, LightMAC_Plus) as well as a simple two-keyed variant for each of them and some algebraic hash based constructions.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tosc.v2018.i3.36-92</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7297</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7297">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/7297/6471" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_rub-journals_7297">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/7297/7576" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="" ID="FILE2_rub-journals_7297">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/7297/7743" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7297" DMDID="DMD_rub-journals_7297">
+            <mets:fptr FILEID="FILE0_rub-journals_7297"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_7297" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_7297"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART2_rub-journals_7297" LABEL="">
+                <mets:fptr FILEID="FILE2_rub-journals_7297"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>
