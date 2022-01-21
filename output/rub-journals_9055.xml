@@ -1,0 +1,54 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_9055">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Beyond Egalitarianism</title>
+                        <subTitle>Statistical Knowledge and Social Inequality in the German Democratic Republic</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Lorke, Christoph</displayForm>
+                        <namePart type="family">Lorke</namePart>
+                        <namePart type="given">Christoph</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2021-08-09</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">21</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Despite all the political and ideological pronouncements, there were also various forms of social inequality in the ‘real existing socialism’ of the GDR (German Democratic Republic). These have been extensively studied at the latest since the construction of the Berlin Wall. Since these years, there has been an intensified preoccupation with socially deviant living conditions, which have been documented statistically. How- ever, these figures raised questions about the limits of socialist communisation and the realisation of the ideologically articulated goal of bringing about a convergence of the ‘classes and strata’. Therefore, the goal was to synchronize these figures with the state’s self-image, which in turn revealed numerous contradictions. Based on a deconstruction of contemporary statistical measurement procedures as well as studies and the resulting interpretations of social inequality, the article first proposes a phase classification of this approach to social differentiation. In a further step, the resulting intended and unintended effects are illuminated.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.46586/mts.65.2021.123-143</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_9055</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_9055">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/9055/8640" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_9055" DMDID="DMD_rub-journals_9055">
+            <mets:fptr FILEID="FILE0_rub-journals_9055"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

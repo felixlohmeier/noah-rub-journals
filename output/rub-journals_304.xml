@@ -1,0 +1,53 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_304">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <nonSort>The </nonSort>
+                        <title>Collateral Prisoner. A Bundist Holocaust Survivor between Nazi Perpetrators, Anti-Communism and British World Politics</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Wolff, Frank</displayForm>
+                        <namePart type="family">Wolff</namePart>
+                        <namePart type="given">Frank</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2011-09-23</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">14</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">While crossing the border in order to find his comrades in Belgium, Holocaust survivor and Bundist Herman Goldberg was arrested by the British military under the suspicion of being a Communist, a Trotskyist or even a militant member of the Zionist underground. After he had “proven” his “innocence,” he still remained incarcerated for months – to his torment together with high-ranked German Nazis. In a painfully composed letter, Goldberg turned to his comrades in New York who apparently were overwhelmed by the many problems risen by this unique source of post-Holocaust martyrdom of a political activist. Arguing that the collateral prisoner Goldberg suffered this deeply insulting treatment because he was not a member of the movements the British were afraid of, this article presents a full translation of this newly discovered document as well as a contextual interpretation.Bielefeld University / Johns Hopkins University</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_304</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_304">
+                <mets:FLocat xlink:href="https://incs.ub.rub.de/index.php/INCS/article/download/304/262" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_304" DMDID="DMD_rub-journals_304">
+            <mets:fptr FILEID="FILE0_rub-journals_304"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,87 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_9295">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Neon NTT</title>
+                        <subTitle>Faster Dilithium, Kyber, and Saber on Cortex-A72 and Apple M1</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Becker, Hanno</displayForm>
+                        <namePart type="family">Becker</namePart>
+                        <namePart type="given">Hanno</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Hwang, Vincent</displayForm>
+                        <namePart type="family">Hwang</namePart>
+                        <namePart type="given">Vincent</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Kannwischer, Matthias J.</displayForm>
+                        <namePart type="family">Kannwischer</namePart>
+                        <namePart type="given">Matthias J.</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Yang, Bo-Yin</displayForm>
+                        <namePart type="family">Yang</namePart>
+                        <namePart type="given">Bo-Yin</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Yang, Shang-Yi</displayForm>
+                        <namePart type="family">Yang</namePart>
+                        <namePart type="given">Shang-Yi</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2021-11-19</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">24</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">We present new speed records on the Armv8-A architecture for the latticebased schemes Dilithium, Kyber, and Saber. The core novelty in this paper is the combination of Montgomery multiplication and Barrett reduction resulting in “Barrett multiplication” which allows particularly efficient modular one-known-factor multiplication using the Armv8-A Neon vector instructions. These novel techniques combined with fast two-unknown-factor Montgomery multiplication, Barrett reduction sequences, and interleaved multi-stage butterflies result in significantly faster code. We also introduce “asymmetric multiplication” which is an improved technique for caching the results of the incomplete NTT, used e.g. for matrix-to-vector polynomial multiplication. Our implementations target the Arm Cortex-A72 CPU, on which our speed is 1.7× that of the state-of-the-art matrix-to-vector polynomial multiplication in kyber768 [Nguyen–Gaj 2021]. For Saber, NTTs are far superior to Toom–Cook multiplication on the Armv8-A architecture, outrunning the matrix-to-vector polynomial multiplication by 2.0×. On the Apple M1, our matrix-vector products run 2.1× and 1.9× faster for Kyber and Saber respectively.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.46586/tches.v2022.i1.221-244</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_9295</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_9295">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/9295/8861" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_9295" DMDID="DMD_rub-journals_9295">
+            <mets:fptr FILEID="FILE0_rub-journals_9295"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

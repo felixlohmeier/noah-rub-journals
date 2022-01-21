@@ -1,0 +1,70 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8678">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Rejection Sampling Schemes for Extracting Uniform Distribution from Biased PUFs</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Ueno, Rei</displayForm>
+                        <namePart type="family">Ueno</namePart>
+                        <namePart type="given">Rei</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Kazumori, Kohei</displayForm>
+                        <namePart type="family">Kazumori</namePart>
+                        <namePart type="given">Kohei</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Homma, Naofumi</displayForm>
+                        <namePart type="family">Homma</namePart>
+                        <namePart type="given">Naofumi</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020-08-26</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">43</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">This paper presents an efficient fuzzy extractor (FE) construction for secure cryptographic key generation from physically unclonable functions (PUFs). The proposed FE, named acceptance-or-rejection (AR)-based FE, utilizes a new debiasing scheme to extract a uniform distribution from a biased PUF response. The proposed debiasing scheme employs the principle of rejection sampling, and can extract a longer debiased bit string compared to those of conventional debiasing schemes. In addition, the proposed AR-based FE is extended to ternary PUF responses (i.e., ternary encoding of a PUF response). These responses can be derived according to cell-wise reliability of the PUF and are promising for extraction of stable and high-entropy responses from common PUFs. The performance of the AR-based Fes is evaluated through an experimental simulation of PUF-based key generation and compared with conventional FEs. We confirm that the proposed AR-based FE can achieve the highest efficiency in terms of PUF and nonvolatile memory (NVM) sizes for various PUF conditions among the conventional counterparts. More precisely, the AR-based FE can realize a 128-bit key generation with up-to 55% smaller PUF size or up-to 72% smaller NVM size than other conventional FEs. In addition, the ternary AR-based FE is up to 55% more efficient than the binary version, and can also achieve up-to 63% higher efficiency than conventional counterparts. Furthermore, we show that the AR-based FE can be applied to PUFs with local biases (e.g., biases depending on cell location in SRAM PUFs), unlike all the conventional schemes, for which only global (or identical) biases are assumed.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tches.v2020.i4.86-128</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8678</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8678">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/8678/8237" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8678" DMDID="DMD_rub-journals_8678">
+            <mets:fptr FILEID="FILE0_rub-journals_8678"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

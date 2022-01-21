@@ -1,0 +1,79 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8293">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>NTTRU</title>
+                        <subTitle>Truly Fast NTRU Using NTT</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Lyubashevsky, Vadim</displayForm>
+                        <namePart type="family">Lyubashevsky</namePart>
+                        <namePart type="given">Vadim</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Seiler, Gregor</displayForm>
+                        <namePart type="family">Seiler</namePart>
+                        <namePart type="given">Gregor</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2019-05-09</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">22</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">We present NTTRU – an IND-CCA2 secure NTRU-based key encapsulation scheme that uses the number theoretic transform (NTT) over the cyclotomic ring Z7681[X]/(X768−X384+1) and produces public keys and ciphertexts of approximately 1.25 KB at the 128-bit security level. The number of cycles on a Skylake CPU of our constant-time AVX2 implementation of the scheme for key generation, encapsulation and decapsulation is approximately 6.4K, 6.1K, and 7.9K, which is more than 30X, 5X, and 8X faster than these respective procedures in the NTRU schemes that were submitted to the NIST post-quantum standardization process. These running times are also, by a large margin, smaller than those for all the other schemes in the NIST process as well as the KEMs based on elliptic curve Diffie-Hellman. We additionally give a simple transformation that allows one to provably deal with small decryption errors in OW-CPA encryption schemes (such as NTRU) when using them to construct an IND-CCA2 key encapsulation.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tches.v2019.i3.180-201</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8293</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8293">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/8293/7643" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_rub-journals_8293">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/8293/7869" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="" ID="FILE2_rub-journals_8293">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/8293/7870" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8293" DMDID="DMD_rub-journals_8293">
+            <mets:fptr FILEID="FILE0_rub-journals_8293"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_8293" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_8293"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART2_rub-journals_8293" LABEL="">
+                <mets:fptr FILEID="FILE2_rub-journals_8293"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

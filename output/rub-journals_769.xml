@@ -1,0 +1,102 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_769">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Analysis and Improvement of Entropy Estimators in NIST SP 800-90B for Non-IID Entropy Sources</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Zhu, Shuangyi</displayForm>
+                        <namePart type="family">Zhu</namePart>
+                        <namePart type="given">Shuangyi</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Ma, Yuan</displayForm>
+                        <namePart type="family">Ma</namePart>
+                        <namePart type="given">Yuan</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Chen, Tianyu</displayForm>
+                        <namePart type="family">Chen</namePart>
+                        <namePart type="given">Tianyu</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Lin, Jingqiang</displayForm>
+                        <namePart type="family">Lin</namePart>
+                        <namePart type="given">Jingqiang</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Jing, Jiwu</displayForm>
+                        <namePart type="family">Jing</namePart>
+                        <namePart type="given">Jiwu</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2017-09-19</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">18</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Random number generators (RNGs) are essential for cryptographic applications. In most practical applications, the randomness of RNGs is provided by entropy sources. If the randomness is less than the expected, the security of cryptographic applications could be undermined. Accurate entropy estimation is a critical method for the evaluation of RNG security, and significant overestimation and underestimation are both inadvisable. The NIST Special Publication 800-90B is one of the most common certifications for entropy estimation. It makes no assumption of the entropy source and provides min-entropy estimation results by a set of entropy estimators. It estimates the entropy sources in two tracks: the IID (independent and identically distributed) track and non-IID track. In practice, non-IID entropy sources are more common, as physical phenomenon, sampling process or external perturbation could cause the dependency of the outputs. In this paper, we prove that the Collision Estimate and the Compression Estimate in non-IID track could provide significant underestimates in theory. In order to accurately estimate the min-entropy of non-IID sources, we provide a formula of minentropybased on conditional probability, and propose a new estimator to approximate the result of this formula. Finally, we perform experiments to compare our estimator with the NIST estimators using simulated non-IID data. Results show that our estimator gives close estimates to the real min-entropy.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tosc.v2017.i3.151-168</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_769</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_769">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/769/727" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_rub-journals_769">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/769/7608" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="" ID="FILE2_rub-journals_769">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/769/7534" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_769" DMDID="DMD_rub-journals_769">
+            <mets:fptr FILEID="FILE0_rub-journals_769"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_769" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_769"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART2_rub-journals_769" LABEL="">
+                <mets:fptr FILEID="FILE2_rub-journals_769"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

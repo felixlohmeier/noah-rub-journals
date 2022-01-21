@@ -1,0 +1,71 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7285">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Low Randomness Masking and Shuffling</title>
+                        <subTitle>An Evaluation Using Mutual Information</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Papagiannopoulos, Kostas</displayForm>
+                        <namePart type="family">Papagiannopoulos</namePart>
+                        <namePart type="given">Kostas</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2018-08-16</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">23</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Side-channel countermeasure designers often face severe performance overheads when trying to protect a device. Widely applied countermeasures such as masking and shuffling entail generating a large amount of random numbers, which can result in a computational bottleneck. To mitigate the randomness cost, this work evaluates low-randomness versions of both masking and shuffling, namely Recycled Randomness Masking (RRM) and Reduced Randomness Shuffling (RRS). These countermeasures employ memory units to store generated random numbers and reuse them in subsequent computations,making them primarily suitable for implementation on devices with sufficient memory. Both RRM and RRS are evaluated using the MI-based framework in the context of horizontal attacks. The evaluation exhibits the tradeoff between the randomness cost and the noisy leakage security level offered by the countermeasures, enabling the designer to fine-tune a masking or shuffling scheme and maximize the security level achieved for a certain cost.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tches.v2018.i3.524-546</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7285</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7285">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/7285/6462" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_rub-journals_7285">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/7285/7958" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="" ID="FILE2_rub-journals_7285">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/7285/7959" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7285" DMDID="DMD_rub-journals_7285">
+            <mets:fptr FILEID="FILE0_rub-journals_7285"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_7285" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_7285"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART2_rub-journals_7285" LABEL="">
+                <mets:fptr FILEID="FILE2_rub-journals_7285"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

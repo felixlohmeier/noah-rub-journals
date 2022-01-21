@@ -1,0 +1,95 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_9327">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>CTET+</title>
+                        <subTitle>A Beyond-Birthday-Bound Secure Tweakable Enciphering Scheme Using a Single Pseudorandom Permutation</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Cogliati, Benoît</displayForm>
+                        <namePart type="family">Cogliati</namePart>
+                        <namePart type="given">Benoît</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Ethan, Jordan</displayForm>
+                        <namePart type="family">Ethan</namePart>
+                        <namePart type="given">Jordan</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Lallemand, Virginie</displayForm>
+                        <namePart type="family">Lallemand</namePart>
+                        <namePart type="given">Virginie</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Lee, Byeonghak</displayForm>
+                        <namePart type="family">Lee</namePart>
+                        <namePart type="given">Byeonghak</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Lee, Jooyoung</displayForm>
+                        <namePart type="family">Lee</namePart>
+                        <namePart type="given">Jooyoung</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Minier, Marine</displayForm>
+                        <namePart type="family">Minier</namePart>
+                        <namePart type="given">Marine</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2021-12-03</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">35</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">In this work, we propose a construction of 2-round tweakable substitutionpermutation networks using a single secret S-box. This construction is based on non-linear permutation layers using independent round keys, and achieves security beyond the birthday bound in the random permutation model. When instantiated with an n-bit block cipher with ωn-bit keys, the resulting tweakable block cipher, dubbed CTET+, can be viewed as a tweakable enciphering scheme that encrypts ωκ-bit messages for any integer ω ≥ 2 using 5n + κ-bit keys and n-bit tweaks, providing 2n/3-bit security.Compared to the 2-round non-linear SPN analyzed in [CDK+18], we both minimize it by requiring a single permutation, and weaken the requirements on the middle linear layer, allowing better performance. As a result, CTET+ becomes the first tweakable enciphering scheme that provides beyond-birthday-bound security using a single permutation, while its efficiency is still comparable to existing schemes including AES-XTS, EME, XCB and TET. Furthermore, we propose a new tweakable enciphering scheme, dubbed AES6-CTET+, which is an actual instantiation of CTET+ using a reduced round AES block cipher as the underlying secret S-box. Extensivecryptanalysis of this algorithm allows us to claim 127 bits of security.Such tweakable enciphering schemes with huge block sizes become desirable in the context of disk encryption, since processing a whole sector as a single block significantly worsens the granularity for attackers when compared to, for example, AES-XTS, which treats every 16-byte block on the disk independently. Besides, as a huge amount of data is being stored and encrypted at rest under many different keys in clouds, beyond-birthday-bound security will most likely become necessary in the short term.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.46586/tosc.v2021.i4.1-35</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_9327</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_9327">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/9327/8886" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_9327" DMDID="DMD_rub-journals_9327">
+            <mets:fptr FILEID="FILE0_rub-journals_9327"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

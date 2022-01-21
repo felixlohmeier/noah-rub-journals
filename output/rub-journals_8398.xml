@@ -1,0 +1,62 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8398">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Improved Heuristics for Short Linear Programs</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Tan, Quan Quan</displayForm>
+                        <namePart type="family">Tan</namePart>
+                        <namePart type="given">Quan Quan</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Peyrin, Thomas</displayForm>
+                        <namePart type="family">Peyrin</namePart>
+                        <namePart type="given">Thomas</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2019-11-19</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">28</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">In this article, we propose new heuristics for minimising the amount of XOR gates required to compute a system of linear equations in GF(2). We first revisit the well known Boyar-Peralta strategy and argue that a proper randomisation process during the selection phases can lead to great improvements. We then propose new selection criteria and explain their rationale. Our new methods outperform state-of-the-art algorithms such as Paar or Boyar-Peralta (or open synthesis tools such as Yosys) when tested on random matrices with various densities. They can be applied to matrices of reasonable sizes (up to about 32 × 32). Notably, we provide a new implementation record for the matrix underlying the MixColumns function of the AES block cipher, requiring only 94 XORs.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tches.v2020.i1.203-230</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8398</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8398">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/8398/7782" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8398" DMDID="DMD_rub-journals_8398">
+            <mets:fptr FILEID="FILE0_rub-journals_8398"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

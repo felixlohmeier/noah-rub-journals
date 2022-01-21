@@ -1,0 +1,53 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_219">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Igal Halfin</title>
+                        <subTitle>Red Autobiographies. Initiating The Bolshevik Self. Seattle, WA, University of Washington Press, 2011. 197 pp. (Donald W. Treadgold Studies on Russia, East Europe, and Central Asia). – ISBN 978-0295991122</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Riegel, Klaus-Georg</displayForm>
+                        <namePart type="family">Riegel</namePart>
+                        <namePart type="given">Klaus-Georg</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2014-05-28</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">6</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Igal Halfin: Red Autobiographies. Initiating The Bolshevik Self. Seattle, WA, University of Washington Press, 2011. 197 pp. (Donald W. Treadgold Studies on Russia, East Europe, and Central Asia). – ISBN 978-0295991122.University of Trier</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_219</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_219">
+                <mets:FLocat xlink:href="https://incs.ub.rub.de/index.php/INCS/article/download/219/177" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_219" DMDID="DMD_rub-journals_219">
+            <mets:fptr FILEID="FILE0_rub-journals_219"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

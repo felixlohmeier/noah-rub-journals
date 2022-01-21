@@ -1,0 +1,102 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7398">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Constructing Low-latency Involutory MDS Matrices with Lightweight Circuits</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Li, Shun</displayForm>
+                        <namePart type="family">Li</namePart>
+                        <namePart type="given">Shun</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Sun, Siwei</displayForm>
+                        <namePart type="family">Sun</namePart>
+                        <namePart type="given">Siwei</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Li, Chaoyun</displayForm>
+                        <namePart type="family">Li</namePart>
+                        <namePart type="given">Chaoyun</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Wei, Zihao</displayForm>
+                        <namePart type="family">Wei</namePart>
+                        <namePart type="given">Zihao</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Hu, Lei</displayForm>
+                        <namePart type="family">Hu</namePart>
+                        <namePart type="given">Lei</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2019-03-08</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">34</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">MDS matrices are important building blocks providing diffusion functionality for the design of many symmetric-key primitives. In recent years, continuous efforts are made on the construction of MDS matrices with small area footprints in the context of lightweight cryptography. Just recently, Duval and Leurent (ToSC 2018/FSE 2019) reported some 32 × 32 binary MDS matrices with branch number 5, which can be implemented with only 67 XOR gates, whereas the previously known lightest ones of the same size cost 72 XOR gates.In this article, we focus on the construction of lightweight involutory MDS matrices, which are even more desirable than ordinary MDS matrices, since the same circuit can be reused when the inverse is required. In particular, we identify some involutory MDS matrices which can be realized with only 78 XOR gates with depth 4, whereas the previously known lightest involutory MDS matrices cost 84 XOR gates with the same depth. Notably, the involutory MDS matrix we find is much smaller than the AES MixColumns operation, which requires 97 XOR gates with depth 8 when implemented as a block of combinatorial logic that can be computed in one clock cycle. However, with respect to latency, the AES MixColumns operation is superior to our 78-XOR involutory matrices, since the AES MixColumns can be implemented with depth 3 by using more XOR gates.We prove that the depth of a 32 × 32 MDS matrix with branch number 5 (e.g., the AES MixColumns operation) is at least 3. Then, we enhance Boyar’s SLP-heuristic algorithm with circuit depth awareness, such that the depth of its output circuit is limited. Along the way, we give a formula for computing the minimum achievable depth of a circuit implementing the summation of a set of signals with given depths, which is of independent interest. We apply the new SLP heuristic to a large set of lightweight involutory MDS matrices, and we identify a depth 3 involutory MDS matrix whose implementation costs 88 XOR gates, which is superior to the AES MixColumns operation with respect to both lightweightness and latency, and enjoys the extra involution property.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tosc.v2019.i1.84-117</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7398</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7398">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/7398/6570" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_rub-journals_7398">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/7398/7556" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="" ID="FILE2_rub-journals_7398">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/7398/7764" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7398" DMDID="DMD_rub-journals_7398">
+            <mets:fptr FILEID="FILE0_rub-journals_7398"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_7398" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_7398"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART2_rub-journals_7398" LABEL="">
+                <mets:fptr FILEID="FILE2_rub-journals_7398"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

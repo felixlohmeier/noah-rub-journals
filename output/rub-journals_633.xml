@@ -1,0 +1,54 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_633">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <nonSort>A </nonSort>
+                        <title>response by Jessamy Perriam</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Perriam, Jessemy</displayForm>
+                        <namePart type="family">Perriam</namePart>
+                        <namePart type="given">Jessemy</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2017-05-24</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">4</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">A response by Jessamy Perriam to Nathan Wittock, Michiel de Krom and Lesley Hustinx&apos; Making Sense of a Messy Object: How to Use Social Topology as an Analytic Tool for Ethnography of Objects</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <identifier type="doi">10.13154/eoo.1.2017.86-89</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_633</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_633">
+                <mets:FLocat xlink:href="https://ojs.ub.rub.de/index.php/EOO/article/download/633/601" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_633" DMDID="DMD_rub-journals_633">
+            <mets:fptr FILEID="FILE0_rub-journals_633"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

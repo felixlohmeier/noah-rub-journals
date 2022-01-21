@@ -1,0 +1,68 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8327">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Human trafficking and illicit financial flows in Africa</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Iroanya, Richard O.</displayForm>
+                        <namePart type="family">Iroanya</namePart>
+                        <namePart type="given">Richard O.</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Nguluwe, Gabriella</displayForm>
+                        <namePart type="family">Nguluwe</namePart>
+                        <namePart type="given">Gabriella</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Ndapulamo, Salomo</displayForm>
+                        <namePart type="family">Ndapulamo</namePart>
+                        <namePart type="given">Salomo</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2019-06-30</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">24</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">This paper argues that human trafficking is an endemic crime with serious consequences for Namibia and other southern African countries. It considers the crime as a form of illicit financial flow and shows how it impacts on national and human security as well as democratic governance. Through content analysis of relevant documents it provides working definitions of human trafficking, illicit financial flow, democratic governance and security as well as highlighting the link between human trafficking and organized criminality. The two-dimensional flows of illicit finance from human trafficking are discussed and ways in which these flows aid and abate the corruption of law enforcing agencies, border agencies and the judiciary of a state are shown. The paper submits that corruption of public and private institutions produces damaging effects on national economies and invariably affects the well-being of citizens negatively. With regard to human security, the paper points out that the exercise of coercive and exploitative control over human trafficking victims deprives them of agency as members of the human family. Illicit financial flows emanating from human trafficking sustain and reinforce this control. Based on these, the paper recommends that adequate measures be put in place to curb human trafficking and the illicit financial flows that it generates.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8327</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8327">
+                <mets:FLocat xlink:href="https://namibian-studies.com/index.php/JNS/article/download/8327/7676" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8327" DMDID="DMD_rub-journals_8327">
+            <mets:fptr FILEID="FILE0_rub-journals_8327"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

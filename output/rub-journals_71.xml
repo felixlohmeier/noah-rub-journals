@@ -1,0 +1,52 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_71">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Postcolonial English language prose from and about Namibia. A survey of novels from 1993 to the present</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Arich-Gerz, Bruno</displayForm>
+                        <namePart type="family">Arich-Gerz</namePart>
+                        <namePart type="given">Bruno</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2014-01-31</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">22</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Twenty years after Namibia became the last country on the African continent to gain independence, this article takes stock of the prose narratives in English that have recently appeared in and about Namibia. It examines narratives by Namibian writers and compares them with the work of renowned non-Namibian novelists which likewise deal with the theme, or sujet, of Namibian realities past and present. The study focuses on Joseph Diescho’s Troubled Waters (1993), Brian Harlech-Jones’ A Small Space (1999) and Neshani Andreas’ The Purple Violet of Oshaantu (2001) alongside U.S. American novelist Peter Orner’s The Second Coming of Mavala Shikongo (2006). At the beginning, South African writer André Brink’s novel The Other Side of Silence (2002) is analysed in greater detail: a novel which, due to the difficult relationship between inner fictional portrayal of a female protagonist and her meta-fictional evaluation by a male narrator and the problematic mimicry of écriture fémine by a male author is presented as an only moderately successful example. The analysis proceeds with special emphasis on Namibia’s postcolonial present by applying key concepts of postcolonial thought developed by theoreticians such as Homi K. Bhabha and Gayatri Chakravorty Spivak.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_71</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_71">
+                <mets:FLocat xlink:href="https://namibian-studies.com/index.php/JNS/article/download/71/45" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_71" DMDID="DMD_rub-journals_71">
+            <mets:fptr FILEID="FILE0_rub-journals_71"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

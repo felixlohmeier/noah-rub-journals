@@ -1,0 +1,102 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_9303">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Masked Accelerators and Instruction Set Extensions for Post-Quantum Cryptography</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Fritzmann, Tim</displayForm>
+                        <namePart type="family">Fritzmann</namePart>
+                        <namePart type="given">Tim</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Van Beirendonck, Michiel</displayForm>
+                        <namePart type="family">Van Beirendonck</namePart>
+                        <namePart type="given">Michiel</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Basu Roy, Debapriya</displayForm>
+                        <namePart type="family">Basu Roy</namePart>
+                        <namePart type="given">Debapriya</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Karl, Patrick</displayForm>
+                        <namePart type="family">Karl</namePart>
+                        <namePart type="given">Patrick</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Schamberger, Thomas</displayForm>
+                        <namePart type="family">Schamberger</namePart>
+                        <namePart type="given">Thomas</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Verbauwhede, Ingrid</displayForm>
+                        <namePart type="family">Verbauwhede</namePart>
+                        <namePart type="given">Ingrid</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Sigl, Georg</displayForm>
+                        <namePart type="family">Sigl</namePart>
+                        <namePart type="given">Georg</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2021-11-19</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">47</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Side-channel attacks can break mathematically secure cryptographic systems leading to a major concern in applied cryptography. While the cryptanalysis and security evaluation of Post-Quantum Cryptography (PQC) have already received an increasing research effort, a cost analysis of efficient side-channel countermeasures is still lacking. In this work, we propose a masked HW/SW codesign of the NIST PQC finalists Kyber and Saber, suitable for their different characteristics. Among others, we present a novel masked ciphertext compression algorithm for non-power-of-two moduli. To accelerate linear performance bottlenecks, we developed a generic Number Theoretic Transform (NTT) multiplier, which, in contrast to previously published accelerators, is also efficient and suitable for schemes not based on NTT. For the critical non-linear operations, masked HW accelerators were developed, allowing a secure execution using RISC-V instruction set extensions. With the proposed design, we achieved a cycle count of K:214k/E:298k/D:313k for Kyber and K:233k/E:312k/D:351k for Saber with NIST Level III parameter sets. For the same parameter sets, the masking overhead for the first-order secure decapsulation operation including randomness generation is a factor of 4.48 for Kyber (D:1403k)and 2.60 for Saber (D:915k).</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.46586/tches.v2022.i1.414-460</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_9303</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_9303">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/9303/8869" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_9303" DMDID="DMD_rub-journals_9303">
+            <mets:fptr FILEID="FILE0_rub-journals_9303"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

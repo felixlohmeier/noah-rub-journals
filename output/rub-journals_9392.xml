@@ -1,0 +1,53 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_9392">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Constructing a contested memory</title>
+                        <subTitle>The Herero and Nama genocide in German and Namibian newspapers from 2004 - 2018</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Haritos, Christina</displayForm>
+                        <namePart type="family">Haritos</namePart>
+                        <namePart type="given">Christina</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2021-12-22</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">28</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">In recent years, the Herero and Nama genocide has become a focal point for a variety of academic, political, and cultural debates about colonialism, both within and between Germany and Namibia. Many scholarly articles view this new prominence as the end of a longstanding ‘colonial amnesia’. The following article explores this assumption from the perspective of communication science. While journalism is often cited as one of the causes for the Herero and Nama genocide’s new visibility, few studies have explicitly examined journalism’s construction of cultural memory about the genocide. This article aims to address this with a qualitative content analysis of 137 articles in four German and Namibian newspapers from 2004 to 2018. Results show that the Herero and Nama genocide is being discussed more frequently in both countries, but that journalistic depictions often draw upon colonial sources and collective symbols that delineate the colonial past as an aberration rather than as an integral part of current national identities.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_9392</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_9392">
+                <mets:FLocat xlink:href="https://namibian-studies.com/index.php/JNS/article/download/9392/8933" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_9392" DMDID="DMD_rub-journals_9392">
+            <mets:fptr FILEID="FILE0_rub-journals_9392"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

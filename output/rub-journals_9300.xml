@@ -1,0 +1,94 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_9300">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Semi-Automatic Locating of Cryptographic Operations in Side-Channel Traces</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Trautmann, Jens</displayForm>
+                        <namePart type="family">Trautmann</namePart>
+                        <namePart type="given">Jens</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Beckers, Arthur</displayForm>
+                        <namePart type="family">Beckers</namePart>
+                        <namePart type="given">Arthur</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Wouters, Lennert</displayForm>
+                        <namePart type="family">Wouters</namePart>
+                        <namePart type="given">Lennert</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Wildermann, Stefan</displayForm>
+                        <namePart type="family">Wildermann</namePart>
+                        <namePart type="given">Stefan</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Verbauwhede, Ingrid</displayForm>
+                        <namePart type="family">Verbauwhede</namePart>
+                        <namePart type="given">Ingrid</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Teich, Jürgen</displayForm>
+                        <namePart type="family">Teich</namePart>
+                        <namePart type="given">Jürgen</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2021-11-19</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">22</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Locating a cryptographic operation in a side-channel trace, i.e. finding out where it is in the time domain, without having a template, can be a tedious task even for unprotected implementations. The sheer amount of data can be overwhelming. In a simple call to OpenSSL for AES-128 ECB encryption of a single data block, only 0.00028% of the trace relate to the actual AES-128 encryption. The rest is overhead. We introduce the (to our best knowledge) first method to locate a cryptographic operation in a side-channel trace in a largely automated fashion. The method exploits meta information about the cryptographic operation and requires an estimate of its implementation’s execution time.The method lends itself to parallelization and our implementation in a tool greatly benefits from GPU acceleration. The tool can be used offline for trace segmentation and for generating a template which can then be used online in real-time waveformmatching based triggering systems for trace acquisition or fault injection. We evaluate it in six scenarios involving hardware and software implementations of different cryptographic operations executed on diverse platforms. Two of these scenarios cover realistic protocol level use-cases and demonstrate the real-world applicability of our tool in scenarios where classical leakage-detection techniques would not work. The results highlight the usefulness of the tool because it reliably and efficiently automates the task and therefore frees up time of the analyst.The method does not work on traces of implementations protected by effective time randomization countermeasures, e.g. random delays and unstable clock frequency, but is not affected by masking, shuffling and similar countermeasures.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.46586/tches.v2022.i1.345-366</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_9300</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_9300">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/9300/8866" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_9300" DMDID="DMD_rub-journals_9300">
+            <mets:fptr FILEID="FILE0_rub-journals_9300"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

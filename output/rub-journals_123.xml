@@ -1,0 +1,53 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_123">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <nonSort>The </nonSort>
+                        <title>Oranjemund shipwreck, Namibia. The excavation of sub-Saharan Africa’s oldest discovered wreck</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Werz, Bruno E.J.S.</displayForm>
+                        <namePart type="family">Werz</namePart>
+                        <namePart type="given">Bruno E.J.S.</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2014-01-31</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">26</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">On 1 April 2008, parts of an historic shipwreck were unearthed during diamond-mining operations near Oranjemund, Namibia. Initial investigations undertaken during that same month indicated that it was, most probably, the remnants of an outward-bound Portuguese ship that foundered during the second quarter of the sixteenth century. The Oranjemund shipwreck is the oldest wreck ever found in sub-Saharan Africa and received world-wide attention in the media. After an initial survey was undertaken and a representative sample of artifacts and ecofacts recovered, the site was reburied. Following this, the Namibian Government stepped in and took control of the project. A Second Phase investigation was undertaken under supervision of the author during September and October 2008, resulting in full-scale excavation of the site. This article describes aspects of archaeological fieldwork.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_123</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_123">
+                <mets:FLocat xlink:href="https://namibian-studies.com/index.php/JNS/article/download/123/8836" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_123" DMDID="DMD_rub-journals_123">
+            <mets:fptr FILEID="FILE0_rub-journals_123"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

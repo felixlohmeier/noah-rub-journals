@@ -1,0 +1,53 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_704">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Wolfgang Niess</title>
+                        <subTitle>Die Revolution von 1918/19 in der deutschen Geschichtsschreibung [Review essay in German]</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Luban, Ottokar</displayForm>
+                        <namePart type="family">Luban</namePart>
+                        <namePart type="given">Ottokar</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2017-07-24</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">9</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Wolfgang Niess: Die Revolution von 1918/19 in der deutschen Geschichtsschreibung. Deutungen von der Weimarer Republik bis ins 21. Jahrhundert [The Revolution of 1918/19 in German Historiography. Interpretations from the Weimar Republic to the 21st Century], Berlin-Boston, de Gruyter, 2013. 627 pp. – ISBN 978-3-11028-647-2.Berlin, Deutschland</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_704</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_704">
+                <mets:FLocat xlink:href="https://incs.ub.rub.de/index.php/INCS/article/download/704/662" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_704" DMDID="DMD_rub-journals_704">
+            <mets:fptr FILEID="FILE0_rub-journals_704"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

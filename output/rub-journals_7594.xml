@@ -1,0 +1,54 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7594">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Deutsche Gewerkschaften und europäische Integration</title>
+                        <subTitle>Forschungsphasen, Desiderate und Perspektiven aus historischer Sicht</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Mittag, Jürgen</displayForm>
+                        <namePart type="family">Mittag</namePart>
+                        <namePart type="given">Jürgen</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015-02-16</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">20</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">The article delineates the evolution of academic literature and research on the linkages between German trade unions and European integration. First studies have been published by social scientists in the 1950s revealing the potential of national trade unions in the course of European integration. Whereas a limited number of studies has been issued in the 1960s, research in the 1970s and 80s for the most part has covered trade union activities at the European level. From the 1990s up to the present research has predominantly focussed on the Europeanisation of trade unions comparing different strategies and attitudes of national unions towards European integration. Reflecting on the status quo the contribution concludes that German trade unions’ linkages towards European integration have attracted growing academic interest but were hardly examined so far as a subject of historical research. Exploring the further articles of this issue the author underlines the necessity to analyse indepth to what extent national trade unions have reacted to the process of European integration.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/mts.42.2009.5-24</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7594</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7594">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/7594/6766" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7594" DMDID="DMD_rub-journals_7594">
+            <mets:fptr FILEID="FILE0_rub-journals_7594"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

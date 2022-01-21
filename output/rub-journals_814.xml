@@ -1,0 +1,52 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_814">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>German urbanonyms in German South West Africa</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Aleff, Maria</displayForm>
+                        <namePart type="family">Aleff</namePart>
+                        <namePart type="given">Maria</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2017-12-31</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">18</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">The article presents a section of a large-scale research project that involves the systematic collection and extensive analysis of colonial-era and colonial-era-related urbanonyms across a number of areas. To date there has been no source-related survey of the naming landscape in the former German colonies and protectorates from a colonial and spatial linguistics and onomastic perspective or any linguistic analysis of the allocation of names within linguistic fixing practices. This essay uses the example of the former colony of German South West Africa to demonstrate such an analysis of German-language street and square names from 1884 to 1919, focusing on systematic collection and analysis (naming theme, functions, positions in space). The aim of this was to comprehensively analyse an aspect of linguistic action among the German colonial actors during the de facto colonial era.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_814</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_814">
+                <mets:FLocat xlink:href="https://namibian-studies.com/index.php/JNS/article/download/814/767" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_814" DMDID="DMD_rub-journals_814">
+            <mets:fptr FILEID="FILE0_rub-journals_814"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

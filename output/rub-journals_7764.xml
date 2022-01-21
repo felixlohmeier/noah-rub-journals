@@ -1,0 +1,54 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7764">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <nonSort>A </nonSort>
+                        <title>scheene Leich? Stand und Perspektiven der westdeutschen Arbeitergeschichte nach 1945</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Süß, Dietmar</displayForm>
+                        <namePart type="family">Süß</namePart>
+                        <namePart type="given">Dietmar</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015-01-10</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">26</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">In his article Dietmar Süß analyses the perspectives of Western German workers’ historiography which has lost much oft its impact within the last two decades. After the breakdown of the GDR research has focused primarily on the “Arbeiter- und Bauernstaat”. Süß points out that the Post Word War II period has not fully taken its place within contemporary history yet. He suggests further thinking about the term “worker”, the changing role of workers’ culture, workers’ milieu and the workers’ movement in Western Germany after the Nazi regime. To illustrate perspectives, Süß presents new directions of risk management between workers, trade unions and employers. In a case study, he deals with the consumption of beer at the work place in the steel production of Upper Palatinate in the 1960s. As new focal points of research, Süß proposes the intertwining of the workers’ movement and new social movements as well as research on unemployment and the changing relationship between workers and clerks. His conclusions imply the importance to combine approaches of workers’ history, general social history and political history.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/mts.34.2005.51-76</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7764</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7764">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/7764/6936" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7764" DMDID="DMD_rub-journals_7764">
+            <mets:fptr FILEID="FILE0_rub-journals_7764"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

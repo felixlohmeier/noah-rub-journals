@@ -1,0 +1,59 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8947">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Predictive processing as a systematic basis for identifying the neural correlates of consciousness</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Hohwy, Jakob</displayForm>
+                        <namePart type="family">Hohwy</namePart>
+                        <namePart type="given">Jakob</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Seth, Anil</displayForm>
+                        <namePart type="family">Seth</namePart>
+                        <namePart type="given">Anil</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020-12-30</dateIssued>
+                    </originInfo>
+                    <abstract lang="eng">The search for the neural correlates of consciousness is in need of a systematic, principled foundation that can endow putative neural correlates with greater predictive and explanatory value. Here, we propose the predictive processing framework for brain function as a promising candidate for providing this systematic foundation. The proposal is motivated by that framework’s ability to address three general challenges to identifying the neural correlates of consciousness, and to satisfy two constraints common to many theories of consciousness. Implementing the search for neural correlates of consciousness through the lens of predictive processing delivers strong potential for predictive and explanatory value through detailed, systematic mappings between neural substrates and phenomenological structure. We conclude that the predictive processing framework, precisely because it at the outset is not itself a theory of consciousness, has significant potential for advancing the neuroscience of consciousness.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.33735/phimisci.2020.II.64</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8947</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8947">
+                <mets:FLocat xlink:href="https://philosophymindscience.org/index.php/phimisci/article/download/8947/8521" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8947" DMDID="DMD_rub-journals_8947">
+            <mets:fptr FILEID="FILE0_rub-journals_8947"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

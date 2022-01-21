@@ -1,0 +1,54 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_630">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Temporalities of Assembling Transport Systems</title>
+                        <subTitle>Presences and Absences in an Intermittent Process (revised version)</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Jacobsen, Malve</displayForm>
+                        <namePart type="family">Jacobsen</namePart>
+                        <namePart type="given">Malve</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2017-05-24</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">13</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Present absences and absent presences, both in material and discursive shapes, provide insights into the social and political dimensions of infrastructures and their processes of planning, implementing and stabilising. Taking the case of a transport system in Dar es Salaam (DART) whose planning and implementation process is highly intermittent, this article illustrates how the bus system exists in a constant (re‑)making by its (non‑)human actors. Due to translations of ideals, social interactions, and negotiations of power and by the presences and absences of material components and appearances, behaviours and discourses DART’s objects temporarily have different shapes. The text concludes with the idea that the various forms of presence and absence – expressed in different scripts – shape the technological system and intermittent process.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/eoo.1.2017.52-64</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_630</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_630">
+                <mets:FLocat xlink:href="https://ojs.ub.rub.de/index.php/EOO/article/download/630/598" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_630" DMDID="DMD_rub-journals_630">
+            <mets:fptr FILEID="FILE0_rub-journals_630"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

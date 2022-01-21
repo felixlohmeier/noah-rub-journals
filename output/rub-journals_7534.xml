@@ -1,0 +1,53 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7534">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Mass Dictatorship – A Transnational Formation of Modernity</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Lim, Jie-Hyun</displayForm>
+                        <namePart type="family">Lim</namePart>
+                        <namePart type="given">Jie-Hyun</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015-01-29</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">19</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Global history suggests that mass dictatorship is far from a result of deviation or aberration from a purported “normal path” of development, but is in itself a transnational formation of modernity that emerged in response to the global processes that swept throug the twentieth century. Global perspectives on the transnational formation of modernity help us to understand why Fascist Italy’s remarkable advance “from a proletarian nation to a bourgeois nation” had appealed to many a colonial Marxist from Asia. The Marxian view twisted from class struggle to national struggle in Fascist ideology was not alien to some colonial Marxists and later dependency theorists who regarded socialism as the means to realise rapid modernisation and national liberation. If the mass dictatorships on European soil have been shaped by the latecomers’ imperial projects, non-European mass dictatorships have been driven by the desire for great power status, the regret of not being colonisers, and the fear of being colonised. These mass dictatorship regimes proclaimed that their historical task was to follow and catch up with the “Western” colonial powers at all costs. That explains why the “follow and catch up” strategy was adopted not only by socialist regimes in “Eastern” Europe but also by post-colonial developmental dictatorships in the “Rest”.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/mts.47.2012.63-81</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7534</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7534">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/7534/6706" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7534" DMDID="DMD_rub-journals_7534">
+            <mets:fptr FILEID="FILE0_rub-journals_7534"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

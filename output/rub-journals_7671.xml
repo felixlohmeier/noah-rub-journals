@@ -1,0 +1,53 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7671">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Gewerkschaft, Wissenschaft, Mitbestimmung. Von der Forschungsstelle für Wirtschaftspolitik des ADGB bis zum WSI in der Hans Böckler-Stiftung – Stationen und Funktionen eines gewerkschaftlichen Think tanks</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Tenfelde, Klaus</displayForm>
+                        <namePart type="family">Tenfelde</namePart>
+                        <namePart type="given">Klaus</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015-01-21</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">15</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Since the 1990’s, the role of knowledge and science as incentives of modernization during the 20th century has increasingly become investigated by historians. Seemingly trade unions, and the labour movement as a whole, have not been among the forerunners of such developments. Contrary to this perception, this article analyses efforts of the German trade union movement to scientifically penetrate the mechanisms of market capitalism long before the foundation of the well known “Wirtschafts- und Sozialwissenschaftliches Institut” (WSI) on the initiative of Hans Böckler as early as April 1946. It becomes apparent that, on the grounds of a deeply rooted trade union interest in social statistics and legal conditions of work, a network of young economists and social scientists has evolved since the 1920’s that, partially related to some rather open-minded academic institutes, actively reconstructed such efforts on Böckler’s incentive. Thus, the influential WSI rests in a mainstream of “scientification” of politics troughout the 20th century.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/mts.38.2007.45-59</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7671</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7671">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/7671/6843" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7671" DMDID="DMD_rub-journals_7671">
+            <mets:fptr FILEID="FILE0_rub-journals_7671"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

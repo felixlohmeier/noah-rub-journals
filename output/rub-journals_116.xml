@@ -1,0 +1,52 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_116">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Memory politics in &quot;Where Others Wavered. The Autobiography of Sam Nujoma. My Life in SWAPO and my participation in the liberation struggle of Namibia&quot;</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Pisani, André du</displayForm>
+                        <namePart type="family">Pisani</namePart>
+                        <namePart type="given">André du</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2014-01-31</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">11</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">The standard assumption is that memory is a source of knowledge about the past. For proponents of this view, the causal links between personal experience and present memories form a bridge to the past. The promise of this view seems great, for there are few other comparable roads to the past. Unfortunately, to regard memory as a source of knowledge is risky. Memories occur in the present, just like archival and other historical documents, and genuine memory is often indistinguishable from mistaken ones or from mere imaginings. There is no contradiction in regarding a given mental experience as a memory, yet there being no reliable connection between it and a past event. In the nature of the case it is impossible to verify a memory fully, because it is impossible to set the memory side by side with the event that putatively caused it, thus testing its accuracy. Memories can change, adding or losing details, distorting events. A critical reading of Where Others Wavered The Autobiography of Sam Nujoma My Life in SWAPO and my participation in the liberation struggle of Namibia, shows that although memory is an unreliable source of knowledge about the past, its role in self-identity is unquestionable. What makes a person the same person through life is the accumulated memories he/she carries with him/her. When these are lost, he/she ceases to be that person and becomes someone else.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_116</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_116">
+                <mets:FLocat xlink:href="https://namibian-studies.com/index.php/JNS/article/download/116/83" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_116" DMDID="DMD_rub-journals_116">
+            <mets:fptr FILEID="FILE0_rub-journals_116"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

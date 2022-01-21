@@ -1,0 +1,52 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_348">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Протестные движения в Средней Азии и Казахстане 1920-1930-х годов в оценках западной, советской и национальных (Россия, Казахстан, Узбекистан) историографий. Традиции и новации</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Allanijazov, Turganbek</displayForm>
+                        <namePart type="family">Allanijazov</namePart>
+                        <namePart type="given">Turganbek</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2010-07-20</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">8</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Protestbewegungen in Zentralasien und Kasachstan in den 1920er-1930erJahren. Die Bewertung in westlichen, sowjetischen und nationalenHistoriographien: Traditionen und InnovationenAbstract: In den 1920er und 1930er Jahren kam es in den Sowjetrepubliken Zentralasiens und Kasachstans im Zuge der gewaltsamen Modernisierungspolitik der Bolschewiki zu bewaffneten Protesten, die von weiten Teilen der Bevölkerung getragen wurden. Der Aufsatz beschäftigt sich mit dem Problem, wie diese Protestbewegungen von Historikern bewertet und interpretiert wurden und werden. Dabei setzt sich der Text sowohl mit westeuropäischen, türkischen und amerikanischen Autoren, als auch mit sowjetischen Interpretationen auseinander und befasst sich auch mit den Auffassungen von Historikern aus den nunmehr unabhängigen Staaten Zentralasiens. In der sowjetischen Historiographie wurde der Widerstand als „eine der Formen des Klassenkampfes entmachteter örtlichen Ausbeuter“ charakterisiert. Kasachische Historiker, die sich vor 1991 äußerten, interpretierten die Konflikte ebenfalls in den Begrifflichkeiten von Klassenauseinandersetzungen und verwandten Formulierungen wie „antisowjetisch“, oder „konterrevolutionär“. Richard Pipes hat dem entgegengehalten, es habe sich dabei um den „Widerstand lokaler Nationalitäten gegen die gewaltsame Sowjetisierung“ gehandelt, sein Kollege Alexander Park schrieb von „bäuerlichen“ Bewegungen, die von muslimischen Eliten angeführt worden seien. Martha Brill Olcott erkannte hier einen „Kampf aller Muslime gegen den Bolschewismus“. Ähnlich äußerte sich auch Héléne Carrère d`Encausse, die von einer nationalen Bewegung mit religiösen Wurzeln sprach. Nach 1991 setzte in den unabhängigen Republiken Zentralasiens eine Neubewertung des Widerstands der bäuerlichen und nomadischen Bevölkerung gegen die Modernisierungsbestrebungen der Bolschewiki ein. Dieser Prozess ist eng mit politischen Neuordnungsprozessen verbunden, die auch das Verhältnis der jeweiligen Republiken zur sowjetischen Vergangenheit berührte. In Kasachstan sprachen T. Omarbekov und andere deshalb von einer „nationalen Befreiungsbewegung“, die sich in den Jahren von 1929-1931 erhoben habe. Ähnliche Tendenzen lassen sich auch in Usbekistan erkennen, wo gleichfalls von nationalen Befreiungsbewegungen die Rede ist. Der Autor misst diesen Interpretationen keinen Erkenntnisgewinn zu, da sie lediglich eine Übernahme westlicher Konzeptionen durch zentralasiatische Historiker darstellten, die wiederum in ihrer Sichtweise massiv durch den Kalten Krieg beeinflusst gewesen seien. Allein die Gründe, die für die Charakterisierung des bäuerlichen Widerstands als „nationale Befreiungsbewegung“ maßgeblich seien, seien in der Gegenwart zu suchen: Es handele sich sowohl um nationalistische Tendenzen als auch um „politische Konjunkturen“. Kasachische Historiker seien um den Nachweis bemüht, dass der nomadische Widerstand der frühen 1930er Jahre Teil eines länger andauernden Kampfes der Kasachen um ihre staatliche Unabhängigkeit sei. Dieser Prozess umfasse im 20. Jahrhundert auch den Aufstand der Nomaden von 1916 und die Demonstrationen in Alma-Ata vom Dezember 1986. Indem die Existenz einer solchen Traditionslinie postuliert werde, lasse sich die offizielle These vom andauernden Kampf um die Unabhängigkeit stützen. Zugleich aber erkläre man beide Ereignisse dadurch für sakrosankt und enthebe sie damit der Kritik.Жезказганский университет имени О.А.Байконурова (Казахстан) / Universität „O. A. Bajkonurov“, Žezkazgan (Kasachstan)</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_348</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_348">
+                <mets:FLocat xlink:href="https://incs.ub.rub.de/index.php/INCS/article/download/348/306" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_348" DMDID="DMD_rub-journals_348">
+            <mets:fptr FILEID="FILE0_rub-journals_348"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

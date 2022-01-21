@@ -1,0 +1,61 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_365">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <nonSort>The </nonSort>
+                        <title>International Bibliography of Journal Articles on Communist Studies. Issue 2009</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Albert, Gleb J.</displayForm>
+                        <namePart type="family">Albert</namePart>
+                        <namePart type="given">Gleb J.</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Bayerlein, Bernhard H.</displayForm>
+                        <namePart type="family">Bayerlein</namePart>
+                        <namePart type="given">Bernhard H.</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2010-07-20</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">54</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">The International Bibliography of Journal Articles on Communist Studies. Issue 2009.Internationale Artikelbibliographie der historischen Kommunismusforschung.Bibliographie internationale d&apos;articles concernant la recherches sur le communisme.Compiled by Gleb J. Albert and Bernhard H. Bayerlein(With contributions from Kostis Karpozilos and others)This bibliography is an attempt to bundle articles on the history of Communism and related topics published during the year 2009 in scientific journals and serials worldwide. The items are sorted by journal titles and issues. In case a journal published less than two articles on the relevant topics during 2009, these articles are listed under &quot;Other journals&quot;. We have tried to make the citations as complete as possible, yet in some cases it was not possible to retrieve the page numbers.708 journal contributions on the history of Communism and related topics have been investigated and retrieved for the year 2009, yet we are aware that some publications still might be missing. Please send in further information about journal articles published during 2010, as well as 2009 articles which are missing here. We continue to look for correspondents on the different countries and world regions.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_365</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_365">
+                <mets:FLocat xlink:href="https://incs.ub.rub.de/index.php/INCS/article/download/365/323" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_365" DMDID="DMD_rub-journals_365">
+            <mets:fptr FILEID="FILE0_rub-journals_365"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

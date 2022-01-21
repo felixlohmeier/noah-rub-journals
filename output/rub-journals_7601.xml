@@ -1,0 +1,54 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7601">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Gewerkschaften als Motoren der europäischen Integration</title>
+                        <subTitle>Der DGB und das soziale Europa von den Römischen Verträgen bis zu den Pariser Gipfelkonferenzen (1957 –1974)</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Remeke, Stefan</displayForm>
+                        <namePart type="family">Remeke</namePart>
+                        <namePart type="given">Stefan</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015-02-16</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">24</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">In particular in the research of Niethammer or Ruhwedel in the 1970s it was stated that the trade unions in Europe participated in the proceeding European integration in a defensive way. The so-called “defensive integration” in terms of the 1950s to 1970s was therefore characterized by a lack of leading trade unions’ initiative and their insufficient engagement in the European unification. This article reconsiders a counter-position by analysing the results offered by recent research works. The development from the 1950s and the treaty of Rome to the 1970s and the increase in social questions is regarded with special notion on the foundation of the “European Trade Union Confederation” (ETUC/EGB) and the efforts of the “Confederation of German Trade Unions” (DGB). The evaluation of previously unconsidered sources and documents leads to the conclusion that at least the Confederation of German Trade Unions and their elite have to be perceived as a moving power on the road to a united Europe.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/mts.42.2009.141-164</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7601</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7601">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/7601/6773" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7601" DMDID="DMD_rub-journals_7601">
+            <mets:fptr FILEID="FILE0_rub-journals_7601"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

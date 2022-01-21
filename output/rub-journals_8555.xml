@@ -1,0 +1,61 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8555">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <nonSort>The </nonSort>
+                        <title>Materiality of Sound, Mediation, and Practices of Listening</title>
+                        <subTitle>Observations from Historic and Contemporary Muslim Practices</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Weinrich, Ines</displayForm>
+                        <namePart type="family">Weinrich</namePart>
+                        <namePart type="given">Ines</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020-03-17</dateIssued>
+                    </originInfo>
+                    <abstract lang="eng">In his book on the etiquette of listening, the eleventh-century scholar Abū Ḥāmid al-Ghazālī develops a scenario which includes the context, the performer, and the listener who all contribute to turn listening into a transformative experience by which the soul of the listener is moved, his or her inner qualities are revealed, and his or her transactions with the Divine are set in motion. This paper explores in what way these elaborations are relevant for contemporary performers of religious chanting in Arab Sunni communities in the Eastern Levant. It understands chanting in Muslim religious practice as “sensational forms” (Birgit Meyer) that serve religious mediation. These sensational forms are both authorised and contested, and al-Ghazālī’s ideas constitute an eminent reference for many practitioners. The paper captures al-Ghazālī’s elaborations in two aspects: first, his conditioned licence of listening to music and singing as a way to engage with the Divine and earn religious merits. Second, an understanding of music’s materiality that is not necessarily bound to sonic properties but becomes evident in the effect music has on listeners. Taking the concept of sorrow (ḥuzn) as an example, I show how al-Ghazālī’s understanding of mediating sorrow, rooted in the appropriation of ancient Greek music philosophy, has given way to a broader understanding of how to convey and evoke sorrow among contemporary performers.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/er.11.2020.8555</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8555</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8555">
+                <mets:FLocat xlink:href="https://er.ceres.rub.de/index.php/ER/article/download/8555/8120" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="text/html" ID="FILE1_rub-journals_8555">
+                <mets:FLocat xlink:href="https://er.ceres.rub.de/index.php/ER/article/download/8555/8121" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8555" DMDID="DMD_rub-journals_8555">
+            <mets:fptr FILEID="FILE0_rub-journals_8555"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_8555" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_8555"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

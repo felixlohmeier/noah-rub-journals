@@ -1,0 +1,53 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_73">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <nonSort>The </nonSort>
+                        <title>coexistence of traditional and large-scale water supply systems in central northern Namibia</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Zimmermann, Martin</displayForm>
+                        <namePart type="family">Zimmermann</namePart>
+                        <namePart type="given">Martin</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2014-01-31</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">30</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Looking at recent research projects in the field of water resources management, it often seems that historical, social and cultural issues are not taken into account fully. In this paper, a methodology and its application are presented which address and overcome these shortcomings. Interviews with relevant regional stakeholders provide a deeper insight into the interrelations in the system. The area of investigation is the so-called Cuvelai-Etosha-Basin which is located in central northern Namibia. It is estimated that 1 million people live in this area, which is approximately half of the Namibian population. There are no perennial rivers within the region and groundwaters are saline. To supply the population with potable water, a large technical system has been established which is fed by the Namibian-Angolan border river Kunene. However, at the same time, traditional water supply techniques such as Oshanas and excavation dams (Ometale), shallow dug wells (Omuthima), dug wells (Oshikweyo), and rainwater harvesting play a considerable role. Preliminary results of the PhD project are presented in this article in the form of perceptions and opinions of the interviewees.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_73</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_73">
+                <mets:FLocat xlink:href="https://namibian-studies.com/index.php/JNS/article/download/73/47" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_73" DMDID="DMD_rub-journals_73">
+            <mets:fptr FILEID="FILE0_rub-journals_73"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

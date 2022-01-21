@@ -1,0 +1,55 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7928">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <nonSort>Das </nonSort>
+                        <title>Unternehmen als politisches Projekt</title>
+                        <subTitle>Die NEUE HEIMAT 1950–1982</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Kramper, Peter</displayForm>
+                        <namePart type="family">Kramper</namePart>
+                        <namePart type="given">Peter</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2014-05-02</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">14</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">The NEUE HEIMAT (NH) was a group of trade-union owned housing companies. It has achieved notoriety due to its spectacular collapse during the 1980s, when a corrupt management and imminent bankruptcy provoked a popular outcry from which Germany’s trade unions have never really recovered since. Furthermore, the scandal surrounding the NH has made a major contribution to the notion that firms are generally not suitable for the implementation of political strategies. The paper tries to examine this hypothesis. It identifies four major phases in the history of the NH and argues that the company was an adequate instrument for tackling the housing deficit, one of the major social challenges of the 1950s and 1960s. However, the problem that the company tried to solve simply disappeared during the 1970s. Instead of adapting to a changing environment, it adhered to its outdated political agenda and organisational structure; hence it crashed. These findings do not, however, contradict the claim that firms can be suitable instruments for pursuing political aims. The success of the group during the earlier phases, which were marked by imperfect competition and a Fordist regime of production, shows that under these circumstances it is very well possible to implement political strategies by the means of business corporations.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/mts.44.2010.89-102</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7928</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7928">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/7928/7100" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7928" DMDID="DMD_rub-journals_7928">
+            <mets:fptr FILEID="FILE0_rub-journals_7928"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

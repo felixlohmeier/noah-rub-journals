@@ -1,0 +1,53 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_467">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Andreas Peglau</title>
+                        <subTitle>Unpolitische Wissenschaft? Wilhelm Reich und die Psychoanalyse im Nationalsozialismus. Mit einem Vorwort von Helmut Dahmer und einem ausführlichen Dokumentenanhang [review in English]</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Banaji, Jairus</displayForm>
+                        <namePart type="family">Banaji</namePart>
+                        <namePart type="given">Jairus</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2016-06-01</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">4</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Andreas Peglau: Unpolitische Wissenschaft? Wilhelm Reich und die Psychoanalyse im Nationalsozialismus [Unpolitical Science? Wilhelm Reich and Psychoanalysis in Nazi Germany]. Mit einem Vorwort von Helmut Dahmer und einem ausführlichen Dokumentenanhang, Gießen, Psychosozial-Verlag, 2013. 635 pp. – ISBN 9783837924473.School of Oriental and African Studies, University of LondonUK</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_467</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_467">
+                <mets:FLocat xlink:href="https://incs.ub.rub.de/index.php/INCS/article/download/467/419" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_467" DMDID="DMD_rub-journals_467">
+            <mets:fptr FILEID="FILE0_rub-journals_467"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

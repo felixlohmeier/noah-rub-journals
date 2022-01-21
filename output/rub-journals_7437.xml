@@ -1,0 +1,53 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7437">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Saving the Remnant or Building Socialism? Transnational Humanitarian Relief in Early Soviet Armenia</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Laycock, Jo</displayForm>
+                        <namePart type="family">Laycock</namePart>
+                        <namePart type="given">Jo</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2017-05-31</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">20</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Drawing on research in the National Archive of Armenia, the League of Nations Archive and the Archives of the Save the Children Fund, this article examines the work of international relief organisations in Soviet Armenia during the 1920s, focusing on the work of the British Lord Mayor’s Fund for Armenian Refugees. This organisation provided shelter, food, education, healthcare and work for refugees in Soviet Armenia until the end of 1926. The article first considers the origins of the Lord Mayor’s Fund’s work in the region and goes on to examine the dynamics of the encounter between British relief agents and the Soviet authorities, considering to what extent they were able to reconcile their priorities and visions of the Armenian future and establish a practical working relationship. Examining this ostensibly unlikely encounter offers a fresh perspective on inter-war humanitarian relief, illuminating the new modes of envisioning “national” futures and discourses and practices of managing displacement which emerged both in the Soviet Union and the “west”. More broadly, this article contributes to the development of more nuanced understandings of the place of the Soviet Union in emerging transnational histories of humanitarianism.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/mts.57.2017.77-96</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7437</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7437">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/7437/6609" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7437" DMDID="DMD_rub-journals_7437">
+            <mets:fptr FILEID="FILE0_rub-journals_7437"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

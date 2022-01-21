@@ -1,0 +1,60 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8847">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <nonSort>The </nonSort>
+                        <title>Archaeology of Cult of Ancient Israel’s Southern Neighbors and the Midianite-Kenite Hypothesis</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Tebes, Juan Manuel</displayForm>
+                        <namePart type="family">Tebes</namePart>
+                        <namePart type="given">Juan Manuel</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2021-03-30</dateIssued>
+                    </originInfo>
+                    <abstract lang="eng">The Midianite-Kenite hypothesis, the idea that the pre-Israelite roots of Yahwism can be traced back to the areas south and southeast of Palestine, has a long pedigree in biblical scholarship. Analyses supporting this view generally agree in three main points. First, they assume that the influence of the southern cultic practices on Yahwism occurred during a restricted period of time, traditionally dated to the Early Iron Age. Second, they see the origins of Yahwism through the lenses of diffusionist perspectives, characterizing this process as a movement or migration of one or a few determined groups to Canaan. And third, adequate analyses of the archaeological evidence of the arid areas to the south of Palestine are few. In this article I will turn the interpretation of the epigraphic and archaeological evidence upside down. Instead of looking to the (mostly biblical) evidence on the origins of the cult of Yahweh and assuming its genesis lies in movements of people from the southern regions to Canaan in the Early Iron Age, I will focus attention on the history of the cultic practices in the Negev, southern Transjordan, and northern Hejaz during the entire Iron Age, and how this information is related to the religious practices known in Judah and Israel during the biblical period, shedding new light on the prehistory of the cult of Yahweh. I will evaluate the evidence not as a single, exceptional event, but as a long-term process within the several-millennia history of cultic practices and beliefs of the local peoples.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.46586/er.12.2021.8847</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8847</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8847">
+                <mets:FLocat xlink:href="https://er.ceres.rub.de/index.php/ER/article/download/8847/8453" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="text/html" ID="FILE1_rub-journals_8847">
+                <mets:FLocat xlink:href="https://er.ceres.rub.de/index.php/ER/article/download/8847/8454" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8847" DMDID="DMD_rub-journals_8847">
+            <mets:fptr FILEID="FILE0_rub-journals_8847"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_8847" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_8847"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

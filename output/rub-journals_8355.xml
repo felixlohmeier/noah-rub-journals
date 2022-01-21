@@ -1,0 +1,60 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8355">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Religious Identities and the Struggle for Secularism</title>
+                        <subTitle>The Revival of Buddhism and Religions of Marginalized Groups in Nepal</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Torri, Davide</displayForm>
+                        <namePart type="family">Torri</namePart>
+                        <namePart type="given">Davide</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2019-09-24</dateIssued>
+                    </originInfo>
+                    <abstract lang="eng">One of the most relevant aspects of contemporary political life in Nepal is the rise of ethnic minorities. From the early 1990s, the movement for democracy started campaigning against Hindu Monarchic autocracy for the lifting of the ban on political parties, the recognition of multiculturalism and freedom of religion. Many things have changed since then: a Maoist-led insurgency and a new people&apos;s movement have managed to topple the monarchy and to transform the Himalayan country into a republic. As a reaction to the state-enforced Hinduization of the people, supporting the caste system and maintaining the power in the hands of high caste Hindus, many groups are now campaigning to revive their local cultures and traditions. Religion is one of the key areas of confrontation, and the struggle for secularism has created space for the revival of the religious traditions of marginalized groups.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/er.8.2019.8355</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8355</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8355">
+                <mets:FLocat xlink:href="https://er.ceres.rub.de/index.php/ER/article/download/8355/7714" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="text/html" ID="FILE1_rub-journals_8355">
+                <mets:FLocat xlink:href="https://er.ceres.rub.de/index.php/ER/article/download/8355/7715" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8355" DMDID="DMD_rub-journals_8355">
+            <mets:fptr FILEID="FILE0_rub-journals_8355"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_8355" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_8355"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

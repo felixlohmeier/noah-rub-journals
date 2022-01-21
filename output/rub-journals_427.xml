@@ -1,0 +1,53 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_427">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Arts development and promotion in Namibia</title>
+                        <subTitle>The role of the government since independence</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Hofmeyr, Retha-Louise</displayForm>
+                        <namePart type="family">Hofmeyr</namePart>
+                        <namePart type="given">Retha-Louise</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015-12-16</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">11</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">The final item of the official programme of Namibia’s 25th independence anniversary was a choreographed tableau showcasing ‘unity in diversity’. Hundreds of professional and amateur artists participated in a mass display of traditional and contemporary music and dance styles, accompanied by a procession of giant animated animals, birds and replicas of toy wire-cars made by the students of the College of the Arts (COTA). It illustrated the competencies that have been acquired in the arts industry over two and a half decades of arts development. It was also a celebration of the freedom of expression which Namibians have enjoyed alongside peace and stability for a quarter of a century. This was made possible through ongoing support by the Government of Namibia through the line ministries for Arts and Culture, i.e. the Ministry of Education and Culture (1990–1995), the Ministry of Basic Education, Sport and Culture (1995–2005) and the Ministry of Youth, National Service, Sport and Culture (2005–2015). This article gives an overview of the role of the Govern¬ment of Namibia in the development and promotion of arts over the last 25 years, and outlines how the arts contribute to sustained socio-economic development in Namibia.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_427</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_427">
+                <mets:FLocat xlink:href="https://namibian-studies.com/index.php/JNS/article/download/427/383" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_427" DMDID="DMD_rub-journals_427">
+            <mets:fptr FILEID="FILE0_rub-journals_427"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

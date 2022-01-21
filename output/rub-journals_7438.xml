@@ -1,0 +1,54 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7438">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>“Every Bite Buys a Bullet”</title>
+                        <subTitle>Sanctions, Boycotts and Solidarity in Transnational Anti-Apartheid Activism</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Skinner, Rob</displayForm>
+                        <namePart type="family">Skinner</namePart>
+                        <namePart type="given">Rob</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2017-05-31</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">18</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">This article examines the genesis and development of transnational anti-apartheid activism between the 1960s and the 1980s. Underpinning anti-apartheid was the fundamental principle of “solidarity”, an emotional and ideological connection between the self and a distant oppressed other. It was this concept that served to mediate the transnational dimension of anti-apartheid as a form of humanitarianism. Calls for sanctions against South Africa represented the movement’s most explicit engagement with political systems and structures, and thus the shifting power of humanitarian values in political discourse. Participation in boycotts represented a kind of activism from the ground up, in which individual economic decisions — the refusal to “buy apartheid” — became humanitarian acts. The notion of solidarity marked, moreover, a significant break with the paternalism of ”imperial” humanitarian efforts, while calls for sanctions and disinvestment promoted a global norm of racial equality and a wider sense of humanitarian justice in international relations and global business ethics. Anti-apartheid connected a humanitarian ethos to individual and community action, and the consumer boycott became a primary form in which consciousness-raising and identity-forming functions of “new” social movements were enacted.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/mts.57.2017.97-114</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7438</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7438">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/7438/6610" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7438" DMDID="DMD_rub-journals_7438">
+            <mets:fptr FILEID="FILE0_rub-journals_7438"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,70 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8838">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Improved Preimage Attacks on 4-Round Keccak-224/256</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>He, Le</displayForm>
+                        <namePart type="family">He</namePart>
+                        <namePart type="given">Le</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Lin, Xiaoen</displayForm>
+                        <namePart type="family">Lin</namePart>
+                        <namePart type="given">Xiaoen</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Yu, Hongbo</displayForm>
+                        <namePart type="family">Yu</namePart>
+                        <namePart type="given">Hongbo</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2021-03-19</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">22</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">This paper provides an improved preimage attack method on standard 4-round Keccak-224/256. The method is based on the work pioneered by Li and Sun, who design a linear structure of 2-round Keccak-224/256 with 194 degrees of freedom left. By partially linearizing 17 output bits through the last 2 rounds, they finally reach a complexity of 2207/2239 for searching a 4-round preimage. Yet under their strategy, those 17 bits are regarded as independent bits and the linearization costs a great amount of freedom. Inspired by their thoughts, we improve the partial linearization method where multiple output bits can reuse some common degrees of freedom. As a result, the complexity of preimage attack on 4-round Keccak-224/256 can be decreased to 2192/2218, which are both the best known theoretical preimage cryptanalysis so far. To support the theoretical analysis, we apply our strategy to a 64-bit partial preimage attack within practical complexity. It is remarkable that this partial linearization method can be directly applied if a better linear structure with more freedom left is proposed.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.46586/tosc.v2021.i1.217-238</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8838</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8838">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/8838/8441" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8838" DMDID="DMD_rub-journals_8838">
+            <mets:fptr FILEID="FILE0_rub-journals_8838"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,54 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7756">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Gerd Muhr und Maria Weber</title>
+                        <subTitle>Eine sozialpolitische Elite des DGB in den frühen Jahren der sozialliberalen Koalition (1969–1974)</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Remeke, Stefan</displayForm>
+                        <namePart type="family">Remeke</namePart>
+                        <namePart type="given">Stefan</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015-01-22</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">17</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">In this article Stefan Remeke analyses the sociopolitical elite of the ‘Federation of German Trade Unions’ (Deutscher Gewerkschaftsbund/DGB) in the time of reforms of the socioliberal coalition, considering Gerd Muhr and Maria Weber as examples. From 1969 to 1990 Muhr was deputy chairman of the DGB as well as Weber. She, as head of the christian-social movement in the DGB was member of the board from 1972 to 1982. Both decided about crucial key positions in the social policy of the German trade unions over a long period of time. Borsdorf ’s category of the “Gewerkschaftsmanager” will be applied on Muhr (SPD, member in the sociopolitical commission of the SPD) and Weber (CDU/CDA, chairperson of the CDA). The two acted as intermediaries between trade unions and parties (“Manager der politischen Beeinflussung”) and between the DGB and its particular members (“Manager der einheitsgewerkschaftlichen Partikularinteressen”). This interrelation will be presented in a comparative, biographical way.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/mts.35.2006.207-223</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7756</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7756">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/7756/6928" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7756" DMDID="DMD_rub-journals_7756">
+            <mets:fptr FILEID="FILE0_rub-journals_7756"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

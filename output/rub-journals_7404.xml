@@ -1,0 +1,87 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7404">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>General Diffusion Analysis</title>
+                        <subTitle>How to Find Optimal Permutations for Generalized Type-II Feistel Schemes</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Cauchois, Victor</displayForm>
+                        <namePart type="family">Cauchois</namePart>
+                        <namePart type="given">Victor</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Gomez, Clément</displayForm>
+                        <namePart type="family">Gomez</namePart>
+                        <namePart type="given">Clément</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Thomas, Gaël</displayForm>
+                        <namePart type="family">Thomas</namePart>
+                        <namePart type="given">Gaël</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2019-03-08</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">38</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Type-II Generalized Feistel Schemes are one of the most popular versions of Generalized Feistel Schemes. Their round function consists in applying a classical Feistel transformation to p sub-blocks of two consecutive words and then shifting the k = 2p words cyclically. The low implementation costs it offers are balanced by a low diffusion, limiting its efficiency. Diffusion of such structures may however be improved by replacing the cyclic shift with a different permutation without any additional implementation cost. In this paper, we study ways to determine permutations with the fastest diffusion called optimal permutations.To do so, two ideas are used. First, we study the natural equivalence classes of permutations that preserve cryptographic properties; second, we use the representation of permutations as coloured trees.For both heuristic and historical reasons, we focus first on even-odd permutations, that is, those permutations for which images of even numbers are odd. We derive from their structure an upper bound on the number of their equivalence classes together with a strategy to perform exhaustive searches on classes. We performed those exhaustive searches for sizes k ≤ 24, while previous exhaustive searches on all permutations were limited to k ≤ 16. For sizes beyond the reach of this method, we use tree representations to find permutations with good intermediate diffusion properties. This heuristic leads to an optimal even-odd permutation for k = 26 and best-known results for sizes k = 64 and k = 128.Finally, we transpose these methods to all permutations. Using a new strategy to exhaust equivalence classes, we perform exhaustive searches on classes for sizes k ≤ 20 whose results confirmed the initial heuristic: there always exist optimal permutations that are even-odd and furthermore for k = 18 all optimal permutations are even-odd permutations.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tosc.v2019.i1.264-301</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7404</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7404">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/7404/6576" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_rub-journals_7404">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/7404/7552" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="" ID="FILE2_rub-journals_7404">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/7404/7768" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7404" DMDID="DMD_rub-journals_7404">
+            <mets:fptr FILEID="FILE0_rub-journals_7404"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_7404" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_7404"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART2_rub-journals_7404" LABEL="">
+                <mets:fptr FILEID="FILE2_rub-journals_7404"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

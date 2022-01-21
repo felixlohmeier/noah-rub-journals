@@ -1,0 +1,53 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7522">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Class and Social Movements in Scandinavia since 1945</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Mikkelsen, Flemming</displayForm>
+                        <namePart type="family">Mikkelsen</namePart>
+                        <namePart type="given">Flemming</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015-01-31</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">20</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Since the end of the Second World War, economic affluence, a neoliberal turn in world politics and economic globalisation have questioned the relevance of social class as a useful social science category. Analysing the changing configuration of labour markets, structural insecurity, labour movements and welfare states, this essay tries to revive the empirical validity of the notion of working class in a Scandinavian context. As a starting point I discuss how changing occupational patterns and state intervention transformed the basic class structure of the three Scandinavian countries Denmark, Sweden and Norway. This led to new trends in consumption, saving and the way ordinary people coped with social insecurity. These developments made heavy demands on the labour movement, which was challenged from within by renewed grassroots activity, i. e. social movement unionism, and from without by new social movements. Recently the Scandinavian countries were exposed to globalisation. The result was a further division of the working class and new organisational and political cleavage structures.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/mts.48.2012.29-48</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7522</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7522">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/7522/6694" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7522" DMDID="DMD_rub-journals_7522">
+            <mets:fptr FILEID="FILE0_rub-journals_7522"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

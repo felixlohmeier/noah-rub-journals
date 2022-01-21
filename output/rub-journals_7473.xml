@@ -1,0 +1,54 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7473">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <nonSort>The </nonSort>
+                        <title>German Disability Movement as a Transnational, Entangled New Social Movement</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Stoll, Jan</displayForm>
+                        <namePart type="family">Stoll</namePart>
+                        <namePart type="given">Jan</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015-12-17</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">24</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">The article examines the Disability Movement in West Germany in the 1970s and 1980s. Therefore, disability activism in West Germany is considered with regard to new social movement research. Furthermore, the author asks for local, regional and national action-frames and addressees of the Disability Movements, based on the assumption that a movement of people personally affected by disabilities will address the national welfare policy or civil rights issues, which are bound to national legislation. The movement initially aimed at local everyday life barriers or national civil rights and societal discrimination. Thus, its action-frames and addressees were spatially bounded. However, following processes of differentiation and professionalisation in the early 1980s, the movement broadened its transnational alliances. One example considered are the attempts for the de-institutionalisation of care and the enabling of self-determined Personal Assistance, which took place in exchange with activists of the Independent Living Movement in the United States. The other example considered is the campaign of German disability activists to support a group of revolutionary people with disabilities in Nicaragua, which sets the movement into the context of new social movements and the alternative milieu with its specific political expression, habits and style.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/mts.53.2015.63-86</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7473</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7473">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/7473/6645" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7473" DMDID="DMD_rub-journals_7473">
+            <mets:fptr FILEID="FILE0_rub-journals_7473"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

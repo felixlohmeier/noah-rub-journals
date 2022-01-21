@@ -1,0 +1,62 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8311">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Core Activity, Event and Crisis</title>
+                        <subTitle>Making the Small Worlds of Amateur Football</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Zifonun, Dariuš</displayForm>
+                        <namePart type="family">Zifonun</namePart>
+                        <namePart type="given">Dariuš</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Naglo, Kristian</displayForm>
+                        <namePart type="family">Naglo</namePart>
+                        <namePart type="given">Kristian</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2019-05-28</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">22</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">In this paper, we use a glocalisation theory framework to argue that the management of paradoxes, contradictions and ambivalences — which are distinctive of amateur football — is the driving force of re/constructing the field of amateur football and re/writing the boundaries to professional football. We develop a micro-sociological approach for the study of amateur football by distinguishing between three different types of activities — core activities, crisis, and events — that are being performed in the small worlds of grassroots football. To this end, three different case studies in the context of German amateur football will be analysed within the scope of our theoretical and methodological framework: First of all, the idea of a specific footballing style developed by a local Turkish ethnic club; secondly, the endeavour of a local club to install a new artificial grass pitch; and finally, an international under-17 youth tournament. These case studies show that it is precisely the contact to professionalism that shapes the identity of the amateur world, and that the unique ways of dealing with global forces allow for constructing locality. Drawing on ethnographic fieldwork in the German amateur football world, we suggest to take seriously the first-order ‘messiness’ of the distinctions between amateurs and professionals in football which has so far been widely ignored or not reflected when researchers approach the amateur football world by using clear-cut second-order concepts of amateurism and professionalism.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/mts.61.2019.61-82</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8311</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8311">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/8311/7659" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8311" DMDID="DMD_rub-journals_8311">
+            <mets:fptr FILEID="FILE0_rub-journals_8311"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

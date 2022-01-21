@@ -1,0 +1,61 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8436">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <nonSort>The </nonSort>
+                        <title>Syntactic Roles of Touch in Shared Festivals in Kerala</title>
+                        <subTitle>Towards an Analysis of Ritual Categories</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Gamliel, Ophira</displayForm>
+                        <namePart type="family">Gamliel</namePart>
+                        <namePart type="given">Ophira</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2019-12-17</dateIssued>
+                    </originInfo>
+                    <abstract lang="eng">The following discussion of touch as a syntactic-semantic unit in ritual structures is based on an analogy of ritual and language postulating a &apos;deep structure&apos; or a &apos;universal grammar&apos; for rituals as presented by Frits Staal, Axel Michaels, and Naphtali Meshel. Following E. Thomas Lawson and Robert N. McCauley in their cognitive approach to ritual competence and in identifying actions as building blocks in ritual structures, I propose an analysis of ritual events as a category with distinctive semantic and syntactic properties and within the framework of ritual communication and ritual competence. I extend Martina Wiltschko’s universal spine hypothesis for linguistic categories to the language-ritual analogy in the domains of semantics and syntax. The viability of this analytical framework is demonstrated by categorizing touching events in rituals in shared festivals in Kerala. I conclude the discussion by hypothesizing universal categories for ritual events and entities, and universal structural patterns partially analogous (perhaps even homologous) to categories and patterns used in Wiltschko’s universal spine hypothesis.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <identifier type="doi">10.13154/er.10.2019.8436</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8436</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8436">
+                <mets:FLocat xlink:href="https://er.ceres.rub.de/index.php/ER/article/download/8436/7811" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="text/html" ID="FILE1_rub-journals_8436">
+                <mets:FLocat xlink:href="https://er.ceres.rub.de/index.php/ER/article/download/8436/7812" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8436" DMDID="DMD_rub-journals_8436">
+            <mets:fptr FILEID="FILE0_rub-journals_8436"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_8436" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_8436"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

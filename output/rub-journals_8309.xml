@@ -1,0 +1,54 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8309">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Researching the History of Grassroots Football in England</title>
+                        <subTitle>Sources and Opportunities</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Porter, Dilwyn</displayForm>
+                        <namePart type="family">Porter</namePart>
+                        <namePart type="given">Dilwyn</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2019-05-28</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">20</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Since 1980 there has been an abundance of research into the history of association football in England most of which has focused on the elite professional game and its followers. Recreational football has been relatively neglected, though participant numbers suggest that it constituted — as it still does — a highly significant social and cultural phenomenon. For many thousands in the mid-20th century it was “their most important social activity” (Nicholas Fishwick: English Football and Society 1910 –1950, Manchester, 1989, p. 1). Yet why did so many people play football for small clubs in local leagues, or simply come together for an informal ‘kickabout’ when an opportunity presented itself? The scant historiography on English football at the grassroots suggests that this is a question that sports historians have yet to address systematically. Constructing a satisfactory response involves exploring the archival and newspaper sources already available to historians imaginatively while giving due consideration to the possibilities of previously overlooked autobiographical and literary texts.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/mts.61.2019.13-32</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8309</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8309">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/8309/7658" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8309" DMDID="DMD_rub-journals_8309">
+            <mets:fptr FILEID="FILE0_rub-journals_8309"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

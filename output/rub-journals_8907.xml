@@ -1,0 +1,78 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8907">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Weak Keys in Reduced AEGIS and Tiaoxin</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Liu, Fukang</displayForm>
+                        <namePart type="family">Liu</namePart>
+                        <namePart type="given">Fukang</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Isobe, Takanori</displayForm>
+                        <namePart type="family">Isobe</namePart>
+                        <namePart type="given">Takanori</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Meier, Willi</displayForm>
+                        <namePart type="family">Meier</namePart>
+                        <namePart type="given">Willi</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Sakamoto, Kosei</displayForm>
+                        <namePart type="family">Sakamoto</namePart>
+                        <namePart type="given">Kosei</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2021-06-11</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">36</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">AEGIS-128 and Tiaoxin-346 (Tiaoxin for short) are two AES-based primitives submitted to the CAESAR competition. Among them, AEGIS-128 has been selected in the final portfolio for high-performance applications, while Tiaoxin is a third-round candidate. Although both primitives adopt a stream cipher based design, they are quite different from the well-known bit-oriented stream ciphers like Trivium and the Grain family. Their common feature consists in the round update function, where the state is divided into several 128-bit words and each word has the option to pass through an AES round or not. During the 6-year CAESAR competition, it is surprising that for both primitives there is no third-party cryptanalysis of the initialization phase. Due to the similarities in both primitives, we are motivated to investigate whether there is a common way to evaluate the security of their initialization phases. Our technical contribution is to write the expressions of the internal states in terms of the nonce and the key by treating a 128-bit word as a unit and then carefully study how to simplify these expressions by adding proper conditions. As a result, we find that there are several groups of weak keys with 296 keys each in 5-round AEGIS-128 and 8-round Tiaoxin, which allows us to construct integral distinguishers with time complexity 232 and data complexity 232. Based on the distinguisher, the time complexity to recover the weak key is 272 for 5-round AEGIS-128. However, the weak key recovery attack on 8-round Tiaoxin will require the usage of a weak constant occurring with probability 2−32. All the attacks reach half of the total number of initialization rounds. We expect that this work can advance the understanding of the designs similar to AEGIS and Tiaoxin.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.46586/tosc.v2021.i2.104-139</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8907</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8907">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/8907/8483" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8907" DMDID="DMD_rub-journals_8907">
+            <mets:fptr FILEID="FILE0_rub-journals_8907"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

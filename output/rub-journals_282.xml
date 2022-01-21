@@ -1,0 +1,52 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_282">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Communism in Culture, Art and Media</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>-, Editors</displayForm>
+                        <namePart type="family">-</namePart>
+                        <namePart type="given">Editors</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2012-09-05</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">4</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">• Some Exhibitions on the History of Communism, 2011-2012 • Berlin/Moskau: Retrospektive und Konferenz über Mežrabpom-Fil’m • Berlin: Ausstellung und Tagung über Willi Münzenberg • Opening of the Museo Memorial de la Resistencia Dominicana, Santo Domingo • “Hotel Lux”: Das sowjetische KPD-Exil im Spielfilm • Tatlin-Ausstellungen in Moskau und Basel • „Die Tochter des Generals“: Verschollener Roman von Arkadij Maslow veröffentlicht</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_282</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_282">
+                <mets:FLocat xlink:href="https://incs.ub.rub.de/index.php/INCS/article/download/282/240" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_282" DMDID="DMD_rub-journals_282">
+            <mets:fptr FILEID="FILE0_rub-journals_282"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

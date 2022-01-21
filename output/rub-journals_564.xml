@@ -1,0 +1,71 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_564">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>OleF</title>
+                        <subTitle>an Inverse-Free Online Cipher. An Online SPRP with an Optimal Inverse-Free Construction</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Bhaumik, Ritam</displayForm>
+                        <namePart type="family">Bhaumik</namePart>
+                        <namePart type="given">Ritam</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Nandi, Mridul</displayForm>
+                        <namePart type="family">Nandi</namePart>
+                        <namePart type="given">Mridul</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2017-02-03</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">22</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Online ciphers, in spite of being insecure against an sprp adversary, can be desirable at places because of their ease of implementation and speed. Here we propose a single-keyed inverse-free construction that achieves online sprp security with an optimal number of blockcipher calls. We also include a partial block construction, without requiring any extra key.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tosc.v2016.i2.30-51</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_564</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_564">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/564/506" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_rub-journals_564">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/564/7461" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_564" DMDID="DMD_rub-journals_564">
+            <mets:fptr FILEID="FILE0_rub-journals_564"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_564" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_564"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

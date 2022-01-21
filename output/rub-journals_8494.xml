@@ -1,0 +1,52 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8494">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Zur Neuedition der Tagebücher von Ivan Majskij [review essay in German]</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Tosstorff, Reiner</displayForm>
+                        <namePart type="family">Tosstorff</namePart>
+                        <namePart type="given">Reiner</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020-02-26</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">9</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">• Die Maiski-Tagebücher. Ein Diplomat im Kampf gegen Hitler 1932–1943. Herausgegeben von Gabriel Gorodetsky, München, C. H. Beck, 2016. 896 pp. – ISBN 978-3-406-68936-9.• The Complete Maisky Diaries. Edited by Gabriel Gorodetsky, New Haven, Yale University Press, 2017. 3 vols., 1595 pp. – ISBN 978-0-300-11782-0.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8494</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8494">
+                <mets:FLocat xlink:href="https://incs.ub.rub.de/index.php/INCS/article/download/8494/8060" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8494" DMDID="DMD_rub-journals_8494">
+            <mets:fptr FILEID="FILE0_rub-journals_8494"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

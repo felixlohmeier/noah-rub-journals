@@ -1,0 +1,53 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8632">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <nonSort>The </nonSort>
+                        <title>governance of visual arts in Namibia. A focus on social perceptions around professional integration in the art market in Windhoek</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Razafindrakoto, Idah</displayForm>
+                        <namePart type="family">Razafindrakoto</namePart>
+                        <namePart type="given">Idah</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020-06-30</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">11</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">This study provides an overview of visual arts governance in Windhoek, capital of Namibia. With current population of 2,533,345, based on the latest United Nations data, Namibia is one of the least densely populated countries in the world with just 3.13 people per square kilometre. The main objective is to describe and analyse the social perceptions of the integration of young artists into the visual arts market in Windhoek by highlighting local cultural mediators’, arts educators’ and lecturers’ views on and initiatives for visual arts students. This paper seeks to identify the challenges that can restrict or hinder the progress of up-and-coming artists and to provide adequate recommendations for strengthening the integration and the employment of youth in the visual arts market. The study is built on functionalist and neo-institutionalist perspectives, enriched by documentary reviews and a social survey.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8632</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8632">
+                <mets:FLocat xlink:href="https://namibian-studies.com/index.php/JNS/article/download/8632/8207" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8632" DMDID="DMD_rub-journals_8632">
+            <mets:fptr FILEID="FILE0_rub-journals_8632"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

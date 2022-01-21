@@ -1,0 +1,94 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_589">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Cryptanalysis of NORX v2.0</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Chaigneau, Colin</displayForm>
+                        <namePart type="family">Chaigneau</namePart>
+                        <namePart type="given">Colin</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Fuhr, Thomas</displayForm>
+                        <namePart type="family">Fuhr</namePart>
+                        <namePart type="given">Thomas</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Gilbert, Henri</displayForm>
+                        <namePart type="family">Gilbert</namePart>
+                        <namePart type="given">Henri</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Jean, Jérémy</displayForm>
+                        <namePart type="family">Jean</namePart>
+                        <namePart type="given">Jérémy</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Reinhard, Jean-René</displayForm>
+                        <namePart type="family">Reinhard</namePart>
+                        <namePart type="given">Jean-René</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2017-03-08</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">19</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">NORX is an authenticated encryption scheme with associated data being publicly scrutinized as part of the ongoing CAESAR competition, where 14 other primitives are also competing. It is based on the sponge construction and relies on a simple permutation that allows efficient and versatile implementations. Thanks to research on the security of the sponge construction, the design of NORX, whose permutation is inspired from the permutations used in BLAKE and ChaCha, has evolved throughout three main versions (v1.0, v2.0 and v3.0). In this paper, we investigate the security of the full NORX v2.0 primitive that has been accepted as third-round candidate in the CAESAR competition. We show that some non-conservative design decisions probably motivated by implementation efficiency considerations result in at least one strong structural distinguisher of the underlying sponge permutation that can be turned into an attack on the full primitive. This attack yields a ciphertext-only forgery with time and data complexity 266 (resp. 2130) for the variant of NORX v2.0 using 128-bit (resp. 256-bit) keys and breaks the designers’ claim of a 128-bit, resp. 256-bit security. Furthermore, we show that this forgery attack can be extended to a key-recovery attack on the full NORX v2.0 with the same time and data complexities. We have implemented and experimentally verified the correctness of the attacks on a toy version of NORX. We emphasize that the scheme has recently been tweaked to NORX v3.0 at the beginning of the third round of the CAESAR competition: the main change introduces some key-dependent internal operations, which make NORX v3.0 immune to our attacks. However, the structural distinguisher of the permutation persists.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tosc.v2017.i1.156-174</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_589</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_589">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/589/530" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_rub-journals_589">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/589/7483" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_589" DMDID="DMD_rub-journals_589">
+            <mets:fptr FILEID="FILE0_rub-journals_589"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_589" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_589"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

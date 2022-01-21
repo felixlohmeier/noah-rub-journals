@@ -1,0 +1,70 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_770">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Accurate Estimate of the Advantage of Impossible Differential Attacks</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Blondeau, Céline</displayForm>
+                        <namePart type="family">Blondeau</namePart>
+                        <namePart type="given">Céline</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2017-09-19</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">23</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Impossible differential attacks, which are taking advantage of differentials that cannot occur, are powerful attacks for block cipher primitives. The power of such attacks is often measured in terms of the advantage — number of key-bits found during the key sieving phase — which determines the time complexity of the exhaustive key search phase. The statistical model used to compute this advantage has been introduced in the seminal work about the resistance of the DEAL cipher to impossible differential attacks. This model, which has not been modified since the end of the 1990s, is implicitly based on the Poisson approximation of the binomial distribution. In this paper, we investigate this commonly used model and experimentally illustrate that random permutations do not follow it. Based on this observation, we propose more accurate estimates of the advantage of an impossible differential attack. The experiments illustrate the accuracy of the estimate derived from the multivariate hypergeometric distribution. The maximal advantage –using the full codebook– of an impossible differential attack is also derived.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tosc.v2017.i3.169-191</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_770</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_770">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/770/728" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_rub-journals_770">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/770/7609" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="" ID="FILE2_rub-journals_770">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/770/7535" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_770" DMDID="DMD_rub-journals_770">
+            <mets:fptr FILEID="FILE0_rub-journals_770"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_770" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_770"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART2_rub-journals_770" LABEL="">
+                <mets:fptr FILEID="FILE2_rub-journals_770"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

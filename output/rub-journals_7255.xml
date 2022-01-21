@@ -1,0 +1,62 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7255">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Typologies and Argumentation Tactics in Religious Polemics - An Analysis of al-Jawāb al Sahih and the Cyprus Letter</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Zwirahn, Faris</displayForm>
+                        <namePart type="family">Zwirahn</namePart>
+                        <namePart type="given">Faris</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2018-07-10</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">51</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Christian-Muslim polemical exchanges and the relationship between the two faiths’ religious authorities in the medieval period were often rigid. One exchange between Christian theologians in Cyprus and Muslim theologians in Damascus is evidently polemical and exemplifies the difficult relations that occurred early in the fourteenth century and the nature of challenging religious arguments. That is The Letter from the People of Cyprus and Ibn Taymiyya’s response to it. This article offers a new analysis through the perspective of particular theoretical typologies of religious polemics. Accordingly, the article shows that these two polemicists adhere to multiple scriptural and rational tactics in support of their biased understanding of religious truth and the definition of impeccable revelations. It also shows that both theologians were involved in forceful and sometimes contradictory argumentative techniques.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/er.v5.2018.44-94</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/">CC BY-NC-ND 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7255</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7255">
+                <mets:FLocat xlink:href="https://er.ceres.rub.de/index.php/ER/article/download/7255/6436" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="text/html" ID="FILE1_rub-journals_7255">
+                <mets:FLocat xlink:href="https://er.ceres.rub.de/index.php/ER/article/download/7255/8286" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7255" DMDID="DMD_rub-journals_7255">
+            <mets:fptr FILEID="FILE0_rub-journals_7255"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_7255" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_7255"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

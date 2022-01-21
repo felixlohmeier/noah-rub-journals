@@ -1,0 +1,55 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7553">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <nonSort>Ein </nonSort>
+                        <title>schwieriges Genre</title>
+                        <subTitle>Zum Ort der Biografik in der Arbeitergeschichtsschreibung</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Depkat, Volker</displayForm>
+                        <namePart type="family">Depkat</namePart>
+                        <namePart type="given">Volker</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2014-09-18</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">15</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">The article examines the development of biographical research in general and particularly in labour history. Considering the impact of the cognitive sciences biographical research provides different trajectories for historical, social-historical and cultural-historical approaches. Sudies on labour movements, however, are still based on biographical research that is conducted as traditional historical social research with an emphasis on milieu theory, generational studies or a general lack of theory. The articel advocates new perspectives on biographical studies in labour history that go beyond the topics of milieus and generations and underlines the need to deduce from the individual historical person.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/mts.45.2011.21-35</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7553</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7553">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/7553/6725" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7553" DMDID="DMD_rub-journals_7553">
+            <mets:fptr FILEID="FILE0_rub-journals_7553"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

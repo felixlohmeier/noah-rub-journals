@@ -1,0 +1,61 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_9151">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <nonSort>The </nonSort>
+                        <title>search for the neural correlate of consciousness</title>
+                        <subTitle>Progress and challenges</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Lepauvre, Alex</displayForm>
+                        <namePart type="family">Lepauvre</namePart>
+                        <namePart type="given">Alex</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Melloni, Lucia</displayForm>
+                        <namePart type="family">Melloni</namePart>
+                        <namePart type="given">Lucia</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2021-07-19</dateIssued>
+                    </originInfo>
+                    <abstract lang="eng">Twenty years ago, Thomas Metzinger published the book &quot;The Neural Correlates of Consciousness&quot; amassing the state of knowledge in the field of consciousness studies at the time from philosophical and empirical perspectives. On the occasion of the 20th anniversary of this impactful publication, we review the progress the field has made since then and the important methodological challenges it faces. A tremendous number of empirical studies have been conducted, which has led to the identification of many candidate neural correlates of consciousness. Yet, this tremendous amount of work has not unraveled a consensual account of consciousness as of now. Many questions, some already raised twenty years ago, remain unanswered, and an enormous proliferation of theories sharply contrasts with the scarcity of compelling data and methodological challenges. The contrastive method, the foundational method used to study the neural correlate of consciousness (NCC), has also been called into question. And while awareness in the community of its shortcomings is widespread, few concrete attempts have been made to go beyond it and/or to revise existing theories. We propose several methodological shifts that we believe may help to advance the quest of the NCC program, while remaining uncommitted to any specific theory: (1) the currently prevalent “contrastive method” should lose its monopoly in favor of methods that attempt to explain the phenomenology of experience; (2) experimental data should be shared in centralized, multi-methods databases, transcending the limitations of individual experiments by granting granularity and power to generalize findings and “distill” the NCC proper; (3) the explanatory power of theories should be directly pitted against each other to overcome the non-productive fractioning of the field into insular camps seeking confirmatory evidence for their theories. We predict these innovations might enable the field to progress towards the goal of explaining consciousness.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <identifier type="doi">10.33735/phimisci.2021.87</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_9151</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_9151">
+                <mets:FLocat xlink:href="https://philosophymindscience.org/index.php/phimisci/article/download/9151/8689" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_9151" DMDID="DMD_rub-journals_9151">
+            <mets:fptr FILEID="FILE0_rub-journals_9151"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

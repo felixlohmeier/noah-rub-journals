@@ -1,0 +1,63 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_859">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <nonSort>The </nonSort>
+                        <title>Shaykh and the Others - Sufi Perspectives on Jews and Christians in Late Ayyubid and Early Mamluk Egypt</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Cecere, Giuseppe</displayForm>
+                        <namePart type="family">Cecere</namePart>
+                        <namePart type="given">Giuseppe</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2018-04-17</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">61</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">This paper focuses on Sufi attitudes towards Jews and Christians in Late Ayyubid and Early Mamluk Egypt, as reflected in hagiographic literature of the time. This will shed further light on interfaith relations in a society where Jews and Christians lived under Islamic rule in the condition of ahl al-dhimma (lit. “protected people”), implying an overall condition of social and juridical inferiority. With this in mind, works by four prominent Sufi authors have been analyzed: al-Risāla by Shaykh Ṣafī l-Dīn ibn Abī l-Manṣūr (d. 1283), al-Kitāb al-waḥīd by Shaykh Ibn Nūḥ al-Qūṣī (d. 1308), Laṭāʾif al-minan by Ibn ʿAṭāʾ Allāh al-Iskandarī (d. 1309), Durrat al-asrār by Ibn al-Ṣabbāgh (fl. 1320s). This first survey shows a&amp;nbsp;wide variety of attitudes towards Jews and Christians, ranging from interreligious violence to dialogue for converting and also to mutual respect, while adhering to the principles of dhimma and maintaining hierarchical relationships between Islam and other religions.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/er.v6.2018.34-94</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0">CC BY-NC-ND 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_859</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_859">
+                <mets:FLocat xlink:href="https://er.ceres.rub.de/index.php/ER/article/download/859/813" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="text/html" ID="FILE1_rub-journals_859">
+                <mets:FLocat xlink:href="https://er.ceres.rub.de/index.php/ER/article/download/859/8262" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_859" DMDID="DMD_rub-journals_859">
+            <mets:fptr FILEID="FILE0_rub-journals_859"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_859" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_859"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,69 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_395">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Design of an active fluid damping system for vibration control of disk-shaped tools</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Denkena, B.</displayForm>
+                        <namePart type="family">Denkena</namePart>
+                        <namePart type="given">B.</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Dahlmann, D.</displayForm>
+                        <namePart type="family">Dahlmann</namePart>
+                        <namePart type="given">D.</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Teige, C.</displayForm>
+                        <namePart type="family">Teige</namePart>
+                        <namePart type="given">C.</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015-11-25</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">7</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">To meet the requirements of today´s cutting process of natural stones thin disk-shaped tools withlarge diameter are applied at high cutting velocities. To use these tools, guiding systems for the disksare needed. Therewith, tool vibration magnitudes and deflections can be reduced. The risk of producingscrap parts or tool damage are decreased. However, the guidance being placed close to thecutting zone reduces the cutting depth, so that the process is limited to the production of small slabsand tiles. To use the advantage of a guidance without limiting depth of cut, a new guidance conceptis presented. Thereby the guiding areas are placed opposite to the cutting zone. This enables thereduction of tool vibration without decreasing the depth of cut. In this paper the compensation of toolvibration by this guiding concept is investigated. Different types of guidance are compared and themost suitable compensation approach is identified. Further on, the problem of the decreasing compensationeffect, due to the increasing distance between the excitation and the guidance is considered.To increase the compensation effect, the guidance is optimized regarding to the number andpositon of guiding areas. The capability of the presented concept is verified by a comparison with aconventionally placed guiding system.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/icscm.3.2015.130-136</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_395</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_395">
+                <mets:FLocat xlink:href="https://icscm.ub.rub.de/index.php/ICSCM/article/download/395/352" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_395" DMDID="DMD_rub-journals_395">
+            <mets:fptr FILEID="FILE0_rub-journals_395"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

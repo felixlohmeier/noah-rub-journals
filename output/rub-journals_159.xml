@@ -1,0 +1,53 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_159">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>“It recharged our batteries”</title>
+                        <subTitle>Writing the history of the Voice of Namibia</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Heinze, Robert</displayForm>
+                        <namePart type="family">Heinze</namePart>
+                        <namePart type="given">Robert</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015-01-14</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">38</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">This article analyses the role of the Voice of Namibia from 1966 until 1989 in the anti-apartheid struggle based on the relatively limited sources available. SWAPO, like other nationalist movements in Southern Africa, maintained a large, loosely co­ordinated media operation in order to propagate its politics and ideology. Propa­ganda radio broadcasting to occupied Namibia was an integral part of this operation. Supported by several countries on the African continent as well as the UN, the Voice of Namibia trained broadcasters, countered South African propaganda, pleaded SWAPO’s case to the Namibian and the international public and prepared exiled SWAPO members to play a role in post-independence mass media. Building on sources from different archives as well as oral history interviews conducted in Namibia between 2006 and 2008 the article examines the radio station as a whole and looks at the different levels (politics, management, work relations, media content, and reception) highlighting the relationships and interactions between the groups involved.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_159</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_159">
+                <mets:FLocat xlink:href="https://namibian-studies.com/index.php/JNS/article/download/159/122" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_159" DMDID="DMD_rub-journals_159">
+            <mets:fptr FILEID="FILE0_rub-journals_159"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

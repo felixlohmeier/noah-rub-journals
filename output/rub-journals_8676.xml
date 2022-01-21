@@ -1,0 +1,62 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8676">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>On the spectral features of robust probing security</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Molteni, Maria Chiara</displayForm>
+                        <namePart type="family">Molteni</namePart>
+                        <namePart type="given">Maria Chiara</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Zaccaria, Vittorio</displayForm>
+                        <namePart type="family">Zaccaria</namePart>
+                        <namePart type="given">Vittorio</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020-08-26</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">25</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">In this work we provide a spectral formalization of non-interference in the presence of glitches. Our goal is to present new theoretical and practical tools to reason about robust-d-probing security. We show that the current understanding of extended probes lends itself to probes that participate, during gadget composition, to the creation of additional extended probes. In turn, this enables a natural extension of non-interference definitions into robust ones to build a new reasoning framework that can formally explain some semi-formal results already appeared in the past and be used to synthesize new robust-d-SNI gadgets.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tches.v2020.i4.24-48</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8676</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8676">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/8676/8235" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8676" DMDID="DMD_rub-journals_8676">
+            <mets:fptr FILEID="FILE0_rub-journals_8676"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

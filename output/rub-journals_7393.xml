@@ -1,0 +1,87 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7393">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Reducing a Masked Implementation’s Effective Security Order with Setup Manipulations</title>
+                        <subTitle>And an Explanation Based on Externally-Amplified Couplings</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Levi, Itamar</displayForm>
+                        <namePart type="family">Levi</namePart>
+                        <namePart type="given">Itamar</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Bellizia, Davide</displayForm>
+                        <namePart type="family">Bellizia</namePart>
+                        <namePart type="given">Davide</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Standaert, François-Xavier</displayForm>
+                        <namePart type="family">Standaert</namePart>
+                        <namePart type="given">François-Xavier</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2019-02-28</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">25</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Couplings are a type of physical default that can violate the independence assumption needed for the secure implementation of the masking countermeasure. Two recent works by De Cnudde et al. put forward qualitatively that couplings can cause information leakages of lower order than theoretically expected. However, the (quantitative) amplitude of these lower-order leakages (e.g., measured as the amplitude of a detection metric such as Welch’s T statistic) was usually lower than the one of the (theoretically expected) dth order leakages. So the actual security level of these implementations remained unaffected. In addition, in order to make the couplings visible, the authors sometimes needed to amplify them internally (e.g., by tweaking the placement and routing or iterating linear operations on the shares). In this paper, we first show that the amplitude of low-order leakages in masked implementations can be amplified externally, by tweaking side-channel measurement setups in a way that is under control of a power analysis adversary. Our experiments put forward that the “effective security order” of both hardware (FPGA) and software (ARM-32) implementations can be reduced, leading to concrete reductions of their security level. For this purpose, we move from the detection-based analyzes of previous works to attack-based evaluations, allowing to confirm the exploitability of the lower-order leakages that we amplify. We also provide a tentative explanation for these effects based on couplings, and describe a model that can be used to predict them in function of the measurement setup’s external resistor and implementation’s supply voltage. We posit that the effective security orders observed are mainly due to “externally-amplified couplings” that can be systematically exploited by actual adversaries.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tches.v2019.i2.293-317</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7393</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7393">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/7393/6565" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_rub-journals_7393">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/7393/7899" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="" ID="FILE2_rub-journals_7393">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/7393/7900" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7393" DMDID="DMD_rub-journals_7393">
+            <mets:fptr FILEID="FILE0_rub-journals_7393"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_7393" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_7393"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART2_rub-journals_7393" LABEL="">
+                <mets:fptr FILEID="FILE2_rub-journals_7393"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

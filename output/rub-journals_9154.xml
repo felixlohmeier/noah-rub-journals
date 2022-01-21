@@ -1,0 +1,68 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_9154">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <nonSort>A </nonSort>
+                        <title>structural constraint on neural correlates of consciousness</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Fink, Sascha Benjamin</displayForm>
+                        <namePart type="family">Fink</namePart>
+                        <namePart type="given">Sascha Benjamin</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Kob, Lukas</displayForm>
+                        <namePart type="family">Kob</namePart>
+                        <namePart type="given">Lukas</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Lyre, Holger</displayForm>
+                        <namePart type="family">Lyre</namePart>
+                        <namePart type="given">Holger</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2021-07-19</dateIssued>
+                    </originInfo>
+                    <abstract lang="eng">Researchers on the neural correlates of consciousness (NCC) need to distinguish mere statisticalNCCs from NCCs proper. Some neural events may be co-occurrent, probabilistically coupled,or coincidental with a type of conscious experience but lack any deeper connection to it, whilein other cases, the relation between neural states and a type of experience hints at a strongmetaphysical relation, which distinguishes such NCCs proper from mere statistical NCCs. In orderto address this issue of how to distinguish NCCs proper from mere statistical NCCs, we proposea position we call neurophenomenal structuralism. The position hinges on the uncontroversialidea that phenomenal experiences relate to each other in degrees of similarity and difference.These complex structures are used to identify and individuate experiences in the methods ofneuroscience, psychophysics, and phenomenology. Such individuation by structure leads to phenomenalholism, which has implications for how to investigate consciousness neuroscientificallyand generates a constraint by which we can distinguish NCCs proper from mere statistical NCCs:the structural similarity constraint. Neural activation must preserve the structure governing thedomain of experiences it is associated with in order to count as that domain’s NCC proper. Anyactivation that fails to preserve phenomenal structure fails to be an NCC proper. We illustratehow this constraint works with a study by Brouwer &amp;amp; Heeger (2009) as an example.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.33735/phimisci.2021.79</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_9154</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_9154">
+                <mets:FLocat xlink:href="https://philosophymindscience.org/index.php/phimisci/article/download/9154/8692" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_9154" DMDID="DMD_rub-journals_9154">
+            <mets:fptr FILEID="FILE0_rub-journals_9154"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

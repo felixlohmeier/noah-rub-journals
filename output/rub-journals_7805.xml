@@ -1,0 +1,55 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7805">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <nonSort>The </nonSort>
+                        <title>Present&apos;s Past</title>
+                        <subTitle>Recent Perspectives on Peace and Protest in Germany, 1945-1973</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Mausbach, Wilfried</displayForm>
+                        <namePart type="family">Mausbach</namePart>
+                        <namePart type="given">Wilfried</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015-01-03</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">32</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Much of the recent literature on peace movements and protest activities in postwar Germany takes its lead either from social movement theory or from the concept of peace culture. Both approaches can indeed help to overcome the conventional fixation on the political effectiveness of protest movements as well as an all too often dry organizational sociology or a sometimes hagiographic preoccupation with important individuals. This essay enumerates some of the new and occasionally surprising perspectives that these approaches can bring to peace research. Thus, the history of German peace activism during the 1950s is becoming much more intertwined with the country&apos;s general social and cultural history of the time, whereas the 1960s seem to confront peace historians with exactly the opposite challenge, namely to extricate genuine peace movements from the general social and cultural upheaval of this tumultuous decade. This article stresses some commonalities between the two periods, including the theme of nationalism as an undercurrent of German peace activism, the latter&apos;s frequently bellicose rhetoric, and the importance of emotions both for peace and protest groups themselves and for their confrontations with authorities and the public at large.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/mts.32.2004.67-98</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7805</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7805">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/7805/6977" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7805" DMDID="DMD_rub-journals_7805">
+            <mets:fptr FILEID="FILE0_rub-journals_7805"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

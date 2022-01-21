@@ -1,0 +1,61 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8761">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>On the ‘proposed’ introduction of Kiswahili to the Namibian school curriculum</title>
+                        <subTitle>Emerging perspectives</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Sabao, Collen</displayForm>
+                        <namePart type="family">Sabao</namePart>
+                        <namePart type="given">Collen</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Nauyoma, Oiva</displayForm>
+                        <namePart type="family">Nauyoma</namePart>
+                        <namePart type="given">Oiva</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020-12-31</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">11</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">The paper offers a critique of the ‘proposed’ potential universal inclusion of Kiswahili into the Namibia school curriculum. Drawing from and interrogating the Namibian language policy, and informed by Ngugi wa Thion’go’s views of language as culture, it argues that the ‘proposed’ introduction of Kiswahili into the Namibian school curriculum is potentially detrimental to the development of Namibian languages and cultures and could lead to their erosion in what is already a linguistically highly polarised and multilingual context. Language, we argue, is not merely a tool for communication but is also the framework within which a people’s culture is embedded. Language is a superstructural semiotic tool in which the cultural identities and values of a people are coded and encoded. The traditions of a people are encapsulated in the living museum that is language. The introduction of Kiswahili would undermine this for much of the Namibian population. We also argue that, currently, indigenous languages are generally understudied. Furthermore, the current state of the teaching of Namibian indigenous languages suggests insufficient study and underdeveloped curricula and the question posed here is: Why rush to universally introduce a foreign language into the curricula instead of developing the learning resources for indigenous languages?</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8761</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8761">
+                <mets:FLocat xlink:href="https://namibian-studies.com/index.php/JNS/article/download/8761/8361" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8761" DMDID="DMD_rub-journals_8761">
+            <mets:fptr FILEID="FILE0_rub-journals_8761"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

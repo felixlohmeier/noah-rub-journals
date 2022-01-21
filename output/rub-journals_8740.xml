@@ -1,0 +1,62 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8740">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Redundant Code-based Masking Revisited</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Costes, Nicolas</displayForm>
+                        <namePart type="family">Costes</namePart>
+                        <namePart type="given">Nicolas</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Stam, Martijn</displayForm>
+                        <namePart type="family">Stam</namePart>
+                        <namePart type="given">Martijn</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020-12-03</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">25</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Masking schemes are a popular countermeasure against side-channel attacks. To mask bytes, the two classical options are Boolean masking and polynomial masking. The latter lends itself to redundant masking, where leakage emanates from more shares than are strictly necessary to reconstruct, raising the obvious question how well such “redundant” leakage can be exploited by a side-channel adversary. We revisit the recent work by Chabanne et al. (CHES’18) and show that, contrary to their conclusions, said leakage can—in theory—always be exploited. For the Hamming weight scenario in the low-noise regime, we heuristically determine how security degrades in terms of the number of redundant shares for first and second order secure polynomial masking schemes.Furthermore, we leverage a well-established link between linear secret sharing schemes and coding theory to determine when different masking schemes will end up with essentially equivalent leakage profiles. Surprisingly, we conclude that for typical field sizes and security orders, Boolean masking is a special case of polynomial masking. We also identify quasi-Boolean masking schemes as a special class of redundant polynomial masking and point out that the popular “Frobenius-stable” sets of interpolations points typically lead to such quasi-Boolean masking schemes, with subsequent degraded leakage performance.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.46586/tches.v2021.i1.426-450</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8740</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8740">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/8740/8340" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8740" DMDID="DMD_rub-journals_8740">
+            <mets:fptr FILEID="FILE0_rub-journals_8740"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,54 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7625">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Sloweniens Geschichte</title>
+                        <subTitle>Die Eigenstaatlichkeit und der Umgang mit der Vergangenheit</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Pirjevec, Jože</displayForm>
+                        <namePart type="family">Pirjevec</namePart>
+                        <namePart type="given">Jože</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015-01-24</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">16</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">The question of Slovene statehood has its origins in the Second World War, when it became obvious that the Yugoslav state did not live up to the confidence and the loyalty with which the Slovenes had joined it. The discussion on the future fate of the Slovene nation developed both in the clerical camp and in the camp which had gathered around the liberation front. Subsequently, the Yugoslav option prevailed and was intended to be based on federalism and on a Slovene autonomous republic, including the right to secession. In the framework of such a scheme the liberation front, during the war, introduced a series of administrative measures and important decisions which became the pillars of Slovene statehood (e. g. an independent army). Although the Communist Party of Yugoslavia, after it had taken over in 1945, attempted to shape the Yugoslav federation according to the principle of “democratic centralism” as it had been coined by Lenin, it did not fully succeed in oppressing the autonomist tendencies present in Slovenia. Eminent Slovene communists themselves supported such tendencies. They became all the more obvious after the split between Tito and Stalin in 1948, when Yugoslavia embarked on multifold inner reforms. The Slovene political and intellectual elites proved quite convinced and determined to pursue their autonomist goals, and soon found themselves in conflict with the Belgrade more centralist ideas. It was this conflict that proved to be a leitmotif throughout the existence of Tito’s Yugoslavia, and it was one of the central reasons for its demise.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/mts.41.2009.181-196</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7625</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7625">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/7625/6797" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7625" DMDID="DMD_rub-journals_7625">
+            <mets:fptr FILEID="FILE0_rub-journals_7625"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

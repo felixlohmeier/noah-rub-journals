@@ -1,0 +1,54 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7485">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Chinesische Begriffe der Gesellschaft zwischen der ausgehenden Qing-Zeit und den 1920er Jahren</title>
+                        <subTitle>Einige Beobachtungen und Überlegungen</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Sachsenmaier, Dominic</displayForm>
+                        <namePart type="family">Sachsenmaier</namePart>
+                        <namePart type="given">Dominic</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015-03-04</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">23</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">This article focuses on the concept of “society” and its changing terms as well as connotations in China between the late nineteenth century and the 1920s. It shows that the concept of society was often seen as a central part of a much wider transformation of China into a modern state and economy. Definitions and terms for “society” were closely wedded to a plethora of fundamental questions about China and the future world at large. Among the most contested issues was the question of what constituted the essence of Chinese society and what demarcated its boundaries. Moreover, there was the problem whether Chinese society would primarily be the result of a great enterprise characterised by radical transformations or whether it would evolve from gradual transformations. Another contested issue was what groups could rightly see themselves as the core of Chinese society, both in the present and in the future.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/mts.52.2014.199-221</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7485</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7485">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/7485/6657" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7485" DMDID="DMD_rub-journals_7485">
+            <mets:fptr FILEID="FILE0_rub-journals_7485"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

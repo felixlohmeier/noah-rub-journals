@@ -1,0 +1,68 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7254">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Oomambo wandje komuhoko wOvaherero. Lothar von Trotha’ s ‘Words to the Ovaherero people’</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Eckl, Andreas</displayForm>
+                        <namePart type="family">Eckl</namePart>
+                        <namePart type="given">Andreas</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Häussler, Matthias</displayForm>
+                        <namePart type="family">Häussler</namePart>
+                        <namePart type="given">Matthias</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Kavari, Jekura</displayForm>
+                        <namePart type="family">Kavari</namePart>
+                        <namePart type="given">Jekura</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2018-07-06</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">9</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Lothar von Trothas ‘Words to the Ovaherero people’ – or, as he himself referred to these words, the “Proklamation” or “Erlaß” (edict) – is often referred to as ‘extermination order’ (Vernichtungsbefehl), ‘firing order’ (Schießbefehl) or ‘genocide order’ (Genozidbefehl). The proclamation is crucial in the documentation of the Herero genocide. A copy of the proclamation written in Otjiherero is kept in the National Archives of Botswana. Given the significance of the document, it is appropriate to re-publish the handwritten document and to provide a transcription of the text letter by letter which is hard to decipher. As the original text contains many spelling and grammatical mistakes, a version in proper Otjherero will also be presented. Finally, a literal translation into English is provided. The latter two have been secured by Jekura Kavari, associate professor in Otjiherero Section of the Department of Language and Literature Studies at the University of Namibia (UNAM).</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7254</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7254">
+                <mets:FLocat xlink:href="https://namibian-studies.com/index.php/JNS/article/download/7254/6435" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7254" DMDID="DMD_rub-journals_7254">
+            <mets:fptr FILEID="FILE0_rub-journals_7254"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

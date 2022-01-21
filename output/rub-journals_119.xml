@@ -1,0 +1,52 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_119">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Boundary drawing and the notion of territoriality in pre-colonial and early colonial Ovamboland</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Dobler, Gregor</displayForm>
+                        <namePart type="family">Dobler</namePart>
+                        <namePart type="given">Gregor</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2014-02-21</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">24</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">In the extensive debates on borders in Africa, ‘traditional’ non-state boundaries have received scant scholarly attention. The mainstream view is still that territory, in pre-colonial societies, mattered little, as land was abundant and people were scarce. This article explores the development of notions of territoriality and internal boundaries in pre-colonial and early colonial Ovamboland. While domination had a strong territorial element in pre-colonial Ovambo polities, the territory was defined from the centre rather than from its borders. The different polities were separated by large stretches of uninhabited wilderness used for cattle posts, not for settling. When the international border between South West Africa and Angola was redrawn and demarcated in 1927 and a large number of Ovakwanyama moved from the Angolan side to South West Africa, the population increase led to the cultivation of formerly uninhabited areas and finally to the disappearance of open spaces between the different kingdoms. This provoked border disputes that strengthened the territorial element in domination. Boundaries became increasingly important for territoriality, until finally the colonial model of defining a territory from its boundaries and the local model of defining a territory from its core merged into one conception of territory. While the national border with Angola is more or less uncontested, internal border disputes continue until today. The history of boundaries in the area, and the degree to which they shifted during colonial times, shows that these disputes cannot be resolved by referring to history, but only through negotiation.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_119</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_119">
+                <mets:FLocat xlink:href="https://namibian-studies.com/index.php/JNS/article/download/119/86" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_119" DMDID="DMD_rub-journals_119">
+            <mets:fptr FILEID="FILE0_rub-journals_119"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

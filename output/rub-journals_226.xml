@@ -1,0 +1,52 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_226">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Presentations and Announcements</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Authors, Various</displayForm>
+                        <namePart type="family">Authors</namePart>
+                        <namePart type="given">Various</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2014-05-28</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">12</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">• Dreibändige Edition “Deutschland – Russland – Komintern” • S. A. Smith (ed.): The Oxford Handbook of the History of Communism, Oxford e.a., Oxford University Press, 2014. 672 pp. (Oxford Handbooks in History). – ISBN 978-0199602056 • Carlos Nelson Coutinho: Gramsci’s Political Thought, Leiden-Boston, Brill, 2012. XVI, 198 pp. (Historical Materialism Book Series. 38). – ISBN 978-9004228665• Walter Thys (ed.): Vom Wandervogel zum „Compañero“. Jan Andries Jolles. 1906-1942. Soldat der Weltrevolution. Dokumente zu einer Biographie [From “Wandervogel” to “Compañero“. Jan Andries Jolles, 1906-1942. Soldier of World Revolution. Materials for a Biography], Leipzig, Leipziger Universitäts-Verlag, 2012. 393 pp. – ISBN 978-3865835314• Jacob A. Zumoff: The Communist International and US Communism. 1919-1929, Leiden, Brill, 2014. Approx. 400 pp. (Historical Materialism Book Series. 82). – ISBN 978-9004219601• Kevin Morgan: Bolshevism, Syndicalism and the General Strike. The Lost Internationalist World of A.A. Purcell, London, Lawrence &amp;amp; Wishart, 2013. 480 pp. (Bolshevism and the British Left. 3). – ISBN 978-1907103544 • Andreas Petersen: Deine Schnauze wird dir in Sibirien zufrieren. Ein Jahrhundertdiktat. Erwin Jöris [Your Gob Will Freeze in Siberia! The Dictation of a Century. Erwin Jöris], Wiesbaden, marixverlag, 2012. 520 pp. – ISBN 978-3865392848 • John Eric Marot: The October Revolution in Prospect and Retrospect. Interventions in Russian and Soviet History, Leiden-Boston, Brill, 2012. X, 273 pp. (Historical Materialism Book Series. 37). – ISBN 978-9004228658 • Ludmila Thomas: Georgi Tschitscherin. „Ich hatte die Revolution und Mozart“ [Georgii Chicherin. “I Had the Revolution and Mozart”], Berlin, Karl Dietz Verlag, 2012. 287 pp. – ISBN 978-3320022754 • Gertrud Lenz: Gertrud Meyer. Ein politisches Leben im Schatten Willy Brandts. 1914-2002 [Gertrud Meyer. A Political Life in the Shadows of Willy Brandt, 1914-2002], Paderborn, Schöningh, 2013. 252 pp. – ISBN 978-3506775696 • David King: Russische revolutionäre Plakate. Bürgerkrieg und bolschewistische Periode, sozialistischer Realismus und Stalin-Ära [Russian Revolutionary Posters. Civil War and Bolshevik Period, Socialist Realism and Stalin Era]. Übersetzt von Peter Sondershausen, Essen, Mehring, 2012. 144 pp. – ISBN 978-3886340989 • Wolfgang Hesse (ed.): Die Eroberung der beobachtenden Maschinen. Zur Arbeiterfotografie der Weimarer Republik [The Conquest of the Observing Machines. Workers’ Photography in the Weimar Republic], Leipzig, Leipziger Universitäts-Verlag, 2012. 491 pp. (Schriften zur sächsischen Geschichte und Volkskunde. 37). – ISBN 978-3865836168 • Doris Danzer: Zwischen Vertrauen und Verrat. Deutschsprachige kommunistische Intellektuelle und ihre sozialen Beziehungen. 1918-1960 [Between Trust and Treason. German-language Communist Intellectuals and Their Social Relations. 1918-1960], Göttingen, V&amp;amp;R Unipress, 2012. 576 pp. (Freunde – Gönner – Getreue. 5). – ISBN 978-3899719390 • Mario Kessler: Ruth Fischer. Ein Leben mit und gegen Kommunisten. 1895-1961 [Ruth Fischer. A Life With and Against Communists, 1895-1961], Köln e.a., Böhlau, 2013. 750 pp. (Zeithistorische Studien. 51). – ISBN 978-3412210144 • Karl Steinhardt: Lebenserinnerungen eines Wiener Arbeiters [Memoirs of a Viennese Worker], hg. und eingeleitet von Manfred Mugrauer, Wien, Alfred Klahr Gesellschaft, 2013. 320 pp. (Biografische Texte zur Geschichte der österreichischen Arbeiterbewegung. 7). – ISBN 978-3950313727 • Fredrik Petersson: Willi Münzenberg, the League against Imperialism, and the Comintern, 1925-1933, Lewiston, Edwin Mellen Press/Queenston Press, 2013. 1152 pp. – ISBN 978-0773442986• Wolfgang Hesse: Körper und Zeichen. Arbeiterfotografien aus Dohna, Heidenau und Johanngeorgenstadt 1932/33, Dresden, Thelem 2013. 269 pp. (Bausteine aus dem Institut für Sächsische Geschichte und Volkskunde. 24). – ISBN 978-3942411707• Frederick C. Corney (ed.): Trotsky&apos;s Challenge. The &apos;Literary Discussion&apos; of 1924 and the Fight for the Bolshevik Revolution, Leiden e.a., Brill, 2014. Approx. 500 pp. (Historical Materialism Book Series) • Andreas Peglau: Unpolitische Wissenschaft? Wilhelm Reich und die Psychoanalyse im Nationalsozialismus [Unpolitical Science? Wilhelm Reich and Psychoanalysis during National Socialism], Gießen, Psychosozial-Verlag, 2013. 635 pp. – ISBN 978-3837920970• Todor Kuljić: Anatomija desnice. Izbor iz publicističkih radova 1978–2013 [The Anatomy of the Right: Selected Newspaper Columns, Book Reviews and Interviews 1978-2013], Beograd, Čigoja štampa, 2013. 286 p. – ISBN 978-8653100094</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_226</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_226">
+                <mets:FLocat xlink:href="https://incs.ub.rub.de/index.php/INCS/article/download/226/184" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_226" DMDID="DMD_rub-journals_226">
+            <mets:fptr FILEID="FILE0_rub-journals_226"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

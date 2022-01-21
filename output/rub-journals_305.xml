@@ -1,0 +1,52 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_305">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>An Interpretation on the Class Condition of the Communist Party of Argentina in its Formative Process, 1914-1920</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Piemonte, Víctor Augusto</displayForm>
+                        <namePart type="family">Piemonte</namePart>
+                        <namePart type="given">Víctor Augusto</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2011-09-23</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">9</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">As part of a relatively new research field, the origins of Argentinean communism were tackled by the historiographical production in an eminently uncritical way. The attention of the scholars in this regard focused mainly on the reconstruction of those facts raised around the First World War that conduced to the definitive fracture of the Socialist Party of Argentina and the emergence of the International Socialist Party (future Communist Party of Argentina). In this sense, the irruption of the communism into the Argentinean political system does not receive the necessary attention in its own specificities. On the contrary, the generalization of the hypothesis prevailed, which explains that in the implicated period the inexistence of any attempt to set up a political party with a class nature. The aim of this article is to provide an interpretative view of the formative process of the PC in Argentina. The frictions that occurred within the Argentinean socialist movement, its development in time and its implications for the party’s complex internal dynamics constitute the most important raw material at the moment in order to contribute to the discussion on the class or non-class character of the Communist Party of Argentina.University of Buenos Aires</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_305</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_305">
+                <mets:FLocat xlink:href="https://incs.ub.rub.de/index.php/INCS/article/download/305/263" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_305" DMDID="DMD_rub-journals_305">
+            <mets:fptr FILEID="FILE0_rub-journals_305"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

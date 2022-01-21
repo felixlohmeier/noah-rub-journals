@@ -1,0 +1,55 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7428">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <nonSort>The </nonSort>
+                        <title>Sex Worker Rights Movement in Canada</title>
+                        <subTitle>Challenging Legislation</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Beer, Sarah</displayForm>
+                        <namePart type="family">Beer</namePart>
+                        <namePart type="given">Sarah</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2018-05-18</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">26</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Sex worker activists in Canada identify the criminalisation of various aspects of prostitution as a major source of oppression. In an effort to improve rights and safety, two groups of sex workers brought constitutional litigation to their respective provincial courts to strike prostitution-related laws from the Criminal Code of Canada. These actions counter what might be expected based on the extant literature on the sex worker rights movement, and despite successful litigation, conditions have become more punitive. The court process brought to light many achievements and ongoing obstacles facing sex workers in Canada. Drawing on original research with activists in multiple Canadian cities, this paper examines litigation from a social movement perspective.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/mts.59.2018.71-96</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7428</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7428">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/7428/6600" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7428" DMDID="DMD_rub-journals_7428">
+            <mets:fptr FILEID="FILE0_rub-journals_7428"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

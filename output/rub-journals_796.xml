@@ -1,0 +1,64 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_796">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>This is so contemporary? Konzepte von Moderne und Zeitgenossenschaft bei Jeff Wall</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Dobbe, Martina</displayForm>
+                        <namePart type="family">Dobbe</namePart>
+                        <namePart type="given">Martina</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2017-07-09</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">21</extent>
+                    </physicalDescription>
+                    <abstract lang="ger">Zeitgenossenschaft und das Zeitgenössische werden seit den 1990er-Jahren sowohl in der Bildenden Kunst, als auch in den Kunstwissenschaften diskutiert. Vor diesem Hintergrund untersucht Martina Dobbe, wie sich Zeitgenossenschaft über die Revision oder Kritik der Modernekritik erschließt. An Jeff Walls „Morning Cleaning. Mies van der Rohe Foundation Barcelona“ (1999) – einer Arbeit, die Modernekritiken der 1920er-, der 1960er- und der 1980er-/90er-Jahre synthetisiert – exemplifiziert die Autorin, ob die (jeweilige) Modernekritik im einschließenden oder ausschließenden Sinne von Moderne und Zeitgenossenschaft spricht.</abstract>
+                    <subject lang="ger">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>Kunstgeschichte und Zeitgenossenschaft</title>
+                        </titleInfo>
+                        <part>
+                            <extent unit="page">
+                                <start>19</start>
+                                <end>39</end>
+                            </extent>
+                        </part>
+                    </relatedItem>
+                    <identifier type="doi">10.13154/kuz.1.2017.19-39</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_796</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_796">
+                <mets:FLocat xlink:href="https://ojs.ub.rub.de/index.php/KUZ/article/download/796/752" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_796" DMDID="DMD_rub-journals_796">
+            <mets:fptr FILEID="FILE0_rub-journals_796"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

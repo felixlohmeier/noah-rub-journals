@@ -1,0 +1,60 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_210">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>El “Caso Real” a la luz de la relación entre Comunismo y Peronismo</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Rodríguez, Sebastián J.</displayForm>
+                        <namePart type="family">Rodríguez</namePart>
+                        <namePart type="given">Sebastián J.</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Gurbanov, Andrés Iván</displayForm>
+                        <namePart type="family">Gurbanov</namePart>
+                        <namePart type="given">Andrés Iván</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2014-05-28</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">11</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">In the history of the Argentinian Communist Party there is a long list of expulsions which involve leaders and important groups, as the expulsions of José Penelón (1927), the “Frentistas” (1922), the “Chispistas” (1925), Rodolfo Puigróss (1946) and the railway workers who would lead the “Communist Worker Movement” years later. This paper proposes to review the removal of Juan José Real (1953), who was the Secretary of Organization, which occurs in a context of approach from Communism to Peronism, following the politics determined by the XI Party Congress (1946) which were “to support the positive and to refuse the negative” of Peron’s government. This approach has been signaled as the motive of the purge, pointing to Real as the responsable of this “deviation”. However, we believe that, without taking into account the fluctuations of the Communist Party related to the Peronism, the expulsion of Real was reduced to a mere internal affair. We suggest that it is necessary to contextualize this fact within the political process of those years.Universidad de Buenos Aires</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_210</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_210">
+                <mets:FLocat xlink:href="https://incs.ub.rub.de/index.php/INCS/article/download/210/168" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_210" DMDID="DMD_rub-journals_210">
+            <mets:fptr FILEID="FILE0_rub-journals_210"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

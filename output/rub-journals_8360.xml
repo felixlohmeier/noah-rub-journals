@@ -1,0 +1,70 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8360">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>New Related-Tweakey Boomerang and Rectangle Attacks on Deoxys-BC Including BDT Effect</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Zhao, Boxin</displayForm>
+                        <namePart type="family">Zhao</namePart>
+                        <namePart type="given">Boxin</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Dong, Xiaoyang</displayForm>
+                        <namePart type="family">Dong</namePart>
+                        <namePart type="given">Xiaoyang</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Jia, Keting</displayForm>
+                        <namePart type="family">Jia</namePart>
+                        <namePart type="given">Keting</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2019-09-20</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">31</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">In the CAESAR competition, Deoxys-I and Deoxys-II are two important authenticated encryption schemes submitted by Jean et al. Recently, Deoxys-II together with Ascon, ACORN, AEGIS-128, OCB and COLM have been selected as the final CAESAR portfolio. Notably, Deoxys-II is also the primary choice for the use case “Defense in depth”. However, Deoxys-I remains to be one of the third-round candidates of the CAESAR competition. Both Deoxys-I and Deoxys-II adopt Deoxys-BC-256 and Deoxys-BC-384 as their internal tweakable block ciphers.In this paper, we investigate the security of round-reduced Deoxys-BC-256/-384 and Deoxys-I against the related-tweakey boomerang and rectangle attacks with some new boomerang distinguishers. For Deoxys-BC-256, we present 10-round related-tweakey boomerang and rectangle attacks for the popular setting (|tweak|, |key|) = (128, 128), which reach one more round than the previous attacks in this setting. Moreover, an 11-round related-tweakey rectangle attack on Deoxys-BC-256 is given for the first time. We also put forward a 13-round related-tweakey boomerang attack in the popular setting (|tweak|, |key|) = (128, 256) for Deoxys-BC-384, while the previous attacks in this setting only work for 12 rounds at most. In addition, the first 14-round relatedtweakey rectangle attack on Deoxys-BC-384 is given when (|tweak| &amp;lt; 98, |key| &amp;gt; 286), that attacks one more round than before. Besides, we give the first 10-round rectangle attack on the authenticated encryption mode Deoxys-I-128-128 with one more round than before, and we also reduce the complexity of the related-tweakey rectangle attack on 12-round Deoxys-I-256-128 by a factor of 228. Our attacks can not be applied to (round-reduced) Deoxys-II.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tosc.v2019.i3.121-151</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8360</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8360">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/8360/7709" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8360" DMDID="DMD_rub-journals_8360">
+            <mets:fptr FILEID="FILE0_rub-journals_8360"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

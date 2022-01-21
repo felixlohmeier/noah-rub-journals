@@ -1,0 +1,103 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_766">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <nonSort>A </nonSort>
+                        <title>Security Analysis of Deoxys and its Internal Tweakable Block Ciphers</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Cid, Carlos</displayForm>
+                        <namePart type="family">Cid</namePart>
+                        <namePart type="given">Carlos</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Huang, Tao</displayForm>
+                        <namePart type="family">Huang</namePart>
+                        <namePart type="given">Tao</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Peyrin, Thomas</displayForm>
+                        <namePart type="family">Peyrin</namePart>
+                        <namePart type="given">Thomas</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Sasaki, Yu</displayForm>
+                        <namePart type="family">Sasaki</namePart>
+                        <namePart type="given">Yu</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Song, Ling</displayForm>
+                        <namePart type="family">Song</namePart>
+                        <namePart type="given">Ling</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2017-09-19</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">35</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">In this article, we provide the first independent security analysis of Deoxys, a third-round authenticated encryption candidate of the CAESAR competition, and its internal tweakable block ciphers Deoxys-BC-256 and Deoxys-BC-384. We show that the related-tweakey differential bounds provided by the designers can be greatly improved thanks to a Mixed Integer Linear Programming (MILP) based search tool. In particular, we develop a new method to incorporate linear incompatibility in the MILP model. We use this tool to generate valid differential paths for reduced-round versions of Deoxys-BC-256 and Deoxys-BC-384, later combining them into broader boomerang or rectangle attacks. Here, we also develop a new MILP model which optimises the two paths by taking into account the effect of the ladder switch technique. Interestingly, with the tweak in Deoxys-BC providing extra input as opposed to a classical block cipher, we can even consider beyond full-codebook attacks. As these primitives are based on the TWEAKEY framework, we further study how the security of the cipher is impacted when playing with the tweak/key sizes. All in all, we are able to attack 10 rounds of Deoxys-BC-256 (out of 14) and 13 rounds of Deoxys-BC-384 (out of 16). The extra rounds specified in Deoxys-BC to balance the tweak input (when compared to AES) seem to provide about the same security margin as AES-128. Finally we analyse why the authenticated encryption modes of Deoxys mostly prevent our attacks on Deoxys-BC to apply to the authenticated encryption primitive.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tosc.v2017.i3.73-107</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_766</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_766">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/766/724" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_rub-journals_766">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/766/7605" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="" ID="FILE2_rub-journals_766">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/766/7531" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_766" DMDID="DMD_rub-journals_766">
+            <mets:fptr FILEID="FILE0_rub-journals_766"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_766" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_766"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART2_rub-journals_766" LABEL="">
+                <mets:fptr FILEID="FILE2_rub-journals_766"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

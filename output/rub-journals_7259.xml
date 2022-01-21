@@ -1,0 +1,71 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7259">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Between the Altar and the Pulpit</title>
+                        <subTitle>The (New?) Materiality of the Spiritual</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Esser, Raingard</displayForm>
+                        <namePart type="family">Esser</namePart>
+                        <namePart type="given">Raingard</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Strübind, Andrea</displayForm>
+                        <namePart type="family">Strübind</namePart>
+                        <namePart type="given">Andrea</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2018-07-27</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">12</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">The special issue is based on papers presented at the international conference “Zwischen Kanzel und Altar. Die (neue) Materialität des Spirituellen” held at the Johannes a Lasco Bibliothek,&amp;nbsp;Emden in April 2016. Continuity and change in church interiors were key&amp;nbsp;concepts addressed at the conference. The studies presented here analyse&amp;nbsp;the impact of confessional change on church interiors and intentionally&amp;nbsp;move away from the cathedrals and parish churches in the political and&amp;nbsp;religious centres of early modern Europe.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/er.v7.2018.2-13</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/">CC BY-NC-ND 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7259</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7259">
+                <mets:FLocat xlink:href="https://er.ceres.rub.de/index.php/ER/article/download/7259/6438" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="text/html" ID="FILE1_rub-journals_7259">
+                <mets:FLocat xlink:href="https://er.ceres.rub.de/index.php/ER/article/download/7259/8265" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7259" DMDID="DMD_rub-journals_7259">
+            <mets:fptr FILEID="FILE0_rub-journals_7259"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_7259" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_7259"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

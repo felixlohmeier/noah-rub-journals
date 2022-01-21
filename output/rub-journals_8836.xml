@@ -1,0 +1,95 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8836">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Towards Key-recovery-attack Friendly Distinguishers</title>
+                        <subTitle>Application to GIFT-128</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Zong, Rui</displayForm>
+                        <namePart type="family">Zong</namePart>
+                        <namePart type="given">Rui</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Dong, Xiaoyang</displayForm>
+                        <namePart type="family">Dong</namePart>
+                        <namePart type="given">Xiaoyang</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Chen, Huaifeng</displayForm>
+                        <namePart type="family">Chen</namePart>
+                        <namePart type="given">Huaifeng</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Luo, Yiyuan</displayForm>
+                        <namePart type="family">Luo</namePart>
+                        <namePart type="given">Yiyuan</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Wang, Si</displayForm>
+                        <namePart type="family">Wang</namePart>
+                        <namePart type="given">Si</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Li, Zheng</displayForm>
+                        <namePart type="family">Li</namePart>
+                        <namePart type="given">Zheng</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2021-03-19</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">29</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">When analyzing a block cipher, the first step is to search for some valid distinguishers, for example, the differential trails in the differential cryptanalysis and the linear trails in the linear cryptanalysis. A distinguisher is advantageous if it can be utilized to attack more rounds and the amount of the involved key bits during the key-recovery process is small, as this leads to a long attack with a low complexity. In this article, we propose a two-step strategy to search for such advantageous distinguishers. This strategy is inspired by the intuition that if a differential is advantageous only when some properties are satisfied, then we can predefine some constraints describing these properties and search for the differentials in the small set.As applications, our strategy is used to analyze GIFT-128, which was proposed in CHES 2017. Based on some 20-round differentials, we give the first 27-round differential attack on GIFT-128, which covers one more round than the best previous result. Also, based on two 17-round linear trails, we give the first linear hull attack on GIFT-128, which covers 22 rounds. In addition, we also give some results on two GIFT-128 based AEADs GIFT-COFB and SUNDAE-GIFT.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.46586/tosc.v2021.i1.156-184</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8836</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8836">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/8836/8439" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8836" DMDID="DMD_rub-journals_8836">
+            <mets:fptr FILEID="FILE0_rub-journals_8836"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

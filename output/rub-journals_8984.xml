@@ -1,0 +1,79 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8984">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Let’s Take it Offline</title>
+                        <subTitle>Boosting Brute-Force Attacks on iPhone’s User Authentication through SCA</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Lisovets, Oleksiy</displayForm>
+                        <namePart type="family">Lisovets</namePart>
+                        <namePart type="given">Oleksiy</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Knichel, David</displayForm>
+                        <namePart type="family">Knichel</namePart>
+                        <namePart type="given">David</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Moos, Thorben</displayForm>
+                        <namePart type="family">Moos</namePart>
+                        <namePart type="given">Thorben</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Moradi, Amir</displayForm>
+                        <namePart type="family">Moradi</namePart>
+                        <namePart type="given">Amir</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2021-07-09</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">24</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">In recent years, smartphones have become an increasingly important storage facility for personal sensitive data ranging from photos and credentials up to financial and medical records like credit cards and person’s diseases. Trivially, it is critical to secure this information and only provide access to the genuine and authenticated user. Smartphone vendors have already taken exceptional care to protect user data by the means of various software and hardware security features like code signing, authenticated boot chain, dedicated co-processor and integrated cryptographic engines with hardware fused keys. Despite these obstacles, adversaries have successfully broken through various software protections in the past, leaving only the hardware as the last standing barrier between the attacker and user data. In this work, we build upon existing software vulnerabilities and break through the final barrier by performing the first publicly reported physical Side-Channel Analysis (SCA) attack on an iPhone in order to extract the hardware-fused devicespecific User Identifier (UID) key. This key – once at hand – allows the adversary to perform an offline brute-force attack on the user passcode employing an optimized and scalable implementation of the Key Derivation Function (KDF) on a Graphics Processing Unit (GPU) cluster. Once the passcode is revealed, the adversary has full access to all user data stored on the device and possibly in the cloud.As the software exploit enables acquisition and processing of hundreds of millions oftraces, this work further shows that an attacker being able to query arbitrary many chosen-data encryption/decryption requests is a realistic model, even for compact systems with advanced software protections, and emphasizes the need for assessing resilience against SCA for a very high number of traces.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.46586/tches.v2021.i3.496-519</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8984</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8984">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/8984/8561" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8984" DMDID="DMD_rub-journals_8984">
+            <mets:fptr FILEID="FILE0_rub-journals_8984"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

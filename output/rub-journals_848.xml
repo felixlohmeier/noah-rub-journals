@@ -1,0 +1,94 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_848">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>On the Generalization of Butterfly Structure</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Li, Yongqiang</displayForm>
+                        <namePart type="family">Li</namePart>
+                        <namePart type="given">Yongqiang</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Tian, Shizhu</displayForm>
+                        <namePart type="family">Tian</namePart>
+                        <namePart type="given">Shizhu</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Yu, Yuyin</displayForm>
+                        <namePart type="family">Yu</namePart>
+                        <namePart type="given">Yuyin</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Wang, Mingsheng</displayForm>
+                        <namePart type="family">Wang</namePart>
+                        <namePart type="given">Mingsheng</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2018-03-01</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">20</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Butterfly structure was proposed in CRYPTO 2016 [PUB16], and it cangenerate permutations over F22n from power permutations over F2n for odd n. Afterthat, a generalized butterfly structure was proposed in IEEE IT [CDP17], which cangenerate permutations over F22n from any permutation over F2n . There is also anothergeneralization which was given in [FFW17]. Up to now, three constructions based onbutterfly structure and Gold type permutations are proposed. In the present paper,we give a construction which contains the three previous constructions as special casesand also generates new permutations with good cryptographic properties. Moreover,we give a characterization of the number of solutions of a special system of linearequations in a more general way, which is useful to investigate the cryptographicproperties of quadratic functions obtained with butterfly construction based on Goldexponents.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tosc.v2018.i1.160-179</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_848</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_848">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/848/800" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_rub-journals_848">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/848/7621" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="" ID="FILE2_rub-journals_848">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/848/7521" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_848" DMDID="DMD_rub-journals_848">
+            <mets:fptr FILEID="FILE0_rub-journals_848"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_848" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_848"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART2_rub-journals_848" LABEL="">
+                <mets:fptr FILEID="FILE2_rub-journals_848"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

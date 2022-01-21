@@ -1,0 +1,53 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7711">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Kriegswahrzeichen des Ersten Weltkriegs im Ruhrgebiet als soziale Konstruktion der Heimatfront durch das Besitz- und Bildungsbürgertum</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Hintz, Alfred</displayForm>
+                        <namePart type="family">Hintz</namePart>
+                        <namePart type="given">Alfred</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015-01-21</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">20</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Since summer 1915 several war memorials were erected in the entire Ruhr area. In the course of the war these (nail-)memorials (“Nagel-Wahrzeichen”) did not only prepare the ground for easing social need and raising new financial sources, but also helped to increasingly mobilize the moral and patriotic attitude of people. Being faced with the tense financial situation of the communities and legal obligations to financially support the families of war veterans and war-disabled persons, the memorials served as an emotional link between front and homeland. By introducing the memorials in the media “the spirit of 1914” – implored by municipal notables and middle-class elites– should be brought to wide public attention and create continuous lasting enthusiasm for being at war, however, with moderate success only.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/mts.36.2006.45-64</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7711</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7711">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/7711/6883" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7711" DMDID="DMD_rub-journals_7711">
+            <mets:fptr FILEID="FILE0_rub-journals_7711"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,53 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_377">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Diversity education in South Africa, Mozambique and Namibia</title>
+                        <subTitle>A research agenda</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Weber, Everard</displayForm>
+                        <namePart type="family">Weber</namePart>
+                        <namePart type="given">Everard</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015-07-01</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">20</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">The literature on diversity education in southern Africa to date has not taken account of the changing composition of populations in educational institutions. Migration in the region has led to changes in the demographic profiles of schools, colleges and universities. What impact have these changes had on social relations? How are emerging social relations redefining the meaning of globalisation and regionalisation? This article provides an overview of research literature on diversity education in Mozambique, Namibia and South Africa. The concepts educational change, global¬isation, regionalisation and localisation are instructive in analysing developing social relations of race, socio-economic class, gender, national origin and ethnicity. I propose a research agenda of school-based studies that can build on our current knowledge. Such localised research can inform policy revisions at regional, national, community and school levels. Additionally, empirical studies informed by southern African perspectives can contribute to the relevant international and comparative literature.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_377</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_377">
+                <mets:FLocat xlink:href="https://namibian-studies.com/index.php/JNS/article/download/377/334" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_377" DMDID="DMD_rub-journals_377">
+            <mets:fptr FILEID="FILE0_rub-journals_377"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

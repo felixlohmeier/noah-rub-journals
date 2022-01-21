@@ -1,0 +1,54 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7533">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>“Hard Travelin”</title>
+                        <subTitle>Die Old Left und Folk Music im New Deal</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Brändle, Fabian</displayForm>
+                        <namePart type="family">Brändle</namePart>
+                        <namePart type="given">Fabian</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015-01-29</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">21</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Social movements often create new music. The old left of the United States defined itself by referring to the grass roots of American culture. Music collectors and scientists found inspiration in the songs of the working class, outsiders, cowboys and hobos. New technologies, like the gramophone and radio, and were helpful in creating collections of popular songs and in producing the first superstars of folk music. During the New Deal in the 1930s the US Democrats opened themselves more to the left and created new creative jobs and synergies for musical activists. With the rise of new popular styles, like the more apolitical country- and western-music, and the anti-communism during the McCarthy-era, folk music became unpopular before it experienced a revival in the 1960s. Its roots, however, lie in the atmosphere of the 1930s during the New Deal.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/mts.47.2012.41-61</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7533</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7533">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/7533/6705" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7533" DMDID="DMD_rub-journals_7533">
+            <mets:fptr FILEID="FILE0_rub-journals_7533"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

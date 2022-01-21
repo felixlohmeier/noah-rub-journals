@@ -1,0 +1,54 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7752">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Walter Hesselbach</title>
+                        <subTitle>Bankier der Gewerkschaften</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Schneider, Michael</displayForm>
+                        <namePart type="family">Schneider</namePart>
+                        <namePart type="given">Michael</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015-01-14</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">12</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Walter Hesselbach was born (20.1.1915) and grew up in Frankfurt/M. He was active in the socialdemocratic youth movement. After the Abitur (1933) he completed an apprenticeship as banker. Since 1940 he was soldier in the Wehrmacht and then became prisoner of war.Back in Frankfurt/M. in 1947 Hesselbach started his career as banker. Besides he was active in the Frankfurt SPD as a local politician. 1958 he got the mandate to unite the regional branches of the cooperative banks (Gemeinwirtschaftsbanken) owned by the trade unions. As head of the central executive board he formed the Bank für Gemeinwirtschaft (BfG) into one of the most successful banks of the 1960ies and 1970ies. For Hesselbach, working for the BfG was not only an economic and social task; equally important he considered his political mission: He aimed at the reconciliation between Israel and Germany, he supported the Ostpolitik of Willy Brandt and he backed up the process of democratization in Spain and Portugal. When in 1977 he retired from the executive board the BfG was on the peak of it’s success. Some years later, in 1982, the smash of the Neue Heimat marked the decline of the cooperative economy. This overshadowed the last years of Walter Hesselbach who died on the 5. November 1993.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/mts.35.2006.155-166</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7752</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7752">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/7752/6924" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7752" DMDID="DMD_rub-journals_7752">
+            <mets:fptr FILEID="FILE0_rub-journals_7752"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

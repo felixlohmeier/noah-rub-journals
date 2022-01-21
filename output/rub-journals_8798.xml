@@ -1,0 +1,71 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8798">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Combining Optimization Objectives</title>
+                        <subTitle>New Modeling Attacks on Strong PUFs</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Tobisch, Johannes</displayForm>
+                        <namePart type="family">Tobisch</namePart>
+                        <namePart type="given">Johannes</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Aghaie, Anita</displayForm>
+                        <namePart type="family">Aghaie</namePart>
+                        <namePart type="given">Anita</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Becker, Georg T.</displayForm>
+                        <namePart type="family">Becker</namePart>
+                        <namePart type="given">Georg T.</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2021-02-23</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">33</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Strong Physical Unclonable Functions (PUFs), as a promising security primitive, are supposed to be a lightweight alternative to classical cryptography for purposes such as device authentication. Most of the proposed candidates, however, have been plagued by modeling attacks breaking their security claims. The Interpose PUF (iPUF), which has been introduced at CHES 2019, was explicitly designed with state-of-the-art modeling attacks in mind and is supposed to be impossible to break by classical and reliability attacks. In this paper, we analyze its vulnerability to reliability attacks. Despite the increased difficulty, these attacks are still feasible, against the original authors’ claim. We explain how adding constraints to the modeling objective streamlines reliability attacks and allows us to model all individual components of an iPUF successfully. In order to build a practical attack, we give several novel contributions. First, we demonstrate that reliability attacks can be performed not only with covariance matrix adaptation evolution strategy (CMA-ES) but also with gradient-based optimization. Second, we show that the switch to gradient-based reliability attacks makes it possible to combine reliability attacks, weight constraints, and Logistic Regression (LR) into a single optimization objective. This framework makes modeling attacks more efficient, as it exploits knowledge of responses and reliability information at the same time. Third, we show that a differentiable model of the iPUF exists and how it can be utilized in a combined reliability attack. We confirm that iPUFs are harder to break than regular XOR Arbiter PUFs. However, we are still able to break (1,10)-iPUF instances, which were originally assumed to be secure, with less than 107 PUF response queries.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.46586/tches.v2021.i2.357-389</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8798</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8798">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/8798/8398" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8798" DMDID="DMD_rub-journals_8798">
+            <mets:fptr FILEID="FILE0_rub-journals_8798"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

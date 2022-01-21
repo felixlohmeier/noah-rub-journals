@@ -1,0 +1,78 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_889">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Separable Statistics and Multidimensional Linear Cryptanalysis</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Fauskanger, Stian</displayForm>
+                        <namePart type="family">Fauskanger</namePart>
+                        <namePart type="given">Stian</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Semaev, Igor</displayForm>
+                        <namePart type="family">Semaev</namePart>
+                        <namePart type="given">Igor</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2018-06-07</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">32</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Multidimensional linear cryptanalysis of block ciphers is improved in this work by introducing a number of new ideas. Firstly, formulae is given to compute approximate multidimensional distributions of the encryption algorithm internal bits. Conventional statistics like LLR (Logarithmic Likelihood Ratio) do not fit to work in Matsui’s Algorithm 2 for large dimension data, as the observation may depend on too many cipher key bits. So, secondly, a new statistic which reflects the structure of the cipher round is constructed instead. Thirdly, computing the statistic values that will fall into a critical region is presented as an optimisation problem for which an efficient algorithm is suggested. The algorithm works much faster than brute forcing all relevant key bits to compute the statistic. An attack for 16-round DES was implemented. We got an improvement over Matsui’s attack on DES in data and time complexity keeping success probability the same. With 241.81 plaintext blocks and success rate 0.83 (computed theoretically) we found 241.46 (which is close to the theoretically predicted number 241.81) key-candidates to 56-bit DES key. Search tree to compute the statistic values which fall into the critical region incorporated 245.45 nodes in the experiment and that is at least theoretically inferior in comparison with the final brute force. To get success probability 0.85, which is a fairer comparison to Matsui’s results, we would need 241.85 data and to brute force 241.85 key-candidates. That compares favourably with 243 achieved by Matsui.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tosc.v2018.i2.79-110</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_889</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_889">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/889/840" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_rub-journals_889">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/889/7564" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="" ID="FILE2_rub-journals_889">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/889/7739" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_889" DMDID="DMD_rub-journals_889">
+            <mets:fptr FILEID="FILE0_rub-journals_889"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_889" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_889"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART2_rub-journals_889" LABEL="">
+                <mets:fptr FILEID="FILE2_rub-journals_889"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,78 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8725">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Compact Dilithium Implementations on Cortex-M3 and Cortex-M4</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Greconici, Denisa O. C.</displayForm>
+                        <namePart type="family">Greconici</namePart>
+                        <namePart type="given">Denisa O. C.</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Kannwischer, Matthias J.</displayForm>
+                        <namePart type="family">Kannwischer</namePart>
+                        <namePart type="given">Matthias J.</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Sprenkels, Daan</displayForm>
+                        <namePart type="family">Sprenkels</namePart>
+                        <namePart type="given">Daan</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020-12-03</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">24</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">We present implementations of the lattice-based digital signature scheme Dilithium for ARM Cortex-M3 and ARM Cortex-M4. Dilithium is one of the three signature finalists of the NIST post-quantum cryptography competition. As our Cortex-M4 target, we use the popular STM32F407-DISCOVERY development board. Compared to the previous speed records on the Cortex-M4 by Ravi, Gupta, Chattopadhyay, and Bhasin we speed up the key operations NTT and NTT−1 by 20% which together with other optimizations results in speedups of 7%, 15%, and 9% for Dilithium3 key generation, signing, and verification respectively. We also present the first constant-time Dilithium implementation on the Cortex-M3 and use the Arduino Due for benchmarks. For Dilithium3, we achieve on average 2 562 kilocycles for key generation, 10 667 kilocycles for signing, and 2 321 kilocycles for verification.Additionally, we present stack consumption optimizations applying to both our Cortex- M3 and Cortex-M4 implementation. Due to the iterative nature of the Dilithium signing algorithm, there is no optimal way to achieve the best speed and lowest stack consumption at the same time. We present three different strategies for the signing procedure which allow trading more stack and flash memory for faster speed or viceversa. Our implementation of Dilithium3 with the smallest memory footprint uses less than 12kB. As an additional output of this work, we present the first Cortex-M3 implementations of the key-encapsulation schemes NewHope and Kyber.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.46586/tches.v2021.i1.1-24</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8725</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8725">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/8725/8325" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="" ID="FILE1_rub-journals_8725">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/8725/8599" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8725" DMDID="DMD_rub-journals_8725">
+            <mets:fptr FILEID="FILE0_rub-journals_8725"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_8725" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_8725"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

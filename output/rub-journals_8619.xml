@@ -1,0 +1,119 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8619">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>SKINNY-AEAD and SKINNY-Hash</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Beierle, Christof</displayForm>
+                        <namePart type="family">Beierle</namePart>
+                        <namePart type="given">Christof</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Jean, Jérémy</displayForm>
+                        <namePart type="family">Jean</namePart>
+                        <namePart type="given">Jérémy</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Kölbl, Stefan</displayForm>
+                        <namePart type="family">Kölbl</namePart>
+                        <namePart type="given">Stefan</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Leander, Gregor</displayForm>
+                        <namePart type="family">Leander</namePart>
+                        <namePart type="given">Gregor</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Moradi, Amir</displayForm>
+                        <namePart type="family">Moradi</namePart>
+                        <namePart type="given">Amir</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Peyrin, Thomas</displayForm>
+                        <namePart type="family">Peyrin</namePart>
+                        <namePart type="given">Thomas</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Sasaki, Yu</displayForm>
+                        <namePart type="family">Sasaki</namePart>
+                        <namePart type="given">Yu</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Sasdrich, Pascal</displayForm>
+                        <namePart type="family">Sasdrich</namePart>
+                        <namePart type="given">Pascal</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Sim, Siang Meng</displayForm>
+                        <namePart type="family">Sim</namePart>
+                        <namePart type="given">Siang Meng</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020-06-22</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">44</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">We present the family of authenticated encryption schemes SKINNY-AEAD and the family of hashing schemes SKINNY-Hash. All of the schemes employ a member of the SKINNY family of tweakable block ciphers, which was presented at CRYPTO 2016, as the underlying primitive. In particular, for authenticated encryption, we show how to instantiate members of SKINNY in the Deoxys-I-like ΘCB3 framework to fulfill the submission requirements of the NIST lightweight cryptography standardization process. For hashing, we use SKINNY to build a function with larger internal state and employ it in a sponge construction. To highlight the extensive amount of third-party analysis that SKINNY obtained since its publication, we briefly survey the existing cryptanalysis results for SKINNY-128-256 and SKINNY-128-384 as of February 2020. In the last part of the paper, we provide a variety of ASIC implementations of our schemes and propose new simple SKINNY-AEAD and SKINNY-Hash variants with a reduced number of rounds while maintaining a very comfortable security margin. 
+https://csrc.nist.gov/Projects/Lightweight-Cryptography</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tosc.v2020.iS1.88-131</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8619</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8619">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/8619/8185" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8619" DMDID="DMD_rub-journals_8619">
+            <mets:fptr FILEID="FILE0_rub-journals_8619"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

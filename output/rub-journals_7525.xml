@@ -1,0 +1,54 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7525">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Doing their own Thing</title>
+                        <subTitle>Squatting Movements in Copenhagen and Stockholm during the 1970s</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Vall, Natasha</displayForm>
+                        <namePart type="family">Vall</namePart>
+                        <namePart type="given">Natasha</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015-01-31</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">22</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">This article offers a comparative assessment of squatting and urban occupation in two Nordic cities, focussing upon the much profiled example of Christiania in Copenhagen and the lesser moment of squatter agitation in southern Stockholm during the 1970s. Firstly it examines the two cases against a backdrop of crises in the Nordic welfare state, and especially its housing model. Secondly the article places the experience of Christiania and Stockholm within the context of both the 1960s counterculture, as well as the community activism of the 1970s. Finally the comparison of Christiania Free Town in Copenhagen and the quarter Mullvaden in Stockholm emphasises the importance of creative practices to squatting and community activism during the 1970s. This theme has often formed the background of traditional studies of the political struggles mobilised by squats. However, the following discussion reveals that creative activists often played a significant role in forging international networks that carried the ambitions of alternative living beyond their local contexts.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/mts.48.2012.89-110</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7525</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7525">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/7525/6697" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7525" DMDID="DMD_rub-journals_7525">
+            <mets:fptr FILEID="FILE0_rub-journals_7525"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

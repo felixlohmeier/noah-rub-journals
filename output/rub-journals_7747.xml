@@ -1,0 +1,54 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7747">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Matthias Föcher</title>
+                        <subTitle>Ein christlicher Gewerkschafter in der Einheitsgewerkschaft</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Mertsching, Klaus</displayForm>
+                        <namePart type="family">Mertsching</namePart>
+                        <namePart type="given">Klaus</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015-01-14</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">9</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">There are only a few of biographies about christian trade unionists in Germany. The following “short biography” about Matthias Föcher shall give the impetus to further research about these trade unionists. He was one of the important christian trade unionist after the Second World War, who built up the unified trade union (Einheitsgewerkschaft) – DGB – together with Hans Böckler. Born in Köln 1886 and from the beginning of his work, he was a member of the catholic labour movement and till 1933 he was a secretary in the board of the christian metalworkers trade union. After the World War he was a “fighter” for the unified trade union even against his own party the CDU. At the founding congress of the DGB 1949 in Munich he was elect as vice chairman onto the board of the DGB. From 1949 till 1956 he was the vice chairman and even representative of that trade unionists, who where also member of the CDU.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/mts.35.2006.75-83</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7747</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7747">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/7747/6919" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7747" DMDID="DMD_rub-journals_7747">
+            <mets:fptr FILEID="FILE0_rub-journals_7747"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,70 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8748">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Forking Tweakable Even-Mansour Ciphers</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Kim, Hwigyeom</displayForm>
+                        <namePart type="family">Kim</namePart>
+                        <namePart type="given">Hwigyeom</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Lee, Yeongmin</displayForm>
+                        <namePart type="family">Lee</namePart>
+                        <namePart type="given">Yeongmin</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Lee, Jooyoung</displayForm>
+                        <namePart type="family">Lee</namePart>
+                        <namePart type="given">Jooyoung</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020-12-10</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">17</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">A forkcipher is a keyed, tweakable function mapping an n-bit input to a 2nbit output, which is equivalent to concatenating two outputs from two permutations. A forkcipher can be a useful primitive to design authenticated encryption schemes for short messages. A forkcipher is typically designed within the iterate-fork-iterate (IFI) paradigm, while the provable security of such a construction has not been widely explored.In this paper, we propose a method of constructing a forkcipher using public permutations as its building primitives. It can be seen as applying the IFI paradigm to the tweakable Even-Mansour ciphers. So our construction is dubbed the forked tweakable Even-Mansour (FTEM) cipher. Our main result is to prove that a (1, 1)-round FTEM cipher (applying a single-round TEM to a plaintext, followed by two independent copies of a single-round TEM) is secure up to 2 2n/3 queries in the ideal permutation model.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.46586/tosc.v2020.i4.71-87</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8748</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8748">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/8748/8346" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8748" DMDID="DMD_rub-journals_8748">
+            <mets:fptr FILEID="FILE0_rub-journals_8748"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

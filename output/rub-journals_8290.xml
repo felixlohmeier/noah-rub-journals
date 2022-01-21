@@ -1,0 +1,95 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8290">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Covert Gates</title>
+                        <subTitle>Protecting Integrated Circuits with Undetectable Camouflaging</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Shakya, Bicky</displayForm>
+                        <namePart type="family">Shakya</namePart>
+                        <namePart type="given">Bicky</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Shen, Haoting</displayForm>
+                        <namePart type="family">Shen</namePart>
+                        <namePart type="given">Haoting</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Tehranipoor, Mark</displayForm>
+                        <namePart type="family">Tehranipoor</namePart>
+                        <namePart type="given">Mark</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Forte, Domenic</displayForm>
+                        <namePart type="family">Forte</namePart>
+                        <namePart type="given">Domenic</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2019-05-09</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">33</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Integrated circuit (IC) camouflaging has emerged as a promising solution for protecting semiconductor intellectual property (IP) against reverse engineering. Existing methods of camouflaging are based on standard cells that can assume one of many Boolean functions, either through variation of transistor threshold voltage or contact configurations. Unfortunately, such methods lead to high area, delay and power overheads, and are vulnerable to invasive as well as non-invasive attacks based on Boolean satisfiability/VLSI testing. In this paper, we propose, fabricate, and demonstrate a new cell camouflaging strategy, termed as ‘covert gate’ that leverages doping and dummy contacts to create camouflaged cells that are indistinguishable from regular standard cells under modern imaging techniques. We perform a comprehensive security analysis of covert gate, and show that it achieves high resiliency against SAT and test-based attacks at very low overheads. We also derive models to characterize the covert cells, and develop measures to incorporate them into a gate-level design. Simulation results of overheads and attacks are presented on benchmark circuits.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tches.v2019.i3.86-118</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8290</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8290">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/8290/7640" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_rub-journals_8290">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/8290/7863" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="" ID="FILE2_rub-journals_8290">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/8290/7864" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8290" DMDID="DMD_rub-journals_8290">
+            <mets:fptr FILEID="FILE0_rub-journals_8290"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_8290" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_8290"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART2_rub-journals_8290" LABEL="">
+                <mets:fptr FILEID="FILE2_rub-journals_8290"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

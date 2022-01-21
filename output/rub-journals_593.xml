@@ -1,0 +1,79 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_593">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>SymSum</title>
+                        <subTitle>Symmetric-Sum Distinguishers Against Round Reduced SHA3</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Saha, Dhiman</displayForm>
+                        <namePart type="family">Saha</namePart>
+                        <namePart type="given">Dhiman</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Kuila, Sukhendu</displayForm>
+                        <namePart type="family">Kuila</namePart>
+                        <namePart type="given">Sukhendu</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Chowdhury, Dipanwita Roy</displayForm>
+                        <namePart type="family">Chowdhury</namePart>
+                        <namePart type="given">Dipanwita Roy</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2017-03-08</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">19</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">In this work we show the existence of special sets of inputs for which the sum of the images under SHA3 exhibits a symmetric property. We develop an analytical framework which accounts for the existence of these sets. The framework constitutes identification of a generic property of iterated SPN based functions pertaining to the round-constant addition and combining it with the notion of m−fold vectorial derivatives for differentiation over specially selected subspaces. Based on this we propose a new distinguisher called SymSum for the SHA3 family which penetrates up to 9 rounds and outperforms the ZeroSum distinguisher by a factor of four. Interestingly, the current work is the first analysis of SHA3/Keccak that relies on round-constants but is independent of their Hamming-weights.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tosc.v2017.i1.240-258</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_593</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_593">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/593/534" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_rub-journals_593">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/593/7491" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_593" DMDID="DMD_rub-journals_593">
+            <mets:fptr FILEID="FILE0_rub-journals_593"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_593" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_593"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

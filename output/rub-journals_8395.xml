@@ -1,0 +1,70 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8395">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Power Analysis on NTRU Prime</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Huang, Wei-Lun</displayForm>
+                        <namePart type="family">Huang</namePart>
+                        <namePart type="given">Wei-Lun</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Chen, Jiun-Peng</displayForm>
+                        <namePart type="family">Chen</namePart>
+                        <namePart type="given">Jiun-Peng</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Yang, Bo-Yin</displayForm>
+                        <namePart type="family">Yang</namePart>
+                        <namePart type="given">Bo-Yin</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2019-11-19</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">29</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">This paper applies a variety of power analysis techniques to several implementations of NTRU Prime, a Round 2 submission to the NIST PQC Standardization Project. The techniques include vertical correlation power analysis, horizontal indepth correlation power analysis, online template attacks, and chosen-input simple power analysis. The implementations include the reference one, the one optimized using smladx, and three protected ones. Adversaries in this study can fully recover private keys with one single trace of short observation span, with few template traces from a fully controlled device similar to the target and no a priori power model, or sometimes even with the naked eye. The techniques target the constant-time generic polynomial multiplications in the product scanning method. Though in this work they focus on the decapsulation, they also work on the key generation and encapsulation of NTRU Prime. Moreover, they apply to the ideal-lattice-based cryptosystems where each private-key coefficient comes from a small set of possibilities.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tches.v2020.i1.123-151</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8395</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8395">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/8395/7779" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8395" DMDID="DMD_rub-journals_8395">
+            <mets:fptr FILEID="FILE0_rub-journals_8395"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

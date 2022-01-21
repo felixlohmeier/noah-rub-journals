@@ -1,0 +1,87 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8562">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Low AND Depth and Efficient Inverses</title>
+                        <subTitle>a Guide on S-boxes for Low-latency Masking</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Bilgin, Begül</displayForm>
+                        <namePart type="family">Bilgin</namePart>
+                        <namePart type="given">Begül</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>De Meyer, Lauren</displayForm>
+                        <namePart type="family">De Meyer</namePart>
+                        <namePart type="given">Lauren</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Duval, Sébastien</displayForm>
+                        <namePart type="family">Duval</namePart>
+                        <namePart type="given">Sébastien</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Levi, Itamar</displayForm>
+                        <namePart type="family">Levi</namePart>
+                        <namePart type="given">Itamar</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Standaert, François-Xavier</displayForm>
+                        <namePart type="family">Standaert</namePart>
+                        <namePart type="given">François-Xavier</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020-05-07</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">41</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">In this work, we perform an extensive investigation and construct a portfolio of S-boxes suitable for secure lightweight implementations, which aligns well with the ongoing NIST Lightweight Cryptography competition. In particular, we target good functional properties on the one hand and efficient implementations in terms of AND depth and AND gate complexity on the other. Moreover, we also consider the implementation of the inverse S-box and the possibility for it to share resources with the forward S-box. We take our exploration beyond the conventional small (and even) S-box sizes. Our investigation is twofold: (1) we note that implementations of existing S-boxes are not optimized for the criteria which define masking complexity (AND depth and AND gate complexity) and improve a tool published at FSE 2016 by Stoffelen in order to fill this gap. (2) We search for new S-box designs which take these implementation properties into account from the start. We perform a systematic search based on the properties of not only the S-box but also its inverse as well as an exploration of larger S-box sizes using length-doubling structures. The result of our investigation is not only a wide selection of very good S-boxes, but we also provide complete descriptions of their circuits, enabling their integration into future work.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tosc.v2020.i1.144-184</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8562</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8562">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/8562/8133" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8562" DMDID="DMD_rub-journals_8562">
+            <mets:fptr FILEID="FILE0_rub-journals_8562"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

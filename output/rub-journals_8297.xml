@@ -1,0 +1,87 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8297">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Leaky Noise</title>
+                        <subTitle>New Side-Channel Attack Vectors in Mixed-Signal IoT Devices</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Gnad, Dennis R. E.</displayForm>
+                        <namePart type="family">Gnad</namePart>
+                        <namePart type="given">Dennis R. E.</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Krautter, Jonas</displayForm>
+                        <namePart type="family">Krautter</namePart>
+                        <namePart type="given">Jonas</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Tahoori, Mehdi B.</displayForm>
+                        <namePart type="family">Tahoori</namePart>
+                        <namePart type="given">Mehdi B.</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2019-05-09</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">35</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Microcontrollers and SoC devices have widely been used in Internet of Things applications. This also brings the question whether they lead to new security threats unseen in traditional computing systems. In fact, almost all modern SoC chips, particularly in the IoT domain, contain both analog and digital components, for various sensing and transmission tasks. Traditional remote-accessible online systems do not have this property, which can potentially become a security vulnerability. In this paper we demonstrate that such mixed-signal components, namely ADCs, expose a new security threat that allows attackers with ADC access to deduce the activity of a CPU in the system. To prove the leakage, we perform leakage assessment on three individual microcontrollers from two different vendors with various ADC settings. After showing a correlation of CPU activity with ADC noise, we continue with a leakage assessment of modular exponentiation and AES. It is shown that for all of these devices, leakage occurs for at least one algorithm and configuration of the ADC. Finally, we show a full key recovery attack on AES that works despite of the limited ADC sampling rate. These results imply that even remotely accessible microcontroller systems should be equipped with proper countermeasures against power analysis attacks, or restrict access to ADC data.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tches.v2019.i3.305-339</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8297</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8297">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/8297/7647" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_rub-journals_8297">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/8297/7877" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="" ID="FILE2_rub-journals_8297">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/8297/7878" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8297" DMDID="DMD_rub-journals_8297">
+            <mets:fptr FILEID="FILE0_rub-journals_8297"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_8297" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_8297"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART2_rub-journals_8297" LABEL="">
+                <mets:fptr FILEID="FILE2_rub-journals_8297"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

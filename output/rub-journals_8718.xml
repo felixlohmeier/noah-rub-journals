@@ -1,0 +1,53 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8718">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>My ‘1968’</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Barrow, Logie</displayForm>
+                        <namePart type="family">Barrow</namePart>
+                        <namePart type="given">Logie</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020-12-01</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">6</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">This emphasises the richness of late-1960s leftist activity; author’s reaction to the twin shocks of 1956 (Suez and Hungary) into opposition to both Western and Stalinist imperialisms; dynamics of the “International Socialist” group. On fringes of struggles at LSE; their impact. Servicing others’ struggles; full employment from 1940s allowed shopfloor momentum: ‘DIY reformism’; example: Manchester’s Roberts-Arundel struggle. GLC tenants’ movement from 1967. Arguing with pro-Enoch Powell dockers, April 1968. Differentiated solidarity with French ‘events’. August: sudden Soviet re-possession of Czechoslovakia: divergent motives on solidarity-demo. Position on Vietnam struggle; much hysteria on all sides before and during London’s Vietnam demo of 27th October. Factual and methodological convolutions of blaming the ‘1960s’ for neoliberalism.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.46586/mts.64.2020.47-52</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8718</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8718">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/8718/8318" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8718" DMDID="DMD_rub-journals_8718">
+            <mets:fptr FILEID="FILE0_rub-journals_8718"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

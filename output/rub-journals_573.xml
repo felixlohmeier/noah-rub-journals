@@ -1,0 +1,86 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_573">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Practical Key-Recovery Attack on MANTIS5</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Dobraunig, Christoph</displayForm>
+                        <namePart type="family">Dobraunig</namePart>
+                        <namePart type="given">Christoph</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Eichlseder, Maria</displayForm>
+                        <namePart type="family">Eichlseder</namePart>
+                        <namePart type="given">Maria</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Kales, Daniel</displayForm>
+                        <namePart type="family">Kales</namePart>
+                        <namePart type="given">Daniel</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Mendel, Florian</displayForm>
+                        <namePart type="family">Mendel</namePart>
+                        <namePart type="given">Florian</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2017-02-03</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">13</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">MANTIS is a lightweight tweakable block cipher published at CRYPTO 2016. In addition to the full 14-round version, MANTIS7, the designers also propose an aggressive 10-round version, MANTIS5. The security claim for MANTIS5 is resistance against “practical attacks”, defined as related-tweak attacks with data complexity 2d less than 230 chosen plaintexts (or 240 known plaintexts), and computational complexity at most 2126−d. We present a key-recovery attack against MANTIS5 with 228 chosen plaintexts and a computational complexity of about 238 block cipher calls, which violates this claim. Our attack is based on a family of differential characteristics and exploits several properties of the lightweight round function and tweakey schedule. To verify the validity of the attack, we also provide a practical implementation which recovers the full key in about 1 core hour using 230 chosen plaintexts.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tosc.v2016.i2.248-260</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_573</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_573">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/573/515" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_rub-journals_573">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/573/7469" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_573" DMDID="DMD_rub-journals_573">
+            <mets:fptr FILEID="FILE0_rub-journals_573"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_573" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_573"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

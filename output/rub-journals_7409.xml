@@ -1,0 +1,54 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7409">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Introduction</title>
+                        <subTitle>Social Movements, Protest, and Academic Knowledge Formation. Interactions since the 1960s</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Schregel, Susanne</displayForm>
+                        <namePart type="family">Schregel</namePart>
+                        <namePart type="given">Susanne</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2018-10-24</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">22</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">This introductory paper seeks to stimulate discussion on entanglements between protest campaigns, social movements and academic processes of generating knowledge in the USA and Western Europe since the 1960s. It examines how protagonists from social movements and counterculture have contributed to understandings of academic knowledge formation and its relationship to the public sphere, the role of the scientist, and the practical processes involved in generating and acquiring knowledge. Focusing on drafts of both ‘alternative’ and ‘conventional’ science and their impact on each other, the paper in particular suggests enquiring into the creative and experimental aspects of alternative scientific projects and the media in which they took form. In pursuit of this goal, it proposes to transcend the existing compartmentalisation of research in social movements and the formation of knowledge into numerous specialities, and to further broaden the dialogue between the history of social movements and the history of science and of knowledge.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/mts.60.2018.5-26</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7409</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7409">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/7409/6581" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7409" DMDID="DMD_rub-journals_7409">
+            <mets:fptr FILEID="FILE0_rub-journals_7409"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

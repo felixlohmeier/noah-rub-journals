@@ -1,0 +1,53 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7925">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Petra Kelly als Mittlerin in der transnationalen Friedensbewegung gegen den NATO-Doppelbeschluss</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Richter, Saskia</displayForm>
+                        <namePart type="family">Richter</namePart>
+                        <namePart type="given">Saskia</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2014-05-02</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">22</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">As the peace movement against the NATO Double-Track Decision should be seen as a transnational phenomenon – like it is argued in this article – the (West-)German politician of Alliance ’90/The Greens, Petra Kelly, can be interpreted as an important mediator in this transnational movement. While claiming to represent the interests of the social movement in the German Bundestag, Kelly established relations between members of the governments and anti-war protesters, acted herself as peace activist, held speeches at protest meetings in several West European Countries, in Japan and in the United States. In addition, Kelly also acted as a contact person for the East German civil rights activists and dissidents. Her widespread engagement for the peace movement evoked national and international response. By reference to relevant sources this article aims at portraying Petra Kelly’s role within both the East and the West German peace movement – embedded in a transnational context.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/mts.44.2010.21-42</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7925</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7925">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/7925/7097" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7925" DMDID="DMD_rub-journals_7925">
+            <mets:fptr FILEID="FILE0_rub-journals_7925"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,62 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8654">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Feminism, Food Sovereignty and Cross-Movement Mobilisation Against Neoliberal Globalisation in Latin America</title>
+                        <subTitle>Intertwined Genealogies</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Conway, Janet M.</displayForm>
+                        <namePart type="family">Conway</namePart>
+                        <namePart type="given">Janet M.</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Paulos, Anabel</displayForm>
+                        <namePart type="family">Paulos</namePart>
+                        <namePart type="given">Anabel</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020-07-10</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">27</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Under conditions of neoliberal globalisation, feminisms have been increasingly engaged in cross-movement mobilisations with non-feminist others around common struggles. In this article, we document the emergence of cross-movement mobilisation in Latin America around a new political axis: that of food sovereignty, and its specifically feminist aspects and effects. Deploying Foucault-inspired genealogical studies anchored in the World March of Women (WMW), we situate the feminist embrace and resignification of the discourse of food sovereignty within two larger historic processes in Latin America since the 1990s: (1) re-orientations in Latin American popular feminism; and (2) intensifying cross-movement collaboration, and connect both to an emerging transnational counter-hegemonic project of the ‘global left’ in the region in which food sovereignty became a central plank with significant feminist content. Conceptualising food sovereignty as a discourse reveals it as a site of power/knowledge and resistance in ways that do not appear in conventional social movement approaches nor through activist auto-ethnographic accounts. Throughout, we argue for the value of a genealogical approach and consider its implications for the field of social movement studies, including for the concept of cross-movement mobilisation.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/mts.63.2020.13-39</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8654</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8654">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/8654/8210" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8654" DMDID="DMD_rub-journals_8654">
+            <mets:fptr FILEID="FILE0_rub-journals_8654"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

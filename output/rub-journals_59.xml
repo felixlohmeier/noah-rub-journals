@@ -1,0 +1,53 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_59">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>From destruction to extermination</title>
+                        <subTitle>Genocidal escalation in Germany’s war against the Herero, 1904</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Häußler, Matthias</displayForm>
+                        <namePart type="family">Häußler</namePart>
+                        <namePart type="given">Matthias</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2014-01-27</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">27</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">In this treatment of the war between the Ovaherero and the German Empire during 1904 the hitherto accepted notion of a genocidal strategy, planned and executed by the Germans right from the beginning of the war until its bitter end is refuted as teleological. New positions in genocide studies and the insertion of hitherto ignored and new material challenge this by now conventional wisdom. The war and its gradually escalating violence are argued to be the result of the total failure of German strategy. A ‘genocidal war of pacification’, rather than a genocide ensued.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_59</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_59">
+                <mets:FLocat xlink:href="https://namibian-studies.com/index.php/JNS/article/download/59/36" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_59" DMDID="DMD_rub-journals_59">
+            <mets:fptr FILEID="FILE0_rub-journals_59"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

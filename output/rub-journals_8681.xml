@@ -1,0 +1,54 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8681">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Faster Montgomery and double-add ladders for short Weierstrass curves</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Hamburg, Mike</displayForm>
+                        <namePart type="family">Hamburg</namePart>
+                        <namePart type="given">Mike</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020-08-26</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">20</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">The Montgomery ladder and Joye ladder are well-known algorithms for elliptic curve scalar multiplication with a regular structure. The Montgomery ladder is best known for its implementation on Montgomery curves, which requires 5M+4S+1m+8A per scalar bit, and 6 field registers. Here (M, S,m,A) represent respectively field Multiplications, Squarings, multiplications by a curve constant, and Additions or subtractions. This ladder is also complete, meaning that it works on all input points and all scalars. Many protocols do not use Montgomery curves, but instead use prime-order curves in short Weierstrass form. These have historically been much slower, with ladders costing at least 14 multiplications or squarings per bit: 8M + 6S + 27A for the Montgomery ladder and 8M+ 6S + 30A for the Joye ladder. In 2017, Kim et al. improved the Montgomery ladder to 8M+ 4S + 12A + 1H per bit using 9 registers, where the H represents a halving. Hamburg simplified Kim et al.’s formulas to 8M+ 4S + 8A + 1H per bit using 6 registers. Here we present improved formulas which compute the Montgomery ladder on short Weierstrass curves using 8M+ 3S + 7A per bit, and requiring 6 registers. We also give formulas for the Joye ladder that use 9M+3S+7A per bit, requiring 5 registers. One of our new formulas supports very efficient 4-way vectorization. We also discuss curve invariants, exceptional points, side-channel protection and how to set up and finish these ladder operations. Finally, we show a novel technique to make these ladders complete when the curve order is not divisible by 2 or 3, at a modest increase in cost. A sample implementation of these techniques is given in the supplementary material, also posted at https://github.com/bitwiseshiftleft/ladder_formulas</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tches.v2020.i4.189-208</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8681</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8681">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/8681/8240" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8681" DMDID="DMD_rub-journals_8681">
+            <mets:fptr FILEID="FILE0_rub-journals_8681"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

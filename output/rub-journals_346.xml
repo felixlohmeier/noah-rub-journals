@@ -1,0 +1,52 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_346">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>El comunismo argentino y la organización sindical en el lugar de trabajo. Las comisiones internas en la construcción, los metalúrgicos y los textiles entre 1936 y 1943</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Ceruso, Diego</displayForm>
+                        <namePart type="family">Ceruso</namePart>
+                        <namePart type="given">Diego</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2010-07-20</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">10</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">This article intends to contribute to the debate on the organization of the industrial working class between 1936 and 1943 in the city of Buenos Aires and its surroundings. In particular, it aims at analyzing the union organization at the shop-floor level as a central strategy of the Communist groups and discusses the relations of the socalled old and new working class of Argentina and its ties with Peronism. The studies on labor organization at the shop-floor level have argued that the creation of the comisiones internas took place during Peronism (first presidency of Juan Perón: 1946-1955) and/or were created before by the employers. Our intention is to provide a more complex view of this phenomenon that shows that the main organizational characteristics of the comisiones internas were anticipated in the textile, metallurgical and construction unions (in the period before 1943). These unions, which were headed by the Communists, introduced important practices of shop-floor organization for the working class that involved the creation of comisiones internas.Universidad de Buenos Aires</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_346</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_346">
+                <mets:FLocat xlink:href="https://incs.ub.rub.de/index.php/INCS/article/download/346/304" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_346" DMDID="DMD_rub-journals_346">
+            <mets:fptr FILEID="FILE0_rub-journals_346"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

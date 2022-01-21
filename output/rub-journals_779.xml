@@ -1,0 +1,65 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_779">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <nonSort>Der </nonSort>
+                        <title>Zeitgenosse. Eine geschichtstheoretische Betrachtung</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Hölscher, Lucian</displayForm>
+                        <namePart type="family">Hölscher</namePart>
+                        <namePart type="given">Lucian</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2017-07-09</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">7</extent>
+                    </physicalDescription>
+                    <abstract lang="ger">Zeitgenossen sind die, die zur selben Zeit leben. Doch was heißt ‚zur selben Zeit‘ und was verbindet Menschen mit einander, wenn sie zur selben Zeit leben? Ausgehend von diesen Fragen geht Lucian Hölscher der Bedeutung unterschiedlicher Konzepte von ‚Zeit‘ und dem Zusammenspiel von Verzeitlichung und Zeitlosigkeit auf den Begriff des ‚Zeitgenossen‘ nach.</abstract>
+                    <subject lang="ger">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>Kunstgeschichte und Zeitgenossenschaft</title>
+                        </titleInfo>
+                        <part>
+                            <extent unit="page">
+                                <start>40</start>
+                                <end>46</end>
+                            </extent>
+                        </part>
+                    </relatedItem>
+                    <identifier type="doi">10.13154/kuz.1.2017.40-46</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_779</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_779">
+                <mets:FLocat xlink:href="https://ojs.ub.rub.de/index.php/KUZ/article/download/779/736" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_779" DMDID="DMD_rub-journals_779">
+            <mets:fptr FILEID="FILE0_rub-journals_779"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,78 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8559">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Towards Low-Energy Leakage-Resistant Authenticated Encryption from the Duplex Sponge Construction</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Guo, Chun</displayForm>
+                        <namePart type="family">Guo</namePart>
+                        <namePart type="given">Chun</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Pereira, Olivier</displayForm>
+                        <namePart type="family">Pereira</namePart>
+                        <namePart type="given">Olivier</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Peters, Thomas</displayForm>
+                        <namePart type="family">Peters</namePart>
+                        <namePart type="given">Thomas</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Standaert, François-Xavier</displayForm>
+                        <namePart type="family">Standaert</namePart>
+                        <namePart type="given">François-Xavier</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020-05-07</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">37</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">The ongoing NIST lightweight cryptography standardization process highlights the importance of resistance to side-channel attacks, which has renewed the interest for Authenticated Encryption schemes (AEs) with light(er)-weight sidechannel secure implementations. To address this challenge, our first contribution is to investigate the leakage-resistance of a generic duplex-based stream cipher. When the capacity of the duplex is of c bits, we prove the classical bound, i.e., ≈ 2c/2, under an assumption of non-invertible leakage. Based on this, we propose a new 1-pass AE mode TETSponge, which carefully combines a tweakable block cipher that must have strong protections against side-channel attacks and is scarcely used, and a duplex-style permutation that only needs weak side-channel protections and is used to frugally process the message and associated data. It offers: (i) provable integrity (resp. confidentiality) guarantees in the presence of leakage during both encryption and decryption (resp. encryption only), (ii) some level of nonce misuse robustness. We conclude that TETSponge is an appealing option for the implementation of low-energy AE in settings where side-channel attacks are a concern. We also provides the first rigorous methodology for the leakage-resistance of sponge/duplex-based AEs based on a minimal non-invertibility assumption on leakages, which leads to various insights on designs and implementations.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tosc.v2020.i1.6-42</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8559</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8559">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/8559/8130" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8559" DMDID="DMD_rub-journals_8559">
+            <mets:fptr FILEID="FILE0_rub-journals_8559"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

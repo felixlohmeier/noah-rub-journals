@@ -1,0 +1,94 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_838">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Leakage Detection with the x2-Test</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Moradi, Amir</displayForm>
+                        <namePart type="family">Moradi</namePart>
+                        <namePart type="given">Amir</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Richter, Bastian</displayForm>
+                        <namePart type="family">Richter</namePart>
+                        <namePart type="given">Bastian</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Schneider, Tobias</displayForm>
+                        <namePart type="family">Schneider</namePart>
+                        <namePart type="given">Tobias</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Standaert, François-Xavier</displayForm>
+                        <namePart type="family">Standaert</namePart>
+                        <namePart type="given">François-Xavier</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2018-02-14</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">29</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">We describe how Pearson’s χ2-test can be used as a natural complement to Welch’s t-test for black box leakage detection. In particular, we show that by using these two tests in combination, we can mitigate some of the limitations due to the moment-based nature of existing detection techniques based on Welch’s t-test (e.g., for the evaluation of higher-order masked implementations with insufficient noise). We also show that Pearson’s χ2-test is naturally suited to analyze threshold implementations with information lying in multiple statistical moments, and can be easily extended to a distinguisher for key recovery attacks. As a result, we believe the proposed test and methodology are interesting complementary ingredients of the side-channel evaluation toolbox, for black box leakage detection and non-profiled attacks, and as a preliminary before more demanding advanced analyses.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tches.v2018.i1.209-237</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_838</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_838">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/838/790" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_rub-journals_838">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/838/8012" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="" ID="FILE2_rub-journals_838">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/838/8013" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_838" DMDID="DMD_rub-journals_838">
+            <mets:fptr FILEID="FILE0_rub-journals_838"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_838" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_838"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART2_rub-journals_838" LABEL="">
+                <mets:fptr FILEID="FILE2_rub-journals_838"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

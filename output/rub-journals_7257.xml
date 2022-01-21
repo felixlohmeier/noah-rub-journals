@@ -1,0 +1,52 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7257">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>From German South West Africa to the Third Reich. Testing the continuity thesis</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Bachmann, Klaus</displayForm>
+                        <namePart type="family">Bachmann</namePart>
+                        <namePart type="given">Klaus</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2018-07-06</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">24</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">The connections between the atrocities committed by German colonial forces in German South West Africa and the mass murders perpetrated by Nazi Germany later in Central and Eastern Europe have become an important aspect of the scholarly debate about German colonialism. This article tests several elements of these continuity claims: whether there was elite continuity between the Kaiserreich and the Third Reich, whether formal and informal knowledge about the atrocities in the German colony were available to and used by the Nazi elites and whether the former German colonies played a role in foreign policy strategies of the Third Reich. The author deems it more appropriate to speak about a rupture rather than continuity between colonial elites and the Nazi movement, he argues, that formal knowledge about colonial violence was hardly available to the Nazis and they did not even consult the scarce institutional knowledge which would have been available. Informal knowledge was available but tended to downplay or negate the atrocities and therefore was unsuitable to inform policy makers of the Third Reich. Their main objective in Southern Africa was to pull South Africa out of the British war effort, rather than reconquering their former colonies.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7257</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7257">
+                <mets:FLocat xlink:href="https://namibian-studies.com/index.php/JNS/article/download/7257/6437" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7257" DMDID="DMD_rub-journals_7257">
+            <mets:fptr FILEID="FILE0_rub-journals_7257"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

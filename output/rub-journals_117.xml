@@ -1,0 +1,52 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_117">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Polemics and other arguments - a German debate reviewed</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Zollmann, Jakob</displayForm>
+                        <namePart type="family">Zollmann</namePart>
+                        <namePart type="given">Jakob</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2014-01-31</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">22</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">The German colonial past has been seemingly a non-issue among German historians for decades. In recent years however more and more research on this aspect of the German Kaiserreich has been published. For some scholars the subject of (causal) connections between &apos;Windhoek and Auschwitz&apos; seems to lie at the heart of the question of German colonialism. This article aims at depicting the arguments presented by the exponents of this school of thought. In the way they focus on the possible links of Germany&apos;s colonial past and National Socialism, it is argued in this review article, they neither show the ability to handle adequately the issue of the Holocaust nor do they extend our knowledge of Namibian history as other scholars have been able to.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_117</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_117">
+                <mets:FLocat xlink:href="https://namibian-studies.com/index.php/JNS/article/download/117/84" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_117" DMDID="DMD_rub-journals_117">
+            <mets:fptr FILEID="FILE0_rub-journals_117"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

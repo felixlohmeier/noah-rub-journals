@@ -1,0 +1,126 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_886">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Towards Low Energy Stream Ciphers</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Banik, Subhadeep</displayForm>
+                        <namePart type="family">Banik</namePart>
+                        <namePart type="given">Subhadeep</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Mikhalev, Vasily</displayForm>
+                        <namePart type="family">Mikhalev</namePart>
+                        <namePart type="given">Vasily</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Armknecht, Frederik</displayForm>
+                        <namePart type="family">Armknecht</namePart>
+                        <namePart type="given">Frederik</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Isobe, Takanori</displayForm>
+                        <namePart type="family">Isobe</namePart>
+                        <namePart type="given">Takanori</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Meier, Willi</displayForm>
+                        <namePart type="family">Meier</namePart>
+                        <namePart type="given">Willi</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Bogdanov, Andrey</displayForm>
+                        <namePart type="family">Bogdanov</namePart>
+                        <namePart type="given">Andrey</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Watanabe, Yuhei</displayForm>
+                        <namePart type="family">Watanabe</namePart>
+                        <namePart type="given">Yuhei</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Regazzoni, Francesco</displayForm>
+                        <namePart type="family">Regazzoni</namePart>
+                        <namePart type="given">Francesco</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2018-06-07</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">19</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Energy optimization is an important design aspect of lightweight cryptography. Since low energy ciphers drain less battery, they are invaluable components of devices that operate on a tight energy budget such as handheld devices or RFID tags. At Asiacrypt 2015, Banik et al. presented the block cipher family Midori which was designed to optimize the energy consumed per encryption and which reduces the energy consumption by more than 30% compared to previous block ciphers. However, if one has to encrypt/decrypt longer streams of data, i.e. for bulk data encryption/decryption, it is expected that a stream cipher should perform even better than block ciphers in terms of energy required to encrypt. In this paper, we address the question of designing low energy stream ciphers. To this end, we analyze for common stream cipher design components their impact on the energy consumption. Based on this, we give arguments why indeed stream ciphers allow for encrypting long data streams with less energy than block ciphers and validate our findings by implementations. Afterwards, we use the analysis results to identify energy minimizing design principles for stream ciphers.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tosc.v2018.i2.1-19</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_886</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_886">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/886/837" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/vnd.openxmlformats-officedocument.presentationml.presentation" ID="FILE1_rub-journals_886">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/886/7561" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="" ID="FILE2_rub-journals_886">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/886/7735" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_886" DMDID="DMD_rub-journals_886">
+            <mets:fptr FILEID="FILE0_rub-journals_886"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_886" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_886"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART2_rub-journals_886" LABEL="">
+                <mets:fptr FILEID="FILE2_rub-journals_886"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

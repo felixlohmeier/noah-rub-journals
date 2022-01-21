@@ -1,0 +1,78 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8586">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Revisiting a Methodology for Efficient CNN Architectures in Profiling Attacks</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Wouters, Lennert</displayForm>
+                        <namePart type="family">Wouters</namePart>
+                        <namePart type="given">Lennert</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Arribas, Victor</displayForm>
+                        <namePart type="family">Arribas</namePart>
+                        <namePart type="given">Victor</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Gierlichs, Benedikt</displayForm>
+                        <namePart type="family">Gierlichs</namePart>
+                        <namePart type="given">Benedikt</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Preneel, Bart</displayForm>
+                        <namePart type="family">Preneel</namePart>
+                        <namePart type="given">Bart</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020-06-19</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">22</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">This work provides a critical review of the paper by Zaid et al. titled “Methodology for Efficient CNN Architectures in Profiling attacks”, which was published in TCHES Volume 2020, Issue 1. This work studies the design of CNN networks to perform side-channel analysis of multiple implementations of the AES for embedded devices. Based on the authors’ code and public data sets, we were able to cross-check their results and perform a thorough analysis. We correct multiple misconceptions by carefully inspecting different elements of the model architectures proposed by Zaid et al. First, by providing a better understanding on the internal workings of these models, we can trivially reduce their number of parameters on average by 52%, while maintaining a similar performance. Second, we demonstrate that the convolutional filter’s size is not strictly related to the amount of misalignment in the traces. Third, we show that increasing the filter size and the number of convolutions actually improves the performance of a network. Our work demonstrates once again that reproducibility and review are important pillars of academic research. Therefore, we provide the reader with an online Python notebook which allows to reproduce some of our experiments1 and additional example code is made available on Github.2</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tches.v2020.i3.147-168</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8586</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8586">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/8586/8153" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8586" DMDID="DMD_rub-journals_8586">
+            <mets:fptr FILEID="FILE0_rub-journals_8586"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

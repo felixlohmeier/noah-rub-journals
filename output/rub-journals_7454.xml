@@ -1,0 +1,54 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7454">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <nonSort>The </nonSort>
+                        <title>Practice of Socialist Internationalism during the Twentieth Century</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Imlay, Talbot</displayForm>
+                        <namePart type="family">Imlay</namePart>
+                        <namePart type="given">Talbot</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2016-10-14</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">22</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">This article considers a neglected aspect of twentieth century European socialism: its internationalism. After each of the two world wars European socialists devoted considerable energy to reconstituting an international socialist community, the concrete manifestation of which was the creation of the Labour and Socialist International in 1923 and of the Socialist International in 1951. Animating this community was a collectivecommitment to the practice of socialist internationalism — to working together to define shared responses to pressing international issues. After 1918 and again after 1945 this collective commitment would eventually wane, sapping international socialism of its dynamism. In examining the case study of disarmament after 1918, the article suggests that the practice of socialist internationalism itself was partly responsible for this waningcommitment. The experience of working together fostered the nationalisation of socialist internationalism, as each party increasingly sought to define its position on its own, independently of other socialist parties.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/mts.55.2016.17-38</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7454</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7454">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/7454/6626" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7454" DMDID="DMD_rub-journals_7454">
+            <mets:fptr FILEID="FILE0_rub-journals_7454"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

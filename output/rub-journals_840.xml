@@ -1,0 +1,103 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_840">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Rhythmic Keccak</title>
+                        <subTitle>SCA Security and Low Latency in HW</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Arribas, Victor</displayForm>
+                        <namePart type="family">Arribas</namePart>
+                        <namePart type="given">Victor</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Bilgin, Begül</displayForm>
+                        <namePart type="family">Bilgin</namePart>
+                        <namePart type="given">Begül</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Petrides, George</displayForm>
+                        <namePart type="family">Petrides</namePart>
+                        <namePart type="given">George</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Nikova, Svetla</displayForm>
+                        <namePart type="family">Nikova</namePart>
+                        <namePart type="given">Svetla</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Rijmen, Vincent</displayForm>
+                        <namePart type="family">Rijmen</namePart>
+                        <namePart type="given">Vincent</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2018-02-14</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">22</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Glitches entail a great issue when securing a cryptographic implementation in hardware. Several masking schemes have been proposed in the literature that provide security even in the presence of glitches. The key property that allows this protection was introduced in threshold implementations as non-completeness. We address crucial points to ensure the right compliance of this property especially for low-latency implementations. Specifically, we first discuss the existence of a flaw in DSD 2017 implementation of Keccak by Gross et al. in violation of the non-completeness property and propose a solution. We perform a side-channel evaluation on the first-order and second-order implementations of the proposed design where no leakage is detected with up to 55 million traces. Then, we present a method to ensure a non-complete scheme of an unrolled implementation applicable to any order of security or algebraic degree of the shared function. By using this method we design a two-rounds unrolled first-order Keccak-</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tches.v2018.i1.269-290</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_840</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_840">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/840/792" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_rub-journals_840">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/840/8016" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="" ID="FILE2_rub-journals_840">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/840/8017" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_840" DMDID="DMD_rub-journals_840">
+            <mets:fptr FILEID="FILE0_rub-journals_840"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_840" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_840"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART2_rub-journals_840" LABEL="">
+                <mets:fptr FILEID="FILE2_rub-journals_840"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

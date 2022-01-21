@@ -1,0 +1,71 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8918">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Power Yoga</title>
+                        <subTitle>Variable-Stretch Security of CCM for Energy-Efficient Lightweight IoT</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Gjiriti, Emiljano</displayForm>
+                        <namePart type="family">Gjiriti</namePart>
+                        <namePart type="given">Emiljano</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Reyhanitabar, Reza</displayForm>
+                        <namePart type="family">Reyhanitabar</namePart>
+                        <namePart type="given">Reza</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Vizár, Damian</displayForm>
+                        <namePart type="family">Vizár</namePart>
+                        <namePart type="given">Damian</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2021-06-11</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">23</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">The currently ongoing NIST LWC project aims at identifying new standardization targets for lightweight authenticated encryption with associated data (AEAD) and (optionally) lightweight cryptographic hashing. NIST has deemed it important for performance and cost to be optimized on relevant platforms, especially for short messages. Reyhanitabar, Vaudenay and Vizár (Asiacrypt 2016) gave a formal treatment for security of nonce-based AEAD with variable stretch, i.e., when the length of the authentication tag is changed between encryptions without changing the key. They argued that AEAD supporting variable stretch is of practical interest for constrained applications, especially low-power devices operated by battery, due to the ability to flexibly trade communication overhead and level of integrity.In this work, we investigate this hypothesis with affirmative results. We present vCCM, a variable-stretch variant of the standard CCM and prove it is secure when used with variable stretch. We then experimentally measure the energy consumption of a real-world wireless sensor node when encrypting and sending messages with vCCM and CCM, respectively. Our projections show that the flexible trade of integrity level and ciphertext expansion can lead up to 21% overall energy consumption reduction in certain scenarios. As vCCM is obtained from the widely-used CCM by a black-box transformation, allowing any existing CCM implementations to be reused as-is, our results can be immediately put to use in practice. vCCM is all the more relevant because neither the NIST LWC project, nor any of the candidates give a consideration for the support of variable stretch and the related integrity-overhead trade-off.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.46586/tosc.v2021.i2.446-468</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8918</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8918">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/8918/8494" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8918" DMDID="DMD_rub-journals_8918">
+            <mets:fptr FILEID="FILE0_rub-journals_8918"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

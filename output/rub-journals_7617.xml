@@ -1,0 +1,54 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7617">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Kontinuitäten und Brüche</title>
+                        <subTitle>Der lange Weg zu einer slowenischen Wirtschaftsgeschichte des 19. und 20. Jahrhunderts</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Lazarević, Žarko</displayForm>
+                        <namePart type="family">Lazarević</namePart>
+                        <namePart type="given">Žarko</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015-01-24</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">19</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">The article delineates the development of Slovenian historiography on economic history relating to the 19th and 20th centuries. The author identifies as its fundamental feature the observation that it was, for a very long time, a rather marginalized subject. Research topics were limited, if not restricted, and mainly referred to the topic of industrialisation, while the framework of research and reference focused on Slovenia alone. Hence, the emergence of economic history as a recognisable discipline was also restricted by the given social context. After World War II and until the mid-1980s, economic history was limited by the framework of Communist interpretation patterns. As a realm of study, it began to take shape in the 1960s, the conceptual and methodological basis being of the traditional descriptive-positivistic kind. A re-structuring process became fully fledged in the early 1990s and coincided with the ongoing generational change among scholars. The number of researchers doubled, and so did the scope of research. Changes were gradual at both the conceptual and the methodological level, while it is impossible to speak of a prevailing pattern. By means of generalisation two major parallel methodological threads can be identified, one which sticks to the more traditional descriptive-positivist approach, and the other, emphasizing an ambitious problem-oriented treatment of phenomena observed over a longer period of time, and with aspirations towards inter-disciplinarity.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/mts.41.2009.51-69</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7617</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7617">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/7617/6789" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7617" DMDID="DMD_rub-journals_7617">
+            <mets:fptr FILEID="FILE0_rub-journals_7617"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

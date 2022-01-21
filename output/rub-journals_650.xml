@@ -1,0 +1,52 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_650">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Constitutionalism and principles of economic order. Examining Namibia’s ‘mixed economy’ and the economic asylum of neoliberalism</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Amupanda, Job Shipululo</displayForm>
+                        <namePart type="family">Amupanda</namePart>
+                        <namePart type="given">Job Shipululo</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2017-06-28</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">20</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">While a number of studies exist on the causes and impact of the inequality, poverty and unemployment in which the majority of Namibians are trapped, very few, if any, of these studies examine the role and place of the constitution in maintaining the status quo. Most of the studies, even those on the constitution, do not focus on the question of political economy and how it relates to the constitution. A constitution can be understood as a set of fundamental laws determining the orientation (values and principles), structure and power of the state. To understand the economic system of a given state, one ought to start by studying the constitution. In Namibia the picture is not as clear as it should be. Theory and practice, on the question of political eco­nomy, do not gel. The text analyses the constitutional principle of ‘mixed economy’ with a view to understanding – and explaining – the triumph of neoliberalism in Namibia. It concludes that given the principle of ‘mixed economy’ is not clearly defined – an unsound principle according to this text – there is a need to re-examine the constitution of the Republic of Namibia to address the question of political economy.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_650</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_650">
+                <mets:FLocat xlink:href="https://namibian-studies.com/index.php/JNS/article/download/650/616" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_650" DMDID="DMD_rub-journals_650">
+            <mets:fptr FILEID="FILE0_rub-journals_650"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

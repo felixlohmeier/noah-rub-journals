@@ -1,0 +1,53 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7462">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Refashioning Women’s Self and Mining Homemakers and Producers on the South African Mines, 1976 – 2011</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Nite, Dhiraj Kumar</displayForm>
+                        <namePart type="family">Nite</namePart>
+                        <namePart type="given">Dhiraj Kumar</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015-12-17</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">30</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">This article explores the specific ways women performed conflicting gender identities at home and when engaged in waged work in South African mines, as compared to other global cases. They fought back the belittling disreputable image of the urban working-class women and yet refused to be identified merely as acceptable housewives or mute witnesses of family disintegration. They negotiated claims for jobs, strove to salvage marriages and objected to domestic abuse. A woman compensated for marriage failure through initiating a new family structure consisting of her children, niece, nephew and / or other street children, and grooming them to achieve social advancement. Women took up the challenge of proving wrong the racist and sexist stereotypes made against them. They expressed dexterity and handiness, and occasionally, exerted themselves like men. Equally, they sought desexualisation of work relations, and qualified this pursuit with their association with “workerist” integrity and a negotiable, moralising approach to the sexual bully. They challenged the union movement on questions of dignity, propriety and representation of women. Their manner of all these negotiations could not be understood simply as a coping strategy or adaptive pattern. It expressed and, equally, added to the new African tradition of a “motherist” movement (after Gasa 2007), the union movement’s criticism of domestic servitude (after Iris Berger and Pat Gibbs 2007), the intersection of race, gender and apartheid (after Luli Callinicos 2007), and women’s rational consideration and action. A quantum of success in achieving a women-friendly work environment is discernible in the women’s life-histories, which are our primary sources.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/mts.54.2015.7-36</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7462</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7462">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/7462/6634" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7462" DMDID="DMD_rub-journals_7462">
+            <mets:fptr FILEID="FILE0_rub-journals_7462"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,62 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8361">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Substitution Attacks against Message Authentication</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Armour, Marcel</displayForm>
+                        <namePart type="family">Armour</namePart>
+                        <namePart type="given">Marcel</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Poettering, Bertram</displayForm>
+                        <namePart type="family">Poettering</namePart>
+                        <namePart type="given">Bertram</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2019-09-20</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">17</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">This work introduces Algorithm Substitution Attacks (ASAs) on message authentication schemes. In light of revelations concerning mass surveillance, ASAs were initially introduced by Bellare, Paterson and Rogaway as a novel attack class against the confidentiality of encryption schemes. Such an attack replaces one or more of the regular scheme algorithms with a subverted version that aims to reveal information to an adversary (engaged in mass surveillance), while remaining undetected by users. While most prior work focused on subverting encryption systems, we study options to subvert symmetric message authentication protocols. In particular we provide powerful generic attacks that apply e.g. to HMAC or Carter–Wegman based schemes, inducing only a negligible implementation overhead. As subverted authentication can act as an enabler for subverted encryption (software updates can be manipulated to include replacements of encryption routines), we consider attacks of the new class highly impactful and dangerous.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tosc.v2019.i3.152-168</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8361</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8361">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/8361/7710" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8361" DMDID="DMD_rub-journals_8361">
+            <mets:fptr FILEID="FILE0_rub-journals_8361"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

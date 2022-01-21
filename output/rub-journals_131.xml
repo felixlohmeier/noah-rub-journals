@@ -1,0 +1,52 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_131">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Constraints on the development of liberal ideas and practices in colonial Namibia</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Botha, Christo</displayForm>
+                        <namePart type="family">Botha</namePart>
+                        <namePart type="given">Christo</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2014-06-10</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">25</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">This paper sets out to show how the nature of colonial rule and the attitude of white Namibians made the development of a liberal culture of tolerance and cooperation almost impossible. However, there is also evidence of a movement among certain individuals and groups to assert their inalienable rights to human dignity and freedom from oppression especially since the 1970s. This cannot be seen as an initiative to promote broad-based liberal political and civil values in an institutional context, but it was of great significance for engendering a spirit of hope in the face of oppression. This paper will be followed by another which examines initiatives to promote contacts between white and black people in Namibia and create conditions for the realization of liberal values such as the rule of law, protection of property and consent of the governed.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_131</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_131">
+                <mets:FLocat xlink:href="https://namibian-studies.com/index.php/JNS/article/download/131/96" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_131" DMDID="DMD_rub-journals_131">
+            <mets:fptr FILEID="FILE0_rub-journals_131"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

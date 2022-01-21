@@ -1,0 +1,53 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_283">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Mid-Century Communisms</title>
+                        <subTitle>A Schematic Approach?</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Booth, William A.</displayForm>
+                        <namePart type="family">Booth</namePart>
+                        <namePart type="given">William A.</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2012-09-05</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">8</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">In this project presentation I will set out the fundamental discussion points raised in my paper “The Mexican Communist Party in Comparative Perspective: Towards a Schema for the Postwar Conjuncture”, delivered at the European Social Science History Conference in Glasgow in April 2012. I do so in order to invite comments and interventions relating to my central contention: that we cannot speak meaningfully of one ‘mid-century communism’, only of several (or perhaps even many) ‘mid-century communisms’. To challenge the partial revival of the monolithic conception of communism, I offer a tentative and non-exhaustive schematic of varying (and in some cases, contradictory) ‘types’ of mid-century communism.Institute for the Study of the Americas, University of London</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_283</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_283">
+                <mets:FLocat xlink:href="https://incs.ub.rub.de/index.php/INCS/article/download/283/241" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_283" DMDID="DMD_rub-journals_283">
+            <mets:fptr FILEID="FILE0_rub-journals_283"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,71 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8746">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>LM-DAE</title>
+                        <subTitle>Low-Memory Deterministic Authenticated Encryption for 128-bit Security</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Naito, Yusuke</displayForm>
+                        <namePart type="family">Naito</namePart>
+                        <namePart type="given">Yusuke</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Sasaki, Yu</displayForm>
+                        <namePart type="family">Sasaki</namePart>
+                        <namePart type="given">Yu</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Sugawara, Takeshi</displayForm>
+                        <namePart type="family">Sugawara</namePart>
+                        <namePart type="given">Takeshi</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020-12-10</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">38</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">This paper proposes a new lightweight deterministic authenticated encryption (DAE) scheme providing 128-bit security. Lightweight DAE schemes are practically important because resource-restricted devices sometimes cannot afford to manage a nonce properly. For this purpose, we first design a new mode LM-DAE that has a minimal state size and uses a tweakable block cipher (TBC). The design can be implemented with low memory and is advantageous in threshold implementations (TI) as a side-channel attack countermeasure. LM-DAE further reduces the implementation cost by eliminating the inverse tweak schedule needed in the previous TBC-based DAE modes. LM-DAE is proven to be indistinguishable from an ideal DAE up to the O(2n) query complexity for the block size n. To achieve 128-bit security, an underlying TBC must handle a 128-bit block, 128-bit key, and 128+4-bit tweak, where the 4-bit tweak comes from the domain separation. To satisfy this requirement, we extend SKINNY-128-256 with an additional 4-bit tweak, by applying the elastic-tweak proposed by Chakraborti et al. We evaluate the hardware performances of the proposed scheme with and without TI. Our LM-DAE implementation achieves 3,717 gates, roughly 15% fewer than state-of-the-art nonce-based schemes, thanks to removing the inverse tweak schedule.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.46586/tosc.v2020.i4.1-38</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8746</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8746">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/8746/8344" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8746" DMDID="DMD_rub-journals_8746">
+            <mets:fptr FILEID="FILE0_rub-journals_8746"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

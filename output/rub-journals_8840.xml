@@ -1,0 +1,70 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8840">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Accelerating the Search of Differential and Linear Characteristics with the SAT Method</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Sun, Ling</displayForm>
+                        <namePart type="family">Sun</namePart>
+                        <namePart type="given">Ling</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Wang, Wei</displayForm>
+                        <namePart type="family">Wang</namePart>
+                        <namePart type="given">Wei</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Wang, Meiqin</displayForm>
+                        <namePart type="family">Wang</namePart>
+                        <namePart type="given">Meiqin</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2021-03-19</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">47</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">The introduction of the automatic search boosts the cryptanalysis of symmetric-key primitives to some degree. However, the performance of the automatic search is not always satisfactory for the search of long trails or ciphers with large state sizes. Compared with the extensive attention on the enhancement for the search with the mixed integer linear programming (MILP) method, few works care for the acceleration of the automatic search with the Boolean satisfiability problem (SAT) or satisfiability modulo theories (SMT) method. This paper intends to fill this vacancy. Firstly, with the additional encoding variables of the sequential counter circuit for the original objective function in the standard SAT method, we put forward a new encoding method to convert the Matsui’s bounding conditions into Boolean formulas. This approach does not rely on new auxiliary variables and significantly reduces the consumption of clauses for integrating multiple bounding conditions into one SAT problem. Then, we evaluate the accelerating effect of the novel encoding method under different sets of bounding conditions. With the observations and experience in the tests, a strategy on how to create the sets of bounding conditions that probably achieve extraordinary advances is proposed. The new idea is applied to search for optimal differential and linear characteristics for multiple ciphers. For PRESENT, GIFT-64, RECTANGLE, LBlock, TWINE, and some versions in SIMON and SPECK families of block ciphers, we obtain the complete bounds (full rounds) on the number of active S-boxes, the differential probability, as well as the linear bias. The acceleration method is also employed to speed up the search of related-key differential trails for GIFT-64. Based on the newly identified 18-round distinguisher with probability 2−58, we launch a 26-round key-recovery attack with 260.96 chosen plaintexts. To our knowledge, this is the longest attack on GIFT-64. Lastly, we note that the attack result is far from threatening the security of GIFT-64 since the designers recommended users to double the number of rounds under the related-key attack setting.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.46586/tosc.v2021.i1.269-315</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8840</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8840">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/8840/8443" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8840" DMDID="DMD_rub-journals_8840">
+            <mets:fptr FILEID="FILE0_rub-journals_8840"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

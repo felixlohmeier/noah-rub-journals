@@ -1,0 +1,60 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8711">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Meeting at the Philosopher’s Stone</title>
+                        <subTitle>The Encounter of Enlightenment and Indigenous Religion in Maupertuis‘ Expedition to Lapland (1736–1737)</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Stünkel, Knut Martin</displayForm>
+                        <namePart type="family">Stünkel</namePart>
+                        <namePart type="given">Knut Martin</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020-12-03</dateIssued>
+                    </originInfo>
+                    <abstract lang="eng">Pierre-Louis Moreau de Maupertuis’ famous scientific expedition to Lapland (1736-1737) had a considerable impact on Enlightenment thought, but not only due to its groundbreaking results in the fields of geodesy and physics. Given the popularity of his journey, the few and rather prejudiced references to the Sámi people and their religion also gained some significance. In his reports and in his self-presentations, Maupertuis used certain elements of Sámi life and religiosity in order to communicate his scientific and social message to the academies and the salons of Paris. Accordingly, the references to the Sámi are indispensable elements of the self-representation and self-reference of Enlightenment mind, intended to enhance and clarify its own standing. The article examines a situation of contact of a formally and religiously operating language of scientific polemics with religious phenomena that it interprets as ‘primitive’ or ‘curious’ and that it appropriates to its particular form of discourse. Here, intellectual religion meets a ‘primitive’ one as an object of description, and makes an innovative use of its alien elements. The case study is concerned in particular with a special kind of application of the transcendence-immanence distinction involved in the contact situation, relating to the phenomenon of knowledge in form of the relation of the known and the unknown.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.46586/er.11.2020.8711</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8711</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8711">
+                <mets:FLocat xlink:href="https://er.ceres.rub.de/index.php/ER/article/download/8711/8342" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="text/html" ID="FILE1_rub-journals_8711">
+                <mets:FLocat xlink:href="https://er.ceres.rub.de/index.php/ER/article/download/8711/8343" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8711" DMDID="DMD_rub-journals_8711">
+            <mets:fptr FILEID="FILE0_rub-journals_8711"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_8711" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_8711"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

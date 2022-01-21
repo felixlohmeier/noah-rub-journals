@@ -1,0 +1,77 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7475">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>“Nothing About Us Without Us” Disability Rights Activism in European Countries – A Comparative Analysis</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Waldschmidt, Anne</displayForm>
+                        <namePart type="family">Waldschmidt</namePart>
+                        <namePart type="given">Anne</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Karačić, Anemari</displayForm>
+                        <namePart type="family">Karačić</namePart>
+                        <namePart type="given">Anemari</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Sturm, Andreas</displayForm>
+                        <namePart type="family">Sturm</namePart>
+                        <namePart type="given">Andreas</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Dins, Timo</displayForm>
+                        <namePart type="family">Dins</namePart>
+                        <namePart type="given">Timo</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015-12-17</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">36</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">This paper explores disability rights activism as a form of collective political participation. This type of organised civil society has been and continues to be vital in promoting and implementing social and political change in European societies. However, little is known about its structures and resources, activities and effects. First, this paper discusses different typologies of disability rights activism and proposes an own attempt of systematising different forms of disability rights activism. By comparing various, rationalist as well as constructivist, theoretical approaches, this article develops an integrated framework for analysing disability organisations by drawing on approaches that consider the interrelations between structure and agency. Second, applying new social movement theory, we explore identity politics and models of disability as identity frames of disability rights activism. Both aspects relate to the pivotal question of how the interests of persons with disabilities are represented in disability politics. Finally, based on documentary analysis of primary data and structured national reports findings of a comparative analysis from a sample of nine European countries (Czech Republic, Germany, Italy, Ireland, Norway, Serbia, Sweden, Switzerland, United Kingdom) are offered. There is evidence that the principle of self-representation—which is a crucial demand of the disability rights movement—has resulted in different practices at the level of national disability assemblies.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/mts.53.2015.103-138</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7475</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7475">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/7475/6647" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7475" DMDID="DMD_rub-journals_7475">
+            <mets:fptr FILEID="FILE0_rub-journals_7475"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

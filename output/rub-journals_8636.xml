@@ -1,0 +1,62 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8636">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <nonSort>The </nonSort>
+                        <title>Owambo Campaign Memorial in context</title>
+                        <subTitle>Who is being commemorated?</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Shiweda, Napandulwe</displayForm>
+                        <namePart type="family">Shiweda</namePart>
+                        <namePart type="given">Napandulwe</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Likuwa, Kletus</displayForm>
+                        <namePart type="family">Likuwa</namePart>
+                        <namePart type="given">Kletus</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020-06-30</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">22</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">This paper focuses on the Owambo Campaign Memorial in Windhoek which was erected to commemorate the British South Africa troops who died during the campaign against King Mandume at Oihole on the 6th of February 1917. It explores the origin of the Owambo Campaign memorial project and interprets memorial’s significance to Owambo people. Upon its erection in 1919, the monument was appropriated as a memorial to King Mandume because many Owambo people, particularly the Kwanyama, believed, and still believe, that the king was decapitated and that his head was later taken to Windhoek where it was buried under the monument. This paper examines the significance of the monument’s location, the events surrounding its unveiling, and the subsequent activities amid the political turbulence in the capital city. Windhoek served as an intersection point between the north, the south and the coast, with labour coming from the north to mines, harbours and farms in the south. Thus, during colonial rule many Owambo came to Windhoek as migrant labourers where they lived in compounds. The end of colonial rule, however, created a space in the city’s symbolic landscape for a new layer of postcolonial narratives to overwrite the inscribed colonial identities, memories and meanings. This paper argues that the Owambo Campaign Memorial is an important site for understanding the change of meaning process attached to monuments dedicated to colonial heroes.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8636</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8636">
+                <mets:FLocat xlink:href="https://namibian-studies.com/index.php/JNS/article/download/8636/8200" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8636" DMDID="DMD_rub-journals_8636">
+            <mets:fptr FILEID="FILE0_rub-journals_8636"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

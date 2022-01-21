@@ -1,0 +1,112 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8351">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <nonSort>The </nonSort>
+                        <title>Interpose PUF</title>
+                        <subTitle>Secure PUF Design against State-of-the-art Machine Learning Attacks</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Nguyen, Phuong Ha</displayForm>
+                        <namePart type="family">Nguyen</namePart>
+                        <namePart type="given">Phuong Ha</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Sahoo, Durga Prasad</displayForm>
+                        <namePart type="family">Sahoo</namePart>
+                        <namePart type="given">Durga Prasad</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Jin, Chenglu</displayForm>
+                        <namePart type="family">Jin</namePart>
+                        <namePart type="given">Chenglu</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Mahmood, Kaleel</displayForm>
+                        <namePart type="family">Mahmood</namePart>
+                        <namePart type="given">Kaleel</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Rührmair, Ulrich</displayForm>
+                        <namePart type="family">Rührmair</namePart>
+                        <namePart type="given">Ulrich</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>van Dijk, Marten</displayForm>
+                        <namePart type="family">van Dijk</namePart>
+                        <namePart type="given">Marten</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2019-08-09</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">48</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">The design of a silicon Strong Physical Unclonable Function (PUF) that is lightweight and stable, and which possesses a rigorous security argument, has been a fundamental problem in PUF research since its very beginnings in 2002. Various effective PUF modeling attacks, for example at CCS 2010 and CHES 2015, have shown that currently, no existing silicon PUF design can meet these requirements. In this paper, we introduce the novel Interpose PUF (iPUF) design, and rigorously prove its security against all known machine learning (ML) attacks, including any currently known reliability-based strategies that exploit the stability of single CRPs (we are the first to provide a detailed analysis of when the reliability based CMA-ES attack is successful and when it is not applicable). Furthermore, we provide simulations and confirm these in experiments with FPGA implementations of the iPUF, demonstrating its practicality. Our new iPUF architecture so solves the currently open problem of constructing practical, silicon Strong PUFs that are secure against state-of-the-art ML attacks.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tches.v2019.i4.243-290</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8351</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8351">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/8351/7700" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_rub-journals_8351">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/8351/7855" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="" ID="FILE2_rub-journals_8351">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/8351/7856" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8351" DMDID="DMD_rub-journals_8351">
+            <mets:fptr FILEID="FILE0_rub-journals_8351"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_8351" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_8351"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART2_rub-journals_8351" LABEL="">
+                <mets:fptr FILEID="FILE2_rub-journals_8351"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

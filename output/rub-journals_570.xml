@@ -1,0 +1,70 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_570">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Improved Parameter Estimates for Correlation and Capacity Deviates in Linear Cryptanalysis</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Blondeau, Céline</displayForm>
+                        <namePart type="family">Blondeau</namePart>
+                        <namePart type="given">Céline</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Nyberg, Kaisa</displayForm>
+                        <namePart type="family">Nyberg</namePart>
+                        <namePart type="given">Kaisa</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2017-02-03</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">30</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Statistical attacks form an important class of attacks against block ciphers. By analyzing the distribution of the statistics involved in the attack, cryptanalysts aim at providing a good estimate of the data complexity of the attack. Recently multiple papers have drawn attention to how to improve the accuracy of the estimated success probability of linear key-recovery attacks. In particular, the effect of the key on the distribution of the sample correlation and capacity has been investigated and new statistical models developed. The major problem that remains open is how to obtain accurate estimates of the mean and variance of the correlation and capacity. In this paper, we start by presenting a solution for a linear approximation which has a linear hull comprising a number of strong linear characteristics. Then we generalize this approach to multiple and multidimensional linear cryptanalysis and derive estimates of the variance of the test statistic. Our simplest estimate can be computed given the number of the strong linear approximations involved in the offline analysis and the resulting estimate of the capacity. The results tested experimentally on SMALLPRESENT-[4] show the accuracy of the estimated variance is significantly improved. As an application we give more realistic estimates of the success probability of the multidimensional linear attack of Cho on 26 rounds of PRESENT.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tosc.v2016.i2.162-191</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_570</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_570">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/570/512" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_rub-journals_570">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/570/7600" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_570" DMDID="DMD_rub-journals_570">
+            <mets:fptr FILEID="FILE0_rub-journals_570"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_570" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_570"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

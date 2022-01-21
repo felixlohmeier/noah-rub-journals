@@ -1,0 +1,71 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8683">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>RISQ-V</title>
+                        <subTitle>Tightly Coupled RISC-V Accelerators for Post-Quantum Cryptography</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Fritzmann, Tim</displayForm>
+                        <namePart type="family">Fritzmann</namePart>
+                        <namePart type="given">Tim</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Sigl, Georg</displayForm>
+                        <namePart type="family">Sigl</namePart>
+                        <namePart type="given">Georg</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Sepúlveda, Johanna</displayForm>
+                        <namePart type="family">Sepúlveda</namePart>
+                        <namePart type="given">Johanna</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020-08-26</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">42</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Empowering electronic devices to support Post-Quantum Cryptography (PQC) is a challenging task. PQC introduces new mathematical elements and operations which are usually not easy to implement on standard processors. Especially for low cost and resource constraint devices, hardware acceleration is usually required. In addition, as the standardization process of PQC is still ongoing, a focus on maintaining flexibility is mandatory. To cope with such requirements, hardware/software co-design techniques have been recently used for developing complex and highly customized PQC solutions. However, while most of the previous works have developed loosely coupled PQC accelerators, the design of tightly coupled accelerators and Instruction Set Architecture (ISA) extensions for PQC have been barely explored. To this end, we present RISQ-V, an enhanced RISC-V architecture that integrates a set of powerful tightly coupled accelerators to speed up lattice-based PQC. RISQ-V efficiently reuses processor resources and reduces the amount of memory accesses. This significantly increases the performance while keeping the silicon area overhead low. We present three contributions. First, we propose a set of powerful hardware accelerators deeply integrated into the RISC-V pipeline. Second, we extended the RISC-V ISA with 29 new instructions to efficiently perform operations for lattice-based cryptography. Third, we implemented our RISQ-V in ASIC technology and on FPGA. We evaluated the performance of NewHope, Kyber, and Saber on RISQ-V. Compared to the pure software implementation on RISC-V, our co-design implementations show a speedup factor of up to 11.4 for NewHope, 9.6 for Kyber, and 2.7 for Saber. For the ASIC implementation, the energy consumption was reduced by factors of up to 9.5 for NewHope, 7.7 for Kyber, and 2.1 for Saber. The cell count of the CPU was increased by a factor of 1.6 compared to the original RISC-V design, which can be considered as a moderate increase for the achieved performance gain.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tches.v2020.i4.239-280</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8683</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8683">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/8683/8242" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8683" DMDID="DMD_rub-journals_8683">
+            <mets:fptr FILEID="FILE0_rub-journals_8683"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

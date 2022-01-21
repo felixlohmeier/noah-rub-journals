@@ -1,0 +1,60 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7246">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Native recruiters’ activities along the Kavango River boundary in north-east Namibia, 1925-1943</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Likuwa, Kletus</displayForm>
+                        <namePart type="family">Likuwa</namePart>
+                        <namePart type="given">Kletus</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Shiweda, Napandulwe</displayForm>
+                        <namePart type="family">Shiweda</namePart>
+                        <namePart type="given">Napandulwe</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2018-07-06</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">14</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">The article examines the activities of native recruiters along the Kavango River boundary. Native recruiters (NRs) were local people appointed by an Assistant Native Commissioner (ANC) of Rundu on behalf of the Northern Labour Organization (NLO) to recruit contract labourers from the Kavango area and Angola for farms and mines in Namibia. The article looks specifically at their collaboration with individuals and institutions in the recruiting process. It further highlights NRs difficulties of establishing networks in distant villages, the unpredictable population movements and settlement patterns across the Kavango River, conditions of wealth and food self-reliance of local communities and the Bushmen attacks as impediments to their recruiting activities.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7246</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7246">
+                <mets:FLocat xlink:href="https://namibian-studies.com/index.php/JNS/article/download/7246/6428" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7246" DMDID="DMD_rub-journals_7246">
+            <mets:fptr FILEID="FILE0_rub-journals_7246"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

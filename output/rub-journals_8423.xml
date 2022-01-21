@@ -1,0 +1,54 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8423">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <nonSort>The </nonSort>
+                        <title>rainmaker goes to court</title>
+                        <subTitle>Death, dependency, and the production of colonial ignorance</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>McKittrick, Meredith</displayForm>
+                        <namePart type="family">McKittrick</namePart>
+                        <namePart type="given">Meredith</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2019-12-06</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">20</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">In 1933, two men were charged with the murder of an Mbukushu rainmaker’s grand­children. Using colonial and court records, missionary accounts, and an interview with the rainmaker’s nephew, this article explores the subsequent murder trial and what it reveals about Mbambangandu and the larger community he ruled on the Kavango River. But it also asks why the colonial administration had so little interest in finding out the apparent truth of these deaths or – more surprisingly – understanding the nature of Mbambangandu’s power in order to circumscribe and control it. Colonial agents picked their battles – and they eschewed those that they doubted they could win. Historians write more about the battles they chose than those that they did not, more about the fields of knowledge they engaged with than those they avoided. By opting not to ask certain questions, colonial officials enabled separate, parallel projects of knowledge production and subjugation. This notion of separate projects is quite different from the idea of indirect rule as a shared project, built on the cooperation – even if under conditions of inequality – of colonial officials and African elites.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8423</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8423">
+                <mets:FLocat xlink:href="https://namibian-studies.com/index.php/JNS/article/download/8423/7796" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8423" DMDID="DMD_rub-journals_8423">
+            <mets:fptr FILEID="FILE0_rub-journals_8423"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,70 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8839">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Algebraic Collision Attacks on Keccak</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Heim Boissier, Rachelle</displayForm>
+                        <namePart type="family">Heim Boissier</namePart>
+                        <namePart type="given">Rachelle</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Noûs, Camille</displayForm>
+                        <namePart type="family">Noûs</namePart>
+                        <namePart type="given">Camille</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Rotella, Yann</displayForm>
+                        <namePart type="family">Rotella</namePart>
+                        <namePart type="given">Yann</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2021-03-19</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">30</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">In this paper, we analyze the collision resistance of the two smallest versions of Keccak which have a width of 200 and 400 bits respectively. We show that algebraic and linearization techniques can serve collision cryptanalysis by using some interesting properties of the linear part of the round function of Keccak. We present an attack on the Keccak versions that could be used in lightweight cryptography reduced to two rounds. For Keccak[40, 160] (resp. Keccak[72, 128] and Keccak[144, 256]) our attack has a computational complexity of 273 (resp. 252.5 and 2101.5) Keccak calls.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.46586/tosc.v2021.i1.239-268</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8839</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8839">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/8839/8442" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8839" DMDID="DMD_rub-journals_8839">
+            <mets:fptr FILEID="FILE0_rub-journals_8839"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

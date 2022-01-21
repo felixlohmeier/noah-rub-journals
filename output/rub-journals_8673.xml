@@ -1,0 +1,60 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8673">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>At the Edge of the World of Islam</title>
+                        <subTitle>Ibn Baṭṭūṭa in the Malay Archipelago</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Iankovskaia, Aglaia</displayForm>
+                        <namePart type="family">Iankovskaia</namePart>
+                        <namePart type="given">Aglaia</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020-11-12</dateIssued>
+                    </originInfo>
+                    <abstract lang="eng">The article focuses on Ibn Baṭṭūṭa’s account of his journey through the Malay Archipelago in the 1340s, which is remarkable in so far as it captures the region at the early stages of Islamisation, when the first Muslim sultanates emerged in North Sumatra. It describes the Arab traveller’s encounters with both Muslim and still Hindu-Buddhist inhabitants of the region, drawing the image of a frontier of the world of Islam. The article discusses the narrative techniques used in the travelogue and Ibn Baṭṭūṭa’s perceptions of the cultural border between Muslim and non-Muslim parts of the archipelago. As the author tries to demonstrate, this barrier is represented in the text as the one between the cosmopolitan but familiar Islamic world and the exoticised space beyond, and it appears to be more imagined than actually experienced, since the account seems to be largely shaped by the general narrative paradigm of the travelogue.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.46586/er.11.2020.8673</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8673</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8673">
+                <mets:FLocat xlink:href="https://er.ceres.rub.de/index.php/ER/article/download/8673/8306" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="text/html" ID="FILE1_rub-journals_8673">
+                <mets:FLocat xlink:href="https://er.ceres.rub.de/index.php/ER/article/download/8673/8307" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8673" DMDID="DMD_rub-journals_8673">
+            <mets:fptr FILEID="FILE0_rub-journals_8673"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_8673" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_8673"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,54 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_215">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <nonSort>Ein </nonSort>
+                        <title>Jahrhundertleben für ein gerechtes, brüderliches Europa</title>
+                        <subTitle>Jorge Semprún [Review essay of</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Bayerlein, Bernhard H.</displayForm>
+                        <namePart type="family">Bayerlein</namePart>
+                        <namePart type="given">Bernhard H.</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2014-05-28</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">7</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Franziska Augstein: Von Treue und Verrat. Jorge Semprún und sein Jahrhundert, München, C.H.Beck, 2008. 381 pp. – ISBN 978-3-406-57768-0Institute for Social Movements, Ruhr University Bochum</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_215</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_215">
+                <mets:FLocat xlink:href="https://incs.ub.rub.de/index.php/INCS/article/download/215/173" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_215" DMDID="DMD_rub-journals_215">
+            <mets:fptr FILEID="FILE0_rub-journals_215"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

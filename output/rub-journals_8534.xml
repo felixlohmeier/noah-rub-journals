@@ -1,0 +1,54 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8534">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <nonSort>The </nonSort>
+                        <title>Trial of Laszlo Rajk as a Prelude to the Propaganda Onslaught on Tito on the Basis of &quot;Trybuna Ludów&quot; and Local Press Accounts</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Kamiński, Bruno</displayForm>
+                        <namePart type="family">Kamiński</namePart>
+                        <namePart type="given">Bruno</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2009-01-01</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">10</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">University of Łódź (Poland)
+The political trials in the states of the Soviet bloc were a perfect opportunity to propagandistic manipulation aimed at establishing a desired image of reality in the citizens’ consciousness. The trial of the Hungarian Republic’s former Minister of Foreign Affairs, Laszlo Rajk, which was conducted in September 1949, may be seen as a classic example for the use of one political actor in order to direct the burden of accusations against another political figure from outside the inner circle. In practice, the trial of Rajk and his „accomplices“ indicated the beginning of the propaganda onslaught on the alleged instigator of the whole group&apos;s plot – the leader of Yugoslavia, Josip Broz Tito. This trial was organized in accordance with the most elaborated Soviet patterns. Bringing Yugoslavia into discredit was a necessary second step after excluding it from the Kominform due to its ideological and political shifts away from Moscow’s Marxist-Leninist line since 1947. The important element of the trial was its proper highlighting in mass media. For this reason the Hungarian authorities invited many journalists from socialist states and Western countries to report from the trial. They were supposed to be observers of the professional competence of the socialist judiciary. In reality, the journalists gathered in a courtroom were fed lies, which were professionally integrated into the bill of indictment of Rajk and which referred to the „crimes“ of Tito. The biased accounts in the socialist press were a continuation of the manipulations taking place in the courtroom. Seemingly they provided a honest and detailed picture of the situation, in fact they were supposed to smuggle an upside-down image of reality. The articles concerning Rajk’s trial, which were published in “Trybuna Ludów”, the official press organ of the PZPR (Polish United Workers’ Party) constitute the perfect example of this tendency. In these accounts, the messages embedded in the text were highlighted by special positioning and gaudy typography in order to attract the attention of the reader. The manipulative and propagandist nature of the journalists’ reports of the process is beyond doubt. This article offers a semantic-pragmatic analysis of the material from “Trybuna Ludów”, assesses the range of the press distortions, the extent to which the press complied with Moscow’s directives. It deals with one of the most important and still puzzling splits within the Communist bloc at the verge of its existence.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8534</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8534">
+                <mets:FLocat xlink:href="https://incs.ub.rub.de/index.php/INCS/article/download/8534/8100" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8534" DMDID="DMD_rub-journals_8534">
+            <mets:fptr FILEID="FILE0_rub-journals_8534"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

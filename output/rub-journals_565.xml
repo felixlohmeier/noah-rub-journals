@@ -1,0 +1,78 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_565">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>On Ciphers that Continuously Access the Non-Volatile Key</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Mikhalev, Vasily</displayForm>
+                        <namePart type="family">Mikhalev</namePart>
+                        <namePart type="given">Vasily</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Armknecht, Frederik</displayForm>
+                        <namePart type="family">Armknecht</namePart>
+                        <namePart type="given">Frederik</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Müller, Christian</displayForm>
+                        <namePart type="family">Müller</namePart>
+                        <namePart type="given">Christian</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2017-02-03</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">28</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Due to the increased use of devices with restricted resources such as limited area size, power or energy, the community has developed various techniques for designing lightweight ciphers. One approach that is increasingly discussed is to use the cipher key that is stored on the device in non-volatile memory not only for the initialization of the registers but during the encryption/decryption process as well. Recent examples are the ciphers Midori (Asiacrypt’15) and Sprout (FSE’15). This may on the one hand help to save resources, but also may allow for a stronger key involvement and hence higher security. However, only little is publicly known so far if and to what extent this approach is indeed practical. Thus, cryptographers without strong engineering background face the problem that they cannot evaluate whether certain designs are reasonable (from a practical point of view) which hinders the development of new designs.In this work, we investigate this design principle from a practical point of view. After a discussion on reasonable approaches for storing a key in non-volatile memory, motivated by several commercial products we focus on the case that the key is stored in EEPROM. Here, we highlight existing constraints and derive that some designs, based on the impact on their throughput, are better suited for the approach of continuously reading the key from all types of non-volatile memory. Based on these findings, we improve the design of Sprout for proposing a new lightweight stream cipher that (i) has a significantly smaller area size than almost all other stream ciphers and (ii) can be efficiently realized using common non-volatile memory techniques. Hence, we see our work as an important step towards putting such designs on a more solid ground and to initiate further discussions on realistic designs.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tosc.v2016.i2.52-79</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_565</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_565">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/565/507" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/vnd.openxmlformats-officedocument.presentationml.presentation" ID="FILE1_rub-journals_565">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/565/7462" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_565" DMDID="DMD_rub-journals_565">
+            <mets:fptr FILEID="FILE0_rub-journals_565"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_565" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_565"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

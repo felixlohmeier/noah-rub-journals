@@ -1,0 +1,78 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_642">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Cryptanalysis of PMACx, PMAC2x, and SIVx</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Minematsu, Kazuhiko</displayForm>
+                        <namePart type="family">Minematsu</namePart>
+                        <namePart type="given">Kazuhiko</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Iwata, Tetsu</displayForm>
+                        <namePart type="family">Iwata</namePart>
+                        <namePart type="given">Tetsu</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2017-06-19</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">15</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">At CT-RSA 2017, List and Nandi proposed two variable input length pseudorandom functions (VI-PRFs) called PMACx and PMAC2x, and a deterministic authenticated encryption scheme called SIVx. These schemes use a tweakable block cipher (TBC) as the underlying primitive, and are provably secure up to the query complexity of 2n, where n denotes the block length of the TBC. In this paper, we falsify the provable security claims by presenting concrete attacks. We show that with the query complexity of O(2n/2), i.e., with the birthday complexity, PMACx, PMAC2x, and SIVx are all insecure.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tosc.v2017.i2.162-176</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_642</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_642">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/642/610" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_rub-journals_642">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/642/7584" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="" ID="FILE2_rub-journals_642">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/642/7501" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_642" DMDID="DMD_rub-journals_642">
+            <mets:fptr FILEID="FILE0_rub-journals_642"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_642" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_642"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART2_rub-journals_642" LABEL="">
+                <mets:fptr FILEID="FILE2_rub-journals_642"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

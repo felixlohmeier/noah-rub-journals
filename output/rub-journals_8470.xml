@@ -1,0 +1,70 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8470">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>New Techniques for Searching Differential Trails in Keccak</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Liu, Guozhen</displayForm>
+                        <namePart type="family">Liu</namePart>
+                        <namePart type="given">Guozhen</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Qiu, Weidong</displayForm>
+                        <namePart type="family">Qiu</namePart>
+                        <namePart type="given">Weidong</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Tu, Yi</displayForm>
+                        <namePart type="family">Tu</namePart>
+                        <namePart type="given">Yi</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020-01-31</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">31</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Keccak-f is the permutation used in the NIST SHA-3 hash function standard. Inspired by the previous exhaustive differential trail search methods by Mella et al. at ToSC 2017, we introduce in this paper new algorithms to cover 3-round trail cores with propagation weight at least 53, up from the previous best weight 45. To achieve the goal, the concept of ideal improvement assumption is proposed to construct theoretical representative of subspaces so as to efficiently cover the search space of 3-round trail cores with at least one out-Kernel α state. Of particular note is that the exhaustiveness in 3-round trail core search of at least one out-Kernel α is only experimentally verified. With the knowledge of all 3-round trail cores of weight up to 53, lower bounds on 4/5/6-round trails are tightened to 56/58/108, from the previous 48/50/92, respectively.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tosc.v2019.i4.407-437</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8470</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8470">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/8470/8036" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8470" DMDID="DMD_rub-journals_8470">
+            <mets:fptr FILEID="FILE0_rub-journals_8470"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

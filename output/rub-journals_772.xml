@@ -1,0 +1,78 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_772">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Optimal PRFs from Blockcipher Designs</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Mennink, Bart</displayForm>
+                        <namePart type="family">Mennink</namePart>
+                        <namePart type="given">Bart</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Neves, Samuel</displayForm>
+                        <namePart type="family">Neves</namePart>
+                        <namePart type="given">Samuel</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2017-09-19</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">25</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Cryptographic modes built on top of a blockcipher usually rely on the assumption that this primitive behaves like a pseudorandom permutation (PRP). For many of these modes, including counter mode and GCM, stronger security guarantees could be derived if they were based on a PRF design. We propose a heuristic method of transforming a dedicated blockcipher design into a dedicated PRF design. Intuitively, the method consists of evaluating the blockcipher once, with one or more intermediate state values fed-forward. It shows strong resemblance with the optimally secure EDMD construction by Mennink and Neves (CRYPTO 2017), but the use of internal state values make their security analysis formally inapplicable. In support of its security, we give the rationale of relying on the EDMD function (as opposed to alternatives), and present analysis of simplified versions of our conversion method applied to the AES. We conjecture that our main proposal AES-PRF, AES with a feed-forward of the middle state, achieves close to optimal security. We apply the design to GCM and GCM-SIV, and demonstrate how it entails significant security improvements. We furthermore demonstrate how the technique extends to tweakable blockciphers and allows for security improvements in, for instance, PMAC1.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tosc.v2017.i3.228-252</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_772</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_772">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/772/730" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_rub-journals_772">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/772/7611" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="" ID="FILE2_rub-journals_772">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/772/7537" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_772" DMDID="DMD_rub-journals_772">
+            <mets:fptr FILEID="FILE0_rub-journals_772"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_772" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_772"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART2_rub-journals_772" LABEL="">
+                <mets:fptr FILEID="FILE2_rub-journals_772"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

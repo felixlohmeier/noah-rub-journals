@@ -1,0 +1,54 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7926">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Jugend zwischen Gemeinde und kommerzieller Freizeitkultur</title>
+                        <subTitle>Südwales 1945-1975</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Riediger, Julia</displayForm>
+                        <namePart type="family">Riediger</namePart>
+                        <namePart type="given">Julia</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2014-05-02</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">16</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">After the Second World War, South Wales has experienced an economic revival which was accompanied by challenging processes of societal change. In particular the role of the Free Churches as moral authorities was increasingly questioned. Julia Riediger scrutinises the impact of juveniles and young adults within this process of religious transformation by taking their positioning towards the integrative power of the chapels into account. Once the lynchpin of community life, churches started to lose their cohesive force due to growing mobility and flexibility and the dissolution of traditional social networks during the post-war decades. At the same time, they struggled to face the changing demands of the younger generation with their new self-conception and leisure-time culture. Regarding the chapels’ incapacity to successfully recapture their young clientele, the author discusses several explanatory approaches taking universal as well as specifically Welsh developments into account.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/mts.44.2010.43-58</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7926</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7926">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/7926/7098" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7926" DMDID="DMD_rub-journals_7926">
+            <mets:fptr FILEID="FILE0_rub-journals_7926"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

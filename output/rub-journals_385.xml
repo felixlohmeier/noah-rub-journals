@@ -1,0 +1,70 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_385">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <nonSort>A </nonSort>
+                        <title>new method for the local removal of the surface area of reinforced concrete</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Denkena, B.</displayForm>
+                        <namePart type="family">Denkena</namePart>
+                        <namePart type="given">B.</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Grove, T.</displayForm>
+                        <namePart type="family">Grove</namePart>
+                        <namePart type="given">T.</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Hess, U.</displayForm>
+                        <namePart type="family">Hess</namePart>
+                        <namePart type="given">U.</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015-11-25</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">11</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">The combined removal of steel and concrete during the removal of building structures is stilla challenge due to the different material properties and the resulting requirements on the cuttingtool. In this paper the authors will present a methodology, and its results, for enabling amilling process for the machining of reinforced concrete. To identify the different mechanismstaking place during cutting of the two materials concrete and steel, the machining of thesematerials were studied separately. The aim of this investigation is to identify the dominantwear mechanism and the process factors influencing the resulting cutting forces. Afterwardsthe observations and conclusions will be assigned to the cutting of the material compound.As influencing variables the size and form of the cross-section and the cutting speed wereinvestigated. Furthermore the benefit of a tool coating in milling concrete and reinforced concretewas investigated.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/icscm.3.2015.43-53</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_385</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_385">
+                <mets:FLocat xlink:href="https://icscm.ub.rub.de/index.php/ICSCM/article/download/385/342" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_385" DMDID="DMD_rub-journals_385">
+            <mets:fptr FILEID="FILE0_rub-journals_385"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

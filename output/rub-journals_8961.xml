@@ -1,0 +1,55 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8961">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <nonSort>The </nonSort>
+                        <title>varieties of selflessness</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Milliere, Raphael</displayForm>
+                        <namePart type="family">Milliere</namePart>
+                        <namePart type="given">Raphael</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020-03-24</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">41</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Many authors argue that conscious experience involves a sense of self or self-consciousness. According to the strongest version of this claim, there can be no selfless states of consciousness, namely states of consciousness that lack self-consciousness altogether. Disagreements about this claim are likely to remain merely verbal as long as the target notion of self-consciousness is not adequately specified. After distinguishing six notions of self-consciousness commonly discussed in the literature, I argue that none of the corresponding features is necessary for consciousness, because there are states of consciousness in which each of them is plausibly missing. Such states can be said to be at least partially selfless, since they lack at least one of the ways in which one could be self-conscious. Furthermore, I argue that there is also preliminary empirical evidence that some states of consciousness lack all of these six putative forms of self-consciousness. Such states might be totally selfless, insofar as they lack all the ways in which one could be self-conscious. I conclude by addressing four objections to the possibility and reportability of totally selfless states of consciousness.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.33735/phimisci.2020.I.48</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8961</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8961">
+                <mets:FLocat xlink:href="https://philosophymindscience.org/index.php/phimisci/article/download/8961/8539" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8961" DMDID="DMD_rub-journals_8961">
+            <mets:fptr FILEID="FILE0_rub-journals_8961"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,54 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7674">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <nonSort>Eine </nonSort>
+                        <title>neue Partei ‚links von der SPD‘. Überlegungen zur Bedeutung nicht-etablierter Kleinparteien im politischen System Nordrhein-Westfalens am Beispiel der WASG und Linkspartei.PDS</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Steuwer, Janosch</displayForm>
+                        <namePart type="family">Steuwer</namePart>
+                        <namePart type="given">Janosch</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015-01-21</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">28</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Up to the present day there has been only limited academic interest in small political parties without representation in parliament. The article draws attention to this aspect discussing the role of small political parties in the political system of North Rhine-Westphalia. The institutionalisation of the new party “Die Linke” is considered as a chance to survey small parties, their general function in political systems and their evolution. The article pursues in particular the question if altered political frameworks offer new options for a more effective representation of small parties. Against this background, the paper investigates in detail the changes of PDS and WASG in North Rhine-Westphalia seeking in particular reasons responsible for success and failure. In addition, this analysis assesses the chances for a permanent parliamentary representation of the new party »Die Linke«. The paper concludes with general observations and the deduction that there is no fundamental increase in the importance of small parties.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/mts.38.2007.97-124</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7674</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7674">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/7674/6846" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7674" DMDID="DMD_rub-journals_7674">
+            <mets:fptr FILEID="FILE0_rub-journals_7674"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

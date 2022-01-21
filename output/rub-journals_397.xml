@@ -1,0 +1,77 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_397">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>New Simulation based Method for the Design of Cut-Off Grinding Segments for Circular Saws</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Denkena, B.</displayForm>
+                        <namePart type="family">Denkena</namePart>
+                        <namePart type="given">B.</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Grove, T.</displayForm>
+                        <namePart type="family">Grove</namePart>
+                        <namePart type="given">T.</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Ermisch, A.</displayForm>
+                        <namePart type="family">Ermisch</namePart>
+                        <namePart type="given">A.</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Göttsching, T.</displayForm>
+                        <namePart type="family">Göttsching</namePart>
+                        <namePart type="given">T.</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015-11-25</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">11</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">A new trend in the field of cut-off grinding tools such as circular saws is the application ofdeterministic grain pattern, e.g. the ARIX-System. Although the improved performance ofthese tools has been proven in a quarry exemplarily, it is not clear how to configure anoptimized grain pattern. It is assumed that the work material, the cutting parameters and thetool dimensions have an influence on these pattern. In this paper a new method is presentedfor the design of cut-off grinding segments for circular saws with defined grain pattern, whichis based on the in-house material removal simulation software CutS. With this simulation, theinfluence of variable grain pattern on tool performance and tool life can be tested without theneed for cutting experiments. It is possible to test different material specifications through theconsideration of brittle and ductile material removal mechanisms and adjustable materialremoval factors. The influence of macroscopic and microscopic tool wear on the optimizedpositioning of grains by means of material removal rate and wear rate is investigated. Withspecial algorithms, it is also possible to simulate standard tools with stochastically distributeddiamond grains. Computed results will be compared to real cutting experiments of granitewith cut-off grinding segments designed with CutS.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/icscm.3.2015.146-156</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_397</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_397">
+                <mets:FLocat xlink:href="https://icscm.ub.rub.de/index.php/ICSCM/article/download/397/354" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_397" DMDID="DMD_rub-journals_397">
+            <mets:fptr FILEID="FILE0_rub-journals_397"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

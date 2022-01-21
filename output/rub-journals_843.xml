@@ -1,0 +1,86 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_843">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>State-Recovery Attacks on Modified Ketje Jr</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Fuhr, Thomas</displayForm>
+                        <namePart type="family">Fuhr</namePart>
+                        <namePart type="given">Thomas</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Naya-Plasencia, María</displayForm>
+                        <namePart type="family">Naya-Plasencia</namePart>
+                        <namePart type="given">María</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Rotella, Yann</displayForm>
+                        <namePart type="family">Rotella</namePart>
+                        <namePart type="given">Yann</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2018-03-01</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">28</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">In this article we study the security of the authenticated encryption algorithm Ketje against divide-and-conquer attacks. Ketje is a third-round candidate in the ongoing CAESAR competition, which shares most of its design principles with the SHA-3 hash function. Several versions of Ketje have been submitted, with different sizes for its internal state. We describe several state-recovery attacks on the smaller variant, called Ketje Jr. We show that if one increases the amount of keystream output after each round from 16 bits to 40 bits, Ketje Jr becomes vulnerable to divide-and-conquer attacks with time complexities 271.5 for the original version and 282.3 for the current tweaked version, both with a key of 96 bits. We also propose a similar attack when considering rates of 32 bits for the non-tweaked version. Our findings do not threaten the security of Ketje, but should be taken as a warning against potential future modifications that would aim at increasing the performance of the algorithm.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tosc.v2018.i1.29-56</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_843</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_843">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/843/795" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_rub-journals_843">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/843/7616" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="" ID="FILE2_rub-journals_843">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/843/7517" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_843" DMDID="DMD_rub-journals_843">
+            <mets:fptr FILEID="FILE0_rub-journals_843"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_843" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_843"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART2_rub-journals_843" LABEL="">
+                <mets:fptr FILEID="FILE2_rub-journals_843"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

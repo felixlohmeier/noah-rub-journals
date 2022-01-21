@@ -1,0 +1,53 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7660">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Raumbildung als ökonomischer, sozialer und mentaler Prozess</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Tenfelde, Klaus</displayForm>
+                        <namePart type="family">Tenfelde</namePart>
+                        <namePart type="given">Klaus</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015-01-23</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">15</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">This article shortly describes recent approaches to a renewed analysis of space (“spatial turn”) in German historiography and historical geography. It is shown that a new perception of historical space already accompanied the revival of the history of industrial regions since the 1960s (Regionalgeschichte instead of Landesgeschichte). Following Simmel, a perception of historical space as condensation of communications would make it possible to distinguish different capacities to communicate within different classes of a given society. Thus, migrant societies such as the ones that evolved from economic growth in heavy industrial regions everywhere in Europe would display a rather low capacity to construct mind space and regional identity on their own, whereas in the same regions, the middle classes developed rather poorly, so that mind space construction rested on weak shoulders. It is therefore that regional identity construction within formerly heavy industrial regions sprang off from structural change and educational reform mostly in the 1960s.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/mts.39.2008.5-19</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7660</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7660">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/7660/6832" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7660" DMDID="DMD_rub-journals_7660">
+            <mets:fptr FILEID="FILE0_rub-journals_7660"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

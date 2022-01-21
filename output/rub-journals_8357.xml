@@ -1,0 +1,71 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8357">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>DoveMAC</title>
+                        <subTitle>A TBC-based PRF with Smaller State, Full Security, and High Rate</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Grochow, Tony</displayForm>
+                        <namePart type="family">Grochow</namePart>
+                        <namePart type="given">Tony</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>List, Eik</displayForm>
+                        <namePart type="family">List</namePart>
+                        <namePart type="given">Eik</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Nandi, Mridul</displayForm>
+                        <namePart type="family">Nandi</namePart>
+                        <namePart type="given">Mridul</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2019-09-20</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">38</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Recent parallelizable message authentication codes (MACs) have demonstrated the benefit of tweakable block ciphers (TBCs) for authentication with high security guarantees. With ZMAC, Iwata et al. extended this line of research by showing that TBCs can simultaneously increase the number of message bits that are processed per primitive call. However, ZMAC and previous TBC-based MACs needed more memory than sequential constructions. While this aspect is less an issue on desktop processors, it can be unfavorable on resource-constrained platforms. In contrast, existing sequential MACs limit the number of message bits to the block length of the primitive n or below.This work proposes DoveMAC, a TBC-based PRF that reduces the memory of ZMAC-based MACs to 2n+ 2t+2k bits, where n is the state size, t the tweak length, and k the key length of the underlying primitive. DoveMAC provides (n+min(n+t))/2 bits of security, and processes n+t bits per primitive call. Our construction is the first sequential MAC that combines beyond-birthday-bound security with a rate above n bits per call. By reserving a single tweak bit for domain separation, we derive a single-key variant DoveMAC1k.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tosc.v2019.i3.43-80</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8357</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8357">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/8357/7707" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8357" DMDID="DMD_rub-journals_8357">
+            <mets:fptr FILEID="FILE0_rub-journals_8357"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

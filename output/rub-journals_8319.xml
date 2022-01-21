@@ -1,0 +1,62 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8319">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Reconstructing an S-box from its Difference Distribution Table</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Dunkelman, Orr</displayForm>
+                        <namePart type="family">Dunkelman</namePart>
+                        <namePart type="given">Orr</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Huang, Senyang</displayForm>
+                        <namePart type="family">Huang</namePart>
+                        <namePart type="given">Senyang</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2019-06-11</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">25</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">In this paper we study the problem of recovering a secret S-box from its difference distribution table (DDT). While being an interesting theoretical problem on its own, the ability to recover the S-box from the DDT of a secret S-box can be used in cryptanalytic attacks where the attacker can obtain the DDT (e.g., in Bar-On et al.’s attack on GOST), in supporting theoretical analysis of the properties of difference distribution tables (e.g., in Boura et al.’s work), or in some analysis of S-boxes with unknown design criteria (e.g., in Biryukov and Perrin’s analysis).We show that using the well established relation between the DDT and the linear approximation table (LAT), one can devise an algorithm different from the straightforward guess-and-determine (GD) algorithm proposed by Boura et al. Moreover, we show how to exploit this relation, and embed the knowledge obtained from it in the GD algorithm. We tested our new algorithm on random S-boxes of different sizes, and for random 14-bit bijective S-boxes, our results outperform the GD attack by several orders of magnitude.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tosc.v2019.i2.193-217</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8319</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8319">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/8319/7668" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8319" DMDID="DMD_rub-journals_8319">
+            <mets:fptr FILEID="FILE0_rub-journals_8319"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

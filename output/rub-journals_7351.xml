@@ -1,0 +1,53 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7351">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Migration</title>
+                        <subTitle>An account of women’s empowerment in contemporary Namibia</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Venditto, Bruno</displayForm>
+                        <namePart type="family">Venditto</namePart>
+                        <namePart type="given">Bruno</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2018-12-12</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">22</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">This paper aims to shed light on the phenomenon of human mobility in contemporary Namibia, concentrating in particular on gender relations. Family member/s by making the decision to move can be considered agents who, despite the external structural constraints they face, and/or as a result of interaction with them, seek to achieve their goals and live by their values in such a way as to change their and/or the family’s life and conditions. The research was guided by the constructivist grounded theory approach allowing the emergence of a ‘theory of migration’, which provides a better platform to assess the gender transformation brought about by internal migration in Namibia, and thus contributes to the current debate on migration. Female migration is regarded here as a conscientising process, which empowers women, giving them the opportunity to tackle the gender power relations and challenge the existing structural institutional settings.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7351</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7351">
+                <mets:FLocat xlink:href="https://namibian-studies.com/index.php/JNS/article/download/7351/6521" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7351" DMDID="DMD_rub-journals_7351">
+            <mets:fptr FILEID="FILE0_rub-journals_7351"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

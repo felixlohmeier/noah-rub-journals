@@ -1,0 +1,52 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_424">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Tenure reform in Namibia’s communal areas</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Werner, Wolfgang</displayForm>
+                        <namePart type="family">Werner</namePart>
+                        <namePart type="given">Wolfgang</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015-12-16</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">21</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Twenty-five years after Namibia gained its independence, the country continues to be characterized by a dualistic land tenure structure, this despite subsequent govern-ments’ ambitious programmes of land reform. Communal land tenure, however, has two sides to it: while it offers an important resource to the rural poor, it is also an important asset to rural elites, and this article provides a brief overview of how communal tenure reforms have gradually increased the advantages of communal tenure for ruling elites. It suggests that the nature of communal tenure in its various administrative incarnations – native reserves, homelands, communal areas – has changed from primarily providing access to land for poor households and labour migrants to becoming sites of capital accumulation. The conclusion is that without proper legal protection, households in communal areas will become increasingly vulnerable to losing access to land.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_424</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_424">
+                <mets:FLocat xlink:href="https://namibian-studies.com/index.php/JNS/article/download/424/380" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_424" DMDID="DMD_rub-journals_424">
+            <mets:fptr FILEID="FILE0_rub-journals_424"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

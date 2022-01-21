@@ -1,0 +1,54 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7548">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>„Come Together“</title>
+                        <subTitle>Transnationale Geschichtsschreibung und politikwissenschaftliche Netzwerkforschung am Beispiel politischer Parteien und europäischer Integration</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Salm, Christian</displayForm>
+                        <namePart type="family">Salm</namePart>
+                        <namePart type="given">Christian</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015-01-27</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">21</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">In the „new“ transnational history of European integration, conceptual tools from political science, notably policy network analysis, have increasingly been used to inquire into transnational cooperation as an important characteristic of European integration. One of the aims of this research agenda was to engage in truly interdisciplinary cooperation. However, in their empirical work, historians have adapted policy network concepts to the conditions of archive-based historical research in a variety of ways. While many simply used network as a fashionable descriptive metaphor, others took the concept more seriously as to a theoretical tool, based on the most recent debates in political science. Against this backdrop, this article revisits one of the key issues of the conceptual debate: What exactly is the analytical and heuristic potential of political science policy network concepts for historical research on transnational cooperation in European integration? Drawing on research on the history of transnational party cooperation in Europe, this article outlines important challenges, but also key benefits.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/mts.46.2011.131-151</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7548</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7548">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/7548/6720" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7548" DMDID="DMD_rub-journals_7548">
+            <mets:fptr FILEID="FILE0_rub-journals_7548"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

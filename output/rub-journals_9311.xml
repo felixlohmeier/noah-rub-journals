@@ -1,0 +1,87 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_9311">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>VITI</title>
+                        <subTitle>A Tiny Self-Calibrating Sensor for Power-Variation Measurement in FPGAs</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Udugama, Brian</displayForm>
+                        <namePart type="family">Udugama</namePart>
+                        <namePart type="given">Brian</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Jayasinghe, Darshana</displayForm>
+                        <namePart type="family">Jayasinghe</namePart>
+                        <namePart type="given">Darshana</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Saadat, Hassaan</displayForm>
+                        <namePart type="family">Saadat</namePart>
+                        <namePart type="given">Hassaan</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Ignjatovic, Aleksandar</displayForm>
+                        <namePart type="family">Ignjatovic</namePart>
+                        <namePart type="given">Aleksandar</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Parameswaran, Sri</displayForm>
+                        <namePart type="family">Parameswaran</namePart>
+                        <namePart type="given">Sri</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2021-11-19</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">22</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">On-chip sensors, built using reconfigurable logic resources in field programmable gate arrays (FPGAs), have been shown to sense variations in signalpropagation delay, supply voltage and power consumption. These sensors have been successfully used to deploy security attacks called Remote Power Analysis (RPA) Attacks on FPGAs. The sensors proposed thus far consume significant logic resources and some of them could be used to deploy power viruses. In this paper, a sensor (named VITI) occupying a far smaller footprint than existing sensors is presented. VITI is a self-calibrating on-chip sensor design, constructed using adjustable delay elements, flip-flops and LUT elements instead of combinational loops, bulky carry chains or latches. Self-calibration enables VITI the autonomous adaptation to differing situations (such as increased power consumption, temperature changes or placement of the sensor in faraway locations from the circuit under attack). The efficacy of VITI for power consumption measurement was evaluated using Remote Power Analysis (RPA) attacks and results demonstrate recovery of a full 128-bit Advanced Encryption Standard (AES) key with only 20,000 power traces. Experiments demonstrate that VITI consumes 1/4th and 1/16th of the area compared to state-of-the-art sensors such as time to digital converters and ring oscillators for similar effectiveness.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.46586/tches.v2022.i1.657-678</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_9311</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_9311">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/9311/8876" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_9311" DMDID="DMD_rub-journals_9311">
+            <mets:fptr FILEID="FILE0_rub-journals_9311"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

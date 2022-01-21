@@ -1,0 +1,55 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8185">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <nonSort>Die </nonSort>
+                        <title>Forschung zur Geschichte der Arbeiterschaft und der Arbeiterbewegung in England</title>
+                        <subTitle>Ein Überblick über die jüngsten Entwicklungen</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>McIvor, Arthur</displayForm>
+                        <namePart type="family">McIvor</namePart>
+                        <namePart type="given">Arthur</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2014-09-05</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">45</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">This short article reviews the recent evolution of the discipline of labour history in England from institutional history towards an expanded agenda as the social history of the working class - organised and unorganised. The key role of individual scholars and organisations in this professionalisation is noted and the main labour history research libraries and archives identified. The expansion and historiography of new areas of research - women, the unskilled, relations between the working class and labour politics, the milieux and politics of the workplace, labour management and the convergence of business and labour history - are discussed, together with the weaknesses in the discipline and the erosion in funding for labour history which has characterised the 1980s.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/mts.11.1991.14-58</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8185</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8185">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/8185/7356" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8185" DMDID="DMD_rub-journals_8185">
+            <mets:fptr FILEID="FILE0_rub-journals_8185"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

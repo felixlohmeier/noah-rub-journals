@@ -1,0 +1,53 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_267">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>David King (ed.)</title>
+                        <subTitle>Roter Stern über Russland. Eine visuelle Geschichte der Sowjetunion von 1917 bis zum Tode Stalins. Plakate, Fotografien und Zeichnungen aus der David-King-Sammlung, Essen, Mehring, 2010. 352 pp. – ISBN 978-3-88634-091-0</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Albert, Gleb J.</displayForm>
+                        <namePart type="family">Albert</namePart>
+                        <namePart type="given">Gleb J.</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2012-09-05</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">4</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">David King (ed.): Roter Stern über Russland. Eine visuelle Geschichte der Sowjetunion von 1917 bis zum Tode Stalins. Plakate, Fotografien und Zeichnungen aus der David-King-Sammlung, Essen, Mehring, 2010. 352 pp. – ISBN 978-3-88634-091-0.Bielefeld Graduate School in History and Sociology, Bielefeld University</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_267</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_267">
+                <mets:FLocat xlink:href="https://incs.ub.rub.de/index.php/INCS/article/download/267/225" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_267" DMDID="DMD_rub-journals_267">
+            <mets:fptr FILEID="FILE0_rub-journals_267"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

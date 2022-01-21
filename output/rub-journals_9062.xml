@@ -1,0 +1,86 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_9062">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Over 100x Faster Bootstrapping in Fully Homomorphic Encryption through Memory-centric Optimization with GPUs</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Jung, Wonkyung</displayForm>
+                        <namePart type="family">Jung</namePart>
+                        <namePart type="given">Wonkyung</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Kim, Sangpyo</displayForm>
+                        <namePart type="family">Kim</namePart>
+                        <namePart type="given">Sangpyo</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Ahn, Jung Ho</displayForm>
+                        <namePart type="family">Ahn</namePart>
+                        <namePart type="given">Jung Ho</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Cheon, Jung Hee</displayForm>
+                        <namePart type="family">Cheon</namePart>
+                        <namePart type="given">Jung Hee</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Lee, Younho</displayForm>
+                        <namePart type="family">Lee</namePart>
+                        <namePart type="given">Younho</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2021-08-11</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">35</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Fully Homomorphic encryption (FHE) has been gaining in popularity as an emerging means of enabling an unlimited number of operations in an encrypted message without decryption. A major drawback of FHE is its high computational cost. Specifically, a bootstrapping step that refreshes the noise accumulated through consequent FHE operations on the ciphertext can even take minutes of time. This significantly limits the practical use of FHE in numerous real applications.By exploiting the massive parallelism available in FHE, we demonstrate the first instance of the implementation of a GPU for bootstrapping CKKS, one of the most promising FHE schemes supporting the arithmetic of approximate numbers. Through analyzing CKKS operations, we discover that the major performance bottleneck is their high main-memory bandwidth requirement, which is exacerbated by leveraging existing optimizations targeted to reduce the required computation. These observations motivate us to utilize memory-centric optimizations such as kernel fusion and reordering primary functions extensively.Our GPU implementation shows a 7.02× speedup for a single CKKS multiplication compared to the state-of-the-art GPU implementation and an amortized bootstrapping time of 0.423us per bit, which corresponds to a speedup of 257× over a single-threaded CPU implementation. By applying this to logistic regression model training, we achieved a 40.0× speedup compared to the previous 8-thread CPU implementation with the same data.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.46586/tches.v2021.i4.114-148</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_9062</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_9062">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/9062/8649" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_9062" DMDID="DMD_rub-journals_9062">
+            <mets:fptr FILEID="FILE0_rub-journals_9062"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,57 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7468">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>What’s New in the History of Social Movements?</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Berger, Stefan</displayForm>
+                        <namePart type="family">Berger</namePart>
+                        <namePart type="given">Stefan</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015-12-17</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">14</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Wade Matthews: The New Left, National Identity, and the Break-Up of Britain, Leiden: Brill, 2013, ISBN: 9789004223967, 109 €.
+Sven Reichardt: Authentizität und Gemeinschaft: Linksalternatives Leben in den siebziger und frühen achtziger Jahren, Frankfurt am Main: Suhrkamp, 2014, ISBN: 9783518296752, 29,90 €.
+Shanti Sumartojo / Ben Wellings (eds.): Nation, Memory and Great War Commemoration: Mobilizing the Past in Europe, Australia and New Zealand, Berne: Peter Lang, 2014, ISBN: 9783034309370, 59,90 €.
+Robert K. Schaeffer: Social Movements and Global Social Challenge: The Rising Tide, Lanham / Maryland: Rowman &amp;amp; Littlefield, 2014, ISBN: 9781442214903, 33 USD.
+Steve A. Smith (ed.): The Oxford Handbook of the History of Communism, Oxford: Oxford University Press, 2014, ISBN: 9780199602056, 150 USD.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <identifier type="doi">10.13154/mts.54.2015.143-156</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7468</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7468">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/7468/6640" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7468" DMDID="DMD_rub-journals_7468">
+            <mets:fptr FILEID="FILE0_rub-journals_7468"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

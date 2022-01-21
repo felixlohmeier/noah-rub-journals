@@ -1,0 +1,54 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_52">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <nonSort>The </nonSort>
+                        <title>female side of male patronage</title>
+                        <subTitle>Gender perspectives on elite formation processes in Northwest Namibia</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Pauli, Julia</displayForm>
+                        <namePart type="family">Pauli</namePart>
+                        <namePart type="given">Julia</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2014-01-28</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">21</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Research on the emergence of elite cultures in Namibia has rarely taken gender into account. In my contribution, I focus on the entanglements between specific male patronage structures that have developed in Fransfontein, then Damaraland, since the 1970s and the emergence of a female middle class supported by these male ‘big men’, locally called kai aogu. From the 1970s onwards a considerable number of women in the area received jobs in newly built government institutions (e.g. schools,hostels, health stations) as domestic workers. As the analysis reveals, this phenomenon is limited to women who were in their twenties and thirties during the 1970s and 1980s. Biographic data indicates that many of these women were the lovers of local kai aogu and received their jobs through male patronage. Today thesewomen constitute a female middle class between the economic elite and the vast majority of the population with no permanent income or employment. The contribution traces the development of these class structures from a gender perspective, thus shedding light on female dimensions to male patronage.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_52</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_52">
+                <mets:FLocat xlink:href="https://namibian-studies.com/index.php/JNS/article/download/52/31" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_52" DMDID="DMD_rub-journals_52">
+            <mets:fptr FILEID="FILE0_rub-journals_52"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

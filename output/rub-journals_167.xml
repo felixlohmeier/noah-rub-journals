@@ -1,0 +1,69 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_167">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <nonSort>A </nonSort>
+                        <title>problematic sense of belonging A media analysis of the ‘GDR children of Namibia’</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Niekrenz, Yvonne</displayForm>
+                        <namePart type="family">Niekrenz</namePart>
+                        <namePart type="given">Yvonne</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Armbrüster, Christian</displayForm>
+                        <namePart type="family">Armbrüster</namePart>
+                        <namePart type="given">Christian</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Witte, Matthias D.</displayForm>
+                        <namePart type="family">Witte</namePart>
+                        <namePart type="given">Matthias D.</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015-01-14</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">29</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">The term ‘GDR children of Namibia’ is used to describe a group of some 430 people who, in the course of SWAPO’s war of independence against South Africa’s occupation of Namibia, were removed from refugee camps and taken to the German Democratic Republic (GDR). This article examines the way in which the media reported on this group of people between the years 1979 and 2013. The analysis focuses on newspapers and magazines and is based on characteristic phases, topics and interpretations in the reports. This approach makes it possible to trace the ‘problem discourse’ which can be divided into six phases. The ‘GDR children’ are viewed as a political issue, (war) victims, agents in their own right, curiosities, experts or confidence tricksters. In reconstructing the news coverage over these 34 years, one aspect in particular remains a constant, namely the media’s irresistible fascination with and discussion of the ‘GDR children’s’ sense of belonging.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_167</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_167">
+                <mets:FLocat xlink:href="https://namibian-studies.com/index.php/JNS/article/download/167/130" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_167" DMDID="DMD_rub-journals_167">
+            <mets:fptr FILEID="FILE0_rub-journals_167"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

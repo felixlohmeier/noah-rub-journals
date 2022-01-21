@@ -1,0 +1,53 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8637">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Speaking truth to power</title>
+                        <subTitle>Whistleblower challenges and options – a Namibian perspective</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Coetzee, Johannes</displayForm>
+                        <namePart type="family">Coetzee</namePart>
+                        <namePart type="given">Johannes</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020-06-30</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">18</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">This article focuses on the role of whistleblowing in good governance and combating corruption. To foster an environment of openness in which citizens can act against abuses of power it is essential that whistleblowing becomes a systematic process of reporting that is not only justified but also a moral duty. Internal whistleblowing offers the opportunity to resolve issues before they become public knowledge and/or subjects of legal action and is preferable to external whistleblowing, which can harm both the institution and the whistleblower. The article examines Namibian whistle­blowing mechanisms in the areas of human rights abuses and retailing, as well as the need to change the perception of whistleblowers, who are often seen as trouble­makers. Such change would involve providing greater protection to and financial rewards for whistleblowers. Further changes should make the risks for the beneficiaries of corruption, such as loss of reputation and jail sentences, outweigh the spoils. The probability of detection and punishment must become a powerful deterrent against engaging in corrupt practices.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8637</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8637">
+                <mets:FLocat xlink:href="https://namibian-studies.com/index.php/JNS/article/download/8637/8201" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8637" DMDID="DMD_rub-journals_8637">
+            <mets:fptr FILEID="FILE0_rub-journals_8637"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

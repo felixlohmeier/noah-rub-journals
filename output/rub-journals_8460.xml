@@ -1,0 +1,87 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8460">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Lightweight Iterative MDS Matrices</title>
+                        <subTitle>How Small Can We Go?</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Li, Shun</displayForm>
+                        <namePart type="family">Li</namePart>
+                        <namePart type="given">Shun</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Sun, Siwei</displayForm>
+                        <namePart type="family">Sun</namePart>
+                        <namePart type="given">Siwei</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Shi, Danping</displayForm>
+                        <namePart type="family">Shi</namePart>
+                        <namePart type="given">Danping</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Li, Chaoyun</displayForm>
+                        <namePart type="family">Li</namePart>
+                        <namePart type="given">Chaoyun</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Hu, Lei</displayForm>
+                        <namePart type="family">Hu</namePart>
+                        <namePart type="given">Lei</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020-01-31</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">24</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">As perfect building blocks for the diffusion layers of many symmetric-key primitives, the construction of MDS matrices with lightweight circuits has received much attention from the symmetric-key community. One promising way of realizing low-cost MDS matrices is based on the iterative construction: a low-cost matrix becomes MDS after rising it to a certain power. To be more specific, if At is MDS, then one can implement A instead of At to achieve the MDS property at the expense of an increased latency with t clock cycles. In this work, we identify the exact lower bound of the number of nonzero blocks for a 4 × 4 block matrix to be potentially iterative-MDS. Subsequently, we show that the theoretically lightest 4 × 4 iterative MDS block matrix (whose entries or blocks are 4 × 4 binary matrices) with minimal nonzero blocks costs at least 3 XOR gates, and a concrete example achieving the 3-XOR bound is provided. Moreover, we prove that there is no hope for previous constructions (GFS, LFS, DSI, and spares DSI) to beat this bound. Since the circuit latency is another important factor, we also consider the lower bound of the number of iterations for certain iterative MDS matrices. Guided by these bounds and based on the ideas employed to identify them, we explore the design space of lightweight iterative MDS matrices with other dimensions and report on improved results. Whenever we are unable to find better results, we try to determine the bound of the optimal solution. As a result, the optimality of some previous results is proved.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tosc.v2019.i4.147-170</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8460</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8460">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/8460/8029" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8460" DMDID="DMD_rub-journals_8460">
+            <mets:fptr FILEID="FILE0_rub-journals_8460"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,53 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_265">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Ulrich Herbeck</title>
+                        <subTitle>Das Feindbild vom „jüdischen Bolschewiken“. Zur Geschichte des russischen Antisemitismus vor und während der Russischen Revolution, Berlin, Metropol, 2009. 480 p. – ISBN 978-3-940938-49-7</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Wolff, Frank</displayForm>
+                        <namePart type="family">Wolff</namePart>
+                        <namePart type="given">Frank</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2012-09-05</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">5</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Ulrich Herbeck: Das Feindbild vom „jüdischen Bolschewiken“. Zur Geschichte des russischen Antisemitismus vor und während der Russischen Revolution [The „Jewish Bolshevik“ as an Enemy Stereotype. The History of Russian Antisemitism Before and During the Russian Revolution], Berlin, Metropol, 2009. 480 p. – ISBN 978-3-940938-49-7.IMIS, Universität Osnabrück</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_265</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_265">
+                <mets:FLocat xlink:href="https://incs.ub.rub.de/index.php/INCS/article/download/265/223" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_265" DMDID="DMD_rub-journals_265">
+            <mets:fptr FILEID="FILE0_rub-journals_265"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

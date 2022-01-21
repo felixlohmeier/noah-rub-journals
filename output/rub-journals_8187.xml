@@ -1,0 +1,54 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8187">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <nonSort>Die </nonSort>
+                        <title>soziale, wirtschaftliche und politische Historiographie des modernen Wales</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Hopkin, Deian R.</displayForm>
+                        <namePart type="family">Hopkin</namePart>
+                        <namePart type="given">Deian R.</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2014-09-05</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">26</extent>
+                    </physicalDescription>
+                    <abstract lang="eng"> Despite its small size, Wales has a long-established and rich cultural tradition, and this is reflected in historio-graphy, notably in Labour history. The enormous growth in the Welsh coal industry up to 1914 produced the foundations for a flourishing Labour movement which has subsequently provided much of the leadership for the British Labour and trade union movement. Historians have found considerable inspiration in this, but they have also sought to discover where the source of the Labour movements was; they found it in the dissenting and radical traditions of the eighteenth and nineteenth centuries which produced riet and upheaval as well as intellectual ferment. The diversity of Wales is also evident in the historiography, not only the contrasts between remote rurality and profound industrialism but also between ancient Welsh-language culture and the more recent and pervasive English culture. Recently, important debates have sprung up over the very meaning of the term Wales and Welshness and this debate, a spill-over from contemporary politics, is producing some of the most important new work.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/mts.11.1991.85-110</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8187</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8187">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/8187/7358" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8187" DMDID="DMD_rub-journals_8187">
+            <mets:fptr FILEID="FILE0_rub-journals_8187"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

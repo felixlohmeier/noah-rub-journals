@@ -1,0 +1,110 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7274">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Evaluation and Monitoring of Free Running Oscillators Serving as Source of Randomness</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Noumon Allini, Elie</displayForm>
+                        <namePart type="family">Noumon Allini</namePart>
+                        <namePart type="given">Elie</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Skórski, Maciej</displayForm>
+                        <namePart type="family">Skórski</namePart>
+                        <namePart type="given">Maciej</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Petura, Oto</displayForm>
+                        <namePart type="family">Petura</namePart>
+                        <namePart type="given">Oto</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Bernard, Florent</displayForm>
+                        <namePart type="family">Bernard</namePart>
+                        <namePart type="given">Florent</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Laban, Marek</displayForm>
+                        <namePart type="family">Laban</namePart>
+                        <namePart type="given">Marek</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Fischer, Viktor</displayForm>
+                        <namePart type="family">Fischer</namePart>
+                        <namePart type="given">Viktor</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2018-08-14</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">29</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">In this paper, we evaluate clock signals generated in ring oscillators and self-timed rings and the way their jitter can be transformed into random numbers. We show that counting the periods of the jittery clock signal produces random numbers of significantly better quality than the methods in which the jittery signal is simply sampled (the case in almost all current methods). Moreover, we use the counter values to characterize and continuously monitor the source of randomness. However, instead of using the widely used statistical variance, we propose to use Allan variance to do so. There are two main advantages: Allan variance is insensitive to low frequency noises such as flicker noise that are known to be autocorrelated and significantly less circuitry is required for its computation than that used to compute commonly used variance. We also show that it is essential to use a differential principle of randomness extraction from the jitter based on the use of two identical oscillators to avoid autocorrelations originating from external and internal global jitter sources and that this fact is valid for both kinds of rings. Last but not least, we propose a method of statistical testing based on high order Markov model to show the reduced dependencies when the proposed randomness extraction is applied.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tches.v2018.i3.214-242</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7274</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7274">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/7274/6452" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_rub-journals_7274">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/7274/7938" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="" ID="FILE2_rub-journals_7274">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/7274/7939" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7274" DMDID="DMD_rub-journals_7274">
+            <mets:fptr FILEID="FILE0_rub-journals_7274"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_7274" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_7274"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART2_rub-journals_7274" LABEL="">
+                <mets:fptr FILEID="FILE2_rub-journals_7274"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

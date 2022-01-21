@@ -1,0 +1,53 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7544">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>„Zu den Arbeiterbewegungen außerdeutscher, europäischer Länder stellen wir uns freundlich …“. Leitbilder der sozialdemokratischen Parteienkooperation und SPD-Europapolitik im Zeitalter der Entgrenzung</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Mittag, Jürgen</displayForm>
+                        <namePart type="family">Mittag</namePart>
+                        <namePart type="given">Jürgen</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015-01-27</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">32</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">From the first programmatic declarations of the Allgemeiner Deutscher Arbeiterverein (ADAV) until the presence of the Party of European Socialists (PES) confessions on the importance of transnational party cooperation can be considered as a programmatic core principle of social democratic and socialist politics in Europe. However, beyond the general commitment to cooperate the party cooperation of „left“ parties has always been characterized by latent skepticism and by constraints in view of the perspectives of transnational party activities. Despite the European, transnational and international rhetoric statements of „left“ parties their references to national policy objectives and a striving for expediency can be identified. The contribution points out basic features of social democratic and socialist party cooperation in Europe, it illustrates developments and watersheds and it analyses the impact of the European idea in this political spectrum.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/mts.46.2011.55-86</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7544</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7544">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/7544/6716" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7544" DMDID="DMD_rub-journals_7544">
+            <mets:fptr FILEID="FILE0_rub-journals_7544"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

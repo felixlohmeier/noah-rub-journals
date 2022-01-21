@@ -1,0 +1,63 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8790">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Provably Secure Hardware Masking in the Transition- and Glitch-Robust Probing Model</title>
+                        <subTitle>Better Safe than Sorry</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Cassiers, Gaëtan</displayForm>
+                        <namePart type="family">Cassiers</namePart>
+                        <namePart type="given">Gaëtan</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Standaert, François-Xavier</displayForm>
+                        <namePart type="family">Standaert</namePart>
+                        <namePart type="given">François-Xavier</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2021-02-23</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">23</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">There exists many masking schemes to protect implementations of cryptographic operations against side-channel attacks. It is common practice to analyze the security of these schemes in the probing model, or its variant which takes into account physical effects such as glitches and transitions. Although both effects exist in practice and cause leakage, masking schemes implemented in hardware are often only analyzed for security against glitches. In this work, we fill this gap by proving sufficient conditions for the security of hardware masking schemes against transitions, leading to the design of new masking schemes and a proof of security for an existing masking scheme in presence of transitions. Furthermore, we give similar results in the stronger model where the effects of glitches and transitions are combined.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.46586/tches.v2021.i2.136-158</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8790</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8790">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/8790/8390" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8790" DMDID="DMD_rub-journals_8790">
+            <mets:fptr FILEID="FILE0_rub-journals_8790"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,54 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8488">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>&quot;I have no qualms about ... having shown Soviet Russia just like it is&quot;</title>
+                        <subTitle>Aleksandr Lozovskii&apos;s 1920 Reports About Travels with Foreign Delegates</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Albert, Gleb J.</displayForm>
+                        <namePart type="family">Albert</namePart>
+                        <namePart type="given">Gleb J.</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020-02-26</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">16</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Department of HistoryUniversity of ZurichSwitzerland
+Between May and July 1920, two delegates of foreign labour movement took a trip on a steamboat down the Volga River: A delegation of British Labour Party members, and another one comprised of participants of the Second World Congress of the Communist International. Both delegations were supervised and accompanied by Bolshevik and trade union functionary Aleksandr Lozovskii. His reports, preserved in the Russian State Archive of Social and Political History, are published here for the first time in English translation and with extensive commentary. They shed light on the early Soviet ‘management’ of foreign delegations and the degrees of spontaneity and control in handling them.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8488</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8488">
+                <mets:FLocat xlink:href="https://incs.ub.rub.de/index.php/INCS/article/download/8488/8054" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8488" DMDID="DMD_rub-journals_8488">
+            <mets:fptr FILEID="FILE0_rub-journals_8488"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

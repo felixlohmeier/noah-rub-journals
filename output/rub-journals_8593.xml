@@ -1,0 +1,78 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8593">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Cortex-M4 optimizations for {R,M} LWE schemes</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Alkim, Erdem</displayForm>
+                        <namePart type="family">Alkim</namePart>
+                        <namePart type="given">Erdem</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Alper Bilgin, Yusuf</displayForm>
+                        <namePart type="family">Alper Bilgin</namePart>
+                        <namePart type="given">Yusuf</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Cenk, Murat</displayForm>
+                        <namePart type="family">Cenk</namePart>
+                        <namePart type="given">Murat</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Gérard, François</displayForm>
+                        <namePart type="family">Gérard</namePart>
+                        <namePart type="given">François</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020-06-19</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">22</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">This paper proposes various optimizations for lattice-based key encapsulation mechanisms (KEM) using the Number Theoretic Transform (NTT) on the popular ARM Cortex-M4 microcontroller. Improvements come in the form of a faster code using more efficient modular reductions, optimized small-degree polynomial multiplications, and more aggressive layer merging in the NTT, but also in the form of reduced stack usage. We test our optimizations in software implementations of Kyber and NewHope, both round 2 candidates in the NIST post-quantum project, and also NewHope-Compact, a recently proposed variant of NewHope with smaller parameters. Our software is the first implementation of NewHope-Compact on the Cortex-M4 and shows speed improvements over previous high-speed implementations of Kyber and NewHope. Moreover, it gives a common framework to compare those schemes with the same level of optimization. Our results show that NewHope- Compact is the fastest scheme, followed by Kyber, and finally NewHope, which seems to suffer from its large modulus and error distribution for small dimensions.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tches.v2020.i3.336-357</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8593</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8593">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/8593/8160" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8593" DMDID="DMD_rub-journals_8593">
+            <mets:fptr FILEID="FILE0_rub-journals_8593"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

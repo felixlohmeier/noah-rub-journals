@@ -1,0 +1,53 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_129">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Batswana dikgosi (chiefs) and the incorporation of South West Africa into the Union of South Africa, 1946</title>
+                        <subTitle>What business did they have in the issue?</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Mokopakgosi, Brian T.</displayForm>
+                        <namePart type="family">Mokopakgosi</namePart>
+                        <namePart type="given">Brian T.</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2014-06-10</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">23</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">The paper recounts the fascinating story of some African chiefs (dikgosi) in what was then Bechuanaland Protectorate (now Botswana) who used their meagre resources in 1946 to block the incorporation of another colonial territory (Namibia) into the Union of South Africa. The paper argues that the action of the Batswana dikgosi was far from being a progressive and selfless act on their part, but a skilful strategy to block the incorporation of their own protectorate. It was in fact part of a long-standing strategy of using anything that would remove the chances of incorporation. The paper further suggests that the campaign may also have been in part the dikgosi’s lawyer Douglas Buchanan, who skilfully weaved the dikgosi’s fear of the incorporation of their own country into the broader regional and international politics.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_129</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_129">
+                <mets:FLocat xlink:href="https://namibian-studies.com/index.php/JNS/article/download/129/94" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_129" DMDID="DMD_rub-journals_129">
+            <mets:fptr FILEID="FILE0_rub-journals_129"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

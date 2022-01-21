@@ -1,0 +1,77 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_399">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Study of influence of natural stone surface roughness on wetting characteristics for the application of liquid coating systems and on the adhesive strength of thin epoxy coatings over natural stone substrates</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Cortes Izurdiaga, Alfonso</displayForm>
+                        <namePart type="family">Cortes Izurdiaga</namePart>
+                        <namePart type="given">Alfonso</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Fernandez Barbero, Antonio Jose</displayForm>
+                        <namePart type="family">Fernandez Barbero</namePart>
+                        <namePart type="given">Antonio Jose</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Sierra Martin, Benjamin</displayForm>
+                        <namePart type="family">Sierra Martin</namePart>
+                        <namePart type="given">Benjamin</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>de la Cruz González, Ana</displayForm>
+                        <namePart type="family">de la Cruz González</namePart>
+                        <namePart type="given">Ana</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015-11-25</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">10</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">In this work, the influence of surface roughness of a natural stone material on two importantparameters for the performance of the industrial coating process will be studied. The selectedparameters are contact liquid drop angle, to assess the best conditions for the application of theliquid coatings, and the adhesion strength, to assess the best coating performance once thecoating has been applied and dried. These two parameters are quantitative and may allow thecomparison between different case studies. The study of influence will be addressed in this workfrom a practical point of view, so that results can be applied in a current industrial process foroptimization purposes. The obtained conclusions are expected to be used to proposerecommendations for the stone industry to guarantee the performances of the coating systemsapplied.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/icscm.3.2015.168-177</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_399</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_399">
+                <mets:FLocat xlink:href="https://icscm.ub.rub.de/index.php/ICSCM/article/download/399/356" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_399" DMDID="DMD_rub-journals_399">
+            <mets:fptr FILEID="FILE0_rub-journals_399"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

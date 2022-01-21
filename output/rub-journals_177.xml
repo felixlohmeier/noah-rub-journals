@@ -1,0 +1,58 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_177">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Biographical Metamorphoses in the History of Religion - Moshe Idel and Three Aspects of Mircea Eliade</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Iricinschi, Eduard</displayForm>
+                        <namePart type="family">Iricinschi</namePart>
+                        <namePart type="given">Eduard</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015-03-09</dateIssued>
+                    </originInfo>
+                    <abstract lang="eng">This paper includes an extended review of Moshe Idel’s Mircea Eliade: From Magic to Myth (New York: Peter Lang, 2014) through a triple analysis of Eliade’s early literary, epistolary, and academic texts. The paper examines Idel’s analysis of some important themes in Eliade’s research, such as his shift from understanding religion as magic to its interpretation as myth; the conception of the camouflage of sacred; the notions of androgyny and restoration; and also young Eliade’s theories of death.The paper also discusses Idel’s evaluation of Eliade’s programatic misunderstanding of Judaism and Kabbalah, and also of Eliade’s moral and professional abdication regarding the political and religious aspect of the Iron Guard, a Romanian nationalist extremist and anti-Semitic group he was affiliated with in 1930s.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/er.v2.2015.A-N</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_177</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_177">
+                <mets:FLocat xlink:href="https://er.ceres.rub.de/index.php/ER/article/download/177/139" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="text/html" ID="FILE1_rub-journals_177">
+                <mets:FLocat xlink:href="https://er.ceres.rub.de/index.php/ER/article/download/177/8268" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_177" DMDID="DMD_rub-journals_177">
+            <mets:fptr FILEID="FILE0_rub-journals_177"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_177" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_177"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

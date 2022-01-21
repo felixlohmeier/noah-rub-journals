@@ -1,0 +1,78 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8547">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Efficient and Private Computations with Code-Based Masking</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Wang, Weijia</displayForm>
+                        <namePart type="family">Wang</namePart>
+                        <namePart type="given">Weijia</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Méaux, Pierrick</displayForm>
+                        <namePart type="family">Méaux</namePart>
+                        <namePart type="given">Pierrick</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Cassiers, Gaëtan</displayForm>
+                        <namePart type="family">Cassiers</namePart>
+                        <namePart type="given">Gaëtan</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Standaert, François-Xavier</displayForm>
+                        <namePart type="family">Standaert</namePart>
+                        <namePart type="given">François-Xavier</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020-03-02</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">44</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Code-based masking is a very general type of masking scheme that covers Boolean masking, inner product masking, direct sum masking, and so on. The merits of the generalization are twofold. Firstly, the higher algebraic complexity of the sharing function decreases the information leakage in “low noise conditions” and may increase the “statistical security order” of an implementation (with linear leakages). Secondly, the underlying error-correction codes can offer improved fault resistance for the encoded variables. Nevertheless, this higher algebraic complexity also implies additional challenges. On the one hand, a generic multiplication algorithm applicable to any linear code is still unknown. On the other hand, masking schemes with higher algebraic complexity usually come with implementation overheads, as for example witnessed by inner-product masking. In this paper, we contribute to these challenges in two directions. Firstly, we propose a generic algorithm that allows us (to the best of our knowledge for the first time) to compute on data shared with linear codes. Secondly, we introduce a new amortization technique that can significantly mitigate the implementation overheads of code-based masking, and illustrate this claim with a case study. Precisely, we show that, although performing every single code-based masked operation is relatively complex, processing multiple secrets in parallel leads to much better performances. This property enables code-based masked implementations of the AES to compete with the state-of-the-art in randomness complexity. Since our masked operations can be instantiated with various linear codes, we hope that these investigations open new avenues for the study of code-based masking schemes, by specializing the codes for improved performances, better side-channel security or improved fault tolerance.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tches.v2020.i2.128-171</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8547</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8547">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/8547/8112" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8547" DMDID="DMD_rub-journals_8547">
+            <mets:fptr FILEID="FILE0_rub-journals_8547"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

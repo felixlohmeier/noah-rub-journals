@@ -1,0 +1,53 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7444">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Protestantism and the Trade Union Movement in the 20th Century — from Ideological Confrontation to Socio-Political Cooperation</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Jähnichen, Traugott</displayForm>
+                        <namePart type="family">Jähnichen</namePart>
+                        <namePart type="given">Traugott</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2017-03-31</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">20</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">This article discusses the development of relations between Protestantism and the Trade Union Movement in Germany during the 20th century. At present, despite some differences concerning the rights of staff of the Diaconia in Germany, there are many similarities between the two organisations, Protestantism and trade unions, in their perception of social problems and in their proposals for coping with these challenges. The article shows, how, step by step, both are en route to joint socio-political cooperation.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/mts.56.2016.25-44</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7444</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7444">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/7444/6616" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7444" DMDID="DMD_rub-journals_7444">
+            <mets:fptr FILEID="FILE0_rub-journals_7444"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

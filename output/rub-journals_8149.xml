@@ -1,0 +1,55 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8149">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <nonSort>Die </nonSort>
+                        <title>Rezeption Friedrich Eberts im Wandel</title>
+                        <subTitle>Historiografische und persönliche Rückblicke</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Grebing, Helga</displayForm>
+                        <namePart type="family">Grebing</namePart>
+                        <namePart type="given">Helga</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2014-09-25</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">10</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Helga Grebing reviews the transformation and the continuity in the general reception of Friedrich Ebert as well as her own perception against the background of her biographic experiences with the academic culture of labour historiography since the 1960s. The author traces normative and politicized interpretational approaches of Ebert&apos;s political works and points to different forms of ideologization. Furthermore she takes stock of the cognition of a long-standing life dediccated to the academic world concerning both the historical assessment of Ebert&apos;s role in the labour movement and the role of historians in Ebert&apos;s reception.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/mts.45.2011.153-162</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8149</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8149">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/8149/7320" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8149" DMDID="DMD_rub-journals_8149">
+            <mets:fptr FILEID="FILE0_rub-journals_8149"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

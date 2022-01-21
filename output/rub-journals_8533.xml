@@ -1,0 +1,53 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8533">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Wahrnehmung und Folgen der ungarischen Revolution von 1956 in Rumänien</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Hausleitner, Mariana</displayForm>
+                        <namePart type="family">Hausleitner</namePart>
+                        <namePart type="given">Mariana</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2009-01-01</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">15</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Freie Universität Berlin (Germany)
+Im vorliegenden Beitrag werden die Gründe analysiert, warum es in Rumänien nach Stalins Tod kein „Tauwetter“ gegeben hat. Als im Mai 1956 innerhalb der Rumänischen Arbeiterpartei zaghaft Kritik geäußert wurde, gab es sofort Ausschlussverfahren. Angeregt durch die dynamischen Veränderungen in Ungarn organisierten am 30. Oktober 1956 Studenten des Polytechnikums in Temeswar eine Versammlung, auf der radikale Forderungen gestellt wurden. Nach den ersten Verhaftungen demonstrierten etwa 1000 Studenten, danach erfolgten Massenverhaftungen sowie ein Prozess, in dem einige Studenten zu langjährigen Gefängnisstrafen verurteilt wurden. In Bukarest wurden Anfang November weitere geplante Versammlungen durch Militäraufgebot verhindert. In Klausenburg gelang es der Rektorin der Universität durch die Unterstellung, dass die Ungarn die Rückeroberung Siebenbürgens anstrebten, die rumänischen Studenten zu verunsichern. Professoren aus der ungarischen Minderheit wurden für die Unruhe unter den Studenten verantwortlich gemacht. Viele Oberschüler, Studenten, Künstler und Schriftsteller wurden durch Folter zu belastenden Geständnissen gezwungen. Unter den rumänischen Arbeitern blieb es ruhig. Am 23. November war die Lage in Rumänien so stabil, dass Imre Nagy und andere ungarische Regierungsmitglieder dort interniert werden konnten. Die Umdeutung der Unruhen von 1956 in Siebenbürgen zu einem revisionistischen Anschlag wurde auch in den Prozessen 1957 und 1958 vorgebracht, einige endeten mit Todesstrafen. Die rumänische Parteiführung nutzte die Gelegenheit,um zahlreiche Zugeständnisse an die ungarische Minderheit abzubauen. Im Zuge dieser Politik wurde die ungarische Universität in Klausenburg im Juli 1959 mit der rumänischen Universität zwangsvereinigt. Die damalige Verschmelzung wurde nach 1990 seitens der ungarischen Minderheit kritisiert. Die Aufarbeitung der Ereignisse von 1956 hat in Rumänien erst kürzlich begonnen, da der Zugang zu den Unterlagen des Sicherheitsdienstes verschlossen war.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8533</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8533">
+                <mets:FLocat xlink:href="https://incs.ub.rub.de/index.php/INCS/article/download/8533/8099" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8533" DMDID="DMD_rub-journals_8533">
+            <mets:fptr FILEID="FILE0_rub-journals_8533"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

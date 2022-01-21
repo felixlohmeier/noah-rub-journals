@@ -1,0 +1,78 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_9059">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Cross-Device Profiled Side-Channel Attack with Unsupervised Domain Adaptation</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Cao, Pei</displayForm>
+                        <namePart type="family">Cao</namePart>
+                        <namePart type="given">Pei</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Zhang, Chi</displayForm>
+                        <namePart type="family">Zhang</namePart>
+                        <namePart type="given">Chi</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Lu, Xiangjun</displayForm>
+                        <namePart type="family">Lu</namePart>
+                        <namePart type="given">Xiangjun</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Gu, Dawu</displayForm>
+                        <namePart type="family">Gu</namePart>
+                        <namePart type="given">Dawu</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2021-08-11</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">30</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Deep learning (DL)-based techniques have recently proven to be very successful when applied to profiled side-channel attacks (SCA). In a real-world profiled SCA scenario, attackers gain knowledge about the target device by getting access to a similar device prior to the attack. However, most state-of-the-art literature performs only proof-of-concept attacks, where the traces intended for profiling and attacking are acquired consecutively on the same fully-controlled device. This paper reminds that even a small discrepancy between the profiling and attack traces (regarded as domain discrepancy) can cause a successful single-device attack to completely fail. To address the issue of domain discrepancy, we propose a Cross-Device Profiled Attack (CDPA), which introduces an additional fine-tuning phase after establishing a pretrained model. The fine-tuning phase is designed to adjust the pre-trained network, such that it can learn a hidden representation that is not only discriminative but also domain-invariant. In order to obtain domain-invariance, we adopt a maximum mean discrepancy (MMD) loss as a constraint term of the classic cross-entropy loss function. We show that the MMD loss can be easily calculated and embedded in a standard convolutional neural network. We evaluate our strategy on both publicly available datasets and multiple devices (eight Atmel XMEGA 8-bit microcontrollers and three SAKURA-G evaluation boards). The results demonstrate that CDPA can improve the performance of the classic DL-based SCA by orders of magnitude, which significantly eliminates the impact of domain discrepancy caused by different devices.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.46586/tches.v2021.i4.27-56</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_9059</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_9059">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/9059/8646" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_9059" DMDID="DMD_rub-journals_9059">
+            <mets:fptr FILEID="FILE0_rub-journals_9059"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

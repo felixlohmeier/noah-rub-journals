@@ -1,0 +1,54 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7631">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <nonSort>Das </nonSort>
+                        <title>dritte Leben des Viktor Agartz</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Jünke, Christoph</displayForm>
+                        <namePart type="family">Jünke</namePart>
+                        <namePart type="given">Christoph</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015-01-24</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">22</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">In the context of an increasing catching up of the history of German left socialism in the 1950s Viktor Agartz is also rediscovered. Agartz was the most important economic politician of the Westgerman Workers Movement in the first decade after war and fascism, beside of Kurt Schuhmacher and Hans Böckler. He was the longstanding head of the institute of scientific economy (WWI) of the Confederation of German Trade Unions (DGB) and is regarded as the embodiment of the tradeunion radicalism. Climax as much as turning point of his career was the programmatic speech on the Frankfurt congress of the DGB in October 1954, which made him a person on whom popular hopes are pinnend. This was isolating him inside the leadership of the tradeunion movement and caused his retirement. But in contrast of the historical narratives, he wasn’t a political dead man after that. With his dismissal from the WWI at the end of 1955 and the foundation of the biweekly journal “WISO. Korrespondenz für Wirtschafts- und Sozialwissenschaften” at the beginning of 1956 the “third life” of Viktor Agartz began. Christoph Jünke portraits these last ten years and shows Agartz as a mentor of the first New Left, which raised in the years 1954/55 and collapsed at the end of the 1950s. He explores the biographical and contemporary context of that episode and clarifies the tragic destiny of the most distinguished left socialist before “1968” – a man who was made “persona non grata”.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/mts.40.2008.39-60</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7631</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7631">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/7631/6803" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7631" DMDID="DMD_rub-journals_7631">
+            <mets:fptr FILEID="FILE0_rub-journals_7631"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,52 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_26">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Compounds, camps, colonialism</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Dedering, Tilman</displayForm>
+                        <namePart type="family">Dedering</namePart>
+                        <namePart type="given">Tilman</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2013-12-17</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">18</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Discussions on the history of the concentration camps in German South West Africa during the Herero-Nama War (1904-1907) have concentrated primarily on the relationship to the mass murder of the Jews during the Second World War. This articleconsiders the earlier history of camps in southern Africa by shifting the focus from genocide to a history of internment and closely controlled labour. The harsh practices in the labour compounds in South Africa suggest that African experiences of extreme forms of incarceration predated the period of the German concentration camps in Namibia, although on quite a different scale. A broader history of violence and regimented labour may open perspectives that have been neglected in the narrowly framed discussion of historical linkages and continuities between the wars in colonial Namibia and Eastern Europe.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_26</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_26">
+                <mets:FLocat xlink:href="https://namibian-studies.com/index.php/JNS/article/download/26/13" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_26" DMDID="DMD_rub-journals_26">
+            <mets:fptr FILEID="FILE0_rub-journals_26"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

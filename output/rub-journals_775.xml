@@ -1,0 +1,86 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_775">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Modes of Operation Suitable for Computing on Encrypted Data</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Rotaru, Dragos</displayForm>
+                        <namePart type="family">Rotaru</namePart>
+                        <namePart type="given">Dragos</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Smart, Nigel P.</displayForm>
+                        <namePart type="family">Smart</namePart>
+                        <namePart type="given">Nigel P.</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Stam, Martijn</displayForm>
+                        <namePart type="family">Stam</namePart>
+                        <namePart type="given">Martijn</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2017-09-19</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">31</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">We examine how two parallel modes of operation for Authenticated Encryption (namely CTR+PMAC and OTR mode) work when evaluated in a multiparty computation engine. These two modes are selected because they suit the PRFs examined in previous works. In particular the modes are highly parallel, and do not require evaluation of the inverse of the underlying PRF. In order to use these modes one needs to convert them from their original instantiation of being defined on binary blocks of data, to working on elememts in a large prime finite field. The latter fitting the use case of many secret-sharing based MPC engines. In doing this conversion we examine the associated security proofs of PMAC and OTR, and show that they carry over to this new setting.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tosc.v2017.i3.294-324</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_775</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_775">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/775/733" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_rub-journals_775">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/775/7614" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="" ID="FILE2_rub-journals_775">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/775/7540" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_775" DMDID="DMD_rub-journals_775">
+            <mets:fptr FILEID="FILE0_rub-journals_775"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_775" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_775"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART2_rub-journals_775" LABEL="">
+                <mets:fptr FILEID="FILE2_rub-journals_775"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

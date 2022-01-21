@@ -1,0 +1,68 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8756">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Namibia’s 1999 Caprivi conflict and the consequences of a peacebuilding deficit – a first consideration</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Amupanda, Job Shipululo</displayForm>
+                        <namePart type="family">Amupanda</namePart>
+                        <namePart type="given">Job Shipululo</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>du Pisani, André</displayForm>
+                        <namePart type="family">du Pisani</namePart>
+                        <namePart type="given">André</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Tyitende, Rui Antonio</displayForm>
+                        <namePart type="family">Tyitende</namePart>
+                        <namePart type="given">Rui Antonio</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020-12-31</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">31</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">In August 1999, armed men belonging to the Caprivi Liberation Movement (CLM) launched an attack on government installations in Katima Mulilo, in an attempt to bring about the secession of the then Caprivi region (now Zambezi region) from Namibia. The Namibian Defence Force (NDF) and Namibian Police responded swiftly and contained the insurgency, leading to the arrest of more than 140 people while at least 14 individuals were killed. A state of emergency was declared during this first major internal conflict in independent Namibia. Namibia’s independence came as a result of an internationally supported and mediated conflict resolution that provided for peacemaking, peacekeeping and peacebuilding. Given the country’s experience with conflict resolution, one is fully justified in assuming that the post-independent state would be inclined to pursue conflict resolution and peacebuilding in relation to the 1999 event and its aftermath. Two decades after the conflict, the major intervention has been of a military nature. The Namibian State failed to engage in any form of meaningful peacebuilding. The secession sentiments remain and have since been acknowledged by key actors in the security system. This state of affairs can only mean that there is a possibility, that given the right context, the conflict may erupt sometime in the future, unless the State engages differently with local actors.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8756</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8756">
+                <mets:FLocat xlink:href="https://namibian-studies.com/index.php/JNS/article/download/8756/8357" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8756" DMDID="DMD_rub-journals_8756">
+            <mets:fptr FILEID="FILE0_rub-journals_8756"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

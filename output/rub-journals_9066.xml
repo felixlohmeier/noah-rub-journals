@@ -1,0 +1,110 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_9066">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Side-Channel Protections for Picnic Signatures</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Aranha, Diego F.</displayForm>
+                        <namePart type="family">Aranha</namePart>
+                        <namePart type="given">Diego F.</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Berndt, Sebastian</displayForm>
+                        <namePart type="family">Berndt</namePart>
+                        <namePart type="given">Sebastian</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Eisenbarth, Thomas</displayForm>
+                        <namePart type="family">Eisenbarth</namePart>
+                        <namePart type="given">Thomas</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Seker, Okan</displayForm>
+                        <namePart type="family">Seker</namePart>
+                        <namePart type="given">Okan</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Takahashi, Akira</displayForm>
+                        <namePart type="family">Takahashi</namePart>
+                        <namePart type="given">Akira</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Wilke, Luca</displayForm>
+                        <namePart type="family">Wilke</namePart>
+                        <namePart type="given">Luca</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Zaverucha, Greg</displayForm>
+                        <namePart type="family">Zaverucha</namePart>
+                        <namePart type="given">Greg</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2021-08-11</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">44</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">We study masking countermeasures for side-channel attacks against signature schemes constructed from the MPC-in-the-head paradigm, specifically when the MPC protocol uses preprocessing. This class of signature schemes includes Picnic, an alternate candidate in the third round of the NIST post-quantum standardization project. The only previously known approach to masking MPC-in-the-head signatures suffers from interoperability issues and increased signature sizes. Further, we present a new attack to demonstrate that known countermeasures are not sufficient when the MPC protocol uses a preprocessing phase, as in Picnic3.We overcome these challenges by showing how to mask the underlying zero-knowledge proof system due to Katz–Kolesnikov–Wang (CCS 2018) for any masking order, and by formally proving that our approach meets the standard security notions of non-interference for masking countermeasures. As a case study, we apply our masking technique to Picnic. We then implement different masked versions of Picnic signing providing first order protection for the ARM Cortex M4 platform, and quantify the overhead of these different masking approaches. We carefully analyze the side-channel risk of hashing operations, and give optimizations that reduce the CPU cost of protecting hashing in Picnic by a factor of five. The performance penalties of the masking countermeasures ranged from 1.8 to 5.5, depending on the degree of masking applied to hash function invocations.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.46586/tches.v2021.i4.239-282</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_9066</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_9066">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/9066/8667" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="" ID="FILE1_rub-journals_9066">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/9066/8706" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_9066" DMDID="DMD_rub-journals_9066">
+            <mets:fptr FILEID="FILE0_rub-journals_9066"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_9066" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_9066"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

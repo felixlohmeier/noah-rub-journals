@@ -1,0 +1,87 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8974">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Pay Attention to Raw Traces</title>
+                        <subTitle>A Deep Learning Architecture for End-to-End Profiling Attacks</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Lu, Xiangjun</displayForm>
+                        <namePart type="family">Lu</namePart>
+                        <namePart type="given">Xiangjun</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Zhang, Chi</displayForm>
+                        <namePart type="family">Zhang</namePart>
+                        <namePart type="given">Chi</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Cao, Pei</displayForm>
+                        <namePart type="family">Cao</namePart>
+                        <namePart type="given">Pei</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Gu, Dawu</displayForm>
+                        <namePart type="family">Gu</namePart>
+                        <namePart type="given">Dawu</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Lu, Haining</displayForm>
+                        <namePart type="family">Lu</namePart>
+                        <namePart type="given">Haining</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2021-07-09</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">40</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">With the renaissance of deep learning, the side-channel community also notices the potential of this technology, which is highly related to the profiling attacks in the side-channel context. Many papers have recently investigated the abilities of deep learning in profiling traces. Some of them also aim at the countermeasures (e.g., masking) simultaneously. Nevertheless, so far, all of these papers work with an (implicit) assumption that the number of time samples in raw traces can be reduced before the profiling, i.e., the position of points of interest (PoIs) can be manually located. This is arguably the most challenging part of a practical black-box analysis targeting an implementation protected by masking. Therefore, we argue that to fully utilize the potential of deep learning and get rid of any manual intervention, the end-to-end profiling directly mapping raw traces to target intermediate values is demanded.In this paper, we propose a neural network architecture that consists of encoders, attention mechanisms and a classifier, to conduct the end-to-end profiling. The networks built by our architecture could directly classify the traces that contain a large number of time samples (i.e., raw traces without manual feature extraction) while whose underlying implementation is protected by masking. We validate our networks on several public datasets, i.e., DPA contest v4 and ASCAD, where over 100,000 time samples are directly used in profiling. To our best knowledge, we are the first that successfully carry out end-to-end profiling attacks. The results on the datasets indicate that our networks could get rid of the tricky manual feature extraction. Moreover, our networks perform even systematically better (w.r.t. the number of traces in attacks) than those trained on the reduced traces. These validations imply our approach is not only a first but also a concrete step towards end-to-end profiling attacks in the side-channel context.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.46586/tches.v2021.i3.235-274</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8974</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8974">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/8974/8552" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8974" DMDID="DMD_rub-journals_8974">
+            <mets:fptr FILEID="FILE0_rub-journals_8974"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,53 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8325">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>To beg, or to pray</title>
+                        <subTitle>Makalani and the ‘zula economy’ in Swakopmund</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Boulton, Jack</displayForm>
+                        <namePart type="family">Boulton</namePart>
+                        <namePart type="given">Jack</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2019-06-30</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">23</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">In a Namibian context research on ‘work’ has mirrored the direction of much Namibian economic policy in its concentration on the formal, despite a burgeoning informal sector in which as many people find employment as in the latter. Concerned more with informal methods of earning, this paper examines the case of makalani carvers, young men who both carve and subsequently sell makalani nuts in Swakopmund, Namibia. The carvers’ techniques are described ethnographically and placed in a wider ‘zula economy’ through which the carvers are connected to other local Africans. Re-framing makalani as gifts as opposed to commodities, the paper then describes how makalani selling, and by extension the zula economy as a whole, involves notions of entrustment. The practice of zula is divided according to local notions of &apos;good&apos; and &apos;bad&apos; and the implications are then discussed in two ways: firstly carvers&apos; relationship with formal work, and secondly the interpersonal relationships among men in the wider field of Swakopmund.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8325</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8325">
+                <mets:FLocat xlink:href="https://namibian-studies.com/index.php/JNS/article/download/8325/7674" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8325" DMDID="DMD_rub-journals_8325">
+            <mets:fptr FILEID="FILE0_rub-journals_8325"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

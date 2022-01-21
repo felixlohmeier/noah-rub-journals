@@ -1,0 +1,53 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_824">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Experimental intimacies</title>
+                        <subTitle>Young men’s understandings of their relationships with women in Swakopmund</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Boulton, Jack</displayForm>
+                        <namePart type="family">Boulton</namePart>
+                        <namePart type="given">Jack</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2017-12-31</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">20</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">This article is an exploration of young men’s attitudes towards their relationships with women in Swakopmund, Namibia. Highlighting their fears and anxieties towards roles that they often struggle to play, it explains how men deal with the changing position of women in the microcosm of a Namibian city, in light of new models of masculinity, femininity and love. In particular it suggests that in Swakopmund men must balance a dualistic identity of, on the one hand, the man as the breadwinner and on the other, a more metropolitan conception of equality between genders. Using the examples of weddings and emotional intimacy, it is argued that demands for romantic, compan-ionate relationships come mostly from women, and that men feel that they must more or less comply with those requests or risk losing their spouses to ‘better men’, that is, men who are better able to deliver. In conclusion, it is argued that the fear of witchcraft also plays its role in building relationships between the genders, and that trust is formed not as a product of individual, personal characteristics but out of the ability of a person to fulfil particular roles.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_824</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_824">
+                <mets:FLocat xlink:href="https://namibian-studies.com/index.php/JNS/article/download/824/777" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_824" DMDID="DMD_rub-journals_824">
+            <mets:fptr FILEID="FILE0_rub-journals_824"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

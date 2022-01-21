@@ -1,0 +1,54 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7665">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Space Construction as a Mental Process</title>
+                        <subTitle>Heavy Industrial Regions in Comparative Perspective</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Leboutte, René</displayForm>
+                        <namePart type="family">Leboutte</namePart>
+                        <namePart type="given">René</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015-01-23</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">14</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Choosing a more general approach to heavy industrial regions the article analyses how different perceptions of heavy industrial regions emerge. The author presents a wide range of reconstructions of past and present and thereby analyses different patterns of how history has been interpreted and communicated. Leboutte concludes that identity construction of coalfields reacts to internal as well as external challenges. Therefore historians are facing tensions, debates, and conflicts between the past and its representation, between reconstructed pasts and projects for the future, between mind space produced by people living in the coalfields, and perception of the coalfields from outside.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/mts.39.2008.99-112</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7665</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7665">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/7665/6837" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7665" DMDID="DMD_rub-journals_7665">
+            <mets:fptr FILEID="FILE0_rub-journals_7665"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

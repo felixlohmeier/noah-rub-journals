@@ -1,0 +1,63 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8284">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Towards a Multi-Religious Topology of Islam</title>
+                        <subTitle>The Global Circulation of a Mutable Mobile</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Sing, Manfred</displayForm>
+                        <namePart type="family">Sing</namePart>
+                        <namePart type="given">Manfred</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2019-04-30</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">62</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Narratives of the origins, the history, and the present state of Islam always entail spatial&amp;nbsp;claims. Accordingly, Islam emerged in the Arabian Peninsula, spread over its so-called heartlands, and&amp;nbsp;became a world religion. A common understanding inscribes Islam onto the Orient and opposes it to&amp;nbsp;Europe, the Occident, or the West. Such spatial claims are faced with fundamental challenges and&amp;nbsp;epistemological shortcomings because neither Islam nor space are naturally given, bounded entities.&amp;nbsp;Rather, different historical actors and observers produce spatialized Islam. In this chapter, I challenge&amp;nbsp;the notion that “Muslim space” is a useful analytical concept, and scrutinize the ways in which&amp;nbsp;academic discourses inscribe Islam onto space and history. As an alternative, I propose a topology that&amp;nbsp;understands the production of space as a multi-dimensional social process, including Muslim and non-Muslim perspectives at the same time. Thus, I delineate the topology of Islam as variegated, dynamic,&amp;nbsp;and multi-religious from its inception. My argument is that Islam’s trans-regional spread turned it into a&amp;nbsp;polycentric, mutable mobile characterized by internal and external diversity. I further argue that images&amp;nbsp;of Islam are an integral, yet often concealed part of European and Western knowledge production and&amp;nbsp;self-understanding. Epistemologically, this perspective argues that the “Islamization of Islam” is nowhere&amp;nbsp;better visible than in the spatial ramifications of discourses that marginalize, exclude, or obfuscate both&amp;nbsp;the multi-religious experiences in Islamic contexts and the continuous presence of Islam in European&amp;nbsp;history.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/er.v9.2019.211-272</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8284</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8284">
+                <mets:FLocat xlink:href="https://er.ceres.rub.de/index.php/ER/article/download/8284/7635" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="text/html" ID="FILE1_rub-journals_8284">
+                <mets:FLocat xlink:href="https://er.ceres.rub.de/index.php/ER/article/download/8284/8282" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8284" DMDID="DMD_rub-journals_8284">
+            <mets:fptr FILEID="FILE0_rub-journals_8284"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_8284" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_8284"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

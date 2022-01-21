@@ -1,0 +1,53 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7765">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Gestapo V-Leute kommunistischer Herkunft – auch ein Strukturproblem der KPD?</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Mensing, Wilhelm</displayForm>
+                        <namePart type="family">Mensing</namePart>
+                        <namePart type="given">Wilhelm</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015-01-10</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">29</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">The Communist Party of Germany (KPD) – along its line of unconditional loyalty to the Soviet Party – already in the early 1920s established an undercover so-called AM-Apparat (antimilitarist apparatus). This included an intelligence service to investigate political antagonists and at the same time fight (police) spies, „traitors“ and agent provocateurs. In this field, for years an often bloody competition between Communists and Nazis took place. No kind of intelligence, in particular fighting (police) spies, was new to the KPD at the moment of Nazitakeover in January 1933. The KPD, however, was then confronted with coinciding of executive public power and political enmity. Some members of the KPD, including several operatives of the AM-Apparat, became renegades in the service of the Gestapo. A number of those Communists taken into preventive custody by the Gestapo, under heavy torture became secret agents of the Gestapo. These former comrades harmed effectively the illegal fight of the KPD during the Nazi regime. The author, under the impression of missing systematic research in this field, started a regional analysis in the Rhein/Ruhr area. It was based in particular on the stock of approx. 65.000 Gestapo files in the Düsseldorf State Archive. In his first comprehensive report he estimates the number of former Communist Gestapo-agents to approx. 300 in the Rhein/Ruhr area.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/mts.34.2005.77-105</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7765</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7765">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/7765/6937" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7765" DMDID="DMD_rub-journals_7765">
+            <mets:fptr FILEID="FILE0_rub-journals_7765"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

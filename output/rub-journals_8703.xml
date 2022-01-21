@@ -1,0 +1,86 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8703">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Exploring Secret Keys in Searching Integral Distinguishers Based on Division Property</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Wang, Senpeng</displayForm>
+                        <namePart type="family">Wang</namePart>
+                        <namePart type="given">Senpeng</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Hu, Bin</displayForm>
+                        <namePart type="family">Hu</namePart>
+                        <namePart type="given">Bin</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Guan, Jie</displayForm>
+                        <namePart type="family">Guan</namePart>
+                        <namePart type="given">Jie</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Zhang, Kai</displayForm>
+                        <namePart type="family">Zhang</namePart>
+                        <namePart type="given">Kai</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Shi, Tairong</displayForm>
+                        <namePart type="family">Shi</namePart>
+                        <namePart type="given">Tairong</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020-09-28</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">17</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Division property proposed by Todo at EUROCRYPT 2015 is a generalized integral property. Then, conventional bit-based division property (CBDP) and bitbased division property using three subsets (BDPT) were proposed by Todo and Morii at FSE 2016. At ASIACRYPT 2016, Xiang et al. extended Mixed Integer Linear Programming (MILP) method to search integral distinguishers based on CBDP. And at ASIACRYPT 2019, Wang et al. proposed an MILP-aided method of searching integral distinguishers based on BDPT. Although BDPT is powerful in searching integral distinguishers, the accuracy is not perfect.For block cipher SPECK32, as the block size is only 32 bits, we can experimentally observe the behaviors of all the plaintexts under a fixed key. By testing 210 random secret keys, we experimentally find a better integral distinguisher of 6-round SPECK32 with 30 active bits. But this experimental integral distinguisher cannot be proved by existing methods. So there still exists a gap between the proved distinguisher and the experimental one.To fill the gap, we explore secret keys in searching integral distinguishers based on BDPT. We put forward a situation where “Xor with The Secret Key” operation can be bypassed. Based on the new BDPT propagation rule, an improved automatic algorithm of searching integral distinguishers is proposed. For SPECK32, our improved algorithm can find the 6-round integral distinguisher with 230 chosen plaintexts. The gap between the proved distinguisher and the experimental one is filled. Moreover, we apply this improved method to search the integral distinguishers of SPECK, KATAN/KTANTAN, SIMON, SIMECK, SIMON(102), PRESENT and RECTANGLE block ciphers. The integral distinguishers found by our improved method are better than or consistent with the previous longest distinguishers.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tosc.v2020.i3.288-304</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8703</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8703">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/8703/8295" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8703" DMDID="DMD_rub-journals_8703">
+            <mets:fptr FILEID="FILE0_rub-journals_8703"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

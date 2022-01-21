@@ -1,0 +1,103 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8617">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Pyjamask</title>
+                        <subTitle>Block Cipher and Authenticated Encryption with Highly Efficient Masked Implementation</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Goudarzi, Dahmun</displayForm>
+                        <namePart type="family">Goudarzi</namePart>
+                        <namePart type="given">Dahmun</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Jean, Jérémy</displayForm>
+                        <namePart type="family">Jean</namePart>
+                        <namePart type="given">Jérémy</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Kölbl, Stefan</displayForm>
+                        <namePart type="family">Kölbl</namePart>
+                        <namePart type="given">Stefan</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Peyrin, Thomas</displayForm>
+                        <namePart type="family">Peyrin</namePart>
+                        <namePart type="given">Thomas</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Rivain, Matthieu</displayForm>
+                        <namePart type="family">Rivain</namePart>
+                        <namePart type="given">Matthieu</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Sasaki, Yu</displayForm>
+                        <namePart type="family">Sasaki</namePart>
+                        <namePart type="given">Yu</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Sim, Siang Meng</displayForm>
+                        <namePart type="family">Sim</namePart>
+                        <namePart type="given">Siang Meng</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020-06-22</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">29</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">This paper introduces Pyjamask, a new block cipher family and authenticated encryption proposal submitted to the NIST lightweight cryptography standardization process. Pyjamask targets side-channel resistance as one of its main goal. More precisely, it strongly minimizes the number of nonlinear gates used in its internal primitive in order to allow efficient masked implementations, especially for high-order masking in software. Compared to other block ciphers, our proposal has thus among the smallest number of binary AND computations per input bit at the time of writing. Even though Pyjamask minimizes such an important criterion, it remains rather lightweight and efficient, thanks to a general bitslice construction that enables to computation of all nonlinear gates in parallel. For authenticated encryption, we adopt the provably secure AEAD mode OCB which has been extensively studied and has the benefit to offer full parallelization. Of course, other block cipher-based modes can be considered as well if other performance profiles are to be targeted.The paper first gives the specification of the Pyjamask block cipher and the associated AEAD proposal. We also provide a detailed design rationale for the block cipher which is guided by our aim of software efficiency in the presence of high-order masking. The security of the design is analyzed against most commonly known cryptanalysis techniques. We finally describe efficient (masked) implementations in software and provide implementation results with aggressive performances for masking of very high orders (up to 128). We also provide a rough estimation of the hardware performances which remain much better than those of an AES round-based implementation.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tosc.v2020.iS1.31-59</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8617</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8617">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/8617/8183" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8617" DMDID="DMD_rub-journals_8617">
+            <mets:fptr FILEID="FILE0_rub-journals_8617"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

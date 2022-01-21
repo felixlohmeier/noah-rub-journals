@@ -1,0 +1,53 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_92">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <nonSort>The </nonSort>
+                        <title>process of human rights protection in Namibia</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Horn, Nico</displayForm>
+                        <namePart type="family">Horn</namePart>
+                        <namePart type="given">Nico</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2014-01-31</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">17</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">The high value assigned to human rights and liberal values in the Namibian Constitution were the result of a negotiated settlement. At the time of Namibian independence the idea of national human rights commissions to guard over and protect fundamental freedoms and rights of individuals in constitutional democracies gained momentum all over the world. When Namibia launched its initial report as a signatory to the African Charter on Human and Peoples’ Rights at the Banjul sitting of the African Commission, a commissioner from South Africa raised the issue of an independent national human rights commission in Namibia. However Namibia was reluctant to follow its southern neighbour’s example since the Namibian nation explicitly opted for a non-confrontational closing on the past. What has been lacking since independence is a place where human rights violations can be addressed as they are happening. The most significant development was the creation of an advisory committee on human rights in October 2006. While this is a good initiative which undoubtedly helped to bring human rights protection closer to the people, it lacks the structures that will allow meaningful interaction between civil society and the government. The advisory committee of the Ombudsman is a good start, but more action is needed to make it a workable committee in terms of the Paris Principles. rticle sets out to review publications that have appeared since the late 1980s dealing with the border war in Namibia, the perceived ‘total onslaught’ against the NP-government of South Africa and its response in the shape of a ‘total strategy’ to combat the forces of revolutionary communism. It is argued that this response was premised on the assumption that African liberation movements were manipulated by the Soviet Union and its Cuban proxies in Southern Africa. The article also focus on publications covering the democratic transition in South Africa and the growing body of reminiscences and assessments of the impact of the border war on former white conscripts. Some of the publications reflect a growing willingness to engage with unpalatable policies and practices of the past, but there is also a tendency, especially among Afrikaners, to apportion blame for what is perceived to have been a botched transition, and a failure to grasp the true nature of colonial exploitation, racism and white supremacy and its continued impact on present-day developments.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_92</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_92">
+                <mets:FLocat xlink:href="https://namibian-studies.com/index.php/JNS/article/download/92/64" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_92" DMDID="DMD_rub-journals_92">
+            <mets:fptr FILEID="FILE0_rub-journals_92"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,70 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_574">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Significantly Improved Multi-bit Differentials for Reduced Round Salsa and ChaCha</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Choudhuri, Arka Rai</displayForm>
+                        <namePart type="family">Choudhuri</namePart>
+                        <namePart type="given">Arka Rai</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Maitra, Subhamoy</displayForm>
+                        <namePart type="family">Maitra</namePart>
+                        <namePart type="given">Subhamoy</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2017-02-03</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">27</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">ChaCha and Salsa are two software oriented stream ciphers that have attracted serious attention in academic as well as commercial domain. The most important cryptanalysis of reduced versions of these ciphers was presented by Aumasson et al. in FSE 2008. One part of their attack was to apply input difference(s) to investigate biases after a few rounds. So far there have been certain kind of limited exhaustive searches to obtain such biases. For the first time, in this paper, we show how to theoretically choose the combinations of the output bits to obtain significantly improved biases. The main idea here is to consider the multi-bit differentials as extension of suitable single-bit differentials with linear approximations, which is essentially a differential-linear attack. As we consider combinations of many output bits (for example 19 for Salsa and 21 for ChaCha), exhaustive search is not possible here. By this method we obtain very high biases for linear combinations of bits in Salsa after 6 rounds and in ChaCha after 5 rounds. These are clearly two rounds of improvement for both the ciphers over the existing works. Using these biases we obtain several significantly improved cryptanalytic results for reduced round Salsa and ChaCha that could not b obtained earlier. In fact, with our results it is now possible to cryptanalyse 6-round Salsa and 5-round ChaCha in practical time.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tosc.v2016.i2.261-287</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_574</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_574">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/574/516" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/vnd.openxmlformats-officedocument.presentationml.presentation" ID="FILE1_rub-journals_574">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/574/7470" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_574" DMDID="DMD_rub-journals_574">
+            <mets:fptr FILEID="FILE0_rub-journals_574"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_574" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_574"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

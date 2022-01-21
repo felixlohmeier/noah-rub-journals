@@ -1,0 +1,55 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7606">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <nonSort>Das </nonSort>
+                        <title>Verhältnis von EGB und nationalen Gewerkschaften</title>
+                        <subTitle>Zwischen Europäisierung und Renationalisierung</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Kowalsky, Wolfgang</displayForm>
+                        <namePart type="family">Kowalsky</namePart>
+                        <namePart type="given">Wolfgang</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015-02-16</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">28</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">This article focuses on the state of research relating to trade unions and European politics. An overview on the development of the European Trade Union Congress (ETUC) is followed by a glance at the trade unions’ programmatic positions regarding ideas and concepts of European integration. In reference to the dictum of Vobrubas, revealing the lack of a genuine intellectual discussion about Europe, it is possible to trace an intellectual critique concerning Europe from the right wing of the political spectrum as well as from the left. From the trade unions’ point of view the debate on the future of Europe focussed on the establishment of a balance between economic and social aspects of integration. Since academic literature dealing with trade unionism is as comprehensive as literature on European integration it could be assumed that the combination of both entails similar results. However, a short view on trade union literature regarding European integration as well as a glance at European literature concerning trade unionism shows the limits of current academic research.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/mts.42.2009.257-284</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7606</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7606">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/7606/6778" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7606" DMDID="DMD_rub-journals_7606">
+            <mets:fptr FILEID="FILE0_rub-journals_7606"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

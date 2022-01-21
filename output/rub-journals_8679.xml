@@ -1,0 +1,62 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8679">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Second-Order Masked Lookup Table Compression Scheme</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Valiveti, Annapurna</displayForm>
+                        <namePart type="family">Valiveti</namePart>
+                        <namePart type="given">Annapurna</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Vivek, Srinivas</displayForm>
+                        <namePart type="family">Vivek</namePart>
+                        <namePart type="given">Srinivas</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020-08-26</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">25</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Masking by lookup table randomisation is a well-known technique used to achieve side-channel attack resistance for software implementations, particularly, against DPA attacks. The randomised table technique for first- and second-order security requires about m•2n bits of RAM to store an (n,m)-bit masked S-box lookup table. Table compression helps in reducing the amount of memory required, and this is useful for highly resource-constrained IoT devices. Recently, Vadnala (CT-RSA 2017) proposed a randomised table compression scheme for first- and second-order security in the probing leakage model. This scheme reduces the RAM memory required by about a factor of 2l, where l is a compression parameter. Vivek (Indocrypt 2017) demonstrated an attack against the second-order scheme of Vadnala. Hence achieving table compression at second and higher orders is an open problem.In this work, we propose a second-order secure randomised table compression scheme which works for any (n,m)-bit S-box. Our proposal is a variant of Vadnala’s scheme that is not only secure but also significantly improves the time-memory trade-off. Specifically, we improve the online execution time by a factor of 2n−l. Our proposed scheme is proved 2-SNI secure in the probing leakage model. We have implemented our method for AES-128 on a 32-bit ARM Cortex processor. We are able to reduce the memory required to store a randomised S-box table for second-order AES-128 implementation to 59 bytes.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tches.v2020.i4.129-153</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8679</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8679">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/8679/8238" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8679" DMDID="DMD_rub-journals_8679">
+            <mets:fptr FILEID="FILE0_rub-journals_8679"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

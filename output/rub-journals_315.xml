@@ -1,0 +1,52 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_315">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Presentations and Announcements</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Authors, Various</displayForm>
+                        <namePart type="family">Authors</namePart>
+                        <namePart type="given">Various</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2011-09-23</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">6</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">• Juliette Cadiot, Dominique Arel, Larissa Zakharova (eds.): Cacophonies d&apos;empire. Le gouvernement des langues dans l&apos;Empire russe et en Union soviétique, Paris, CNRS Editions, 2010. 368 p. ISBN 978-2-2710-7031-9 • Oleg Chlevnjuk: Chozjain. Stalin i utverždenie stalinskoj diktatury [Master of the House. Stalin and the Establishment of the Stalinist Dictatorship], Moskva, ROSSPEN, 2010. 478 p. (Istorija stalinizma). ISBN: 978-5-8243-1314-7• Romain Ducoulombier: Camarades. La Naissance du Parti Communiste en France. Préface de Marc Lazar, Paris, Perrin, 2010. 430 p. ISBN 978-2-2620-3416-0• Malte Griesse: Communiquer, juger et agir sous Staline. La personne prise entre ses liens avec les proches et son rapport au système politico-idéologique, Frankfurt am Main e.a., Lang, 2011. XII, 536 p. ISBN: 978-3-631-60446-5• Narihiko Ito, Annelies Laschitza, Ottokar Luban (eds.): Rosa Luxemburg. Ökonomische und historisch-politische Aspekte ihres Werkes. Internationale Rosa-Luxemburg-Gesellschaft in Tokio, April 2007, und Berlin, Januar 2009, Berlin, Dietz, 2010. 236 p. ISBN 978-3-3200-2233-4 • Gerd Koenen: Was war der Kommunismus?, Göttingen, Vandenhoeck &amp;amp; Ruprecht, 2010. 143 p. (FRIAS Rote Reihe. 2). ISBN 978-3-5253-2301-4 • Grigorij G. Kosač: Kommunisty Bližnego Vostoka v SSSR [Communists from the Middle East in the USSR]. 1920-1930-e gody, Moskva, RGGU, 2009. 268 p. ISBN 978-5-7281-1004-0 • Aleksandr Livšin: Nastroenija i političeskie ėmocii v Sovetskoj Rossii [Morale and Political Emotions in Soviet Russia]. 1917-1932 gg., Moskva, ROSSPEN, 2010. 344 p. (Istorija stalinizma). ISBN 978-5-8243-1358-1 • Alex Marshall: The Caucasus under Soviet Rule, London-New York, Routledge, 2010. VIII, 387 p. (Routledge Studies in the History of Russia and Eastern Europe). ISBN 978-0-415-41012-0 • Vladimir G. Mosolov: IMĖL. Citadel&apos; partijnoj ortodoksii. Iz istorii Instituta marksizma-leninizma pri CK KPSS [IMEL. Fortress of Party Orthodoxy. The History of the Institute of Marxism-Leninism at the CC of the CPSU]. 1921-1956, Moskva, Novyj chronograf, 2010. 600 p. ISBN 978-5-94881-104-8 • Jürgen Mothes: Lateinamerika und der &quot;Generalstab&quot; der Weltrevolution. Zur Lateinamerika-Politik der Komintern. Herausgegeben von Klaus Meschkat, Berlin, Dietz, 2010. 304 p. (Geschichte des Kommunismus und des Linkssozialismus. 14). ISBN 978-3-3200-2235-8 • Matthias Neumann: The Communist Youth League and the Transformation of the Soviet Union. 1917-1932, London-New York, Routledge, 2011. XXI, 289 p. (BASEES/Routledge series on Russian and East European studies. 76). ISBN: 978-0-415-55957-7 • Serge Wolikow: L’Internationale Communiste. 1919-1943. Le Komintern ou le rêve déchu du parti mondial de la révolution, Paris, Les Editions de l’Atelier, 2010. 288 p. ISBN 978-2-7082-4131-2</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_315</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_315">
+                <mets:FLocat xlink:href="https://incs.ub.rub.de/index.php/INCS/article/download/315/273" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_315" DMDID="DMD_rub-journals_315">
+            <mets:fptr FILEID="FILE0_rub-journals_315"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

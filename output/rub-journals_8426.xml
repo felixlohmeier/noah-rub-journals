@@ -1,0 +1,52 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8426">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>“Fort mit Trotha!” A series of articles in the Vorwärts in August 1905 on Lothar von Trothas edict ‘Words to the Ovaherero people’ also known as ‘extermination order’</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Eckl, Andreas</displayForm>
+                        <namePart type="family">Eckl</namePart>
+                        <namePart type="given">Andreas</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2019-12-06</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">10</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Lothar von Trothas ‘Words to the Ovaherero people’ – often referred to as the ‘extermination order’ (Vernichtungsbefehl), ‘firing order’ (Schießbefehl) or ‘genocide order’ (Genozidbefehl) are crucial in the documentation of the Herero genocide. Formulated on October 1 in 1904 by von Trotha and read to the assembled troops at Osombo-Windembe the following day, they were kept out of the public domain for almost a year. The edict was not printed, mentioned or referred to in the newspapers in South West Africa in 1904 or in the Kaiserreich. When von Trothas “Words to the Ovaherero people” finally became public knowledge in August 1905 the social democratic “Vorwärts” was horrified and sharply condemned it in a series of articles entitled ‘Away with Trotha!’, ‘The German ignominy in South West Africa’ and ‘To court-martial with Trotha!’.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8426</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8426">
+                <mets:FLocat xlink:href="https://namibian-studies.com/index.php/JNS/article/download/8426/7799" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8426" DMDID="DMD_rub-journals_8426">
+            <mets:fptr FILEID="FILE0_rub-journals_8426"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

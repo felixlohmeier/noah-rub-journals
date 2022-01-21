@@ -1,0 +1,79 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_9171">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>1, 2, 3, Fork</title>
+                        <subTitle>Counter Mode Variants based on a Generalized Forkcipher</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Andreeva, Elena</displayForm>
+                        <namePart type="family">Andreeva</namePart>
+                        <namePart type="given">Elena</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Bhati, Amit Singh</displayForm>
+                        <namePart type="family">Bhati</namePart>
+                        <namePart type="given">Amit Singh</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Preneel, Bart</displayForm>
+                        <namePart type="family">Preneel</namePart>
+                        <namePart type="given">Bart</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Vizár, Damian</displayForm>
+                        <namePart type="family">Vizár</namePart>
+                        <namePart type="given">Damian</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2021-09-17</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">35</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">A multi-forkcipher (MFC) is a generalization of the forkcipher (FC) primitive introduced by Andreeva et al. at ASIACRYPT’19. An MFC is a tweakable cipher that computes s output blocks for a single input block, with s arbitrary but fixed. We define the MFC security in the ind-prtmfp notion as indistinguishability from s tweaked permutations. Generalizing tweakable block ciphers (TBCs, s = 1), as well as forkciphers (s = 2), MFC lends itself well to building simple-to-analyze modes of operation that support any number of cipher output blocks.Our main contribution is the generic CTR encryption mode GCTR that makes parallel calls to an MFC to encrypt a message M. We analyze the set of all 36 “simple and natural” GCTR variants under the nivE security notion by Peyrin and Seurin rom CRYPTO’16. Our proof method makes use of an intermediate abstraction called tweakable CTR (TCTR) that captures the core security properties of GCTR common to all variants, making their analyses easier. Our results show that many of the schemes achieve from well beyond birthday bound (BBB) to full n-bit security under nonce respecting adversaries and some even BBB and close to full n-bit security in the face of realistic nonce misuse conditions.We finally present an efficiency comparison of GCTR using ForkSkinny (an MFC with s = 2) with the traditional CTR and the more recent CTRT modes, both are instantiated with the SKINNY TBC. Our estimations show that any GCTR variant with ForkSkinny can achieve an efficiency advantage of over 20% for moderately long messages, illustrating that the use of an efficient MFC with s ≥ 2 brings a clear speed-up.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.46586/tosc.v2021.i3.1-35</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_9171</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_9171">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/9171/8710" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_9171" DMDID="DMD_rub-journals_9171">
+            <mets:fptr FILEID="FILE0_rub-journals_9171"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

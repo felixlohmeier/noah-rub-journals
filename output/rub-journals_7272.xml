@@ -1,0 +1,126 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7272">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Persistent Fault Analysis on Block Ciphers</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Zhang, Fan</displayForm>
+                        <namePart type="family">Zhang</namePart>
+                        <namePart type="given">Fan</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Lou, Xiaoxuan</displayForm>
+                        <namePart type="family">Lou</namePart>
+                        <namePart type="given">Xiaoxuan</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Zhao, Xinjie</displayForm>
+                        <namePart type="family">Zhao</namePart>
+                        <namePart type="given">Xinjie</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Bhasin, Shivam</displayForm>
+                        <namePart type="family">Bhasin</namePart>
+                        <namePart type="given">Shivam</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>He, Wei</displayForm>
+                        <namePart type="family">He</namePart>
+                        <namePart type="given">Wei</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Ding, Ruyi</displayForm>
+                        <namePart type="family">Ding</namePart>
+                        <namePart type="given">Ruyi</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Qureshi, Samiya</displayForm>
+                        <namePart type="family">Qureshi</namePart>
+                        <namePart type="given">Samiya</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Ren, Kui</displayForm>
+                        <namePart type="family">Ren</namePart>
+                        <namePart type="given">Kui</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2018-08-14</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">23</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Persistence is an intrinsic nature for many errors yet has not been caught enough attractions for years. In this paper, the feature of persistence is applied to fault attacks, and the persistent fault attack is proposed. Different from traditional fault attacks, adversaries can prepare the fault injection stage before the encryption stage, which relaxes the constraint of the tight-coupled time synchronization. The persistent fault analysis (PFA) is elaborated on different implementations of AES-128, specially fault hardened implementations based on Dual Modular Redundancy (DMR). Our experimental results show that PFA is quite simple and efficient in breaking these typical implementations. To show the feasibility and practicability of our attack, a case study is illustrated on the shared library Libgcrypt with rowhammer technique. Approximately 8200 ciphertexts are enough to extract the master key of AES-128 when PFA is applied to Libgcrypt1.6.3 with redundant encryption based DMR. This work puts forward a new direction of fault attacks and can be extended to attack other implementations under more interesting scenarios.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tches.v2018.i3.150-172</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7272</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7272">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/7272/6450" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_rub-journals_7272">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/7272/7934" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="" ID="FILE2_rub-journals_7272">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/7272/7935" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7272" DMDID="DMD_rub-journals_7272">
+            <mets:fptr FILEID="FILE0_rub-journals_7272"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_7272" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_7272"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART2_rub-journals_7272" LABEL="">
+                <mets:fptr FILEID="FILE2_rub-journals_7272"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

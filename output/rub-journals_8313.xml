@@ -1,0 +1,79 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8313">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>ZOCB and ZOTR</title>
+                        <subTitle>Tweakable Blockcipher Modes for Authenticated Encryption with Full Absorption</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Bao, Zhenzhen</displayForm>
+                        <namePart type="family">Bao</namePart>
+                        <namePart type="given">Zhenzhen</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Guo, Jian</displayForm>
+                        <namePart type="family">Guo</namePart>
+                        <namePart type="given">Jian</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Iwata, Tetsu</displayForm>
+                        <namePart type="family">Iwata</namePart>
+                        <namePart type="given">Tetsu</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Minematsu, Kazuhiko</displayForm>
+                        <namePart type="family">Minematsu</namePart>
+                        <namePart type="given">Kazuhiko</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2019-06-11</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">54</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">We define ZOCB and ZOTR for nonce-based authenticated encryption with associated data, and analyze their provable security. These schemes use a tweakable blockcipher (TBC) as the underlying primitive, and fully utilize its input to process a plaintext and associated data (AD). This property is commonly referred to as full absorption, and this has been explored for schemes based on a permutation or a pseudorandom function (PRF). Our schemes improve the efficiency of TBC-based counterparts of OCB and OTR called OCB3 (Krovetz and Rogaway, FSE 2011) and OTR (Minematsu, EUROCRYPT 2014). Specifically, ΘCB3 and OTR have an independent part to process AD, and our schemes integrate this process into the encryption part of a plaintext by using the tweak input of the TBC. Up to a certain length of AD, ZOCB and ZOTR completely eliminate the independent process for it. Even for longer AD, our schemes process it efficiently by fully using the tweak input of the TBC. For this purpose, based on previous tweak extension schemes for TBCs, we introduce a scheme called XTX*. To our knowledge, ZOCB and ZOTR are the first efficiency improvement of ΘCB3 and OTR in terms of the number of TBC calls. Compared to Sponge-based and PRF-based schemes, ZOCB and ZOTR allow fully parallel computation of the underlying primitive, and have a unique design feature that an authentication tag is independent of a part of AD. We present experimental results illustrating the practical efficiency gain and clarifying the efficiency cost for it with a concrete instantiation. The results show that for long input data, our schemes have gains, while we have efficiency loss for short input data.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tosc.v2019.i2.1-54</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8313</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8313">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/8313/7662" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8313" DMDID="DMD_rub-journals_8313">
+            <mets:fptr FILEID="FILE0_rub-journals_8313"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

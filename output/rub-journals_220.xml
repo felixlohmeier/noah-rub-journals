@@ -1,0 +1,53 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_220">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Michael Brie, Frigga Haug (eds.)</title>
+                        <subTitle>Zwischen Klassenstaat und Selbstbefreiung. Zum Staatsverständnis von Rosa Luxemburg, Baden-Baden, Nomos, 2011. 242 pp. (Staatsverständnisse. 43). – ISBN 978-3832941482</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Weber, Fritz</displayForm>
+                        <namePart type="family">Weber</namePart>
+                        <namePart type="given">Fritz</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2014-05-28</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">3</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Michael Brie, Frigga Haug (eds.): Zwischen Klassenstaat und Selbstbefreiung. Zum Staatsverständnis von Rosa Luxemburg [Between Class State and Self-Emancipation. Rosa Luxemburg’s Concept of the State], Baden-Baden, Nomos, 2011. 242 pp. (Staatsverständnisse. 43). – ISBN 978-3832941482.University of Commerce, Vienna</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_220</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_220">
+                <mets:FLocat xlink:href="https://incs.ub.rub.de/index.php/INCS/article/download/220/178" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_220" DMDID="DMD_rub-journals_220">
+            <mets:fptr FILEID="FILE0_rub-journals_220"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

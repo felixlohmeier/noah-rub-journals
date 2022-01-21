@@ -1,0 +1,70 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_809">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Asymptotic Analysis of Plausible Tree Hash Modes for SHA-3</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Atighehchi, Kevin</displayForm>
+                        <namePart type="family">Atighehchi</namePart>
+                        <namePart type="given">Kevin</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Bonnecaze, Alexis</displayForm>
+                        <namePart type="family">Bonnecaze</namePart>
+                        <namePart type="given">Alexis</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2017-12-15</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">28</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Discussions about the choice of a tree hash mode of operation for a standardization have recently been undertaken. It appears that a single tree mode cannot address adequately all possible uses and specifications of a system. In this paper, we review the tree modes which have been proposed, we discuss their problems and propose solutions. We make the reasonable assumption that communicating systems have different specifications and that software applications are of different types (securing stored content or live-streamed content). Finally, we propose new modes of operation that address the resource usage problem for three representative categories of devices and we analyse their asymptotic behavior.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tosc.v2017.i4.212-239</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_809</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_809">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/809/762" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_rub-journals_809">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/809/7589" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_809" DMDID="DMD_rub-journals_809">
+            <mets:fptr FILEID="FILE0_rub-journals_809"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_809" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_809"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,87 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_9178">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>PLCrypto</title>
+                        <subTitle>A Symmetric Cryptographic Library for Programmable Logic Controllers</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Yang, Zheng</displayForm>
+                        <namePart type="family">Yang</namePart>
+                        <namePart type="given">Zheng</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Bao, Zhiting</displayForm>
+                        <namePart type="family">Bao</namePart>
+                        <namePart type="given">Zhiting</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Jin, Chenglu</displayForm>
+                        <namePart type="family">Jin</namePart>
+                        <namePart type="given">Chenglu</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Liu, Zhe</displayForm>
+                        <namePart type="family">Liu</namePart>
+                        <namePart type="given">Zhe</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Zhou, Jianying</displayForm>
+                        <namePart type="family">Zhou</namePart>
+                        <namePart type="given">Jianying</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2021-09-17</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">48</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Programmable Logic Controllers (PLCs) are control devices widely used in industrial automation. They can be found in critical infrastructures like power grids, water systems, nuclear plants, manufacturing systems, etc. This paper introduces PLCrypto, a software cryptographic library that implements lightweight symmetric cryptographic algorithms for PLCs using a standard PLC programming language called structured text (ST). To the best of our knowledge, PLCrypto is the first ST-based cryptographic library that is executable on commercial off-the-shelf PLCs. PLCrypto includes a wide range of commonly used algorithms, totaling ten algorithms, including one-way functions, message authentication codes, hash functions, block ciphers, and pseudo-random functions/generators. PLCrypto can be used to protect the confidentiality and integrity of data on PLCs without additional hardware or firmware modification. This paper also presents general optimization methodologies and techniques used in PLCrypto for implementing primitive operations like bit-shifting/rotation, substitution, and permutation. The optimization tricks we distilled from our practice can also guide future implementation of other computationheavy programs on PLCs. To demonstrate a use case of PLCrypto in practice, we further realize a cryptographic protocol called proof of aliveness as a case study. We benchmarked the algorithms and protocols in PLCrypto on a commercial PLC, Allen Bradley ControlLogix 5571, which is widely used in the real world. Also, we make our source codes publicly available, so plant operators can freely deploy our library in practice.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.46586/tosc.v2021.i3.170-217</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_9178</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_9178">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/9178/8716" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_9178" DMDID="DMD_rub-journals_9178">
+            <mets:fptr FILEID="FILE0_rub-journals_9178"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

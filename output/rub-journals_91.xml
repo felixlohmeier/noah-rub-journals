@@ -1,0 +1,53 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_91">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Looking back critically</title>
+                        <subTitle>Representations of the &apos;Herero War&apos; in novels of the GDR (Ferdinand May, Dietmar Beetz)</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Hermes, Stefan</displayForm>
+                        <namePart type="family">Hermes</namePart>
+                        <namePart type="given">Stefan</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2014-01-31</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">26</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Drawing on elements of postcolonial theory, the article analyses two novels from the GDR dealing with the Herero War, which have been widely ignored by literary criticism so far: Ferdinand May’s “Sturm über Südwest-Afrika” (1962) and Dietmar Beetz’s “Flucht vom Waterberg” (1989). It points out their references to Lenin’s concept of imperialism and explores their authentification strategies as well as the construction of the ‘black’ and ‘white’ characters plus the way the relations between them are depicted. Finally, it demonstrates to which extent the authors achieve their aim to present a critical view on the historic events – and how they occasionally fail to do so by unintentionally falling back on patterns dominating traditional colonial literature.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_91</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_91">
+                <mets:FLocat xlink:href="https://namibian-studies.com/index.php/JNS/article/download/91/63" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_91" DMDID="DMD_rub-journals_91">
+            <mets:fptr FILEID="FILE0_rub-journals_91"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

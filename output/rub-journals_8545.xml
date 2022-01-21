@@ -1,0 +1,79 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8545">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>FENL</title>
+                        <subTitle>an ISE to mitigate analogue micro-architectural leakage</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Gao, Si</displayForm>
+                        <namePart type="family">Gao</namePart>
+                        <namePart type="given">Si</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Marshall, Ben</displayForm>
+                        <namePart type="family">Marshall</namePart>
+                        <namePart type="given">Ben</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Page, Dan</displayForm>
+                        <namePart type="family">Page</namePart>
+                        <namePart type="given">Dan</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Pham, Thinh</displayForm>
+                        <namePart type="family">Pham</namePart>
+                        <namePart type="given">Thinh</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020-03-02</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">26</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Ge et al. [GYH18] propose the augmented ISA (or aISA), a central tenet of which is the selective exposure of micro-architectural resources via a less opaque abstraction than normal. The aISA proposal is motivated by the need for control over such resources, for example to implement robust countermeasures against microarchitectural attacks. In this paper, we apply an aISA-style approach to challenges stemming from analogue micro-architectural leakage; examples include power-based Hamming weight and distance leakage from relatively fine-grained resources (e.g., pipeline registers), which are not exposed in, and so cannot be reliably controlled via, a normal ISA. Specifically, we design, implement, and evaluate an ISE named FENL: the ISE acts as a fence for leakage, preventing interaction between, and hence leakage from, instructions before and after it in program order. We demonstrate that the implementation and use of FENL has relatively low overhead, and represents an effective tool for systematically localising and reducing leakage.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tches.v2020.i2.73-98</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8545</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8545">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/8545/8110" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8545" DMDID="DMD_rub-journals_8545">
+            <mets:fptr FILEID="FILE0_rub-journals_8545"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

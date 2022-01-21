@@ -1,0 +1,53 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_460">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Cosroe Chaqueri (ed.)</title>
+                        <subTitle>The Left in Iran. I</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Taghian, Ramin</displayForm>
+                        <namePart type="family">Taghian</namePart>
+                        <namePart type="given">Ramin</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2016-06-01</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">4</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Cosroe Chaqueri (ed.): The Left in Iran. 1905-1940, London, Merlin Press, 2010. (Revolutionary History. 10/2). 458 pp. – ISBN 9780850366723;Chaqueri, Cosroe (ed.): The Left in Iran. 1941-1957, London, Merlin Press,2011. (Revolutionary History. 10/3). 520 pp. – ISBN 9780850366563.Vienna, Austria</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_460</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_460">
+                <mets:FLocat xlink:href="https://incs.ub.rub.de/index.php/INCS/article/download/460/412" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_460" DMDID="DMD_rub-journals_460">
+            <mets:fptr FILEID="FILE0_rub-journals_460"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

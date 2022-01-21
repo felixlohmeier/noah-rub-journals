@@ -1,0 +1,68 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8755">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Songs That Travel</title>
+                        <subTitle>A Review Article of the CD box The Liturgy of Beta Israel</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Dege-Müller, Sophia</displayForm>
+                        <namePart type="family">Dege-Müller</namePart>
+                        <namePart type="given">Sophia</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Karlsson, Jonas</displayForm>
+                        <namePart type="family">Karlsson</namePart>
+                        <namePart type="given">Jonas</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2021-01-15</dateIssued>
+                    </originInfo>
+                    <abstract lang="eng">In 1986, a Franco-Israeli team of scholars set out to document the liturgy of the Beta ʾƎsrāʾel, a group of Ethiopian Jews which at the time was in the process of making aliyah under dramatic circumstances. The scholars gathered a group of priests in Israel and produced an impressive corpus of recordings, covering important parts of the liturgical tradition. Over the past decades, the team has been publishing their results in a number of articles and monographs, and in 2019 presented a selection of recordings in the form of a CD box. The box contains three CDs plus a bilingual booklet with information about the liturgical tradition of the Beta ʾƎsrāʾel: their music, prayers, and ritual practices. In this review article, the research results presented in the booklet are evaluated, with special attention paid to the effects that migration has had on the Beta ʾƎsrāʾel liturgical tradition.&amp;nbsp;</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.46586/er.11.2020.8755</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8755</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8755">
+                <mets:FLocat xlink:href="https://er.ceres.rub.de/index.php/ER/article/download/8755/8374" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="text/html" ID="FILE1_rub-journals_8755">
+                <mets:FLocat xlink:href="https://er.ceres.rub.de/index.php/ER/article/download/8755/8375" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8755" DMDID="DMD_rub-journals_8755">
+            <mets:fptr FILEID="FILE0_rub-journals_8755"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_8755" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_8755"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

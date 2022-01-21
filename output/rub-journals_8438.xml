@@ -1,0 +1,60 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8438">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <nonSort>The </nonSort>
+                        <title>Dress of Evangelization</title>
+                        <subTitle>Jesuit Garments, Liturgical Textiles, and the Senses in Early Modern Japan</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Zampol D&apos;Ortia, Linda</displayForm>
+                        <namePart type="family">Zampol D&apos;Ortia</namePart>
+                        <namePart type="given">Linda</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020-07-15</dateIssued>
+                    </originInfo>
+                    <abstract lang="eng">The present article analyses the use of clothing in the Jesuit sixteenth-century mission in Japan by applying dress theory. It investigates Jesuit garments and other perceptible elements of dress by understanding them as nonverbal communication. Texts by missionaries such as Francis Xavier (1506–52), Francisco Cabral (1533–1609), Luís Fróis (1532–1597), and Alessandro Valignano (1539–1606) are scrutinised to establish the content of the messages they meant to convey through Jesuit dress. The range of modifications that dress imposed on the bodies of the missionaries is examined to determine the limits within which the missionaries operated and how these boundaries came to be. Through an historical overview, the missionaries’ strategies are examined to show how such messages were fine-tuned through the manipulation of dress, and to what extent they represented responses to the specific context of Japan. Anti-Christian polemical texts supply information on the Japanese’s reception of these messages. The article explores Jesuit assumptions about the dress policies’ impact on their souls through the senses and on their work of evangelization as well.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/er.10.2020.8438</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8438</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8438">
+                <mets:FLocat xlink:href="https://er.ceres.rub.de/index.php/ER/article/download/8438/8220" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="text/html" ID="FILE1_rub-journals_8438">
+                <mets:FLocat xlink:href="https://er.ceres.rub.de/index.php/ER/article/download/8438/8221" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8438" DMDID="DMD_rub-journals_8438">
+            <mets:fptr FILEID="FILE0_rub-journals_8438"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_8438" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_8438"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

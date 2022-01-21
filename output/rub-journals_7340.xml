@@ -1,0 +1,86 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7340">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Error Amplification in Code-based Cryptography</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Nilsson, Alexander</displayForm>
+                        <namePart type="family">Nilsson</namePart>
+                        <namePart type="given">Alexander</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Johansson, Thomas</displayForm>
+                        <namePart type="family">Johansson</namePart>
+                        <namePart type="given">Thomas</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Stankovski Wagner, Paul</displayForm>
+                        <namePart type="family">Stankovski Wagner</namePart>
+                        <namePart type="given">Paul</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2018-11-09</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">21</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Code-based cryptography is one of the main techniques enabling cryptographic primitives in a post-quantum scenario. In particular, the MDPC scheme is a basic scheme from which many other schemes have been derived. These schemes rely on iterative decoding in the decryption process and thus have a certain small probability p of having a decryption (decoding) error.In this paper we show a very fundamental and important property of code-based encryption schemes. Given one initial error pattern that fails to decode, the time needed to generate another message that fails to decode is strictly much less than 1/p. We show this by developing a method for fast generation of undecodable error patterns (error pattern chaining), which additionally proves that a measure of closeness in ciphertext space can be exploited through its strong linkage to the difficulty of decoding these messages. Furthermore, if side-channel information is also available (time to decode), then the initial error pattern no longer needs to be given since one can be easily generated in this case.These observations are fundamentally important because they show that a, say, 128- bit encryption scheme is not inherently safe from reaction attacks even if it employs a decoder with a failure rate of 2−128. In fact, unless explicit protective measures are taken, having a failure rate at all – of any magnitude – can pose a security problem because of the error amplification effect of our method.A key-recovery reaction attack was recently shown on the MDPC scheme as well as similar schemes, taking advantage of decoding errors in order to recover the secret key. It was also shown that knowing the number of iterations in the iterative decoding step, which could be received in a timing attack, would also enable and enhance such an attack. In this paper we apply our error pattern chaining method to show how to improve the performance of such reaction attacks in the CPA case. We show that after identifying a single decoding error (or a decoding step taking more time than expected in a timing attack), we can adaptively create new error patterns that have a much higher decoding error probability than for a random error. This leads to a significant improvement of the attack based on decoding errors in the CPA case and it also gives the strongest known attack on MDPC-like schemes, both with and without using side-channel information.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tches.v2019.i1.238-258</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7340</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7340">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/7340/6512" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_rub-journals_7340">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/7340/7919" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="" ID="FILE2_rub-journals_7340">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/7340/7920" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7340" DMDID="DMD_rub-journals_7340">
+            <mets:fptr FILEID="FILE0_rub-journals_7340"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_7340" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_7340"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART2_rub-journals_7340" LABEL="">
+                <mets:fptr FILEID="FILE2_rub-journals_7340"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

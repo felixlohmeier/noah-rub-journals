@@ -1,0 +1,62 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_557">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Books, Materials, Texts</title>
+                        <subTitle>A threefold foreword</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Bachmann, Christian A.</displayForm>
+                        <namePart type="family">Bachmann</namePart>
+                        <namePart type="given">Christian A.</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Heimgartner, Stephanie</displayForm>
+                        <namePart type="family">Heimgartner</namePart>
+                        <namePart type="given">Stephanie</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2017-01-09</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">7</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">This foreword introduces to the focus of this volume, i. e. the intricate interconnectedness of the book as a material medium, its specific materiality, and the texts it is said to ‘contain’. Drawing from philosophers and literary scholars such as Michel Foucault, Sybille Krämer, Marshall McLuhan, Jerome McGann and others, it sketches the horizon whithin which the contributions of this volume are situated, arguing that it is essential for literary scholars to consider the material embodiment of texts.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/bmt.1.2016.4-10</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_557</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_557">
+                <mets:FLocat xlink:href="https://bmt.ub.rub.de/index.php/BMT/article/download/557/499" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_557" DMDID="DMD_rub-journals_557">
+            <mets:fptr FILEID="FILE0_rub-journals_557"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

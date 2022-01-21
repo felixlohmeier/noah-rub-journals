@@ -1,0 +1,54 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7558">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <nonSort>Der </nonSort>
+                        <title>Typus Ebert - Anmerkungen zur Biografie des Parteiführers im Staatsamt der Weimarer Republik</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Mühlhausen, Walter</displayForm>
+                        <namePart type="family">Mühlhausen</namePart>
+                        <namePart type="given">Walter</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2014-09-25</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">20</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Based on the &quot;Ebert generation&quot;, which includes those roughly born between 1861 and 1884, the author characterizes the &quot;Ebert type&quot; among social democratic politicians. He concentrates on social democrats in prominent governmental positions during the Weimar era and highlights features specific for this generation whilst not ignoring the importance of individual characteristics of these social democratic &quot;executive elite&quot;. The author argues that this generational approach has important consequences for research on individual and collective biographies.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/mts.45.2011.99-118</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7558</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7558">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/7558/6730" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7558" DMDID="DMD_rub-journals_7558">
+            <mets:fptr FILEID="FILE0_rub-journals_7558"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

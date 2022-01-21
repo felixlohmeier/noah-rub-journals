@@ -1,0 +1,60 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8646">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Coercion, Cooperation, Conflicts and Contempt</title>
+                        <subTitle>Orthodox-Lutheran Relations in Swedish-Occupied Kexholm County, Karelia, in the Seventeenth Century</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Laitila, Teuvo</displayForm>
+                        <namePart type="family">Laitila</namePart>
+                        <namePart type="given">Teuvo</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020-09-02</dateIssued>
+                    </originInfo>
+                    <abstract lang="eng">The article is about the Swedish religious policy towards the Orthodox (a majority at first, a minority after the mid-1650s) and Orthodox-Lutheran relations at the grassroots level. It shows that in official Swedish policy, the highest authorities urged local functionaries to cautious and non-coercive treatment of the Orthodox, while the latter at times proposed, and partly tried to implement, a forced conversion of the Karelians. Grassroots relations between Orthodox and Lutherans varied greatly, depending on which of them made up a majority in each place, who owned the land, and whether the Lutherans were newcomers. When the Orthodox were a majority the Lutherans conformed with their faith, even converting to Orthodoxy, although this was officially forbidden. When the majority consisted of Lutherans, the Orthodox started to convert or to assimilate to the Lutheran way of life. At the county level, religion as such was not a major factor in transforming the region into a Lutheran one. More important was the way in which religious issues were linked to local social encounters and practices and how the state overtly or covertly attempted to change Orthodoxy and encouraged Orthodox emigration from and Lutheran immigration to the county.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.46586/er.11.2020.8646</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8646</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8646">
+                <mets:FLocat xlink:href="https://er.ceres.rub.de/index.php/ER/article/download/8646/8250" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="text/html" ID="FILE1_rub-journals_8646">
+                <mets:FLocat xlink:href="https://er.ceres.rub.de/index.php/ER/article/download/8646/8251" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8646" DMDID="DMD_rub-journals_8646">
+            <mets:fptr FILEID="FILE0_rub-journals_8646"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_8646" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_8646"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

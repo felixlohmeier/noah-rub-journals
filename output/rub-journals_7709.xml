@@ -1,0 +1,54 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7709">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Schmelztiegel Ruhrgebiet? Polnische und türkische Arbeiter im Bergbau</title>
+                        <subTitle>Integration und Assimilation in der montanindustriellen Erwerbsgesellschaft</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Tenfelde, Klaus</displayForm>
+                        <namePart type="family">Tenfelde</namePart>
+                        <namePart type="given">Klaus</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015-01-21</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">22</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">As one of the most important heavy-industrial regions of Europe in the 19th and 20th century, the population of the Ruhr district was largely formed from migration that originated, first, from the nearby agrarian regions, and from the 1880s onwards, from far distant regions as well. Among the migrants, Poles from the Eastern territories of Prussia became dominant prior to the First World War. In an attempt of comparison with the other important group of ethnically divergent migrants that come in more recently, the Turkish population of the Ruhr, this article re-evaluates the well known assumption of the Ruhr as a successful “melting pot” of migrants and indigenous populations, an assumption that has frequently been taken as a most distinctive feature of the working-class population of the region.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/mts.36.2006.7-28</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7709</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7709">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/7709/6881" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7709" DMDID="DMD_rub-journals_7709">
+            <mets:fptr FILEID="FILE0_rub-journals_7709"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

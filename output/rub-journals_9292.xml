@@ -1,0 +1,94 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_9292">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Multi-moduli NTTs for Saber on Cortex-M3 and Cortex-M4</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Abdulrahman, Amin</displayForm>
+                        <namePart type="family">Abdulrahman</namePart>
+                        <namePart type="given">Amin</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Chen, Jiun-Peng</displayForm>
+                        <namePart type="family">Chen</namePart>
+                        <namePart type="given">Jiun-Peng</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Chen, Yu-Jia</displayForm>
+                        <namePart type="family">Chen</namePart>
+                        <namePart type="given">Yu-Jia</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Hwang, Vincent</displayForm>
+                        <namePart type="family">Hwang</namePart>
+                        <namePart type="given">Vincent</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Kannwischer, Matthias J.</displayForm>
+                        <namePart type="family">Kannwischer</namePart>
+                        <namePart type="given">Matthias J.</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Yang, Bo-Yin</displayForm>
+                        <namePart type="family">Yang</namePart>
+                        <namePart type="given">Bo-Yin</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2021-11-19</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">25</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">The U.S. National Institute of Standards and Technology (NIST) has designated ARM microcontrollers as an important benchmarking platform for its Post-Quantum Cryptography standardization process (NISTPQC). In view of this, we explore the design space of the NISTPQC finalist Saber on the Cortex-M4 and its close relation, the Cortex-M3. In the process, we investigate various optimization strategies and memory-time tradeoffs for number-theoretic transforms (NTTs).Recent work by [Chung et al., TCHES 2021 (2)] has shown that NTT multiplication is superior compared to Toom–Cook multiplication for unprotected Saber implementations on the Cortex-M4 in terms of speed. However, it remains unclear if NTT multiplication can outperform Toom–Cook in masked implementations of Saber. Additionally, it is an open question if Saber with NTTs can outperform Toom–Cook in terms of stack usage. We answer both questions in the affirmative. Additionally, we present a Cortex-M3 implementation of Saber using NTTs outperforming an existing Toom–Cook implementation. Our stack-optimized unprotected M4 implementation uses around the same amount of stack as the most stack-optimized Toom–Cook implementation while being 33%-41% faster. Our speed-optimized masked M4 implementation is 16% faster than the fastest masked implementation using Toom–Cook. For the Cortex-M3, we outperform existing implementations by 29%-35% in speed. We conclude that for both stack- and speed-optimization purposes, one should base polynomial multiplications in Saber on the NTT rather than Toom–Cook for the Cortex-M4 and Cortex-M3. In particular, in many cases, multi-moduli NTTs perform best.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.46586/tches.v2022.i1.127-151</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_9292</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_9292">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/9292/8858" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_9292" DMDID="DMD_rub-journals_9292">
+            <mets:fptr FILEID="FILE0_rub-journals_9292"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

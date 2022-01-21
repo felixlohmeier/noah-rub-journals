@@ -1,0 +1,55 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7435">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <nonSort>The </nonSort>
+                        <title>League of Red Cross Societies and International Committee of the Red Cross</title>
+                        <subTitle>a Re-Evaluation of American Influence in Interwar Internationalism</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Lowe, Kimberly A.</displayForm>
+                        <namePart type="family">Lowe</namePart>
+                        <namePart type="given">Kimberly A.</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2017-05-31</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">20</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">In 1919, the Allied Red Cross societies founded a new international federation of the Red Cross movement, the League of Red Cross Societies. The League of Red Cross Societies brought a new commitment to an “intelligent, peacetime programme”1—specifically public health education, medical research, and disaster relief—to a humanitarian movement that had previously focused on wartime medical aid to soldiers. The League of Red Cross Societies initially attracted much attention, but its focus on health and welfare development failed to attract the intergovernmental funding necessary to implement its programme. This article compares the League of Red Cross Societies’ attempt to mount an international anti-epidemic campaign in Poland with a concurrent effort by the International Committee of the Red Cross to mount an international repatriation programme on behalf of prisoners of war in Siberia from 1919 – 1922. The League of Red Cross Societies’ failure to transform the focus of the Red Cross movement towards health and welfare is indicative of the fact that intergovernmental support for humanitarian relief was reserved for humanitarian crises that were viewed as a clear threat to the peace and prosperity of Europe. Comparing these concurrent relief operations illuminates the political purposes of international relief and the terms through which governments understood international cooperation during the interwar years.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/mts.57.2017.37-56</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7435</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7435">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/7435/6607" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7435" DMDID="DMD_rub-journals_7435">
+            <mets:fptr FILEID="FILE0_rub-journals_7435"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

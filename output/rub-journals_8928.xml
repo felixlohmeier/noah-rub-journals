@@ -1,0 +1,53 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8928">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Namibia’s Regional and Local Authority Elections 2020</title>
+                        <subTitle>Democracy beyond SWAPO</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Melber, Henning</displayForm>
+                        <namePart type="family">Melber</namePart>
+                        <namePart type="given">Henning</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2021-06-25</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">11</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">The Regional and Local Authority Elections on 25 November 2020 have changed Namibia’s political landscape. Voters exercised their right to make political choices. The trend, first seen in the National Assembly and Presidential Elections of November 2019, signalled a seismic shift in voting behaviour and patterns. Namibians are entering a new era, and it is not yet sure how this will develop in the years to come. For the South West Africa People’s Organisation (SWAPO), a liberation movement which has been in power since Independence in 1990, this has been a rude awakening. This article offers a summary of the latest election results which seem to indicate the beginning of a new chapter in the country’s democratic political culture.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8928</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8928">
+                <mets:FLocat xlink:href="https://namibian-studies.com/index.php/JNS/article/download/8928/8499" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8928" DMDID="DMD_rub-journals_8928">
+            <mets:fptr FILEID="FILE0_rub-journals_8928"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

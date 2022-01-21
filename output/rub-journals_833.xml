@@ -1,0 +1,79 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_833">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>EM Analysis in the IoT Context</title>
+                        <subTitle>Lessons Learned from an Attack on Thread</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Dinu, Daniel</displayForm>
+                        <namePart type="family">Dinu</namePart>
+                        <namePart type="given">Daniel</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Kizhvatov, Ilya</displayForm>
+                        <namePart type="family">Kizhvatov</namePart>
+                        <namePart type="given">Ilya</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2018-02-14</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">25</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">The distinguishing feature of the Internet of Things is that many devices get interconnected. The threat of side-channel attacks in this setting is less understood than the threat of traditional network and software exploitation attacks that are perceived to be more powerful.This work is a case study of Thread, an emerging network and transport level stack designed to facilitate secure communication between heterogeneous IoT devices. We perform the first side-channel vulnerability analysis of the Thread networking stack. We leverage various network mechanisms to trigger manipulations of the security material or to get access to the network credentials. We choose the most feasible attack vector to build a complete attack that combines network specific mechanisms and Differential Electromagnetic Analysis. When successfully applied on a Thread network, the attack gives full network access to the adversary. We evaluate the feasibility of our attack in a TI CC2538 setup running OpenThread, a certified open-source implementation of the stack.The full attack does not succeed in our setting. The root cause for this failure is not any particular security feature of the protocol or the implementation, but a side-effect of a feature not related to security. We summarize the problems that we find in the protocol with respect to side-channel analysis, and suggest a range of countermeasures to prevent our attack and the other attack vectors we identified during the vulnerability analysis.In general, we demonstrate that elaborate security mechanisms of Thread make a side-channel attack not trivial to mount. Similar to a modern software exploit, it requires chaining multiple vulnerabilities. Nevertheless, such attacks are feasible. Being perhaps too expensive for settings like smart homes, they pose a relatively higher threat to the commercial setting. We believe our experience provides a useful lesson to designers of IoT protocols and devices.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tches.v2018.i1.73-97</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_833</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_833">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/833/785" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_rub-journals_833">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/833/8002" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="" ID="FILE2_rub-journals_833">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/833/8003" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_833" DMDID="DMD_rub-journals_833">
+            <mets:fptr FILEID="FILE0_rub-journals_833"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_833" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_833"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART2_rub-journals_833" LABEL="">
+                <mets:fptr FILEID="FILE2_rub-journals_833"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

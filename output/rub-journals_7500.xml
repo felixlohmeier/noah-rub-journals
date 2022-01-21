@@ -1,0 +1,61 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7500">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>What’s New in the History of Social Movements?</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Berger, Stefan</displayForm>
+                        <namePart type="family">Berger</namePart>
+                        <namePart type="given">Stefan</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015-02-02</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">22</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Jürgen Schmidt, August Bebel: Kaiser der Arbeiter, Zurich: Rotpunkt, 2013, ISBN 9783858695383, pp. 285.
+Axel Weipert, Das Rote Berlin. Eine Geschichte der Berliner Arbeiterbewegung 1830–1934, Berlin: Berliner Wissenschafts-Verlag, 2013, ISBN 9783830532422, pp. 251.
+Matthew Johnson, Militarism and the British Left, 1902–1914, Basingstoke: Palgrave Mac-Millan, 2013, ISBN 9781137274120, pp. xi+247.
+Christopher Read, War and Revolution in Russia, 1914–1922: the Collapse of Tsarism and the Establishment of Soviet Power, Basingstoke: Palgrave MacMillan, 2013, ISBN 9780230239869, xiv+247.
+Domink Rigoll, Staatsschutz in Westdeutschland. Von der Entnazifizierung zur Extremistenabwehr, Göttingen: Wallstein, 2013, ISBN 9783835310766, pp. 524.
+Arne Hordt, Von Scargill zu Blair? Der britische Bergarbeiterstreik 1984–85 als Problem einer europäischen Zeitgeschichtsschreibung, Frankfurt am Main: Peter Lang, 2013, ISBN 9783631625118, pp. 124.
+Andrea Hajek, Negotiating Memories of Protest in Western Europe. The Case of Italy, Basingstoke: Palgrave MacMillan, 2013, ISBN 9781137263773, pp. xi+220.
+Cristina Flesher Fominaya and Laurence Cox (eds.), Understanding European Movements: New Social Movements, Global Justice Struggles, Anti-Austerity Protest, London: Routledge, 2013, ISBN 9780415638791, pp. xix+263.
+Colin Barker, Laurence Cox, John Krinsky and Alf Gunvald Nilsen (eds.), Marxism and Social Movements, Leiden: Brill, 2013, ISBN 9789004211759, pp. vii+473.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <identifier type="doi">10.13154/mts.51.2014.313-334</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7500</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7500">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/7500/6672" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7500" DMDID="DMD_rub-journals_7500">
+            <mets:fptr FILEID="FILE0_rub-journals_7500"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

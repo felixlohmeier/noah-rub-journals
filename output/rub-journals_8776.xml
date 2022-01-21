@@ -1,0 +1,59 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8776">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>When and from Where did YHWH Emerge? Some Reflections on Early Yahwism in Israel and Judah</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Frevel, Christian</displayForm>
+                        <namePart type="family">Frevel</namePart>
+                        <namePart type="given">Christian</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2021-03-30</dateIssued>
+                    </originInfo>
+                    <abstract lang="eng">The paper addresses two crucial questions of the history of Israelite religion. Did YHWH emerge in the southern steppe and when did YHWH become the God of Judah? After discussing the available evidence for YHWH’s origin in the South, the paper tests the extra-biblical evidence for the worship of YHWH in Israel and Judah and questions his widespread importance in the tenth and early ninth centuries BCE in the mentioned territories. By presenting the theophoric personal names, the hypothesis is corroborated that YHWH was significantly introduced at the earliest by the Omrides. Moving then to the epigraphic evidence, the additional evince for YHWH’s origin in the South is reviewed negatively. YHWH of Teman from Kuntillet ʽAjrud cannot prove the origin of this deity in the South. It is rather a piece of evidence that the worship of this deity in the South was not natural even in the mid-eighth century BCE. That YHWH’s true origin is in Midian, Paran, Seir, etc. remains a speculative hypothesis that is built on the tradition-history of some biblical passages and the biblical Sinai tradition. This particular feature is indeed related to the South and its struggle to claim independence for the Southern YHWH from the North. YHWH was only introduced to Judah as a patron deity of the dynasty, and that is the state of the Omrides ruling in Jerusalem.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.46586/er.12.2021.8776</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8776</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8776">
+                <mets:FLocat xlink:href="https://er.ceres.rub.de/index.php/ER/article/download/8776/8448" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="text/html" ID="FILE1_rub-journals_8776">
+                <mets:FLocat xlink:href="https://er.ceres.rub.de/index.php/ER/article/download/8776/8449" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8776" DMDID="DMD_rub-journals_8776">
+            <mets:fptr FILEID="FILE0_rub-journals_8776"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_8776" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_8776"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

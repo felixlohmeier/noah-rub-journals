@@ -1,0 +1,61 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_175">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Biblical Metaschematism as a Device for Religious Transfer - Paul’s Communicative Strategy in a Situation of Religious Contact</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Stünkel, Knut Martin</displayForm>
+                        <namePart type="family">Stünkel</namePart>
+                        <namePart type="given">Knut Martin</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015-02-23</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">34</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Paul’s use of the concept of metaschematism in the First and Second Letter to the Corinthians, and in the Letter to the Philippians can be examined as a significant example of religious transfer in the form of negotiation of schemata on the level of object language that tries to establish a meta-language through negotiation of schemata. By metaschematizing, mental and behavioral dispositions become interfaces linking different systems together, though in an asymmetrical manner. By taking into account the role of metaschematic processes in medicinal and philosophical contexts, the article intends to scrutinize the role of metaschematism in schematic interaction.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/er.v2.2015.1-34</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_175</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_175">
+                <mets:FLocat xlink:href="https://er.ceres.rub.de/index.php/ER/article/download/175/137" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="text/html" ID="FILE1_rub-journals_175">
+                <mets:FLocat xlink:href="https://er.ceres.rub.de/index.php/ER/article/download/175/8285" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_175" DMDID="DMD_rub-journals_175">
+            <mets:fptr FILEID="FILE0_rub-journals_175"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_175" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_175"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

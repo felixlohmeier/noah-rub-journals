@@ -1,0 +1,63 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8736">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Re-Consolidating First-Order Masking Schemes</title>
+                        <subTitle>Nullifying Fresh Randomness</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Rezaei Shahmirzadi, Aein</displayForm>
+                        <namePart type="family">Rezaei Shahmirzadi</namePart>
+                        <namePart type="given">Aein</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Moradi, Amir</displayForm>
+                        <namePart type="family">Moradi</namePart>
+                        <namePart type="given">Amir</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020-12-03</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">38</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Application of masking, known as the most robust and reliable countermeasure to side-channel analysis attacks, on various cryptographic algorithms has dedicated a lion’s share of research to itself. The difficulty originates from the fact that the overhead of application of such an algorithmic-level countermeasure might not be affordable. This includes the area- and latency overheads and the amount of fresh randomness required to fulfill the resulting design’s security properties. There are already techniques applicable in hardware platforms that consider glitches into account. Among them, classical threshold implementations force the designers to use at least three shares in the underlying masking. The other schemes, which can deal with two shares, often necessitates the use of fresh randomness.Here, in this work, we present a technique allowing us to use two shares to realize the first-order glitch-extended probing secure masked realization of several functions, including the S-box of Midori, PRESENT, PRINCE, and AES ciphers without any fresh randomness.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.46586/tches.v2021.i1.305-342</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8736</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8736">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/8736/8336" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8736" DMDID="DMD_rub-journals_8736">
+            <mets:fptr FILEID="FILE0_rub-journals_8736"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

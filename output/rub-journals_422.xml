@@ -1,0 +1,53 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_422">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <nonSort>A </nonSort>
+                        <title>Bill of Rights is on the table... but where’s the food?</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Hancox, Toni</displayForm>
+                        <namePart type="family">Hancox</namePart>
+                        <namePart type="given">Toni</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015-12-16</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">11</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">The Namibian Constitution has been hailed as one of the most progressive in the world. Namibia has acceded to all the major international human rights conventions and in a monist system such conventions can have real effect without any further action. The basis for respecting all human rights is in place, but the reality does not align with this basis. Namibia has one of the highest levels of income inequality in the world. In particular, socio-economic rights are inadequately protected and although the legal framework exists to claim such rights, a lack of access to justice impedes their realisation. It is the duty of Government to make the promises of the constitution reality for the Namibian people. A number of government spending decisions taken at a time when people are starving and have no standardised access to housing, education or healthcare have raised concerns over priorities. An independent judiciary must play its part, and civil society must also take up the challenge and assist Government in establishing the structure of a healthy democracy, both through advocacy and by educating the populace to understand what their rights are and how to exercise them. All must work together to realise these aims and not suspect the other of ulterior motives. The change must come from within and must be a result of action by Namibians for Namibians, with the support of the international community when necessary.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_422</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_422">
+                <mets:FLocat xlink:href="https://namibian-studies.com/index.php/JNS/article/download/422/378" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_422" DMDID="DMD_rub-journals_422">
+            <mets:fptr FILEID="FILE0_rub-journals_422"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

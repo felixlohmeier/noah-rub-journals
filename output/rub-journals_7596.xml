@@ -1,0 +1,55 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7596">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <nonSort>Die </nonSort>
+                        <title>Debatten um die Montanunion</title>
+                        <subTitle>Gewerkschaften und europäische Integration in den 1950er Jahren</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Bühlbäcker, Bernd</displayForm>
+                        <namePart type="family">Bühlbäcker</namePart>
+                        <namePart type="given">Bernd</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015-02-16</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">20</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">The historiography of (early) European Integration concerning the role of trade unionism is still lacking severe historical research. Neither do we know which role national trade unions and their umbrella organisations played, nor do we have detailed studies of their impact on the European Integration process in the 1950s. The author tries to analyse and evaluate early attempts, conceptions and ideas of the main German umbrella organisation, the DGB, and the most influential trade unions of that time, the steal and mining unions IG Metall and IG Bergbau, towards European integration. Beside that the author imbeds his case study into the social, political and economic background of the 1950s when national interests did not necessarily mean mutual interests and also did not cope with supranational ambitions of the European Coal and Steel Community.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/mts.42.2009.43-62</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7596</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7596">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/7596/6768" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7596" DMDID="DMD_rub-journals_7596">
+            <mets:fptr FILEID="FILE0_rub-journals_7596"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

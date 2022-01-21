@@ -1,0 +1,94 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8454">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>INT-RUP Secure Lightweight Parallel AE Modes</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Chakraborti, Avik</displayForm>
+                        <namePart type="family">Chakraborti</namePart>
+                        <namePart type="given">Avik</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Datta, Nilanjan</displayForm>
+                        <namePart type="family">Datta</namePart>
+                        <namePart type="given">Nilanjan</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Jha, Ashwin</displayForm>
+                        <namePart type="family">Jha</namePart>
+                        <namePart type="given">Ashwin</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Mancillas-López, Cuauhtemoc</displayForm>
+                        <namePart type="family">Mancillas-López</namePart>
+                        <namePart type="given">Cuauhtemoc</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Nandi, Mridul</displayForm>
+                        <namePart type="family">Nandi</namePart>
+                        <namePart type="given">Mridul</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Sasaki, Yu</displayForm>
+                        <namePart type="family">Sasaki</namePart>
+                        <namePart type="given">Yu</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020-01-31</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">38</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Owing to the growing demand for lightweight cryptographic solutions, NIST has initiated a standardization process for lightweight cryptographic algorithms. Specific to authenticated encryption (AE), the NIST draft demands that the scheme should have one primary member that has key length of 128 bits, and it should be secure for at least 250 − 1 byte queries and 2112 computations. Popular (lightweight) modes, such as OCB, OTR, CLOC, SILC, JAMBU, COFB, SAEB, Beetle, SUNDAE etc., require at least 128-bit primitives to meet the NIST criteria, as all of them are just birthday bound secure. Furthermore, most of them are sequential, and they either use a two pass mode or they do not offer any security when the adversary has access to unverified plaintext (RUP model). In this paper, we propose two new designs for lightweight AE modes, called LOCUS and LOTUS, structurally similar to OCB and OTR, respectively. These modes achieve notably higher AE security bounds with lighter primitives (only a 64-bit tweakable block cipher). Especially, they satisfy the NIST requirements: secure as long as the data complexity is less than 264 bytes and time complexity is less than 2128, even when instantiated with a primitive with 64-bit block and 128-bit key. Both these modes are fully parallelizable and provide full integrity security under the RUP model. We use TweGIFT-64[4,16,16,4] (also referred as TweGIFT-64), a tweakable variant of the GIFT block cipher, to instantiate our AE modes. TweGIFT-64-LOCUS and TweGIFT-64-LOTUS are significantly light in hardware implementation. To justify, we provide our FPGA based implementation results, which demonstrate that TweGIFT-64-LOCUS consumes only 257 slices and 690 LUTs, while TweGIFT-64-LOTUS consumes only 255 slices and 664 LUTs.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tosc.v2019.i4.81-118</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8454</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8454">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/8454/8024" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8454" DMDID="DMD_rub-journals_8454">
+            <mets:fptr FILEID="FILE0_rub-journals_8454"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

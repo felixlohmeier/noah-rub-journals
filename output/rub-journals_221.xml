@@ -1,0 +1,53 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_221">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Johannes Fülberth</title>
+                        <subTitle>„...wird mit Brachialgewalt durchgefochten“. Bewaffnete Konflikte mit Todesfolge vor Gericht. Berlin 1929 bis 1932/1933, Köln, PapyRossa, 2011. 154 pp. (PapyRossa-Hochschulschriften. 87). – ISBN 978-3894384623.</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Möbius, Torben</displayForm>
+                        <namePart type="family">Möbius</namePart>
+                        <namePart type="given">Torben</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2014-05-28</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">4</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Johannes Fülberth: „...wird mit Brachialgewalt durchgefochten“. Bewaffnete Konflikte mit Todesfolge vor Gericht. Berlin 1929 bis 1932/1933 [„...Fought with Brutal Force“. Armed Conflicts with Fatal Consequences on Trial, Berlin 1929 to 1932/33], Köln, PapyRossa, 2011. 154 pp. (PapyRossa-Hochschulschriften. 87). – ISBN 978-3894384623.Bielefeld University</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_221</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_221">
+                <mets:FLocat xlink:href="https://incs.ub.rub.de/index.php/INCS/article/download/221/179" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_221" DMDID="DMD_rub-journals_221">
+            <mets:fptr FILEID="FILE0_rub-journals_221"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

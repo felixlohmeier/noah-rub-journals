@@ -1,0 +1,86 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_849">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>On Efficient Constructions of Lightweight MDS Matrices</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Zhou, Lijing</displayForm>
+                        <namePart type="family">Zhou</namePart>
+                        <namePart type="given">Lijing</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Wang, Licheng</displayForm>
+                        <namePart type="family">Wang</namePart>
+                        <namePart type="given">Licheng</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Sun, Yiru</displayForm>
+                        <namePart type="family">Sun</namePart>
+                        <namePart type="given">Yiru</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2018-03-01</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">21</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">The paper investigates the maximum distance separable (MDS) matrix over the matrix polynomial residue ring. Firstly, by analyzing the minimal polynomials of binary matrices with 1 XOR count and element-matrices with few XOR counts, we present an efficient method for constructing MDS matrices with as few XOR counts as possible. Comparing with previous constructions, our corresponding constructions only cost 1 minute 27 seconds to 7 minutes, while previous constructions cost 3 days to 4 weeks. Secondly, we discuss the existence of several types of involutory MDS matrices and propose an efficient necessary-and-sufficient condition for identifying a Hadamard matrix being involutory. According to the condition, each involutory Hadamard matrix over a polynomial residue ring can be accurately and efficiently searched. Furthermore, we devise an efficient algorithm for constructing involutory Hadamard MDS matrices with as few XOR counts as possible. We obtain many new involutory Hadamard MDS matrices with much fewer XOR counts than optimal results reported before.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tosc.v2018.i1.180-200</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_849</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_849">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/849/801" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_rub-journals_849">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/849/7622" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="" ID="FILE2_rub-journals_849">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/849/7522" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_849" DMDID="DMD_rub-journals_849">
+            <mets:fptr FILEID="FILE0_rub-journals_849"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_849" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_849"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART2_rub-journals_849" LABEL="">
+                <mets:fptr FILEID="FILE2_rub-journals_849"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

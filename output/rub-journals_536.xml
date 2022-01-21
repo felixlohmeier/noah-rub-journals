@@ -1,0 +1,86 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_536">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Quantum Differential and Linear Cryptanalysis</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Kaplan, Marc</displayForm>
+                        <namePart type="family">Kaplan</namePart>
+                        <namePart type="given">Marc</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Leurent, Gaëtan</displayForm>
+                        <namePart type="family">Leurent</namePart>
+                        <namePart type="given">Gaëtan</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Leverrier, Anthony</displayForm>
+                        <namePart type="family">Leverrier</namePart>
+                        <namePart type="given">Anthony</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Naya-Plasencia, María</displayForm>
+                        <namePart type="family">Naya-Plasencia</namePart>
+                        <namePart type="given">María</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2016-12-01</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">24</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Quantum computers, that may become available one day, would impact many scientific fields, most notably cryptography since many asymmetric primitives are insecure against an adversary with quantum capabilities. Cryptographers are already anticipating this threat by proposing and studying a number of potentially quantum-safe alternatives for those primitives. On the other hand, symmetric primitives seem less vulnerable against quantum computing: the main known applicable result is Grover’s algorithm that gives a quadratic speed-up for exhaustive search. In this work, we examine more closely the security of symmetric ciphers against quantum attacks. Since our trust in symmetric ciphers relies mostly on their ability to resist cryptanalysis techniques, we investigate quantum cryptanalysis techniques. More specifically, we consider quantum versions of differential and linear cryptanalysis. We show that it is usually possible to use quantum computations to obtain a quadratic speed-up for these attack techniques, but the situation must be nuanced: we don’t get a quadratic speed-up for all variants of the attacks. This allows us to demonstrate the following non-intuitive result: the best attack in the classical world does not necessarily lead to the best quantum one. We give some examples of application on ciphers LAC and KLEIN. We also discuss the important difference between an adversary that can only perform quantum computations, and an adversary that can also make quantum queries to a keyed primitive.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tosc.v2016.i1.71-94</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_536</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_536">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/536/480" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_rub-journals_536">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/536/7456" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_536" DMDID="DMD_rub-journals_536">
+            <mets:fptr FILEID="FILE0_rub-journals_536"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_536" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_536"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

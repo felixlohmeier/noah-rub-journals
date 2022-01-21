@@ -1,0 +1,52 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_122">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Not lost without a trace. The DEIC ship Vlissingen, assumed to have foundered near Meob Bay in 1747</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Werz, Bruno E.J.S.</displayForm>
+                        <namePart type="family">Werz</namePart>
+                        <namePart type="given">Bruno E.J.S.</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2014-01-31</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">28</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">The Meob Bay shipwreck project was initiated in January 1993, when some copper coins that had been washed ashore were identified by the author. All coins are VOC (Verenigde Oostindische Compagnie, United Dutch East India Company or DEIC) doits, minted in the town of Middelburg in the Netherlands in 1746. Research revealed that they most probably originate from a VOC ship that foundered during the outward-bound voyage. All leads point to the Vlissingen, a vessel that was lost with all hands in 1747. This article describes the identification process, the results of archival research into the historical background of the Vlissingen, as well as some aspects of archaeological fieldwork undertaken on site to date.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_122</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_122">
+                <mets:FLocat xlink:href="https://namibian-studies.com/index.php/JNS/article/download/122/89" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_122" DMDID="DMD_rub-journals_122">
+            <mets:fptr FILEID="FILE0_rub-journals_122"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

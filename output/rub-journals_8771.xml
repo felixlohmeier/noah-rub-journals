@@ -1,0 +1,66 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8771">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Literarisches Lernen im Spiegel internationaler Forschung</title>
+                    </titleInfo>
+                    <titleInfo type="translated">
+                        <title>German-language studies in literature education in the light of international research</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Winkler, Iris</displayForm>
+                        <namePart type="family">Winkler</namePart>
+                        <namePart type="given">Iris</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2021-02-01</dateIssued>
+                    </originInfo>
+                    <abstract lang="ger">Der vorliegende Beitrag stellt die These auf, dass die deutschsprachige Literaturdidaktik von einer stärkeren Berücksichtigung internationaler Forschung in mehrfacher Hinsicht profitieren kann. Dabei geht er von zwei in der deutschsprachigen Literaturdidaktik weithin akzeptierten Grundannahmen zum literarischen Lernen aus: erstens der Annahme, dass dem Wechselspiel von leser- und textorientierten Zugängen eine besondere Bedeutung beikommt, und zweitens der Annahme, dass das literarische Gespräch bei Einhaltung vorwiegend normativ gesetzter Kriterien eine zentrale Lehr- und Lernform ist. Zur Untersetzung dieser These wird der aktuelle deutschdidaktische Forschungsstand in Relation zu englischsprachigen internationalen literaturdidaktischen Forschungen gesetzt, die die ausgewählten Grundannahmen tangieren. Aus der gewählten Perspektive werden im deutschsprachigen Diskurs vorherrschende Annahmen und Befunde teils bestätigt, teils erweitert, teils in ein neues Licht gerückt.</abstract>
+                    <abstract lang="eng">This paper argues that German-language research in literature education can benefit in several ways from a stronger consideration of international research. To illustrate this point, the paper examines two basic assumptions on literature education that are widely accepted in German-language research: First, it is assumed that the interplay of reader- and text-oriented approaches to literature is particularly important. Second, it is assumed that classroom discussions are a proper way of dealing with literary texts, as long as some normative prerequisites are concerned. With respect to these assumptions, the current state of German-language research on literature education is related to international (English-language) research. As a result, prevailing assumptions and findings in the German-language discourse are partly confirmed, partly extended, and partly seen in a new light.</abstract>
+                    <subject lang="ger">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>Zeitschrift für Sprachlich-Literarisches Lernen und Deutschdidaktik</title>
+                        </titleInfo>
+                        <identifier type="issn">2701-0589</identifier>
+                        <part>
+                            <detail type="volume">
+                                <number>1</number>
+                            </detail>
+                        </part>
+                    </relatedItem>
+                    <identifier type="doi">10.46586/SLLD.Z.2021.8771</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8771</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8771">
+                <mets:FLocat xlink:href="https://ojs.ub.rub.de/index.php/SLLD/article/download/8771/8379" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8771" DMDID="DMD_rub-journals_8771">
+            <mets:fptr FILEID="FILE0_rub-journals_8771"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,54 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7484">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Nostra patria é il mondo intero</title>
+                        <subTitle>Libertarian internationalism in the era of mass migration and the development of the South American labour movement (1870 – 1920)</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Wätzold, Tim</displayForm>
+                        <namePart type="family">Wätzold</namePart>
+                        <namePart type="given">Tim</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015-03-04</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">27</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">From 1870 to 1920 the internationalist ideas in multi-ethnic countries of the Americas were strongly influenced by revolutionary syndicalism. The distinctively international and trans-cultural working class identity of multi ethnic subaltern classes in South America developed in the context of European mass immigration, urbanisation, and industrialisation. Many thousands of immigrants contributed to social struggles for better living and working conditions fighting against political exclusion. The examples of Argentina, Brazil and Uruguay illustrate that the subjectification of the international proletariat can be seen as collective identity construction of a libertarian subculture which developed in response to global capitalism. The revolutionary movements in South America and Europe formed the Libertarian Atlantic as one international movement.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/mts.52.2014.171-197</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7484</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7484">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/7484/6656" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7484" DMDID="DMD_rub-journals_7484">
+            <mets:fptr FILEID="FILE0_rub-journals_7484"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

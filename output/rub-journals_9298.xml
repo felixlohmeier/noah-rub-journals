@@ -1,0 +1,95 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_9298">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Curse of Re-encryption</title>
+                        <subTitle>A Generic Power/EM Analysis on Post-Quantum KEMs</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Ueno, Rei</displayForm>
+                        <namePart type="family">Ueno</namePart>
+                        <namePart type="given">Rei</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Xagawa, Keita</displayForm>
+                        <namePart type="family">Xagawa</namePart>
+                        <namePart type="given">Keita</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Tanaka, Yutaro</displayForm>
+                        <namePart type="family">Tanaka</namePart>
+                        <namePart type="given">Yutaro</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Ito, Akira</displayForm>
+                        <namePart type="family">Ito</namePart>
+                        <namePart type="given">Akira</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Takahashi, Junko</displayForm>
+                        <namePart type="family">Takahashi</namePart>
+                        <namePart type="given">Junko</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Homma, Naofumi</displayForm>
+                        <namePart type="family">Homma</namePart>
+                        <namePart type="given">Naofumi</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2021-11-19</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">27</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">This paper presents a side-channel analysis (SCA) on key encapsulation mechanism (KEM) based on the Fujisaki–Okamoto (FO) transformation and its variants. The FO transformation has been widely used in actively securing KEMs from passively secure public key encryption (PKE), as it is employed in most of NIST post-quantum cryptography (PQC) candidates for KEM. The proposed attack exploits side-channel leakage during execution of a pseudorandom function (PRF) or pseudorandom number generator (PRG) in the re-encryption of KEM decapsulation as a plaintext-checking oracle that tells whether the PKE decryption result is equivalent to the reference plaintext. The generality and practicality of the plaintext-checking oracle allow the proposed attack to attain a full-key recovery of various KEMs when an active attack on the underlying PKE is known. This paper demonstrates that the proposed attack can be applied to most NIST PQC third-round KEM candidates, namely, Kyber, Saber, FrodoKEM, NTRU, NTRU Prime, HQC, BIKE, and SIKE (for BIKE, the proposed attack achieves a partial key recovery). The applicability to Classic McEliece is unclear because there is no known active attack on this cryptosystem. This paper also presents a side-channel distinguisher design based on deep learning (DL) for mounting the proposed attack on practical implementation without the use of a profiling device. The feasibility of the proposed attack is evaluated through experimental attacks on various PRF implementations (a SHAKE software, an AES software, an AES hardware, a bit-sliced masked AES software, and a masked AES hardware based on threshold implementation). Although it is difficult to implement the oracle using the leakage from the TI-based masked hardware, the success of the proposed attack against these implementations (even except for the masked hardware), which include masked software, confirms its practicality.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.46586/tches.v2022.i1.296-322</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_9298</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_9298">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/9298/8864" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_9298" DMDID="DMD_rub-journals_9298">
+            <mets:fptr FILEID="FILE0_rub-journals_9298"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

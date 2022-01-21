@@ -1,0 +1,55 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7796">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <nonSort>The </nonSort>
+                        <title>Labour Movement and the National Question</title>
+                        <subTitle>The Communist Party ofYugoslavia in Macedonia in the Inter-War Period</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Willemsen, Heinz</displayForm>
+                        <namePart type="family">Willemsen</namePart>
+                        <namePart type="given">Heinz</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2014-12-17</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">23</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">In economically less developed countries, communism and nationalism tend to appear as closely related concepts, even though they might belong to ideologically different spheres. In the case of Macedonia, scholarship has viewed the domestic communist organization as an instrument in the service of a nationalist movement. However, even the still limited source material available today would allow one to draw a more complex picture of the situation. Typically East European by social background and world view, the Macedonian communists shared the scepticism of orthodox Marxists as regards nation and nationalism and resisted Soviet attempts to exploit national discontent in the Balkans in the early post-World War I era. In the wake of a severe inter-generational conflict, a group of young Belgrade students gained control of the Communist Party of Yugoslavia in the late 1930s. The subsequent transformation of the party according to the Bolshevik model prepared the ground for a greater emphasis on the national question, especially since the Comintern had decreed in 1935 the transition to a policy of national front.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/mts.33.2005.99-121</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7796</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7796">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/7796/6968" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7796" DMDID="DMD_rub-journals_7796">
+            <mets:fptr FILEID="FILE0_rub-journals_7796"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

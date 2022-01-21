@@ -1,0 +1,78 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_603">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>On The Exact Security of Message Authentication Using Pseudorandom Functions</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Jha, Ashwin</displayForm>
+                        <namePart type="family">Jha</namePart>
+                        <namePart type="given">Ashwin</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Mandal, Avradip</displayForm>
+                        <namePart type="family">Mandal</namePart>
+                        <namePart type="given">Avradip</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Nandi, Mridul</displayForm>
+                        <namePart type="family">Nandi</namePart>
+                        <namePart type="given">Mridul</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2017-03-08</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">22</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Traditionally, modes of Message Authentication Codes(MAC) such as Cipher Block Chaining (CBC) are instantiated using block ciphers or keyed Pseudo Random Permutations(PRP). However, one can also use domain preserving keyed Pseudo Random Functions(PRF) to instantiate MAC modes. The very first security proof of CBC-MAC [BKR00], essentially modeled the PRP as a PRF. Until now very little work has been done to investigate the difference between PRP vs PRF instantiations. Only known result is the rather loose folklore PRP-PRF transition of any PRP based security proof, which looses a factor of Ο( σ2/2n ) (domain of PRF/PRP is {0, 1}n and adversary makes σ many PRP/PRF calls in total). This loss is significant, considering the fact tight Θ( q2/2n ) security bounds have been known for PRP based EMAC and ECBC constructions (where q is the total number of adversary queries). In this work, we show for many variations of encrypted CBC MACs (i.e. EMAC, ECBC, FCBC, XCBC and TCBC), random function based instantiation has a security bound Ο( qσ/2n ). This is a significant improvement over the folklore PRP/PRF transition. We also show this bound is optimal by providing an attack against the underlying PRF based CBC construction. This shows for EMAC, ECBC and FCBC, PRP instantiations are substantially more secure than PRF instantiations. Where as, for XCBC and TMAC, PRP instantiations are at least as secure as PRF instantiations.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tosc.v2017.i1.427-448</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_603</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_603">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/603/544" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_rub-journals_603">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/603/7481" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_603" DMDID="DMD_rub-journals_603">
+            <mets:fptr FILEID="FILE0_rub-journals_603"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_603" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_603"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

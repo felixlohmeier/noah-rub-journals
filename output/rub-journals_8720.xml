@@ -1,0 +1,55 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8720">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <nonSort>The </nonSort>
+                        <title>Role of Britain in the Historiography of 1968</title>
+                        <subTitle>A Review of Discourse(s)</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Viol, Claus-Ulrich</displayForm>
+                        <namePart type="family">Viol</namePart>
+                        <namePart type="given">Claus-Ulrich</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020-12-01</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">21</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">This article subjects standard literature on 1968 in Britain to a critical, discourse-focused reading, asking not primarily what role ’68 played in Britain, but what role Britain is allowed to play in the (international) historiography of 1968. It finds a discursive formation in historiography that revolves around divisions of presence/absence, rise/decline, extremism/moderation and original/imitation, with a narrative structure or emplotment that commonly privileges the second term of each pair as the endpoint of the story of ’68 in Britain. It also finds that there is a way to undermine the dominant discursive patterns by validating and integrating elements of subjective and collective experience and discourse into historical reconstruction and evaluation, not least in order to avoid some of the pitfalls of master narrative and national mythology.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.46586/mts.64.2020.81-101</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8720</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8720">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/8720/8320" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8720" DMDID="DMD_rub-journals_8720">
+            <mets:fptr FILEID="FILE0_rub-journals_8720"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

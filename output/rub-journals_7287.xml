@@ -1,0 +1,103 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7287">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Key Extraction Using Thermal Laser Stimulation</title>
+                        <subTitle>A Case Study on Xilinx Ultrascale FPGAs</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Lohrke, Heiko</displayForm>
+                        <namePart type="family">Lohrke</namePart>
+                        <namePart type="given">Heiko</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Tajik, Shahin</displayForm>
+                        <namePart type="family">Tajik</namePart>
+                        <namePart type="given">Shahin</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Krachenfels, Thilo</displayForm>
+                        <namePart type="family">Krachenfels</namePart>
+                        <namePart type="given">Thilo</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Boit, Christian</displayForm>
+                        <namePart type="family">Boit</namePart>
+                        <namePart type="given">Christian</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Seifert, Jean-Pierre</displayForm>
+                        <namePart type="family">Seifert</namePart>
+                        <namePart type="given">Jean-Pierre</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2018-08-16</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">23</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Thermal laser stimulation (TLS) is a failure analysis technique, which can be deployed by an adversary to localize and read out stored secrets in the SRAM of a chip. To this date, a few proof-of-concept experiments based on TLS or similar approaches have been reported in the literature, which do not reflect a real attack scenario. Therefore, it is still questionable whether this attack technique is applicable to modern ICs equipped with side-channel countermeasures. The primary aim of this work is to assess the feasibility of launching a TLS attack against a device with robust security features. To this end, we select a modern FPGA, and more specifically, its key memory, the so-called battery-backed SRAM (BBRAM), as a target. We demonstrate that an attacker is able to extract the stored 256-bit AES key used for the decryption of the FPGA’s bitstream, by conducting just a single non-invasive measurement. Moreover, it becomes evident that conventional countermeasures are incapable of preventing our attack since the FPGA is turned off during key recovery. Based on our time measurements, the required effort to develop the attack is shown to be less than 7 hours. To avert this powerful attack, we propose a low-cost and CMOS compatible countermeasure circuit, which is capable of protecting the BBRAM from TLS attempts even when the FPGA is powered off. Using a proof-of-concept prototype of our countermeasure, we demonstrate its effectiveness against TLS key extraction attempts.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tches.v2018.i3.573-595</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7287</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7287">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/7287/6464" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_rub-journals_7287">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/7287/7962" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="" ID="FILE2_rub-journals_7287">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/7287/7963" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7287" DMDID="DMD_rub-journals_7287">
+            <mets:fptr FILEID="FILE0_rub-journals_7287"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_7287" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_7287"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART2_rub-journals_7287" LABEL="">
+                <mets:fptr FILEID="FILE2_rub-journals_7287"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

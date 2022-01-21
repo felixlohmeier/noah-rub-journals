@@ -1,0 +1,53 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_187">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>“With their backs to the wall … they were fighting like the cornered mongoose”</title>
+                        <subTitle>Contextualizing Kalahari San violence and warfare historically</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Guenther, Mathias</displayForm>
+                        <namePart type="family">Guenther</namePart>
+                        <namePart type="given">Mathias</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015-03-18</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">39</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">The title’s epigram derives from Namibian colonial writings on the San and frames the substance of the paper. Its depiction of the !Kung as intensely violent and bellicose resonates with and is frequently referenced by contemporary writings on the allegedly bred-in-the-bone disposition for war and violence of not only the San but of hunter-gatherers and humans in general. The accuracy of colonial accounts on the San as instances of ethnographic reportage is examined revealing a number of shortcomings, prime among them the hyperbole and projection of their authors’ preconceived notions derived from the Zeitgeist of colonial settler society. The paper also contextualizes the violence that was perpetrated by some of the San peoples of colonial Namibia (and neighbouring Botswana). The context was one of political turmoil and upheaval deriving from the presence of intrusive settlers. This politicized and even militarized some of the indigenous San population, undermining a peace-prone pattern of sociality marked by egalitarianism and sharing.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_187</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_187">
+                <mets:FLocat xlink:href="https://namibian-studies.com/index.php/JNS/article/download/187/147" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_187" DMDID="DMD_rub-journals_187">
+            <mets:fptr FILEID="FILE0_rub-journals_187"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

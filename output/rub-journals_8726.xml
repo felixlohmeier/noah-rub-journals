@@ -1,0 +1,87 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8726">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Ranking Loss</title>
+                        <subTitle>Maximizing the Success Rate in Deep Learning Side-Channel Analysis</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Zaid, Gabriel</displayForm>
+                        <namePart type="family">Zaid</namePart>
+                        <namePart type="given">Gabriel</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Bossuet, Lilian</displayForm>
+                        <namePart type="family">Bossuet</namePart>
+                        <namePart type="given">Lilian</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Dassance, François</displayForm>
+                        <namePart type="family">Dassance</namePart>
+                        <namePart type="given">François</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Habrard, Amaury</displayForm>
+                        <namePart type="family">Habrard</namePart>
+                        <namePart type="given">Amaury</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Venelli, Alexandre</displayForm>
+                        <namePart type="family">Venelli</namePart>
+                        <namePart type="given">Alexandre</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020-12-03</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">31</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">The side-channel community recently investigated a new approach, based on deep learning, to significantly improve profiled attacks against embedded systems. Compared to template attacks, deep learning techniques can deal with protected implementations, such as masking or desynchronization, without substantial preprocessing. However, important issues are still open. One challenging problem is to adapt the methods classically used in the machine learning field (e.g. loss function, performance metrics) to the specific side-channel context in order to obtain optimal results. We propose a new loss function derived from the learning to rank approach that helps preventing approximation and estimation errors, induced by the classical cross-entropy loss. We theoretically demonstrate that this new function, called Ranking Loss (RkL), maximizes the success rate by minimizing the ranking error of the secret key in comparison with all other hypotheses. The resulting model converges towards the optimal distinguisher when considering the mutual information between the secret and the leakage. Consequently, the approximation error is prevented. Furthermore, the estimation error, induced by the cross-entropy, is reduced by up to 23%. When the ranking loss is used, the convergence towards the best solution is up to 23% faster than a model using the cross-entropy loss function. We validate our theoretical propositions on public datasets.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.46586/tches.v2021.i1.25-55</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8726</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8726">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/8726/8326" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8726" DMDID="DMD_rub-journals_8726">
+            <mets:fptr FILEID="FILE0_rub-journals_8726"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

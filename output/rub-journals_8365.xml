@@ -1,0 +1,60 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8365">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Sensation and Metaphor in Ritual Performance</title>
+                        <subTitle>The Example of Sacred Texts</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Watts, James W.</displayForm>
+                        <namePart type="family">Watts</namePart>
+                        <namePart type="given">James W.</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2019-11-12</dateIssued>
+                    </originInfo>
+                    <abstract lang="eng">Rituals obviously utilize the human senses. Theological and mystical interpretations frequently comment on sensation as a source of metaphors for religious experience. However, the discourse used in religious rituals themselves usually avoids using the normal vocabulary appropriate to particular sensations, while focusing on ritual performance instead. This raises the question of whether it is generally the case that ritualizing sensation diverts attention from sensation to ritual behavior, and whether ritual interpretations usually divert attention from the sensation to its metaphorical meaning. This essay addresses these questions with the analytical tools of metaphor theory and ritual theory. To test and apply these theories, it focuses on one kind of ritual practices, those that involving written texts, especially books of scripture, and how they use the senses of sight, hearing, and touch.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/er.10.2019.8365</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8365</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8365">
+                <mets:FLocat xlink:href="https://er.ceres.rub.de/index.php/ER/article/download/8365/7806" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="text/html" ID="FILE1_rub-journals_8365">
+                <mets:FLocat xlink:href="https://er.ceres.rub.de/index.php/ER/article/download/8365/7807" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8365" DMDID="DMD_rub-journals_8365">
+            <mets:fptr FILEID="FILE0_rub-journals_8365"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_8365" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_8365"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

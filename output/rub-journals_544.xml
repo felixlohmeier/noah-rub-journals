@@ -1,0 +1,52 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_544">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Unforeseen combat at Naulila.  German South West Africa, Angola, and the First World War  in 1914 – 1917</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Zollmann, Jakob</displayForm>
+                        <namePart type="family">Zollmann</namePart>
+                        <namePart type="given">Jakob</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2016-12-14</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">34</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">This article examines the First World War in Angola that saw a victory for German colonial troops over the Portuguese in December 1914. Encouraged by his enemy’s defeat Oukwanyma King Mandume ya Ndemufayo, fought against Portugal (1915) and South Africa (1917) in a vain attempt to save the independence of his Kingdom. In 1920, Portuguese government initiated legal proceedings against Germany claiming for damages inflicted upon Portuguese nationals and the state during these wars. Both the Luso-German arbitration case in international law and the (politically charged) memorial practices for King Mandume have had ramifications up to the present day.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_544</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_544">
+                <mets:FLocat xlink:href="https://namibian-studies.com/index.php/JNS/article/download/544/488" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_544" DMDID="DMD_rub-journals_544">
+            <mets:fptr FILEID="FILE0_rub-journals_544"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,55 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8960">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Minimal phenomenal experience</title>
+                        <subTitle>Meditation, tonic alertness, and the phenomenology of “pure” consciousness</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Metzinger, Thomas</displayForm>
+                        <namePart type="family">Metzinger</namePart>
+                        <namePart type="given">Thomas</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020-03-24</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">44</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">This is the first in a series of instalments aiming at a minimal model explanation for conscious experience, taking the phenomenal character of “pure consciousness” or “pure awareness” in meditation as its entry point. It develops the concept of “minimal phenomenal experience” (MPE) as a candidate for the simplest form of consciousness, substantiating it by extracting six semantic constraints from the existing literature and using sixteen phenomenological case-studies to incrementally flesh out the new working concept. One empirical hypothesis is that the phenomenological prototype of “pure awareness”, to which all such reports refer, really is the content of a predictive model, namely, a Bayesian representation of tonic alertness. On a more abstract conceptual level, it can be described as a model of an unpartitioned epistemic space.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.33735/phimisci.2020.I.46</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8960</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8960">
+                <mets:FLocat xlink:href="https://philosophymindscience.org/index.php/phimisci/article/download/8960/8538" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8960" DMDID="DMD_rub-journals_8960">
+            <mets:fptr FILEID="FILE0_rub-journals_8960"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

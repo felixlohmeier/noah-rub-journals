@@ -1,0 +1,60 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8414">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <nonSort>The </nonSort>
+                        <title>Co-formation of the Manichaean and Zoroastrian Religions in Third-Century Iran</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>BeDuhn, Jason</displayForm>
+                        <namePart type="family">BeDuhn</namePart>
+                        <namePart type="given">Jason</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020-01-27</dateIssued>
+                    </originInfo>
+                    <abstract lang="eng">The assumption that an already established Zoroastrian religion served as the source for terms, concepts, and themes, which Mani and Manichaeans appropriated and altered, is due for reassessment. Building on the work of P. O. Skjaervø, this study argues that (1) Zoroastrianism and Manichaeism arose together, side by side, in the third century (2) against the background of older Iranian religious cultural traditions, (3) each fitting those antecedent cultural artifacts into different systems of interpretation and application.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <identifier type="doi">10.13154/er.11.2020.8414</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8414</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8414">
+                <mets:FLocat xlink:href="https://er.ceres.rub.de/index.php/ER/article/download/8414/7831" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="text/html" ID="FILE1_rub-journals_8414">
+                <mets:FLocat xlink:href="https://er.ceres.rub.de/index.php/ER/article/download/8414/7832" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8414" DMDID="DMD_rub-journals_8414">
+            <mets:fptr FILEID="FILE0_rub-journals_8414"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_8414" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_8414"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

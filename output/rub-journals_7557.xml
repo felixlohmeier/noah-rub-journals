@@ -1,0 +1,53 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7557">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>&quot;Arbeiterverräter&quot;, &quot;Sozialchauvinisten&quot;, &quot;Lakaien der Bourgeoisie&quot; Der sozialdemokratische Reformismus in Kaiserreich und Weimarerer Republik als Desiderat einer postideologischen Forschung</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Bloch, Max</displayForm>
+                        <namePart type="family">Bloch</namePart>
+                        <namePart type="given">Max</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2014-09-25</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">10</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">The author traces the legacy of the reformist network of the SPD (Social Democratic Party of Germany) from World War I to the Weimar Republic. It focuese on the communication structures and the political interests of its members. Wolfgang Heine, Max Quarck, Otto Landsberg, Eduard David, Albert Südekum, Georg Gradnauer and others are portrayed as representatives of a generation of middle-class social democrats that suffered from being either ignored in labour movement research or from being associated with &quot;opportunism&quot; and &quot;workers&apos; treachery&quot; by the &apos;official&apos; social democratic history.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/mts.45.2011.89-98</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7557</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7557">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/7557/6729" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7557" DMDID="DMD_rub-journals_7557">
+            <mets:fptr FILEID="FILE0_rub-journals_7557"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

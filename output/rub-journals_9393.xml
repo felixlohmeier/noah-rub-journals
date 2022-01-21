@@ -1,0 +1,52 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_9393">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Colonial wars put on urban display. Hamburg’s Baakenhafen and the German colonial wars</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Kawlath, Jan</displayForm>
+                        <namePart type="family">Kawlath</namePart>
+                        <namePart type="given">Jan</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2021-12-22</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">23</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">During the German colonial war in Namibia from 1904–1907, the port of Hamburg was the central hub for transporting soldiers and military material. One central assumption here is that the transports were not purely formal logistical processes carried out quietly and covertly by the military. These transports were stage-managed to present images of Germany as a colonial power to the domestic audience. The focus is on a harbour basin in the north-east of the port of Hamburg, the Baakenhafen with its southern quay bank, the Petersenkai, where the main shipping companies involved were located, making this the central location for the transports during the colonial war. The aim is to show how, in the context of various colonial wars, a public culture of celebration was established in Baakenhafen.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_9393</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_9393">
+                <mets:FLocat xlink:href="https://namibian-studies.com/index.php/JNS/article/download/9393/8934" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_9393" DMDID="DMD_rub-journals_9393">
+            <mets:fptr FILEID="FILE0_rub-journals_9393"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

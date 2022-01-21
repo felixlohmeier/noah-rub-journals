@@ -1,0 +1,55 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7545">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <nonSort>Die </nonSort>
+                        <title>andere Europäische Einigung</title>
+                        <subTitle>Entwicklungslinien der transnationalen Kooperation rechtsextremer Parteien in der zweiten Hälfte des 20. Jahrhunderts</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Steuwer, Janosch</displayForm>
+                        <namePart type="family">Steuwer</namePart>
+                        <namePart type="given">Janosch</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015-01-27</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">10</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Until now, European integration studies have paid great attention to the political center. Extremist parties, however, made efforts to conceive and develop own models of European integration and tried to cooperate with parties from different European countries. This article argues that a view from the margins of the political spectrum offers interesting insights and important findings about the relationship between European Integration and undemocratic parties as well as about the political center itself. It presents a general view of the development of the cooperation of extreme-right parties by identifying three different phases. The most intensive attempts to cooperate on European level can be found in the 1950s and early 1960s. At this time several European organizations were founded by extremeright parties from different European countries to coordinate political actions and manifestos. All these attempts were based on an own vision of an undemocratic European Integration, but for all that they weren’t successful. In a second phase the work of extreme-right parties shifted from action to debates on own ideas of European Integration, that were attended by extreme- right politicians from all over Europe. Until the first direct election of the European Parliament, which marks the beginning of a third period, there weren’t any attempts to coordinate politics through formal party cooperation. In this third phase, however, we can observe a comparatively continuous cooperation of extreme- right parties on European level. In contrast to the 1950s, the cooperation of extreme-right parties in the 1980s and 1990s did not ground on an own idea of European integration. All in all, the cooperation of extreme-right parties are characterized by an opposing trend compared to the parties of the political center. But this history also belongs to the history of European Integration.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/mts.46.2011.87-96</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7545</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7545">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/7545/6717" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7545" DMDID="DMD_rub-journals_7545">
+            <mets:fptr FILEID="FILE0_rub-journals_7545"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

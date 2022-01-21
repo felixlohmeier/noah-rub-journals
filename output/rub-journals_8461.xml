@@ -1,0 +1,78 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8461">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Improved Security Evaluation of SPN Block Ciphers and its Applications in the Single-key Attack on SKINNY</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Zhang, Wenying</displayForm>
+                        <namePart type="family">Zhang</namePart>
+                        <namePart type="given">Wenying</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Cao, Meichun</displayForm>
+                        <namePart type="family">Cao</namePart>
+                        <namePart type="given">Meichun</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Guo, Jian</displayForm>
+                        <namePart type="family">Guo</namePart>
+                        <namePart type="given">Jian</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Pasalic, Enes</displayForm>
+                        <namePart type="family">Pasalic</namePart>
+                        <namePart type="given">Enes</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020-01-31</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">21</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">In this paper, a new method for evaluating the integral property, truncated and impossible differentials for substitution-permutation network (SPN) block ciphers is proposed. The main assumption is an explicit description/expression of the internal state words in terms of the plaintext (ciphertext) words. By counting the number of times these words occur in the internal state expression, we can evaluate the resistance of a given block cipher to integral and impossible/truncated differential attacks more accurately than previous methods. More precisely, we explore the cryptographic consequences of uneven frequency of occurrences of plaintext (ciphertext) words appearing in the algebraic expression of the internal state words. This approach gives a new family of distinguishers employing different concepts such as the integral property, impossible/truncated differentials and the so-called zero-sum property. We then provide algorithms to determine the maximum number of rounds of such new types of distinguishers for SPN block ciphers. The potential and efficiency of this relatively simple method is confirmed through applications. For instance, in the case of SKINNY block cipher, several 10-round integral distinguishers, all of the 11-round impossible differentials, and a 7-round truncated differential could be determined. For the last case, using a single pair of plaintexts differing in three words so that (a = b = c) ≠ (a’ = b’ = c’), we are able to distinguish 7-round SKINNY from random permutations. More importantly, exploiting our distinguishers, we give the first practical attack on 11-round SKINNY-128-128 in the single-key setting (a theoretical attack reaches 16 rounds). Finally, using the same ideas, we provide a concise explanation on the existing distinguishers for round-reduced AES.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tosc.v2019.i4.171-191</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8461</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8461">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/8461/8026" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8461" DMDID="DMD_rub-journals_8461">
+            <mets:fptr FILEID="FILE0_rub-journals_8461"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

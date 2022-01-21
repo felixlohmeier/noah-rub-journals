@@ -1,0 +1,61 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7810">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Politischer Protest zwischen latenten Strukturen und manifesten Konflikten. Perspektiven soziologischer Protestforschung am Beispiel der (neuen) Friedensbewegung</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Bonacker, Thorsten</displayForm>
+                        <namePart type="family">Bonacker</namePart>
+                        <namePart type="given">Thorsten</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Schmitt, Lars</displayForm>
+                        <namePart type="family">Schmitt</namePart>
+                        <namePart type="given">Lars</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015-01-03</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">21</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">The authors give an overview about different paradigms of traditional and contemporary sociological protest research. They argue that in spite of different research traditions in the United States and Europe, the approaches cannot be separated. Not only the common cognitive interest of explaining the cleavage between latent conflict structures and manifest political protest, but above all the requirements of changing societies tie up the different approaches. They exemplify their thesis with an analysis of the new peace movements. In this context political protest can be seen as rational acting (1), as an attempt to take advantage of political opportunity structures (2), as a response to the crises of modernisation and structural strains (3) as well as the result of a collective construction of protest topics (4). The analysis of peace movements demonstrates that protest research has to take into account processes of transnationalisation of protest topics and symbols on the one hand and the development of national welfare states as well as the neo-liberal discourse of &quot;personal responsibility&quot; on the other hand. The authors conclude that it could be a fruitful way for future protest research to combine constructivist approaches with discourse and habitus theories. This would allow to examine the process of collective identity construction, that seems to be framed by the actors&apos; incorporated structures (habitus) and by contemporary discourses that provide public interpretations of the relationship between actor, state and globalisation.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/mts.32.2004.193-213</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7810</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7810">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/7810/6982" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7810" DMDID="DMD_rub-journals_7810">
+            <mets:fptr FILEID="FILE0_rub-journals_7810"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

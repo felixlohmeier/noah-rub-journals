@@ -1,0 +1,55 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7261">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Sacred Space and “True Religion”</title>
+                        <subTitle>The Irish Reformation and the Collegiate Church of St Nicholas, Galway</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Ellis, Steven G.</displayForm>
+                        <namePart type="family">Ellis</namePart>
+                        <namePart type="given">Steven G.</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2018-07-27</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">32</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">This paper looks at the impact of religious reform in Tudor Galway, focusing on how the use of sacred space in the collegiate church of St Nicholas, Galway, was reshaped during the Reformation. The Elizabethan Settlement of Religion was, by European standards, quite conservative, permitting the retention of choral foundations and pipe organs and, in Ireland, even the traditional Latin offices, sung from the chancel. Unofficially, even some images and ornaments survived. Alongside these conservative survivals, the corporate worship of the new prayer book was also enhanced by regular sermons in English, Irish, and Latin by graduate preaching ministers, which were a popular innovation initially attracting large groups of people. Later, however, financial difficulties and the lack of a preaching minister for regular sermons undermined this local compromise: Galway merchants mostly drifted back to Catholic worship, which had remained freely available outside the town.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/er.v7.2018.14-45</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/">CC BY-NC-ND 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7261</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7261">
+                <mets:FLocat xlink:href="https://er.ceres.rub.de/index.php/ER/article/download/7261/6439" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7261" DMDID="DMD_rub-journals_7261">
+            <mets:fptr FILEID="FILE0_rub-journals_7261"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,79 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8966">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Speed Reading in the Dark</title>
+                        <subTitle>Accelerating Functional Encryption for Quadratic Functions with Reprogrammable Hardware</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Bahadori, Milad</displayForm>
+                        <namePart type="family">Bahadori</namePart>
+                        <namePart type="given">Milad</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Järvinen, Kimmo</displayForm>
+                        <namePart type="family">Järvinen</namePart>
+                        <namePart type="given">Kimmo</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Marc, Tilen</displayForm>
+                        <namePart type="family">Marc</namePart>
+                        <namePart type="given">Tilen</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Stopar, Miha</displayForm>
+                        <namePart type="family">Stopar</namePart>
+                        <namePart type="given">Miha</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2021-07-09</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">27</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Functional encryption is a new paradigm for encryption where decryption does not give the entire plaintext but only some function of it. Functional encryption has great potential in privacy-enhancing technologies but suffers from excessive computational overheads. We introduce the first hardware accelerator that supports functional encryption for quadratic functions. Our accelerator is implemented on a reprogrammable system-on-chip following the hardware/software codesign methogology. We benchmark our implementation for two privacy-preserving machine learning applications: (1) classification of handwritten digits from the MNIST database and (2) classification of clothes images from the Fashion MNIST database. In both cases, classification is performed with encrypted images. We show that our implementation offers speedups of over 200 times compared to a published software implementation and permits applications which are unfeasible with software-only solutions.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.46586/tches.v2021.i3.1-27</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8966</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8966">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/8966/8544" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8966" DMDID="DMD_rub-journals_8966">
+            <mets:fptr FILEID="FILE0_rub-journals_8966"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,63 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_9152">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <nonSort>The </nonSort>
+                        <title>neural correlates of consciousness under the free energy principle</title>
+                        <subTitle>From computational correlates to computational explanation</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Wiese, Wanja</displayForm>
+                        <namePart type="family">Wiese</namePart>
+                        <namePart type="given">Wanja</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Friston, Karl J.</displayForm>
+                        <namePart type="family">Friston</namePart>
+                        <namePart type="given">Karl J.</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2021-07-19</dateIssued>
+                    </originInfo>
+                    <abstract lang="eng">How can the free energy principle contribute to research on neural correlates of consciousness, and to the scientific study of consciousness more generally? Under the free energy principle, neural correlates should be defined in terms of neural dynamics, not neural states, and should be complemented by research on computational correlates of consciousness – defined in terms of probabilities encoded by neural states.
+We argue that these restrictions brighten the prospects of a computational explanation of consciousness, by addressing two central problems. The first is to account for consciousness in the absence of sensory stimulation and behaviour. The second is to allow for the possibility of systems that implement computations associated with consciousness, without being conscious, which requires differentiating between computational systems that merely simulate conscious beings and computational systems that are conscious in and of themselves.
+Given the notion of computation entailed by the free energy principle, we derive constraints on the ascription of consciousness in controversial cases (e.g., in the absence of sensory stimulation and behaviour). We show that this also has implications for what it means to be, as opposed to merely simulate a conscious system.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.33735/phimisci.2021.81</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_9152</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_9152">
+                <mets:FLocat xlink:href="https://philosophymindscience.org/index.php/phimisci/article/download/9152/8690" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_9152" DMDID="DMD_rub-journals_9152">
+            <mets:fptr FILEID="FILE0_rub-journals_9152"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

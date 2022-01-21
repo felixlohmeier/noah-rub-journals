@@ -1,0 +1,78 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_566">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Direct construction of quasi-involutory recursive-like MDS matrices from 2-cyclic codes</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Cauchois, Victor</displayForm>
+                        <namePart type="family">Cauchois</namePart>
+                        <namePart type="given">Victor</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Loidreau, Pierre</displayForm>
+                        <namePart type="family">Loidreau</namePart>
+                        <namePart type="given">Pierre</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Merkiche, Nabil</displayForm>
+                        <namePart type="family">Merkiche</namePart>
+                        <namePart type="given">Nabil</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2017-02-03</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">19</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">A good linear diffusion layer is a prerequisite in the design of block ciphers. Usually it is obtained by combining matrices with optimal diffusion property over the Sbox alphabet. These matrices are constructed either directly using some algebraic properties or by enumerating a search space, testing the optimal diffusion property for every element. For implementation purposes, two types of structures are considered: Structures where all the rows derive from the first row and recursive structures built from powers of companion matrices. In this paper, we propose a direct construction for new recursive-like MDS matrices. We show they are quasi-involutory in the sense that the matrix-vector product with the matrix or with its inverse can be implemented by clocking a same LFSR-like architecture. As a direct construction, performances do not outperform the best constructions found with exhaustive search. However, as a new type of construction, it offers alternatives for MDS matrices design.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tosc.v2016.i2.80-98</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_566</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_566">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/566/508" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_rub-journals_566">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/566/7463" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_566" DMDID="DMD_rub-journals_566">
+            <mets:fptr FILEID="FILE0_rub-journals_566"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_566" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_566"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

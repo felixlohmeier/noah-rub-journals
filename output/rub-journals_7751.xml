@@ -1,0 +1,53 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7751">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Von der Schneiderin zur Bundestagsabgeordneten – Die Gewerkschaftsfunktionärin Liesel Kipp-Kaule</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Notz, Gisela</displayForm>
+                        <namePart type="family">Notz</namePart>
+                        <namePart type="given">Gisela</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015-01-14</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">17</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Already at the age of 22, Liesel Kipp-Kaule joined the trade-union ‘Textile and Clothing’. From 1949 until 1963 she was a member of the prime executive board and furthermore, she worked for the Department of Women and Youth. In 1949 Dr. Kurt Schumacher recommended the resolute ‘Bielefelderin’ as a trade-unionist for the First German “Bundestag” (the Federal Diet). For sixteen years, she worked as a member of the Social-Democratic parliamentary party in the German ‘Bundestag’. She stood up for equality between women and men, for equal payment in equal jobs, for the implementation of unionised demands in the leave-taking of the law for maternity protection as well as for an improvement in the professionalism of custodial and social jobs. She has been a battlesome woman and as “a daughter of the people” she has never forgotten her proletarian origins.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/mts.35.2006.137-153</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7751</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7751">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/7751/6923" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7751" DMDID="DMD_rub-journals_7751">
+            <mets:fptr FILEID="FILE0_rub-journals_7751"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

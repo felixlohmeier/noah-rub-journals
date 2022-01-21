@@ -1,0 +1,52 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_514">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Cornelia Herberichs, Norbert Kössinger &amp; Stephanie Seidl (Hg.)</title>
+                        <subTitle>Liturgie und Literatur—Historische Fallstudien</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Gruber-Scheller, Bettina</displayForm>
+                        <namePart type="family">Gruber-Scheller</namePart>
+                        <namePart type="given">Bettina</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2016-09-12</dateIssued>
+                    </originInfo>
+                    <abstract lang="eng">This contribution offers a review of:Cornelia Herberichs, Norbert Kössinger &amp;amp; Stephanie Seidl (Hg.): Liturgie und Literatur—Historische Fallstudien. Berlin/Boston: De Gruyter, 2015. 371 pages, € [D] 99.95, ISBN 978-3-11-037759-0.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <identifier type="doi">10.13154/er.v3.2016.LXXXIV-LXXXIX</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0">CC BY-NC-ND 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_514</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_514">
+                <mets:FLocat xlink:href="https://er.ceres.rub.de/index.php/ER/article/download/514/462" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_514" DMDID="DMD_rub-journals_514">
+            <mets:fptr FILEID="FILE0_rub-journals_514"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

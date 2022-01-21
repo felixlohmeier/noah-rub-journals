@@ -1,0 +1,54 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7425">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Activism for Sex Workers in the Netherlands</title>
+                        <subTitle>Interview with Jan Visser about Foundation and End of De Rode Draad, 1976 to 2012</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Gilges, Giovanna</displayForm>
+                        <namePart type="family">Gilges</namePart>
+                        <namePart type="given">Giovanna</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2018-05-18</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">12</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">By order of the Archive and Centre for the Documentation of Sex Work — Madonna (Bochum), I conduct interviews with sex workers and sex work activists as contemporary witnesses. In this context, I met the sociologist Jan Visser in January 2018 for a first conversation about his political work in connection with the de-criminalisation and de-stigmatisation of sex workers and sex work.For the Journal of Social History and the History of Social Movements, an abbreviated excerpt of this conversation was written to trace a chronical arch from the development to the dissolution of the prostitutes’ rights organisation De Rode Draad. In 1985, a group of female sex workers formed De Rode Draad in Amsterdam, which was subsidised by the Dutch government from the get-go. De Rode Draad was involved in the development of a concept of decriminalisation of prostitution by regulation and integration of the sexwork into labour and employment laws. Their history, work and success is closely related to the Mr. A. de Graaf Foundation.Furthermore, the interview highlights the specific frictions and challenges, which a group is forced to deal with, when stigmatised sex work activists and academic allies who are no sex workers cooperate.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/mts.59.2018.13-24</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7425</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7425">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/7425/6597" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7425" DMDID="DMD_rub-journals_7425">
+            <mets:fptr FILEID="FILE0_rub-journals_7425"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

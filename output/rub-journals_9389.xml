@@ -1,0 +1,62 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_9389">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <nonSort>Die </nonSort>
+                        <title>Ordnung der Bilder</title>
+                        <subTitle>Zur Bibel-Ikonographie im Klischee-Handel der 1830er und 1840er Jahre</subTitle>
+                    </titleInfo>
+                    <titleInfo type="translated">
+                        <nonSort>Die </nonSort>
+                        <title>Ordnung der Bilder</title>
+                        <subTitle>Zur Bibel-Ikonographie im Klischee-Handel der 1830er und 1840er Jahre</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Wittler, Kathrin</displayForm>
+                        <namePart type="family">Wittler</namePart>
+                        <namePart type="given">Kathrin</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2021-12-20</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">23</extent>
+                    </physicalDescription>
+                    <abstract lang="ger">Am Beispiel christlicher und jüdischer Bibelausgaben des Leipziger Verlags Baumgärtner lässt sich zeigen, dass der europaweite Handel mit Druckstöcken (sogenannten Klischees) im 19. Jahrhundert einerseits zu einer Nivellierung nationaler, religiöser und konfessioneller Bildtraditionen führen konnte, andererseits aber auch Möglichkeiten zur Distinktion und Differenzierung bot. Vielfältige Reproduktions- und Zirkulationsweisen steuerten im Kontext des europäischen Orientalismus die Wahrnehmung von Bildern. Darstellungen des sogenannten Heiligen Landes wurden mit verschiedenen Bilddrucktechniken vom Holzstich über die Lithographie bis zur Chromolithographie reproduziert und in verschiedenen Publikationsformaten von Einzelblättern über Tafelwerke, Konversationslexika und Buchausgaben bis zu populären Zeitschriften verbreitet.</abstract>
+                    <abstract lang="eng">Against the backdrop of European Orientalism, nineteenth-century depictions of the so-called Holy Land were reproduced with various techniques ranging from woodcut to chromolithography and were distributed in various publication formats ranging from single sheets to encyclopedias. Comparing illustrated Christian and Jewish Bible editions issued in the 1830s and 1840s by the Leipzig publisher Baumgärtner, the paper shows that the European trade with stereotypes of printing blocks (so-called »Klischees«) could in some cases lead to an alignment of different national, religious and denominational pictorial traditions. However, as the framing of pictures changed when moved to a different context, new ways of reproduction and circulation also provided ample opportunities for distinction and differentiation. Both in the Bible editions and in the popular periodicals of the time, innovations in media technology were used to regulate and manipulate the perception of pictures, implying statements about aesthetic norms, national belonging and religious beliefs.</abstract>
+                    <subject lang="ger">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.46586/PerIc.2021.1.49-71</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode">CC BY-NC-ND 4.0 LEGALCODE</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_9389</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_9389">
+                <mets:FLocat xlink:href="https://ojs.ub.rub.de/index.php/PerIc/article/download/9389/8962" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_9389" DMDID="DMD_rub-journals_9389">
+            <mets:fptr FILEID="FILE0_rub-journals_9389"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

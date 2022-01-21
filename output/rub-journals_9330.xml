@@ -1,0 +1,54 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_9330">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Automatic Search of Cubes for Attacking Stream Ciphers</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Sun, Yao</displayForm>
+                        <namePart type="family">Sun</namePart>
+                        <namePart type="given">Yao</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2021-12-03</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">24</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Cube attack was proposed by Dinur and Shamir, and it has become an important tool for analyzing stream ciphers. As the problem that how to recover the superpolys accurately was resolved by Hao et al. in EUROCRYPT 2020, another important problem is how to find “good” superpolys, which is equivalent to finding “good” cubes. However, there are two difficulties in finding “good” cubes. Firstly, the number of candidate cubes is enormous and most of the cubes are not “good”. Secondly, it is costly to evaluate whether a cube is “good”.In this paper, we present a new algorithm to search for a kind of “good” cubes, called valuable cubes. A cube is called valuable, if its superpoly has (at least) a balanced secret variable. A valuable cube is “good”, because its superpoly brings in 1 bit of information about the key. More importantly, the superpolys of valuable cubes could be used in both theoretical and practical analyses. To search for valuable cubes, instead of testing a set of cubes one by one, the new algorithm deals with the set of cubes together, such that the common computations can be done only once for all candidate cubes and duplicated computations are avoided. Besides, the new algorithm uses a heuristic method to reject useless cubes efficiently. This heuristic method is based on the divide-and-conquer strategy as well as an observation.For verifications of this new algorithm, we applied it to Trivium and Kreyvium, and obtained three improvements. Firstly, we found two valuable cubes for 843-round Trivium, such that we proposed, as far as we know, the first theoretical key-recovery attack against 843-round Trivium, while the previous highest round of Trivium that can be attacked was 842, given by Hao et al. in EUROCRYPT 2020. Secondly, by finding many small valuable cubes, we presented practical attacks against 806- and 808-round Trivium for the first time, while the previous highest round of Trivium that can be attacked practically was 805. Thirdly, based on the cube used to attack 892-round Kreyvium in EUROCRYPT 2020, we found more valuable cubes and mounted the key-recovery attacks against Kreyvium to 893-round.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.46586/tosc.v2021.i4.100-123</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_9330</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_9330">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/9330/8889" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_9330" DMDID="DMD_rub-journals_9330">
+            <mets:fptr FILEID="FILE0_rub-journals_9330"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

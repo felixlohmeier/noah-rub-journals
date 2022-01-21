@@ -1,0 +1,70 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8566">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Algebraic and Higher-Order Differential Cryptanalysis of Pyjamask-96</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Dobraunig, Christoph</displayForm>
+                        <namePart type="family">Dobraunig</namePart>
+                        <namePart type="given">Christoph</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Rotella, Yann</displayForm>
+                        <namePart type="family">Rotella</namePart>
+                        <namePart type="given">Yann</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Schoone, Jan</displayForm>
+                        <namePart type="family">Schoone</namePart>
+                        <namePart type="given">Jan</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020-05-07</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">24</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Cryptographic competitions, like the ongoing NIST call for lightweight cryptography, always provide a thriving research environment, where new interesting ideas are proposed and new cryptographic insights are made. One proposal for this NIST call that is accepted for the second round is Pyjamask. Pyjamask is an authenticated encryption scheme that builds upon two block ciphers, Pyjamask-96 and Pyjamask-128, that aim to minimize the number of AND operations at the cost of a very strong linear layer. A side-effect of this goal is a slow growth in the algebraic degree. In this paper, we focus on the block cipher Pyjamask-96 and are able to provide a theoretical key-recovery attack reaching 14 (out of 14) rounds as well as a practical attack on 8 rounds. We do this by combining higher-order differentials with an in-depth analysis of the system of equations gotten for 2.5 rounds of Pyjamask-96. The AEAD-scheme Pyjamask itself is not threatened by the work in this paper.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tosc.v2020.i1.289-312</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8566</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8566">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/8566/8137" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8566" DMDID="DMD_rub-journals_8566">
+            <mets:fptr FILEID="FILE0_rub-journals_8566"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

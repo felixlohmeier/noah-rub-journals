@@ -1,0 +1,51 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_505">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Jörg Ulrich, Anders-Christian Jacobsen &amp; David Brakke (Eds.)</title>
+                        <subTitle>Invention, Rewriting, Usurpation</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Iricinschi, Eduard</displayForm>
+                        <namePart type="family">Iricinschi</namePart>
+                        <namePart type="given">Eduard</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2016-06-23</dateIssued>
+                    </originInfo>
+                    <abstract lang="eng">This contribution offers a review of:Jörg Ulrich, Anders-Christian Jacobsen &amp;amp; David Brakke (Eds.): Invention, Rewriting, Usurpation: Discursive Fights over Religious Traditions in Antiquity.Berlin: Peter Lang. 2012. XVI + 322 pages, 1 table, ISBN 978-3-631-63538-4 (hardcover)</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <identifier type="doi">10.13154/er.v3.2016.LXIV-LXIX</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_505</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_505">
+                <mets:FLocat xlink:href="https://er.ceres.rub.de/index.php/ER/article/download/505/456" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_505" DMDID="DMD_rub-journals_505">
+            <mets:fptr FILEID="FILE0_rub-journals_505"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

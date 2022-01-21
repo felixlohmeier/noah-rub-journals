@@ -1,0 +1,64 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_781">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Ute Klophausˈ prozessuale Zeitgenossenschaft. Zur Notwendigkeit einer prononcierten Quellenkritik von Aktionsfotografie</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Willing, Jonathan</displayForm>
+                        <namePart type="family">Willing</namePart>
+                        <namePart type="given">Jonathan</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2017-07-09</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">6</extent>
+                    </physicalDescription>
+                    <abstract lang="ger">Jonathan Willing macht es sich in dem vorliegenden Beitrag zu einem Anliegen, eine im historischen Kanon weitgehend etablierte Aktion von Joseph Beuys unter der Folie der zeitgenössischen Rezeption erneut in den Blick zu nehmen. Die Fotografien der Zeitgenossin Ute Klophaus haben dabei in besonderer Weise die zeitlich unmittelbar auf das Ereignis folgende Rezeption geprägt. Willing fragt, weshalb Klophaus&apos; Aufnahmen als „Dokumente&quot; nur begrenzt Aufschluss über das Ereignete geben und konstatiert ein besonderes künstlerisches Interesse am fotografischen Prozess.</abstract>
+                    <subject lang="ger">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>Kunstgeschichte und Zeitgenossenschaft</title>
+                        </titleInfo>
+                        <part>
+                            <extent unit="page">
+                                <start>68</start>
+                                <end>73</end>
+                            </extent>
+                        </part>
+                    </relatedItem>
+                    <identifier type="doi">10.13154/kuz.1.2017.68-73</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_781</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_781">
+                <mets:FLocat xlink:href="https://ojs.ub.rub.de/index.php/KUZ/article/download/781/738" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_781" DMDID="DMD_rub-journals_781">
+            <mets:fptr FILEID="FILE0_rub-journals_781"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

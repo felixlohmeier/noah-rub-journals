@@ -1,0 +1,53 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7245">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Adjusting to the challenges of democracy</title>
+                        <subTitle>Afrikaners in Namibia and South Africa</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Botha, Christo</displayForm>
+                        <namePart type="family">Botha</namePart>
+                        <namePart type="given">Christo</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2018-07-06</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">33</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Afrikaners in South Africa and to a lesser extent in Namibia, appeared to have made a reasonably successful transition to the post-apartheid dispensation in both countries. They continue to benefit from the advantages that apartheid has bestowed upon them, such as quality education, preferential access to employment as well as land and property ownership. On a material level they can be considered to have adjusted relatively successfully to the loss of direct state support and patronage. Nevertheless there appears to be an enduring sense of unease among many Afrikaners. This is especially evident in the way they respond to issues such as attacks on white farmers, affirmative action, the gradual loss of Afrikaans as a medium of instruction at school and university level and threats about the confiscation of land. One reason for this state of affairs appears to be the failure to intellectually engage with key issues in the past, as well as the fact that religious leaders of various denominations for a long time provided them with moral justifications for apartheid. Afrikaners have resolutely turned their backs on the past and largely refuse to reflect on the damaging legacy of apartheid.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7245</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7245">
+                <mets:FLocat xlink:href="https://namibian-studies.com/index.php/JNS/article/download/7245/6427" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7245" DMDID="DMD_rub-journals_7245">
+            <mets:fptr FILEID="FILE0_rub-journals_7245"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

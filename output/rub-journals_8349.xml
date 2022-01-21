@@ -1,0 +1,110 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8349">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Novel Side-Channel Attacks on Quasi-Cyclic Code-Based Cryptography</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Sim, Bo-Yeon</displayForm>
+                        <namePart type="family">Sim</namePart>
+                        <namePart type="given">Bo-Yeon</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Kwon, Jihoon</displayForm>
+                        <namePart type="family">Kwon</namePart>
+                        <namePart type="given">Jihoon</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Choi, Kyu Young</displayForm>
+                        <namePart type="family">Choi</namePart>
+                        <namePart type="given">Kyu Young</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Cho, Jihoon</displayForm>
+                        <namePart type="family">Cho</namePart>
+                        <namePart type="given">Jihoon</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Park, Aesun</displayForm>
+                        <namePart type="family">Park</namePart>
+                        <namePart type="given">Aesun</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Han, Dong-Guk</displayForm>
+                        <namePart type="family">Han</namePart>
+                        <namePart type="given">Dong-Guk</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2019-08-09</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">33</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Chou suggested a constant-time implementation for quasi-cyclic moderatedensity parity-check (QC-MDPC) code-based cryptography to mitigate timing attacks at CHES 2016. This countermeasure was later found to become vulnerable to a differential power analysis (DPA) in private syndrome computation, as described by Rossi et al. at CHES 2017. The proposed DPA, however, still could not completely recover accurate secret indices, requiring further solving linear equations to obtain entire secret information. In this paper, we propose a multiple-trace attack which enables to completely recover accurate secret indices. We further propose a singletrace attack which can even work when using ephemeral keys or applying Rossi et al.’s DPA countermeasures. Our experiments show that the BIKE and LEDAcrypt may become vulnerable to our proposed attacks. The experiments are conducted using power consumption traces measured from ChipWhisperer-Lite XMEGA (8-bit processor) and ChipWhisperer UFO STM32F3 (32-bit processor) target boards.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tches.v2019.i4.180-212</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8349</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8349">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/8349/7698" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_rub-journals_8349">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/8349/7851" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="" ID="FILE2_rub-journals_8349">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/8349/7852" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8349" DMDID="DMD_rub-journals_8349">
+            <mets:fptr FILEID="FILE0_rub-journals_8349"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_8349" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_8349"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART2_rub-journals_8349" LABEL="">
+                <mets:fptr FILEID="FILE2_rub-journals_8349"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

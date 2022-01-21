@@ -1,0 +1,60 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8889">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <nonSort>The </nonSort>
+                        <title>Desert’s Role in the Formation of Early Israel and the Origin of Yhwh</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Avner, ‘Uzi</displayForm>
+                        <namePart type="family">Avner</namePart>
+                        <namePart type="given">‘Uzi</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2021-05-18</dateIssued>
+                    </originInfo>
+                    <abstract lang="eng">The origin of ancient Israel has been questioned and intensively discussed for almost two centuries by many researchers, from two main schools of thought. One believes the early Israelites came from outside the Land of Cana‘an and conquered it, while the other believes they rose from within Cana‘an, forming a new polity and culture. Scholars are likewise divided whether the Israelite God, Yhwh, originated from the Near Eastern cultural environment or from the desert. A multitude of studies has been dedicated to these two themes, usually separately. This article attempts to examine the connection between the two through several themes: desert roots in the culture of ancient Israel, the origin of Yhwh, Asiatics in Sinai and the Negev, desert tribes and the copper industry, the location of biblical Paran, Nabataean data from Sinai which illuminate biblical issues, and others. By including materials which were previously underutilized or overlooked, these themes may be integrated to form a reasonable scenario of a chapter in the history of early Israel.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.46586/er.12.2021.8889</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8889</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8889">
+                <mets:FLocat xlink:href="https://er.ceres.rub.de/index.php/ER/article/download/8889/8468" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="text/html" ID="FILE1_rub-journals_8889">
+                <mets:FLocat xlink:href="https://er.ceres.rub.de/index.php/ER/article/download/8889/8469" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8889" DMDID="DMD_rub-journals_8889">
+            <mets:fptr FILEID="FILE0_rub-journals_8889"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_8889" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_8889"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

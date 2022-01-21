@@ -1,0 +1,70 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7634">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Regional labour markets and international labour migration in twentieth-century Europe</title>
+                        <subTitle>the cases of coal mining in Liège (B) and Limburg (NL) compared</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Langeweg, Serge</displayForm>
+                        <namePart type="family">Langeweg</namePart>
+                        <namePart type="given">Serge</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Roels, Leen</displayForm>
+                        <namePart type="family">Roels</namePart>
+                        <namePart type="given">Leen</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Knotter, Ad</displayForm>
+                        <namePart type="family">Knotter</namePart>
+                        <namePart type="given">Ad</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015-01-24</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">20</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">In the twentieth century, the coal mines in the neighbouring regions of Dutch Limburg and Liège had to fall back regularly on labour migrants from abroad. However, the number of foreign workers differed considerably regionally and in time. In this article the different migration histories are analysed in the context of the different life cycles of mining in each district. In the older mining basin of Liège the occupation of miner had been transferred from generation to generation from the nineteenth century onwards. In the period until ca. 1935 this tradition started to disappear, but the mines in Liège could still find enough workers on the inner-Belgian labour market, most of them Flemish. The Dutch mining industry only started to grow from the beginning of the twentieth century. The German hinterland had to provide the majority of experienced miners. For that reason, until the 1930s the recruitment of foreigners was considerably larger in the Netherlands than in Liège. By contrast, after the Second World War demographic and labour market conditions in Limburg enabled the Dutch mines to recruit young Limburgers on a massive scale. The mines in Liège became much more dependent on labour migrants, as Belgians were hardly willing to work in the mines anymore and found alternative employment in other booming industries.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/mts.40.2008.101-120</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7634</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7634">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/7634/6806" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7634" DMDID="DMD_rub-journals_7634">
+            <mets:fptr FILEID="FILE0_rub-journals_7634"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

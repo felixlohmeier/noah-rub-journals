@@ -1,0 +1,53 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_165">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Conflict resolution by institutional design</title>
+                        <subTitle>Democratic development and state formation in independent Namibia – public service and decentralisation experiences</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Lindeke, Bill</displayForm>
+                        <namePart type="family">Lindeke</namePart>
+                        <namePart type="given">Bill</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015-01-14</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">31</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">The article examines the transformation of specific sectors of Namibia’s government to assess whether old conflicts and divisions have continued through the indepen¬dence period and whether new ones have emerged since independence. In the first place, the public service is examined as it transformed after independence and grew substantially in size and responsibility. Although it continues to suffer from skills shortages and excessive party manipulation by SWAPO, it has been modernised to a large degree. Secondly, the process of decentralisation is analysed. It has developed unevenly since 1996 due to the weak commitment by the SWAPO leadership and the skill limitations at regional and local levels. Finally, in the traditional authority social sector both internal divisions and succession challenges have permeated the landscape. The article ends with a discussion of how the courts have also been drawn into some of the succession and boundary disputes of traditional authorities.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_165</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_165">
+                <mets:FLocat xlink:href="https://namibian-studies.com/index.php/JNS/article/download/165/128" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_165" DMDID="DMD_rub-journals_165">
+            <mets:fptr FILEID="FILE0_rub-journals_165"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

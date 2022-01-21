@@ -1,0 +1,94 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_804">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Some cryptanalytic results on Lizard</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Banik, Subhadeep</displayForm>
+                        <namePart type="family">Banik</namePart>
+                        <namePart type="given">Subhadeep</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Isobe, Takanori</displayForm>
+                        <namePart type="family">Isobe</namePart>
+                        <namePart type="given">Takanori</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Cui, Tingting</displayForm>
+                        <namePart type="family">Cui</namePart>
+                        <namePart type="given">Tingting</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Guo, Jian</displayForm>
+                        <namePart type="family">Guo</namePart>
+                        <namePart type="given">Jian</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2017-12-15</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">17</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Lizard is a lightweight stream cipher proposed by Hamann, Krause and Meier in IACR ToSC 2017. It has a Grain-like structure with two state registers of size 90 and 31 bits. The cipher uses a 120-bit secret key and a 64-bit IV. The authors claim that Lizard provides 80-bit security against key recovery attacks and a 60-bit security against distinguishing attacks. In this paper, we present an assortment of results and observations on Lizard. First, we show that by doing 258 random trials it is possible to find a set of 264 triplets (K, IV0, IV1) such that the Key-IV pairs (K, IV0) and (K, IV1) produce identical keystream bits. Second, we show that by performing only around 228 random trials it is possible to obtain 264 Key-IV pairs (K0, IV0) and (K1, IV1) that produce identical keystream bits. Thereafter, we show that one can construct a distinguisher for Lizard based on IVs that produce shifted keystream sequences. The process takes around 251.5 random IV encryptions (with encryption required to produce 218 keystream bits) and around 276.6 bits of memory. Next, we propose a key recovery attack on a version of Lizard with the number of initialization rounds reduced to 223 (out of 256) based on IV collisions. We then outline a method to extend our attack to 226 rounds. Our results do not affect the security claims of the designers.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tosc.v2017.i4.82-98</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_804</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_804">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/804/758" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_rub-journals_804">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/804/7596" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="" ID="FILE2_rub-journals_804">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/804/7509" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_804" DMDID="DMD_rub-journals_804">
+            <mets:fptr FILEID="FILE0_rub-journals_804"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_804" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_804"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART2_rub-journals_804" LABEL="">
+                <mets:fptr FILEID="FILE2_rub-journals_804"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

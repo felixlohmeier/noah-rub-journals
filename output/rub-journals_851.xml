@@ -1,0 +1,86 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_851">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Revisiting and Improving Algorithms for the 3XOR Problem</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Bouillaguet, Charles</displayForm>
+                        <namePart type="family">Bouillaguet</namePart>
+                        <namePart type="given">Charles</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Delaplace, Claire</displayForm>
+                        <namePart type="family">Delaplace</namePart>
+                        <namePart type="given">Claire</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Fouque, Pierre-Alain</displayForm>
+                        <namePart type="family">Fouque</namePart>
+                        <namePart type="given">Pierre-Alain</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2018-03-01</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">23</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">The 3SUM problem is a well-known problem in computer science and many geometric problems have been reduced to it. We study the 3XOR variant which is more cryptologically relevant. In this problem, the attacker is given black-box access to three random functions F,G and H and she has to find three inputs x, y and z such that F(x) ⊕ G(y) ⊕ H(z) = 0. The 3XOR problem is a difficult case of the more-general k-list birthday problem. Wagner’s celebrated k-list birthday algorithm, and the ones inspired by it, work by querying the functions more than strictly necessary from an information-theoretic point of view. This gives some leeway to target a solution of a specific form, at the expense of processing a huge amount of data. However, to handle such a huge amount of data can be very difficult in practice. This is why we first restricted our attention to solving the 3XOR problem for which the total number of queries to F, G and H is minimal. If they are n-bit random functions, it is possible to solve the problem with roughly</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tosc.v2018.i1.254-276</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_851</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_851">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/851/803" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_rub-journals_851">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/851/7624" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="" ID="FILE2_rub-journals_851">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/851/7524" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_851" DMDID="DMD_rub-journals_851">
+            <mets:fptr FILEID="FILE0_rub-journals_851"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_851" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_851"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART2_rub-journals_851" LABEL="">
+                <mets:fptr FILEID="FILE2_rub-journals_851"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

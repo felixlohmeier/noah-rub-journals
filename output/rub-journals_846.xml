@@ -1,0 +1,86 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_846">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Multivariate Profiling of Hulls for Linear Cryptanalysis</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Bogdanov, Andrey</displayForm>
+                        <namePart type="family">Bogdanov</namePart>
+                        <namePart type="given">Andrey</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Tischhauser, Elmar</displayForm>
+                        <namePart type="family">Tischhauser</namePart>
+                        <namePart type="given">Elmar</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Vejre, Philip S.</displayForm>
+                        <namePart type="family">Vejre</namePart>
+                        <namePart type="given">Philip S.</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2018-03-01</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">25</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Extensions of linear cryptanalysis making use of multiple approximations, such as multiple and multidimensional linear cryptanalysis, are an important tool in symmetric-key cryptanalysis, among others being responsible for the best known attacks on ciphers such as Serpent and present. At CRYPTO 2015, Huang et al. provided a refined analysis of the key-dependent capacity leading to a refined key equivalence hypothesis, however at the cost of additional assumptions. Their analysis was extended by Blondeau and Nyberg to also cover an updated wrong key randomization hypothesis, using similar assumptions. However, a recent result by Nyberg shows the equivalence of linear dependence and statistical dependence of linear approximations, which essentially invalidates a crucial assumption on which all these multidimensional models are based. In this paper, we develop a model for linear cryptanalysis using multiple linearly independent approximations which takes key-dependence into account and complies with Nyberg’s result. Our model considers an arbitrary multivariate joint distribution of the correlations, and in particular avoids any assumptions regarding normality. The analysis of this distribution is then tailored to concrete ciphers in a practically feasible way by combining a signal/noise decomposition approach for the linear hulls with a profiling of the actual multivariate distribution of the signal correlations for a large number of keys, thereby entirely avoiding assumptions regarding the shape of this distribution. As an application of our model, we provide an attack on 26 rounds of present which is faster and requires less data than previous attacks, while using more realistic assumptions and far fewer approximations. We successfully extend the attack to present the first 27-round attack which takes key-dependence into account.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tosc.v2018.i1.101-125</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_846</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_846">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/846/798" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_rub-journals_846">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/846/7619" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="" ID="FILE2_rub-journals_846">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/846/7519" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_846" DMDID="DMD_rub-journals_846">
+            <mets:fptr FILEID="FILE0_rub-journals_846"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_846" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_846"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART2_rub-journals_846" LABEL="">
+                <mets:fptr FILEID="FILE2_rub-journals_846"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

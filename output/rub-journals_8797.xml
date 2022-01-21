@@ -1,0 +1,63 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8797">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <nonSort>A </nonSort>
+                        <title>Compact Hardware Implementation of CCA-Secure Key Exchange Mechanism CRYSTALS-KYBER on FPGA</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Xing, Yufei</displayForm>
+                        <namePart type="family">Xing</namePart>
+                        <namePart type="given">Yufei</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Li, Shuguo</displayForm>
+                        <namePart type="family">Li</namePart>
+                        <namePart type="given">Shuguo</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2021-02-23</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">29</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Post-quantum cryptosystems should be prepared before the advent of powerful quantum computers to ensure information secure in our daily life. In 2016 a post-quantum standardization contest was launched by National Institute of Standards and Technology (NIST), and there have been lots of works concentrating on evaluation of these candidate protocols, mainly in pure software or through hardware-software co-design methodology on different platforms. As the contest progresses to third round in July 2020 with only 7 finalists and 8 alternate candidates remained, more dedicated and specific hardware designs should be considered to illustrate the intrinsic property of a certain protocol and achieve better performance. To this end, we present a standalone hardware design of CRYSTALS-KYBER, amodule learning-with-errors (MLWE) based key exchange mechanism (KEM) protocol within the 7 finalists on FPGA platform. Through elaborate scheduling of sampling and number theoretic transform (NTT) related calculations, decent performance is achieved with limited hardware resources. The way that Encode/Decode and the tweaked Fujisaki-Okamoto transform are implemented is demonstrated in detail. Analysis about minimizing memory footprint is also given out. In summary, we realize the adaptive chosen ciphertext attack (CCA) secure Kyber with all selectable module dimension k on the smallest Xilinx Artix-7 device. Our design computes key-generation, encapsulation (encryption) and decapsulation (decryption and reencryption) phase in 3768/5079/6668 cycles when k = 2, 6316/7925/10049 cycles when k = 3, and 9380/11321/13908 cycles when k = 4, consuming 7412/6785 LUTs, 4644/3981 FFs, 2126/1899 slices, 2/2 DSPs and 3/3 BRAMs in server/client with 6.2/6.0 ns critical path delay, outperforming corresponding high level synthesis (HLS) based designs or hardware-software co-designs to a large extent.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.46586/tches.v2021.i2.328-356</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8797</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8797">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/8797/8397" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8797" DMDID="DMD_rub-journals_8797">
+            <mets:fptr FILEID="FILE0_rub-journals_8797"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

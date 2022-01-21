@@ -1,0 +1,94 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7361">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Generalized Nonlinear Invariant Attack and a New Design Criterion for Round Constants</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Wei, Yongzhuang</displayForm>
+                        <namePart type="family">Wei</namePart>
+                        <namePart type="given">Yongzhuang</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Ye, Tao</displayForm>
+                        <namePart type="family">Ye</namePart>
+                        <namePart type="given">Tao</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Wu, Wenling</displayForm>
+                        <namePart type="family">Wu</namePart>
+                        <namePart type="given">Wenling</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Pasalic, Enes</displayForm>
+                        <namePart type="family">Pasalic</namePart>
+                        <namePart type="given">Enes</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2018-12-13</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">18</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">The nonlinear invariant attack was introduced at ASIACRYPT 2016 by Todo et al.. The attack has received extensive attention of cryptographic community due to its practical application on the full-round block ciphers SCREAM, iSCREAM, and Midori64. However, the attack heavily relies on the choice of round constants and it becomes inefficient in the case these constants nonlinearly affect the so-called nonlinear invariants. In this article, to eliminate the impact from the round constants, a generalized nonlinear invariant attack which uses a pair of constants in the input of nonlinear invariants is proposed. The efficiency of this extended framework is practically confirmed by mounting a distinguishing attack on a variant of full-round iSCREAM cipher under a class of 280 weak keys. The considered variant of iSCREAM is however resistant against nonlinear invariant attack of Todo et al.. Furthermore, we investigate the resistance of block ciphers against generalized nonlinear invariant attacks with respect to the choice of round constants in an extended framework. We introduce a useful concept of closed-loop invariants of the substitution box (S-box) and show that the choice of robust round constants is closely related to the existence of linear structure of the closed-loop invariants of the substitution layer. In particular, we demonstrate that the design criteria for the round constants in Beierle et al.’s work at CRYPTO 2017 is not an optimal strategy. The round constants selected using this method may induce certain weaknesses that can be exploited in our generalized nonlinear invariant attack model. This scenario is efficiently demonstrated in the case of a slightly modified variant of the Midori64 block cipher.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tosc.v2018.i4.62-79</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7361</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7361">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/7361/6531" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_rub-journals_7361">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/7361/7546" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="" ID="FILE2_rub-journals_7361">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/7361/7755" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7361" DMDID="DMD_rub-journals_7361">
+            <mets:fptr FILEID="FILE0_rub-journals_7361"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_7361" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_7361"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART2_rub-journals_7361" LABEL="">
+                <mets:fptr FILEID="FILE2_rub-journals_7361"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

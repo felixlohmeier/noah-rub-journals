@@ -1,0 +1,52 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_66">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Muted mutji. On secularized self-censorship, virtual environmentalism and spiritual ecologies in Kavango, Namibia</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Pröpper, Michael</displayForm>
+                        <namePart type="family">Pröpper</namePart>
+                        <namePart type="given">Michael</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2014-01-28</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">30</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Namibia has an environmental and economic problem with anthropogenic overuse of natural resources. The paradigms of development and conservation, exemplified through the catch-term CBNRM, dominate public discourses on how to influence individual and collective behavior towards sustainability. However, cosmological drivers of action, e.g. witchcraft, are widely missing from these discourses. Based on empirical evidence of the prevalence of cosmologically influenced action in Kavango, as well as of potentially detrimental outcomes for natural resources and social capital I discuss in this paper the possibility that a crucial link between spirituality and environmentality is being muted. Models of environmental protection and develop­ment are based on prevalent eurocentric ontologies and differing presumptions about the factuality of cosmological convictions. Paradigms of secularity and modernity support self-censorship on epistemological aspects of environmental relations in public debate. As long as this self-censorship continues a mutual understanding between the different stakeholders and successful sustainable resource management will be restricted.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_66</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_66">
+                <mets:FLocat xlink:href="https://namibian-studies.com/index.php/JNS/article/download/66/41" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_66" DMDID="DMD_rub-journals_66">
+            <mets:fptr FILEID="FILE0_rub-journals_66"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

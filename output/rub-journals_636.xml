@@ -1,0 +1,70 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_636">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Tweakable Blockciphers for Efficient Authenticated Encryptions with Beyond the Birthday-Bound Security</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Naito, Yusuke</displayForm>
+                        <namePart type="family">Naito</namePart>
+                        <namePart type="given">Yusuke</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2017-06-19</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">26</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Modular design via a tweakable blockcipher (TBC) offers efficient authenticated encryption (AE) schemes (with associated data) that call a blockcipher once for each data block (of associated data or a plaintext). However, the existing efficient blockcipher-based TBCs are secure up to the birthday bound, where the underlying keyed blockcipher is a secure strong pseudorandom permutation. Existing blockcipher-based AE schemes with beyond-birthday-bound (BBB) security are not efficient, that is, a blockcipher is called twice or more for each data block. In this paper, we present a TBC, XKX, that offers efficient blockcipher-based AE schemes with BBB security, by combining with efficient TBC-based AE schemes such as ΘCB3 and</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tosc.v2017.i2.1-26</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_636</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_636">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/636/604" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_rub-journals_636">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/636/7578" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="" ID="FILE2_rub-journals_636">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/636/7495" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_636" DMDID="DMD_rub-journals_636">
+            <mets:fptr FILEID="FILE0_rub-journals_636"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_636" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_636"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART2_rub-journals_636" LABEL="">
+                <mets:fptr FILEID="FILE2_rub-journals_636"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,55 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7754">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <nonSort>Der </nonSort>
+                        <title>Funktionär</title>
+                        <subTitle>Eugen Loderer</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Kempter, Klaus</displayForm>
+                        <namePart type="family">Kempter</namePart>
+                        <namePart type="given">Klaus</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015-01-14</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">11</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Klaus Kempter follows up his biographical sketch on long-time metalworker’s union chairman Eugen Loderer (1920–1995) with a reflection on Loderer’s being a member of the generation of the so-called “forty-fivers”, which has frequently been under the focus of attention in recent years. It becomes evident that – irrespective of its anti-capitalistic rhetoric and its reception by the public – IG Metall under Eugen Loderer practiced essentially pragmatic politics of representing labour interests, not unlike supposedly more conservative trade unions under the leadership of other “forty-fivers”. Loderer and his contemporaries, then, link to the older tradition of the  &quot;Gewerkschaftsbeamten” and thus make the generation of determined socialists of the in-between years (Otto Brenner, Willi Bleicher, and others) appear as an exception in trade union history.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/mts.35.2006.179-189</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7754</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7754">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/7754/6926" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7754" DMDID="DMD_rub-journals_7754">
+            <mets:fptr FILEID="FILE0_rub-journals_7754"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

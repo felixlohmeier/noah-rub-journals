@@ -1,0 +1,55 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8280">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Spirit of Place and Nation Building</title>
+                        <subTitle>Kosovo and Bosnia from Imperial to Post-Communist Times</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Zimmermann, Tanja</displayForm>
+                        <namePart type="family">Zimmermann</namePart>
+                        <namePart type="given">Tanja</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2019-04-30</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">29</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">During the period of nation building, the spirit of place (genius loci), attributing uniqueness&amp;nbsp;to specific locations and ascribing to them close attachment to the nation, became a central vehicle for&amp;nbsp;defending and appropriating territories and even for establishing a diaspora in exile. It was evoked through&amp;nbsp;discursive practices reminiscent of religious rhetoric and around monumental works of art, thereby staging&amp;nbsp;history as mythical sacred theatre. The process of establishing imagined national geographies during the&amp;nbsp;long period of nation building from the nineteenth century to the post-communist period is analysed&amp;nbsp;in comparative perspective in two multi-religious and multi-ethnical regions in southeast Europe—Kosovo and Bosnia. The leading question I will try to answer is why the Field of Blackbirds in Kosovo was&amp;nbsp;successfully established as a national holy place in the collective memory of the Serbs, whereas similar&amp;nbsp;efforts in Bosnia did not result in inscribing mythic places into national memory.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/er.v9.2019.79-107</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8280</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8280">
+                <mets:FLocat xlink:href="https://er.ceres.rub.de/index.php/ER/article/download/8280/7631" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8280" DMDID="DMD_rub-journals_8280">
+            <mets:fptr FILEID="FILE0_rub-journals_8280"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

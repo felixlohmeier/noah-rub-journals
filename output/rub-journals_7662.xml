@@ -1,0 +1,54 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7662">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Von „Landschaften des Geistes“ zu „Geisterlandschaften“</title>
+                        <subTitle>Identitätsbildungen und der Umgang mit dem industriekulturellen Erbe im südwalisischen Kohlerevier</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Berger, Stefan</displayForm>
+                        <namePart type="family">Berger</namePart>
+                        <namePart type="given">Stefan</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015-01-23</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">17</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Stefan Berger investigates the proletarian narrative on the South Wales coalfield drawn .by historians and “people’s remembrances” which dominates the spatial identity concepts since the interwar period. e Historian Dai Smith used the term “mindscape” to describe the homogeneous identity incorporating the notions of “class” and “community” the predominantly proletarian inhabitants of South Wales developed. Smith attributed a central role to the trade unions that were anchored very widely in the social structure and every day life. After the decline of the coal industry the mindscape of South Wales underwent substantial changes. Most of the historical iron and steel sites were deprived of their specific character due to a feeling of awkwardness that came along with structural change. Since the 1980s endeavours were made to recover the industrial heritage in order to attract tourists and to push the economic regeneration. At the same time the industrial heritage should serve as a means of public remembrance. But reality did not live up to expectations: Mindscapes became ghostly landscapes (Geisterlandschaften). e proletarian narrative to a certain extent still prevails today – too often as a hindrance that prevents the region from further advancement.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/mts.39.2008.49-65</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7662</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7662">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/7662/6834" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7662" DMDID="DMD_rub-journals_7662">
+            <mets:fptr FILEID="FILE0_rub-journals_7662"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

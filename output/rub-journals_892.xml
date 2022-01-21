@@ -1,0 +1,118 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_892">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Cryptanalysis of AES-PRF and Its Dual</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Derbez, Patrick</displayForm>
+                        <namePart type="family">Derbez</namePart>
+                        <namePart type="given">Patrick</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Iwata, Tetsu</displayForm>
+                        <namePart type="family">Iwata</namePart>
+                        <namePart type="given">Tetsu</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Sun, Ling</displayForm>
+                        <namePart type="family">Sun</namePart>
+                        <namePart type="given">Ling</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Sun, Siwei</displayForm>
+                        <namePart type="family">Sun</namePart>
+                        <namePart type="given">Siwei</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Todo, Yosuke</displayForm>
+                        <namePart type="family">Todo</namePart>
+                        <namePart type="given">Yosuke</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Wang, Haoyang</displayForm>
+                        <namePart type="family">Wang</namePart>
+                        <namePart type="given">Haoyang</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Wang, Meiqin</displayForm>
+                        <namePart type="family">Wang</namePart>
+                        <namePart type="given">Meiqin</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2018-06-07</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">31</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">A dedicated pseudorandom function (PRF) called AES-PRF was proposed by Mennink and Neves at FSE 2018 (ToSC 2017, Issue 3). AES-PRF is obtained from AES by using the output of the 5-th round as the feed-forward to the output state. This paper presents extensive security analysis of AES-PRF and its variants. Specifically, we consider unbalanced variants where the output of the s-th round is used as the feed-forward. We also analyze the security of “dual” constructions of the unbalanced variants, where the input state is used as the feed-forward to the output of the s-th round. We apply an impossible differential attack, zero-correlation linear attack, traditional differential attack, zero correlation linear distinguishing attack and a meet-in-the-middle attack on these PRFs and reduced round versions. We show that AES-PRF is broken whenever s ≤ 2 or s ≥ 6, or reduced to 7 rounds, and Dual-AES-PRF is broken whenever s ≤ 4 or s ≥ 8. Our results on AES-PRF improve the initial security evaluation by the designers in various ways, and our results on Dual-AES-PRF give the first insight to its security.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tosc.v2018.i2.161-191</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_892</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_892">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/892/843" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_rub-journals_892">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/892/7567" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="" ID="FILE2_rub-journals_892">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/892/7737" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_892" DMDID="DMD_rub-journals_892">
+            <mets:fptr FILEID="FILE0_rub-journals_892"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_892" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_892"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART2_rub-journals_892" LABEL="">
+                <mets:fptr FILEID="FILE2_rub-journals_892"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

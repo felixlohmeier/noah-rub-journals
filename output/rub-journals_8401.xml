@@ -1,0 +1,103 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8401">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Bluethunder</title>
+                        <subTitle>A 2-level Directional Predictor Based Side-Channel Attack against SGX</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Huo, Tianlin</displayForm>
+                        <namePart type="family">Huo</namePart>
+                        <namePart type="given">Tianlin</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Meng, Xiaoni</displayForm>
+                        <namePart type="family">Meng</namePart>
+                        <namePart type="given">Xiaoni</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Wang, Wenhao</displayForm>
+                        <namePart type="family">Wang</namePart>
+                        <namePart type="given">Wenhao</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Hao, Chunliang</displayForm>
+                        <namePart type="family">Hao</namePart>
+                        <namePart type="given">Chunliang</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Zhao, Pei</displayForm>
+                        <namePart type="family">Zhao</namePart>
+                        <namePart type="given">Pei</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Zhai, Jian</displayForm>
+                        <namePart type="family">Zhai</namePart>
+                        <namePart type="given">Jian</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Li, Mingshu</displayForm>
+                        <namePart type="family">Li</namePart>
+                        <namePart type="given">Mingshu</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2019-11-19</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">27</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Software Guard Extension (SGX) is a hardware-based trusted execution environment (TEE) implemented in recent Intel commodity processors. By isolating the memory of security-critical applications from untrusted software, this mechanism provides users with a strongly shielded environment called enclave for executing programs safely. However, recent studies have demonstrated that SGX enclaves are vulnerable to side-channel attacks. In order to deal with these attacks, several protection techniques have been studied and utilized.In this paper, we explore a new pattern history table (PHT) based side-channel attack against SGX named Bluethunder, which can bypass existing protection techniques and reveal the secret information inside an enclave. Comparing to existing PHT-based attacks (such as Branchscope [ERAG+18]), Bluethunder abuses the 2-level directional predictor in the branch prediction unit, on top of which we develop an exploitation methodology to disclose the input-dependent control flow in an enclave. Since the cost of training the 2-level predictor is pretty low, Bluethunder can achieve a high bandwidth during the attack. We evaluate our attacks on two case studies: extracting the format string information in the vfprintf function in the Intel SGX SDK and attacking the implementation of RSA decryption algorithm in mbed TLS. Both attacks show that Bluethunder can recover fine-grained information inside an enclave with low training overhead, which outperforms the latest PHT-based side channel attack (Branchscope) by 52×. Specifically, in the second attack, Bluethunder can recover the RSA private key with 96.76% accuracy in a single run.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tches.v2020.i1.321-347</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8401</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8401">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/8401/7785" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8401" DMDID="DMD_rub-journals_8401">
+            <mets:fptr FILEID="FILE0_rub-journals_8401"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

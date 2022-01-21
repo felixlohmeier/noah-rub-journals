@@ -1,0 +1,86 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8735">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Side-Channel Analysis of the Xilinx Zynq UltraScale+ Encryption Engine</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Hettwer, Benjamin</displayForm>
+                        <namePart type="family">Hettwer</namePart>
+                        <namePart type="given">Benjamin</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Leger, Sebastien</displayForm>
+                        <namePart type="family">Leger</namePart>
+                        <namePart type="given">Sebastien</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Fennes, Daniel</displayForm>
+                        <namePart type="family">Fennes</namePart>
+                        <namePart type="given">Daniel</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Gehrer, Stefan</displayForm>
+                        <namePart type="family">Gehrer</namePart>
+                        <namePart type="given">Stefan</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Güneysu, Tim</displayForm>
+                        <namePart type="family">Güneysu</namePart>
+                        <namePart type="given">Tim</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020-12-03</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">26</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">The Xilinx Zynq UltraScale+ (ZU+) is a powerful and flexible System-on- Chip (SoC) computing platform for next generation applications such as autonomous driving or industrial Internet-of-Things (IoT) based on 16 nm production technology. The devices are equipped with a secure boot mechanism in order to provide confidentiality, integrity, and authenticity of the configuration files that are loaded during power-up. This includes a dedicated encryption engine which features a protocol-based countermeasure against passive Side-Channel Attacks (SCAs) called key rolling. The mechanism ensures that the same key is used only for a certain number of data blocks that has to be defined by the user. However, a suitable choice for the key rolling parameter depends on the power leakage behavior of the chip and is not published by the manufacturer. To close this gap, this paper presents the first publicly known side-channel analysis of the ZU+ encryption unit. We conduct a black-box reverse engineering of the internal hardware architecture of the encryption engine using Electromagnetic (EM) measurements from a decoupling capacitor of the power supply. Then, we illustrate a sophisticated methodology that involves the first five rounds of an AES encryption to attack the 256-bit secret key. We apply the elaborated attack strategy using several new Deep Learning (DL)-based evaluation methods for cryptographic implementations. Even though we are unable to recover all bytes of the secret key, the experimental results still allow us to provide concrete recommendations for the key rolling parameter under realistic conditions. This eventually helps to configure the secure boot mechanism of the ZU+ and similar devices appropriately.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.46586/tches.v2021.i1.279-304</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8735</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8735">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/8735/8335" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8735" DMDID="DMD_rub-journals_8735">
+            <mets:fptr FILEID="FILE0_rub-journals_8735"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

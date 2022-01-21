@@ -1,0 +1,60 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8353">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Dynamics and Stability in Globally Expanding Charismatic Religions</title>
+                        <subTitle>The Case of the Vineyard Movement in Germany, Austria, and Switzerland</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Freudenberg, Maren</displayForm>
+                        <namePart type="family">Freudenberg</namePart>
+                        <namePart type="given">Maren</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2019-09-05</dateIssued>
+                    </originInfo>
+                    <abstract lang="eng">This article examines processes of religious transfer taking place in the neo-Charismatic Vineyard movement by analyzing the development of the German-speaking branch, Vineyard Deutschland, Österreich, Schweiz (DACH), in comparison to its American sister association. By drawing from first-hand interviews with congregational leaders and analyses of websites and other digital and print material, the article shows that Vineyard DACH is pursuing an unusually collaborative strategy to integrate into the German-speaking Christian landscape by forging close ties to both the Christian mainstream and its periphery. At the same time, it accentuates its identity as part of the international Vineyard network as a global charismatic movement. In this way, it negotiates the tension between the dynamics of expansion and the stability of a coherent self-identity, which is a distinguishing trait of Pentecostal-Charismatic Christianity. This development may be indicative of broader changes occurring in the religious landscape of German-speaking Europe in the early twenty-first century.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/er.8.2019.8353</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8353</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8353">
+                <mets:FLocat xlink:href="https://er.ceres.rub.de/index.php/ER/article/download/8353/7701" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="text/html" ID="FILE1_rub-journals_8353">
+                <mets:FLocat xlink:href="https://er.ceres.rub.de/index.php/ER/article/download/8353/7702" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8353" DMDID="DMD_rub-journals_8353">
+            <mets:fptr FILEID="FILE0_rub-journals_8353"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_8353" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_8353"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

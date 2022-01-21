@@ -1,0 +1,70 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8451">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Deck-Based Wide Block Cipher Modes and an Exposition of the Blinded Keyed Hashing Model</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Gunsing, Aldo</displayForm>
+                        <namePart type="family">Gunsing</namePart>
+                        <namePart type="given">Aldo</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Daemen, Joan</displayForm>
+                        <namePart type="family">Daemen</namePart>
+                        <namePart type="given">Joan</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Mennink, Bart</displayForm>
+                        <namePart type="family">Mennink</namePart>
+                        <namePart type="given">Bart</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020-01-31</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">22</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">We present two tweakable wide block cipher modes from doubly-extendable cryptographic keyed (deck) functions and a keyed hash function: double-decker and docked-double-decker. Double-decker is a direct generalization of Farfalle-WBC of Bertoni et al. (ToSC 2017(4)), and is a four-round Feistel network on two arbitrarily large branches, where the middle two rounds call deck functions and the first and last rounds call the keyed hash function. Docked-double-decker is a variant of double-decker where the bulk of the input to the deck functions is moved to the keyed hash functions. We prove that the distinguishing advantage of the resulting wide block ciphers is simply two times the sum of the pseudorandom function distinguishing advantage of the deck function and the blinded keyed hashing distinguishing advantage of the keyed hash functions. We demonstrate that blinded keyed hashing is more general than the conventional notion of XOR-universality, and that it allows us to instantiate our constructions with keyed hash functions that have a very strong claim on bkh security but not necessarily on XOR-universality, such as Xoofffie (ePrint 2018/767). The bounds of double-decker and docked-double-decker are moreover reduced tweak-dependent, informally meaning that collisions on the keyed hash function for different tweaks only have a limited impact. We describe two use cases that can exploit this property opportunistically to get stronger security than what would be achieved with prior solutions: SSD encryption, where each sector can only be written to a limited number of times, and incremental tweaks, where one includes the state of the system in the variable-length tweak and appends new data incrementally.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tosc.v2019.i4.1-22</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8451</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8451">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/8451/8021" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8451" DMDID="DMD_rub-journals_8451">
+            <mets:fptr FILEID="FILE0_rub-journals_8451"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

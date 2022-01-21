@@ -1,0 +1,86 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_563">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Haraka v2 – Efficient Short-Input Hashing for Post-Quantum Applications</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Kölbl, Stefan</displayForm>
+                        <namePart type="family">Kölbl</namePart>
+                        <namePart type="given">Stefan</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Lauridsen, Martin M.</displayForm>
+                        <namePart type="family">Lauridsen</namePart>
+                        <namePart type="given">Martin M.</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Mendel, Florian</displayForm>
+                        <namePart type="family">Mendel</namePart>
+                        <namePart type="given">Florian</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Rechberger, Christian</displayForm>
+                        <namePart type="family">Rechberger</namePart>
+                        <namePart type="given">Christian</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2017-02-03</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">29</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Recently, many efficient cryptographic hash function design strategies have been explored, not least because of the SHA-3 competition. These designs are, almost exclusively, geared towards high performance on long inputs. However, various applications exist where the performance on short (fixed length) inputs matters more. Such hash functions are the bottleneck in hash-based signature schemes like SPHINCS or XMSS, which is currently under standardization. Secure functions specifically designed for such applications are scarce. We attend to this gap by proposing two short-input hash functions (or rather simply compression functions). By utilizing AES instructions on modern CPUs, our proposals are the fastest on such platforms, reaching throughputs below one cycle per hashed byte even for short inputs, while still having a very low latency of less than 60 cycles. Under the hood, this results comes with several innovations. First, we study whether the number of rounds for our hash functions can be reduced, if only second-preimage resistance (and not collision resistance) is required. The conclusion is: only a little. Second, since their inception, AES-like designs allow for supportive security arguments by means of counting and bounding the number of active S-boxes. However, this ignores powerful attack vectors using truncated differentials, including the powerful rebound attacks. We develop a general tool-based method to include arguments against attack vectors using truncated differentials.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tosc.v2016.i2.1-29</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_563</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_563">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/563/505" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_rub-journals_563">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/563/7460" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_563" DMDID="DMD_rub-journals_563">
+            <mets:fptr FILEID="FILE0_rub-journals_563"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_563" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_563"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

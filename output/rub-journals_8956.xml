@@ -1,0 +1,62 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8956">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Look who&apos;s talking! Varieties of ego-dissolution without paradox</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Fink, Sascha Benjamin</displayForm>
+                        <namePart type="family">Fink</namePart>
+                        <namePart type="given">Sascha Benjamin</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020-03-24</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">36</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">How to model non-egoic experiences – mental events with phenomenal aspects that lack a felt self – has become an interesting research question. The main source of evidence for the existence of such non-egoic experiences are self-ascriptions of non-egoic experiences. In these, a person says about herself that she underwent an episode where she was conscious but lacked a feeling of self. Some interpret these as accurate reports, but this is questionable. Thomas Metzinger (2004, p. 566, 2018), Rocco Gennaro (2008), and Charles Foster (2016, p. 6) have hinted at the self-defeating nature of such statements if we take them to be genuine reports: Apparently, the reporter (a) explicitly denies her existence during the selfless experience, but (b) implicitly affirms her existence as a witness to that selfless experience in order to give a first-person report about it. So the content of such a report conflicts with the pragmatics of reporting. If all self-ascriptions of non-egoic experiences are self-defeating in this way, then they cannot count as evidence for the existence of non-egoic experiences. Here, I map out why such strong conclusions do not directly follow: What look like self-ascriptions of non-egoic experiences may occur for a number of reasons. Only some explanations for such utterances rely on a change in consciousness. Of those that do rely on a change in consciousness, only one (total ego-dissolution) is incoherent. But its alternatives do not lead to contradictions. I argue that the most likely change in phenomenality that leads to self-ascriptions of non-egoic experiences is not one where a felt self disappears, but where it expands.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.33735/phimisci.2020.I.40</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8956</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8956">
+                <mets:FLocat xlink:href="https://philosophymindscience.org/index.php/phimisci/article/download/8956/8735" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="text/html" ID="FILE1_rub-journals_8956">
+                <mets:FLocat xlink:href="https://philosophymindscience.org/index.php/phimisci/article/download/8956/8736" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8956" DMDID="DMD_rub-journals_8956">
+            <mets:fptr FILEID="FILE0_rub-journals_8956"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_8956" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_8956"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

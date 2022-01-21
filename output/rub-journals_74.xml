@@ -1,0 +1,52 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_74">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Slavery and the colonial state in German South West Africa 1880s to 1918</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Zollmann, Jakob</displayForm>
+                        <namePart type="family">Zollmann</namePart>
+                        <namePart type="given">Jakob</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2014-01-31</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">34</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">A considerable trade in slaves took place along the Portuguese-German colonial border, as the German colonial administrators learnt after some years. Their means and willingness to act against the slave hunters and traders were limited at best, especially since the definition of slavery to be applied to the African realities on the ground was uncertain. It was, therefore, more practical to remain in the position of bystander, demanding that the neighbouring Portuguese colonial officials intervene and abolish slavery.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_74</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_74">
+                <mets:FLocat xlink:href="https://namibian-studies.com/index.php/JNS/article/download/74/48" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_74" DMDID="DMD_rub-journals_74">
+            <mets:fptr FILEID="FILE0_rub-journals_74"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

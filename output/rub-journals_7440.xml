@@ -1,0 +1,53 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7440">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Philosophers, Historians, and Suffering Strangers</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Flynn, Jeffrey</displayForm>
+                        <namePart type="family">Flynn</namePart>
+                        <namePart type="given">Jeffrey</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2017-05-31</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">22</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">This article juxtaposes two classic essays written in the 1970s, one by philosopher Peter Singer and one by historian Thomas Haskell, in order to identify a shared theme that animates their work: that the availability of repertoires for action to alleviate distant suffering affects our causal relation to the suffering, which in turn affects our responsibility to act. In this way, we see the historical context in which a certain kind of humanitarian appeal played a prominent role in the work of two ground-breaking scholars in different disciplines. The essay also identifies the limits of that kind of appeal by distinguishing what I will call Suffering Stranger Humanitarianism from Causal Contribution Humanitarianism. It concludes by showing how the latter involves notions of collective responsibility and how both modes of appeal can make use of the notion of complicity.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/mts.57.2017.137-158</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7440</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7440">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/7440/6612" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7440" DMDID="DMD_rub-journals_7440">
+            <mets:fptr FILEID="FILE0_rub-journals_7440"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

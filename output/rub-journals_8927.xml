@@ -1,0 +1,52 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8927">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Feudal subject in the ‘System Leutwein’? Hendrik Witbooi and the German Reich in 1894/95</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Schmitz, Yves</displayForm>
+                        <namePart type="family">Schmitz</namePart>
+                        <namePart type="given">Yves</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2021-06-25</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">23</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">The standard historiographic analysis of German South West Africa focuses on the early 20th century. In this article, I expand this focus to examine the relationship between the German authorities and the dominant indigenous force in Great Namaqualand, the Witbooi, in the late 19th century. I analyse the regional foreign policy situation in the mid-1890s, the disarmament clause in the treaty of capitulation, as well as the juridical proceedings against Robert Duncan and his eldest son, two close allies of Witbooi. The findings show that the Germans were forced to make major concessions to the Witbooi. Thus, local circumstances and the local balance of power clearly influenced the implementation of the ‘System Leutwein’.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8927</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8927">
+                <mets:FLocat xlink:href="https://namibian-studies.com/index.php/JNS/article/download/8927/8498" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8927" DMDID="DMD_rub-journals_8927">
+            <mets:fptr FILEID="FILE0_rub-journals_8927"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,52 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_103">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Some roots of anti-colonial historical writing about Namibia</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Saunders, Chris</displayForm>
+                        <namePart type="family">Saunders</namePart>
+                        <namePart type="given">Chris</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2014-02-21</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">11</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">This article traces the early development of what has now become the dominant tradition in Namibian historical writing. Michael Scott, Ruth First and others were among the first to challenge the then dominant colonial tradition of writing and to attempt to write the history of all the people of the country and to record their resistance to German and South African rule. This writing later fed into more scholarly historical writing, and into later historical writing by Namibians themselves.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_103</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_103">
+                <mets:FLocat xlink:href="https://namibian-studies.com/index.php/JNS/article/download/103/72" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_103" DMDID="DMD_rub-journals_103">
+            <mets:fptr FILEID="FILE0_rub-journals_103"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

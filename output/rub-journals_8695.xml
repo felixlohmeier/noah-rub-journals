@@ -1,0 +1,86 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8695">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Design of Symmetric-Key Primitives for Advanced Cryptographic Protocols</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Aly, Abdelrahaman</displayForm>
+                        <namePart type="family">Aly</namePart>
+                        <namePart type="given">Abdelrahaman</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Ashur, Tomer</displayForm>
+                        <namePart type="family">Ashur</namePart>
+                        <namePart type="given">Tomer</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Ben-Sasson, Eli</displayForm>
+                        <namePart type="family">Ben-Sasson</namePart>
+                        <namePart type="given">Eli</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Dhooghe, Siemen</displayForm>
+                        <namePart type="family">Dhooghe</namePart>
+                        <namePart type="given">Siemen</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Szepieniec, Alan</displayForm>
+                        <namePart type="family">Szepieniec</namePart>
+                        <namePart type="given">Alan</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020-09-28</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">45</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">While traditional symmetric algorithms like AES and SHA-3 are optimized for efficient hardware and software implementations, a range of emerging applications using advanced cryptographic protocols such as multi-party computation and zero knowledge proofs require optimization with respect to a different metric: arithmetic complexity.In this paper we study the design of secure cryptographic algorithms optimized to minimize this metric. We begin by identifying the differences in the design space between such arithmetization-oriented ciphers and traditional ones, with particular emphasis on the available tools, efficiency metrics, and relevant cryptanalysis. This discussion highlights a crucial point—the considerations for designing arithmetization-oriented ciphers are oftentimes different from the considerations arising in the design of software- and hardware-oriented ciphers.The natural next step is to identify sound principles to securely navigate this new terrain, and to materialize these principles into concrete designs. To this end, we present the Marvellous design strategy which provides a generic way to easily instantiate secure and efficient algorithms for this emerging domain. We then show two examples for families following this approach. These families — Vision and Rescue — are benchmarked with respect to three use cases: the ZK-STARK proof system, proof systems based on Rank-One Constraint Satisfaction (R1CS), and Multi-Party Computation (MPC). These benchmarks show that our algorithms achieve a highly compact algebraic description, and thus benefit the advanced cryptographic protocols that employ them.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tosc.v2020.i3.1-45</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8695</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8695">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/8695/8287" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8695" DMDID="DMD_rub-journals_8695">
+            <mets:fptr FILEID="FILE0_rub-journals_8695"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

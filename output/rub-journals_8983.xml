@@ -1,0 +1,87 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8983">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Information Leakages in Code-based Masking</title>
+                        <subTitle>A Unified Quantification Approach</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Cheng, Wei</displayForm>
+                        <namePart type="family">Cheng</namePart>
+                        <namePart type="given">Wei</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Guilley, Sylvain</displayForm>
+                        <namePart type="family">Guilley</namePart>
+                        <namePart type="given">Sylvain</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Carlet, Claude</displayForm>
+                        <namePart type="family">Carlet</namePart>
+                        <namePart type="given">Claude</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Danger, Jean-Luc</displayForm>
+                        <namePart type="family">Danger</namePart>
+                        <namePart type="given">Jean-Luc</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Mesnager, Sihem</displayForm>
+                        <namePart type="family">Mesnager</namePart>
+                        <namePart type="given">Sihem</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2021-07-09</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">31</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">This paper presents a unified approach to quantifying the information leakages in the most general code-based masking schemes. Specifically, by utilizing a uniform representation, we highlight first that all code-based masking schemes’ side-channel resistance can be quantified by an all-in-one framework consisting of two easy-tocompute parameters (the dual distance and the number of conditioned codewords) from a coding-theoretic perspective. In particular, we use signal-to-noise ratio (SNR) and mutual information (MI) as two complementary metrics, where a closed-form expression of SNR and an approximation of MI are proposed by connecting both metrics to the two coding-theoretic parameters. Secondly, considering the connection between Reed-Solomon code and SSS (Shamir’s Secret Sharing) scheme, the SSS-based masking is viewed as a particular case of generalized code-based masking. Hence as a straightforward application, we evaluate the impact of public points on the side-channel security of SSS-based masking schemes, namely the polynomial masking, and enhance the SSS-based masking by choosing optimal public points for it. Interestingly, we show that given a specific security order, more shares in SSS-based masking leak more information on secrets in an information-theoretic sense. Finally, our approach provides a systematic method for optimizing the side-channel resistance of every code-based masking. More precisely, this approach enables us to select optimal linear codes (parameters) for the generalized code-based masking by choosing appropriate codes according to the two coding-theoretic parameters. Summing up, we provide a best-practice guideline for the application of code-based masking to protect cryptographic implementations.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.46586/tches.v2021.i3.465-495</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8983</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8983">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/8983/8560" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8983" DMDID="DMD_rub-journals_8983">
+            <mets:fptr FILEID="FILE0_rub-journals_8983"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,52 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_30">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Guerrilla wars and colonial concentration camps. The exceptional case of German South West Africa (1904 – 1908)</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Kreienbaum, Jonas</displayForm>
+                        <namePart type="family">Kreienbaum</namePart>
+                        <namePart type="given">Jonas</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2014-01-27</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">19</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">The article argues that the reasons for the establishment of concentration camps in German South West Africa were different from contemporary camps in other colonial territories where civilians were concentrated in the course of colonial wars. Unlike in South Africa, Cuba or the Philippines, concentration in GSWA was not about isolatingcivilians from guerrillas in order to cut the latter off from their support, but about (1) punishing the interned for ‘rebelling’, (2) ‘pacifying’ the colony by controlling former fighters, and (3) using the camps as a reservoir of forced labour. These differences in purpose were the result of structurally different conditions in the German colonial war, which made the separation of guerrillas from civilians obsolete.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_30</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_30">
+                <mets:FLocat xlink:href="https://namibian-studies.com/index.php/JNS/article/download/30/14" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_30" DMDID="DMD_rub-journals_30">
+            <mets:fptr FILEID="FILE0_rub-journals_30"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

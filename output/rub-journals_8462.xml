@@ -1,0 +1,70 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8462">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Cube-Based Cryptanalysis of Subterranean-SAE</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Liu, Fukang</displayForm>
+                        <namePart type="family">Liu</namePart>
+                        <namePart type="given">Fukang</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Isobe, Takanori</displayForm>
+                        <namePart type="family">Isobe</namePart>
+                        <namePart type="given">Takanori</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Meier, Willi</displayForm>
+                        <namePart type="family">Meier</namePart>
+                        <namePart type="given">Willi</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020-01-31</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">31</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Subterranean 2.0 designed by Daemen, Massolino and Rotella is a Round 2 candidate of the NIST Lightweight Cryptography Standardization process. In the official document of Subterranean 2.0, the designers have analyzed the state collisions in unkeyed absorbing by reducing the number of rounds to absorb the message from 2 to 1. However, little cryptanalysis of the authenticated encryption scheme Subterranean-SAE is made. For Subterranean-SAE, the designers introduce 8 blank rounds to separate the controllable input and output, and expect that 8 blank rounds can achieve a sufficient diffusion. Therefore, it is meaningful to investigate the security by reducing the number of blank rounds. Moreover, the designers make no security claim but expect a non-trivial effort to achieve full-state recovery in a nonce-misuse scenario. In this paper, we present the first practical full-state recovery attack in a nonce-misuse scenario with data complexity of 213 32-bit blocks. In addition, in a nonce-respecting scenario and if the number of blank rounds is reduced to 4, we can mount a key-recovery attack with 2122 calls to the internal permutation of Subterranean-SAE and 269.5 32-bit blocks. A distinguishing attack with 233 calls to the internal permutation of Subterranean-SAE and 233 32-bit blocks is achieved as well. Our cryptanalysis does not threaten the security claim for Subterranean-SAE and we hope it can enhance the understanding of Subterranean-SAE.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tosc.v2019.i4.192-222</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8462</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8462">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/8462/8027" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8462" DMDID="DMD_rub-journals_8462">
+            <mets:fptr FILEID="FILE0_rub-journals_8462"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

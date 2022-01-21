@@ -1,0 +1,52 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_476">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Presentations and Announcements</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Authors, Various</displayForm>
+                        <namePart type="family">Authors</namePart>
+                        <namePart type="given">Various</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2016-06-01</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">12</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Werner Abel, Enrico Hilbert (eds.):. „Sie werden nicht durchkommen“. Deutsche an der Seite der Spanischen Republik und der sozialen Revolution. Bd. 1 [“They Shall Not Pass“. Germans on the Side of the Spanish Republic and the Social Revolution. Vol. 1], Lich, Verlag Edition AV, 2015. 570 pp. – ISBN 9783868411126.Barbara C. Allen: Alexander Shlyapnikov, 1885-1937. Life of an Old Bolshevik, Leiden e.a., Brill, 2015. XIV, 426 pp. (Historical Materialism Book Series. 90). – ISBN 9789004248533.Gregor Benton (ed.): Prophets Unarmed. Chinese Trotskyists in Revolution, War, Jail, and the Return from Limbo, Leiden e.a., Brill, 2014. XVII, 1269 pp. (Historical Materialism Book Series. 81). – ISBN 9789004269767.Marcel Bois: Kommunisten gegen Hitler und Stalin. Die linke Opposition der KPD in der Weimarer Republik. Eine Gesamtdarstellung [Communists Against Hitler and Stalin. The Left Opposition of the KPD in the Weimar Republic. An Overall View], Essen, Klartext, 2014. 614 pp. – ISBN 9783837512823.Kasper Braskén: The International Workers’ Relief, Communism, and Transnational Solidarity. Willi Münzenberg in Weimar Germany, Basingstoke, Palgrave Macmillan, 2015. XVII, 319 pp. (Palgrave Studies in the History of Social Movements). – ISBN 9781137546852.Marjan Britovšek: Socialna zgodovina – historična sociologija. Izbrani spisi [Social History – Historical Sociology. Selected Works]. Edited by Avgust Lešnik, Ljubljana, Znanstvena založba Filozofske fakultete, 2015. 423 pp. – ISBN 9789612377670.Fridrikh I. Firsov, Harvey Klehr, John Earl Haynes: Secret Cables of the Comintern, 1933-1943, New Haven, Yale University Press, 2014. 320 pp. (Annals of Communism). – ISBN 9780300198225.Fridrikh Firsov: 34 goda v Institute marksizma-leninizma. Vospominaniia istorika [34 Years in the Institute of Marxism-Leninism. Memoirs of a Historian], Moskva, AIRO-XXI, 2013. 480 pp. – ISBN 9785910222247.Jan Foitzik (ed.): Sowjetische Kommandanturen und deutsche Verwaltung in der SBZ und frühen DDR. Dokumente [Soviet Headquarters and German Administration in the Soviet Occupation Zone and the Early GDR. Documents], Berlin, De Gruyter Oldenbourg, 2015. VI, 632 pp. (Texte und Materialien zur Zeitgeschichte. 19). – ISBN 9783110377163.Ben Fowkes (ed.): The German Left and the Weimar Republic. A Selection of Documents, Leiden e.a., Brill, 2014. XVIII, 399 pp. (Historical Materialism Book Series. 75). – ISBN 9789004210295.Paul Frölich: Im radikalen Lager. Politische Autobiographie 1890-1921 [In the Radical Camp. Political Autobiography 1890-1921]. Edited by Reiner Tosstorff, Berlin, BasisDruck, 2013. 416 pp. – ISBN 9783861631477.Ralf Hoffrogge: Werner Scholem. Eine politische Biographie (1895-1940) [Werner Scholem. A Political Biography, 1895-1940], Konstanz, UVK, 2014. 496 pp. – ISBN 9783867645058.Ralf Hoffrogge: Working Class Politics in the German Revolution. Richard Müller, the Revolutionary Shop Stewards and the Origins of the Council Movement, Leiden e.a., Brill, 2014. XV, 253 pp. (Historical Materialism Book Series. 77). – ISBN 9789004219212.Lazar Jeifets, Víctor Jeifets: El Partido Comunista de Argentina y la III Internacional. La misión de Williams y los orígenes del penelonismo [The Communist Party of Argentina and the Third International. Williams’ Mission and the Origins of Penelonism], México, Nostromo, Instituto de Latinoamérica, Facultad de Relaciones Internacionales, Universidad Estatal de San Petersburgo, 2013. 333 pp. – No ISBN.Christoph Jünke: Streifzüge durch das rote 20. Jahrhundert [Forays into the Red Twentieth Century], Hamburg, Laika-Verlag, 2014. 320 pp. (LAIKAtheorie. 36). – ISBN 9783944233000.Oleg V. Khlevniuk: Stalin. New Biography of a Dictator, New Haven, Yale University Press, 2015. 424 pp. – ISBN 9780300219784.Lisa A. Kirschenbaum: International Communism and the Spanish Civil War. Solidarity and Suspicion, New York e.a., Cambridge University Press, 2015. 287 pp. – ISBN 9781107106277.Evgenii A. Preobrazhensky: The Preobrazhensky Papers. Archival Documents and Materials. Volume I: 1886-1920. Edited by Richard B. Day and Mikhail M. Gorinov, Leiden e.a., Brill, 2014. LIV, 862 pp. (Historical Materialism Book Series. 47). – ISBN 9789004245211.John Riddell (ed.): To the Masses. Proceedings of the Third Congress of the Communist International, 1921, Leiden e.a., Brill, 2015. X, 1299 pp. (Historical Materialism Book Series. 91). – ISBN 9789004288027.Uwe Sonnenberg: Von Marx zum Maulwurf. Linker Buchhandel in Westdeutschland in den 1970er Jahren [From Marx to Mole. Left-wing Booktrade in 1970s West Germany], Göttingen, Wallstein, 2016. 568 pp. (Geschichte der Gegenwart. 11). – ISBN 9783835318168.Brigitte Studer: The Transnational World of the Cominternians, Basingstoke, Palgrave Macmillan, 2015. IX, 227 pp. – ISBN 9781137510280.Ramin Taghian: Grenzgänger des Sozialismus. Die transnationale Dimension der frühen sozialistischen Bewegung im Iran (1905-1911) [Border Crossers of Socialism. The Transnational Dimension of the Early Socialist Movement in Iran, 1905-1911], Wien, Promedia, 2014. 223 pp. (Edition kritische Forschung). – ISBN 9783853713839.Thomas M. Twiss: Trotsky and the Problem of Soviet Bureaucracy, Leiden e.a., Brill, 2014. X, 502 pp. (Historical Materialism Book Series. 67). – ISBN 9789004269521.Mikhail I. Voronkov: Intelligent i epokha. Dnevniki, vospominaniia, stat’i. 1911-1941 gg. [The Intellectual and His Epoch. Diaries, Memoirs, Articles, 1911-1941] Edited by A. O. Nikitin, Riazan’, NRIID, 2013. 684 pp. (Noveishaia istoriia Rossii. Issledovaniia i dokumenty. 11). – ISBN 978-5-94473-017-6.Hermann Weber, Jakov Drabkin, Bernhard H. Bayerlein, Aleksandr A. Galkin: Deutschland, Russland, Komintern. Bd. 1: Überblicke, Analysen, Diskussionen. Neue Perspektiven auf die Geschichte der KPD und die deutsch-russischen Beziehungen (1918-1943) [Germany, Russia, Comintern. Vol. 1: Overview, Analyses, Discussions. New Perspectives on the History of the CPG and German-Russian Relations], Berlin, De Gruyter, 2014. 477 pp. (Archive des Kommunismus - Pfade des XX. Jahrhunderts. 5). – ISBN 9783110300987.Hermann Weber, Jakov Drabkin, Bernhard H. Bayerlein, Gleb J. Albert (eds.): Deutschland, Russland, Komintern. Bd. 2: Dokumente (1918-1943). Nach der Archivrevolution: Neuerschlossene Quellen zur Geschichte der KPD und den deutsch-russischen Beziehungen [Vol. 2: Documents, 1918-1943. After the Archival Revolutiion: New Sources on the History of the CPG and German-Russian Relations], Berlin, De Gruyter, 2015. 2 Teil-Bde., 1840 pp. (Archive des Kommunismus - Pfade des XX. Jahrhunderts. 6). – ISBN 9783110339765.Hermann Weber, Andreas Herbst (eds.): Deutsche Kommunisten. Supplement zum biographischen Handbuch 1918 bis 1945 [German Communists. Supplement to the Biographical Dictionary, 1918-1945], Berlin, Karl Dietz Verlag, 2013. 296 pp. – ISBN 9783320022952.Holger Weiss: Framing a Radical African Atlantic. African American Agency, West African Intellectuals, and the International Trade Union Committee of Negro Workers, Leiden e.a., Brill, 2014. XVI, 752 pp. (Studies in Global Social History. 14). – ISBN 9789004261631.Frank Wolff: Neue Welten in der Neuen Welt. Die transnationale Geschichte des Allgemeinen Jüdischen Arbeiterbundes, 1897-1947 [New Worlds in the New World. The Transnational History of the Jewish Labor Bund, 1897-1947], Köln e.a., Böhlau, 2014. 558 pp. (Industrielle Welt. 86). – ISBN 9783412222116.  </abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_476</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_476">
+                <mets:FLocat xlink:href="https://incs.ub.rub.de/index.php/INCS/article/download/476/428" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_476" DMDID="DMD_rub-journals_476">
+            <mets:fptr FILEID="FILE0_rub-journals_476"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

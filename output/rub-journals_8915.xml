@@ -1,0 +1,63 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8915">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Algorithm Substitution Attacks</title>
+                        <subTitle>State Reset Detection and Asymmetric Modifications</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Hodges, Philip</displayForm>
+                        <namePart type="family">Hodges</namePart>
+                        <namePart type="given">Philip</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Stebila, Douglas</displayForm>
+                        <namePart type="family">Stebila</namePart>
+                        <namePart type="given">Douglas</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2021-06-11</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">34</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">In this paper, we study algorithm substitution attacks (ASAs), where an algorithm in a cryptographic scheme is substituted for a subverted version. First, we formalize and study the use of state resets to detect ASAs, and show that many published stateful ASAs are detectable with simple practical methods relying on state resets. Second, we introduce two asymmetric ASAs on symmetric encryption, which are undetectable or unexploitable even by an adversary who knows the embedded subversion key. We also generalize this result, allowing for any symmetric ASA (on any cryptographic scheme) satisfying certain properties to be transformed into an asymmetric ASA. Our work demonstrates the broad application of the techniques first introduced by Bellare, Paterson, and Rogaway (Crypto 2014) and Bellare, Jaeger, and Kane (CCS 2015) and reinforces the need for precise definitions surrounding detectability of stateful ASAs.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.46586/tosc.v2021.i2.389-422</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8915</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8915">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/8915/8491" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8915" DMDID="DMD_rub-journals_8915">
+            <mets:fptr FILEID="FILE0_rub-journals_8915"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,79 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_9073">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Scabbard</title>
+                        <subTitle>a suite of efficient learning with rounding key-encapsulation mechanisms</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Bermudo Mera, Jose Maria</displayForm>
+                        <namePart type="family">Bermudo Mera</namePart>
+                        <namePart type="given">Jose Maria</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Karmakar, Angshuman</displayForm>
+                        <namePart type="family">Karmakar</namePart>
+                        <namePart type="given">Angshuman</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Kundu, Suparna</displayForm>
+                        <namePart type="family">Kundu</namePart>
+                        <namePart type="given">Suparna</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Verbauwhede, Ingrid</displayForm>
+                        <namePart type="family">Verbauwhede</namePart>
+                        <namePart type="given">Ingrid</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2021-08-11</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">36</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">In this paper, we introduce Scabbard, a suite of post-quantum keyencapsulation mechanisms. Our suite contains three different schemes Florete, Espada, and Sable based on the hardness of module- or ring-learning with rounding problem. In this work, we first show how the latest advancements on lattice-based cryptographycan be utilized to create new better schemes and even improve the state-of-the-art on post-quantum cryptography. We put particular focus on designing schemes that can optimally exploit the parallelism offered by certain hardware platforms and are also suitable for resource constrained devices. We show that this can be achieved without compromising the security of the schemes or penalizing their performance on other platforms.To substantiate our claims, we provide optimized implementations of our three new schemes on a wide range of platforms including general-purpose Intel processors using both portable C and vectorized instructions, embedded platforms such as Cortex-M4 microcontrollers, and hardware platforms such as FPGAs. We show that on each platform, our schemes can outperform the state-of-the-art in speed, memory footprint, or area requirements.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.46586/tches.v2021.i4.474-509</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_9073</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_9073">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/9073/8660" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_9073" DMDID="DMD_rub-journals_9073">
+            <mets:fptr FILEID="FILE0_rub-journals_9073"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

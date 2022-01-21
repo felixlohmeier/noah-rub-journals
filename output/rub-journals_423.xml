@@ -1,0 +1,53 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_423">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>From Nujoma to Geingob</title>
+                        <subTitle>25 years of presidential democracy</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Melber, Henning</displayForm>
+                        <namePart type="family">Melber</namePart>
+                        <namePart type="given">Henning</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015-12-16</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">17</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Namibia’s first 25 years of independence were characterized politically by a demo¬cratic regime influenced by the presidential governance of Sam Nujoma (1990– 2005) and Hifikepunye Pohamba (2005–2015). With Hage Geingob, sworn in on Independence Day 2015, the third (and probably last) of the first ‘struggle generation’ entered the highest state office on behalf of Swapo, the former liberation movement now in firm political control. This article takes stock of Namibia’s presidential democracy by summarizing the institutional and structural features contributing to the strong executive role of Namibian presidents. It assesses the terms in office of the first two Heads of State and provides insights into Geingob’s path to office and his efforts to consolidate his status. It characterizes and compares the different personalities of the Namibian presidents and their style of political rule. It ends with a preliminary outlook at what might be expected from the current president Hage Geingob.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_423</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_423">
+                <mets:FLocat xlink:href="https://namibian-studies.com/index.php/JNS/article/download/423/379" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_423" DMDID="DMD_rub-journals_423">
+            <mets:fptr FILEID="FILE0_rub-journals_423"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

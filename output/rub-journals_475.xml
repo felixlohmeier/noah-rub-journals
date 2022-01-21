@@ -1,0 +1,53 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_475">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Todor Kuljić</title>
+                        <subTitle>Tranzicija uma. Sociološki ogledi o promeni opredeljenja humanističke inteligencije u Srbiji [review in English]</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Lešnik, Avgust</displayForm>
+                        <namePart type="family">Lešnik</namePart>
+                        <namePart type="given">Avgust</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2016-06-01</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">2</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Todor Kuljić: Tranzicija uma. Sociološki ogledi o promeni opredeljenja humanističke inteligencije u Srbiji [The Transition of Reason. Sociological perspectives on the change in the commitment of humanist intelligentsia in Serbia], Zrenjanin, Gradska narodna biblioteka (Biblioteka Polis), 2014. 197 pp. – ISBN 978-86-7284-151-0.University of LjubljanaSlovenia</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_475</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_475">
+                <mets:FLocat xlink:href="https://incs.ub.rub.de/index.php/INCS/article/download/475/427" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_475" DMDID="DMD_rub-journals_475">
+            <mets:fptr FILEID="FILE0_rub-journals_475"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

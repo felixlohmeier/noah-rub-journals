@@ -1,0 +1,52 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_308">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Zu den Eigenschaften von Polizei- und Geheimdienstarchiven. Der Fall der Stasi-Unterlagen</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Combe, Sonia</displayForm>
+                        <namePart type="family">Combe</namePart>
+                        <namePart type="given">Sonia</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2011-09-23</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">6</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">In ihrem Beitrag untersucht Sonia Combe Strukturen und Aufgaben von Polizeiarchiven als Teil eines Ensembles von &quot;Machttechnologien&quot; (Foucault), die eine polizeiliche Sicht auf die Geschichte im allgemeinen und im Falle der Stasi-Archive im besonderen gerieren können. Unterstrichen wird die auf einer bestimmten Form der Weitergabe von Wissen über die Erstellung von Akten beruhende Vergleichbarkeit der Polizei bzw. Unterdrückungsarchive verschiedener Länder und unterschiedlicher Epochen. Dem Historiker liefern diese eine wahre, jedoch weitestgehend verkürzte Perspektive, insbesondere, wenn es um die Durchdringung der Gesellschaft und der Zusammenhänge mit der Macht geht. Alles, was dem Sozialen und Alltäglichen zuzurechnen ist, bedarf einer komplexen Analyse, ist schwieriger einzuordnen und verlangt deshalb danach, um andere Quellen ergänzt zu werden. Die Geschichte der DDR durch die &quot;polizeiliche Brille&quot; zu sehen würde bedeuten, sie auf eine Polizeigeschichte zu reduzieren.Institut des Sciences Sociales du Politique, Université de Paris Ouest</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_308</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_308">
+                <mets:FLocat xlink:href="https://incs.ub.rub.de/index.php/INCS/article/download/308/266" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_308" DMDID="DMD_rub-journals_308">
+            <mets:fptr FILEID="FILE0_rub-journals_308"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,87 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7278">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>New Bleichenbacher Records</title>
+                        <subTitle>Fault Attacks on qDSA Signatures</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Takahashi, Akira</displayForm>
+                        <namePart type="family">Takahashi</namePart>
+                        <namePart type="given">Akira</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Tibouchi, Mehdi</displayForm>
+                        <namePart type="family">Tibouchi</namePart>
+                        <namePart type="given">Mehdi</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Abe, Masayuki</displayForm>
+                        <namePart type="family">Abe</namePart>
+                        <namePart type="given">Masayuki</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2018-08-16</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">41</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">In this paper, we optimize Bleichenbacher’s statistical attack technique against (EC)DSA and other Schnorr-like signature schemes with biased or partially exposed nonces. Previous approaches to Bleichenbacher’s attack suffered from very large memory consumption during the so-called “range reduction” phase. Using a carefully analyzed and highly parallelizable approach to this range reduction based on the Schroeppel–Shamir algorithm for knapsacks, we manage to overcome the memory barrier of previous work while maintaining a practical level of efficiency in terms of time complexity.As a separate contribution, we present new fault attacks against the qDSA signature scheme of Renes and Smith (ASIACRYPT 2017) when instantiated over the Curve25519 Montgomery curve, and we validate some of them on the AVR microcontroller implementation of qDSA using actual fault experiments on the ChipWhisperer-Lite evaluation board. These fault attacks enable an adversary to generate signatures with 2 or 3 bits of the nonces known.Combining our two contributions, we are able to achieve a full secret key recovery on qDSA by applying our version of Bleichenbacher’s attack to these faulty signatures. Using a hybrid parallelization model relying on both shared and distributed memory, we achieve a very efficient implementation of our highly scalable range reduction algorithm. This allows us to complete Bleichenbacher’s attack in the 252-bit prime order subgroup of Curve25519 within a reasonable time frame and using relatively modest computational resources both for 3-bit nonce exposure and for the much harder case of 2-bit nonce exposure. Both of these computations, and particularly the latter, set new records in the implementation of Bleichenbacher’s attack.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tches.v2018.i3.331-371</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7278</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7278">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/7278/6456" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_rub-journals_7278">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/7278/7946" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="" ID="FILE2_rub-journals_7278">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/7278/7947" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7278" DMDID="DMD_rub-journals_7278">
+            <mets:fptr FILEID="FILE0_rub-journals_7278"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_7278" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_7278"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART2_rub-journals_7278" LABEL="">
+                <mets:fptr FILEID="FILE2_rub-journals_7278"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

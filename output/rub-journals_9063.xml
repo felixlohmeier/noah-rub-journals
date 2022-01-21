@@ -1,0 +1,71 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_9063">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>My other car is your car</title>
+                        <subTitle>compromising the Tesla Model X keyless entry system</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Wouters, Lennert</displayForm>
+                        <namePart type="family">Wouters</namePart>
+                        <namePart type="given">Lennert</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Gierlichs, Benedikt</displayForm>
+                        <namePart type="family">Gierlichs</namePart>
+                        <namePart type="given">Benedikt</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Preneel, Bart</displayForm>
+                        <namePart type="family">Preneel</namePart>
+                        <namePart type="given">Bart</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2021-08-11</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">24</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">This paper documents a practical security evaluation of the Tesla Model X keyless entry system. In contrast to other works, the keyless entry system analysed in this paper employs secure symmetric-key and public-key cryptographic primitives implemented by a Common Criteria certified Secure Element. We document the internal workings of this system, covering the key fob, the body control module and the pairing protocol. Additionally, we detail our reverse engineering techniques and document several security issues. The identified issues in the key fob firmware update mechanism and the key fob pairing protocol allow us to bypass all of the cryptographic security measures put in place. To demonstrate the practical impact of our research we develop a fully remote Proof-of-Concept attack that allows to gain access to the vehicle’s interior in a matter of minutes and pair a modified key fob, allowing to drive off. Our attack is not a relay attack, as our new key fob allows us to start the car anytime anywhere. Finally, we provide an analysis of the update performed by Tesla to mitigate our findings. Our work highlights how the increased complexity and connectivity of vehicular systems can result in a larger and easier to exploit attack surface.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.46586/tches.v2021.i4.149-172</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_9063</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_9063">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/9063/8650" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_9063" DMDID="DMD_rub-journals_9063">
+            <mets:fptr FILEID="FILE0_rub-journals_9063"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

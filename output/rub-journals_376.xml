@@ -1,0 +1,53 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_376">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Celebrating Independence Day</title>
+                        <subTitle>The aesthetics and politics of national commemoration in Namibia</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Kornes, Godwin</displayForm>
+                        <namePart type="family">Kornes</namePart>
+                        <namePart type="given">Godwin</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015-07-01</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">24</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Through the sequencing of singular past-time events into a commemorative calendar of national holidays, dramatic narratives of the nation are construed, enacted, stabilised, continuously reactivated and renewed. This makes political national holidays rewarding objects of analysis for the study of nation and nationalism. Namibia, as many other nation-states, has a distinct commemorative calendar that distinguishes marked and unmarked times of national significance. Political national holidays feature prominently in the efforts of Namibia’s ruling party, the former liberation movement Swapo, to mediate and popularise its particular brand of heroic liberation struggle memory. By focusing on the centrality of Swapo’s heroic narrative of armed liberation, the politics of dress, and the question of national inclusivity, some of the contestations of national commemoration in Namibia are explored and discussed with reference to Independence Day celebrations since 1990.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_376</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_376">
+                <mets:FLocat xlink:href="https://namibian-studies.com/index.php/JNS/article/download/376/333" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_376" DMDID="DMD_rub-journals_376">
+            <mets:fptr FILEID="FILE0_rub-journals_376"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,53 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7448">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Comparative Study of Two Protest Marches for Disabled People’s Rights (Spain 1933 — Bolivia 2011)</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Brégain, Gildas</displayForm>
+                        <namePart type="family">Brégain</namePart>
+                        <namePart type="given">Gildas</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2017-03-31</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">26</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">This article aims to shed light on the Caravana de la integración en sillas de ruedas (wheelchair integration caravan), a group of around 20 physically disabled people, who travelled more than one thousand kilometres in wheelchairs from the Bolivian city of Trinidad to the capital, La Paz. The trip lasted 90 days (from 15 November, 2011 to mid-February, 2012) and aimed to assert their right to receive an allowance of 3,000 Bolivian pesos. In examining the specificity of this social movement, it seems relevant to compare it to another march organised by a group of Spanish disabled people in September 1933 from Zaragoza to Madrid. These Spanish activists were asking for employment in the government administration, and lifetime benefits for those who were not able to work. This comparison will look at both the environments that fostered the development of such protests and how this type of action has changed over time and adapted to the economic, social and technological changes of the 20th century. We will also look at the different political impacts of these two marches.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/mts.56.2016.115-140</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7448</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7448">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/7448/6620" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7448" DMDID="DMD_rub-journals_7448">
+            <mets:fptr FILEID="FILE0_rub-journals_7448"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

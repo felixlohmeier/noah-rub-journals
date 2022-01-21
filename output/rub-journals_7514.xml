@@ -1,0 +1,54 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7514">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Looking Through the Window</title>
+                        <subTitle>Prostitutes and Their Neighbours (Rio de Janeiro, Early Twentieth Century)</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Schettini, Cristiana</displayForm>
+                        <namePart type="family">Schettini</namePart>
+                        <namePart type="given">Cristiana</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015-02-22</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">22</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">This article analyses some of the debates on the regulation of sex trade in Rio de Janeiro and the enforcement of a particular set of “non-regulationist” policies at the beginning of the First Republic (1889–1930). I argue that against the background of conflicts in local politics and labour relations, “non-regulationist” policies in Rio de Janeiro opened up unexpected possibilities for prostitutes, who reinterpreted the available law in their dealings with neighbors and other workers. The historical process of the abolition of slavery in Brazil, together with the consolidation of an authoritarian republican regime, created the conditions that allowed Rio de Janeiro’s police to enforce a particular policy of surveillance and control of specific groups of prostitutes. This policy resulted in the increasing clustering of prostitutes – particularly those who used to parade themselves in the doors and windows of their own homes – in designated urban spaces. Although this process had a significant impact on the relationship between the groups of prostitutes and other workers and neighbours, it nevertheless failed to dissolve their bonds.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/mts.49.2013.31-52</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7514</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7514">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/7514/6686" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7514" DMDID="DMD_rub-journals_7514">
+            <mets:fptr FILEID="FILE0_rub-journals_7514"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

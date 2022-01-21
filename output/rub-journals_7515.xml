@@ -1,0 +1,53 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7515">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Space, Culture, and Labour in Santa Catarina, 1900-1960</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Duarte, Adriano Luiz</displayForm>
+                        <namePart type="family">Duarte</namePart>
+                        <namePart type="given">Adriano Luiz</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2014-10-02</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">22</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">The history of the Brazilian working class is complex: immigration, slavery, migration, ethnic-racial conflicts, strikes and paternalism have been important factors that shaped the world of labour and class formation in this culturally diverse society. The southern Brazilian state of Santa Catarina has been portrayed in the rest of the country as a white European state, predominantly German, and as a land of work and few strikes. The role of German immigrants in the development of Santa Catarina’s working class itself is very complex and requires some further research. By analysing the working-class formation, including important strikes in the textile and mining industries during the 20th century, this article challenges the image of Santa Catarina as a state without any significant social conflicts.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/mts.49.2013.53-74</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7515</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7515">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/7515/6687" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7515" DMDID="DMD_rub-journals_7515">
+            <mets:fptr FILEID="FILE0_rub-journals_7515"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,54 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7420">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Willi Münzenberg’s ‘Last Empire’</title>
+                        <subTitle>Die Zukunft and the ‘Franco-German Union’, Paris, 1938 – 1940. New Visions of Anti-Fascism and the Transnational Networks of the Anti-Hitler Resistance</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Bayerlein, Bernhard H.</displayForm>
+                        <namePart type="family">Bayerlein</namePart>
+                        <namePart type="given">Bernhard H.</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2017-10-20</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">30</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">The weekly Die Zukunft is among the most ambitious Franco-German media projects and collective organisers with European repercussions during the final crisis of the inter-war period from the Munich Agreement in September 1938 until May 1940 and the German occupation of France during the Second World War. The reading of the political-cultural journal as a unique, last ‘anti-fascist intermediate empire’ before the outbreak of the war and the efforts made by its editor, Willi Münzenberg, to unite the transnational anti-Hitler oppositionist networks contributes to an innovative perspective on the history of the German-speaking political emigration and German-French relations. New insights require major adjustments in the history of European strategies and the anti-Stalinist shift expressed by Die Zukunft after the conclusion of the Stalin-Hitler Pact contributes to a deeper understanding of the crisis of the political exile and the first stages of World War Two. According to Münzenberg’s concept of the future, democracy and socialism were to be rethought as a European task, against the division and the dismemberment of Germany and Europe after Hitler, against the reconstruction under conditions of capitalism and against the international and domestic political arrangements of the Stalinist Soviet Union.Henceforth “peace and freedom” had to be (…) “defended against Hitler and Stalin” and further neo-imperialist arrangements. Nevertheless, the Zukunft could not prevent the definite failure of exile and resistance, which was rooted in the catastrophic defeat of the German Labour Movement in 1933, the sectarian refusal of a popular resistance of all social strata and the ties with Western democracies and their political apparatuses.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/mts.58.2017.51-80</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7420</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7420">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/7420/6592" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7420" DMDID="DMD_rub-journals_7420">
+            <mets:fptr FILEID="FILE0_rub-journals_7420"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

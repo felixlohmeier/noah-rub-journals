@@ -1,0 +1,70 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_592">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Meet-in-the-Middle Attacks on Reduced-Round Midori64</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Lin, Li</displayForm>
+                        <namePart type="family">Lin</namePart>
+                        <namePart type="given">Li</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Wu, Wenling</displayForm>
+                        <namePart type="family">Wu</namePart>
+                        <namePart type="given">Wenling</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2017-03-08</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">25</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Midori is a lightweight block cipher designed by Banik et al. at ASIACRYPT 2015 to achieve low energy consumption. One version of Midori uses a 64-bit state, another uses a 128-bit state and we denote these versions Midori64 and Midori128. Each of these versions uses a 128-bit key. In this paper, we focus on the key-recovery attacks on reduced-round Midori64 with meet-in-the-middle method. We use the differential enumeration, key-bridging and key-dependent sieve techniques which are popular to analyze AES to attack Midori64. Using key-bridging and key-dependent sieve techniques directly to achieve the complexity lower bound is almost impossible, we give the model on how to achieve the complexity lower bound using these techniques. We also propose the state-bridge technique to use some key relations that are quite complicated and divided by some rounds. With a 6-round distinguisher, we achieve a 10-round attack. After that, by adding one round at the end, we get an 11-round attack. Finally, with a 7-round distinguisher, we get an attack on 12-round Midori64. To the best of our knowledge, these are recently the best attacks on Midori64 in the single-key setting.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tosc.v2017.i1.215-239</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_592</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_592">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/592/533" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_rub-journals_592">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/592/7490" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_592" DMDID="DMD_rub-journals_592">
+            <mets:fptr FILEID="FILE0_rub-journals_592"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_592" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_592"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

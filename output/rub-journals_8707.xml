@@ -1,0 +1,102 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8707">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Cryptanalysis of Curl-P and Other Attacks on the IOTA Cryptocurrency</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Heilman, Ethan</displayForm>
+                        <namePart type="family">Heilman</namePart>
+                        <namePart type="given">Ethan</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Narula, Neha</displayForm>
+                        <namePart type="family">Narula</namePart>
+                        <namePart type="given">Neha</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Tanzer, Garrett</displayForm>
+                        <namePart type="family">Tanzer</namePart>
+                        <namePart type="given">Garrett</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Lovejoy, James</displayForm>
+                        <namePart type="family">Lovejoy</namePart>
+                        <namePart type="given">James</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Colavita, Michael</displayForm>
+                        <namePart type="family">Colavita</namePart>
+                        <namePart type="given">Michael</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Virza, Madars</displayForm>
+                        <namePart type="family">Virza</namePart>
+                        <namePart type="given">Madars</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Dryja, Tadge</displayForm>
+                        <namePart type="family">Dryja</namePart>
+                        <namePart type="given">Tadge</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020-09-28</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">25</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">We present attacks on the cryptography formerly used in the IOTA blockchain, including under certain conditions the ability to forge signatures. We developed practical attacks on IOTA’s cryptographic hash function Curl-P-27, allowing us to quickly generate short colliding messages. These collisions work even for messages of the same length. Exploiting these weaknesses in Curl-P-27, we broke the EUCMA security of the former IOTA Signature Scheme (ISS). Finally, we show that in a chosen-message setting we could forge signatures and multi-signatures of valid spending transactions (called bundles in IOTA).</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tosc.v2020.i3.367-391</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8707</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8707">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/8707/8299" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8707" DMDID="DMD_rub-journals_8707">
+            <mets:fptr FILEID="FILE0_rub-journals_8707"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

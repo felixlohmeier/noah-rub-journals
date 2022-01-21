@@ -1,0 +1,78 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8592">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Generic Side-channel attacks on CCA-secure lattice-based PKE and KEMs</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Ravi, Prasanna</displayForm>
+                        <namePart type="family">Ravi</namePart>
+                        <namePart type="given">Prasanna</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Sinha Roy, Sujoy</displayForm>
+                        <namePart type="family">Sinha Roy</namePart>
+                        <namePart type="given">Sujoy</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Chattopadhyay, Anupam</displayForm>
+                        <namePart type="family">Chattopadhyay</namePart>
+                        <namePart type="given">Anupam</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Bhasin, Shivam</displayForm>
+                        <namePart type="family">Bhasin</namePart>
+                        <namePart type="given">Shivam</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020-06-19</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">29</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">In this work, we demonstrate generic and practical EM side-channel assisted chosen ciphertext attacks over multiple LWE/LWR-based Public Key Encryption (PKE) and Key Encapsulation Mechanisms (KEM) secure in the chosen ciphertext model (IND-CCA security). We show that the EM side-channel information can be efficiently utilized to instantiate a plaintext checking oracle, which provides binary information about the output of decryption, typically concealed within IND-CCA secure PKE/KEMs, thereby enabling our attacks. Firstly, we identified EM-based side-channel vulnerabilities in the error correcting codes (ECC) enabling us to distinguish based on the value/validity of decrypted codewords. We also identified similar vulnerabilities in the Fujisaki-Okamoto transform which leaks information about decrypted messages applicable to schemes that do not use ECC. We subsequently exploit these vulnerabilities to demonstrate practical attacks applicable to six CCA-secure lattice-based PKE/KEMs competing in the second round of the NIST standardization process. We perform experimental validation of our attacks on implementations taken from the open-source pqm4 library, running on the ARM Cortex-M4 microcontroller. Our attacks lead to complete key-recovery in a matter of minutes on all the targeted schemes, thus showing the effectiveness of our attack.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tches.v2020.i3.307-335</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8592</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8592">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/8592/8159" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8592" DMDID="DMD_rub-journals_8592">
+            <mets:fptr FILEID="FILE0_rub-journals_8592"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

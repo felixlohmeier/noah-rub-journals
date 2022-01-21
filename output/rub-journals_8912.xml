@@ -1,0 +1,126 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8912">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Maximums of the Additive Differential Probability of Exclusive-Or</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Mouha, Nicky</displayForm>
+                        <namePart type="family">Mouha</namePart>
+                        <namePart type="given">Nicky</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Kolomeec, Nikolay</displayForm>
+                        <namePart type="family">Kolomeec</namePart>
+                        <namePart type="given">Nikolay</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Akhtiamov, Danil</displayForm>
+                        <namePart type="family">Akhtiamov</namePart>
+                        <namePart type="given">Danil</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Sutormin, Ivan</displayForm>
+                        <namePart type="family">Sutormin</namePart>
+                        <namePart type="given">Ivan</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Panferov, Matvey</displayForm>
+                        <namePart type="family">Panferov</namePart>
+                        <namePart type="given">Matvey</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Titova, Kseniya</displayForm>
+                        <namePart type="family">Titova</namePart>
+                        <namePart type="given">Kseniya</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Bonich, Tatiana</displayForm>
+                        <namePart type="family">Bonich</namePart>
+                        <namePart type="given">Tatiana</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Ishchukova, Evgeniya</displayForm>
+                        <namePart type="family">Ishchukova</namePart>
+                        <namePart type="given">Evgeniya</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Tokareva, Natalia</displayForm>
+                        <namePart type="family">Tokareva</namePart>
+                        <namePart type="given">Natalia</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Zhantulikov, Bulat</displayForm>
+                        <namePart type="family">Zhantulikov</namePart>
+                        <namePart type="given">Bulat</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2021-06-11</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">22</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">At FSE 2004, Lipmaa et al. studied the additive differential probability adp⊕(α,β → γ) of exclusive-or where differences α,β,γ ∈ Fn2 are expressed using addition modulo 2n. This probability is used in the analysis of symmetric-key primitives that combine XOR and modular addition, such as the increasingly popular Addition-Rotation-XOR (ARX) constructions. The focus of this paper is on maximal differentials, which are helpful when constructing differential trails. We provide the missing proof for Theorem 3 of the FSE 2004 paper, which states that maxα,βadp⊕(α,β → γ) = adp⊕(0,γ → γ) for all γ. Furthermore, we prove that there always exist either two or eight distinct pairs α,β such that adp⊕( α,β → γ) = adp⊕(0,γ → γ), and we obtain recurrence formulas for calculating adp⊕. To gain insight into the range of possible differential probabilities, we also study other properties such as the minimum value of adp⊕(0,γ → γ), and we find all γ that satisfy this minimum value.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.46586/tosc.v2021.i2.292-313</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8912</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8912">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/8912/8488" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8912" DMDID="DMD_rub-journals_8912">
+            <mets:fptr FILEID="FILE0_rub-journals_8912"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,78 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8835">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Misuse-Free Key-Recovery and Distinguishing Attacks on 7-Round Ascon</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Rohit, Raghvendra</displayForm>
+                        <namePart type="family">Rohit</namePart>
+                        <namePart type="given">Raghvendra</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Hu, Kai</displayForm>
+                        <namePart type="family">Hu</namePart>
+                        <namePart type="given">Kai</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Sarkar, Sumanta</displayForm>
+                        <namePart type="family">Sarkar</namePart>
+                        <namePart type="given">Sumanta</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Sun, Siwei</displayForm>
+                        <namePart type="family">Sun</namePart>
+                        <namePart type="given">Siwei</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2021-03-19</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">26</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Being one of the winning algorithms of the CAESAR competition and currently a second round candidate of the NIST lightweight cryptography standardization project, the authenticated encryption scheme Ascon (designed by Dobraunig, Eichlseder, Mendel, and Schläffer) has withstood extensive self and third-party cryptanalysis. The best known attack on Ascon could only penetrate up to 7 (out of 12) rounds due to Li et al. (ToSC Vol I, 2017). However, it violates the data limit of 264 blocks per key specified by the designers. Moreover, the best known distinguishers of Ascon in the AEAD context reach only 6 rounds. To fill these gaps, we revisit the security of 7-round Ascon in the nonce-respecting setting without violating the data limit as specified in the design. First, we introduce a new superpoly-recovery technique named as partial polynomial multiplication for which computations take place between the so-called degree-d homogeneous parts of the involved Boolean functions for a 2d-dimensional cube. We apply this method to 7-round Ascon and present several key recovery attacks. Our best attack can recover the 128-bit secret key with a time complexity of about 2123 7-round Ascon permutations and requires 264 data and 2101 bits memory. Also, based on division properties, we identify several 60 dimensional cubes whose superpolies are constant zero after 7 rounds. We further improve the cube distinguishers for 4, 5 and 6 rounds. Although our results are far from threatening the security of full 12-round Ascon, they provide new insights in the security analysis of Ascon.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.46586/tosc.v2021.i1.130-155</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8835</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8835">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/8835/8438" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8835" DMDID="DMD_rub-journals_8835">
+            <mets:fptr FILEID="FILE0_rub-journals_8835"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

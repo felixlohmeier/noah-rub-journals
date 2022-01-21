@@ -1,0 +1,110 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8627">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Lightweight AEAD and Hashing using the Sparkle Permutation Family</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Beierle, Christof</displayForm>
+                        <namePart type="family">Beierle</namePart>
+                        <namePart type="given">Christof</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Biryukov, Alex</displayForm>
+                        <namePart type="family">Biryukov</namePart>
+                        <namePart type="given">Alex</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Cardoso dos Santos, Luan</displayForm>
+                        <namePart type="family">Cardoso dos Santos</namePart>
+                        <namePart type="given">Luan</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Großschädl, Johann</displayForm>
+                        <namePart type="family">Großschädl</namePart>
+                        <namePart type="given">Johann</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Perrin, Léo</displayForm>
+                        <namePart type="family">Perrin</namePart>
+                        <namePart type="given">Léo</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Udovenko, Aleksei</displayForm>
+                        <namePart type="family">Udovenko</namePart>
+                        <namePart type="given">Aleksei</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Velichkov, Vesselin</displayForm>
+                        <namePart type="family">Velichkov</namePart>
+                        <namePart type="given">Vesselin</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Wang, Qingju</displayForm>
+                        <namePart type="family">Wang</namePart>
+                        <namePart type="given">Qingju</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020-06-22</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">54</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">We introduce the Sparkle family of permutations operating on 256, 384 and 512 bits. These are combined with the Beetle mode to construct a family of authenticated ciphers, Schwaemm, with security levels ranging from 120 to 250 bits. We also use them to build new sponge-based hash functions, Esch256 and Esch384. Our permutations are among those with the lowest footprint in software, without sacrificing throughput. These properties are allowed by our use of an ARX component (the Alzette S-box) as well as a carefully chosen number of rounds. The corresponding analysis is enabled by the long trail strategy which gives us the tools we need to efficiently bound the probability of all the differential and linear trails for an arbitrary number of rounds. We also present a new application of this approach where the only trails considered are those mapping the rate to the outer part of the internal state, such trails being the only relevant trails for instance in a differential collision attack. To further decrease the number of rounds without compromising security, we modify the message injection in the classical sponge construction to break the alignment between the rate and our S-box layer.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tosc.v2020.iS1.208-261</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8627</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8627">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/8627/8193" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8627" DMDID="DMD_rub-journals_8627">
+            <mets:fptr FILEID="FILE0_rub-journals_8627"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

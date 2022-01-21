@@ -1,0 +1,71 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8686">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Strength in Numbers</title>
+                        <subTitle>Improving Generalization with Ensembles in Machine Learning-based Profiled Side-channel Analysis</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Perin, Guilherme</displayForm>
+                        <namePart type="family">Perin</namePart>
+                        <namePart type="given">Guilherme</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Chmielewski, Łukasz</displayForm>
+                        <namePart type="family">Chmielewski</namePart>
+                        <namePart type="given">Łukasz</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Picek, Stjepan</displayForm>
+                        <namePart type="family">Picek</namePart>
+                        <namePart type="given">Stjepan</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020-08-26</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">28</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">The adoption of deep neural networks for profiled side-channel attacks provides powerful options for leakage detection and key retrieval of secure products. When training a neural network for side-channel analysis, it is expected that the trained model can implement an approximation function that can detect leaking side-channel samples and, at the same time, be insensible to noisy (or non-leaking) samples. This outlines a generalization situation where the model can identify the main representations learned from the training set in a separate test set.This paper discusses how output class probabilities represent a strong metric when conducting the side-channel analysis. Further, we observe that these output probabilities are sensitive to small changes, like selecting specific test traces or weight initialization for a neural network. Next, we discuss the hyperparameter tuning, where one commonly uses only a single out of dozens of trained models, where each of those models will result in different output probabilities. We show how ensembles of machine learning models based on averaged class probabilities can improve generalization. Our results emphasize that ensembles increase a profiled side-channel attack’s performance and reduce the variance of results stemming from different hyperparameters, regardless of the selected dataset or leakage model.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tches.v2020.i4.337-364</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8686</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8686">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/8686/8245" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8686" DMDID="DMD_rub-journals_8686">
+            <mets:fptr FILEID="FILE0_rub-journals_8686"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

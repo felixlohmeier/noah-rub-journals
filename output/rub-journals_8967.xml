@@ -1,0 +1,71 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8967">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Online Template Attacks</title>
+                        <subTitle>Revisited</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Cabrera Aldaya, Alejandro</displayForm>
+                        <namePart type="family">Cabrera Aldaya</namePart>
+                        <namePart type="given">Alejandro</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Brumley, Billy Bob</displayForm>
+                        <namePart type="family">Brumley</namePart>
+                        <namePart type="given">Billy Bob</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2021-07-09</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">32</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">An online template attack (OTA) is a powerful technique previously used to attack elliptic curve scalar multiplication algorithms. This attack has only been analyzed in the realm of power consumption and EM side channels, where the signals leak related to the value being processed. However, microarchitecture signals have no such feature, invalidating some assumptions from previous OTA works.In this paper, we revisit previous OTA descriptions, proposing a generic framework and evaluation metrics for any side-channel signal. Our analysis reveals OTA features not previously considered, increasing its application scenarios and requiring a fresh countermeasure analysis to prevent it.In this regard, we demonstrate that OTAs can work in the backward direction, allowing to mount an augmented projective coordinates attack with respect to the proposal by Naccache, Smart and Stern (Eurocrypt 2004). This demonstrates that randomizing the initial targeted algorithm state does not prevent the attack as believed in previous works.We analyze three libraries libgcrypt, mbedTLS, and wolfSSL using two microarchitecture side channels. For the libgcrypt case, we target its EdDSA implementation using Curve25519 twist curve. We obtain similar results for mbedTLS and wolfSSL with curve secp256r1. For each library, we execute extensive attack instances that are able to recover the complete scalar in all cases using a single trace.This work demonstrates that microarchitecture online template attacks are also very powerful in this scenario, recovering secret information without knowing a leakage model. This highlights the importance of developing secure-by-default implementations, instead of fix-on-demand ones.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.46586/tches.v2021.i3.28-59</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8967</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8967">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/8967/8545" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="" ID="FILE1_rub-journals_8967">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/8967/8626" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8967" DMDID="DMD_rub-journals_8967">
+            <mets:fptr FILEID="FILE0_rub-journals_8967"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_8967" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_8967"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

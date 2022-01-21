@@ -1,0 +1,54 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8301">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Talking Football</title>
+                        <subTitle>Challenging Discrimination and Homophobia</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Degele, Nina</displayForm>
+                        <namePart type="family">Degele</namePart>
+                        <namePart type="given">Nina</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2019-05-27</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">20</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Football is a common playground for grassroots players, fans, spectators and those whose profession consists of writing about football. I am interested in how non-professional football participants talk about gay (especially male) players and homophobia in football. Moreover, I ask further questions like “how do such talks, conversations and discussions affect sports journalists’ views on football fans and grassroots players?”. The first half of this research took place between 2008 and 2011 and is based on 24 group discussions mainly with non-professional players. The participants cover a broad spectrum from appreciation towards gay football players to hidden and overt homophobia. In 2016, another 24 interviews with 25 German sport (football) journalists in broadcast, radio, print and online media were conducted. All of them acknowledge the acceptance of gay football players in society. This acknowledgement has a timely correlation with the coming out of a German national football player (Thomas Hitzlsperger) in 2014. Media showed the utmost respect for his decision. However, ambivalence between openness and exclusion can also be found in the way journalists position themselves. Their articulation still includes uncertainty towards the right way of dealing with homosexuality in football. As a result, their attitude is shifting between tolerance and acceptance.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/mts.61.2019.103-122</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8301</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8301">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/8301/7649" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8301" DMDID="DMD_rub-journals_8301">
+            <mets:fptr FILEID="FILE0_rub-journals_8301"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

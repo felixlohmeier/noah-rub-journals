@@ -1,0 +1,111 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7286">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>SIFA</title>
+                        <subTitle>Exploiting Ineffective Fault Inductions on Symmetric Cryptography</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Dobraunig, Christoph</displayForm>
+                        <namePart type="family">Dobraunig</namePart>
+                        <namePart type="given">Christoph</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Eichlseder, Maria</displayForm>
+                        <namePart type="family">Eichlseder</namePart>
+                        <namePart type="given">Maria</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Korak, Thomas</displayForm>
+                        <namePart type="family">Korak</namePart>
+                        <namePart type="given">Thomas</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Mangard, Stefan</displayForm>
+                        <namePart type="family">Mangard</namePart>
+                        <namePart type="given">Stefan</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Mendel, Florian</displayForm>
+                        <namePart type="family">Mendel</namePart>
+                        <namePart type="given">Florian</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Primas, Robert</displayForm>
+                        <namePart type="family">Primas</namePart>
+                        <namePart type="given">Robert</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2018-08-16</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">26</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Since the seminal work of Boneh et al., the threat of fault attacks has been widely known and techniques for fault attacks and countermeasures have been studied extensively. The vast majority of the literature on fault attacks focuses on the ability of fault attacks to change an intermediate value to a faulty one, such as differential fault analysis (DFA), collision fault analysis, statistical fault attack (SFA), fault sensitivity analysis, or differential fault intensity analysis (DFIA). The other aspect of faults—that faults can be induced and do not change a value—has been researched far less. In case of symmetric ciphers, ineffective fault attacks (IFA) exploit this aspect. However, IFA relies on the ability of an attacker to reliably induce reproducible deterministic faults like stuck-at faults on parts of small values (e.g., one bit or byte), which is often considered to be impracticable.As a consequence, most countermeasures against fault attacks do not focus on such attacks, but on attacks exploiting changes of intermediate values and usually try to detect such a change (detection-based), or to destroy the exploitable information if a fault happens (infective countermeasures). Such countermeasures implicitly assume that the release of “fault-free” ciphertexts in the presence of a fault-inducing attacker does not reveal any exploitable information. In this work, we show that this assumption is not valid and we present novel fault attacks that work in the presence of detection-based and infective countermeasures. The attacks exploit the fact that intermediate values leading to “fault-free” ciphertexts show a non-uniform distribution, while they should be distributed uniformly. The presented attacks are entirely practical and are demonstrated to work for software implementations of AES and for a hardware co-processor. These practical attacks rely on fault induction by means of clock glitches and hence, are achieved using only low-cost equipment. This is feasible because our attack is very robust under noisy fault induction attempts and does not require the attacker to model or profile the exact fault effect. We target two types of countermeasures as examples: simple time redundancy with comparison and several infective countermeasures. However, our attacks can be applied to a wider range of countermeasures and are not restricted to these two countermeasures.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tches.v2018.i3.547-572</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7286</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7286">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/7286/6463" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_rub-journals_7286">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/7286/7960" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="" ID="FILE2_rub-journals_7286">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/7286/7961" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7286" DMDID="DMD_rub-journals_7286">
+            <mets:fptr FILEID="FILE0_rub-journals_7286"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_7286" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_7286"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART2_rub-journals_7286" LABEL="">
+                <mets:fptr FILEID="FILE2_rub-journals_7286"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

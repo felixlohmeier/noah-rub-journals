@@ -1,0 +1,69 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_390">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Influence of diamond wire pretension on process behaviour</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Denkena, B.</displayForm>
+                        <namePart type="family">Denkena</namePart>
+                        <namePart type="given">B.</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Grove, T.</displayForm>
+                        <namePart type="family">Grove</namePart>
+                        <namePart type="given">T.</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Tatzig, L.</displayForm>
+                        <namePart type="family">Tatzig</namePart>
+                        <namePart type="given">L.</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015-11-25</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">7</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Wire sawing with diamond tools is a highly flexible cut-off grinding process with regard to machinablecomponent structure and composition. Therefore, it is nowadays not only used in the processing ofnatural stone, but also increasingly deployed on dismantling of nuclear or industrial plants. In thisfield of application, concrete, reinforced concrete and steel have to be cut. In particular, theprocessing of reinforcements and steel structures results in higher process forces compared to themachining of natural stone or concrete. Consequently, the diamond wire is deflected leading todecreased cutting performance in terms of the material removal rate. To overcome these challenges,the diamond wire can be pretensioned which directly affects the stiffness of the tool. Thereby, thedeflection of the diamond wire can be reduced and the material removal rate can be increased.This paper presents initial results concerning the influence of the wire pretension on the processbehaviour of a diamond wire when cutting steel S355JR. For these investigations, the wirepretension was varied in a range of 300 N up to 2000 N. For the evaluation of the process behaviour,resulting process forces, cutting power, wire deflection and surface removal rate were analysed.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/icscm.3.2015.86-92</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_390</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_390">
+                <mets:FLocat xlink:href="https://icscm.ub.rub.de/index.php/ICSCM/article/download/390/347" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_390" DMDID="DMD_rub-journals_390">
+            <mets:fptr FILEID="FILE0_rub-journals_390"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

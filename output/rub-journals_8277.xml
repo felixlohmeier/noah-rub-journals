@@ -1,0 +1,63 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8277">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Introduction</title>
+                        <subTitle>(How) Do We Share the Sacred?</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Sing, Manfred</displayForm>
+                        <namePart type="family">Sing</namePart>
+                        <namePart type="given">Manfred</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2019-04-30</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">31</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Multi-religious cohabitation bears immense social and political implications, since the&amp;nbsp;question of how multi-religiosity should be organized has become a hotly debated topic all over Europe.&amp;nbsp;Although religious diversity has turned into an everyday experience in many parts of the world today, a&amp;nbsp;perception that understands conflict between religions as inevitable still holds sway and has maybe even&amp;nbsp;grown stronger, especially after violent events such as the terror attacks of 9/11 and the recent upsurge&amp;nbsp;of political populism in Europe and the Americas. A historically informed perspective that illustrates the&amp;nbsp;widespread dissemination of religious mixture and the commonness of religious interaction throughout&amp;nbsp;the centuries, however, may help us to see current debates in a different light. The present focus edition&amp;nbsp;is dedicated to this purpose.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/er.v9.2019.3-33</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8277</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8277">
+                <mets:FLocat xlink:href="https://er.ceres.rub.de/index.php/ER/article/download/8277/7628" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="text/html" ID="FILE1_rub-journals_8277">
+                <mets:FLocat xlink:href="https://er.ceres.rub.de/index.php/ER/article/download/8277/8281" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8277" DMDID="DMD_rub-journals_8277">
+            <mets:fptr FILEID="FILE0_rub-journals_8277"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_8277" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_8277"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

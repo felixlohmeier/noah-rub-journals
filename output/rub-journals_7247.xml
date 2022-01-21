@@ -1,0 +1,53 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7247">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Thinking and writing liberation politics – a review article of</title>
+                        <subTitle>Hans Beukes, Long Road to Liberation. An Exiled Namibian Activist’s Perspective</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Pisani, André du</displayForm>
+                        <namePart type="family">Pisani</namePart>
+                        <namePart type="given">André du</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2018-07-06</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">23</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Thinking and Writing Liberation Politics is a review article of: Hans Beukes, Long Road to Liberation. An Exiled Namibian Activist’s Perspective; with an introduction by Professor Mburumba Kerina, Johannesburg, Porcupine Press, 2014. 376 pages, appendices, photographs, index of names. ISBN: 978-1-920609-71-9. The article argues that Long Road to Liberation, being a rich, diverse, uneven memoir of an exiled Namibian activist, offers a sobering and critical account of the limits of liberation politics, of the legacies of a protracted struggle to bring Namibia to independence and of the imprint the struggle left on the political terrain of the independent state. But, it remains the perspective of an individual activist, who on account of his personal experiences and long absence from the country of his birth, at times, paints a fairly superficial picture of many internal events in the country</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7247</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7247">
+                <mets:FLocat xlink:href="https://namibian-studies.com/index.php/JNS/article/download/7247/6429" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7247" DMDID="DMD_rub-journals_7247">
+            <mets:fptr FILEID="FILE0_rub-journals_7247"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

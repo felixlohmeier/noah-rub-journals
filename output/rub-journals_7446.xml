@@ -1,0 +1,53 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7446">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Beyond the Buttocks as a Political-Geographical Model — A Praxeological Approach to West Germany’s National Revolutionaries</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Sepp, Benedikt</displayForm>
+                        <namePart type="family">Sepp</namePart>
+                        <namePart type="given">Benedikt</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2017-03-31</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">20</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">At about the same time at which the West German anti-authoritarian student movement started to thrive in the middle of the sixties, a small group of young activists from the extreme right tried to combine “left” habitual elements with the aspiration to develop a sophisticated and genuinely “right” political theory, eventually leading to a new, young, progressive stance beyond allegedly out-dated categorisations like “left” and “right.” The article examines these self-proclaimed “national revolutionaries” from a praxeological point of view, arguing that the political extremes are constituted rather habitually than ideologically.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/mts.56.2016.73-92</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7446</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7446">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/7446/6618" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7446" DMDID="DMD_rub-journals_7446">
+            <mets:fptr FILEID="FILE0_rub-journals_7446"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

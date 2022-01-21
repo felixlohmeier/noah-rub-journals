@@ -1,0 +1,52 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_513">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Stuart S. Miller</title>
+                        <subTitle>At the Intersection of Texts and Material Finds</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Watts, James W.</displayForm>
+                        <namePart type="family">Watts</namePart>
+                        <namePart type="given">James W.</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2016-08-18</dateIssued>
+                    </originInfo>
+                    <abstract lang="eng">This contribution offers a review of:Stuart S. Miller: At the Intersection of Texts and Material Finds. Stepped Pools, Stone Vessels, and Ritual Purity Among the Jews of Roman Galilee. Göttingen: Vandenhoeck &amp;amp; Ruprecht, 2015. 423 pages with 22 fig., € 140, ISBN 9783525550694</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <identifier type="doi">10.13154/er.v3.2016.LXXX-LXXXIII</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0">CC BY-NC-ND 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_513</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_513">
+                <mets:FLocat xlink:href="https://er.ceres.rub.de/index.php/ER/article/download/513/461" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_513" DMDID="DMD_rub-journals_513">
+            <mets:fptr FILEID="FILE0_rub-journals_513"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

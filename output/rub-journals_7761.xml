@@ -1,0 +1,53 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7761">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Jüdische Intellektuelle und ihre politische Identität in der Weimarer Republik</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Grebing, Helga</displayForm>
+                        <namePart type="family">Grebing</namePart>
+                        <namePart type="given">Helga</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015-01-10</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">13</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">The paper deals with the issue of Jewish intellectuals who, during the era of the Weimar Republic did not consider themselves primarily as Jews – even on occasion denying their Jewishness – while preferring a commitment to mostly leftist options. Regarding themselves to a lesser degree as Germans, they followed a cosmopolitan brand of humanism. Above all, they identified with the labour movement, in particular of social democratic leaning, since that movement’s conception of self was most closely allied to their own. Within the labour movement, they found themselves areas of activity, which best suited their search for a wider sense of identity. In truth, however, Jewish intellectuals remained Jews, often against their own free will, and under pressure of public opinion increasingly drifting to the right; they remained so less in the religious sense, but rather more from the point of view of their cultural, social, and intellectual history.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <identifier type="doi">10.13154/mts.34.2005.11-23</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7761</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7761">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/7761/6933" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7761" DMDID="DMD_rub-journals_7761">
+            <mets:fptr FILEID="FILE0_rub-journals_7761"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

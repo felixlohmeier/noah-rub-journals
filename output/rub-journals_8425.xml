@@ -1,0 +1,52 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8425">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>‘One Namibia, One (heterosexual) Nation’. Presidential discourses on homosexuality</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Brown, Anthony</displayForm>
+                        <namePart type="family">Brown</namePart>
+                        <namePart type="given">Anthony</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2019-12-06</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">13</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">This article is concerned with narratives on homosexuality by the three presidents of Namibia and the implications it had for minority sexual identities. Namibia’s first president publicly produced and maintained a repulsive image of homosexuality that influenced how non-heteronormative sexualities are framed and sustained by the broader society. His sentiments constructed Namibia to be a homophobic country. The second president in his two terms did not express any homophobic sentiments which led to more tolerance towards sexual diversity in Namibia. The third and current president pledged to build an inclusive Namibia with a sense social cohesion for all. It enabled numerous platforms for interactive dialogue towards a safe and enabling environment for various stakeholders to engage with the sexual diversity discourse. These shifting narratives between the three presidents symbolize the changing atmosphere towards an equal and inclusive citizenry for people with homosexual identities in Namibia. There however exist a need to establish relationship between civil society and state to foster a stronger transformational legal framework that could foster normalized social atmosphere for Namibians with diverse sexual orientations.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8425</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8425">
+                <mets:FLocat xlink:href="https://namibian-studies.com/index.php/JNS/article/download/8425/7798" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8425" DMDID="DMD_rub-journals_8425">
+            <mets:fptr FILEID="FILE0_rub-journals_8425"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,52 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_108">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Media, education and the count of Namibian languages</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Lusakalalu, Pedro</displayForm>
+                        <namePart type="family">Lusakalalu</namePart>
+                        <namePart type="given">Pedro</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2014-01-31</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">17</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">This paper shows that the number of languages in Namibia, as it happens with the linguistic diversity of many countries, is a range (10 to 31) whereby the margin of error (±21) is greater than the minimum count (10). The paper uses the framework of a typological categorisation of languages presented in a previous paper which suggested that the morphological behaviour of language names, or glossonyms, as well as the way these can be grouped, were to a large extent responsible for this pattern. The paper also shows that, in the case of Namibia, the minimum count relates to the use of glossonyms in the media, while the maximum count relates to their use in the education system.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_108</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_108">
+                <mets:FLocat xlink:href="https://namibian-studies.com/index.php/JNS/article/download/108/77" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_108" DMDID="DMD_rub-journals_108">
+            <mets:fptr FILEID="FILE0_rub-journals_108"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

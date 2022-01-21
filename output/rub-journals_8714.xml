@@ -1,0 +1,54 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8714">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Collective and Democratic Experiments in the Politics of Knowledge in Britain since 1968</title>
+                        <subTitle>Reflections on Cultural Studies, History Workshop and Feminism</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Gwinn, Ian</displayForm>
+                        <namePart type="family">Gwinn</namePart>
+                        <namePart type="given">Ian</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020-12-02</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">23</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">The tumultuous events of 1968 had a profound and lasting impact on society, culture and politics on a global scale. In Britain, the effects of the upswing in radicalism were powerfully registered in developments and departures in cultural and intellectual life. Recent contributions to the history of the intellectual Left during this period, including the traditions of the New Left, cultural studies, and feminism, have documented many of the decisive shifts in theoretical outlooks and thematic focus. Less frequently acknowledged, however, has been the formation of a distinctive ‘politics of knowledge’, which contested established hierarchies and norms of academic work through forms of collective and democratic practice. This article argues that this project was a decisive outcome and achievement of the post-68 conjuncture, becoming part of a much broader democratising front in the 1970s and 80s that centred upon sites of cultural and intellectual expression. The key features of this alternative apparatus of intellectual production are explored in the context of the Birmingham Centre for Contemporary Cultural Studies, History Workshop, and the scholarly endeavours of second-wave feminism, which paid critical attention to the possibilities, tensions and open contradictions intrinsic to this way of combining politics and intellectual practice.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.46586/mts.64.2020.9-31</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8714</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8714">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/8714/8314" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8714" DMDID="DMD_rub-journals_8714">
+            <mets:fptr FILEID="FILE0_rub-journals_8714"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

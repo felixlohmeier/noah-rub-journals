@@ -1,0 +1,54 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7703">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <nonSort>Die </nonSort>
+                        <title>Arbeiter des estnischen Ölschieferbeckens – eine Industrieregion des Stalinismus</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Mertelsmann, Olaf</displayForm>
+                        <namePart type="family">Mertelsmann</namePart>
+                        <namePart type="given">Olaf</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015-01-21</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">19</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">The article deals with the Estonian oil shale region Ida-Virumaa and how it turned into a Stalinist industrial area. Oil shale mining started already in 1916, mining and processing of oil shale expanded largely during the period of Estonian independence due to state protection and subsidies. After the Soviet occupation and annexation of the country in 1940, plans to extend mining and processing developed, but were not fulfilled because of the outbreak of war. Under German occupation the oil shale industry was at first neglected, but beginning with 1943 work intensified with the help of slave labor of Soviet POW‘s and Jewish concentration camp inmates. Soviet reconstruction projected a steep increase of mining and processing. Ida-Virumaa became one major target of industrial investment in the post-war decade, a large “building site of Socialism”. The aims were the provision of energy and the support of Soviet armaments, because uranium could be found in the area and oil and special fuels were desperately needed by the Soviet forces. Like under Nazi occupation, slave labor of POW‘s and camp inmates played an important role until 1949. Because war damages had been the largest in the entire Estonian SSR and living and working conditions were the worst in the republic, there existed an extreme shortage of workers. Campaigns to mobilize Estonians to work there utterly failed. The only way to solve the problem was to hire migrants from other regions of the Soviet Union, where conditions were even worse. The migration led to the Russification of the region, but this development was not intended by the regime. Only in the second half of the 1950s life turned normal and the conditions became bearable.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/mts.37.2007.113-131</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7703</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7703">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/7703/6875" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7703" DMDID="DMD_rub-journals_7703">
+            <mets:fptr FILEID="FILE0_rub-journals_7703"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

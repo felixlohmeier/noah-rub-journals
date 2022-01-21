@@ -1,0 +1,78 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7304">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>On the Boomerang Uniformity of Cryptographic Sboxes</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Boura, Christina</displayForm>
+                        <namePart type="family">Boura</namePart>
+                        <namePart type="given">Christina</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Canteaut, Anne</displayForm>
+                        <namePart type="family">Canteaut</namePart>
+                        <namePart type="given">Anne</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2018-09-04</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">21</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">The boomerang attack is a cryptanalysis technique against block ciphers which combines two differentials for the upper part and the lower part of the cipher. The dependency between these two differentials then highly affects the complexity of the attack and all its variants. Recently, Cid et al. introduced at Eurocrypt’18 a new tool, called the Boomerang Connectivity Table (BCT) that permits to simplify this complexity analysis, by storing and unifying the different switching probabilities of the cipher’s Sbox in one table. In this seminal paper a brief analysis of the properties of these tables is provided and some open questions are raised. It is being asked in particular whether Sboxes with optimal BCTs exist for even dimensions, where optimal means that the maximal value in the BCT equals the lowest known differential uniformity. When the dimension is even and differs from 6, such optimal Sboxes correspond to permutations such that the maximal value in their DDT and in their BCT equals 4 (unless APN permutations for such dimensions exist). We provide in this work a more in-depth analysis of boomerang connectivity tables, by studying more closely differentially 4-uniform Sboxes. We first completely characterize the BCT of all differentially 4-uniform permutations of 4 bits and then study these objects for some cryptographically relevant families of Sboxes, as the inverse function and quadratic permutations. These two families provide us with the first examples of differentially 4-uniform Sboxes optimal against boomerang attacks for an even number of variables, answering the above open question.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tosc.v2018.i3.290-310</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7304</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7304">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/7304/6478" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_rub-journals_7304">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/7304/7569" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="" ID="FILE2_rub-journals_7304">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/7304/7749" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7304" DMDID="DMD_rub-journals_7304">
+            <mets:fptr FILEID="FILE0_rub-journals_7304"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_7304" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_7304"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART2_rub-journals_7304" LABEL="">
+                <mets:fptr FILEID="FILE2_rub-journals_7304"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

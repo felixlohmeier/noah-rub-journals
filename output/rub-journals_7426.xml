@@ -1,0 +1,55 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7426">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <nonSort>The </nonSort>
+                        <title>German Prostitutes’ Movement</title>
+                        <subTitle>Hurenbewegung. From Founding to Law Reform, 1980 – 2002</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Heying, Mareen</displayForm>
+                        <namePart type="family">Heying</namePart>
+                        <namePart type="given">Mareen</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2018-05-18</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">21</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">The aim of this paper is to present the German Hurenbewegung (‘Whores’ Movement’).I will explain the circumstances under which the first self-help groups for prostitutes and their supporters have formed since 1980, examining how they worked as a network while introducing the journals they published, which are used as primary sources in this historical overview. I will shed light on the claims the movement made and on the forms of its political action and examine how it argued for prostitutes’ legal and social equality. Focal points include their activism and, specifically, how the activists dealt with HIV, which became an important issue in the 1980s. The exchange with political parties in the 1990s intended to promote legal reform will be described, as will the movement’s reaction to the new prostitutions law of 2002; a reform which was influenced by the sex workers’ movement, as I discuss. In these years of activism the Hurenbewegung became institutionalised, and its focus shifted from political to social work. I will explore the circumstances which caused this shift, as well as the consequences that followed.Additionally, I will shortly demonstrate that there is a close link to feminist movements and give a very brief outlook on current activities by prostitutes in Germany.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/mts.59.2018.25-45</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7426</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7426">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/7426/6598" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7426" DMDID="DMD_rub-journals_7426">
+            <mets:fptr FILEID="FILE0_rub-journals_7426"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

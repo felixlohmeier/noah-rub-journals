@@ -1,0 +1,55 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8385">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <nonSort>The </nonSort>
+                        <title>Language of Student Power and Space</title>
+                        <subTitle>Building a Spatialised Social Movement Identity in East Pakistan, 1948–1954</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Christiansen, Samantha</displayForm>
+                        <namePart type="family">Christiansen</namePart>
+                        <namePart type="given">Samantha</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2019-10-15</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">22</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">This article traces the emergence and development of a student political identity in post-colonial East Pakistan as it coalesced around the Bengali Language Movement (Bhasha Andolan). It further argues that the collective student political identity was directly tied to the development of the Dhaka University campus as a contentious movement space. The politicisation of the students and the campus operated in a mutually constitutive dynamic in which students both defined, and were defined by, their physical control of the campus space and in spatialised ritual practices memorialising deceased student activists as political martyrs. This case study provides a salient example of the interconnected relationship of urban space, collective identity, and social movements.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/mts.62.2019.29-50</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8385</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8385">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/8385/7730" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8385" DMDID="DMD_rub-journals_8385">
+            <mets:fptr FILEID="FILE0_rub-journals_8385"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,78 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_571">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Subspace Trail Cryptanalysis and its Applications to AES</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Grassi, Lorenzo</displayForm>
+                        <namePart type="family">Grassi</namePart>
+                        <namePart type="given">Lorenzo</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Rechberger, Christian</displayForm>
+                        <namePart type="family">Rechberger</namePart>
+                        <namePart type="given">Christian</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Rønjom, Sondre</displayForm>
+                        <namePart type="family">Rønjom</namePart>
+                        <namePart type="given">Sondre</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2017-02-03</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">34</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">We introduce subspace trail cryptanalysis, a generalization of invariant subspace cryptanalysis. With this more generic treatment of subspaces we do no longer rely on specific choices of round constants or subkeys, and the resulting method is as such a potentially more powerful attack vector. Interestingly, subspace trail cryptanalysis in fact includes techniques based on impossible or truncated differentials and integrals as special cases. Choosing AES-128 as the perhaps most studied cipher, we describe distinguishers up to 5-round AES with a single unknown key. We report (and practically verify) competitive key-recovery attacks with very low data-complexity on 2, 3 and 4 rounds of AES. Additionally, we consider AES with a secret S-Box and we present a (generic) technique that allows to directly recover the secret key without finding any information about the secret S-Box. This approach allows to use e.g. truncated differential, impossible differential and integral attacks to find the secret key. Moreover, this technique works also for other AES-like constructions, if some very common conditions on the S-Box and on the MixColumns matrix (or its inverse) hold. As a consequence, such attacks allow to better highlight the security impact of linear mappings inside an AES-like block cipher. Finally, we show that our impossible differential attack on 5 rounds of AES with secret S-Box can be turned into a distinguisher for AES in the same setting as the one recently proposed by Sun, Liu, Guo, Qu and Rijmen at CRYPTO 2016</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tosc.v2016.i2.192-225</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_571</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_571">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/571/513" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_rub-journals_571">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/571/7467" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_571" DMDID="DMD_rub-journals_571">
+            <mets:fptr FILEID="FILE0_rub-journals_571"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_571" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_571"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

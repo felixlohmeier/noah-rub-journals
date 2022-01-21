@@ -1,0 +1,54 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7412">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Service Learning as an Alternative Academic Trend in U. S. Higher Education from the late-1960s to the mid-1980s</title>
+                        <subTitle>A Case Study from Michigan State University</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Wellner, Anna</displayForm>
+                        <namePart type="family">Wellner</namePart>
+                        <namePart type="given">Anna</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2018-10-24</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">24</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">The article sheds light on the way in which alternative academic trends that originated alongside student protests in the late-1960s and early-1970s influenced higher education in the U. S. It focuses on a case study from Michigan State University (MSU), analysing the initiation and implementation process of service learning, an alternative trend in education that combined community service with academic education, from the late-1960s to the mid-1980s. It examines the roles different stakeholders at the local level (i. e., students, faculty, and administrators) as well as others on the national level (i. e., politicians and education commissioners) played in influencing that process. The case of service learning at MSU exemplifies that an alternative trend, one introduced from the bottom up, could become a standard academic practice, yet one that was not implemented without numerous adjustments and compromises. This article will demonstrate the pedagogical method’s execution and how its educational goals changed according to common standards in higher education that were usually established from the top down.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/mts.60.2018.71-94</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7412</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7412">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/7412/6584" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7412" DMDID="DMD_rub-journals_7412">
+            <mets:fptr FILEID="FILE0_rub-journals_7412"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,118 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7277">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>On the Difficulty of FSM-based Hardware Obfuscation</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Fyrbiak, Marc</displayForm>
+                        <namePart type="family">Fyrbiak</namePart>
+                        <namePart type="given">Marc</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Wallat, Sebastian</displayForm>
+                        <namePart type="family">Wallat</namePart>
+                        <namePart type="given">Sebastian</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Déchelotte, Jonathan</displayForm>
+                        <namePart type="family">Déchelotte</namePart>
+                        <namePart type="given">Jonathan</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Albartus, Nils</displayForm>
+                        <namePart type="family">Albartus</namePart>
+                        <namePart type="given">Nils</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Böcker, Sinan</displayForm>
+                        <namePart type="family">Böcker</namePart>
+                        <namePart type="given">Sinan</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Tessier, Russell</displayForm>
+                        <namePart type="family">Tessier</namePart>
+                        <namePart type="given">Russell</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Paar, Christof</displayForm>
+                        <namePart type="family">Paar</namePart>
+                        <namePart type="given">Christof</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2018-08-14</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">38</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">In today’s Integrated Circuit (IC) production chains, a designer’s valuable Intellectual Property (IP) is transparent to diverse stakeholders and thus inevitably prone to piracy. To protect against this threat, numerous defenses based on the obfuscation of a circuit’s control path, i.e. Finite State Machine (FSM), have been proposed and are commonly believed to be secure. However, the security of these sequential obfuscation schemes is doubtful since realistic capabilities of reverse engineering and subsequent manipulation are commonly neglected in the security analysis. The contribution of our work is threefold: First, we demonstrate how high-level control path information can be automatically extracted from third-party, gate-level netlists. To this end, we extend state-of-the-art reverse engineering algorithms to deal with Field Programmable Gate Array (FPGA) gate-level netlists equipped with FSM obfuscation. Second, on the basis of realistic reverse engineering capabilities we carefully review the security of state-of-the-art FSM obfuscation schemes. We reveal several generic strategies that bypass allegedly secure FSM obfuscation schemes and we practically demonstrate our attacks for a several of hardware designs, including cryptographic IP cores. Third, we present the design and implementation of Hardware Nanomites, a novel obfuscation scheme based on partial dynamic reconfiguration that generically mitigates existing algorithmic reverse engineering.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tches.v2018.i3.293-330</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7277</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7277">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/7277/6455" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_rub-journals_7277">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/7277/7944" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="" ID="FILE2_rub-journals_7277">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/7277/7945" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7277" DMDID="DMD_rub-journals_7277">
+            <mets:fptr FILEID="FILE0_rub-journals_7277"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_7277" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_7277"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART2_rub-journals_7277" LABEL="">
+                <mets:fptr FILEID="FILE2_rub-journals_7277"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

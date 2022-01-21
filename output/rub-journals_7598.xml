@@ -1,0 +1,54 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7598">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Zwischen Mitbestimmungs- und Europapolitik</title>
+                        <subTitle>Die IG Metall und die Anfänge der europäischen Integration</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Lauschke, Karl</displayForm>
+                        <namePart type="family">Lauschke</namePart>
+                        <namePart type="given">Karl</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015-02-16</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">14</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">In contrast to the German federation of trade unions (DGB) and the union of mine-workers (IG Bergbau), the union of metal-workers (IG Metall) was rather sceptical about the Schuman Plan in the early 1950s. In particular, fears were expressed that the codetermination, just achieved in 1947, would be undermined and that the German iron and steel industry would suffer disadvantages against the French industry. Considering this point of view the union of metal-workers was isolated within the trade union movement. Hence, the metal-workers finally accepted the ratification of the treaty of the European Coal and Steel Community and shared the arrangement while continuing to pursue their objectives.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/mts.42.2009.89-102</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7598</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7598">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/7598/6770" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7598" DMDID="DMD_rub-journals_7598">
+            <mets:fptr FILEID="FILE0_rub-journals_7598"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

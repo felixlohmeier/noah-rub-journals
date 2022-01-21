@@ -1,0 +1,55 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8465">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Weak Keys in the Rekeying Paradigm</title>
+                        <subTitle>Application to COMET and mixFeed</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Khairallah, Mustafa</displayForm>
+                        <namePart type="family">Khairallah</namePart>
+                        <namePart type="given">Mustafa</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020-01-31</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">18</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">In this paper, we study a group of AEAD schemes that use rekeying as a technique to increase efficiency by reducing the state size of the algorithm. We provide a unified model to study the behavior of the keys used in these schemes, called Rekey-and-Chain (RaC). This model helps understand the design of several AEAD schemes. We show generic attacks on these schemes based on the existence of certain types of weak keys. We also show that the borderline between multi-key and single-key analyses of these schemes is not solid and the analysis can be performed independent of the master key, leading sometimes to practical attacks in the multi-key setting. More importantly, the multi-key analysis can be applied in the single key setting, since each message is encrypted with a different key. Consequently, we show gaps in the security analysis of COMET and mixFeed in the single key setting, which led the designers to provide overly optimistic security claims. In the case of COMET, full key recovery can be performed with 264 online queries and 264 offline queries in the single-key setting, or 246 online queries per user and 264 offline queries in the multi-key setting with ∼ 0.5 million users. In the case of mixFeed, we enhance the forgery adversarial advantage in the single-key setting with a factor of 267 compared to what the designers claim. More importantly, our result is just a lower bound of this advantage, since we show that the gap in the analysis of mixFeed depends on properties of the AES Key Schedule that are not well understood and require more cryptanalytic efforts to find a more tight advantage. After reporting these findings, the designers updated their security analyses and accommodated the proposed attacks.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tosc.v2019.i4.272-289</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8465</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8465">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/8465/8031" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8465" DMDID="DMD_rub-journals_8465">
+            <mets:fptr FILEID="FILE0_rub-journals_8465"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

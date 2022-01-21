@@ -1,0 +1,94 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8544">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Highly Efficient Architecture of NewHope-NIST on FPGA using Low-Complexity NTT/INTT</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Zhang, Neng</displayForm>
+                        <namePart type="family">Zhang</namePart>
+                        <namePart type="given">Neng</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Yang, Bohan</displayForm>
+                        <namePart type="family">Yang</namePart>
+                        <namePart type="given">Bohan</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Chen, Chen</displayForm>
+                        <namePart type="family">Chen</namePart>
+                        <namePart type="given">Chen</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Yin, Shouyi</displayForm>
+                        <namePart type="family">Yin</namePart>
+                        <namePart type="given">Shouyi</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Wei, Shaojun</displayForm>
+                        <namePart type="family">Wei</namePart>
+                        <namePart type="given">Shaojun</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Liu, Leibo</displayForm>
+                        <namePart type="family">Liu</namePart>
+                        <namePart type="given">Leibo</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020-03-02</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">24</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">NewHope-NIST is a promising ring learning with errors (RLWE)-based postquantum cryptography (PQC) for key encapsulation mechanisms. The performance on the field-programmable gate array (FPGA) affects the applicability of NewHope-NIST. In RLWE-based PQC algorithms, the number theoretic transform (NTT) is one of the most time-consuming operations. In this paper, low-complexity NTT and inverse NTT (INTT) are used to implement highly efficient NewHope-NIST on FPGA. First, both the pre-processing of NTT and the post-processing of INTT are merged into the fast Fourier transform (FFT) algorithm, which reduces N and 2N modular multiplications for N-point NTT and INTT, respectively. Second, a compact butterfly unit and an efficient modular reduction on the modulus 12289 are proposed for the low-complexity NTT/INTT architecture, which achieves an improvement of approximately 3× in the area time product (ATP) compared with the results of the state-of-the-art designs. Finally, a highly efficient architecture with doubled bandwidth and timing hiding for NewHope-NIST is presented. The implementation results on an FPGA show that our design is at least 2.5× faster and has 4.9× smaller ATP compared with the results of the state-of-the-art designs of NewHope-NIST on similar platforms.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tches.v2020.i2.49-72</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8544</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8544">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/8544/8109" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8544" DMDID="DMD_rub-journals_8544">
+            <mets:fptr FILEID="FILE0_rub-journals_8544"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

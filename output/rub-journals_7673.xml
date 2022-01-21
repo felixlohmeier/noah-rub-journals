@@ -1,0 +1,54 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7673">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>„Entwicklung heißt Befreiung“</title>
+                        <subTitle>Strategien und Protestformen der schweizerischen Dritte-Welt-Bewegung am Symposium der Solidarität 1981</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Kuhn, Konrad J.</displayForm>
+                        <namePart type="family">Kuhn</namePart>
+                        <namePart type="given">Konrad J.</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015-01-21</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">19</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">The study’s aim is to illustrate and analyse in depth the different ways development aid policy was debated and protested against in Switzerland at the beginning of the 1980s, taking the 1981 Symposium of Solidarity as its example. On this occasion 3.000 people and eighty different organisations belonging to the Swiss Third World Movement gathered in the Swiss capital of Berne under the heading “Development Means Liberation”, the motto of an event that defined itself as a “Swiss symposium of solidarity”. The participants ultimately issued a manifesto that harshly criticised Switzerland’s development aid policy of the time and the business activities of major Swiss banks and companies, formulating a number of specific demands aimed at the country’s political leaders. The purpose of the symposium was to define a unique set of new political goals for a dawning decade, as much a critique of old approaches as an expression of hope for a new beginning. For the Swiss Third World Movement the event represented the peak of its impact, mobilising more people than ever before and launching many of the topics that were to define the debates to come. It was the raising of these issues – consciously formulated in a way as to ensure impact on the greatest number of people as well as on adherents of other movements – that ultimately transformed the Third World Movement into an important counterforce within Switzerland’s political landscape.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/mts.38.2007.77-95</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7673</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7673">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/7673/6845" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7673" DMDID="DMD_rub-journals_7673">
+            <mets:fptr FILEID="FILE0_rub-journals_7673"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

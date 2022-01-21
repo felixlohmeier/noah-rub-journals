@@ -1,0 +1,62 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8842">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Provably Quantum-Secure Tweakable Block Ciphers</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Hosoyamada, Akinori</displayForm>
+                        <namePart type="family">Hosoyamada</namePart>
+                        <namePart type="given">Akinori</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Iwata, Tetsu</displayForm>
+                        <namePart type="family">Iwata</namePart>
+                        <namePart type="given">Tetsu</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2021-03-19</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">41</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Recent results on quantum cryptanalysis show that some symmetric key schemes can be broken in polynomial time even if they are proven to be secure in the classical setting. Liskov, Rivest, and Wagner showed that secure tweakable block ciphers can be constructed from secure block ciphers in the classical setting. However, Kaplan et al. showed that their scheme can be broken by polynomial time quantum superposition attacks, even if underlying block ciphers are quantum-secure. Since then, it remains open if there exists a mode of block ciphers to build quantum-secure tweakable block ciphers. This paper settles the problem in the reduction-based provable security paradigm. We show the first design of quantum-secure tweakable block ciphers based on quantum-secure block ciphers, and present a provable security bound. Our construction is simple, and when instantiated with a quantum-secure n-bit block cipher, it is secure against attacks that query arbitrary quantum superpositions of plaintexts and tweaks up to O(2n/6) quantum queries. Our security proofs use the compressed oracle technique introduced by Zhandry. More precisely, we use an alternative formalization of the technique introduced by Hosoyamada and Iwata.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.46586/tosc.v2021.i1.337-377</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8842</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8842">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/8842/8445" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8842" DMDID="DMD_rub-journals_8842">
+            <mets:fptr FILEID="FILE0_rub-journals_8842"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

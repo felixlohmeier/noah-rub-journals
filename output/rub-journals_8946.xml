@@ -1,0 +1,76 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8946">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Dendritic integration theory</title>
+                        <subTitle>A thalamo-cortical theory of state and content of consciousness</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Bachmann, Talis</displayForm>
+                        <namePart type="family">Bachmann</namePart>
+                        <namePart type="given">Talis</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Suzuki, Mototaka</displayForm>
+                        <namePart type="family">Suzuki</namePart>
+                        <namePart type="given">Mototaka</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Aru, Jaan</displayForm>
+                        <namePart type="family">Aru</namePart>
+                        <namePart type="given">Jaan</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020-12-30</dateIssued>
+                    </originInfo>
+                    <abstract lang="eng">The idea that the thalamo-cortical system is the crucial constituent of the neurobiological mechanisms of consciousness has a long history. For the last few decades, however, consciousness research has to a large extent overlooked the interplay between the cortex and&amp;nbsp;thalamus. Here we revive an integrated view of the neurobiology of consciousness by presenting and discussing several recent major findings about the role of the thalamocortical interactions in consciousness. Based on these findings we propose a specific cellular mechanism how thalamic nuclei modulate the integration of different processing streams within single cortical pyramidal neurons. This theory is inspired by recent work done in rodents, but it integrates decades of work conducted on various species. We illustrate how this new view readily explains various properties and experimental phenomena associated with conscious experience. We discuss the implications of this idea and some of the experiments that need to be done in order to test it. Our view&amp;nbsp;bridges two long-standing perspectives on the neural mechanisms of consciousness and proposes that cortical and thalamo-cortical processing interact at the level of single pyramidal cells.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.33735/phimisci.2020.II.52</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8946</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8946">
+                <mets:FLocat xlink:href="https://philosophymindscience.org/index.php/phimisci/article/download/8946/8739" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="text/html" ID="FILE1_rub-journals_8946">
+                <mets:FLocat xlink:href="https://philosophymindscience.org/index.php/phimisci/article/download/8946/8740" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8946" DMDID="DMD_rub-journals_8946">
+            <mets:fptr FILEID="FILE0_rub-journals_8946"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_8946" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_8946"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

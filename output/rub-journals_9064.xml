@@ -1,0 +1,87 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_9064">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Masking Kyber</title>
+                        <subTitle>First- and Higher-Order Implementations</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Bos, Joppe W.</displayForm>
+                        <namePart type="family">Bos</namePart>
+                        <namePart type="given">Joppe W.</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Gourjon, Marc</displayForm>
+                        <namePart type="family">Gourjon</namePart>
+                        <namePart type="given">Marc</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Renes, Joost</displayForm>
+                        <namePart type="family">Renes</namePart>
+                        <namePart type="given">Joost</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Schneider, Tobias</displayForm>
+                        <namePart type="family">Schneider</namePart>
+                        <namePart type="given">Tobias</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>van Vredendaal, Christine</displayForm>
+                        <namePart type="family">van Vredendaal</namePart>
+                        <namePart type="given">Christine</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2021-08-11</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">42</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">In the final phase of the post-quantum cryptography standardization effort, the focus has been extended to include the side-channel resistance of the candidates. While some schemes have been already extensively analyzed in this regard, there is no such study yet of the finalist Kyber.In this work, we demonstrate the first completely masked implementation of Kyber which is protected against first- and higher-order attacks. To the best of our knowledge, this results in the first higher-order masked implementation of any post-quantum secure key encapsulation mechanism algorithm. This is realized by introducing two new techniques. First, we propose a higher-order algorithm for the one-bit compression operation. This is based on a masked bit-sliced binary-search that can be applied to prime moduli. Second, we propose a technique which enables one to compare uncompressed masked polynomials with compressed public polynomials. This avoids the costly masking of the ciphertext compression while being able to be instantiated at arbitrary orders.We show performance results for first-, second- and third-order protected implementations on the Arm Cortex-M0+ and Cortex-M4F. Notably, our implementation of first-order masked Kyber decapsulation requires 3.1 million cycles on the Cortex-M4F. This is a factor 3.5 overhead compared to the unprotected optimized implementationin pqm4. We experimentally show that the first-order implementation of our new modules on the Cortex-M0+ is hardened against attacks using 100 000 traces and mechanically verify the security in a fine-grained leakage model using the verification tool scVerif.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.46586/tches.v2021.i4.173-214</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_9064</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_9064">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/9064/8651" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_9064" DMDID="DMD_rub-journals_9064">
+            <mets:fptr FILEID="FILE0_rub-journals_9064"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

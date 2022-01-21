@@ -1,0 +1,51 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_486">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Regina Grundmann &amp; Assad Elias Kattan (Hgg.)</title>
+                        <subTitle>Jenseits der Tradition? Tradition und Traditionskritik in Judentum, Christentum und Islam</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Hasselhoff, Görge K.</displayForm>
+                        <namePart type="family">Hasselhoff</namePart>
+                        <namePart type="given">Görge K.</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2016-05-30</dateIssued>
+                    </originInfo>
+                    <abstract lang="eng">This contribution offers a review ofRegina Grundmann &amp;amp; Assad Elias Kattan (Hgg.): Jenseits der Tradition? Tradition und Traditionskritik in Judentum, Christentum und Islam.Boston/Berlin/München: De Gruyter, 2015.VII + 264 pages, € [D] 89.95, ISBN 978-1-61451-539-5.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <identifier type="doi">10.13154/er.v3.2016.XLVI-L</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_486</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_486">
+                <mets:FLocat xlink:href="https://er.ceres.rub.de/index.php/ER/article/download/486/438" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_486" DMDID="DMD_rub-journals_486">
+            <mets:fptr FILEID="FILE0_rub-journals_486"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

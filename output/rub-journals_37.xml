@@ -1,0 +1,52 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_37">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Humanitarianism in the age of empire Deutsch-Südwestafrika &amp; L’Ètat Indépendant du Congo</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Bargueño, David</displayForm>
+                        <namePart type="family">Bargueño</namePart>
+                        <namePart type="given">David</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2014-01-27</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">44</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Humanitarianism has neither a single past nor predetermined future. As the bastard child of the Enlightenment and Christianity, national foreign policies and non-governmental organisations, the early development of humanitarianism is often written entirely within the confines of Europe, with no reference to events in Africa. A familiar cast of heroes crusades against an equally familiar backdrop of horrors, such as Henry Dunant’s campaign for the Red Cross Movement beginning in 1863. Simultaneous events, such as European expansion into Africa, fall outside the landscape of this history. The goal of the present article is to show how histories of humanitarianism in the former Congo Free State and German Southwest Africa shed light on the varied influences, priorities, and strategies of selective acts of compassion during the first d</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_37</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_37">
+                <mets:FLocat xlink:href="https://namibian-studies.com/index.php/JNS/article/download/37/20" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_37" DMDID="DMD_rub-journals_37">
+            <mets:fptr FILEID="FILE0_rub-journals_37"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

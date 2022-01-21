@@ -1,0 +1,61 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_612">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <nonSort>Das </nonSort>
+                        <title>Sterben ausloten. Anmerkungen zur Aktion „Die Toten kommen“ vom Zentrum für Politische Schönheit</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Takıl, Öznur</displayForm>
+                        <namePart type="family">Takıl</namePart>
+                        <namePart type="given">Öznur</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2017-04-11</dateIssued>
+                    </originInfo>
+                    <abstract lang="ger">Die Kunstaktion Die Toten kommen des Zentrums für Politische Schönheit beherrschte im Sommer 2015 nicht nur das Feuilleton, sondern löste auch international ein breites Medienecho aus. Die Aktion der siebzigköpfigen Künstlergruppe setzte das Ziel um, an den europäischen Außengrenzen verstorbene Menschen zu exhumieren, nach Deutschland zu überführen und sie auf einem Berliner Friedhof zu beerdigen. Parallel zu den Bestattungen führte am 21. Juni eine Großdemonstration zum Bundestag, wo etwa hundert symbolische Gräber ausgehoben wurden. Ursprünglich sollte zum Abschluss dieses Marschs der Entschlossenen am Kanzleramt der Grundstein für ein Friedhofsfeld als Gedenkstätte für die Opfer der militärischen Abriegelung Europas gelegt werden. Folgende Fragen dienen als Richtschnur dieses Beitrages: Wie bearbeitet das ZPS das Themenfeld Flucht und Migration in seiner Aktionskunst und welche medialen Strategien und ästhetischen Mittel wendet es dabei an? Gelingt dem Kollektiv mit dieser Aktion, die herkömmliche Produktion einer spezifischen Bildsprache zum Thema Migration zu vermeiden und einen künstlerischen Diskurs der Intervention zu verfolgen, der auch in den politischen Raum hineingreift?Als theoretischer Anknüpfungspunkt wird in erster Linie Giorgio Agambens Homo Sacer herangezogen, das sich mit dem Begriff der Souveränität und der Biopolitik auseinandersetzt. Hierbei richtet die Agambens Studie den Fokus auf die biopolitischen Gewaltakte, die er mit dem antiken Begriff des homo sacer (lat. »heiliger Mensch«) veranschaulicht. Denn der homo sacer konnte getötet, allerdings nicht geopfert werden. Nach Agamben setzt die Formation souveräner Macht die Produktion eines biopolitischen Körpers voraus, wobei die Konstitution einer politischen Gemeinschaft den Ausschluss von Menschen ohne zuerkannten Rechtsstatus bedingt.Das ZPS thematisiert die Zurschaustellung souveräner Macht und die politische Machtlosigkeit der Geflüchteten: Während der Aktion Die Toten kommen wurden die Körper von getöteten Geflüchteten über diverse Grenzen bewegt und einer würdevollen Bestattung zugeführt – doch gelingt es dem ZPS mit seiner politischen Aktionskunst, die Grenzlinien der europäischen Flüchtlingspolitik zu konturieren?</abstract>
+                    <subject lang="ger">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>GA 2. Kunstgeschichtliches Journal für studentische Forschung und Kritik</title>
+                        </titleInfo>
+                        <identifier type="issn">2566-4999</identifier>
+                        <part>
+                            <detail type="issue">
+                                <number>01</number>
+                            </detail>
+                        </part>
+                    </relatedItem>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_612</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_612">
+                <mets:FLocat xlink:href="https://ojs.ub.rub.de/index.php/GA2/article/download/612/563" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_612" DMDID="DMD_rub-journals_612">
+            <mets:fptr FILEID="FILE0_rub-journals_612"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

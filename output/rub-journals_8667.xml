@@ -1,0 +1,78 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8667">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>On the Composition of Single-Keyed Tweakable Even-Mansour for Achieving BBB Security</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Chakraborti, Avik</displayForm>
+                        <namePart type="family">Chakraborti</namePart>
+                        <namePart type="given">Avik</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Nandi, Mridul</displayForm>
+                        <namePart type="family">Nandi</namePart>
+                        <namePart type="given">Mridul</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Talnikar, Suprita</displayForm>
+                        <namePart type="family">Talnikar</namePart>
+                        <namePart type="given">Suprita</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Yasuda, Kan</displayForm>
+                        <namePart type="family">Yasuda</namePart>
+                        <namePart type="given">Kan</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020-07-24</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">39</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Observing the growing popularity of random permutation (RP)-based designs (e.g, Sponge), Bart Mennink in CRYPTO 2019 has initiated an interesting research in the direction of RP-based pseudorandom functions (PRFs). Both are claimed to achieve beyond-the-birthday-bound (BBB) security of 2n/3 bits (n being the input block size in bits) but require two instances of RPs and can handle only oneblock inputs. In this work, we extend research in this direction by providing two new BBB-secure constructions by composing the tweakable Even-Mansour appropriately. Our first construction requires only one instance of an RP and requires only one key. Our second construction extends the first to a nonce-based Message Authentication Code (MAC) using a universal hash to deal with multi-block inputs. We show that the hash key can be derived from the original key when the underlying hash is the Poly hash. We provide matching attacks for both constructions to demonstrate the tightness of the proven security bounds.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tosc.v2020.i2.1-39</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8667</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8667">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/8667/8225" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8667" DMDID="DMD_rub-journals_8667">
+            <mets:fptr FILEID="FILE0_rub-journals_8667"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

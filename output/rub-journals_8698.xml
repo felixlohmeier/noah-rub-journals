@@ -1,0 +1,102 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8698">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Differential Attacks on CRAFT Exploiting the Involutory S-boxes and Tweak Additions</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Guo, Hao</displayForm>
+                        <namePart type="family">Guo</namePart>
+                        <namePart type="given">Hao</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Sun, Siwei</displayForm>
+                        <namePart type="family">Sun</namePart>
+                        <namePart type="given">Siwei</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Shi, Danping</displayForm>
+                        <namePart type="family">Shi</namePart>
+                        <namePart type="given">Danping</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Sun, Ling</displayForm>
+                        <namePart type="family">Sun</namePart>
+                        <namePart type="given">Ling</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Sun, Yao</displayForm>
+                        <namePart type="family">Sun</namePart>
+                        <namePart type="given">Yao</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Hu, Lei</displayForm>
+                        <namePart type="family">Hu</namePart>
+                        <namePart type="given">Lei</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Wang, Meiqin</displayForm>
+                        <namePart type="family">Wang</namePart>
+                        <namePart type="given">Meiqin</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020-09-28</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">33</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">CRAFT is a lightweight tweakable block cipher proposed at FSE 2019, which allows countermeasures against Differential Fault Attacks to be integrated into the cipher at the algorithmic level with ease. CRAFT employs a lightweight and involutory S-box and linear layer, such that the encryption function can be turned into decryption at a low cost. Besides, the tweakey schedule algorithm of CRAFT is extremely simple, where four 64-bit round tweakeys are generated and repeatedly used. Due to a combination of these features which makes CRAFT exceedingly lightweight, we find that some input difference at a particular position can be preserved through any number of rounds if the input pair follows certain truncated differential trails. Interestingly, in contrast to traditional differential analysis, the validity of this invariant property is affected by the positions where the constant additions take place. We use this property to construct “weak-tweakey” truncated differential distinguishers of CRAFT in the single-key model. Subsequently, we show how the tweak additions allow us to convert these weak-tweakey distinguishers into ordinary secret-key distinguishers based on which key-recovery attacks can be performed. Moreover, we show how to construct MILP models to search for truncated differential distinguishers exploiting this invariant property. As a result, we find a 15-round truncated differential distinguisher of CRAFT and extend it to a 19-round key-recovery attack with 260.99 data, 268 memory, 294.59 time complexity, and success probability 80.66%. Also, we find a 14-round distinguisher with probability 2−43 (experimentally verified), a 16-round distinguisher with probability 2−55, and a 20-round weak-key distinguisher (2118 weak keys) with probability 2−63. Experiments on round-reduced versions of the distinguishers show that the experimental probabilities are sometimes higher than predicted. Finally, we note that our result is far from threatening the security of the full CRAFT.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tosc.v2020.i3.119-151</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8698</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8698">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/8698/8290" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8698" DMDID="DMD_rub-journals_8698">
+            <mets:fptr FILEID="FILE0_rub-journals_8698"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

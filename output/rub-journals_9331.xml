@@ -1,0 +1,54 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_9331">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Statistical Model of Correlation Difference and Related-Key Linear Cryptanalysis</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Nyberg, Kaisa</displayForm>
+                        <namePart type="family">Nyberg</namePart>
+                        <namePart type="given">Kaisa</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2021-12-03</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">14</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">The goal of this work is to propose a related-key model for linear cryptanalysis. We start by giving the mean and variance of the difference of sampled correlations of two Boolean functions when using the same sample of inputs to compute both correlations. This result is further extended to determine the mean and variance of the difference of correlations of a pair of Boolean functions taken over a random data sample of fixed size and over a random pair of Boolean functions. We use the properties of the multinomial distribution to achieve these results without independence assumptions. Using multivariate normal approximation of the multinomial distribution we obtain that the distribution of the difference of related-key correlations is approximately normal. This result is then applied to existing related-key cryptanalyses. We obtain more accurate right-key and wrong-key distributions and remove artificial assumptions about independence of sampled correlations. We extend this study to using multiple linear approximations and propose a Χ2-type statistic, which is proven to be Χ2 distributed if the linear approximations are independent. We further examine this statistic for multidimensional linear approximation and discuss why removing the assumption about independence of linear approximations does not work in the related-key setting the same way as in the single-key setting.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.46586/tosc.v2021.i4.124-137</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_9331</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_9331">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/9331/8890" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_9331" DMDID="DMD_rub-journals_9331">
+            <mets:fptr FILEID="FILE0_rub-journals_9331"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

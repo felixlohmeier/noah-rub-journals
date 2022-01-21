@@ -1,0 +1,53 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_558">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Books as material, virtual, and metaphorical entities</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Schmitz-Emans, Monika</displayForm>
+                        <namePart type="family">Schmitz-Emans</namePart>
+                        <namePart type="given">Monika</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2017-01-09</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">17</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">To talk about books can be a metaphoric operation. Because books have always been conceptualized as metaphors for the texts they carry, it is easy to see them as both ‘real’ and ‘symbolic’ objects of a complex semiotic nature. This article shows several ways in which the book is exposed as a material object used for the production of manifold semantic layers. Apart from metaphors, the codex itself can be worked on like in Queneau’s Cent mille milliards de poèmes or altered like in Tom Phillips’ A Humument. The effects of alteration and destruction on books can be shown on the book’s body or in artwork or comment surrounding the (invisible) book as in Gérard Wajcman’s L’interdit or Keri Smith’s This is not a Book.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/bmt.1.2016.11-27</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_558</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_558">
+                <mets:FLocat xlink:href="https://bmt.ub.rub.de/index.php/BMT/article/download/558/500" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_558" DMDID="DMD_rub-journals_558">
+            <mets:fptr FILEID="FILE0_rub-journals_558"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

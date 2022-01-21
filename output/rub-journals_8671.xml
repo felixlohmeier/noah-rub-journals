@@ -1,0 +1,86 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8671">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Optimizing Implementations of Linear Layers</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Xiang, Zejun</displayForm>
+                        <namePart type="family">Xiang</namePart>
+                        <namePart type="given">Zejun</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Zeng, Xiangyoung</displayForm>
+                        <namePart type="family">Zeng</namePart>
+                        <namePart type="given">Xiangyoung</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Lin, Da</displayForm>
+                        <namePart type="family">Lin</namePart>
+                        <namePart type="given">Da</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Bao, Zhenzhen</displayForm>
+                        <namePart type="family">Bao</namePart>
+                        <namePart type="given">Zhenzhen</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Zhang, Shasha</displayForm>
+                        <namePart type="family">Zhang</namePart>
+                        <namePart type="given">Shasha</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020-07-24</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">26</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">In this paper, we propose a new heuristic algorithm to search efficient implementations (in terms of Xor count) of linear layers used in symmetric-key cryptography. It is observed that the implementation cost of an invertible matrix is related to its matrix decomposition if sequential-Xor (s-Xor) metric is considered, thus reducing the implementation cost is equivalent to constructing an optimized matrix decomposition. The basic idea of this work is to find various matrix decompositions for a given matrix and optimize those decompositions to pick the best implementation. In order to optimize matrix decompositions, we present several matrix multiplication rules over F2, which are proved to be very powerful in reducing the implementation cost. We illustrate this heuristic by searching implementations of several matrices proposed recently and matrices already used in block ciphers and Hash functions, and the results show that our heuristic performs equally good or outperforms Paar’s and Boyar-Peralta’s heuristics in most cases.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tosc.v2020.i2.120-145</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8671</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8671">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/8671/8229" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8671" DMDID="DMD_rub-journals_8671">
+            <mets:fptr FILEID="FILE0_rub-journals_8671"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,85 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_412">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Indentation and scratch testing – experiment and simulation</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Pöhl, F.</displayForm>
+                        <namePart type="family">Pöhl</namePart>
+                        <namePart type="given">F.</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Schwarz, S.</displayForm>
+                        <namePart type="family">Schwarz</namePart>
+                        <namePart type="given">S.</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Junker, P.</displayForm>
+                        <namePart type="family">Junker</namePart>
+                        <namePart type="given">P.</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Hackl, K.</displayForm>
+                        <namePart type="family">Hackl</namePart>
+                        <namePart type="given">K.</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Theisen, W.</displayForm>
+                        <namePart type="family">Theisen</namePart>
+                        <namePart type="given">W.</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015-11-25</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">17</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Most modern wear resistant materials feature a multiphase microstructure and the macroscopicwear behavior is controlled by the local mechanical properties of the single phases. Indentationtesting and in particular nanoindentation allows for the local mechanical characterization ofmaterials and their phases. This paper addresses the determination of important mechanicalparameters such as hardness, Young’s modulus and indentation energy parameters of singlephases in multiphase wear resistant materials. Important influencing factors such as matrixinfluence on the indentation results of an embedded hard phase, the indentation-size-effect (ISE),the effect of crystallographic orientation, and the fracturing behavior of hard phases are addressed.In addition, the results of scratch tests on the cold work tool steel X210Cr12 and a WC-Co hardmetal are presented in order to investigate aspects of the mechanical behavior under abrasion.The deformation behavior under indentation and scratch loading was analyzed by scanningelectron microscopy (SEM) and atomic force microscopy (AFM). Besides the experimentssupplementary numerical simulations of indentation and scratching testing with the use of theFinite-Element-Method (FEM) are presented.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/icscm.3.2015.292-308</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_412</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_412">
+                <mets:FLocat xlink:href="https://icscm.ub.rub.de/index.php/ICSCM/article/download/412/368" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_412" DMDID="DMD_rub-journals_412">
+            <mets:fptr FILEID="FILE0_rub-journals_412"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

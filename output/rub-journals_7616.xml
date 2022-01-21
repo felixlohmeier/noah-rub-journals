@@ -1,0 +1,54 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7616">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Slowenien in Bewegung</title>
+                        <subTitle>Vom Massenexodus des 19. Jahrhunderts bis zum Ende der Gastarbeitermigration. Eine sozialdemografische Skizze</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Drnovšek, Marjan</displayForm>
+                        <namePart type="family">Drnovšek</namePart>
+                        <namePart type="given">Marjan</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015-01-24</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">21</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Emigration from Slovenia represents an integral part of European migratory movements. Slovenia’s strategic geographic position between the Pannonian, Mediterranean, and Alpine worlds as well as the Karst region fostered lively mobility within an ethnically heterogeneous population at the cross-roads of economic and cultural influences. During the twentieth century, the region belonged to several different state and social systems, which triggered both voluntary and forced migration. While Slovenia until the mid-twentieth century was an emigrant country, it became also an immigrant country during the Titoist decades, especially due to the arrival of workers from the other Yugoslav republics. Emigration peaked in the period of mass emigration to the United States during the late 19th and early 20th centuries. The main destinations of Slovenian emigrants between the world wars were France, Belgium, the Netherlands, and Germany. As a result of the Second World War, many refugees and “Displaced Persons” left or did not return to their home country. The last mass migration occurred from 1965 to 1973 and was directed mainly towards Germany, Switzerland, and Sweden. During the time of the second Yugoslavia, also daily migration to Italy and Austria was frequent. However, during the whole period under examination Slovenian emigrants result ethnically rather unrecognisable, as all three states, i. e. the Habsburg monarchy as well as the first and the second Yugoslavias, statistically classified them according to citizenship rather than to nationality. The same was true for the registration procedures in the states of destination. Only rarely did they ask about ethnic affiliation or mother tongue. As a result, quantitative analyses of Slovenian emigration prove difficult.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/mts.41.2009.29-49</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7616</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7616">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/7616/6788" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7616" DMDID="DMD_rub-journals_7616">
+            <mets:fptr FILEID="FILE0_rub-journals_7616"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

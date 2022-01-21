@@ -1,0 +1,70 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8841">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Quantum Free-Start Collision Attacks on Double Block Length Hashing with Round-Reduced AES-256</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Kumar Chauhan, Amit</displayForm>
+                        <namePart type="family">Kumar Chauhan</namePart>
+                        <namePart type="given">Amit</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Kumar, Abhishek</displayForm>
+                        <namePart type="family">Kumar</namePart>
+                        <namePart type="given">Abhishek</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Kumar Sanadhya, Somitra</displayForm>
+                        <namePart type="family">Kumar Sanadhya</namePart>
+                        <namePart type="given">Somitra</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2021-03-19</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">21</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Recently, Hosoyamada and Sasaki (EUROCRYPT 2020), and Xiaoyang Dong et al. (ASIACRYPT 2020) proposed quantum collision attacks against AES-like hashing modes AES-MMO and AES-MP. Their collision attacks are based on the quantum version of the rebound attack technique exploiting the differential trails whose probabilities are too low to be useful in the classical setting but large enough in the quantum setting. In this work, we present dedicated quantum free-start collision attacks on Hirose’s double block length compression function instantiated with AES-256, namely HCF-AES-256. The best publicly known classical attack against HCF-AES-256 covers up to 9 out of 14 rounds. We present a new 10-round differential trail for HCF-AES-256 with probability 2−160, and use it to find collisions with a quantum version of the rebound attack. Our attack succeeds with a time complexity of 285.11 and requires 216 qRAM in the quantum-attack setting, where an attacker can make only classical queries to the oracle and perform offline computations. We also present a quantum free-start collision attack on HCF-AES-256 with a time complexity of 286.07 which outperforms Chailloux, Naya-Plasencia, and Schrottenloher’s generic quantum collision attack (ASIACRYPT 2017) in a model when large qRAM is not available.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.46586/tosc.v2021.i1.316-336</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8841</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8841">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/8841/8444" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8841" DMDID="DMD_rub-journals_8841">
+            <mets:fptr FILEID="FILE0_rub-journals_8841"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

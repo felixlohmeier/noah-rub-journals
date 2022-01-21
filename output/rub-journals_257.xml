@@ -1,0 +1,52 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_257">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Les manuscrits de prison de Boukharine (1937-1938)</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Andreu, Maurice</displayForm>
+                        <namePart type="family">Andreu</namePart>
+                        <namePart type="given">Maurice</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2012-09-05</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">16</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">This article presents an analysis of the prison manuscripts of the Soviet and Comintern leader and theorician Nikolai I. Bukharin, which have been ignored competely until their discovery in the Presidential Archives of Russia some 20 years ago. Reviewing the classical presentations of Arthur Koestler and Maurice Merleau-Ponty, he raises the questions to which extend Bukharin’s thougt has changed comparing to the 1920’s and in which way the manuscripts allow to understand better his attitude to the repression Stalin unleashed last but not least against him personally.Université Paris XIII</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_257</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_257">
+                <mets:FLocat xlink:href="https://incs.ub.rub.de/index.php/INCS/article/download/257/215" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_257" DMDID="DMD_rub-journals_257">
+            <mets:fptr FILEID="FILE0_rub-journals_257"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

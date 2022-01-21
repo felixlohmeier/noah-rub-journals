@@ -1,0 +1,103 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8456">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Release of Unverified Plaintext</title>
+                        <subTitle>Tight Unified Model and Application to ANYDAE</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Chang, Donghoon</displayForm>
+                        <namePart type="family">Chang</namePart>
+                        <namePart type="given">Donghoon</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Datta, Nilanjan</displayForm>
+                        <namePart type="family">Datta</namePart>
+                        <namePart type="given">Nilanjan</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Dutta, Avijit</displayForm>
+                        <namePart type="family">Dutta</namePart>
+                        <namePart type="given">Avijit</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Mennink, Bart</displayForm>
+                        <namePart type="family">Mennink</namePart>
+                        <namePart type="given">Bart</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Nandi, Mridul</displayForm>
+                        <namePart type="family">Nandi</namePart>
+                        <namePart type="given">Mridul</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Sanadhya, Somitra</displayForm>
+                        <namePart type="family">Sanadhya</namePart>
+                        <namePart type="given">Somitra</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Sibleyras, Ferdinand</displayForm>
+                        <namePart type="family">Sibleyras</namePart>
+                        <namePart type="given">Ferdinand</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020-01-31</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">28</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Authenticated encryption schemes are usually expected to offer confidentiality and authenticity. In case of release of unverified plaintext (RUP), an adversary gets separated access to the decryption and verification functionality, and has more power in breaking the scheme. Andreeva et al. (ASIACRYPT 2014) formalized RUP security using plaintext awareness, informally meaning that the decryption functionality gives no extra power in breaking confidentiality, and INT-RUP security, covering authenticity in case of RUP. We describe a single, unified model, called AERUP security, that ties together these notions: we prove that an authenticated encryption scheme is AERUP secure if and only if it is conventionally secure, plaintext aware, and INT-RUP secure. We next present ANYDAE, a generalization of SUNDAE of Banik et al. (ToSC 2018/3). ANYDAE is a lightweight deterministic scheme that is based on a block cipher with block size n and arbitrary mixing functions that all operate on an n-bit state. It is particularly efficient for short messages, it does not rely on a nonce, and it provides maximal robustness to a lack of secure state. Whereas SUNDAE is not secure under release of unverified plaintext (a fairly simple attack can be mounted in constant time), ANYDAE is. We make handy use of the AERUP security model to prove that ANYDAE achieves both conventional security as RUP security, provided that certain modest conditions on the mixing functions are met. We describe two simple instances, called MONDAE and TUESDAE, that conform to these conditions and that are competitive with SUNDAE, in terms of efficiency and optimality.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tosc.v2019.i4.119-146</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8456</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8456">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/8456/8025" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8456" DMDID="DMD_rub-journals_8456">
+            <mets:fptr FILEID="FILE0_rub-journals_8456"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

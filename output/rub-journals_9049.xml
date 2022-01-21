@@ -1,0 +1,62 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_9049">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Performances of Populist Radical Right and Political Masculinities</title>
+                        <subTitle>A Comparative Study of Orbán and Wilders</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Sayan-Cengiz, Feyda</displayForm>
+                        <namePart type="family">Sayan-Cengiz</namePart>
+                        <namePart type="given">Feyda</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Akyüz, Selin</displayForm>
+                        <namePart type="family">Akyüz</namePart>
+                        <namePart type="given">Selin</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2021-08-09</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">23</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Recent years have witnessed a growing interest in the study of populism, with increas- ing scholarly attention to the discursive, stylistic and performative aspects of different populisms. This study discusses the “discursive and stylistic turn”1 in populism studies and highlights the centrality of performances of masculinities to the populist reper- toire. Upon this framework, we explore the ways in which masculinities play out in shaping the discursive, stylistic and performative repertoires of European populist rad- ical right (PRR). The conceptualisation of political masculinities is used as an analyti- cal lens that helps us see the gendered structure of discourses and performances in two dissimilar cases of PRR leaders, namely Viktor Orbán, the Prime Minister of Hungary and Geert Wilders, the leader of the Party for Freedom (PVV) of the Netherlands. We employ a comparative perspective so as to identify how performances of masculinity work in radical right populisms of dissimilar historical trajectories in terms of the loca- tion of gender in culture. We focus on Orbán’s and Wilders’ narrations of themselves; of their understanding of ‘the people’ whom they claim to represent; and of their relation with ‘the people’. A re-reading of the use of narratives, metaphors, gestures, emotions through an analysis of the two leaders’ interviews, speeches, texts and media performances reveal their masculinist ‘brave bad boy’ performances, the ways they draw boundaries between ‘outsiders and insiders’, and the ways in which they claim to embody the people, and to be ‘men of the people’.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.46586/mts.65.2021.37-59</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_9049</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_9049">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/9049/8642" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_9049" DMDID="DMD_rub-journals_9049">
+            <mets:fptr FILEID="FILE0_rub-journals_9049"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

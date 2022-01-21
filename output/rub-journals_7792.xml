@@ -1,0 +1,54 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7792">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Diverging Paths to Modernity</title>
+                        <subTitle>Socialism as an Intellectual Movement in the Nineteenth Century. A Comparative Approach</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Dimou, Augusta</displayForm>
+                        <namePart type="family">Dimou</namePart>
+                        <namePart type="given">Augusta</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2014-12-17</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">20</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">The article examines the introduction of socialist theory as part of the political modernity of the nineteenth century in three Balkan countries: Serbia, Bulgaria and Greece. It discusses first the dialectics between the introduction of an ideology and its context of adaptation. Then it proposes to view the transportation and adaptation of ideologies as a dynamic process involving multiple strategies. Further, the article situates socialism among other ideologies of mass representation in the nineteenth century, establishes the temporal sequence in which they were introduced in the Balkan space and assesses their relationship to the broader project of constructing modernity. The fact that socialism could assert itself as an ideological option in the predominantly agrarian Balkan societies of the nineteenth century may appear at first glance paradoxical. The article thus examines the significance of socialism against the background of &quot;underdevelopment&quot;, and underlines the influence of intellectllals as the principal disseminators of ideology. It highlights the catalytic influence of Russian socialism in the 1870s and 80s (predominandy populism and, to a lesser extent, Marxism) on the early Balkan socialist movement, an influence that did not limit itself to intellectual fertilization, but was also instructive for the model of &quot;intelligentsia&quot; that was concomitantly adopted. It maps out the geographic contours of early socialism, pointing to the significance of Russian influence for the east-central Balkans (Bulgaria, Serbia and Romania), and traces these early itineraries of influence and networks of transfer. It singles out the case of Greece, which due to predominantly Western socialist influence was left unrouched by Russian radical thought. It discusses further the passage from the populist to the Marxist paradigm and the growing influence, of Western Marxism, exploring the diverse ramifications that the interplay between Populism, Marxian socialism, and agrarianism were to follow in each of these countries, and concludes with an assessment regarding broader legacies of intellecrual transfer in the Balkans.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/mts.33.2005.11-30</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7792</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7792">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/7792/6964" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7792" DMDID="DMD_rub-journals_7792">
+            <mets:fptr FILEID="FILE0_rub-journals_7792"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

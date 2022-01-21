@@ -1,0 +1,52 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_660">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Diary of Heinrich Geisel, Sanitary Sergeant in the Kaiserliche Schutztruppe for South West Africa, January 1905–October 1906</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Bartmuß, Hartmut</displayForm>
+                        <namePart type="family">Bartmuß</namePart>
+                        <namePart type="given">Hartmut</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2017-06-28</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">18</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">This is a full transcript of the diary of Heinrich Geisel who served as Sanitätsunteroffizier (Sanitary Sergeant) in the Kaiserliche Schutztruppe for South West Africa during the Herero and Nama wars. The diary begins with Geisel&apos;s departure from Germany in January 1905 and ends with an entry in October 1906 when Geisel had fallen seriously ill and was to be sent home. Geisel was mainly involved in the transport of supplies. During his service in the Schutztruppe he also participated in the prosecution of displaced Herero, of which he provides a detailed account, and was charged with the escort of prisoners.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_660</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_660">
+                <mets:FLocat xlink:href="https://namibian-studies.com/index.php/JNS/article/download/660/626" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_660" DMDID="DMD_rub-journals_660">
+            <mets:fptr FILEID="FILE0_rub-journals_660"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

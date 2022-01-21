@@ -1,0 +1,53 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7482">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>West German trade unions and the policy of détente (1969 – 1989)</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Müller, Stefan</displayForm>
+                        <namePart type="family">Müller</namePart>
+                        <namePart type="given">Stefan</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015-03-04</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">29</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">This article discusses the contacts of the West German Trade Union Federation (DGB) to the communist state unions of the Warsaw Pact in the period of détente (1969 to 1989). How were these contacts embedded into West German foreign policy? It is argued that the DGB voluntarily acted as a state agent and not as a non governmental organisation (NGO). The initial aim of 1969 was to support the controversial West German Ostpolitik in the public and to prevent communist influence on West German society. However, the support of the West German trade unions was not directly linked to the Social Democratic Party (SPD). The DGB’s policy continued after the change of Government in 1982. First, the article examines the changing East West trade unions relations from the 1970s to the 1980s; second, it analyses the trade union support of government’s foreign policy and its relations to West German state agencies in the 1970s and 1980s. Finally, it discusses the consequences for the conceptualisation of NGOs and for transnational history.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/mts.52.2014.109-137</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7482</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7482">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/7482/6654" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7482" DMDID="DMD_rub-journals_7482">
+            <mets:fptr FILEID="FILE0_rub-journals_7482"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

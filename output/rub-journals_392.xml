@@ -1,0 +1,61 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_392">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Single segment tests for the analysis of the core drilling process of concrete materials</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Kansteiner, Michael</displayForm>
+                        <namePart type="family">Kansteiner</namePart>
+                        <namePart type="given">Michael</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Biermann, Dirk</displayForm>
+                        <namePart type="family">Biermann</namePart>
+                        <namePart type="given">Dirk</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015-11-25</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">11</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Diamond impregnated tools, like drill bits or circular saws, are used for the machining of mineralmaterials like stones or the compound material concrete. Drill bits comprise several single diamondimpregnated segments which are attached to the top of the tool body by brazing or laser weldingprocesses. Fields of application of these tools can be found at the construction industry, the stoneprocessing and the mining industry. The segments consist of a sintered powder-metal matrix andrandomly distributed diamond grains. Hence, the number of exposed grains on the tool surfacevaries even for tools of the same specification. To simplify the analysis of the core drilling processwith several segments and therefore diamonds in contact, tests with single segments were carriedout. Thus, the number of exposed grains is reduced to a manageable number. To analyse theinfluence of grit size and concentration in diamond impregnated tools on the process behaviourwhen machining concrete materials, path-controlled tests on a machining centre were conducted.High performance concrete (C100) and reinforced concrete were machined and process forceswere measured to quantify the influence of the tool specification. Additional information weregained by analysing the generated tool tracks.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/icscm.3.2015.101-111</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_392</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_392">
+                <mets:FLocat xlink:href="https://icscm.ub.rub.de/index.php/ICSCM/article/download/392/349" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_392" DMDID="DMD_rub-journals_392">
+            <mets:fptr FILEID="FILE0_rub-journals_392"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

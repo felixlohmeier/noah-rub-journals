@@ -1,0 +1,55 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_9047">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <nonSort>A </nonSort>
+                        <title>Bridge with Three Pillars</title>
+                        <subTitle>Soldierly Masculinity and Violence in Media Representation in Germany</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Beck, Dorothee</displayForm>
+                        <namePart type="family">Beck</namePart>
+                        <namePart type="given">Dorothee</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2021-08-09</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">19</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">The paper reflects on the externalisation of violence in media discourses about migra- tion in Germany. I discuss in how far news media build discursive bridges to masculist and far-right groups. To this end, I draw on some of the findings of my research proj- ect ‘Genderism’ in Media Debate. Thematic cycles from 2006 to 2016. Soldierly mascu- linity is seen as hegemonic in the far right. By means of an alleged crisis of masculinity and victimisation of men, this is linked to masculist concepts. The far right as well as masculists accuse women, especially feminists, of being to blame for the effeminacy of men. This crisis of masculinity is considered a problem, to which soldierly masculinity is offered as a solution. The findings of the mentioned genderism-project show that news media discuss the crisis of masculinity, as well as the blaming of feminists. Yet, they do not take up far-right concepts directly. Masculist views can be regarded as the central pillar of a discursive bridge between news media and far-right concepts of mas- culinity. I argue that the notion of a discursive bridge only works with masculist views as intermediary between news media and the far right. Thus, masculism is a crucial ideology to link far-right views regarding discourses in society.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.46586/mts.65.2021.17-36</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_9047</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_9047">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/9047/8634" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_9047" DMDID="DMD_rub-journals_9047">
+            <mets:fptr FILEID="FILE0_rub-journals_9047"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

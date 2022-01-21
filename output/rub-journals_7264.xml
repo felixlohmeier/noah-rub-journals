@@ -1,0 +1,55 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7264">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <nonSort>The </nonSort>
+                        <title>Lutheran Church in Rodowo as a Place of the Spiritual Meeting of Three Social Strata</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Birecki, Piotr</displayForm>
+                        <namePart type="family">Birecki</namePart>
+                        <namePart type="given">Piotr</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2018-07-27</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">28</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">The article presents the hitherto unknown decoration of the furnishing of a&amp;nbsp;little Protestant church in Rodowo in Ducal Prussia, founded by the local aristocratic family ofthe Schack von Wittenaus. After firstly providing an overview of the complicated confessional&amp;nbsp;history of the region, the church, and its patrons, the second part of this article presents the&amp;nbsp;emblematic decoration of church benches based on the “Four Elements,” with models for&amp;nbsp;tapestries designed by Charles Le Brun and published in Paris in 1668 (and later in Germany). The original emblems, with descriptions by Charles Perrault, refer to King Louis XVI as the&amp;nbsp;ideal ruler, but in Rodowo they emphasize the position of the Prussian nobility as the most&amp;nbsp;important social group in the country. The second part of the article presents four unknown&amp;nbsp;easel paintings on the church walls, with a symbolic presentation of Lutheran piety connected&amp;nbsp;with Pietism in Ducal Prussia. The entire artistic ensemble in the church refers to the role of&amp;nbsp;noblemen as leaders in the social and religious life of Ducal Prussia.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/er.v7.2018.109-136</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/">CC BY-NC-ND 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7264</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7264">
+                <mets:FLocat xlink:href="https://er.ceres.rub.de/index.php/ER/article/download/7264/6442" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7264" DMDID="DMD_rub-journals_7264">
+            <mets:fptr FILEID="FILE0_rub-journals_7264"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

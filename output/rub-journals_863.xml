@@ -1,0 +1,63 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_863">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Aśu the Convert</title>
+                        <subTitle>A Slave Girl or a Nāyar Land Owner?</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Gamliel, Ophira</displayForm>
+                        <namePart type="family">Gamliel</namePart>
+                        <namePart type="given">Ophira</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2018-04-17</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">46</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Aśu was a twelfth-century woman from the West Coast of South India. She is mentioned as a Tuḷuva “slave girl” (šifḥa) in a deed of manumission authored by Abraham Ben Yijū, a Jewish merchant who lived with her for nearly eighteen years and had children with her. It is thus accepted that Aśu was a manumitted slave. However, there is evidence to the contrary suggesting that Aśu was a member of a matrilineal household of the Nāyar caste of landlords, and that by allying with her, Ben Yijū was establishing a transregional network in collaboration with hinterland Indian merchants. In what follows, I examine the textual evidence from the Cairo Geniza related to the couple and reevaluate it against the anthropological history of Nāyars, especially in relation to their matrilineal inheritance customs and intercaste matrimonial alliances. Arguably, familial alliances such as those of Aśu and Ben Yijū matured into full-fledged communities of Jews, Christians, and Muslims in the region. A better understanding of the relations between these two individuals, Aśu and Ben Yijū, can shed light on the history of the transregional maritime networks and, consequently, on the history of interreligious relations in the Malayalam-speaking region.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/er.v6.2018.201-246</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0">CC BY-NC-ND 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_863</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_863">
+                <mets:FLocat xlink:href="https://er.ceres.rub.de/index.php/ER/article/download/863/817" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="text/html" ID="FILE1_rub-journals_863">
+                <mets:FLocat xlink:href="https://er.ceres.rub.de/index.php/ER/article/download/863/8266" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_863" DMDID="DMD_rub-journals_863">
+            <mets:fptr FILEID="FILE0_rub-journals_863"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_863" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_863"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

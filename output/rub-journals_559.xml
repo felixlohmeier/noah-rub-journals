@@ -1,0 +1,53 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_559">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Immateriality of the work vs. materiality of the body? Digital literature</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Krzywkowski, Isabelle</displayForm>
+                        <namePart type="family">Krzywkowski</namePart>
+                        <namePart type="given">Isabelle</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2017-01-09</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">13</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">This article shows how digital literature thinks about and works with the body of the reader in a time when the dominating role of the immaterial is more and more questioned. Digital texts play with their immateriality and their seemingly purely intellectual perception by making it their subject and pointing to their material environment, including the reader’s body. Works by Serge Bouchardon, Shelley Jackson, Annie Abrahams and others show that it has become impossible to separate between the ‘traditional’ and the ‘technological’ reading experience insofar as through them, we experience not only the machine and / or our body, but both—while they are inseparably joined in a network or device out of which new possibilities of use and experience arise.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/bmt.1.2016.28-40</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_559</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_559">
+                <mets:FLocat xlink:href="https://bmt.ub.rub.de/index.php/BMT/article/download/559/501" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_559" DMDID="DMD_rub-journals_559">
+            <mets:fptr FILEID="FILE0_rub-journals_559"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

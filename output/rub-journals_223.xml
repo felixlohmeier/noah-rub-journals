@@ -1,0 +1,50 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_223">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Sergei Kropachev</title>
+                        <subTitle>Von der Lüge zur Aufklärung. Verluste durch „Großen Terror“ und Krieg in der sowjetischen und russischen Historiografie. Aus dem Russischen von Vera Ammer, Berlin, Metropol Verlag, 2011. 207 pp. (ZeitgeschichteN. 8). – ISBN 978-38633105</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Foitzik, Jan</displayForm>
+                        <namePart type="family">Foitzik</namePart>
+                        <namePart type="given">Jan</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2014-05-28</dateIssued>
+                    </originInfo>
+                    <abstract lang="eng">Sergei Kropachev: Von der Lüge zur Aufklärung. Verluste durch „Großen Terror“ und Krieg in der sowjetischen und russischen Historiografie [From Lie to Clarification. Causalities of „Great Terror“ and War in Soviet and Russian Historiography]. Aus dem Russischen von Vera Ammer, Berlin, Metropol Verlag, 2011. 207 pp. (ZeitgeschichteN. 8). – ISBN 978-3863310561.Institut für Zeitgeschichte, Abteilung Berlin</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_223</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_223">
+                <mets:FLocat xlink:href="https://incs.ub.rub.de/index.php/INCS/article/download/223/181" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_223" DMDID="DMD_rub-journals_223">
+            <mets:fptr FILEID="FILE0_rub-journals_223"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

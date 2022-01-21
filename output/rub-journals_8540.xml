@@ -1,0 +1,53 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8540">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Von der Roten Literaturinternationale zu Stalins Hofschreibern? Arbeitsmaterialien zu den Schriftstellerinternationalen, 1919-1943</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Bayerlein, Bernhard H.</displayForm>
+                        <namePart type="family">Bayerlein</namePart>
+                        <namePart type="given">Bernhard H.</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2009-01-01</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">9</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Mannheimer Zentrum für Europäische Sozialforschung, Universität Mannheim (Germany)
+Die Internationale Vereinigung revolutionärer Schriftsteller (IVRS) (russisch: Meždunarodnoe ob’edinenie revoljucionnych pisatelej (MORP)) wurde 1930 gegründet. Sie löste sich qua Beschluß im Dezember 1935 selbst auf. Konzipiert war sie ursprünglich als „Rote-Literatur-Internationale“ (J. R. Becher) und internationale Zusammenfassung aller sich als revolutionär und proletarisch begreifender Schriftsteller. Trotz der kurzen Existenz von 5 Jahren hatte die IVRS eine interessante Vorgeschichte, die in die 1920er Jahre hineinreicht. Die Materialien skizzieren diese Entwicklung und fassen die weiteren Veränderungen in den dreißiger Jahren als eine Internationalisierung sui generis, nämlich &quot;der Erfahrungen und Ergebnisse der Literaturbewegung in der Sowjetunion&quot; zusammen. Die Schriftstellerinternationalen illustrieren zugleich die nach dem VII. Weltkongress der Komintern im Namen der Volksfronten und des Antifaschismus erfolgende transnationale Durchsetzung einer spezifisch sowjetischen Konzeption der &quot;Verteidigung der Kultur&quot; im Stalinismus.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8540</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8540">
+                <mets:FLocat xlink:href="https://incs.ub.rub.de/index.php/INCS/article/download/8540/8106" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8540" DMDID="DMD_rub-journals_8540">
+            <mets:fptr FILEID="FILE0_rub-journals_8540"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

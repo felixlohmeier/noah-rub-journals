@@ -1,0 +1,51 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_176">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Anne K. Bang</title>
+                        <subTitle>Islamic Sufi Networks in the Western Indian Ocean (c. 1880-1940). Ripples of Reform.</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Brodersen, Angelika</displayForm>
+                        <namePart type="family">Brodersen</namePart>
+                        <namePart type="given">Angelika</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015-03-04</dateIssued>
+                    </originInfo>
+                    <abstract lang="eng">This contribution offers a review of Anne K. Bang&apos;s book: Islamic Sufi Networks in the Western Indian Ocean (c. 1880-1940). Ripples of Reform.Islam in Africa, Volume 16. Leiden: Brill 2014. xiv + 227 pages, € 104.00, ISBN 978-900-425-1342.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <identifier type="doi">10.13154/er.v2.2015.XXI-XXVIII</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_176</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_176">
+                <mets:FLocat xlink:href="https://er.ceres.rub.de/index.php/ER/article/download/176/138" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_176" DMDID="DMD_rub-journals_176">
+            <mets:fptr FILEID="FILE0_rub-journals_176"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,58 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_9056">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Past Intensities</title>
+                        <subTitle>An Obituary for Alf Lüdtke (1943–2019)</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Müller, Philipp</displayForm>
+                        <namePart type="family">Müller</namePart>
+                        <namePart type="given">Philipp</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2021-08-09</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">4</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">This obituary commemorates the life and work of the nationally and internationally renowned German historian Alf Lüdtke, who is best known for his concept of the everyday history and who, in the 1970s and 1980s, together with other colleagues, began to develop historically questions inspired by concepts of anthropology. With his studies he made very important contributions to the history of policing, violence, fascism in Germany and governance in general. In this context he began very early to highlight the importance of symbols and emotions and the role of ordinary women and men in historical processes and dynamics of the 19th and 20th centuries.
+
+
+
+Alf Lüdtke</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.46586/mts.65.2021.145-148</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_9056</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_9056">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/9056/8641" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_9056" DMDID="DMD_rub-journals_9056">
+            <mets:fptr FILEID="FILE0_rub-journals_9056"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

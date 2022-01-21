@@ -1,0 +1,86 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_803">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Fast Correlation Attacks on Grain-like Small State Stream Ciphers</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Zhang, Bin</displayForm>
+                        <namePart type="family">Zhang</namePart>
+                        <namePart type="given">Bin</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Gong, Xinxin</displayForm>
+                        <namePart type="family">Gong</namePart>
+                        <namePart type="given">Xinxin</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Meier, Willi</displayForm>
+                        <namePart type="family">Meier</namePart>
+                        <namePart type="given">Willi</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2017-12-15</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">24</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">In this paper, we study the security of Grain-like small state stream ciphers by fast correlation attacks, which are commonly regarded as classical cryptanalytic methods against LFSR-based stream ciphers. We extend the cascaded structure adopted in such primitives in general and show how to restore the full internal state part-by-part if the non-linear combining function meets some characteristic. As a case study, we present a key recovery attack against Fruit, a tweaked version of Sprout that employs key-dependent state updating in the keystream generation phase. Our attack requires 262.8 Fruit encryptions and 222.3 keystream bits to determine the 80-bit secret key. Practical simulations on a small-scale version confirmed our results.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tosc.v2017.i4.58-81</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_803</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_803">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/803/757" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_rub-journals_803">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/803/7597" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="" ID="FILE2_rub-journals_803">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/803/7508" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_803" DMDID="DMD_rub-journals_803">
+            <mets:fptr FILEID="FILE0_rub-journals_803"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_803" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_803"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART2_rub-journals_803" LABEL="">
+                <mets:fptr FILEID="FILE2_rub-journals_803"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

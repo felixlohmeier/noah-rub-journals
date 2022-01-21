@@ -1,0 +1,76 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8943">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Before God</title>
+                        <subTitle>Reconstructing Ritual in the Desert in Proto-Historic Times</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Eisenberg-Degen, Davida</displayForm>
+                        <namePart type="family">Eisenberg-Degen</namePart>
+                        <namePart type="given">Davida</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Galili, Roy</displayForm>
+                        <namePart type="family">Galili</namePart>
+                        <namePart type="given">Roy</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Rosen, Steven A</displayForm>
+                        <namePart type="family">Rosen</namePart>
+                        <namePart type="given">Steven A</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2021-07-02</dateIssued>
+                    </originInfo>
+                    <abstract lang="eng">Archaeological remains are a trove of potential data which, together with the study of ritual, enable reconstruction and evaluation of social and religious structures and complexity. Concentrating on the Timnian culture (sixth to late third millennium BCE) of the Southern Levant deserts, we review the changes that took place with the adoption of the domesticated goat, noting the contrast between habitation sites and ritual related megalithic monuments regarding social hierarchy. Desert kites, open-air shrines, and cairns reflect organized communal labour and use, reinforcing tribal identity and the need for territorial definition. The orientation of the open-air shrines reflects a cosmology related to death and mortuary. Timnian Rock art comprises geoglyphs and petroglyphs. Geoglyphs are associated with open air shrines while petroglyphs represent a slightly later development initially unrelated to ritual. In accordance with the rock art repertoire and styles employed, we suggest that the orant was integrated into the Timnian culture following contact with northern cultures by way of trade with Arad. Rock art also highlights foreign entities in the Negev during the Intermediate Bronze age.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.46586/er.12.2021.8943</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8943</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8943">
+                <mets:FLocat xlink:href="https://er.ceres.rub.de/index.php/ER/article/download/8943/8513" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="text/html" ID="FILE1_rub-journals_8943">
+                <mets:FLocat xlink:href="https://er.ceres.rub.de/index.php/ER/article/download/8943/8514" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8943" DMDID="DMD_rub-journals_8943">
+            <mets:fptr FILEID="FILE0_rub-journals_8943"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_8943" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_8943"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

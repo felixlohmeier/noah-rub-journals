@@ -1,0 +1,71 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8913">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Proving Resistance Against Infinitely Long Subspace Trails</title>
+                        <subTitle>How to Choose the Linear Layer</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Grassi, Lorenzo</displayForm>
+                        <namePart type="family">Grassi</namePart>
+                        <namePart type="given">Lorenzo</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Rechberger, Christian</displayForm>
+                        <namePart type="family">Rechberger</namePart>
+                        <namePart type="given">Christian</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Schofnegger, Markus</displayForm>
+                        <namePart type="family">Schofnegger</namePart>
+                        <namePart type="given">Markus</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2021-06-11</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">39</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Designing cryptographic permutations and block ciphers using a substitutionpermutation network (SPN) approach where the nonlinear part does not cover the entire state has recently gained attention due to favorable implementation characteristics in various scenarios.For word-oriented partial SPN (P-SPN) schemes with a fixed linear layer, our goal is to better understand how the details of the linear layer affect the security of the construction. In this paper, we derive conditions that allow us to either set up or prevent attacks based on infinitely long truncated differentials with probability 1. Our analysis is rather broad compared to earlier independent work on this problem since we consider (1) both invariant and non-invariant/iterative trails, and (2) trails with and without active S-boxes.For these cases, we provide rigorous sufficient and necessary conditions for the matrix that defines the linear layer to prevent the analyzed attacks. On the practical side, we present a tool that can determine whether a given linear layer is vulnerable based on these results. Furthermore, we propose a sufficient condition for the linear layer that, if satisfied, ensures that no infinitely long truncated differential exists. This condition is related to the degree and the irreducibility of the minimal polynomial of the matrix that defines the linear layer. Besides P-SPN schemes, our observations may also have a crucial impact on the Hades design strategy, which mixes rounds with full S-box layers and rounds with partial S-box layers.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.46586/tosc.v2021.i2.314-352</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8913</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8913">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/8913/8489" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8913" DMDID="DMD_rub-journals_8913">
+            <mets:fptr FILEID="FILE0_rub-journals_8913"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

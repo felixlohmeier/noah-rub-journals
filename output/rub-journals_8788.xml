@@ -1,0 +1,71 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8788">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <nonSort>A </nonSort>
+                        <title>White-Box Masking Scheme Resisting Computational and Algebraic Attacks</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Seker, Okan</displayForm>
+                        <namePart type="family">Seker</namePart>
+                        <namePart type="given">Okan</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Eisenbarth, Thomas</displayForm>
+                        <namePart type="family">Eisenbarth</namePart>
+                        <namePart type="given">Thomas</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Liskiewicz, Maciej</displayForm>
+                        <namePart type="family">Liskiewicz</namePart>
+                        <namePart type="given">Maciej</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2021-02-23</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">45</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">White-box cryptography attempts to protect cryptographic secrets in pure software implementations. Due to their high utility, white-box cryptosystems (WBC) are deployed by the industry even though the security of these constructions is not well defined. A major breakthrough in generic cryptanalysis of WBC was Differential Computation Analysis (DCA), which requires minimal knowledge of the underlying white-box protection and also thwarts many obfuscation methods. To avert DCA, classic masking countermeasures originally intended to protect against highly related side-channel attacks have been proposed for use in WBC. However, due to the controlled environment of WBCs, new algebraic attacks against classic masking schemes have quickly been found. These algebraic DCA attacks break all classic masking countermeasures efficiently, as they are independent of the masking order.In this work, we propose a novel generic masking scheme that can resist both DCA and algebraic DCA attacks. The proposed scheme extends the seminal work by Ishai et al. which is probing secure and thus resists DCA, to also resist algebraic attacks. To prove the security of our scheme, we demonstrate the connection between two main security notions in white-box cryptography: probing security and prediction security. Resistance of our masking scheme to DCA is proven for an arbitrary order of protection, using the well-known strong non-interference notion by Barthe et al. Our masking scheme also resists algebraic attacks, which we show concretely for first and second-order algebraic protection. Moreover, we present an extensive performance analysis and quantify the overhead of our scheme, for a proof-of-concept protection of an AES implementation.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.46586/tches.v2021.i2.61-105</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8788</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8788">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/8788/8388" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8788" DMDID="DMD_rub-journals_8788">
+            <mets:fptr FILEID="FILE0_rub-journals_8788"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

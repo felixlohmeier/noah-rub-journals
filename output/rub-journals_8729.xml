@@ -1,0 +1,95 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8729">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <nonSort>The </nonSort>
+                        <title>design of scalar AES Instruction Set Extensions for RISC-V</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Marshall, Ben</displayForm>
+                        <namePart type="family">Marshall</namePart>
+                        <namePart type="given">Ben</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Newell, G. Richard</displayForm>
+                        <namePart type="family">Newell</namePart>
+                        <namePart type="given">G. Richard</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Page, Dan</displayForm>
+                        <namePart type="family">Page</namePart>
+                        <namePart type="given">Dan</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Saarinen, Markku-Juhani O.</displayForm>
+                        <namePart type="family">Saarinen</namePart>
+                        <namePart type="given">Markku-Juhani O.</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Wolf, Claire</displayForm>
+                        <namePart type="family">Wolf</namePart>
+                        <namePart type="given">Claire</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020-12-03</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">28</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Secure, efficient execution of AES is an essential requirement on most computing platforms. Dedicated Instruction Set Extensions (ISEs) are often included for this purpose. RISC-V is a (relatively) new ISA that lacks such a standardized ISE. We survey the state-of-the-art industrial and academic ISEs for AES, implement and evaluate five different ISEs, one of which is novel. We recommend separate ISEs for 32 and 64-bit base architectures, with measured performance improvements for an AES-128 block encryption of 4x and 10x with a hardware cost of 1.1K and 8.2K gates respectively, when compared to a software-only implementation based on use of T-tables. We also explore how the proposed standard bit-manipulation extension to RISC-V can be harnessed for efficient implementation of AES-GCM. Our work supports the ongoing RISC-V cryptography extension standardisation process.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.46586/tches.v2021.i1.109-136</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8729</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8729">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/8729/8329" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="" ID="FILE1_rub-journals_8729">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/8729/8601" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8729" DMDID="DMD_rub-journals_8729">
+            <mets:fptr FILEID="FILE0_rub-journals_8729"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_8729" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_8729"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

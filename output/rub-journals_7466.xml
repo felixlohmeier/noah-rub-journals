@@ -1,0 +1,53 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7466">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>“Guest Workers” and Trade Union Politics in the Ruhr Coalfield from the Late 1950s to the Early 1980s</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Seidel, Hans-Christoph</displayForm>
+                        <namePart type="family">Seidel</namePart>
+                        <namePart type="given">Hans-Christoph</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015-12-17</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">22</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">The article examines the West Germany miners union’s (Industriegewerkschaft Bergbau und Energie, IGBE) attitude towards Turkish migrant workers in the Ruhr coalfields between the 1960s and the 1980s. By the beginning of the 1970s, the Turkish migrant workers had evolved into an important part of the Ruhr mines’ workforce. The Ruhrkohle AG, the unitary enterprise (Einheitsunternehmen) of the Ruhr mining industry, was for a short period the largest employer of Turkish migrant workers in the Federal Republic. Despite not paying much attention to the needs of Turkish workers during the 1960s, at the beginning of the 1970s the IGBE undertook many initiatives to integrate the Turkish miners in the union organisation and their families into the miner communities. This resulted in the miners union and the Ruhr mining industry being perceived as a role model for progressive integration policies in the Federal Republic. However, in the 1980s the return assistant policy in the mining industry again stimulated conflict between trade union organisations and the Turkish workforce.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/mts.54.2015.107-128</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7466</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7466">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/7466/6638" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7466" DMDID="DMD_rub-journals_7466">
+            <mets:fptr FILEID="FILE0_rub-journals_7466"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

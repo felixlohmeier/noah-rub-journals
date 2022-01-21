@@ -1,0 +1,54 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7436">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Connected by Calamity</title>
+                        <subTitle>The United States, the League of Red Cross Societies, and Transnational Disaster Assistance after the First World War</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Irwin, Julia F.</displayForm>
+                        <namePart type="family">Irwin</namePart>
+                        <namePart type="given">Julia F.</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2017-05-31</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">20</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">This article analyses the development of organised relief for global natural disasters in the years after the First World War, c. 1919 – 1932. It does so by telling two concurrent humanitarian narratives, one focused on a transnational institution, the other on the international affairs of a single nation-state. First, it examines the emergence of the United States as a key figure in global disaster relief at this time. Here, it pays close attention to the transnational connections that American citizens, voluntary associations, and government agencies forged with people in other nations through disaster aid. The article then traces the origins and rise of the League of Red Cross Societies as a leading institution of voluntary transnational disaster assistance during the 1920s and early 1930s, thus recovering the untold history of the organisation’s earliest disaster relief operations. Analysing these narratives in tandem and considering the links between them, I argue, offers important new perspectives on the history of transnational disaster relief at a key stage in its historical development, the interwar years.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/mts.57.2017.57-76</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7436</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7436">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/7436/6608" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7436" DMDID="DMD_rub-journals_7436">
+            <mets:fptr FILEID="FILE0_rub-journals_7436"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

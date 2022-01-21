@@ -1,0 +1,53 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8531">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Algunas reflexiones sobre la inserción del comunismo en el movimiento obrero de la Argentina durante el período de entreguerras</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Camarero, Hernán</displayForm>
+                        <namePart type="family">Camarero</namePart>
+                        <namePart type="given">Hernán</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2009-01-01</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">9</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Universidad de Buenos Aires (Argentina)
+El Partido Comunista (PC) ocupó un capítulo destacado en la historia del movimiento obrero de la Argentina durante el período de entreguerras, en especial, desde mediados de la década de 1920 hasta 1943, cuando se produjo el advenimiento del peronismo y se verificó el declive de la presencia comunista. Con la implantación molecular de sus células de fábrica y sus agrupaciones gremiales, el PC se convirtió en un impulsor principal de la movilización de los trabajadores. Durante esos años, logró agrupar a miles de militantes, montó una densa red de agitación y propaganda, lideró varios conflictos yorganizaciones sindicales, en especial, dentro del proletariado industrial y animó diversas experiencias socioculturales. Desde hace unos años venimos desplegando una investigación acerca de este tema. Entre otras cuestiones, allí analizamos las características que asumió la militancia comunista en cuatro ámbitos específicos del movimiento obrero: el sitio de trabajo, el espacio de la lucha y la organización sindical, lasociabilidad cultural y el asociacionismo inmigrante. En este artículo presentamos algunas conclusiones generales sobre este estudio, en una suerte de ejercicio de síntesis de nuestras investigaciones. Estas reflexiones se articulan a partir de una serie de preguntas claves: ¿Cuándo, cómo y por qué el PC logró penetrar y echar raíces de manera orgánica en la clase obrera argentina hasta 1943? ¿Merced a qué condiciones y circunstancias fue posible tanto este proceso de inserción comunista entre los trabajadores como el posterior fenómeno de declive de esta presencia hacia mediados de los años cuarenta?¿Cuál fue el legado y el aporte específico de los comunistas a la historia del movimiento obrero argentino de aquella etapa histórica?&amp;nbsp;</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8531</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8531">
+                <mets:FLocat xlink:href="https://incs.ub.rub.de/index.php/INCS/article/download/8531/8097" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8531" DMDID="DMD_rub-journals_8531">
+            <mets:fptr FILEID="FILE0_rub-journals_8531"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

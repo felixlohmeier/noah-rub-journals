@@ -1,0 +1,53 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7521">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>For Equality or Against Foreign Oppression? The Politics of the Left in Iceland Leading up to the Cold War</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Kristjánsdóttir, Ragnheiður</displayForm>
+                        <namePart type="family">Kristjánsdóttir</namePart>
+                        <namePart type="given">Ragnheiður</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015-01-31</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">18</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">The Second World War was followed by a period of political renewal in Europe; so too, arguably, in Iceland. Those responsible for laying the grounds for the republic, founded in 1944, were inspired by radical thinking, social democratic as well as socialist. Public ownership, the welfare state and democratic reform were on the agenda. Taking as a point of departure the political discourses of the Left (the Social Democrats and the more radical Socialists) this paper explains how these ideals – the quest for economic, social and political equality – were eclipsed by the primacy of independence politics. This process was already under way in the 1930s, when the Communist Party (1930–1938) somewhat successfully equipped itself with a new version of Icelandic nationalism. It was further intensified during the war and culminated with the onset of the Cold War. The pro-Soviet Socialist Party (founded in 1938) thrived on its anti-imperialist nationalism, leaving the Social Democrats as the smallest of the four political parties. This paper is a contribution towards the ongoing debate on why Iceland’s party system differs from that of the other Nordic countries, debates about the peculiarities of Iceland’s political culture to this date, as well as discussions about how nationalism and national identity affected the politics of the left in Europe.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/mts.48.2012.11-28</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7521</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7521">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/7521/6693" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7521" DMDID="DMD_rub-journals_7521">
+            <mets:fptr FILEID="FILE0_rub-journals_7521"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

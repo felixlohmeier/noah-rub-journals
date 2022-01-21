@@ -1,0 +1,62 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8528">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <nonSort>Die </nonSort>
+                        <title>Schweizer Spanien-Freiwilligen. Ein soziobiografischer Querschnitt</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Huber, Peter</displayForm>
+                        <namePart type="family">Huber</namePart>
+                        <namePart type="given">Peter</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Hug, Ralph</displayForm>
+                        <namePart type="family">Hug</namePart>
+                        <namePart type="given">Ralph</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2009-01-01</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">7</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Universität Basel (Switzerland)
+The following article is based on two important documentary sources: the archives of the Swiss Military Tribunal in Berne, which tried volunteers on their return to Switzerland after the civil war, and the archives of the International Brigades which were moved from Albacete to Moscow in 1939. The article analyses the social, political and economic realities that motivated the approx. 800 Swiss to volunteer. It reveals their political leanings, the background of unemployment and the volunteers’ ideological attraction to the fight for a &quot;New Spain&quot;. The article challenges popular stereotypes and investigatesthe broader factors that drew volunteers. Unfortunately there is no authoritative comparative study of the social profiles of the international volunteers yet. There is no general view of &quot;who&quot; the volunteers were. The author is publishing a biographical dictionary of the Swiss volunteers and plans to undertake a prosopographical analysis using information gathered about volunteers from other European countries.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8528</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8528">
+                <mets:FLocat xlink:href="https://incs.ub.rub.de/index.php/INCS/article/download/8528/8094" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8528" DMDID="DMD_rub-journals_8528">
+            <mets:fptr FILEID="FILE0_rub-journals_8528"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,60 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8779">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Turfan</title>
+                        <subTitle>Connecting with Seleucia-Ctesiphon</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Hunter, Erica C. D.</displayForm>
+                        <namePart type="family">Hunter</namePart>
+                        <namePart type="given">Erica C. D.</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2021-03-18</dateIssued>
+                    </originInfo>
+                    <abstract lang="eng">Despite its linguistic and physical distance from the Mesopotamian heartland, the Church of the East maintained its spiritual and theological heritage amongst its Iranian-speaking communities at Turfan. Psalters written in a wide variety of languages and bilingual lectionaries attest the efforts that were made to ‘reach out’ to the local communities, but it was through the Syriac liturgy that the intrinsic connection with Seleucia-Ctesiphon was maintained. Using MIK III 45, the most complete liturgical text from Turfan, consisting of 61 folios with a C14 dating (771–884 CE), the paper explores the role of liturgy as a tool of community memory. Of prime significance was the commemoration of Mart Shir, the Sassanid queen who eschewed her royal connections to become the evangelist of Marv. Here, the liturgy offers a very different perspective to the ninth-century Arabic Chronicle of Se’ert, in which she was subordinated to Baršabbā, the alleged first bishop of Marv. The prayer of Bar Sauma, bishop of Nisibis, recited plene&amp;nbsp;during the rite for the consecration of a new church (altar), also recalled the close association that had been forged with the Sassanid realms.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.46586/er.11.2020.8779</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8779</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8779">
+                <mets:FLocat xlink:href="https://er.ceres.rub.de/index.php/ER/article/download/8779/8431" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="text/html" ID="FILE1_rub-journals_8779">
+                <mets:FLocat xlink:href="https://er.ceres.rub.de/index.php/ER/article/download/8779/8432" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8779" DMDID="DMD_rub-journals_8779">
+            <mets:fptr FILEID="FILE0_rub-journals_8779"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_8779" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_8779"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

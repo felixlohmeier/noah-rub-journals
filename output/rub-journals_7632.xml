@@ -1,0 +1,53 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7632">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>„Links um!“ – Zur Organisationsgeschichte antimilitaristischer Soldatenarbeit in der Bundesrepublik Deutschland</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Virchow, Fabian</displayForm>
+                        <namePart type="family">Virchow</namePart>
+                        <namePart type="given">Fabian</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015-01-24</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">20</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">As in several other European countries with military draft Germany’s Federal Armed Forces were confronted with antimilitaristic activities on the part of soldiers in the 1970s. Influenced by student activism and a broader societal climate of emancipation and democratic break-up the German armed forces became the arena of campaigning for free speech in the military, for a significant pay increase for the lower ranks and – more general – for linking the soldiers’ struggles with the one organised by workers and trade unions.In many German cities so called ‘Soldiers Committees’ sprang up and started to distribute pamphlets calling the conscripts to answer back drill and harassment, to struggle for price cutting in the canteens or for even have them run by the soldiers themselves. In the vast majority of cases the committees were linked to one or another leftist organisation resulting, to a different degree and inspired by the military coup in Chile in 1973 as a negative example and the Revolution of the Carnations in Portugal in 1974 as a positive one, in revolutionary fantasies according to which the armed forces would be turned from an ‘instrument of the bourgeoisie’ to a peoples militia.Due to ideological rivalries, dogmatic world views and often authoritarian structures of the soldiers committees (and the leftist organizations behind them) on the one hand and a flexible but at the same time tough reaction by the German Armed Forces on the other hand the antimilitaristic activities on the part of soldiers remained a limited episode confined to the 1970s mainly.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/mts.40.2008.61-80</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7632</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7632">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/7632/6804" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7632" DMDID="DMD_rub-journals_7632">
+            <mets:fptr FILEID="FILE0_rub-journals_7632"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

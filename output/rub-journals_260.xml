@@ -1,0 +1,52 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_260">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Los sindicatos comunistas argentinos ante el surgimiento del peronismo. El caso textil y metalúrgico</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Schiavi, Marcos</displayForm>
+                        <namePart type="family">Schiavi</namePart>
+                        <namePart type="given">Marcos</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2012-09-05</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">15</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Throughout the 1930s and the early 1940s the Communist Party of Argentina (Partido Comunista de la Argentina, PCA) managed to maintain solid influence in the unions. The PCA organized industrial unions, internal committees, factory and neighborhood cells and reached important positions in the General Confederation of Labour. After 1936 it became the most important political force in the labor movement. However, after the military coup of 1943, its weight in unions declined sharply. First, due to military repression. Then, because of the Peronist political cooptation, the spaces were dwindling. In just a few years a major force with years of construction seemed to disappear from the scene. This paper will focus on a particular moment in this process: the eight months ranging from October 17, 1945 to the dissolution of the communist unions in July 1946. In particular, two cases will be highlighted: the Metallurgical Industry and Textile Workers Union. Both had been two successful experiences of communist militancy activation.Buenos Aires University</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_260</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_260">
+                <mets:FLocat xlink:href="https://incs.ub.rub.de/index.php/INCS/article/download/260/218" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_260" DMDID="DMD_rub-journals_260">
+            <mets:fptr FILEID="FILE0_rub-journals_260"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

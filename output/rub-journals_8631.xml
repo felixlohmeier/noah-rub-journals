@@ -1,0 +1,60 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8631">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Appraisal of names of shebeens in north-central Namibia</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Amakali, Justina M. L.</displayForm>
+                        <namePart type="family">Amakali</namePart>
+                        <namePart type="given">Justina M. L.</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Mbenzi, Petrus Angula</displayForm>
+                        <namePart type="family">Mbenzi</namePart>
+                        <namePart type="given">Petrus Angula</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020-06-30</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">17</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">This study investigates the features and significance of shebeen names in north-central Namibia. The purpose of this study is to understand the motives behind the use of these names and to establish their sources. This paper is guided by the theory of Willy van Langendock who argues that proper names function as appellatives through the operation of metonymy. Names of shebeens were collected. Interviews were used to solicit information on the meaning of and motives behind the selection of the names. The study reveals that shebeen owners are often not aware that undesirable names are forbidden by law. Furthermore, the study found that names of shebeens were chosen to persuade customers, to praise good practices and to indirectly attack undesirable behaviour in the community. The study finds that Namibia needs a regulatory body on the naming of places to guide the communities on naming issues. Communities should also be sensitized about the legal implications of using of offensive names.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8631</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8631">
+                <mets:FLocat xlink:href="https://namibian-studies.com/index.php/JNS/article/download/8631/8197" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8631" DMDID="DMD_rub-journals_8631">
+            <mets:fptr FILEID="FILE0_rub-journals_8631"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

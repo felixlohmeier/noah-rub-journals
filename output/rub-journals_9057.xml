@@ -1,0 +1,59 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_9057">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Nature, Knowledge, and Protest</title>
+                        <subTitle>A Review of Recent Publications on the History of Environmentalism</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Kellershohn, Jan</displayForm>
+                        <namePart type="family">Kellershohn</namePart>
+                        <namePart type="given">Jan</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2021-08-09</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">15</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Melanie Arndt: Tschernobylkinder. Die transnationale Geschichte einer nuklearen Ka- tastrophe, Göttingen: Vandenhoeck &amp;amp; Ruprecht, 2020, 499 pp., ISBN: 978-3-525- 35208-3.
+Nils Güttler: Alles über das Fliegen. Eine politische Wissensgeschichte des Frankfurter Flughafens, Vienna: Turia &amp;amp; Kant, 2020, 123 pp., ISBN: 978-3-85132-981-0.
+Katrin Jordan: Ausgestrahlt. Die mediale Debatte um „Tschernobyl“ in der Bundesrepu- blik und in Frankreich 1986/87, Göttingen: Wallstein, 2018, 424 pp., ISBN: 978-3- 8353-3304-8.
+Stephen Milder: Greening Democracy. The Anti-Nuclear Movement and Political Envi- ronmentalism in West Germany and Beyond, 1968–1983, Cambridge: Cambridge Uni- versity Press, 2017, 280 pp., ISBN: 978-1-107-13510-9.
+Christian Möller: Umwelt und Herrschaft in der DDR. Politik, Protest und die Gren- zen der Partizipation in der Diktatur, Göttingen: Vandenhoeck &amp;amp; Ruprecht, 2020, 396 pp., ISBN: 978-3-525-31096-0.
+Martin Spenger: Green Beat. Gary Snyder und die moderne amerikanische Umweltbe- wegung, Göttingen: Vandenhoeck &amp;amp; Ruprecht, 2020, 239 pp., ISBN: 978-3-525- 31098-4.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <identifier type="doi">10.46586/mts.65.2021.149-163</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_9057</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_9057">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/9057/8643" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_9057" DMDID="DMD_rub-journals_9057">
+            <mets:fptr FILEID="FILE0_rub-journals_9057"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

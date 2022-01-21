@@ -1,0 +1,54 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7698">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <nonSort>Der </nonSort>
+                        <title>Bergmann in der Historiographie (1920–2000)</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Licholobova, Zoja G.</displayForm>
+                        <namePart type="family">Licholobova</namePart>
+                        <namePart type="given">Zoja G.</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015-01-20</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">15</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">The history of the economic development of the coal mining industry was among the main topics of Soviet historiography. Following the ideological requirements of the communist party, it was presented as the success story of the “great socialist construction project”. Economic buildup and technical progress were the main identifcation points for the Soviet state. Under the dictatorship of the communist party, Soviet historians for a long time could not deal with many aspects of the political, economic, social and cultural history of this field. Only in recent times, after the collapse of the Soviet Union and the opening of the former Soviet archives, historians started to examine many of the former “blank spots” of history. The article provides a survey of the historiography on Soviet-Ukrainian miners and mining industry from the 1920s until postsoviet times.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/mts.37.2007.15-29</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7698</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7698">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/7698/6870" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7698" DMDID="DMD_rub-journals_7698">
+            <mets:fptr FILEID="FILE0_rub-journals_7698"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

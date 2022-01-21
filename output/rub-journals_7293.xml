@@ -1,0 +1,102 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7293">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Data Flow Oriented Hardware Design of RNS-based Polynomial Multiplication for SHE Acceleration</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Cathébras, Joël</displayForm>
+                        <namePart type="family">Cathébras</namePart>
+                        <namePart type="given">Joël</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Carbon, Alexandre</displayForm>
+                        <namePart type="family">Carbon</namePart>
+                        <namePart type="given">Alexandre</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Milder, Peter</displayForm>
+                        <namePart type="family">Milder</namePart>
+                        <namePart type="given">Peter</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Sirdey, Renaud</displayForm>
+                        <namePart type="family">Sirdey</namePart>
+                        <namePart type="given">Renaud</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Ventroux, Nicolas</displayForm>
+                        <namePart type="family">Ventroux</namePart>
+                        <namePart type="given">Nicolas</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2018-08-21</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">20</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">This paper presents a hardware implementation of a Residue Polynomial Multiplier (RPM), designed to accelerate the full Residue Number System (RNS) variant of the Fan-Vercauteren scheme proposed by Bajard et al. [BEHZ16]. Our design speeds up polynomial multiplication via a Negative Wrapped Convolution (NWC) which locally computes the required RNS channel dependent twiddle factors. Compared to related works, this design is more versatile regarding the addressable parameter sets for the BFV scheme. This is mainly brought by our proposed twiddle factor generator that makes the design BRAM utilization independent of the RNS basis size, with a negligible communication bandwidth usage for non-payload data. Furthermore, the generalization of a DFT hardware generator is explored in order to generate RNS friendly NTT architectures. This approach helps us to validate our RPM design over parameter sets from the work of Halevi et al. [HPS18]. For the depth-20 setting, we achieve an estimated speed up for the residue polynomial multiplications greater than 76 during ciphertexts multiplication, and greater than 16 during relinearization. It thus results in a single-threaded Mult&amp;amp;Relin ciphertext operation in 109.4 ms (×3.19 faster than [HPS18]) with RPM counting for less than 15% of the new computation time. Our RPM design scales up with reasonable use of hardware resources and realistic bandwidth requirements. It can also be exploited for other RNS based implementations of RLWE cryptosystems.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tches.v2018.i3.69-88</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7293</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7293">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/7293/6467" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_rub-journals_7293">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/7293/7928" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="" ID="FILE2_rub-journals_7293">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/7293/7929" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7293" DMDID="DMD_rub-journals_7293">
+            <mets:fptr FILEID="FILE0_rub-journals_7293"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_7293" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_7293"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART2_rub-journals_7293" LABEL="">
+                <mets:fptr FILEID="FILE2_rub-journals_7293"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

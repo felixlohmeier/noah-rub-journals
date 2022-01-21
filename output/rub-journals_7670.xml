@@ -1,0 +1,54 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7670">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Am Beginn der wissenschaftlichen Grundlegung gewerkschaftlichen Wirkens − Theodor Leipart</title>
+                        <subTitle>Aufklärer und Verfechter der Wirtschaftsdemokratie</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Plener, Ulla</displayForm>
+                        <namePart type="family">Plener</namePart>
+                        <namePart type="given">Ulla</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015-01-21</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">18</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Though trade union leader Theodor Leipart is regarded as a key actor in the history of german trade unionsm he has not attracted much attention since his death in 1947. Neither trade union historians nor activists have made efforts to reconsider his role in the first half of the 20th century. This article focusses in particular on Leiparts attempts to establish a scientific basis of trade union activism. Starting with an overview on Leiparts ideological background his political ideas and strategies are investigated thoroughly. Furthermore his role as a principal investigator of ideas and practices of the so-called “Wirtschaftsdemokratie” is described more detailed in order to evaluate both trade union and social policy evolution in the 1920s and early 1930s.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/mts.38.2007.27-44</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7670</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7670">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/7670/6842" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7670" DMDID="DMD_rub-journals_7670">
+            <mets:fptr FILEID="FILE0_rub-journals_7670"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

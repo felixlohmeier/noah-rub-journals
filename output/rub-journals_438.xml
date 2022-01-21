@@ -1,0 +1,62 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_438">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Self-Representation and Cultural Expectations</title>
+                        <subTitle>Yogi Chen and Religious Practices of Life-Writing</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Payne, Richard K.</displayForm>
+                        <namePart type="family">Payne</namePart>
+                        <namePart type="given">Richard K.</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2016-03-03</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">50</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Explores the differences in self-representation as found in the autobiographical writings of Yogi Chen, Billy Graham, and the Dalai Lama. While the latter two are widely recognized in American popular religious culture, the former is virtually invisible outside the immigrant Chinese American community. This invisibility is consistent with fact that the religious praxes of immigrant communities remain largely under-studied.However, one additional factor appears to be the mismatch between the expectations of the dominant religious culture and the immigrant culture in terms of the ways in which religious leaders represent themselves. Both Billy Graham and the Dalai Lama present themselves in very humble terms, consistent with the expectations of the Pietist background to American popular religion. Yogi Chen on the contrary tends toward a self-aggrandizing style, which although consistent with the competitive nature of premodern Tibetan religious culture is not congruent with the expectations of American popular religion.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/er.v3.2016.33-82</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_438</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_438">
+                <mets:FLocat xlink:href="https://er.ceres.rub.de/index.php/ER/article/download/438/392" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="text/html" ID="FILE1_rub-journals_438">
+                <mets:FLocat xlink:href="https://er.ceres.rub.de/index.php/ER/article/download/438/8276" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_438" DMDID="DMD_rub-journals_438">
+            <mets:fptr FILEID="FILE0_rub-journals_438"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_438" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_438"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

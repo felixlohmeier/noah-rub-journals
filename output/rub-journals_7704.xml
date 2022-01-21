@@ -1,0 +1,55 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7704">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <nonSort>The </nonSort>
+                        <title>Donbas Miners‘ Movement in the Very Late Soviet Era</title>
+                        <subTitle>An Historical Perspective</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Siegelbaum, Lewis H.</displayForm>
+                        <namePart type="family">Siegelbaum</namePart>
+                        <namePart type="given">Lewis H.</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015-01-21</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">15</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Beginning with some recollections about my own involvement with the miners‘ movement in Ukraine‘s Donbas basin, this essay critically reconsiders the analyses of the movement that I and others made in the late 1980s and for a number of years after the Soviet Union‘s collapse. It argues that the movement was a “transitional” phenomenon, asserting itself at a time when labor and its representation were no longer under Communist control but when the rule of capital had yet to assert itself. The strategic alliance that the movement made with enterprise directors grew out of the paternalistic nature of the Soviet enterprise and, after the collapse of the Soviet system, the intensification of dependency relations within it. The remainder of the essay engages with two analyses of the nature of the transition – Burawoy and Krotov‘s notion of the rise of merchant capital, and Kideckel‘s concept of “neo-capitalism” – in the light of post-independence Ukrainian politics and the progressive weakening of the miners‘ movement. It concludes that the shrinkage of tactical space for the insertion of mineworkers‘ objectives into national politics made it extremely unlikely that the movement could sustain its efforts on behalf of a „normal life“ for the dwindling number of miners and their families.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/mts.37.2007.133-147</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7704</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7704">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/7704/6876" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7704" DMDID="DMD_rub-journals_7704">
+            <mets:fptr FILEID="FILE0_rub-journals_7704"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

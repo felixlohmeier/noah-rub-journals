@@ -1,0 +1,62 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8723">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Nothing Compares to the Past</title>
+                        <subTitle>Industrial Decline and Socio-Cultural Change in Asturias</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Vega, Rubén</displayForm>
+                        <namePart type="family">Vega</namePart>
+                        <namePart type="given">Rubén</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Kerry, Matthew</displayForm>
+                        <namePart type="family">Kerry</namePart>
+                        <namePart type="given">Matthew</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020-12-01</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">27</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Processes of industrial decline have often generated nostalgia phenomena in the affected communities based on the more or less idealised memory of a past time of prosperity that disappeared as the chimneys went out (‘smokestack nostalgia’, this has been called sometimes). In an earlier time, the development of industries and mining had resulted in the configuration of well-defined social structures and socio-political frameworks. Class identity, collective action, labour disputes and trade union organisations provided the basis on which to build communities that revolved around work. Deindustrialisation undermines both the material and symbolic bases of those cities and regions that have known an industrial boom and exposes them to great uncertainty about their future. The elaboration of a collective memory capable of adapting to a radically transformed context constitutes a research field full of possibilities, despite its complexity. The references can be adapted to new post-industrial scenarios only with considerable difficulty, but at the same time they provide sources of pride and identity and response schemes to adversities. In the following lines, we will concentrate on a specific case: that of Asturias, a mining and industrial region with a prominent role played by the labour movement that has suffered a prolonged decline in its economic bases but has largely managed to preserve social cohesion. The traumatic nature of these changes invites us to explore the way in which collective perceptions manifest themselves and also the role that memory (and oblivion) can play in the reactions of young people subjected to very different challenges from those of their elders.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.46586/mts.64.2020.149-175</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8723</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8723">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/8723/8323" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8723" DMDID="DMD_rub-journals_8723">
+            <mets:fptr FILEID="FILE0_rub-journals_8723"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

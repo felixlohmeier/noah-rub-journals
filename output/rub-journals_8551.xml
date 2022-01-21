@@ -1,0 +1,79 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8551">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <nonSort>A </nonSort>
+                        <title>Compact and Scalable Hardware/Software Co-design of SIKE</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Massolino, Pedro Maat C.</displayForm>
+                        <namePart type="family">Massolino</namePart>
+                        <namePart type="given">Pedro Maat C.</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Longa, Patrick</displayForm>
+                        <namePart type="family">Longa</namePart>
+                        <namePart type="given">Patrick</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Renes, Joost</displayForm>
+                        <namePart type="family">Renes</namePart>
+                        <namePart type="given">Joost</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Batina, Lejla</displayForm>
+                        <namePart type="family">Batina</namePart>
+                        <namePart type="given">Lejla</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020-03-02</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">27</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">We present efficient and compact hardware/software co-design implementations of the Supersingular Isogeny Key Encapsulation (SIKE) protocol on field-programmable gate arrays (FPGAs). In order to be better equipped for different post-quantum scenarios, our architectures were designed to feature high-flexibility by covering all the currently available parameter sets and with support for primes up to 1016 bits. In particular, any of the current SIKE parameters equivalent to the post-quantum security of AES-128/192/256 and SHA3-256 can be selected and run on-the-fly. This security scalability property, together with the small footprint and efficiency of our architectures, makes them ideal for embedded applications in a post-quantum world. In addition, the proposed implementations exhibit regular, constant-time execution, which provides protection against timing and simple sidechannel attacks. Our results demonstrate that supersingular isogeny-based primitives such as SIDH and SIKE can indeed be deployed for embedded applications featuring competitive performance. For example, our smallest architecture based on a 128-bit MAC unit takes only 3415 slices, 21 BRAMs and 57 DSPs on a Virtex 7 690T and can perform key generation, encapsulation and decapsulation in 14.4, 24.4 and 26.0 milliseconds for SIKEp434 and in 52.3, 86.4 and 93.2 milliseconds for SIKEp751, respectively.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tches.v2020.i2.245-271</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8551</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8551">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/8551/8116" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8551" DMDID="DMD_rub-journals_8551">
+            <mets:fptr FILEID="FILE0_rub-journals_8551"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

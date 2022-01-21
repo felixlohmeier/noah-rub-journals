@@ -1,0 +1,54 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8635">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <nonSort>The </nonSort>
+                        <title>2019 drought in Namibia</title>
+                        <subTitle>An overview</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Shikangalah, Rosemary N.</displayForm>
+                        <namePart type="family">Shikangalah</namePart>
+                        <namePart type="given">Rosemary N.</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020-06-30</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">22</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Namibia is one of most vulnerable countries to the effects of climate change due the aridity to most parts of the country. Events resulting from climate changes such droughts drive the majority of population to poverty when they occur. Drought spells have become a common feature in Namibia. In 2019, another drought hit Namibia and several resultant impacts made news. This study aimed at providing an overview of the drought impacts from the 2019 news headlines. The study employed an online survey on reported events based on both national and international news reports. The study found that the rainfall during the 2019 drought was the lowest recorded in Windhoek since 1891 and the drought was the worst in the last 90 years in Namibia. A combination of poor, sporadic rainfall and low soil moisture has led to very low agriculture production and an extreme shortage of water, affecting several communities across the country. As a result, at least one-third of the Namibian population was left without adequate food supplies and thousands of livestock perished due to drought. The study concluded that there is a need to adopt and use various drought survival mechanisms on a permanent basis rather than only implementing them when drought occurs. This would largely reduce the dependency on the interventions. Budgetary planning could focus for instance on establishing the required desalination plants and infrastructure for pumping water from the coast to distant needy communities.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8635</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8635">
+                <mets:FLocat xlink:href="https://namibian-studies.com/index.php/JNS/article/download/8635/8199" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8635" DMDID="DMD_rub-journals_8635">
+            <mets:fptr FILEID="FILE0_rub-journals_8635"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

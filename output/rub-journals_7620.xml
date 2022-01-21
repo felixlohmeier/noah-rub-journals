@@ -1,0 +1,53 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7620">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Social and cultural aspects of the historiography on the Second World War in Slovenia</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Godeša, Bojan</displayForm>
+                        <namePart type="family">Godeša</namePart>
+                        <namePart type="given">Bojan</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015-01-24</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">15</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">The paper deals with the basic characteristics of Slovene historiography on World War II, which were largely conditioned by their social significance. The post-war authorities in Slovenia and Yugoslavia (1945–1990) legitimized themselves by directly referring back to the events during the occupation (1941–1945). Socialist historiography on World War II remains valid with regard to its relative reliability concerning the facts. The interpretation of the whole, however, was fundamentally deficient, as it was undertaken exclusively by leading politicians and ideologists. Only after the fall of communism, Slovene historiography started to pay more attention to more complex and pluralist interpretations of the past, attempting at eliminating ideological stereotypes and taboos. New research questions include those about the legitimacy and legality of the communist resistance movement, about interwar violence and post-war killings, about the essence of the Slovene variant of World War II (civil war – yes or no), about the number of war victims and who caused them, about the various faces of collaboration. In addition, Slovene historiography began to inquire into the hitherto neglected aspects of social, economic, and everyday history of the Second World War. On the whole, the period between 1941 and 1945 remains one of the most contradictory issues within Slovene historiography.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/mts.41.2009.111-125</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7620</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7620">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/7620/6792" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7620" DMDID="DMD_rub-journals_7620">
+            <mets:fptr FILEID="FILE0_rub-journals_7620"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

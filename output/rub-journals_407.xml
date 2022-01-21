@@ -1,0 +1,86 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_407">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <nonSort>A </nonSort>
+                        <title>concept for deep cryogenic treatment of tool steels</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Gavriljuk, V. G.</displayForm>
+                        <namePart type="family">Gavriljuk</namePart>
+                        <namePart type="given">V. G.</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Theisen, W.</displayForm>
+                        <namePart type="family">Theisen</namePart>
+                        <namePart type="given">W.</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Tyshchenko, A. I.</displayForm>
+                        <namePart type="family">Tyshchenko</namePart>
+                        <namePart type="given">A. I.</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Sirosh, V. A.</displayForm>
+                        <namePart type="family">Sirosh</namePart>
+                        <namePart type="given">V. A.</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Kortmann, A.</displayForm>
+                        <namePart type="family">Kortmann</namePart>
+                        <namePart type="given">A.</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015-11-25</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">9</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">A short review of experimental data about the effect of deep cryogenic treatment,DCT, on the abrasive wear of tool steels is presented along with available hypotheses. UsingMössbauer spectroscopy, X-ray diffraction, mechanical spectroscopy and transmission electronmicroscopy, it is shown that the isothermal martensitic transformation proceeds in the course ofDCT. Moreover, the softness of the virgin isothermal martensite initiates the plastic deformationduring martensitic deformation, which results in the partial removal of carbon atoms from the solidsolution by the gliding dislocations. This effect eliminates the precipitation of the ε(η)-carbideduring subsequent tempering, shifts cementite precipitation towards higher temperatures anddelays precipitation of special carbides at temperatures of secondary hardness. Thus, theprecipitation potential of the γ solid solution is preserved and can be realized during the usage oftools increasing thereby the tools life. Based on the obtained results, a new concept of DCT isdeveloped and the correction of its technology to the temperature range of the isothermalmartensitic transformation is proposed.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/icscm.3.2015.236-244</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_407</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_407">
+                <mets:FLocat xlink:href="https://icscm.ub.rub.de/index.php/ICSCM/article/download/407/363" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_407" DMDID="DMD_rub-journals_407">
+            <mets:fptr FILEID="FILE0_rub-journals_407"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

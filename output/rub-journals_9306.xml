@@ -1,0 +1,87 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_9306">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>ModuloNET</title>
+                        <subTitle>Neural Networks Meet Modular Arithmetic for Efficient Hardware Masking</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Dubey, Anuj</displayForm>
+                        <namePart type="family">Dubey</namePart>
+                        <namePart type="given">Anuj</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Ahmad, Afzal</displayForm>
+                        <namePart type="family">Ahmad</namePart>
+                        <namePart type="given">Afzal</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Pasha, Muhammad Adeel</displayForm>
+                        <namePart type="family">Pasha</namePart>
+                        <namePart type="given">Muhammad Adeel</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Cammarota, Rosario</displayForm>
+                        <namePart type="family">Cammarota</namePart>
+                        <namePart type="given">Rosario</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Aysu, Aydin</displayForm>
+                        <namePart type="family">Aysu</namePart>
+                        <namePart type="given">Aydin</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2021-11-19</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">51</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Intellectual Property (IP) thefts of trained machine learning (ML) models through side-channel attacks on inference engines are becoming a major threat. Indeed, several recent works have shown reverse engineering of the model internals using such attacks, but the research on building defenses is largely unexplored. There is a critical need to efficiently and securely transform those defenses from cryptography such as masking to ML frameworks. Existing works, however, revealed that a straightforward adaptation of such defenses either provides partial security or leads to high area overheads. To address those limitations, this work proposes a fundamentally new direction to construct neural networks that are inherently more compatible with masking. The key idea is to use modular arithmetic in neural networks and then efficiently realize masking, in either Boolean or arithmetic fashion, depending on the type of neural network layers. We demonstrate our approach on the edge-computing friendly binarized neural networks (BNN) and show how to modify the training and inference of such a network to work with modular arithmetic without sacrificing accuracy. We then design novel masking gadgets using Domain-Oriented Masking (DOM) to efficiently mask the unique operations of ML such as the activation function and the output layer classification, and we prove their security in the glitch-extended probing model. Finally, we implement fully masked neural networks on an FPGA, quantify that they can achieve a similar latency while reducing the FF and LUT costs over the state-of-the-art protected implementations by 34.2% and 42.6%, respectively, and demonstrate their first-order side-channel security with up to 1M traces.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.46586/tches.v2022.i1.506-556</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_9306</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_9306">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/9306/8872" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_9306" DMDID="DMD_rub-journals_9306">
+            <mets:fptr FILEID="FILE0_rub-journals_9306"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

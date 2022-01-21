@@ -1,0 +1,87 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7266">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>SIDH on ARM</title>
+                        <subTitle>Faster Modular Multiplications for Faster Post-Quantum Supersingular Isogeny Key Exchange</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Seo, Hwajeong</displayForm>
+                        <namePart type="family">Seo</namePart>
+                        <namePart type="given">Hwajeong</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Liu, Zhe</displayForm>
+                        <namePart type="family">Liu</namePart>
+                        <namePart type="given">Zhe</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Longa, Patrick</displayForm>
+                        <namePart type="family">Longa</namePart>
+                        <namePart type="given">Patrick</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Hu, Zhi</displayForm>
+                        <namePart type="family">Hu</namePart>
+                        <namePart type="given">Zhi</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2018-08-14</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">20</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">We present high-speed implementations of the post-quantum supersingular isogeny Diffie-Hellman key exchange (SIDH) and the supersingular isogeny key encapsulation (SIKE) protocols for 32-bit ARMv7-A processors with NEON support. The high performance of our implementations is mainly due to carefully optimized multiprecision and modular arithmetic that finely integrates both ARM and NEON instructions in order to reduce the number of pipeline stalls and memory accesses, and a new Montgomery reduction technique that combines the use of the UMAAL instruction with a variant of the hybrid-scanning approach. In addition, we present efficient implementations of SIDH and SIKE for 64-bit ARMv8-A processors, based on a high-speed Montgomery multiplication that leverages the power of 64-bit instructions. Our experimental results consolidate the practicality of supersingular isogeny-based protocols for many real-world applications. For example, a full key-exchange execution of SIDHp503 is performed in about 176 million cycles on an ARM Cortex-A15 from the ARMv7-A family (i.e., 88 milliseconds @2.0GHz). On an ARM Cortex-A72 from the ARMv8-A family, the same operation can be carried out in about 90 million cycles (i.e., 45 milliseconds @1.992GHz). All our software is protected against timing and cache attacks. The techniques for modular multiplication presented in this work have broad applications to other cryptographic schemes.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tches.v2018.i3.1-20</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7266</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7266">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/7266/6444" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_rub-journals_7266">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/7266/7923" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7266" DMDID="DMD_rub-journals_7266">
+            <mets:fptr FILEID="FILE0_rub-journals_7266"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_7266" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_7266"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,52 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_331">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>News on Archives, Holdings and Institutions</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>-, Editors</displayForm>
+                        <namePart type="family">-</namePart>
+                        <namePart type="given">Editors</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2010-07-20</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">7</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">• New Declassifications in Russian Archives 2009. • News on Journals. • Berlin: Archiv der Internationalen Brigaden im Bundesarchiv einsehbar. • St. Petersburg: Autobiography of Kirov’s Assassin Declassified. • Paris: Encounter with Nikita Petrov, Memorial. • The Assassination of Radek and Sokol’nikov: Document Published in France. • Pobeda 1941-1945. Russian Photo Archives on World War II. • Fundaçao Amílcar Cabral/ Fundação Mário Soares: Memory of the Tarrafal Concentration Camp in Cape Verde. • Recently Published in French Language: A Guide to the Comintern Archives. • Neue Online-Ausstellung würdigt politische Häftlinge des KZ Oranienburg. • Berlin: Verfilmung, Digitalisierung, Indexierungund Herausgabe von SMAD-Dokumenten aus den Beständen des Russischen Staatsarchivs. • Copenhagen: The Workers’ Museum &amp;amp; The Labour Movement’s Library and Archive. • Moscow: Secret Katyn Documents Published on the Web. • Berlin: Biographical Article on Skoblevskii-Roze Published. • Journal Article on Archives in the Russian Province.• Nouvelles de Belgique</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_331</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_331">
+                <mets:FLocat xlink:href="https://incs.ub.rub.de/index.php/INCS/article/download/331/289" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_331" DMDID="DMD_rub-journals_331">
+            <mets:fptr FILEID="FILE0_rub-journals_331"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

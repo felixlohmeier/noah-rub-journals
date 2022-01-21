@@ -1,0 +1,53 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7618">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Strategien sozialen Verhaltens in der slowenischen historischen Erzählkunst</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Hladnik, Miran</displayForm>
+                        <namePart type="family">Hladnik</namePart>
+                        <namePart type="given">Miran</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015-01-24</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">18</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Several strategies for the national body’s behaviour in historical situations can be found in the Slovene historical novel since its beginnings in the 19th century: among others, these are the elimination of an enemy, the belief that there is no such thing as an enemy, and finally the recognition of a superior alien, as well as the acceptance and adoption of his values. Due to the fact that the Slovenes as a “non-historical nation” did not possess a military of their own, the first option has rarely been advised to literary heroes. On the contrary, the pretention that an alternative (hence hostile) culture does not exist at all is symptomatic for popular fiction, while the major works of the national canon propose the most risky attitude towards the dominant Other: its adjustment to the specific needs of one’s own. The option of accepting a foreign force and subordinating to it remained beyond the scope of Slovene literature, and so did a potential assimilation of the Other. The paper discusses the variety of metaphors in dealing with the national historical destiny, and includes France Prešeren’s Krst pri Savici (1836), Jožef Žemlja’s Sedem sinov (1843), Fran Levstik’s Martin Krpan, Ferdo Kočevar’s Mlinarjev Janez (both 1859), Josip Jurič’s Jurij Kozjak (1864), Ivan Tavčar’s Visoška kronika (1919), and Vladimir Bartol’s Alamut (1938).</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/mts.41.2009.71-88</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7618</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7618">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/7618/6790" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7618" DMDID="DMD_rub-journals_7618">
+            <mets:fptr FILEID="FILE0_rub-journals_7618"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

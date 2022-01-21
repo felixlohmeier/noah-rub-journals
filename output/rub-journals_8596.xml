@@ -1,0 +1,71 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8596">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>From A to Z</title>
+                        <subTitle>Projective coordinates leakage in the wild</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Cabrera Aldaya, Alejandro</displayForm>
+                        <namePart type="family">Cabrera Aldaya</namePart>
+                        <namePart type="given">Alejandro</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Pereida García, Cesar</displayForm>
+                        <namePart type="family">Pereida García</namePart>
+                        <namePart type="given">Cesar</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Brumley, Billy Bob</displayForm>
+                        <namePart type="family">Brumley</namePart>
+                        <namePart type="given">Billy Bob</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020-06-19</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">26</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">At EUROCRYPT 2004, Naccache et al. showed that the projective coordinates representation of the resulting point of an elliptic curve scalar multiplication potentially allows to recover some bits of the scalar. However, this attack has received little attention by the scientific community, and the status of deployed mitigations to prevent it in widely adopted cryptography libraries is unknown. In this paper, we aim to fill this gap, by analyzing several cryptography libraries in this context. To demonstrate the applicability of the attack, we use a side-channel attack to exploit this vulnerability within libgcrypt in the context of ECDSA. To the best of our knowledge, this is the first practical attack instance. It targets the insecure binary extended Euclidean algorithm implementation using a microarchitectural side-channel attack that allows recovering the projective representation of the output point of scalar multiplication during ECDSA signature generation. We captured 100k traces to estimate the number of traces an attacker would need to compromise the libgcrypt ECDSA implementation, resulting in less than 2k for commonly used elliptic curve secp256r1, demonstrating the attack feasibility. During exploitation, we found two additional vulnerabilities. However, we remark the purpose of this paper is not merely exploiting a library but about providing an analysis on the projective coordinates vulnerability status in widely deployed open-source libraries, filling a gap between its original description in the academic literature and the adoption of countermeasures to thwart it in real-world applications.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tches.v2020.i3.428-453</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8596</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8596">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/8596/8163" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8596" DMDID="DMD_rub-journals_8596">
+            <mets:fptr FILEID="FILE0_rub-journals_8596"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

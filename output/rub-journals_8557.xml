@@ -1,0 +1,60 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8557">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Construction, Performance, and Interpretation of a Shared Holy Place</title>
+                        <subTitle>The Case of Late Antique Mamre (Rāmat al-Khalīl)</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Heyden, Katharina</displayForm>
+                        <namePart type="family">Heyden</namePart>
+                        <namePart type="given">Katharina</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020-04-24</dateIssued>
+                    </originInfo>
+                    <abstract lang="eng">Multi-religious places of worship are a continuous phenomenon in the history of religions from Antiquity to the present day, despite all concrete differences. Analysing a very well-documented example from late Antiquity, Mamre (today Rāmat al-Khalīl) in Palestine (Hebron/al-Khalīl), this article discusses and refines the theoretical concept of “spiritual convergence” developed by Benjamin Z. Kedar. By applying differentiated analysis criteria recommended by Dorothea Weltecke, it also examines the influence of economic interests, political power, concepts of purity, and aspects of time, as well as symbolic and narrative interpretations of the place, in order to explain why spiritual convergence took place at this location for at least five hundred years. The thesis is put forward that it is not only the peripheral location or lower symbolic importance that favoured the side-by-side cult at Mamre, as Ora Limor stated. Even more important for the successful sharing of that holy place was the limit of festivals to one per year and the narrative and symbolism linking the place of Mamre with the virtue of philoxeny and hospitality. This enabled the religious authorities to tolerate and perhaps even promote multireligious coexistence—especially as this was to the economic benefit of the region and thus of all ethnic and religious groups. Based on the detailed case study on late antique Mamre, the article also inquires which methodological findings and questions can be applied to other shared holy places. The emphasis lies on the interplay between building activities, ritual performance, and symbolic interpretation in constructing and sharing holy spaces.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/er.11.2020.8557</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8557</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8557">
+                <mets:FLocat xlink:href="https://er.ceres.rub.de/index.php/ER/article/download/8557/8127" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="text/html" ID="FILE1_rub-journals_8557">
+                <mets:FLocat xlink:href="https://er.ceres.rub.de/index.php/ER/article/download/8557/8128" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8557" DMDID="DMD_rub-journals_8557">
+            <mets:fptr FILEID="FILE0_rub-journals_8557"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_8557" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_8557"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

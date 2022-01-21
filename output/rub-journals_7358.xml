@@ -1,0 +1,69 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7358">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Complicating histories of carnivores in Namibia</title>
+                        <subTitle>Past to present.</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Gordon, Robert J.</displayForm>
+                        <namePart type="family">Gordon</namePart>
+                        <namePart type="given">Robert J.</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Swanepoel, Janie</displayForm>
+                        <namePart type="family">Swanepoel</namePart>
+                        <namePart type="given">Janie</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Moore, Bernard C.</displayForm>
+                        <namePart type="family">Moore</namePart>
+                        <namePart type="given">Bernard C.</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2018-12-12</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">16</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">In November 2016, Anthrozoös, a top journal in the field of human-animal studies, published an article by Niki A. Rust (Canterbury) and Nik Taylor (Flinders) purporting to explain the “persecution” of carnivores on farmlands in Namibia through use of historical investigation and eco-feminist theories. While we were initially intrigued by the authors’ goals and frameworks, as they dovetailed with projects which we’d been undertaking for the previous few years, we found ourselves disappointed by their shallow argumentation, sparse documentary evidence, and fundamental flaws in their research methodology. In order to further discussion on the subject, we raised our concerns with the authors and with Anthrozoös with hopes to create a forum. The journal, published out of the International Society for Anthrozoology, categorically refused to host such a debate or allow the publication any commentaries or rejoinders to their articles. Rust &amp;amp; Taylor also refused to participate in a forum, via Anthrozoös or elsewhere. In order to further productive discussion, JNS has agreed to host this forum. The following three commentaries seek to elaborate on our concerns and urge the authors to follow suit.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7358</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7358">
+                <mets:FLocat xlink:href="https://namibian-studies.com/index.php/JNS/article/download/7358/6528" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7358" DMDID="DMD_rub-journals_7358">
+            <mets:fptr FILEID="FILE0_rub-journals_7358"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

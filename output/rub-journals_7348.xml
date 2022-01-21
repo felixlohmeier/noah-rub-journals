@@ -1,0 +1,52 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7348">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>‘Ja, es musste sein!’ German settler perceptions of violence during the Herero and Nama War (1904–1907)</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Lubotzky, Asher</displayForm>
+                        <namePart type="family">Lubotzky</namePart>
+                        <namePart type="given">Asher</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2018-12-12</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">25</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">German settlers colonizing South West Africa developed specific attitudes towards violence as a result of experiencing the Herero and Nama War (1904–1907). Through analyzing settler discourse at that time period, this article suggests that the war significantly contributed to the development of a distinct settler identity that was gradually growing apart from the German metropole. Settlers increasingly sought transnational examples of racial regimes for South West Africa, noting that their local conflict was part of a global racial struggle. Policies pursued in other, non-German settler societies became more attractive in light of the destructive German military policy and the disparities between settlers and metropole during the war. The war&apos;s goal, in the settler view, was to establish a stable oppressive and coercive structure which supported the permanent exploitation of Africans for economic, social and political gain. Therefore, they rejected both the eliminatory violence and the ‘humanitarian’ policies promoted by non-settler actors. To this end, settlers demanded the privilege of using domestic and labor-related violence independently, but also condemned violent behavior of European new-comers.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7348</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7348">
+                <mets:FLocat xlink:href="https://namibian-studies.com/index.php/JNS/article/download/7348/6518" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7348" DMDID="DMD_rub-journals_7348">
+            <mets:fptr FILEID="FILE0_rub-journals_7348"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,54 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8658">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Connecting with the First or the Third World?</title>
+                        <subTitle>Two Paths Toward the Transnational Network Building in the Japanese Global Sixties</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Takata, Kei</displayForm>
+                        <namePart type="family">Takata</namePart>
+                        <namePart type="given">Kei</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020-07-10</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">26</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">This paper is a sociological and historical investigation of the transnational alliances in the Japanese sixties movement. From the mid-1960s to 1970s, some Japanese New Left movements had prevailed by taking part in transnational activism. Yet, these movements had then bifurcated into two directions; those that were linked primarily with the western First World on the one hand and movements that were connected to the Third World revolutionary movements on the other hand. This paper explores the reasons for such bridging and division of transnational ties. By looking specifically at the civic anti-Vietnam War movement of Beheiren and the clandestine movement of the Japanese Red Army, the paper argues that it was the culture that had both bridged and created holes between the network clusters. Through investigation of the culture (ideology, beliefs, taste, etc.) and biographical backgrounds (class consciousness, generation, and memory) of each group member, the paper suggests that the activists’ culture and imaginative linkage with the outside world was the crucial factor in bridging the structural hole between movements that were remotely apart and embedded in different national settings. Yet, it also shows that different cultural and biographical backgrounds of the members of these two movements had created a cultural hole between the transnational networks that they have developed. Thus, in general, the paper shows how the duality of culture — bridging and diverging aspects — operates in the process of transnational network building.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/mts.63.2020.65-90</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8658</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8658">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/8658/8213" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8658" DMDID="DMD_rub-journals_8658">
+            <mets:fptr FILEID="FILE0_rub-journals_8658"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

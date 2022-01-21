@@ -1,0 +1,55 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8490">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <nonSort>The </nonSort>
+                        <title>Last Hurrah</title>
+                        <subTitle>Hanna Wolf’s and Wolfgang Schneider’s May, 1989 Defense of Stalinism</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Orlow, Dietrich</displayForm>
+                        <namePart type="family">Orlow</namePart>
+                        <namePart type="given">Dietrich</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020-02-26</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">10</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">University of Boston United States
+In May, 1989 the political power monopoly of the Communist parties in Eastern Europe was eroding. Political reforms in Poland and Hungary had essentially ended the rule of the Communist parties there. In the Soviet Union Mikhail Gorbachev’s perestroika and glasnost had fundamentally changed the face of Communist rule, in Czechoslovakia, Romania, and East Germany did the hardliners hold on. True, in the German Democratic Republic there were also calls for reforms from both inside and outside the ruling Communist party, the Socialist Unity Party (SED), but the party’s Politburo, led by Erich Honecker and Günter Mittag, resisted all calls for reforms and innovation. They were supported in this stance by an article entitled “On the History of the Comintern (Zur Geschichte der Komintern)” which appeared in the May 6/7 of Neus Deutschland, the SED’s official newspaper, The authors of this contribution, Hanna Wolf and Wolfgang Schneider, were well-known figures among the SED’s intellectual establishment. Wolf had been rector of the Parteihochschule “Karl Marx” from 1950 to 1983, and in 1989 she was a personal advisor to Erich Honecker. Schneider was a long-time faculty member at the Parteihochschule. The authors’ article was a response to a number of Soviet publications, which, using the new freedoms under glasnost were critically analyzing Stalin’s dictatorship. In their rebuttal Wolf and Schneider insisted, on the contrary, Stalin had never been a dictator; he was always subject to the democratic control of the CPSU’s Central Committee. And even if Stalin had been guilty of some shortcomings, exposing them was counterproductive in the on-going class struggle. Any Fehlerdiskussion (discussion of [past] mistakes) only served as ammunition for the imperialist enemy. Instead of indulging in self-critical research, Soviet historians should underscore theat throughout history the Communists had alsways been on the right side of the barricades. The reaction to Wolf’s and Schneider’s article was mixed. Most East German historians were predictably appalled. They feared that their historical research was being thrown back to the dark days of the Zhdanovchina. In contrast, the SED’s Central Committee passed a resolution praising the article as “exemplary.” Needless to say, Wolf’s and Schneider’s publication did nothing to halt the unravelling of Communist rule in East Germany. After the fall of Communism in the GDR Wolf and Schneider went on decidedly different ways. Wolf, who died in 1999, spent her last years a bitter and disappointed woman. She blamed Gorbachev for destroying the socialist society which Lenin, Stalin, and Brezhnev had so gloriously built. Schneider, on the other hand, in 2008 published a self-critical analysis of the failure of Marxism-Leninism. In his book, entitled, Die Marxsche Vision—Ansprüche, Scheitern, historisches Schicksal: Theoriegeschichtliche Reflexionen (The Marxist Vision – Claims, Failure, Historical Fate: Historical-theoretical Reflexions), he came to the conclusion that socialism in the GDR failed because of the economic crisis in the country, the paralysis of the SED’s leadership in the fall of 1989, and, interestingly enough, the regime’s violations of human rights.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8490</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8490">
+                <mets:FLocat xlink:href="https://incs.ub.rub.de/index.php/INCS/article/download/8490/8056" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8490" DMDID="DMD_rub-journals_8490">
+            <mets:fptr FILEID="FILE0_rub-journals_8490"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

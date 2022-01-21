@@ -1,0 +1,54 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7817">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Konfliktscheu und beredtes Schweigen</title>
+                        <subTitle>Die Kneipe als Kommunikationsraum im deutschen Kaiserreich</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Owzar, Armin</displayForm>
+                        <namePart type="family">Owzar</namePart>
+                        <namePart type="given">Armin</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015-01-14</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">16</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">The Wilhelmine society was hit by a huge number of social, political, religious and ethnic conflicts. How did the people deal with these conflicts in their everyday life? Describing the different segments of an urban society (especially Hamburg) and their ways of face-to-face communication in pubs the article tries to answer this question. A qualitative and a quantitative analysis of roughly 20.000 reports of investigation written by the Wilhelmine police, who over 22 years visited the pubs of Hamburg, shows that there was nearly no communication between the different segments of society. If they got into conversation, they normally did not talk about politics or anything else concerning their identiry or their beliefs. There are different causes of this behaviour: anthropological causes like fear of isolation, and political reasons caused by the &apos;Obrigkeitsstaat&apos;. One of the most important causes is the variety of conflicts in Wilhelmine Germany itself. The social, religious, political and ethnic problems were increasing alarmingly, so that silence seemed to be the most appropriate and reasonable strategy of managing conflicts.For the development of Weimar society the results turn out to be ambivalent. On the one hand this strategy of managing conflicts helped to stabilize the different &apos;Milieus&apos; and, as a result, the republic of Weimar. On the other hand the same behaviour had serious consequences for the disintegration of German society and was responsible for a lack of empathy shown towards members of other &apos;Milieus&apos; and &apos;Lager&apos;.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/mts.31.2004.43-58</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7817</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7817">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/7817/6989" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7817" DMDID="DMD_rub-journals_7817">
+            <mets:fptr FILEID="FILE0_rub-journals_7817"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

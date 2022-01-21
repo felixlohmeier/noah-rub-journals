@@ -1,0 +1,53 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7621">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Zwangsmigrationen im slowenischen Raum während des Zweiten Weltkrieges und in der unmittelbaren Nachkriegszeit</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Nećak, Dušan</displayForm>
+                        <namePart type="family">Nećak</namePart>
+                        <namePart type="given">Dušan</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015-01-24</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">19</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">In the course of the Second World War, several ten thousands of Slovenes were expelled from the German and Italian occupation zones, and transported to Germany, Serbia, and many concentration camps. Slovenes in the Hungarian occupation zone (Prekmurje) were faced with a similar fate and deported to inner Hungary. In 1941, the so-called Kočevje Germans were transferred from the Italian occupation zone to the German one, to houses owned by deported Slovenes. A year later, it was the Carinthian Slovenes’ turn, and after the Italian capitulation the Litoral and Istria saw the first emigrant wave. A second category of forced migration from the areas inhabited by Slovenes pertains to those who left at the war’s end or shortly afterwards. The majority belonged to the collaborationist domobranci; about 10.000 found their death in extrajuridical show tribunals. From the war’s end to 1955 also almost all ethnic Germans, once a strong minority (25.000 people), were expelled from Slovenia. The Istrian “exodus” was used by the authorities in Italy to “italianize” those areas mainly inhabited by Slovenes. Out of ideological reasons the Hungarian communist government, after 1948, refused to let those opposed to Tito settle in Hungary. Forced migration in the area inhabited by Slovenes stopped in 1955, even though illegal crossing of the borders because of varying political motivations continued until 1961, when the Yugoslav borders were opened.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/mts.41.2009.127-145</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7621</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7621">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/7621/6793" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7621" DMDID="DMD_rub-journals_7621">
+            <mets:fptr FILEID="FILE0_rub-journals_7621"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

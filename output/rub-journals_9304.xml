@@ -1,0 +1,103 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_9304">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <nonSort>A </nonSort>
+                        <title>Finer-Grain Analysis of the Leakage (Non) Resilience of OCB</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Berti, Francesco</displayForm>
+                        <namePart type="family">Berti</namePart>
+                        <namePart type="given">Francesco</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Bhasin, Shivam</displayForm>
+                        <namePart type="family">Bhasin</namePart>
+                        <namePart type="given">Shivam</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Breier, Jakub</displayForm>
+                        <namePart type="family">Breier</namePart>
+                        <namePart type="given">Jakub</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Hou, Xiaolu</displayForm>
+                        <namePart type="family">Hou</namePart>
+                        <namePart type="given">Xiaolu</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Poussier, Romain</displayForm>
+                        <namePart type="family">Poussier</namePart>
+                        <namePart type="given">Romain</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Standaert, François-Xavier</displayForm>
+                        <namePart type="family">Standaert</namePart>
+                        <namePart type="given">François-Xavier</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Udvarhelyi, Balasz</displayForm>
+                        <namePart type="family">Udvarhelyi</namePart>
+                        <namePart type="given">Balasz</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2021-11-19</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">21</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">OCB3 is one of the winners of the CAESAR competition and is among the most popular authenticated encryption schemes. In this paper, we put forward a fine-grain study of its security against side-channel attacks. We start from trivial key recoveries in settings where the mode can be attacked with standard Differential Power Analysis (DPA) against some block cipher calls in its execution (namely, initialization, processing of associated data or last incomplete block and decryption). These attacks imply that at least these parts must be strongly protected thanks to countermeasures like masking. We next show that if these block cipher calls of the mode are protected, practical attacks on the remaining block cipher calls remain possible. A first option is to mount a DPA with unknown inputs. A more efficient option is to mount a DPA that exploits horizontal relations between consecutive input whitening values. It allows trading a significantly reduced data complexity for a higher key guessing complexity and turns out to be the best attack vector in practical experiments performed against an implementation of OCB3 in an ARM Cortex-M0. Eventually, we consider an implementation where all the block cipher calls are protected. We first show that exploiting the leakage of the whitening values requires mounting a Simple Power Analysis (SPA) against linear operations. We then show that despite being more challenging than when applied to non-linear operations, such an SPA remains feasible against 8-bit implementations, leaving its generalization to larger implementations as an interesting open problem. We last describe how recovering the whitening values can lead to strong attacks against the confidentiality and integrity of OCB3. Thanks to this comprehensive analysis, we draw concrete requirements for side-channel resistant implementations of OCB3.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.46586/tches.v2022.i1.461-481</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_9304</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_9304">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/9304/8870" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_9304" DMDID="DMD_rub-journals_9304">
+            <mets:fptr FILEID="FILE0_rub-journals_9304"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

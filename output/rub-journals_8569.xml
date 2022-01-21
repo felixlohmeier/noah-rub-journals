@@ -1,0 +1,94 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8569">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Links between Division Property and Other Cube Attack Variants</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Hao, Yonglin</displayForm>
+                        <namePart type="family">Hao</namePart>
+                        <namePart type="given">Yonglin</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Jiao, Lin</displayForm>
+                        <namePart type="family">Jiao</namePart>
+                        <namePart type="given">Lin</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Li, Chaoyun</displayForm>
+                        <namePart type="family">Li</namePart>
+                        <namePart type="given">Chaoyun</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Meier, Willi</displayForm>
+                        <namePart type="family">Meier</namePart>
+                        <namePart type="given">Willi</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Todo, Yosuke</displayForm>
+                        <namePart type="family">Todo</namePart>
+                        <namePart type="given">Yosuke</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Wang, Qingju</displayForm>
+                        <namePart type="family">Wang</namePart>
+                        <namePart type="given">Qingju</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020-05-07</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">33</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">A theoretically reliable key-recovery attack should evaluate not only the non-randomness for the correct key guess but also the randomness for the wrong ones as well. The former has always been the main focus but the absence of the latter can also cause self-contradicted results. In fact, the theoretic discussion of wrong key guesses is overlooked in quite some existing key-recovery attacks, especially the previous cube attack variants based on pure experiments. In this paper, we draw links between the division property and several variants of the cube attack. In addition to the zero-sum property, we further prove that the bias phenomenon, the non-randomness widely utilized in dynamic cube attacks and cube testers, can also be reflected by the division property. Based on such links, we are able to provide several results: Firstly, we give a dynamic cube key-recovery attack on full Grain-128. Compared with Dinur et al.’s original one, this attack is supported by a theoretical analysis of the bias based on a more elaborate assumption. Our attack can recover 3 key bits with a complexity 297.86 and evaluated success probability 99.83%. Thus, the overall complexity for recovering full 128 key bits is 2125. Secondly, now that the bias phenomenon can be efficiently and elaborately evaluated, we further derive new secure bounds for Grain-like primitives (namely Grain-128, Grain-128a, Grain-V1, Plantlet) against both the zero-sum and bias cube testers. Our secure bounds indicate that 256 initialization rounds are not able to guarantee Grain-128 to resist bias-based cube testers. This is an efficient tool for newly designed stream ciphers for determining the number of initialization rounds. Thirdly, we improve Wang et al.’s relaxed term enumeration technique proposed in CRYPTO 2018 and extend their results on Kreyvium and ACORN by 1 and 13 rounds (reaching 892 and 763 rounds) with complexities 2121.19 and 2125.54 respectively. To our knowledge, our results are the current best key-recovery attacks on these two primitives.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tosc.v2020.i1.363-395</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8569</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8569">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/8569/8140" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8569" DMDID="DMD_rub-journals_8569">
+            <mets:fptr FILEID="FILE0_rub-journals_8569"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

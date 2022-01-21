@@ -1,0 +1,71 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8905">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Permutation Based EDM</title>
+                        <subTitle>An Inverse Free BBB Secure PRF</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Dutta, Avijit</displayForm>
+                        <namePart type="family">Dutta</namePart>
+                        <namePart type="given">Avijit</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Nandi, Mridul</displayForm>
+                        <namePart type="family">Nandi</namePart>
+                        <namePart type="given">Mridul</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Talnikar, Suprita</displayForm>
+                        <namePart type="family">Talnikar</namePart>
+                        <namePart type="given">Suprita</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2021-06-11</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">40</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">In CRYPTO 2019, Chen et al. have initiated an interesting research direction in designing PRF based on public permutations. They have proposed two beyond the birthday bound secure n-bit to n-bit PRF constructions, i.e., SoEM22 and SoKAC21, which are built on public permutations, where n is the size of the permutation. However, both of their constructions require two independent instances of public permutations. In FSE 2020, Chakraborti et al. have proposed a single public permutation based n-bit to n-bit beyond the birthday bound secure PRF, which they refer to as PDMMAC. Although the construction is minimal in the number of permutations, it requires the inverse call of its underlying permutation in their design. Coming up with a beyond the birthday bound secure public permutation based n-bit to n-bit PRF with a single permutation and two forward calls was left as an open problem in their paper. In this work, we propose pEDM, a single permutation based n-bit to n-bit PRF with two calls that do not require invertibility of the permutation. We have shown that our construction is secured against all adaptive information-theoretic distinguishers that make roughly up to 22n/3 construction and primitive queries. Moreover, we have also shown a matching attack with similar query complexity that establishes the tightness of our security bound.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.46586/tosc.v2021.i2.31-70</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8905</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8905">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/8905/8481" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8905" DMDID="DMD_rub-journals_8905">
+            <mets:fptr FILEID="FILE0_rub-journals_8905"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

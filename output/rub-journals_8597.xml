@@ -1,0 +1,70 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8597">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Defeating State-of-the-Art White-Box Countermeasures with Advanced Gray-Box Attacks</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Goubin, Louis</displayForm>
+                        <namePart type="family">Goubin</namePart>
+                        <namePart type="given">Louis</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Rivain, Matthieu</displayForm>
+                        <namePart type="family">Rivain</namePart>
+                        <namePart type="given">Matthieu</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Wang, Junwei</displayForm>
+                        <namePart type="family">Wang</namePart>
+                        <namePart type="given">Junwei</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020-06-19</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">29</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">The goal of white-box cryptography is to protect secret keys embedded in a cryptographic software deployed in an untrusted environment. In this article, we revisit state-of-the-art countermeasures employed in white-box cryptography, and we discuss possible ways to combine them. Then we analyze the different gray-box attack paths and study their performances in terms of required traces and computation time. Afterward, we propose a new paradigm for the gray-box attack against white-box cryptography, which exploits the data-dependency of the target implementation. We demonstrate that our approach provides substantial complexity improvements over the existing attacks. Finally, we showcase this new technique by breaking the three winning AES-128 white-box implementations from WhibOx 2019 white-box cryptography competition.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tches.v2020.i3.454-482</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8597</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8597">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/8597/8164" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8597" DMDID="DMD_rub-journals_8597">
+            <mets:fptr FILEID="FILE0_rub-journals_8597"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

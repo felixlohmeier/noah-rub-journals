@@ -1,0 +1,95 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7275">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Saber on ARM</title>
+                        <subTitle>CCA-secure module lattice-based key encapsulation on ARM</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Karmakar, Angshuman</displayForm>
+                        <namePart type="family">Karmakar</namePart>
+                        <namePart type="given">Angshuman</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Bermudo Mera, Jose Maria</displayForm>
+                        <namePart type="family">Bermudo Mera</namePart>
+                        <namePart type="given">Jose Maria</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Sinha Roy, Sujoy</displayForm>
+                        <namePart type="family">Sinha Roy</namePart>
+                        <namePart type="given">Sujoy</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Verbauwhede, Ingrid</displayForm>
+                        <namePart type="family">Verbauwhede</namePart>
+                        <namePart type="given">Ingrid</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2018-08-14</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">24</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">The CCA-secure lattice-based post-quantum key encapsulation scheme Saber is a candidate in the NIST’s post-quantum cryptography standardization process. In this paper, we study the implementation aspects of Saber in resourceconstrained microcontrollers from the ARM Cortex-M series which are very popular for realizing IoT applications. In this work, we carefully optimize various parts of Saber for speed and memory. We exploit digital signal processing instructions and efficient memory access for a fast implementation of polynomial multiplication. We also use memory efficient Karatsuba and just-in-time strategy for generating the public matrix of the module lattice to reduce the memory footprint. We also show that our optimizations can be combined with each other seamlessly to provide various speed-memory trade-offs. Our speed optimized software takes just 1,147K, 1,444K, and 1,543K clock cycles on a Cortex-M4 platform for key generation, encapsulation and decapsulation respectively. Our memory efficient software takes 4,786K, 6,328K, and 7,509K clock cycles on an ultra resource-constrained Cortex-M0 platform for key generation, encapsulation, and decapsulation respectively while consuming only 6.2 KB of memory at most. These results show that lattice-based key encapsulation schemes are perfectly practical for securing IoT devices from quantum computing attacks.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tches.v2018.i3.243-266</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7275</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7275">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/7275/6453" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_rub-journals_7275">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/7275/7940" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="" ID="FILE2_rub-journals_7275">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/7275/7941" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7275" DMDID="DMD_rub-journals_7275">
+            <mets:fptr FILEID="FILE0_rub-journals_7275"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_7275" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_7275"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART2_rub-journals_7275" LABEL="">
+                <mets:fptr FILEID="FILE2_rub-journals_7275"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

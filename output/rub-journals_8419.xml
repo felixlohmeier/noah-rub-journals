@@ -1,0 +1,53 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8419">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Waiting and voting in the village</title>
+                        <subTitle>Election Day 2014 in Odibo, Namibia</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Dobler, Gregor</displayForm>
+                        <namePart type="family">Dobler</namePart>
+                        <namePart type="given">Gregor</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2019-12-06</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">22</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Unlike other institutions of African political life, elections have rarely been analysed as social situations in themselves. This article offers an ethnographic description of Namibia’s 2014 general elections from a village perspective. Through a careful description and analysis of the polling day in a northern Namibian village, I try to show that we cannot understand why people vote if we only see elections as a procedural device. Asking what the act of voting means to people, I argue, can also help to understand why many people in young Southern African democracies continue to vote for the respective ruling parties in spite of growing dissatisfaction. Participating in the elections and waiting together in the queues to cast one’s votes is a ritual of participation that derives its force just as much from the acknowledgment of an order of moral politics as from the integration into patronage networks. Symbolic meaning and power hierarchies mutually reinforce each other. The performative consensus that elections reaffirm in the village’s public sphere is, however, far from universal. Since participating in the election is in itself an expression of being part of it, disaffected villagers tend not to vote rather than to cast their vote for the opposition.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8419</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8419">
+                <mets:FLocat xlink:href="https://namibian-studies.com/index.php/JNS/article/download/8419/7792" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8419" DMDID="DMD_rub-journals_8419">
+            <mets:fptr FILEID="FILE0_rub-journals_8419"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

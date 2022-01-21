@@ -1,0 +1,62 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8278">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Sacred Spaces in a Holy City. Crossing Religious Boundaries in Istanbul at the Turn of the Twenty-First Century</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Anastassiadou-Dumont, Méropi</displayForm>
+                        <namePart type="family">Anastassiadou-Dumont</namePart>
+                        <namePart type="given">Méropi</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2019-04-30</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">23</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">The article examines Muslim pilgrimages to Christian places of worship in Istanbul after&amp;nbsp;the 1950s. It aims to answer whether and how the Ottoman heritage of cultural diversity fits or does not&amp;nbsp;fit with the pattern of the nation-state. After a brief bibliographic overview of the issue of shared sacred&amp;nbsp;spaces, the presentation assembles, as a first step, some of the key elements of Istanbul’s multi-secular&amp;nbsp;links with religious practices: the sanctity of the city both for Christianity and Islam; the long tradition of&amp;nbsp;pilgrimages and their importance for the local economy; meanings and etymologies of the word pilgrimage&amp;nbsp;in the most common languages of the Ottoman space; and the silence of the nineteenth century’s Greek&amp;nbsp;sources concerning the sharing of worship. The second part focuses more specifically on some OrthodoxGreek sacred spaces in Istanbul increasingly frequented by Muslims during the last decades.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/er.v9.2019.34-56</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8278</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8278">
+                <mets:FLocat xlink:href="https://er.ceres.rub.de/index.php/ER/article/download/8278/7629" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="text/html" ID="FILE1_rub-journals_8278">
+                <mets:FLocat xlink:href="https://er.ceres.rub.de/index.php/ER/article/download/8278/8256" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8278" DMDID="DMD_rub-journals_8278">
+            <mets:fptr FILEID="FILE0_rub-journals_8278"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_8278" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_8278"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

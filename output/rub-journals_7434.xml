@@ -1,0 +1,54 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7434">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Marketing Social Justice</title>
+                        <subTitle>Lessons from our Abolitionist Predecessors</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Robertson, Stacey M.</displayForm>
+                        <namePart type="family">Robertson</namePart>
+                        <namePart type="given">Stacey M.</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2017-05-31</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">16</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">This essay explores the nineteenth-century transatlantic free produce movement as a social justice experiment with important lessons for today’s activists. Both American and British abolitionists embraced a boycott of slave goods as a method to place economic pressure on slaveholders and also to cleanse their bodies and souls of the sinfulness of slavery. While free produce failed to affect the financial success of slaveholders, it presented the movement with an opportunity to market abolition to a wider audience. Free produce advocates found methods to humanise enslaved women, men, and children by highlighting the violence, ruthlessness, and injustice of the system. They connected the products of slavery to the enslaved and offered alternative “free produce” to abolitionists. Free produce offered supporters a path toward more collective action against the system of slavery. Modern-day abolitionists are applying these lessons in the fight against slavery today — inspiring consumers to choose “free” or “clean” products as a method for maintaining personal integrity — and encouraging supporters to become actively engaged in the collective antislavery movement.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/mts.57.2017.21-36</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7434</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7434">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/7434/6606" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7434" DMDID="DMD_rub-journals_7434">
+            <mets:fptr FILEID="FILE0_rub-journals_7434"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

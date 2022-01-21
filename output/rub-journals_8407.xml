@@ -1,0 +1,76 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8407">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Senses, Religion, and Religious Encounter</title>
+                        <subTitle>Literature Review and Research Perspectives</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Cuffel, Alexandra</displayForm>
+                        <namePart type="family">Cuffel</namePart>
+                        <namePart type="given">Alexandra</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Di Giacinto, Licia</displayForm>
+                        <namePart type="family">Di Giacinto</namePart>
+                        <namePart type="given">Licia</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Krech, Volkhard</displayForm>
+                        <namePart type="family">Krech</namePart>
+                        <namePart type="given">Volkhard</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2019-12-17</dateIssued>
+                    </originInfo>
+                    <abstract lang="eng">An overview of the senses in the study of religion and religious encounter is provided, along with reflections on the ways in which various specific senses were imagined to serve as modes of communication between human beings and between humans and transcendent beings. How the individual case studies collected in this volume inform such a project and further research on religion, the senses, and the role of the senses in religious encounter is a core concern of this introductory essay. We end by suggesting new directions for additional research for an integrated and systematic examination of how senses shape and are used in human encounters with the transcendent and the (human) religious Other.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/er.10.2019.8407</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8407</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8407">
+                <mets:FLocat xlink:href="https://er.ceres.rub.de/index.php/ER/article/download/8407/7809" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="text/html" ID="FILE1_rub-journals_8407">
+                <mets:FLocat xlink:href="https://er.ceres.rub.de/index.php/ER/article/download/8407/7810" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8407" DMDID="DMD_rub-journals_8407">
+            <mets:fptr FILEID="FILE0_rub-journals_8407"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_8407" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_8407"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

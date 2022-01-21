@@ -1,0 +1,63 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8675">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <nonSort>A </nonSort>
+                        <title>Hybrid-CPU-FPGA-based Solution to the Recovery of Sha256crypt-hashed Passwords</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Zhang, Zhendong</displayForm>
+                        <namePart type="family">Zhang</namePart>
+                        <namePart type="given">Zhendong</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Liu, Peng</displayForm>
+                        <namePart type="family">Liu</namePart>
+                        <namePart type="given">Peng</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020-08-26</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">23</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">This paper presents an accelerator design for the password recovery of sha256crypt based on hybrid CPU-FPGA devices. By applying the brute-force attack computation model proposed in this paper, we decompose the sha256crypt function into two types of operations, namely the data dispatching and the block transforming. The data dispatching operation generates message blocks and the block transforming operation transforms message blocks into digests. These two operations are efficiently accelerated by the customized data dispatch unit and the pipelined block transform unit, respectively. Difficulties of adopting the pipeline technique are addressed also with the following techniques. The group scheduling is used to solve the data dependency that stalls the pipeline. The look-ahead execution eliminates the uncertainty of the execution path. The data path pruning and spatial-temporal multiplexing reduce the resource overhead of non-computing units.The proposed accelerator design is implemented and evaluated on the Xilinx Zynq-7000 XC7Z030-3 SoC. Our experimental results show that the proposed accelerator can improve energy efficiency by 2.54x over the state-of-the-art password recovery tool Hashcat running on an NVIDIA GTX1080Ti GPU. Compared with the pure FPGA-based implementation in John-the-Ripper, the proposed accelerator improves energy efficiency by 1.64x and improves resource efficiency by 1.69x.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tches.v2020.i4.1-23</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8675</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8675">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/8675/8234" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8675" DMDID="DMD_rub-journals_8675">
+            <mets:fptr FILEID="FILE0_rub-journals_8675"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

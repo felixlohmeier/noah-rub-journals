@@ -1,0 +1,118 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_842">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Key-Recovery Attacks on Full Kravatte</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Chaigneau, Colin</displayForm>
+                        <namePart type="family">Chaigneau</namePart>
+                        <namePart type="given">Colin</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Fuhr, Thomas</displayForm>
+                        <namePart type="family">Fuhr</namePart>
+                        <namePart type="given">Thomas</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Gilbert, Henri</displayForm>
+                        <namePart type="family">Gilbert</namePart>
+                        <namePart type="given">Henri</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Guo, Jian</displayForm>
+                        <namePart type="family">Guo</namePart>
+                        <namePart type="given">Jian</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Jean, Jérémy</displayForm>
+                        <namePart type="family">Jean</namePart>
+                        <namePart type="given">Jérémy</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Reinhard, Jean-René</displayForm>
+                        <namePart type="family">Reinhard</namePart>
+                        <namePart type="given">Jean-René</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Song, Ling</displayForm>
+                        <namePart type="family">Song</namePart>
+                        <namePart type="given">Ling</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2018-03-01</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">24</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">This paper presents a cryptanalysis of full Kravatte, an instantiation of the Farfalle construction of a pseudorandom function (PRF) with variable input and output length. This new construction, proposed by Bertoni et al., introduces an efficiently parallelizable and extremely versatile building block for the design of symmetric mechanisms, e.g. message authentication codes or stream ciphers. It relies on a set of permutations and on so-called rolling functions: it can be split into a compression layer followed by a two-step expansion layer. The key is expanded and used to mask the inputs and outputs of the construction. Kravatte instantiates Farfalle using linear rolling functions and permutations obtained by iterating the Keccak round function.We develop in this paper several attacks against this PRF, based on three different attack strategies that bypass part of the construction and target a reduced number of permutation rounds. A higher order differential distinguisher exploits the possibility to build an affine space of values in the cipher state after the compression layer. An algebraic meet-in-the-middle attack can be mounted on the second step of the expansion layer. Finally, due to the linearity of the rolling function and the low algebraic degree of the Keccak round function, a linear recurrence distinguisher can be found on intermediate states of the second step of the expansion layer. All the attacks rely on the ability to invert a small number of the final rounds of the construction. In particular, the last two rounds of the construction together with the final masking by the key can be algebraically inverted, which allows to recover the key.The complexities of the devised attacks, applied to the Kravatte specifications published on the IACR ePrint in July 2017, or the strengthened version of Kravatte recently presented at ECC 2017, are far below the security claimed.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tosc.v2018.i1.5-28</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_842</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_842">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/842/810" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_rub-journals_842">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/842/7615" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="" ID="FILE2_rub-journals_842">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/842/7516" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_842" DMDID="DMD_rub-journals_842">
+            <mets:fptr FILEID="FILE0_rub-journals_842"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_842" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_842"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART2_rub-journals_842" LABEL="">
+                <mets:fptr FILEID="FILE2_rub-journals_842"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

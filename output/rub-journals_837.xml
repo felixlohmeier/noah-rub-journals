@@ -1,0 +1,78 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_837">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Mixing Additive and Multiplicative Masking for Probing Secure Polynomial Evaluation Methods</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Mathieu-Mahias, Axel</displayForm>
+                        <namePart type="family">Mathieu-Mahias</namePart>
+                        <namePart type="given">Axel</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Quisquater, Michaël</displayForm>
+                        <namePart type="family">Quisquater</namePart>
+                        <namePart type="given">Michaël</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2018-02-14</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">34</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Masking is a sound countermeasure to protect implementations of block- cipher algorithms against Side Channel Analysis (SCA). Currently, the most efficient masking schemes use Lagrange’s Interpolation Theorem in order to represent any S- box by a polynomial function over a binary finite field. Masking the processing of an S-box is then achieved by masking every operation involved in the evaluation of its polynomial representation. While the common approach requires to use the well- known Ishai-Sahai-Wagner (ISW) scheme in order to secure this processing, there exist alternatives. In the particular case of power functions, Genelle, Prouff and Quisquater proposed an efficient masking scheme (GPQ). However, no generalization has been suggested for polynomial functions so far. In this paper, we solve the open problem of extending GPQ for polynomials, and we also solve the open problem of proving that both the original scheme and its variants for polynomials satisfy the t-SNI security definition. Our approach to extend GPQ is based on the cyclotomic method and results in an alternate cyclotomic method which is three times faster in practice than the original proposal in almost all scenarios we address. The best- known method for polynomial evaluation is currently CRV which requires to use the cyclotomic method for one of its step. We also show how to plug our alternate cyclo- tomic approach into CRV and again provide an alternate approach that outperforms the original in almost all scenarios. We consider the masking of n-bit S-boxes for n ∈ [4;8] and we get in practice 35% improvement of efficiency for S-boxes with dimension n ∈ {5,7,8} and 25% for 6-bit S-boxes.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tches.v2018.i1.175-208</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_837</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_837">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/837/789" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_rub-journals_837">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/837/8010" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="" ID="FILE2_rub-journals_837">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/837/8011" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_837" DMDID="DMD_rub-journals_837">
+            <mets:fptr FILEID="FILE0_rub-journals_837"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_837" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_837"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART2_rub-journals_837" LABEL="">
+                <mets:fptr FILEID="FILE2_rub-journals_837"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

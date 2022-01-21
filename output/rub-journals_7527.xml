@@ -1,0 +1,54 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7527">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Eugenics as a Science and as a Social Movement</title>
+                        <subTitle>The Cases of Denmark and Norway 1900–1950</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Redvaldsen, David</displayForm>
+                        <namePart type="family">Redvaldsen</namePart>
+                        <namePart type="given">David</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015-01-31</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">24</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">The article compares Danish and Norwegian eugenics in the first half of the twentieth century. It especially investigates sterilisation and racism, both of which are associated with the doctrine. However, it argues that the laws of 1929, 1934 and 1935 allowing sterilisation in Denmark were accepted as means to combat sexual offences. The comparative method supports such a contention, as the Norwegian sterilisation law of 1934 is found to have developed along parallel lines. Neither country had a functioning eugenics society. Therefore the doctrine was the provenance of scientists and other experts. Popularisation attempts met resistance from specialists. Eugenics could nevertheless be applied to debates about criminality or race. Similarities between the Danish and Norwegian versions outweighed differences. But in Denmark there was a greater focus on the pernicious societal effects of “feeblemindedness” than in Norway. Conversely, Norwegian eugenics was more racist than Danish.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/mts.48.2012.133-156</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7527</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7527">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/7527/6699" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7527" DMDID="DMD_rub-journals_7527">
+            <mets:fptr FILEID="FILE0_rub-journals_7527"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

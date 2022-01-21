@@ -1,0 +1,63 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7395">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Islam and Buddhism</title>
+                        <subTitle>The Arabian Prequel?</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Akasoy, Anna</displayForm>
+                        <namePart type="family">Akasoy</namePart>
+                        <namePart type="given">Anna</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2019-03-06</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">32</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Conventionally, the first Muslim-Buddhist encounters are thought to have taken place in&amp;nbsp;the context of the Arab-Muslim expansions into eastern Iran in the mid-seventh century, the conquest&amp;nbsp;of Sind in 711 and the rise of the Islamic empire. However, several theories promoted in academic and&amp;nbsp;popular circles claim that Buddhists or other Indians were present in western Arabia at the eve of Islam&amp;nbsp;and thus shaped the religious environment in which Muhammad’s movement emerged. This article&amp;nbsp;offers a critical survey of the most prominent arguments adduced to support this view and discusses&amp;nbsp;the underlying attitudes to the Islamic tradition, understood as a body of ideas and practices, and&amp;nbsp;Islamic Tradition, understood as a body of texts. Such theories appear to be radical challenges of the&amp;nbsp;Islamic tradition insofar as they seek to reinscribe the presence of religious communities in conventional&amp;nbsp;narratives of Islamic origins that do not acknowledge them. On the other hand, they often operate&amp;nbsp;with an unreconstructed reliance upon the sources of the Islamic Tradition. The assessment focuses ondescriptions of the Ka’ba and objects associated with it as well as on a story about an Indian physician who&amp;nbsp;diagnosed an illness of Muhammad’s wife Aisha. While Indian or Buddhist connections with western Arabia&amp;nbsp;and early Islam do not appear to be entirely impossible, the evidence does not amount to a persuasive&amp;nbsp;case for the early seventh century.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/er.v8.2019.1-32</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7395</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7395">
+                <mets:FLocat xlink:href="https://er.ceres.rub.de/index.php/ER/article/download/7395/6567" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="text/html" ID="FILE1_rub-journals_7395">
+                <mets:FLocat xlink:href="https://er.ceres.rub.de/index.php/ER/article/download/7395/8254" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7395" DMDID="DMD_rub-journals_7395">
+            <mets:fptr FILEID="FILE0_rub-journals_7395"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_7395" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_7395"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

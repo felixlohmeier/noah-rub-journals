@@ -1,0 +1,61 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_719">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <nonSort>The </nonSort>
+                        <title>International Bibliography of Communist Studies. Books on Communism, 2015-2016</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Albert, Gleb J.</displayForm>
+                        <namePart type="family">Albert</namePart>
+                        <namePart type="given">Gleb J.</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Bayerlein, Bernhard H.</displayForm>
+                        <namePart type="family">Bayerlein</namePart>
+                        <namePart type="given">Bernhard H.</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2017-07-24</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">51</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Edited by Gleb J. Albert and Bernhard H. BayerleinFurther titles contributed by Jesper Jørgensen (Copenhagen), Dainis Karepovs (São Paulo), Jan Holger Kirsch (Potsdam), Manfred Mugrauer (Vienna), Aleksandr Reznik (Basel/St. Petersburg), and Frank Wolff (Osnabrück)968 books from 66 countries have been retrieved for the 2015-2016 issue of the International Bibliography, also including selected addenda from 2013-2014. While compiling this bibliography, various web resources have been explored, such as numerous library online catalogues of most of the countries, mailing lists such as H-HOAC, H-Russia, and kritische geschichte, but also bibliographies such as the bibliography ofBulgarian communism at http://red.cas.bg/ and the “New Books from Russia” section in Revolutionary Russia have been particularly helpful.Correspondents and readers are hereby encouraged to contribute to the bibliography. We also look for more correspondents for the different countries and regions.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_719</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_719">
+                <mets:FLocat xlink:href="https://incs.ub.rub.de/index.php/INCS/article/download/719/676" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_719" DMDID="DMD_rub-journals_719">
+            <mets:fptr FILEID="FILE0_rub-journals_719"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

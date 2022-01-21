@@ -1,0 +1,53 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7451">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>What is New in the History of Social Movements?</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Berger, Stefan</displayForm>
+                        <namePart type="family">Berger</namePart>
+                        <namePart type="given">Stefan</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2017-03-31</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">13</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">What is New in the History of Social Movements?Sidney Tarrow: War, States and Contention: A Comparative Historical Study, Ithaca: Cornell University Press, 2015, xiv + 314 pp., ISBN: 9780801479625.Cristina Flesher Fominaya: Social Movements and Globalisation: How Protests, Occupations and Uprisings are Changing the World, Basingstoke: Palgrave MacMillan, 2014, xviii + 230 pp., ISBN: 9780230360877.David West: Social Movements in Global Politics, Cambridge: Polity Press, 2013, xx + 251 pp., ISBN: 9780745649603.James M. Jasper: Protest: a Cultural Introduction to Social Movements, Cambridge: Polity Press, 2014, xiii + 200 pp., ISBN: 9780745655161.Britta Baumgarten: Priska Daphi and Peter Ullrich (eds.): Conceptualizing Culture in Social Movement Research, Basingstoke: Palgrave MacMillan, 2014, xvii + 313 pp., ISBN: 9781137385789.Tim Wätzold: Der libertäre Atlantik: Unsere Heimat ist die ganze Welt, Hamburg: Verlag Barrikade, 2015, 357 pp., ISBN: 9783921404041.Sebastian Voigt: Der jüdische Mai 68. Pierre Goldman, Daniel Cohn-Bendit und André Glucksmann im Nachkriegsfrankreich, Göttingen: Vandenhoeck &amp;amp; Ruprecht, 2015, 383 pp., ISBN: 9783525370360.Matthias Dohmen: Geraubte Träume, verlorene Illusionen: Westliche und östliche Historiker im deutschen Geschichtskrieg, Wuppertal: Nordpark Verlag, 2015, 456 pp., ISBN: 9783943940107.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <identifier type="doi">10.13154/mts.56.2016.155-167</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7451</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7451">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/7451/6623" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7451" DMDID="DMD_rub-journals_7451">
+            <mets:fptr FILEID="FILE0_rub-journals_7451"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

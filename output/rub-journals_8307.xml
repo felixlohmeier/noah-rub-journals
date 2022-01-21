@@ -1,0 +1,86 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8307">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Problematic Possibilities and Choosing between Courses of Action</title>
+                        <subTitle>Findings of an Ethnographic Study on the Parents of Pre-Adolescent, Non-Professional Soccer Players</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Kotthaus, Jochem</displayForm>
+                        <namePart type="family">Kotthaus</namePart>
+                        <namePart type="given">Jochem</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Krampe, Karsten</displayForm>
+                        <namePart type="family">Krampe</namePart>
+                        <namePart type="given">Karsten</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Leicht, Nina</displayForm>
+                        <namePart type="family">Leicht</namePart>
+                        <namePart type="given">Nina</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Levenig, Sina-Marie</displayForm>
+                        <namePart type="family">Levenig</namePart>
+                        <namePart type="given">Sina-Marie</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Weste, Sebastian</displayForm>
+                        <namePart type="family">Weste</namePart>
+                        <namePart type="given">Sebastian</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2019-05-28</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">20</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">In this paper, we examine the ways in which adult spectators of youth sports teams perceive, understand, and react to the actions and interactions of their children in the context of a soccer match. As the spectators consist primarily of parents, most of them will most likely be emotionally attached to their children as well as obliged to respecting the rules and codes of conduct of amateur youth soccer. We present a phenomenological framework in which these contradictory commitments constitute ‘enclaves’, small cognitive clusters within the province of meaning of everyday life. Within this framework, we discuss the results of an ethnographic study on the parents of players participating in youth soccer matches, especially concerning the way in which the conflicting logics of parenting and soccer are managed.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/mts.61.2019.83-102</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8307</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8307">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/8307/7656" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8307" DMDID="DMD_rub-journals_8307">
+            <mets:fptr FILEID="FILE0_rub-journals_8307"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

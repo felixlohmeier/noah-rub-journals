@@ -1,0 +1,52 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_245">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>N. I. Boukharine sur les intellectuels et le communisme. Projet de recherche</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Andreu, Maurice</displayForm>
+                        <namePart type="family">Andreu</namePart>
+                        <namePart type="given">Maurice</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2012-09-05</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">11</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Dans cet projet, nous étudions la conception boukharinienne des relations entre les intellectuels et le communisme, telle qu’elle s’était formée de 1914 à 1923, avant que les problèmes de l’« unité » du Parti ne viennent tout perturber. Les recherches actuellement continuent pour la période des années 1920 et 1930. Dans cet optique, j’ai réalisé ne analyse des manuscrits de prison de Boukharine retrouvés dans les archives présidentielles à Moscou. Voir mon article: Les manuscrits de prison de Boukharine (1937-1938), dans ce numéro.Université Paris XIII</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_245</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_245">
+                <mets:FLocat xlink:href="https://incs.ub.rub.de/index.php/INCS/article/download/245/203" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_245" DMDID="DMD_rub-journals_245">
+            <mets:fptr FILEID="FILE0_rub-journals_245"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

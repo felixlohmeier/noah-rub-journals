@@ -1,0 +1,86 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_877">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Hardware Masking, Revisited</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>De Cnudde, Thomas</displayForm>
+                        <namePart type="family">De Cnudde</namePart>
+                        <namePart type="given">Thomas</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Ender, Maik</displayForm>
+                        <namePart type="family">Ender</namePart>
+                        <namePart type="given">Maik</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Moradi, Amir</displayForm>
+                        <namePart type="family">Moradi</namePart>
+                        <namePart type="given">Amir</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2018-05-08</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">26</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">MaskingHardware masking schemes have shown many advances in the past few years. Through a series of publications their implementation cost has dropped significantly and flaws have been fixed where present. Despite these advancements it seems that a limit has been reached when implementing masking schemes on FPGA platforms. Indeed, even with a correct transition from the masking scheme to the masking realization (i.e., when the implementation is not buggy) it has been shown that the implementation can still exhibit unexpected leakage, e.g., through variations in placement and routing. In this work, we show that the reason for such unexpected leakages is the violation of an underlying assumption made by all masking schemes, i.e., that the leakage of the circuit is a linear sum of leakages associated to each share. In addition to the theory of VLSI which supports our claim, we perform a wide range of experiments based on an FPGA) to find out under what circumstances this causes a masked hardware implementation to show undesirable leakage. We further illustrate case studies, where publicly-known secure designs exhibit first-order leakage when being operated at certain conditions.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tches.v2018.i2.123-148</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_877</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_877">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/877/829" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_rub-journals_877">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/877/7978" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="" ID="FILE2_rub-journals_877">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/877/7979" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_877" DMDID="DMD_rub-journals_877">
+            <mets:fptr FILEID="FILE0_rub-journals_877"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_877" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_877"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART2_rub-journals_877" LABEL="">
+                <mets:fptr FILEID="FILE2_rub-journals_877"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

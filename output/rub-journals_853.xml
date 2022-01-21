@@ -1,0 +1,78 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_853">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Revisiting Variable Output Length XOR Pseudorandom Function</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Bhattacharya, Srimanta</displayForm>
+                        <namePart type="family">Bhattacharya</namePart>
+                        <namePart type="given">Srimanta</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Nandi, Mridul</displayForm>
+                        <namePart type="family">Nandi</namePart>
+                        <namePart type="given">Mridul</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2018-03-01</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">22</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Let σ be some positive integer and C ⊆ {(i, j) : 1 ≤ i &amp;lt; j ≤ σ}. The theory behind finding a lower bound on the number of distinct blocks P1, . . . , Pσ ∈ {0, 1}n satisfying a set of linear equations {Pi ⊕Pj = ci,j : (i, j) ∈ C} for some ci,j ∈ {0, 1}n, is called mirror theory. Patarin introduced the mirror theory and provided a proof for this. However, the proof, even for a special class of equations, is complex and contains several non-trivial gaps. As an application of mirror theory, XORP[w] (known as XOR construction) returning (w−1) block output, is a pseudorandom function (PRF) for some parameter w, called width. The XOR construction can be seen as a basic structure of some encryption algorithms, e.g., the CENC encryption and the CHM authenticated encryption, proposed by Iwata in 2006. Due to potential application of XORP[w] and the nontrivial gaps in the proof of mirror theory, an alternative simpler analysis of PRF-security of XORP[w] would be much desired. Recently (in Crypto 2017) Dai et al. introduced a tool, called the χ2 method, for analyzing PRF-security. Using this tool, the authors have provided a proof of PRF-security of XORP[2] without relying on the mirror theory. In this paper, we resolve the general case; we apply the χ2 method to obtain a simpler security proof of XORP[w] for any w ≥ 2. For w = 2, we obtain a tighter bound for a wider range of parameters than that of Dai et al.. Moreover, we consider variable width construction XORP[∗] (in which the widths are chosen by adversaries adaptively), and also provide variable output length pseudorandom function (VOLPRF) security analysis for it. As an application of VOLPRF, we propose an authenticated encryption which is a simple variant of CHM or AES-GCM and provides much higher security than those at the cost of one extra blockcipher call for every message.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tosc.v2018.i1.314-335</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_853</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_853">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/853/805" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_rub-journals_853">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/853/7626" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="" ID="FILE2_rub-journals_853">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/853/7526" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_853" DMDID="DMD_rub-journals_853">
+            <mets:fptr FILEID="FILE0_rub-journals_853"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_853" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_853"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART2_rub-journals_853" LABEL="">
+                <mets:fptr FILEID="FILE2_rub-journals_853"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,78 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_584">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>LIZARD – A Lightweight Stream Cipher for Power-constrained Devices</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Hamann, Matthias</displayForm>
+                        <namePart type="family">Hamann</namePart>
+                        <namePart type="given">Matthias</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Krause, Matthias</displayForm>
+                        <namePart type="family">Krause</namePart>
+                        <namePart type="given">Matthias</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Meier, Willi</displayForm>
+                        <namePart type="family">Meier</namePart>
+                        <namePart type="given">Willi</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2017-03-08</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">35</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Time-memory-data (TMD) tradeoff attacks limit the security level of many classical stream ciphers (like E0, A5/1, Trivium, Grain) to 1/2n, where n denotes the inner state length of the underlying keystream generator. In this paper, we present Lizard, a lightweight stream cipher for power-constrained devices like passive RFID tags. Its hardware efficiency results from combining a Grain-like design with the FP(1)-mode, a recently suggested construction principle for the state initialization of stream ciphers, which offers provable 2/3n-security against TMD tradeoff attacks aiming at key recovery. Lizard uses 120-bit keys, 64-bit IVs and has an inner state length of 121 bit. It is supposed to provide 80-bit security against key recovery attacks. Lizard allows to generate up to 218 keystream bits per key/IV pair, which would be sufficient for many existing communication scenarios like Bluetooth, WLAN or HTTPS.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tosc.v2017.i1.45-79</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_584</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_584">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/584/525" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/vnd.openxmlformats-officedocument.presentationml.presentation" ID="FILE1_rub-journals_584">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/584/7474" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_584" DMDID="DMD_rub-journals_584">
+            <mets:fptr FILEID="FILE0_rub-journals_584"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_584" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_584"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

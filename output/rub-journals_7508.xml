@@ -1,0 +1,55 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7508">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <nonSort>A </nonSort>
+                        <title>Political Economic View of Social Movements</title>
+                        <subTitle>New Perspectives and Open Questions</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Zajak, Sabrina</displayForm>
+                        <namePart type="family">Zajak</namePart>
+                        <namePart type="given">Sabrina</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2014-05-14</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">22</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">This article responds to recent calls for bringing capitalism back into the study of social movement research. It goes beyond a Marxian class-based analysis of capitalism and introduces a broader institutional political economic perspective on social movements. Instead of only trying to explain motivations and political orientations, this article takes the Polanyian idea of embeddedness as a starting point to discuss the role of social movements in the construction of institutions governing capitalism today. Those institutions are national and global. Accordingly, the relations between capitalist institutions and social movements can be analysed in the national context, transnationally and from a comparative perspective. The article provides some new theoretical lenses and opens up new research questions for future empirical investigations along these three dimensions. In sum the article proposes to take a closer look on social movements’ role in the struggles between market creation and market regulation. Given the dominance of neoliberal ideology, despite continuous mobilisation for social justice and democracy, future research should pay particular attention to unintended consequences of social movements and the responses of economic elites to outside challenges, which help explain the strength and resilience of neoliberal capitalism.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/mts.50.2013.121-142</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7508</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7508">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/7508/6680" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7508" DMDID="DMD_rub-journals_7508">
+            <mets:fptr FILEID="FILE0_rub-journals_7508"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

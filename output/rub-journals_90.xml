@@ -1,0 +1,54 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_90">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <nonSort>The </nonSort>
+                        <title>Khwe and West Caprivi before Namibian independence</title>
+                        <subTitle>Matters of land, labour, power and alliance</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Boden, Gertrud</displayForm>
+                        <namePart type="family">Boden</namePart>
+                        <namePart type="given">Gertrud</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2014-01-31</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">45</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">The article outlines the pre-independence past of the Khwe in West Caprivi, one of Namibia’s San populations whose history is yet to be written. Besides consolidating material from previous publications, it also presents fresh insights based on archival and oral sources. While the trans-regional networks and power relations, in which the Khwe participated before the onset of colonialism, remain blurred due to scarce source material, the article will show that the German colonial power, while not profoundly affecting the daily lives of West Caprivi residents, nevertheless had significant and long-lasting effects through the definition of the boundaries, which, although permeable for local residents, became crucial in rendering activities illegal, delineating territories of refuge and marking out areas affected by conflicts in the neighbouring countries. During the first decades of South African administration, the situation on the ground was not much different from that under German ‘control’. From 1940 onwards, however, the state intervened in local interethnic relations as well as in the economic lives of the Khwe in a number of ways: by making West Caprivi first a livestock free territory, then a nature conservation area and finally a military no-access zone. In addition the state had an impact by promoting the recruitment of Khwe men for mine labour, installing native guards and Khwe leaders, courting the Khwe as useful people and hiring Khwe as soldiers for the South African Defense Force. While meant to make available historic detail in the first place, the article will also demonstrate how, over the decades, the categorization of the Khwe as a hybrid or mixed population was used in multiple and contradictory ways in order to serve different political agendas.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_90</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_90">
+                <mets:FLocat xlink:href="https://namibian-studies.com/index.php/JNS/article/download/90/62" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_90" DMDID="DMD_rub-journals_90">
+            <mets:fptr FILEID="FILE0_rub-journals_90"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

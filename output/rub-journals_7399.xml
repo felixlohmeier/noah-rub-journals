@@ -1,0 +1,86 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7399">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Boomerang Connectivity Table Revisited. Application to SKINNY and AES</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Song, Ling</displayForm>
+                        <namePart type="family">Song</namePart>
+                        <namePart type="given">Ling</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Qin, Xianrui</displayForm>
+                        <namePart type="family">Qin</namePart>
+                        <namePart type="given">Xianrui</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Hu, Lei</displayForm>
+                        <namePart type="family">Hu</namePart>
+                        <namePart type="given">Lei</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2019-03-08</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">24</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">The boomerang attack is a variant of differential cryptanalysis which regards a block cipher E as the composition of two sub-ciphers, i.e., E = E1 o E0, and which constructs distinguishers for E with probability p2q2 by combining differential trails for E0 and E1 with probability p and q respectively. However, the validity of this attack relies on the dependency between the two differential trails. Murphy has shown cases where probabilities calculated by p2q2 turn out to be zero, while techniques such as boomerang switches proposed by Biryukov and Khovratovich give rise to probabilities greater than p2q2. To formalize such dependency to obtain a more accurate estimation of the probability of the distinguisher, Dunkelman et al. proposed the sandwich framework that regards E as Ẽ1 o Em o Ẽ0, where the dependency between the two differential trails is handled by a careful analysis of the probability of the middle part Em. Recently, Cid et al. proposed the Boomerang Connectivity Table (BCT) which unifies the previous switch techniques and incompatibility together and evaluates the probability of Em theoretically when Em is composed of a single S-box layer. In this paper, we revisit the BCT and propose a generalized framework which is able to identify the actual boundaries of Em which contains dependency of the two differential trails and systematically evaluate the probability of Em with any number of rounds. To demonstrate the power of this new framework, we apply it to two block ciphers SKINNY and AES. In the application to SKINNY, the probabilities of four boomerang distinguishers are re-evaluated. It turns out that Em involves5 or 6 rounds and the probabilities of the full distinguishers are much higher than previously evaluated. In the application to AES, the new framework is used to exclude incompatibility and find high probability distinguishers of AES-128 under the related-subkey setting. As a result, a 6-round distinguisher with probability 2−109.42 is constructed. Lastly, we discuss the relation between the dependency of two differential trails in boomerang distinguishers and the properties of components of the cipher.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tosc.v2019.i1.118-141</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7399</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7399">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/7399/6571" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_rub-journals_7399">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/7399/7557" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="" ID="FILE2_rub-journals_7399">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/7399/7765" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7399" DMDID="DMD_rub-journals_7399">
+            <mets:fptr FILEID="FILE0_rub-journals_7399"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_7399" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_7399"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART2_rub-journals_7399" LABEL="">
+                <mets:fptr FILEID="FILE2_rub-journals_7399"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,54 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8386">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Of Swadeshi, Self-Reliance and Self-Help</title>
+                        <subTitle>A Study of the Arya Samaj in Colonial Punjab, 1890 –1920s</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Raj, Richa</displayForm>
+                        <namePart type="family">Raj</namePart>
+                        <namePart type="given">Richa</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2019-10-15</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">22</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">In response to the colonial economic and cultural subjugation, the ideal of swadeshi (swa: own; desh : nation; translated as: of one’s own nation) in India had begun to gain ground from 1890s onwards ultimately culminating into the Swadeshi Movement. Fundamentally, it encouraged domestic production in opposition to foreign imports and was characterised by attempts to organise technical education and industrial research, revival of traditional industrial crafts, the starting of new industries based on modern techniques and floating of insurance companies and swadeshi banks, and promotion of swadeshi sales through exhibitions and shops. Subsequently, the assertion of self-help and self-reliance appeared in the Punjab province, too. In this vast province with a majority Muslim population and Hindus and Sikhs in a minority, swadeshi manifested itself in several ways. Through a study of the Arya Samaj, a socio-religious reform movement with firm roots among the Hindus of the province, this article traces how, in colonial Punjab, swadeshi soon grew out of its economic basis to encapsulate a larger Hindu nationalistic and cultural paradigm.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/mts.62.2019.51-72</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8386</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8386">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/8386/7731" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8386" DMDID="DMD_rub-journals_8386">
+            <mets:fptr FILEID="FILE0_rub-journals_8386"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

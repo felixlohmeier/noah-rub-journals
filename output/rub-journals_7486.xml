@@ -1,0 +1,57 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7486">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Review Article</title>
+                        <subTitle>Oil and Social Movements</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Graf, Rüdiger</displayForm>
+                        <namePart type="family">Graf</namePart>
+                        <namePart type="given">Rüdiger</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015-03-04</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">13</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Timothy Mitchell: Carbon Democracy: Political Power in the Age of Oil, London/New York: Verso, 2011, ISBN 13: 978 – 1781681169, 288 pp.
+C. I. Obi/Siri Aas Rustad: Oil and Insurgency in the Niger Delta. Managing the Complex Politics of Petro-Violence, London/New York: Zed Books, 2011, ISBN: 9781848138070, 255 pp.
+Michael Lewin Ross: The Oil Curse: How Petroleum Wealth Shapes the Development of Nations, New York: Princeton University Press, 2012, ISBN: 9780691159638, 312 pp.
+Brian Black: Crude Reality: Petroleum in World History, Lanham et. al.: Rowman &amp;amp; Littlefield Publishers, 2012, ISBN: 978 – 0742556546, 288 pp.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <identifier type="doi">10.13154/mts.52.2014.223-235</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7486</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7486">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/7486/6658" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7486" DMDID="DMD_rub-journals_7486">
+            <mets:fptr FILEID="FILE0_rub-journals_7486"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

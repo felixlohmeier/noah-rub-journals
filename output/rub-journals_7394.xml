@@ -1,0 +1,86 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7394">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Multi-Tuple Leakage Detection and the Dependent Signal Issue</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Bronchain, Olivier</displayForm>
+                        <namePart type="family">Bronchain</namePart>
+                        <namePart type="given">Olivier</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Schneider, Tobias</displayForm>
+                        <namePart type="family">Schneider</namePart>
+                        <namePart type="given">Tobias</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Standaert, François-Xavier</displayForm>
+                        <namePart type="family">Standaert</namePart>
+                        <namePart type="given">François-Xavier</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2019-02-28</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">28</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Leakage detection is a common tool to quickly assess the security of a cryptographic implementation against side-channel attacks. The Test Vector Leakage Assessment (TVLA) methodology using Welch’s t-test, proposed by Cryptography Research, is currently the most popular example of such tools, thanks to its simplicity and good detection speed compared to attack-based evaluations. However, as any statistical test, it is based on certain assumptions about the processed samples and its detection performances strongly depend on parameters like the measurement’s Signal-to-Noise Ratio (SNR), their degree of dependency, and their density, i.e., the ratio between the amount of informative and non-informative points in the traces. In this paper, we argue that the correct interpretation of leakage detection results requires knowledge of these parameters which are a priori unknown to the evaluator, and, therefore, poses a non-trivial challenge to evaluators (especially if restricted to only one test). For this purpose, we first explore the concept of multi-tuple detection, which is able to exploit differences between multiple informative points of a trace more effectively than tests relying on the minimum p-value of concurrent univariate tests. To this end, we map the common Hotelling’s T2-test to the leakage detection setting and, further, propose a specialized instantiation of it which trades computational overheads for a dependency assumption. Our experiments show that there is not one test that is the optimal choice for every leakage scenario. Second, we highlight the importance of the assumption that the samples at each point in time are independent, which is frequently considered in leakage detection, e.g., with Welch’s t-test. Using simulated and practical experiments, we show that (i) this assumption is often violated in practice, and (ii) deviations from it can affect the detection performances, making the correct interpretation of the results more difficult. Finally, we consolidate our findings by providing guidelines on how to use a combination of established and newly-proposed leakage detection tools to infer the measurements parameters. This enables a better interpretation of the tests’ results than the current state-of-the-art (yet still relying on heuristics for the most challenging evaluation scenarios).</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tches.v2019.i2.318-345</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7394</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7394">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/7394/6566" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_rub-journals_7394">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/7394/7901" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="" ID="FILE2_rub-journals_7394">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/7394/7902" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7394" DMDID="DMD_rub-journals_7394">
+            <mets:fptr FILEID="FILE0_rub-journals_7394"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_7394" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_7394"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART2_rub-journals_7394" LABEL="">
+                <mets:fptr FILEID="FILE2_rub-journals_7394"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

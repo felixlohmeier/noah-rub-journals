@@ -1,0 +1,55 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7597">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <nonSort>The </nonSort>
+                        <title>High Authority of the ECSC, the European Network of Trade Unions and the DGB</title>
+                        <subTitle>Ideas, Strategies and Achievements</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Suzuki, Hitoshi</displayForm>
+                        <namePart type="family">Suzuki</namePart>
+                        <namePart type="given">Hitoshi</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015-02-16</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">26</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">This chapter examines how the trade unions of the six ECSC Member States constructed a European network in order to support the Schuman Plan and to influence the decisionmaking of the ECSC based on workers’ interests. The unions agreed to support the Schuman Plan and aimed at achieving direct participation in the Paris negotiations and in the High Authority of the ECSC. The DGB was one of the few unions that were able to send members regularly into government delegations, and therefore played an indispensable role in both influencing the policies of the ECSC and developing the European network of trade unions: the ERO of the ICFTU, the Committee of 21 and the Bureau de Liaison. After achieving participation, the unions lobbied the High Authority under Jean Monnet’s presidency and jointly claimed that dismantling coal cartels would cause mass unemployment in coalmines and would damage the economy. The unions successfully postponed the anticartel policy of the ECSC, but faced a split in supporting further integration.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/mts.42.2009.63-88</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7597</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7597">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/7597/6769" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7597" DMDID="DMD_rub-journals_7597">
+            <mets:fptr FILEID="FILE0_rub-journals_7597"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

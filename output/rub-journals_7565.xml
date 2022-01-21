@@ -1,0 +1,54 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7565">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <nonSort>Die </nonSort>
+                        <title>soziale Herkunft der Volksschullehrer bzw. Grund- und Hauptschullehrer nach 1945. Eine Analyse mit dem Schwerpunkt Nordrhein-Westfalen</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Lüpke, Lennart</displayForm>
+                        <namePart type="family">Lüpke</namePart>
+                        <namePart type="given">Lennart</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015-01-30</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">28</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">By using terms and methods of historical research on social mobility, this essay looks at patterns of inter-generational mobility of elementary school teachers in North Rhine- Westphalia after World War II. The discussion focuses on the long-term historical changes in the social recruitment of teachers in the course of the 20th century, considering the enormous professionalization of the working field. Previous research has stated that teaching offered vast opportunities for upward career advancements at the beginning of the 20th century. In contrast to other contemporary opinions, professionalization did not lead to a bigger social exclusiveness. Furthermore, the work of elementary school teachers in Germany and in North Rhine-Westphalia in the 20th century was characterized by high rates of upward mobility. In 1971/72 two thirds of future teachers came from lower social classes than the profession itself was said to belong to. Opportunities for upward mobility to this extent can be referred to the results of the expansion of education. Especially the occupation of elementary school teachers became increasingly more accessible to children of the working class. Overall, the occupation of elementary school teachers went through a transformation in the 20th century.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/mts.43.2010.83-110</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7565</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7565">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/7565/6737" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7565" DMDID="DMD_rub-journals_7565">
+            <mets:fptr FILEID="FILE0_rub-journals_7565"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

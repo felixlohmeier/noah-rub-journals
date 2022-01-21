@@ -1,0 +1,86 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7403">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Related-Tweak Statistical Saturation Cryptanalysis and Its Application on QARMA</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Li, Muzhou</displayForm>
+                        <namePart type="family">Li</namePart>
+                        <namePart type="given">Muzhou</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Hu, Kai</displayForm>
+                        <namePart type="family">Hu</namePart>
+                        <namePart type="given">Kai</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Wang, Meiqin</displayForm>
+                        <namePart type="family">Wang</namePart>
+                        <namePart type="given">Meiqin</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2019-03-08</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">28</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Statistical saturation attack takes advantage of a set of plaintext with some bits fixed while the others vary randomly, and then track the evolution of a non-uniform plaintext distribution through the cipher. Previous statistical saturation attacks are all implemented under single-key setting, and there is no public attack models under related-key/tweak setting. In this paper, we propose a new cryptanalytic method which can be seen as related-key/tweak statistical saturation attack by revealing the link between the related-key/tweak statistical saturation distinguishers and KDIB (Key Difference Invariant Bias) / TDIB (Tweak Difference Invariant Bias) ones. KDIB cryptanalysis was proposed by Bogdanov et al. at ASIACRYPT’13 and utilizes the property that there can exist linear trails such that their biases are deterministically invariant under key difference. And this method can be easily extended to TDIB distinguishers if the tweak is also alternated. The link between them provides a new and more efficient way to find related-key/tweak statistical saturation distinguishers in ciphers. Thereafter, an automatic searching algorithm for KDIB/TDIB distinguishers is also given in this paper, which can be implemented to find word-level KDIB distinguishers for S-box based key-alternating ciphers. We apply this algorithm to QARMA-64 and give related-tweak statistical saturation attack for 10-round QARMA-64 with outer whitening key. Besides, an 11-round attack on QARMA-128 is also given based on the TDIB technique. Compared with previous public attacks on QARMA including outer whitening key, all attacks presented in this paper are the best ones in terms of the number of rounds.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tosc.v2019.i1.236-263</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7403</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7403">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/7403/6575" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_rub-journals_7403">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/7403/7553" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="" ID="FILE2_rub-journals_7403">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/7403/7769" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7403" DMDID="DMD_rub-journals_7403">
+            <mets:fptr FILEID="FILE0_rub-journals_7403"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_7403" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_7403"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART2_rub-journals_7403" LABEL="">
+                <mets:fptr FILEID="FILE2_rub-journals_7403"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

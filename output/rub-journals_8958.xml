@@ -1,0 +1,57 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8958">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Being for no-one</title>
+                        <subTitle>Psychedelic experience and minimal subjectivity</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Letheby, Chris</displayForm>
+                        <namePart type="family">Letheby</namePart>
+                        <namePart type="given">Chris</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020-03-24</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">26</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Can there be phenomenal consciousness without self-consciousness? Strong intuitions and prominent theories of consciousness say “no”: experience requires minimal self-awareness, or “subjectivity”. This “subjectivity principle” (SP) faces apparent counterexamples in the form of anomalous mental states claimed to lack self-consciousness entirely, such as “inserted thoughts” in schizophrenia and certain mental states in depersonalization disorder (DPD). However, Billon &amp;amp; Kriegel (2015) have defended SP by arguing (inter alia) that while some of these mental states may be totally selfless, those states are not phenomenally conscious and thus do not constitute genuine counterexamples to SP.
+I argue that this defence cannot work in relation to certain experiences of ego dissolution induced by potent fast-acting serotonergic psychedelics. These mental states jointly instantiate the two features whose co-instantiation by a single mental state SP prohibits: (a) phenomenal consciousness and (b) total lack of self-consciousness.
+One possible objection is that these mental states may lack “me-ness” and “mineness” but cannot lack “for-me-ness”, a special inner awareness of mental states by the self. In response I propose a dilemma. For-me-ness can be defined either as containing a genuinely experiential component or as not. On the first horn, for-me-ness is clearly absent (I argue) from my counterexamples. On the second horn, for-me-ness has been defined in a way that conflicts with the claims and methods of its proponents, and the claim that phenomenally conscious mental states can totally lack self-consciousness has been conceded. I conclude with some reflections on the intuitive plausibility of SP in light of evidence from altered states.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.33735/phimisci.2020.I.47</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8958</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8958">
+                <mets:FLocat xlink:href="https://philosophymindscience.org/index.php/phimisci/article/download/8958/8536" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8958" DMDID="DMD_rub-journals_8958">
+            <mets:fptr FILEID="FILE0_rub-journals_8958"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

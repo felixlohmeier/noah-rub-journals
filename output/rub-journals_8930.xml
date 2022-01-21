@@ -1,0 +1,52 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8930">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Report by Missionary Wilhelm Eich to the Rhenish Mission Society, Okahandja, April 14/May 23, 1904</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Tröndle, Rainer</displayForm>
+                        <namePart type="family">Tröndle</namePart>
+                        <namePart type="given">Rainer</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2021-06-25</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">20</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Wilhelm Eich (1850-1935) was an employee of the Barmer Missionary Trading Company in South West Africa from 1871 till 1877. He returned to Germany to become a missionary and was ordained on 10 August 1881. In 1883 he returned to South West Africa and worked first in Otjizeva, then in Osona and in Otjosazu. He and his wife, Emilie Jakobine Mohn (1854-1924), had five children. From 1891 to 1904 he was head of the Otjozondjupa mission station at Waterberg. In his letter he reports on events in the days leading up to the hostilities which began in Otjozondjupa on January 14 with the killing of 12 German men. Eich describes his experiences during the seven weeks when he, his family and a number of other white women and children whose life had been spared by Herero were held captive. He further recalls the odyssey lasting several more weeks in the company of David Kambazembi, who wanted to join the main force of Samuel Maharero at Oviumbo. It was only on April 9 that Eich finally reached Okahandja. Despite the horrors and hardships he and his people experienced during this time, the report concludes conciliatorily, stating that they had been treated decently both at Otjozondjupa and during the trek, often even expressing high regard for both Christian and pagan Herero. The original letter is stored in the Archives and Museum Foundation of UEM Wuppertal as RMG 1.609c, B/c II 36, 1904, pp. 4-26.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8930</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8930">
+                <mets:FLocat xlink:href="https://namibian-studies.com/index.php/JNS/article/download/8930/8500" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8930" DMDID="DMD_rub-journals_8930">
+            <mets:fptr FILEID="FILE0_rub-journals_8930"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

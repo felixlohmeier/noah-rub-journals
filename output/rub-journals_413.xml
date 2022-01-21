@@ -1,0 +1,69 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_413">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Alloy design in the system Fe-C-B</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Lentz, Jonathan</displayForm>
+                        <namePart type="family">Lentz</namePart>
+                        <namePart type="given">Jonathan</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Röttger, Arne</displayForm>
+                        <namePart type="family">Röttger</namePart>
+                        <namePart type="given">Arne</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Theisen, W.</displayForm>
+                        <namePart type="family">Theisen</namePart>
+                        <namePart type="given">W.</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015-11-25</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">11</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">In this study, the Fe-C-B system is used as a basis for alloy development of tool steels. Thereby,boron is used as hard phase forming element. The effect of chromium on the phase stability,microstructure and hard phase properties of Fe-C-B-Cr alloys is investigated. In this manner,thermodynamic equilibrium calculations are performed and experimentally validated. Laboratoryalloys were casted and investigated using scanning electron microscopy (SEM), energy dispersivespectroscopy (EDS) and electron backscatter diffraction (EBSD). Nanoindentation was performedto investigate the effect of Cr on the micromechanical properties of the particular hard phases(elastic modulus and indentation hardness). It is shown, that Cr stabilizes the orthorhombic, Cr-richM2B type boride with a hardness of 22.8 GPa. In addition Cr stabilizes the Cr-rich M23(C,B)6carboboride, which possess a lower hardness (14 GPa). In a next step, the findings areimplemented in an alloy development and alloying additions of chromium, silicon and manganeseare used to specifically stabilize the M2B type boride with high Cr content to adjust a high hardnessof the M2B phase. Subsequently, a scratch test is performed to investigate the governing wearmechanisms in the developed alloy.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/icscm.3.2015.309-319</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_413</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_413">
+                <mets:FLocat xlink:href="https://icscm.ub.rub.de/index.php/ICSCM/article/download/413/369" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_413" DMDID="DMD_rub-journals_413">
+            <mets:fptr FILEID="FILE0_rub-journals_413"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

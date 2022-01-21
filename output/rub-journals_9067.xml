@@ -1,0 +1,94 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_9067">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>An Instruction Set Extension to Support Software-Based Masking</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Gao, Si</displayForm>
+                        <namePart type="family">Gao</namePart>
+                        <namePart type="given">Si</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Großschädl, Johann</displayForm>
+                        <namePart type="family">Großschädl</namePart>
+                        <namePart type="given">Johann</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Marshall, Ben</displayForm>
+                        <namePart type="family">Marshall</namePart>
+                        <namePart type="given">Ben</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Page, Dan</displayForm>
+                        <namePart type="family">Page</namePart>
+                        <namePart type="given">Dan</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Pham, Thinh</displayForm>
+                        <namePart type="family">Pham</namePart>
+                        <namePart type="given">Thinh</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Regazzoni, Francesco</displayForm>
+                        <namePart type="family">Regazzoni</namePart>
+                        <namePart type="given">Francesco</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2021-08-11</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">43</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">In both hardware and software, masking can represent an effective means of hardening an implementation against side-channel attack vectors such as Differential Power Analysis (DPA). Focusing on software, however, the use of masking can present various challenges: specifically, it often 1) requires significant effort to translate any theoretical security properties into practice, and, even then, 2) imposes a significant overhead in terms of efficiency. To address both challenges, this paper explores the use of an Instruction Set Extension (ISE) to support masking in software-based implementations of a range of (symmetric) cryptographic kernels including AES: we design, implement, and evaluate such an ISE, using RISC-V as the base ISA. Our ISE-supported first-order masked implementation of AES, for example, is an order of magnitude more efficient than a software-only alternative with respect to both execution latency and memory footprint; this renders it comparable to an unmasked implementation using the same metrics, but also first-order secure.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.46586/tches.v2021.i4.283-325</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_9067</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_9067">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/9067/8656" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_9067" DMDID="DMD_rub-journals_9067">
+            <mets:fptr FILEID="FILE0_rub-journals_9067"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

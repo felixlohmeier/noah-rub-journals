@@ -1,0 +1,53 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7808">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Pazifismus in Japan - ein Auslaufmodell?</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Fuhrt, Volker</displayForm>
+                        <namePart type="family">Fuhrt</namePart>
+                        <namePart type="given">Volker</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015-01-03</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">15</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">The paper starts with the observation that Japan, since 1945 usually considered as a country with a strong pacifist inclination, showed, at least in international comparison, only a minor degree of protest against the support of US military intervention and occupation in Iraq by the Japanese government in 2003. A first attempt to explain this phenomenon goes back to the heyday of Japanese peace movements in the decade after the withdrawal of the US occupation troops in Japan in 1952. During this decade the protests of Japanese peace movements were highly influenced by left wing organizations both in organizational and ideological terms. Among these groups there was a growing anxiety to be drawn into another war by the Japanese government, which cooperated very closely with the USA. The one-sided ideological orientation of these &quot;traditional&quot; peace movements was a severe obstacle for a lasting resonance of their efforts in the public sphere of Japan. The second important feature of Japanese peace movements was a highly biased invocation of the historical role of Japan as a victim of the Second World War (Hiroshima, Nagasaki) together with the displacement of those cases were Japanese troops had acted as perpetrators. On the one hand, this bias resonated wirh the Japanese way of coming to terms with their own past, but on the other hand it contributed to a growing isolation of Japanese peace movements in the Far East.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/mts.32.2004.159-173</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7808</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7808">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/7808/6980" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7808" DMDID="DMD_rub-journals_7808">
+            <mets:fptr FILEID="FILE0_rub-journals_7808"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

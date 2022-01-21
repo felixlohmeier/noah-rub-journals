@@ -1,0 +1,52 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_477">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Conference Reports and Announcements</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Authors, Various</displayForm>
+                        <namePart type="family">Authors</namePart>
+                        <namePart type="given">Various</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2016-06-01</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">5</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Buenos Aires, 2015: First Meeting on the History of the Worker’s Movement and the LeftThe International Echoes of the Commemorations of the October Revolution (1918-1990)Forthcoming: The Publication of the Proceedings of the First International Willi-Münzenberg Congress – Global Spaces for Radical Solidarity/ Globale Räume für radikale Solidarität – Erster Internationaler Willi-Münzenberg-Kongress, Berlin, 17. September 2015, Franz Mehring Platz 1, September 17-20, 2015.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_477</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_477">
+                <mets:FLocat xlink:href="https://incs.ub.rub.de/index.php/INCS/article/download/477/429" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_477" DMDID="DMD_rub-journals_477">
+            <mets:fptr FILEID="FILE0_rub-journals_477"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

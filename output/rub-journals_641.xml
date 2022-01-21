@@ -1,0 +1,94 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_641">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Understanding RUP Integrity of COLM</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Datta, Nilanjan</displayForm>
+                        <namePart type="family">Datta</namePart>
+                        <namePart type="given">Nilanjan</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Luykx, Atul</displayForm>
+                        <namePart type="family">Luykx</namePart>
+                        <namePart type="given">Atul</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Mennink, Bart</displayForm>
+                        <namePart type="family">Mennink</namePart>
+                        <namePart type="given">Bart</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Nandi, Mridul</displayForm>
+                        <namePart type="family">Nandi</namePart>
+                        <namePart type="given">Mridul</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2017-06-19</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">19</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">The authenticated encryption scheme COLM is a third-round candidate in the CAESAR competition. Much like its antecedents COPA, ELmE, and ELmD, COLM consists of two parallelizable encryption layers connected by a linear mixing function. While COPA uses plain XOR mixing, ELmE, ELmD, and COLM use a more involved invertible mixing function. In this work, we investigate the integrity of the COLM structure when unverified plaintext is released, and demonstrate that its security highly depends on the choice of mixing function. Our results are threefold. First, we discuss the practical nonce-respecting forgery by Andreeva et al. (ASIACRYPT 2014) against COPA’s XOR mixing. Then we present a noncemisusing forgery against arbitrary mixing functions with practical time complexity. Finally, by using significantly larger queries, we can extend the previous forgery to be nonce-respecting.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tosc.v2017.i2.143-161</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_641</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_641">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/641/609" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_rub-journals_641">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/641/7583" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="" ID="FILE2_rub-journals_641">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/641/7500" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_641" DMDID="DMD_rub-journals_641">
+            <mets:fptr FILEID="FILE0_rub-journals_641"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_641" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_641"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART2_rub-journals_641" LABEL="">
+                <mets:fptr FILEID="FILE2_rub-journals_641"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,70 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8701">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Extended Truncated-differential Distinguishers on Round-reduced AES</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Bao, Zhenzhen</displayForm>
+                        <namePart type="family">Bao</namePart>
+                        <namePart type="given">Zhenzhen</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Guo, Jian</displayForm>
+                        <namePart type="family">Guo</namePart>
+                        <namePart type="given">Jian</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>List, Eik</displayForm>
+                        <namePart type="family">List</namePart>
+                        <namePart type="given">Eik</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020-09-28</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">65</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Distinguishers on round-reduced AES have attracted considerable attention in the recent years. While the number of rounds covered in key-recovery attacks did not increase, subspace, yoyo, mixture-differential, and multiple-of-n cryptanalysis advanced the understanding of the properties of the cipher.For substitution-permutation networks, integral attacks are a suitable target for extension since they usually end after a linear layer sums several subcomponents. Based on results by Patarin, Chen et al. already observed that the expected number of collisions for a sum of permutations differs slightly from that for a random primitive. Though, their target remained lightweight primitives.The present work illustrates how the well-known integral distinguisher on three-round AES resembles a sum of PRPs and can be extended to truncated-differential distinguishers over 4 and 5 rounds. In contrast to previous distinguishers by Grassi et al., our approach allows to prepend a round that starts from a diagonal subspace. We demonstrate how the prepended round can be used for key recovery with a new differential key-recovery attack on six-round AES. Moreover, we show how the prepended round can also be integrated to form a six-round distinguisher. For all distinguishers and the key-recovery attack, our results are supported by implementations with Cid et al.’s established Small-AES version. While the distinguishers do not threaten the security of the AES, they try to shed more light on its properties.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tosc.v2020.i3.197-261</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8701</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8701">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/8701/8293" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8701" DMDID="DMD_rub-journals_8701">
+            <mets:fptr FILEID="FILE0_rub-journals_8701"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

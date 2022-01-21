@@ -1,0 +1,78 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8972">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Security and Trust in Open Source Security Tokens</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Schink, Marc</displayForm>
+                        <namePart type="family">Schink</namePart>
+                        <namePart type="given">Marc</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Wagner, Alexander</displayForm>
+                        <namePart type="family">Wagner</namePart>
+                        <namePart type="given">Alexander</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Unterstein, Florian</displayForm>
+                        <namePart type="family">Unterstein</namePart>
+                        <namePart type="given">Florian</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Heyszl, Johann</displayForm>
+                        <namePart type="family">Heyszl</namePart>
+                        <namePart type="given">Johann</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2021-07-09</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">26</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Using passwords for authentication has been proven vulnerable in countless security incidents. Hardware security tokens effectively prevent most password-related security issues and improve security indisputably. However, we would like to highlight that there are new threats from attackers with physical access which need to be discussed. Supply chain adversaries may manipulate devices on a large scale and install backdoors before they even reach end users. In evil maid scenarios, specific devices may even be attacked while already in use. Hence, we thoroughly investigate the security and trustworthiness of seven commercially available open source security tokens, including devices from the two market leaders: SoloKeys and Nitrokey. Unfortunately, we identify and practically verify significant vulnerabilities in all seven examined tokens. Some of them are based on severe, previously undiscovered, vulnerabilities of two major microcontrollers which are used at a large scale in various products. Our findings clearly emphasize the significant threat from supply chain and evil maid scenarios since the attacks are practical and only require moderate attacker efforts. Fortunately, we are able to describe software-based countermeasures as effective improvements to retrofit the examined devices. To improve the security and trustworthiness of future security tokens, we also derive important general design recommendations.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.46586/tches.v2021.i3.176-201</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8972</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8972">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/8972/8550" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8972" DMDID="DMD_rub-journals_8972">
+            <mets:fptr FILEID="FILE0_rub-journals_8972"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

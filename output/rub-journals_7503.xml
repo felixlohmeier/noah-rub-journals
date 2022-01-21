@@ -1,0 +1,54 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7503">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>More than Exception</title>
+                        <subTitle>Categories and the Problem of “Nature” in the Ruhr</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Angelo, Hillary</displayForm>
+                        <namePart type="family">Angelo</namePart>
+                        <namePart type="given">Hillary</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2014-05-14</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">18</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">This essay reflects on the conceptualisation of the Ruhr region as an urban and historical research object in English-language scholarship and the effects of this understanding on historical social analysis. It focuses particularly on how signs of “nature” – in the form of green space incorporated into industrial workers’ colony housing (Arbeitersiedlungen) around the turn of the last century – have been seen as “exceptions” in an industrial environment, and are subsequently interpreted as indicators of anti-modern values or pre-industrial ideals. I argue that this is the result of the production-centric frame that has dominated urban and historical analysis in the Ruhr, and suggest an alternative interpretation. These are new uses of green space that emerged through industrialisation and urbanisation, and that reflect a modern sensibility towards “nature”: one in which these material referents become legible as vehicles for social goods.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/mts.50.2013.7-24</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7503</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7503">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/7503/6675" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7503" DMDID="DMD_rub-journals_7503">
+            <mets:fptr FILEID="FILE0_rub-journals_7503"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

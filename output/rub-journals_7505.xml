@@ -1,0 +1,53 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7505">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Peter Kropotkin and His Influence on Czech Anarchism</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Rovná, Lenka Anna</displayForm>
+                        <namePart type="family">Rovná</namePart>
+                        <namePart type="given">Lenka Anna</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2014-05-14</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">27</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">In the Czech lands of the late 19th century and early 20th century, anarchism represented a marginal current on the fringe of the labour movement. The social groups inclining to anarchism were miners and weavers in North and East Bohemia as well as intellectuals in Prague. The anarchist movement in the Czech lands was mostly radical, not violent and mainly responding to the development of the Social Democratic Party, which was accused of suppressing individualism. While anarchists generally published a great num- ber of journals of high intellectual quality, there were no significant anarchist thinkers in the Czech lands. If in the 1880s the major role was played by anarchist Johann Most, in the 1890s and at the beginning of the 20th century this role belonged to Russian anarchist Peter Kropotkin. His teaching appealed to Czech anarchists mostly because of its moderate character and rejection of terror, and for his promotion of cooperation, individuality, ethics and social justice. Free individuals gathered in communes and the federations of communes formed the ideal society for Kropotkin. Kropotkin’s ideas are still alive in present anarchist and anti-globalisation movements.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/mts.50.2013.53-79</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7505</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7505">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/7505/6677" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7505" DMDID="DMD_rub-journals_7505">
+            <mets:fptr FILEID="FILE0_rub-journals_7505"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

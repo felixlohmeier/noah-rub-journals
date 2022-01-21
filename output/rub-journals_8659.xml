@@ -1,0 +1,54 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8659">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Solidarities in and through Resistance</title>
+                        <subTitle>Rethinking Alliance-Building through Protests in Plantations in India</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Banerjee, Supurna</displayForm>
+                        <namePart type="family">Banerjee</namePart>
+                        <namePart type="given">Supurna</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020-07-10</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">28</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">The tea plantations of Dooars in West Bengal, India are among the primary tea growing belts in the country. The 2000s saw a crisis in the plantation sector with the closing down of some of the plantations and curtailed operation in others coupled with traditionally low wages in the sector. The paper uses this moment of crisis of livelihood to interrogate resistance and solidarity. Focussing on three protests — one organised by trade unions, another by social movement organisation and the third by the women workers of the plantation, the paper looks to understand the divergences and convergences between the three. How are intersectional alliances formed and what part of one’s identity is foregrounded in such alliances? Who owns protest movements? How does language of protests differ across these? How does the neo liberal state interact with such challenges to its authority? Social movement literature tends to focus on how professional activists create coalitions to strengthen movements. Through the ethnography of the three protests, this article suggests ways in which activists are also produced by movements. It asks can collective actions energized through affective bonds achieve ends which institutional social arrangements are constrained from striving for?</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/mts.63.2020.91-118</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8659</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8659">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/8659/8214" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8659" DMDID="DMD_rub-journals_8659">
+            <mets:fptr FILEID="FILE0_rub-journals_8659"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

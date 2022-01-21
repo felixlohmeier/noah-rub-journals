@@ -1,0 +1,70 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8749">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Fake Near Collisions Attacks</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Derbez, Patrick</displayForm>
+                        <namePart type="family">Derbez</namePart>
+                        <namePart type="given">Patrick</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Fouque, Pierre-Alain</displayForm>
+                        <namePart type="family">Fouque</namePart>
+                        <namePart type="given">Pierre-Alain</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Mollimard, Victor</displayForm>
+                        <namePart type="family">Mollimard</namePart>
+                        <namePart type="given">Victor</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020-12-10</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">16</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Fast Near collision attacks on the stream ciphers Grain v1 and A5/1 were presented at Eurocrypt 2018 and Asiacrypt 2019 respectively. They use the fact that the entire internal state can be split into two parts so that the second part can be recovered from the first one which can be found using the keystream prefix and some guesses of the key materials.In this paper we reevaluate the complexity of these attacks and show that actually they are inferior to previously known results. Basically, we show that their complexity is actually much higher and we point out the main problems of these papers based on information theoretic ideas. We also check that some distributions do not have the predicted entropy loss claimed by the authors. Checking cryptographic attacks with galactic complexity is difficult in general. In particular, as these attacks involve many steps it is hard to identify precisely where the attacks are flawed. But for the attack against A5/1, it could have been avoided if the author had provided a full experiment of its attack since the overall claimed complexity was lower than 232 in both time and memory.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.46586/tosc.v2020.i4.88-103</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8749</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8749">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/8749/8347" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8749" DMDID="DMD_rub-journals_8749">
+            <mets:fptr FILEID="FILE0_rub-journals_8749"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

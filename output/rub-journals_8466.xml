@@ -1,0 +1,86 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8466">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Comprehensive security analysis of CRAFT</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Hadipour, Hosein</displayForm>
+                        <namePart type="family">Hadipour</namePart>
+                        <namePart type="given">Hosein</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Sadeghi, Sadegh</displayForm>
+                        <namePart type="family">Sadeghi</namePart>
+                        <namePart type="given">Sadegh</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Niknam, Majid M.</displayForm>
+                        <namePart type="family">Niknam</namePart>
+                        <namePart type="given">Majid M.</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Song, Ling</displayForm>
+                        <namePart type="family">Song</namePart>
+                        <namePart type="given">Ling</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Bagheri, Nasour</displayForm>
+                        <namePart type="family">Bagheri</namePart>
+                        <namePart type="given">Nasour</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020-01-31</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">28</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">CRAFT is a lightweight block cipher, designed to provide efficient protection against differential fault attacks. It is a tweakable cipher that includes 32 rounds to produce a ciphertext from a 64-bit plaintext using a 128-bit key and 64-bit public tweak. In this paper, compared to the designers’ analysis, we provide a more detailed analysis of CRAFT against differential and zero-correlation cryptanalysis, aiming to provide better distinguishers for the reduced rounds of the cipher. Our distinguishers for reduced-round CRAFT cover a higher number of rounds compared to the designers’ analysis. In our analysis, we observed that, for any number of rounds, the differential effect of CRAFT has an extremely higher probability compared to any differential trail. As an example, while the best trail for 11 rounds of the cipher has a probability of at least 2−80, we present a differential with probability 2−49.79, containing 229.66 optimal trails, all with the same optimum probability of 2−80. Next, we use a partitioning technique, based on optimal expandable truncated trails to provide a better estimation of the differential effect on CRAFT. Thanks to this technique, we are able to find differential distinguishers for 9, 10, 11, 12, 13, and 14 rounds of the cipher in single tweak model with the probabilities of at least 2−40.20, 2−45.12, 2−49.79, 2−54.49, 2−59.13, and 2−63.80, respectively. These probabilities should be compared with the best distinguishers provided by the designers in the same model for 9 and 10 rounds of the cipher with the probabilities of at least 2−54.67 and 2−62.61, respectively. In addition, we consider the security of CRAFT against the new concept of related tweak zero-correlation (ZC) linear cryptanalysis and present a new distinguisher which covers 14 rounds of the cipher, while the best previous ZC distinguisher covered 13 rounds. Thanks to the related tweak ZC distinguisher for 14 rounds of the cipher, we also present 14 rounds integral distinguishers in related tweak mode of the cipher. Although the provided analysis does not compromise the cipher, we think it provides a better insight into the designing of CRAFT.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tosc.v2019.i4.290-317</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8466</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8466">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/8466/8032" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8466" DMDID="DMD_rub-journals_8466">
+            <mets:fptr FILEID="FILE0_rub-journals_8466"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,53 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_493">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Lack of reading culture and literacy in the Namibian educational system</title>
+                        <subTitle>Some propositions  for social responsibility</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Ola-Busari, Josephine</displayForm>
+                        <namePart type="family">Ola-Busari</namePart>
+                        <namePart type="given">Josephine</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2016-06-10</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">18</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">The poor level of proficiency in the English language among Namibian learners in tertiary education is sometimes attributed to a lack of reading culture and low literacy levels in the Namibian educational system. This may be partly because literature is not taught and examined as a separate subject in public primary and secondary schools. It could also be due in part to the manner in which English is superimposed on all other languages in the country. Before being taught English, most Namibian learners have already acquired a mastery of their indigenous language and tend to transfer features of their first language to English. Using reading and literacy as theoretical strategies, this paper examines the written language of selected undergraduates with the aim of identifying errors and underlying causes. Findings reveal that students are inadequately prepared in their primary and secondary schools for the demands of academic writing in tertiary education. Analysis also reveals a lack of fundamental language skills which can only be acquired through directed reading, phonemic awareness and knowledge of English phonemic codes. Based on the findings propositions for re-evaluating and altering the teaching and learning of English in public primary and secondary schools are advocated.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_493</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_493">
+                <mets:FLocat xlink:href="https://namibian-studies.com/index.php/JNS/article/download/493/444" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_493" DMDID="DMD_rub-journals_493">
+            <mets:fptr FILEID="FILE0_rub-journals_493"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,62 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8970">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Classic McEliece on the ARM Cortex-M4</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Chen, Ming-Shing</displayForm>
+                        <namePart type="family">Chen</namePart>
+                        <namePart type="given">Ming-Shing</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Chou, Tung</displayForm>
+                        <namePart type="family">Chou</namePart>
+                        <namePart type="given">Tung</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2021-07-09</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">24</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">This paper presents a constant-time implementation of Classic McEliece for ARM Cortex-M4. Specifically, our target platform is stm32f4-Discovery, a development board on which the amount of SRAM is not even large enough to hold the public key of the smallest parameter sets of Classic McEliece. Fortunately, the flash memory is large enough, so we use it to store the public key. For the level-1 parameter sets mceliece348864 and mceliece348864f, our implementation takes 582 199 cycles for encapsulation and 2 706 681 cycles for decapsulation. Compared to the level-1 parameter set of FrodoKEM, our encapsulation time is more than 80 times faster, and our decapsulation time is more than 17 times faster. For the level-3 parameter sets mceliece460896 and mceliece460896f, our implementation takes 1 081 335 cycles for encapsulation and 6 535 186 cycles for decapsulation. In addition, our implementation is also able to carry out key generation for the level-1 parameter sets and decapsulation for level-5 parameter sets on the board.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.46586/tches.v2021.i3.125-148</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8970</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8970">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/8970/8548" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8970" DMDID="DMD_rub-journals_8970">
+            <mets:fptr FILEID="FILE0_rub-journals_8970"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

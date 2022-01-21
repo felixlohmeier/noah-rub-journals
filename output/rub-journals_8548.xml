@@ -1,0 +1,118 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8548">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Persistent Fault Attack in Practice</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Zhang, Fan</displayForm>
+                        <namePart type="family">Zhang</namePart>
+                        <namePart type="given">Fan</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Zhang, Yiran</displayForm>
+                        <namePart type="family">Zhang</namePart>
+                        <namePart type="given">Yiran</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Jiang, Huilong</displayForm>
+                        <namePart type="family">Jiang</namePart>
+                        <namePart type="given">Huilong</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Zhu , Xiang</displayForm>
+                        <namePart type="family">Zhu </namePart>
+                        <namePart type="given">Xiang</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Bhasin, Shivam</displayForm>
+                        <namePart type="family">Bhasin</namePart>
+                        <namePart type="given">Shivam</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Zhao, Xinjie</displayForm>
+                        <namePart type="family">Zhao</namePart>
+                        <namePart type="given">Xinjie</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Liu, Zhe</displayForm>
+                        <namePart type="family">Liu</namePart>
+                        <namePart type="given">Zhe</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Gu, Dawu</displayForm>
+                        <namePart type="family">Gu</namePart>
+                        <namePart type="given">Dawu</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Ren, Kui</displayForm>
+                        <namePart type="family">Ren</namePart>
+                        <namePart type="given">Kui</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020-03-02</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">24</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Persistence fault analysis (PFA) is a novel fault analysis technique proposed in CHES 2018 and demonstrated with rowhammer-based fault injections. However, whether such analysis can be applied to traditional fault attack scenario, together with its difficulty in practice, has not been carefully investigated. For the first time, a persistent fault attack is conducted on an unprotected AES implemented on ATmega163L microcontroller in this paper. Several critical challenges are solved with our new improvements, including (1) how to decide whether the fault is injected in SBox; (2) how to use the maximum likelihood estimation to pursue the minimum number of ciphertexts; (3) how to utilize the unknown fault in SBox to extract the key. Our experiments show that: to break AES with physical laser injections despite all these challenges, the minimum and average number of required ciphertexts are 926 and 1641, respectively. It is about 38% and 28% reductions of the ciphertexts required in comparison to 1493 and 2273 in previous work where both fault value and location have to be known. Furthermore, our analysis is extended to the PRESENT cipher. By applying the persistent fault analysis to the penultimate round, the full PRESENT key of 80 bits can be recovered. Eventually, an experimental validation is performed to confirm the accuracy of our attack with more insights. This paper solves the challenges in most aspects of practice and also demonstrates the feasibility and universality of PFA on SPN block ciphers.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tches.v2020.i2.172-195</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8548</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8548">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/8548/8113" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8548" DMDID="DMD_rub-journals_8548">
+            <mets:fptr FILEID="FILE0_rub-journals_8548"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

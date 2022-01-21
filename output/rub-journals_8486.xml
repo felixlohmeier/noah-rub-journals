@@ -1,0 +1,62 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8486">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <nonSort>The </nonSort>
+                        <title>International Oppositions in the Communist International. A Global Overview</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Broué, Pierre</displayForm>
+                        <namePart type="family">Broué</namePart>
+                        <namePart type="given">Pierre</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Pierce, Brian</displayForm>
+                        <namePart type="family">Pierce</namePart>
+                        <namePart type="given">Brian</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020-02-26</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">32</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Institut d&apos;études politiques de GrenobleFrance
+This unpublished text by Pierre Broué (1926–2005), eminent French historian of international communism and Leo Trotsky, and avid contributor to the International Newsletter, was written under the title “The International Oppositions in the Comintern” in the 1990s for a planned, yet not implemented publication project of the International Institute of Social History (IISG) in Amsterdam. It was translated into English by British historian Brian Pearce (1915–2008). The typescript survived in Bernhard H. Bayerlein’s private collection, and as this text is not available anywhere in English, we decided to publish it here for the first time. Broué’s contribution is much more than the modest title suggests. His essay is not just a history of the oppositions within the Comintern, but a global overview and synthesis of oppositional currents in international communism in the 1920s, from the US to Indochina, from Switzerland to South Africa. Even though it has been written before the opening of several archives which are accessible today, such a global overview, combined with Broué’s poignant analysis, still can greatly benefit today’s researchers.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8486</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8486">
+                <mets:FLocat xlink:href="https://incs.ub.rub.de/index.php/INCS/article/download/8486/8053" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8486" DMDID="DMD_rub-journals_8486">
+            <mets:fptr FILEID="FILE0_rub-journals_8486"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

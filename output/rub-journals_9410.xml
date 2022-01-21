@@ -1,0 +1,54 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_9410">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>“Protest? Bollocks!” On Public Perceptions of Punk in West Germany</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Robel, Yvonne</displayForm>
+                        <namePart type="family">Robel</namePart>
+                        <namePart type="given">Yvonne</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2021-10-31</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">22</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">The article thematizes the phenomenon of punk as an example of “unconventional”&amp;nbsp;and “unwelcomed” protest. It focuses on the public perception of West German&amp;nbsp;punks from the late 1970s into the 1980s. In this early phase, punks caused confusion&amp;nbsp;especially because of their alleged passivity. Their seeming rejection of a concept of&amp;nbsp;being (politically) active was regarded as provocative, as the idea of “activity” largely&amp;nbsp;dominated notions of legitimate political protest at that time. Punk was considered&amp;nbsp;destructive and contentless, but non-political and as such “non-real” as a form of&amp;nbsp;protest. Moreover, “experts” from the social sciences and pedagogy, politicians, and&amp;nbsp;journalists interpreted the behaviour of the youth in social terms and responded to&amp;nbsp;the “problem” with attempts to “understanding” and “help.” From their point of view&amp;nbsp;too, Punks seemed to be unable to detect any political issues of their own or to fulfil&amp;nbsp;notions of meaningful forms of protest. Using the example of punk perceptions, the&amp;nbsp;article examines how collective knowledge about legitimate and proper forms of protest&amp;nbsp;is negotiated through demarcations.
+&amp;nbsp;</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.46586/mts.66.2021.89-110</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_9410</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_9410">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/9410/8950" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_9410" DMDID="DMD_rub-journals_9410">
+            <mets:fptr FILEID="FILE0_rub-journals_9410"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

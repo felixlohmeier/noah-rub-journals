@@ -1,0 +1,52 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_827">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Statement from the dock, 1 February 1968</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Toivo Ya Toivo, Andimba</displayForm>
+                        <namePart type="family">Toivo Ya Toivo</namePart>
+                        <namePart type="given">Andimba</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2017-12-31</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">6</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">From August 1967 to February 1968, Herman Andimba Toivo Ya Toivo was on trial by South African officials for terrorism. At the end of his trial, on 1 February 1968 he made the following statement from the dock which became “a lasting document of Namibian aspirations for freedom”. On 9 February 1968 Ya Toivo was sentenced to 20 years imprisonment and sent to serve his sentence in the prison of Robben Island near Cape Town. He has been released after serving 16 years in March 1984.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_827</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_827">
+                <mets:FLocat xlink:href="https://namibian-studies.com/index.php/JNS/article/download/827/780" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_827" DMDID="DMD_rub-journals_827">
+            <mets:fptr FILEID="FILE0_rub-journals_827"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

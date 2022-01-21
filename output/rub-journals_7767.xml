@@ -1,0 +1,53 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7767">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Was macht eigentlich die historische Protestforschung? Rückblicke, Resümee, Perspektiven</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Gailus, Manfred</displayForm>
+                        <namePart type="family">Gailus</namePart>
+                        <namePart type="given">Manfred</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015-01-10</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">28</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">The article deals with three and a half decades of research on historical protest in Germany. It scrutinises the reasons of its relative marginalisation since the early 1990s and tries to give some proposals for its renewal. After a short discussion of different meanings and concepts of “protest” and some preliminaries how the protest issue should be conceptualised for historical research, an overview is given on the early phases of “social protest” research and its contemporary shortcomings. Manfred Gailus argues for a more intensive research on what is conceived as “bad protest” like anti-Jewish violence etc. He also deals with the transformation of protest research (culturalisation, gender, history of violence) since the early 1990s in context of a general turn from social to cultural history. The author explains in detail that transnational comparisons as well as the globalisation of the issue, intensified receptions of recent debates and concepts of sociological movement research and issues like “civil society” may offer new opportunities. Finally, a short outlook on the future of protest research in today’s world full of protests is given.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/mts.34.2005.127-154</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7767</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7767">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/7767/6939" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7767" DMDID="DMD_rub-journals_7767">
+            <mets:fptr FILEID="FILE0_rub-journals_7767"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

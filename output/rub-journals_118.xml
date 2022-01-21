@@ -1,0 +1,52 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_118">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>&apos;Certain uncertainties&apos; or Venturing progressively into colonial apologetics?</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Hillebrecht, Werner</displayForm>
+                        <namePart type="family">Hillebrecht</namePart>
+                        <namePart type="given">Werner</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2014-01-31</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">23</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">This article deals with Brigitte Lau&apos;s contentious article &quot;Uncertain certainties&quot; of 1988. The author explains the controversy sparked by the article and refutes her call for a revision of the historiography of the war of 1904-08; further, the article&apos;s echo is contextualised and explained in terms of a specific Namibian-German psychological reaction to the trauma of 20th century German history among Namibian Germans.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_118</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_118">
+                <mets:FLocat xlink:href="https://namibian-studies.com/index.php/JNS/article/download/118/85" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_118" DMDID="DMD_rub-journals_118">
+            <mets:fptr FILEID="FILE0_rub-journals_118"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

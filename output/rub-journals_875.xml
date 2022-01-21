@@ -1,0 +1,95 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_875">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>High-Performance FV Somewhat Homomorphic Encryption on GPUs</title>
+                        <subTitle>An Implementation using CUDA</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Badawi, Ahmad Al</displayForm>
+                        <namePart type="family">Badawi</namePart>
+                        <namePart type="given">Ahmad Al</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Veeravalli, Bharadwaj</displayForm>
+                        <namePart type="family">Veeravalli</namePart>
+                        <namePart type="given">Bharadwaj</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Mun, Chan Fook</displayForm>
+                        <namePart type="family">Mun</namePart>
+                        <namePart type="given">Chan Fook</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Aung, Khin Mi Mi</displayForm>
+                        <namePart type="family">Aung</namePart>
+                        <namePart type="given">Khin Mi Mi</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2018-05-08</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">26</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Homomorphic encryption (HE) offers great capabilities that can solve a wide range of privacy-preserving computing problems. This tool allows anyone to process encrypted data producing encrypted results that only the decryption key’s owner can decrypt. Although HE has been realized in several public implementations, its performance is quite demanding. The reason for this is attributed to the huge amount of computation required by secure HE schemes. In this work, we present a CUDAbased implementation of the Fan and Vercauteren (FV) Somewhat HomomorphicEncryption (SHE) scheme. We demonstrate several algebraic tools such as the Chinese Remainder Theorem (CRT), Residual Number System (RNS) and Discrete Galois Transform (DGT) to accelerate and facilitate FV computation on GPUs. We also show how the entire FV computation can be done on GPU without multi-precision arithmetic. We compare our GPU implementation with two mature state-of-the-art implementations: 1) Microsoft SEAL v2.3.0-4 and 2) NFLlib-FV. Our implementation outperforms them and achieves on average 5.37x, 7.37x, 22.22x, 5.11x and 13.18x (resp. 2.03x, 2.94x, 27.86x, 8.53x and 18.69x) for key generation, encryption, decryption, homomorphic addition and homomorphic multiplication against SEAL-FVRNS (resp. NFLlib-FV).</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tches.v2018.i2.70-95</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_875</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_875">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/875/827" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_rub-journals_875">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/875/7974" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="" ID="FILE2_rub-journals_875">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/875/7975" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_875" DMDID="DMD_rub-journals_875">
+            <mets:fptr FILEID="FILE0_rub-journals_875"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_875" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_875"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART2_rub-journals_875" LABEL="">
+                <mets:fptr FILEID="FILE2_rub-journals_875"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

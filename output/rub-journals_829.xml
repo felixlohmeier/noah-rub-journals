@@ -1,0 +1,62 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_829">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Dynamics and Stability in the Encounters between Asian Buddhists and European Christians</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Berkwitz, Stephen C.</displayForm>
+                        <namePart type="family">Berkwitz</namePart>
+                        <namePart type="given">Stephen C.</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2018-01-31</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">43</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">The aim of this paper is to theorize broadly about how cultural encounters between Asian Buddhists and European Christians spurred various efforts to demarcate, systematize, and stabilize religious traditions. It focuses on the dynamics seen in Buddhist responses to contact situations from the sixteenth century onwards in Sri Lanka, Cambodia, and Japan in order to map out some patterns of interaction among these communities. Theories of cultural imitation and independence do not suffice to theorize interreligious encounters in these cases. Using select examples, this paper will contend that Asian Buddhists often&amp;nbsp;responded to various kinds of European interventions by redefining and reimagining the&amp;nbsp;Buddhist tradition in new ways in order to argue for its continued validity and to secure its&amp;nbsp;stability in the face of external encounters and pressures.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/er.v5.2018.1-43</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0">CC BY-NC-ND 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_829</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_829">
+                <mets:FLocat xlink:href="https://er.ceres.rub.de/index.php/ER/article/download/829/781" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="text/html" ID="FILE1_rub-journals_829">
+                <mets:FLocat xlink:href="https://er.ceres.rub.de/index.php/ER/article/download/829/8259" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_829" DMDID="DMD_rub-journals_829">
+            <mets:fptr FILEID="FILE0_rub-journals_829"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_829" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_829"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

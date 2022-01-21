@@ -1,0 +1,53 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7455">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Some Thoughts on Communist Internationalism</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Wirsching, Andreas</displayForm>
+                        <namePart type="family">Wirsching</namePart>
+                        <namePart type="given">Andreas</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2016-10-14</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">16</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">After the Bolshevik revolution of 1917, Lenin’s and Trotsky’s declared aim was world revolution. Even when Stalin declared his policy of ‘socialism in one country’, the Communist International did not cease to seek to influence developments in other parts of the world. When the Soviet Union established itself as one of the leading superpowers in the bipolar world of the Cold War after 1945, the Soviet Union was the motherland of the revolution and ‘big brother’ to communist regimes in Eastern Europe and other parts of the world as well as the sponsor of communist revolutionaries in many parts of the developing world. The tensions between Soviet nationalism and communist internationalism shall be explored in this chapter. Especially, it will ask whether communist internationalism was a mere tool in the foreign policy of the Soviet Union or whether it was more. And it shall explore the vexed question of how much independence from the Soviet Union communist parties enjoyed. Furthermore it will examine the Communist International as a transnational life experience and communicative space for its protagonists, and it will propose some lieux de mémoire of communist internationalism.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/mts.55.2016.39-54</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7455</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7455">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/7455/6627" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7455" DMDID="DMD_rub-journals_7455">
+            <mets:fptr FILEID="FILE0_rub-journals_7455"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

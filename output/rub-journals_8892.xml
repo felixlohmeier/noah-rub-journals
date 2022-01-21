@@ -1,0 +1,60 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8892">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>War, Displacement, and Refugeehood</title>
+                        <subTitle>Existential Encounters of Religion in the Syrian Refugee Crisis</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Løland, Ingrid</displayForm>
+                        <namePart type="family">Løland</namePart>
+                        <namePart type="given">Ingrid</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2021-05-28</dateIssued>
+                    </originInfo>
+                    <abstract lang="eng">How and to what extent does religion play into the life-rupturing experiences that characterize forced migration? This article provides a novel look at how issues of religion and identity (re/de)constructions are entangled with the Syrian refugee crisis and mirrored in the diverse experiences relating to a sample of Syrian refugees now residing in Norway. The study aims to delve more deeply into the Syrian scene of war as a determinant backdrop to the Syrian refugee crisis, thereby tracing the intersection of religion in people’s experiences of conflict, displacement, and refugeehood. It argues for a lived dimension approach when analysing the variable ways in which empowering and disempowering aspects of religion cut into their migration trajectories. Additionally, it applies a theoretical lens derived from existential anthropology to explore how narrative negotiations veer between chaos, crisis, and disruption, on the one hand, and resilience, hope, and restitution, on the other. The study reveals an ambiguous empirical reality in which the nexus between religion and forced migration involves highly contradictory identification processes. Furthermore, it provides vivid polyvocal testimonies on how Syrians have navigated the liminal in-betweens of vulnerability and agency in their escape from Syria as well as during their journeys of displacement into refugeehood.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.46586/er.12.2021.8892</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8892</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8892">
+                <mets:FLocat xlink:href="https://er.ceres.rub.de/index.php/ER/article/download/8892/8472" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="text/html" ID="FILE1_rub-journals_8892">
+                <mets:FLocat xlink:href="https://er.ceres.rub.de/index.php/ER/article/download/8892/8473" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8892" DMDID="DMD_rub-journals_8892">
+            <mets:fptr FILEID="FILE0_rub-journals_8892"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_8892" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_8892"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

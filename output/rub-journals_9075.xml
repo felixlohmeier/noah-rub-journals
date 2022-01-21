@@ -1,0 +1,71 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_9075">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Higher-Order Lookup Table Masking in Essentially Constant Memory</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Valiveti, Annapurna</displayForm>
+                        <namePart type="family">Valiveti</namePart>
+                        <namePart type="given">Annapurna</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Vivek, Srinivas</displayForm>
+                        <namePart type="family">Vivek</namePart>
+                        <namePart type="given">Srinivas</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2021-08-11</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">41</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Masking using randomised lookup tables is a popular countermeasure for side-channel attacks, particularly at small masking orders. An advantage of this class of countermeasures for masking S-boxes compared to ISW-based masking is that it supports pre-processing and thus significantly reducing the amount of computation to be done after the unmasked inputs are available. Indeed, the “online” computation can be as fast as just a table lookup. But the size of the randomised lookup table increases linearly with the masking order, and hence the RAM memory required to store pre-processed tables becomes infeasible for higher masking orders. Hence demonstrating the feasibility of full pre-processing of higher-order lookup table-based masking schemes on resource-constrained devices has remained an open problem.
+In this work, we solve the above problem by implementing a higher-order lookup table-based scheme using an amount of RAM memory that is essentially independent of the masking order. More concretely, we reduce the amount of RAM memory needed for the table-based scheme of Coron et al. (TCHES 2018) approximately by a factor equal to the number of shares. Our technique is based upon the use of pseudorandom number generator (PRG) to minimise the randomness complexity of ISW-based masking schemes proposed by Ishai et al. (ICALP 2013) and Coron et al. (Eurocrypt 2020). Hence we show that for lookup table-based masking schemes, the use of a PRG not only reduces the randomness complexity (now logarithmic in the size of the S-box) but also the memory complexity, and without any significant increase in the overall running time. We have implemented in software the higher-order table-based masking scheme of Coron et al. (TCHES 2018) at tenth order with full pre-processing of a single execution of all the AES S-boxes on a ARM Cortex-M4 device that has 256 KB RAM memory. Our technique requires only 41.2 KB of RAM memory, whereas the original scheme would have needed 440 KB. Moreover, our 8-bit implementation results demonstrate that the online execution time of our variant is about 1.5 times faster compared to the 8-bit bitsliced masked implementation of AES-128.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.46586/tches.v2021.i4.546-586</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_9075</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_9075">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/9075/8662" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="" ID="FILE1_rub-journals_9075">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/9075/8708" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_9075" DMDID="DMD_rub-journals_9075">
+            <mets:fptr FILEID="FILE0_rub-journals_9075"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_9075" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_9075"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

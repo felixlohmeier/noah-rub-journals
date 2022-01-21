@@ -1,0 +1,86 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_850">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Functional Graphs and Their Applications in Generic Attacks on Iterated Hash Constructions</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Bao, Zhenzhen</displayForm>
+                        <namePart type="family">Bao</namePart>
+                        <namePart type="given">Zhenzhen</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Guo, Jian</displayForm>
+                        <namePart type="family">Guo</namePart>
+                        <namePart type="given">Jian</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Wang, Lei</displayForm>
+                        <namePart type="family">Wang</namePart>
+                        <namePart type="given">Lei</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2018-03-01</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">53</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">We provide a survey about generic attacks on cryptographic hash constructions including hash-based message authentication codes and hash combiners. We look into attacks involving iteratively evaluating identical mappings many times. The functional graph of a random mapping also involves iteratively evaluating the mapping. These attacks essentially exploit properties of the functional graph. We map the utilization space of those properties from numerous proposed known attacks, draw a comparison among classes of attacks about their advantages and limitations. We provide a systematic exposition of concepts of cycles, deep-iterate images, collisions and their roles in cryptanalysis of iterated hash constructions. We identify the inherent relationship between these concepts, such that case-by-case theories about them can be unified into one knowledge system, that is, theories on the functional graph of random mappings. We show that the properties of the cycle search algorithm, the chain evaluation algorithm and the collision search algorithm can be described based on statistic results on the functional graph. Thereby, we can provide different viewpoints to support previous beliefs on individual knowledge. In that, we invite more sophisticated analysis of the functional graph of random mappings and more future exploitations of its properties in cryptanalysis.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tosc.v2018.i1.201-253</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_850</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_850">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/850/802" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_rub-journals_850">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/850/7623" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="" ID="FILE2_rub-journals_850">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/850/7523" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_850" DMDID="DMD_rub-journals_850">
+            <mets:fptr FILEID="FILE0_rub-journals_850"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_850" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_850"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART2_rub-journals_850" LABEL="">
+                <mets:fptr FILEID="FILE2_rub-journals_850"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

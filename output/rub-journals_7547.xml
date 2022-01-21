@@ -1,0 +1,54 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7547">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <nonSort>Die </nonSort>
+                        <title>Direktwahl als Zäsur grenzüberschreitender Parteienzusammenarbeit? Potenziale und Grenzen transnationaler Programm- und Wahlkampfkooperation am Beispiel von SPD und FDP im Vorfeld der ersten europäischen Direktwahlen 1979</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Lanzke, Carolin</displayForm>
+                        <namePart type="family">Lanzke</namePart>
+                        <namePart type="given">Carolin</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015-01-27</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">19</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">The article deals with the potentials and limits of transnational party cooperation in the context of the first European Elections in 1979. It focuses on two German parties, the Sozialdemokratische Partei Deutschlands (SPD) and the Freie Demokratische Partei (FDP). It examines the role these parties played in the founding of the transnational party confederations and the creation of their first programs and campaigning elements. Then, it looks at the respective German campaigns, programs and realization. By consulting primary documents of the respective party archives, the author explores the degree to which the German parties participated on the European level, and the degree to which the transnational cooperation reflected upon the German campaign. Despite their strong involvement within the party confederations, the parties’ use of transnational elements in their national campaign is surprisingly low. It is argued that particularly the SPD only resorted to them if it was in line with their nationally focused agenda. The FDP can uphold the claim of a transnational campaign more credibly through the constant reference to their party confederation.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/mts.46.2011.111-129</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7547</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7547">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/7547/6719" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7547" DMDID="DMD_rub-journals_7547">
+            <mets:fptr FILEID="FILE0_rub-journals_7547"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

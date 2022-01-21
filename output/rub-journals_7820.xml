@@ -1,0 +1,53 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7820">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Wie neu sind die Neuen Sozialen Bewegungen? Revisionistische Bemerkungen vor dem Hintergrund der umwelthistorischen Forschung</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Uekötter, Frank</displayForm>
+                        <namePart type="family">Uekötter</namePart>
+                        <namePart type="given">Frank</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015-01-14</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">23</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">This essay discusses the notion of &quot;new social movements&quot; with regard to environmental issues. Going back to discussions about air pollution problems in the late 19th century, it shows that the current notion that associations in this field are a recent phenomenon is in large part due to a narrow focus on Germany. The essay discusses the differences between theUSA, where an active, well-organized movement of upper-dass citizens pushed towards a solution of pollution problems, and Germany, where civic activism was low. In the second part of the artide, the essay shows how these traditions merged into current environmentalism, showing that the green movement is rooted much deeper in history than it is commonly thought. Notwithstanding significant differences in rhetoric and protest, the new groups that became a permanent presence in pollution discussions already in the 1950s were linked to earlier forms of protest in a number of respects. The essay closes with some reflections on how this changes conventional interpretations of the &quot;new social movements&quot;.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/mts.31.2004.109-131</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7820</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7820">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/7820/6992" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7820" DMDID="DMD_rub-journals_7820">
+            <mets:fptr FILEID="FILE0_rub-journals_7820"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

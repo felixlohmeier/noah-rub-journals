@@ -1,0 +1,54 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7713">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>“Colliers with a collar on”</title>
+                        <subTitle>e mine management professions in the Scottish coal mining industry, 1930–1966</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Perchard, Andrew</displayForm>
+                        <namePart type="family">Perchard</namePart>
+                        <namePart type="given">Andrew</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015-01-21</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">20</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">This paper draws on the author’s forthcoming monograph and associated work to address the subject of management employees in the Scottish coal mining industry. With a few exceptions, colliery managers and other mining professionals – referred to collectively here as the mine management professions- have been excluded from the history of the British, and particularly the Scottish, coal mining industries. e work contributes to redressing that imbalance by examining these groups within the most crucial period of their ascendancy, 1930–1966, in the Scottish coal industry. It places them within the context of both private and state ownership and examines their role, status and behaviours through their relationship with their employers, and the prosecution of their functions in the fields of production, health and safety and industrial relations. It also examines their terms and conditions of employment and outlook of their professional associations, and, in the nineteen years under nationalisation, that of their union. is coincided with an intense public discussion, within the mining professions, over their future shape, principles and occupational standards. In so doing the author’s work repositions the mine management professions as distinct from, rather than simply an adjunct to, their employers. However, it shows the parameters within which mining professionals were constrained by both private colliery companies and the National Coal Board. Mining professionals’ outlook and behaviours, like other social groupings within the industry, were permeated with both common themes and a diversity of approach.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/mts.36.2006.85-104</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7713</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7713">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/7713/6885" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7713" DMDID="DMD_rub-journals_7713">
+            <mets:fptr FILEID="FILE0_rub-journals_7713"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

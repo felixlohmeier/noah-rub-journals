@@ -1,0 +1,61 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_9396">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>30 years of Indonesia-Namibia diplomatic relations</title>
+                        <subTitle>A partial equilibrium free trade simulation analysis</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Sabaruddin, Sulthon Sjahril</displayForm>
+                        <namePart type="family">Sabaruddin</namePart>
+                        <namePart type="given">Sulthon Sjahril</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Sunde, Tafirenyika</displayForm>
+                        <namePart type="family">Sunde</namePart>
+                        <namePart type="given">Tafirenyika</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2021-12-22</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">18</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">This paper discusses current Indonesia-Namibia bilateral economic relations, opportunities, challenges, learnings from similar relations and the way forward in developing those the relationship further. The study shows that the respective foreign policy agendas of these two nations coincide with their common interests. One of these common interests is to enhance economic relations through economic diplomacy with the ultimate aim of promoting national economic development in both countries. The partial equilibrium free trade simulation employed shows that both countries would potentially benefit from bilateral FTA arrangements. This is based on assumed higher trade volumes and consumer surpluses, which would offset predicted tariff revenue loss. From the lessons learnt from Chile and Uruguay, the study suggests that there should be efforts towards establishing a Indonesia-SACU Preferential Trade Area (PTA) or a bilateral Indonesia-Namibia FTA. Furthermore, people to people contacts should also be encouraged. Lastly, greater south-south cooperation must be fostered and real political desire shown to elevate the economic partnership to a higher level.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_9396</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_9396">
+                <mets:FLocat xlink:href="https://namibian-studies.com/index.php/JNS/article/download/9396/8937" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_9396" DMDID="DMD_rub-journals_9396">
+            <mets:fptr FILEID="FILE0_rub-journals_9396"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

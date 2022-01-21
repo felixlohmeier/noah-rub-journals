@@ -1,0 +1,55 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7343">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Evangelicals and the Encounter with Islam</title>
+                        <subTitle>Changing Christian Identity in Multi-Faith Britain</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Smith, Greg</displayForm>
+                        <namePart type="family">Smith</namePart>
+                        <namePart type="given">Greg</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2018-11-21</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">56</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Over the last fifty years, British society has changed from a Christendom&amp;nbsp;model, where the default religious identity was Church of England, to a religiously diverse&amp;nbsp;society, where religious identity is a significant marker for minorities in the population. Among&amp;nbsp;Christians, strong religious belief and belonging is most likely to be expressed by those who&amp;nbsp;identify as evangelical. In many parts of the world, and especially in the USA, evangelical&amp;nbsp;discourse on the subject of non-Christian faiths, especially Islam, suggests profound antipathy&amp;nbsp;to ‘other’ beliefs and sometimes hostility to their adherents. In contrast, evidence presented in&amp;nbsp;this paper from a recent Evangelical Alliance panel survey suggests a range of nuanced viewsin the community of evangelical Christians in the UK. Although over 80% affirmed that Jesus is&amp;nbsp;the only way of salvation, and 84% thought Christianity is the only path to God, more extended&amp;nbsp;comments show that a wide range of views exist, from the paranoid or exclusive to a view&amp;nbsp;that is tolerant and broadly inclusive. The paper will examine the associations between these&amp;nbsp;views and various demographic and theological factors and seek to explain the data in terms&amp;nbsp;of the patterns of contemporary everyday inter-faith encounters, with specific emphasis on the&amp;nbsp;Abrahamic faiths, especially Islam. The situation is discussed in a framework of dynamics and&amp;nbsp;stability, where religious contact between faith communities has both crystallized beliefs and&amp;nbsp;identities and opened up new possibilities for alliances against the secular world.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/er.v5.2018.154-209</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7343</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7343">
+                <mets:FLocat xlink:href="https://er.ceres.rub.de/index.php/ER/article/download/7343/6515" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7343" DMDID="DMD_rub-journals_7343">
+            <mets:fptr FILEID="FILE0_rub-journals_7343"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

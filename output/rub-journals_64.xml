@@ -1,0 +1,53 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_64">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Between two pasts and two presents</title>
+                        <subTitle>The novels of the Namibian writer Giselher W. Hoffmann</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Loimeier, Manfred</displayForm>
+                        <namePart type="family">Loimeier</namePart>
+                        <namePart type="given">Manfred</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2014-01-27</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">18</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">The literary oeuvre of the Namibian author, Giselher W. Hoffmann, illustrates the way in which literary interpretation and reception are contingent upon the influence of a readership’s individual cultural background. Whereas in Germany colonial literature evokes hidden and unconscious stereotypes, Hoffmann’s novels – seen in the context of their Namibian literary tradition – break with these very stereotypes. Thus while German readers still tend to see Germanophone literature and German literature as being identical, Hoffmann is at pains to state that he is a writer of Namibian literature in the German language. These contrasting interpretations reveal a lack of definition in the German postcolonial consciousness. This in turn demon­strates the cultural egocentricity of how Hoffmann’s novels in Germany are read, and shows further that postcolonial theory does not extend to cover adequately the situation of Namibian, Germanophone literature in all its distinctiveness.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_64</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_64">
+                <mets:FLocat xlink:href="https://namibian-studies.com/index.php/JNS/article/download/64/39" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_64" DMDID="DMD_rub-journals_64">
+            <mets:fptr FILEID="FILE0_rub-journals_64"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

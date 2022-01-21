@@ -1,0 +1,86 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8704">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Beyond-Birthday-Bound Security for 4-round Linear Substitution-Permutation Networks</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Gao, Yuan</displayForm>
+                        <namePart type="family">Gao</namePart>
+                        <namePart type="given">Yuan</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Guo, Chun</displayForm>
+                        <namePart type="family">Guo</namePart>
+                        <namePart type="given">Chun</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Wang, Meiqin</displayForm>
+                        <namePart type="family">Wang</namePart>
+                        <namePart type="given">Meiqin</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Wang, Weijia</displayForm>
+                        <namePart type="family">Wang</namePart>
+                        <namePart type="given">Weijia</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Wen, Jiejing</displayForm>
+                        <namePart type="family">Wen</namePart>
+                        <namePart type="given">Jiejing</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020-09-28</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">22</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Recent works of Cogliati et al. (CRYPTO 2018) have initiated provable treatments of Substitution-Permutation Networks (SPNs), one of the most popular approach to construct modern blockciphers. Such theoretical SPN models may employ non-linear diffusion layers, which enables beyond-birthday-bound provable security. Though, for the model of real world blockciphers, i.e., SPN models with linear diffusion layers, existing provable results are capped at birthday security up to 2n/2 adversarial queries, where n is the size of the idealized S-boxes.In this paper, we overcome this birthday barrier and prove that a 4-round SPN with linear diffusion layers and independent round keys is secure up to 22n/3 queries. For this, we identify conditions on the linear layers that are sufficient for such security, which, unsurprisingly, turns out to be slightly stronger than Cogliati et al.’s conditions for birthday security. These provides additional theoretic supports for real world SPN blockciphers.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/tosc.v2020.i3.305-326</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8704</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8704">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/8704/8296" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8704" DMDID="DMD_rub-journals_8704">
+            <mets:fptr FILEID="FILE0_rub-journals_8704"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

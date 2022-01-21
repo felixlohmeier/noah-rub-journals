@@ -1,0 +1,54 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_7566">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Stiftungen inner- und außerhalb Europas</title>
+                        <subTitle>Zum Transfer des Bürgerstiftungsmodells</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Kruth, Jörg</displayForm>
+                        <namePart type="family">Kruth</namePart>
+                        <namePart type="given">Jörg</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015-01-30</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">14</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Despite the fact that foundations at present indicate new times of prosperity, their emergence is not exclusively a recent phenomenon. An intellectual history on the idea of foundations and their modernity displays how this condition could form and generate new perspectives beyond the common perception of foundations as objects of civil law. Since these perceptions of European welfare are often idealized in a global history, which is at present frequently measured by European characteristics of modernity, this article intends to indicate that the idea of foundations has been object and instrument to power politics. It was part of an adjustment to constitutional legality, religious and individual interests in the past. Hence, the modernity of social movements is influenced by western models of liberal individualism.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/mts.43.2010.111-124</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_7566</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_7566">
+                <mets:FLocat xlink:href="https://moving-the-social.ub.rub.de/index.php/MTS/article/download/7566/6738" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_7566" DMDID="DMD_rub-journals_7566">
+            <mets:fptr FILEID="FILE0_rub-journals_7566"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

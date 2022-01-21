@@ -1,0 +1,61 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_259">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <nonSort>The </nonSort>
+                        <title>“International of Moscow” or the “International of Buenos Aires”? The Comintern and the Paraguayan Communist Party</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Kheifets, Lazar</displayForm>
+                        <namePart type="family">Kheifets</namePart>
+                        <namePart type="given">Lazar</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Kheifets, Victor</displayForm>
+                        <namePart type="family">Kheifets</namePart>
+                        <namePart type="given">Victor</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2012-09-05</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">14</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">This article retraces the almost unknown and ideologically distorted history of the Communist Party of Paraguay. It describes the particularities of the small, early communist movement and analyses the process of expulsion of the first party leader Lucas Ibarrola triggered by Vittorio Codovilla in the name of the South American Secretariat of the Communist International. Unexpectedly, the Bolivian-Paraguayan „Chaco“-War highlighted the international role of PCP but served as a blueprint of the didactics and inconstancies of the new Stalinist standards.St Petersburg State University</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_259</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_259">
+                <mets:FLocat xlink:href="https://incs.ub.rub.de/index.php/INCS/article/download/259/217" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_259" DMDID="DMD_rub-journals_259">
+            <mets:fptr FILEID="FILE0_rub-journals_259"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

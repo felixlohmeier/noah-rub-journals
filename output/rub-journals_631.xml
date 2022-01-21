@@ -1,0 +1,70 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_631">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Making Sense of a Messy Object</title>
+                        <subTitle>How to Use Social Topology as an Analytic Tool for Ethnography of Objects</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Wittock, Nathan</displayForm>
+                        <namePart type="family">Wittock</namePart>
+                        <namePart type="given">Nathan</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>de Krom, Michiel</displayForm>
+                        <namePart type="family">de Krom</namePart>
+                        <namePart type="given">Michiel</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Hustinx, Lesley</displayForm>
+                        <namePart type="family">Hustinx</namePart>
+                        <namePart type="given">Lesley</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2017-05-24</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">19</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">This theoretical-methodological essay seeks to answer the question, “How can one make sense of a messy object?” The denomination “messy” refers to a situation in which the object of ethnographic research is interpretatively complex to such a degree that the ethnographer may become trapped in the attempt to capture all of the various facets of the object at once (Law &amp;amp; Singleton, 2005). We focus on blood as a messy object and study it in the context of a Belgian Blood Establishment, the organization charged with the provision of safe and sufficient amounts of blood for a region. Existing research has dealt with the messiness of blood through epistemological response, casting it in four “blood stories” – the gift relationship, the blood economy, biological citizenship, and blood safety. While these stories have enhanced our understanding of blood, we argue that they are examples of perspectivalism (Mol, 2002). Although they do frame blood from various angles, they fail to grasp the entanglement of technological, biomedical, political, and socio-technical aspects of this “bio-object” (Vermeulen et al., 2012). This essay takes a different turn and attempts to mediate the difficulties by formulating an ontological response through careful consideration of the social topology framework (Law &amp;amp; Mol, 2001; Mol &amp;amp; Law, 1994). For every space (Euclidian, network, fluid, and fire), we provide a comprehensive summary of the theory, after which we delineate specific elements from this theory to induce conceptual sensitivity and propose research questions that follow from these elements. In this endeavor, we attempt to highlight the unique value of this framework for the ethnography of objects, as compared to the frameworks that initially gave rise to the theory.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.13154/eoo.1.2017.65-83</identifier>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_631</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_631">
+                <mets:FLocat xlink:href="https://ojs.ub.rub.de/index.php/EOO/article/download/631/599" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_631" DMDID="DMD_rub-journals_631">
+            <mets:fptr FILEID="FILE0_rub-journals_631"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

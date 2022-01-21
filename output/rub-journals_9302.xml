@@ -1,0 +1,79 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_9302">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Guessing Bits</title>
+                        <subTitle>Improved Lattice Attacks on (EC)DSA with Nonce Leakage</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Sun, Chao</displayForm>
+                        <namePart type="family">Sun</namePart>
+                        <namePart type="given">Chao</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Espitau, Thomas</displayForm>
+                        <namePart type="family">Espitau</namePart>
+                        <namePart type="given">Thomas</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Tibouchi, Mehdi</displayForm>
+                        <namePart type="family">Tibouchi</namePart>
+                        <namePart type="given">Mehdi</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Abe, Masayuki</displayForm>
+                        <namePart type="family">Abe</namePart>
+                        <namePart type="given">Masayuki</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2021-11-19</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">23</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">The lattice reduction attack on (EC)DSA (and other Schnorr-like signature schemes) with partially known nonces, originally due to Howgrave-Graham and Smart, has been at the core of many concrete cryptanalytic works, side-channel based or otherwise, in the past 20 years. The attack itself has seen limited development, however: improved analyses have been carried out, and the use of stronger lattice reduction algorithms has pushed the range of practically vulnerable parameters further, but the lattice construction based on the signatures and known nonce bits remain the same.In this paper, we propose a new idea to improve the attack based on the same data in exchange for additional computation: carry out an exhaustive search on some bits of the secret key. This turns the problem from a single bounded distance decoding (BDD) instance in a certain lattice to multiple BDD instances in a fixed lattice of larger volume but with the same bound (making the BDD problem substantially easier). Furthermore, the fact that the lattice is fixed lets us use batch/preprocessing variants of BDD solvers that are far more efficient than repeated lattice reductions on non-preprocessed lattices of the same size. As a result, our analysis suggests that our technique is competitive or outperforms the state of the art for parameter ranges corresponding to the limit of what is achievable using lattice attacks so far (around 2-bit leakage on 160-bit groups, or 3-bit leakage on 256-bit groups).We also show that variants of this idea can also be applied to bits of the nonces (leading to a similar improvement) or to filtering signature data (leading to a data-time trade-off for the lattice attack). Finally, we use our technique to obtain an improved exploitation of the TPM–FAIL dataset similar to what was achieved in the Minerva attack.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.46586/tches.v2022.i1.391-413</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_9302</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_9302">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/9302/8868" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_9302" DMDID="DMD_rub-journals_9302">
+            <mets:fptr FILEID="FILE0_rub-journals_9302"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

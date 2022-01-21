@@ -1,0 +1,127 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_9071">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>LifeLine for FPGA Protection</title>
+                        <subTitle>Obfuscated Cryptography for Real-World Security</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Stolz, Florian</displayForm>
+                        <namePart type="family">Stolz</namePart>
+                        <namePart type="given">Florian</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Albartus, Nils</displayForm>
+                        <namePart type="family">Albartus</namePart>
+                        <namePart type="given">Nils</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Speith, Julian</displayForm>
+                        <namePart type="family">Speith</namePart>
+                        <namePart type="given">Julian</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Klix, Simon</displayForm>
+                        <namePart type="family">Klix</namePart>
+                        <namePart type="given">Simon</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Nasenberg, Clemens</displayForm>
+                        <namePart type="family">Nasenberg</namePart>
+                        <namePart type="given">Clemens</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Gula, Aiden</displayForm>
+                        <namePart type="family">Gula</namePart>
+                        <namePart type="given">Aiden</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Fyrbiak, Marc</displayForm>
+                        <namePart type="family">Fyrbiak</namePart>
+                        <namePart type="given">Marc</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Paar, Christof</displayForm>
+                        <namePart type="family">Paar</namePart>
+                        <namePart type="given">Christof</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Güneysu, Tim</displayForm>
+                        <namePart type="family">Güneysu</namePart>
+                        <namePart type="given">Tim</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Tessier, Russell</displayForm>
+                        <namePart type="family">Tessier</namePart>
+                        <namePart type="given">Russell</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2021-08-11</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">35</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Over the last decade attacks have repetitively demonstrated that bitstream protection for SRAM-based FPGAs is a persistent problem without a satisfying solution in practice. Hence, real-world hardware designs are prone to intellectual property infringement and malicious manipulation as they are not adequately protected against reverse-engineering.In this work, we first review state-of-the-art solutions from industry and academia and demonstrate their ineffectiveness with respect to reverse-engineering and design manipulation. We then describe the design and implementation of novel hardware obfuscation primitives based on the intrinsic structure of FPGAs. Based on our primitives, we design and implement LifeLine, a hardware design protection mechanism for FPGAs using hardware/software co-obfuscated cryptography. We show that LifeLine offers effective protection for a real-world adversary model, requires minimal integration effort for hardware designers, and retrofits to already deployed (and so far vulnerable) systems.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.46586/tches.v2021.i4.412-446</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_9071</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_9071">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/9071/8658" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_9071" DMDID="DMD_rub-journals_9071">
+            <mets:fptr FILEID="FILE0_rub-journals_9071"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>
