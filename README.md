@@ -40,9 +40,6 @@ MODS:
 * [name@type](config/04-name.json): `personal` (wenn **name/displayForm** vorhanden)
 * ~~name@authority=gnd@valueURI~~
 * [name/displayForm](config/04-name.json): **dc:creator** wenn es `,` enthält
-  * 2004, 2018, 2034, 2035, 2084: `-, -` entfernen
-  * 3163: `Natalia Garcia Cervantes` ändern in `Cervantes, Natalia Garcia`
-  * 3479: `Elke A. Gornik` ändern in `Gornik, Elke A.`
 * [name/namePart@type=family](config/04-name.json): 1. Teil von **name/displayForm** vor Trennzeichen `, `
 * [name/namePart@type=given](config/04-name.json): 2. Teil von **name/displayForm** nach Trennzeichen `, `
 * ~~name/nameIdentifier@type=orcid~~

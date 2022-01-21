@@ -12,63 +12,6 @@
     "columnInsertIndex": 2
   },
   {
-    "op": "core/mass-edit",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "name/displayForm",
-    "expression": "value",
-    "edits": [
-      {
-        "from": [
-          "-, -"
-        ],
-        "fromBlank": false,
-        "fromError": false,
-        "to": ""
-      }
-    ]
-  },
-  {
-    "op": "core/mass-edit",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "name/displayForm",
-    "expression": "value",
-    "edits": [
-      {
-        "from": [
-          "Natalia Garcia Cervantes"
-        ],
-        "fromBlank": false,
-        "fromError": false,
-        "to": "Cervantes, Natalia Garcia"
-      }
-    ]
-  },
-  {
-    "op": "core/mass-edit",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "name/displayForm",
-    "expression": "value",
-    "edits": [
-      {
-        "from": [
-          "Elke A. Gornik"
-        ],
-        "fromBlank": false,
-        "fromError": false,
-        "to": "Gornik, Elke A."
-      }
-    ]
-  },
-  {
     "op": "core/text-transform",
     "engineConfig": {
       "facets": [
