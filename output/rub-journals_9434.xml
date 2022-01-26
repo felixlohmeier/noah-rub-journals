@@ -1,0 +1,59 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_9434">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Eutychianorum furor! Heresiological Comparison and the Invention of Eutychians in Leo I’s Christological Polemic</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Cohen, Samuel</displayForm>
+                        <namePart type="family">Cohen</namePart>
+                        <namePart type="given">Samuel</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2022-01-25</dateIssued>
+                    </originInfo>
+                    <abstract lang="eng">This essay examines the use of heresiological rhetoric in the letters and tractates of Leo I (bishop of Rome, 440–461) written in defense of the Council of Chalcedon (451). In these texts, Leo claimed the Constantinopolitan monk Eutyches and his supporters, the Eutychians, were an existential threat to the faith. However, Leo’s Eutychians were a heresiological confabulation. Heresiology employs polemical comparison and hostile classification to demarcate the boundaries of authentic Christianity. Because heresiology understands heresy genealogically, contemporary error could be described and condemned thanks to its affiliation with previous heretical sects. This was largely a taxonomic exercise; naming heresies allowed their supposed errors to be categorized and compared, especially with its (imagined) antecedents. Leo employed precisely this kind of comparison to associate Eutyches with earlier heresiarchs. He then reduced all opposition to Chalcedon to ‘Eutychianism,’ the error named for Eutyches, or else to its opposite and equally incorrect counterpart ‘Nestorianism’—both of which were, according to Leo, part of the same diabolically inspired misunderstanding of Christ. In short, Leo transformed Eutyches, the man, into a ‘hermeneutical Eutychian,’ a discursive construct intended to advance Leo’s own theological agenda, especially the creation of an orthodox identity coterminous with adherence to Chalcedon.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.46586/er.11.2020.9434</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_9434</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_9434">
+                <mets:FLocat xlink:href="https://er.ceres.rub.de/index.php/ER/article/download/9434/8978" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="text/html" ID="FILE1_rub-journals_9434">
+                <mets:FLocat xlink:href="https://er.ceres.rub.de/index.php/ER/article/download/9434/8979" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_9434" DMDID="DMD_rub-journals_9434">
+            <mets:fptr FILEID="FILE0_rub-journals_9434"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_9434" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_9434"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

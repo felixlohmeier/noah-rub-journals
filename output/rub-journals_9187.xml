@@ -1,0 +1,76 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_9187">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Laying down a forking path</title>
+                        <subTitle>Tensions between enaction and the free energy principle</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Di Paolo, Ezequiel</displayForm>
+                        <namePart type="family">Di Paolo</namePart>
+                        <namePart type="given">Ezequiel</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Thompson, Evan</displayForm>
+                        <namePart type="family">Thompson</namePart>
+                        <namePart type="given">Evan</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Beer, Randall</displayForm>
+                        <namePart type="family">Beer</namePart>
+                        <namePart type="given">Randall</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2022-01-25</dateIssued>
+                    </originInfo>
+                    <abstract lang="eng">Several authors have made claims about the compatibility between the Free Energy Principle (FEP) and theories of autopoiesis and enaction. Many see these theories as natural partners or as making similar statements about the nature of biological and cognitive systems. We critically examine these claims and identify a series of misreadings and misinterpretations of key enactive concepts. In particular, we notice a tendency to disregard the operational definition of autopoiesis and the distinction between a system’s structure and its organization. Other misreadings concern the conflation of processes of self-distinction in operationally closed systems and Markov blankets. Deeper theoretical tensions underlie some of these misinterpretations. FEP assumes systems that reach a non-equilibrium steady state and are enveloped by a Markov blanket. We argue that these assumptions contradict the historicity of sense-making that is explicit in the enactive approach. Enactive concepts such as adaptivity and agency are defined in terms of the modulation of parameters and constraints of the agent-environment coupling, which entail the possibility of changes in variable and parameter sets, constraints, and in the dynamical laws affecting the system. This allows enaction to address the path-dependent diversity of human bodies and minds. We argue that these ideas are incompatible with the time invariance of non-equilibrium steady states assumed by the FEP. In addition, the enactive perspective foregrounds the enabling and constitutive roles played by the world in sense-making, agency, development. We argue that this view of transactional and constitutive relations between organisms and environments is a challenge to the FEP. Once we move beyond superficial similarities, identify misreadings, and examine the theoretical commitments of the two approaches, we reach the conclusion that far from being easily integrated, the FEP, as it stands formulated today, is in tension with the theories of autopoiesis and enaction.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.33735/phimisci.2022.9187</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_9187</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_9187">
+                <mets:FLocat xlink:href="https://philosophymindscience.org/index.php/phimisci/article/download/9187/8975" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="text/html" ID="FILE1_rub-journals_9187">
+                <mets:FLocat xlink:href="https://philosophymindscience.org/index.php/phimisci/article/download/9187/8977" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_9187" DMDID="DMD_rub-journals_9187">
+            <mets:fptr FILEID="FILE0_rub-journals_9187"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_9187" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_9187"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>
