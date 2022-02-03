@@ -1,0 +1,74 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_8894">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Über den angemessenen Umgang mit empirischen Erkenntnissen in der Literaturdidaktik</title>
+                    </titleInfo>
+                    <titleInfo type="translated">
+                        <title>Guidelines for Drawing Conclusions from the Results of Empirical Research in Literary Education</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Carl, Marc-Oliver</displayForm>
+                        <namePart type="family">Carl</namePart>
+                        <namePart type="given">Marc-Oliver</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Scherf, Daniel</displayForm>
+                        <namePart type="family">Scherf</namePart>
+                        <namePart type="given">Daniel</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2022-02-02</dateIssued>
+                    </originInfo>
+                    <abstract lang="ger">Dieser Beitrag schlägt Orientierungslinien für den Umgang mit empirischen Erkenntnissen in literaturdidaktischer Forschung und Lehre sowie in der Aus- und Weiterbildung von Lehrpersonen vor. Diese werden auf Grundlage von Gütekriterien entwickelt, die in quantitativ und qualitativ empirischen Forschungsrichtungen für die Erhebung und Auswertung von empirischen Daten Geltung aufweisen. Dabei werden Herausforderungen für die Applikation dieser Kriterien auf die als Erfahrungswissenschaft noch junge Literaturdidaktik deutlich, auch scheinen die unterschiedlichen Anforderungen forschungspraktischer und unterrichtspraktischer Ableitungskonstruktionen, sog. didaktischer Implikationen, auf. Demgemäß schlagen wir eine Differenzierung vor zwischen der Ableitung von Anregungen zur Überprüfung wissenschaftlicher und unterrichtlicher Konstrukte einerseits und der Ableitung von Empfehlungen zur routinemäßigen Verwendung von (Ableitungs-)Konstrukten andererseits.</abstract>
+                    <abstract lang="eng">In this article, we propose guidelines for an adequate approach towards results of empirical research in literary education. These guidelines are meant to help both fellow researchers and teacher educators in the field. They are drawn from the different sets of quality criteria for collecting and analysing data which have been formulated within the qualitative and quantitative traditions of empirical research respectively. Adjustment are necessary when criteria designed to ensure the quality of data collection and analysis are applied to the handling of empirical results in the field of research on literary education. Furthermore, empirical results are relevant in different ways for academic researchers on the one hand and school teachers on the other hand. We propose a framework which differentiates between “inspirations” (for further research or for new teaching practices) and “clear recommendation” (upon which further research and teaching can rely with greater certainty).</abstract>
+                    <subject lang="ger">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON object                    </subject>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>Zeitschrift für Sprachlich-Literarisches Lernen und Deutschdidaktik</title>
+                        </titleInfo>
+                        <identifier type="issn">2701-0589</identifier>
+                        <part>
+                            <detail type="volume">
+                                <number>2</number>
+                            </detail>
+                        </part>
+                    </relatedItem>
+                    <identifier type="doi">10.46586/SLLD.Z.2022.8894</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_8894</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_8894">
+                <mets:FLocat xlink:href="https://ojs.ub.rub.de/index.php/SLLD/article/download/8894/8986" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_8894" DMDID="DMD_rub-journals_8894">
+            <mets:fptr FILEID="FILE0_rub-journals_8894"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>
