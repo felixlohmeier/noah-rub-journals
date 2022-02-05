@@ -1,0 +1,59 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_9458">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Encounters of Indic-Abrahamic Religions with Matriliny in Premodern Southern India</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Kooria, Mahmood</displayForm>
+                        <namePart type="family">Kooria</namePart>
+                        <namePart type="given">Mahmood</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2022-02-04</dateIssued>
+                    </originInfo>
+                    <abstract lang="eng">This article engages with the matrilineal communities of the Indian Ocean littoral with a focus on the southern Indian context. The matrilineal system was one of the most convenient features in the context of the Indian Ocean trade. In their transregional journeys, maritime itinerants stayed in one place for months or even a year, depending on the variations in monsoon. During this period, they married into the local communities. These marriages were enabled through the existing matrilineal practices, in which men could and should come and go while the women stayed at home and owned the property. From Southeast Asia to Southeast Africa, the matrilineal system has been prevalent in several Islamic communities, but in southern India it historically existed among Hindus and Muslims, and to some extent among Jews and Christians, too. Although the adherence to the system varied historically, we can observe certain features shared among the communities. On the basis of fragmentary but significant evidence between ca. 800 and 1800 CE among Hindu, Jain, Buddhist, Muslim, Jewish and Christian communities, I explore the nuances of conversion and incommensurability across religions. I investigate how the system benefited the oceanic mercantile culture in the region as well as the dispersal of Abrahamic religions, which are often interpreted as significant domains of patriarchy and patriliny.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.46586/er.11.2020.9458</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_9458</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_9458">
+                <mets:FLocat xlink:href="https://er.ceres.rub.de/index.php/ER/article/download/9458/8994" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="text/html" ID="FILE1_rub-journals_9458">
+                <mets:FLocat xlink:href="https://er.ceres.rub.de/index.php/ER/article/download/9458/8995" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_9458" DMDID="DMD_rub-journals_9458">
+            <mets:fptr FILEID="FILE0_rub-journals_9458"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_9458" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_9458"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>
