@@ -1,0 +1,60 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_9466">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Law, Justice, and Grace</title>
+                        <subTitle>Ibn Taymiyya (d. 728/1328) on the Gospel’s Relation to the Torah</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Hoover, Jon</displayForm>
+                        <namePart type="family">Hoover</namePart>
+                        <namePart type="given">Jon</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2022-02-11</dateIssued>
+                    </originInfo>
+                    <abstract lang="eng">Early and medieval Muslim anti-Christian polemicists do not present a uniform account of the Gospel’s relation to the Torah, and polemical concerns drive the positions they adopt. This article focuses on how Damascene theologian Ibn Taymiyya (d. 1328) responds to a provocation originating in the Christian Paul of Antioch. Paul argues that God sent Moses the law of justice and Christ the perfect law of grace, implying that the Qurʾān is not needed, at least not for Christians. Drawing on Islamic legal categories and invoking Sufi theological ideas, Ibn Taymiyya counters that the Torah and the Gospel contain both justice as obligation and grace as recommendation, with obligation more prominent in the Torah and recommendation in the Gospel, as part of a prophetic history leading up to the Qurʾān, which contains both in perfect balance. With this, Ibn Taymiyya provides a more extensive and sophisticated account of the Torah-Gospel relation than his predecessors.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.46586/er.13.2022.9466</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_9466</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_9466">
+                <mets:FLocat xlink:href="https://er.ceres.rub.de/index.php/ER/article/download/9466/9000" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="text/html" ID="FILE1_rub-journals_9466">
+                <mets:FLocat xlink:href="https://er.ceres.rub.de/index.php/ER/article/download/9466/9001" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_9466" DMDID="DMD_rub-journals_9466">
+            <mets:fptr FILEID="FILE0_rub-journals_9466"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_9466" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_9466"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

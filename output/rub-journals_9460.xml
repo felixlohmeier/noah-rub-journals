@@ -1,0 +1,60 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_9460">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Religious Plurality and Mixture in the Persianate North</title>
+                        <subTitle>Christians, Jews, Zoroastrians, and Manichaeans in Late Antique Georgia</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Rapp Jr., Stephen H.</displayForm>
+                        <namePart type="family">Rapp Jr.</namePart>
+                        <namePart type="given">Stephen H.</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2022-02-11</dateIssued>
+                    </originInfo>
+                    <abstract lang="eng">Persistent images of late antique Caucasia belonging naturally to the Byzantine world obscure the isthmus’ deep multi- and cross-cultural condition. They rest on the flawed assumption that shared Christian affiliation necessarily linked Byzantium and Caucasia. Moreover, such conjectures elide Caucasia’s longstanding integration into the Persianate world, a status enduring for centuries after the fourth-century Christianization of the Georgian, Armenian, and Caucasian Albanian monarchies. This essay engages the religious dimensions of Caucasia’s cross-cultural fabric through the example of sixth-century Georgia. Before the formation of a Georgian &quot;national&quot; church in the seventh century and the accompanying obsession with orthodoxy, Georgian religious life was remarkably diverse and mixed. But in the fourth and fifth centuries, the longstanding dominance of Zoroastrianism—particularly in hybrid local forms—was being eclipsed by various confessions of Christianity. Manichaeism and Judaism also had a visible presence. While there is much we do not know about actual Jewish, Manichaean, and Zoroastrian communities in late antique Georgia, surviving Georgian texts offer valuable, if occasional, glimpses of their existence. And they deploy carefully crafted imaginaries of non-Christian religions embedded in an increasingly Christian environment.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.46586/er.13.2022.9460</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_9460</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_9460">
+                <mets:FLocat xlink:href="https://er.ceres.rub.de/index.php/ER/article/download/9460/9007" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="text/html" ID="FILE1_rub-journals_9460">
+                <mets:FLocat xlink:href="https://er.ceres.rub.de/index.php/ER/article/download/9460/9008" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_9460" DMDID="DMD_rub-journals_9460">
+            <mets:fptr FILEID="FILE0_rub-journals_9460"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_9460" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_9460"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>
