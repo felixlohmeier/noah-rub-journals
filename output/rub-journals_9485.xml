@@ -1,0 +1,103 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_9485">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Side Channel Attack On Stream Ciphers</title>
+                        <subTitle>A Three-Step Approach To State/Key Recovery</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Kumar, Satyam</displayForm>
+                        <namePart type="family">Kumar</namePart>
+                        <namePart type="given">Satyam</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Dasu, Vishnu Asutosh</displayForm>
+                        <namePart type="family">Dasu</namePart>
+                        <namePart type="given">Vishnu Asutosh</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Baksi, Anubhab</displayForm>
+                        <namePart type="family">Baksi</namePart>
+                        <namePart type="given">Anubhab</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Sarkar, Santanu</displayForm>
+                        <namePart type="family">Sarkar</namePart>
+                        <namePart type="given">Santanu</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Jap, Dirmanto</displayForm>
+                        <namePart type="family">Jap</namePart>
+                        <namePart type="given">Dirmanto</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Breier, Jakub</displayForm>
+                        <namePart type="family">Breier</namePart>
+                        <namePart type="given">Jakub</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Bhasin, Shivam</displayForm>
+                        <namePart type="family">Bhasin</namePart>
+                        <namePart type="given">Shivam</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2022-02-15</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">26</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Side Channel Attack (SCA) exploits the physical information leakage (such as electromagnetic emanation) from a device that performs some cryptographic operation and poses a serious threat in the present IoT era. In the last couple of decades, there have been a large body of research works dedicated to streamlining/improving the attacks or suggesting novel countermeasures to thwart those attacks. However, a closer inspection reveals that a vast majority of published works in the context of symmetric key cryptography is dedicated to block ciphers (or similar designs). This leaves the problem for the stream ciphers wide open. There are few works here and there, but a generic and systematic framework appears to be missing from the literature. Motivating by this observation, we explore the problem of SCA on stream ciphers with extensive details. Loosely speaking, our work picks up from the recent TCHES’21 paper by Sim, Bhasin and Jap. We present a framework by extending the efficiency of their analysis, bringing it into more practical terms.In a nutshell, we develop an automated framework that works as a generic tool to perform SCA on any stream cipher or a similar structure. It combines multiple automated tools (such as, machine learning, mixed integer linear programming, satisfiability modulo theory) under one umbrella, and acts as an end-to-end solution (taking side channel traces and returning the secret key). Our framework efficiently handles noisy data and works even after the cipher reaches its pseudo-random state. We demonstrate its efficacy by taking electromagnetic traces from a 32-bit software platform and performing SCA on a high-profile stream cipher, TRIVIUM, which is also an ISO standard. We show pragmatic key recovery on TRIVIUM during its initialization and also after the cipher reaches its pseudo-random state (i.e., producing key-stream).</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.46586/tches.v2022.i2.166-191</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_9485</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_9485">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/9485/9029" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_9485" DMDID="DMD_rub-journals_9485">
+            <mets:fptr FILEID="FILE0_rub-journals_9485"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

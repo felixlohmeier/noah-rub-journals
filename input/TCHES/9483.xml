@@ -1,0 +1,26 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>9483</id>
+	<dc:title xml:lang="en-US">Higher-Order Masked Ciphertext Comparison for Lattice-Based Cryptography</dc:title>
+	<dc:creator>D’Anvers, Jan-Pieter</dc:creator>
+	<dc:creator>Heinz, Daniel</dc:creator>
+	<dc:creator>Pessl, Peter</dc:creator>
+	<dc:creator>Van Beirendonck, Michiel</dc:creator>
+	<dc:creator>Verbauwhede, Ingrid</dc:creator>
+	<dc:subject xml:lang="en-US">Lattice-Based Cryptography</dc:subject>
+	<dc:subject xml:lang="en-US">Side-Channel Attack</dc:subject>
+	<dc:subject xml:lang="en-US">Higher-Order Masking</dc:subject>
+	<dc:subject xml:lang="en-US">Fujisaki-Okamoto Transform</dc:subject>
+	<dc:description xml:lang="en-US">Checking the equality of two arrays is a crucial building block of the Fujisaki-Okamoto transformation, and as such it is used in several post-quantum key encapsulation mechanisms including Kyber and Saber. While this comparison operation is easy to perform in a black box setting, it is hard to efficiently protect against side-channel attacks. For instance, the hash-based method by Oder et al. is limited to first-order masking, a higher-order method by Bache et al. was shown to be flawed, and a very recent higher-order technique by Bos et al. suffers in runtime. In this paper, we first demonstrate that the hash-based approach, and likely many similar first-order techniques, succumb to a relatively simple side-channel collision attack. We can successfully recover a Kyber512 key using just 6000 traces. While this does not break the security claims, it does show the need for efficient higher-order methods. We then present a new higher-order masked comparison algorithm based on the (insecure) higher-order method of Bache et al. Our new method is 4.2x, resp. 7.5x, faster than the method of Bos et al. for a 2nd, resp. 3rd, -order masking on the ARM Cortex-M4, and unlike the method of Bache et al., the new technique takes ciphertext compression into account. We prove correctness, security, and masking security in detail and provide performance numbers for 2nd and 3rd-order implementations. Finally, we verify our the side-channel security of our implementation using the test vector leakage assessment (TVLA) methodology.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2022-02-15</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tches.iacr.org/index.php/TCHES/article/view/9483</dc:identifier>
+	<dc:identifier>10.46586/tches.v2022.i2.115-139</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Cryptographic Hardware and Embedded Systems; Volume 2022, Issue 2; 115-139</dc:source>
+	<dc:source>2569-2925</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/9483/9024</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2022 Jan-Pieter D’Anvers, Daniel Heinz, Peter Pessl, Michiel Van Beirendonck, Ingrid Verbauwhede</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0/</dc:rights>
+</oai_dc:dc>

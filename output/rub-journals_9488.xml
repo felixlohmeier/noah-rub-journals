@@ -1,0 +1,79 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_9488">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Transitional Leakage in Theory and Practice</title>
+                        <subTitle>Unveiling Security Flaws in Masked Circuits</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Müller, Nicolai</displayForm>
+                        <namePart type="family">Müller</namePart>
+                        <namePart type="given">Nicolai</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Knichel, David</displayForm>
+                        <namePart type="family">Knichel</namePart>
+                        <namePart type="given">David</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Sasdrich, Pascal</displayForm>
+                        <namePart type="family">Sasdrich</namePart>
+                        <namePart type="given">Pascal</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Moradi, Amir</displayForm>
+                        <namePart type="family">Moradi</namePart>
+                        <namePart type="given">Amir</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2022-02-15</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">23</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Accelerated by the increased interconnection of highly accessible devices, the demand for effective and efficient protection of hardware designs against Side-Channel Analysis (SCA) is ever rising, causing its topical relevance to remain immense in both, academia and industry. Among a wide range of proposed countermeasures against SCA, masking is a highly promising candidate due to its sound foundations and well-understood security requirements. In addition, formal adversary models have been introduced, aiming to accurately capture real-world attack scenarios while remaining sufficiently simple to efficiently reason about the SCA resilience of designs. Here, the d-probing model is the most prominent and well-studied adversary model. Its extension, introduced as the robust d-probing model, covers physical defaults occurring in hardware implementations, particularly focusing on combinational recombinations (glitches), memory recombinations (transitions), and routing recombinations (coupling).With increasing complexity of modern cryptographic designs and logic circuits, formal security verification becomes ever more cumbersome. This started to spark innovative research on automated verification frameworks. Unfortunately, these verification frameworks mostly focus on security verification of hardware circuits in the presence of glitches, but remain limited in identification and verification of transitional leakage. To this end, we extend SILVER, a recently proposed tool for formal security verification of masked logic circuits, to also detect and verify information leakage resulting from combinations of glitches and transitions. Based on extensive case studies, we further confirm the accuracy and practical relevance of our methodology when assessing and verifying information leakage in hardware implementations.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.46586/tches.v2022.i2.266-288</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_9488</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_9488">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/9488/9036" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_9488" DMDID="DMD_rub-journals_9488">
+            <mets:fptr FILEID="FILE0_rub-journals_9488"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

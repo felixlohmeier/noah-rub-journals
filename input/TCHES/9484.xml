@@ -1,0 +1,24 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>9484</id>
+	<dc:title xml:lang="en-US">Bitslice Masking and Improved Shuffling:: How and When to Mix Them in Software?</dc:title>
+	<dc:creator>Azouaoui, Melissa</dc:creator>
+	<dc:creator>Bronchain, Olivier</dc:creator>
+	<dc:creator>Grosso, Vincent</dc:creator>
+	<dc:creator>Papagiannopoulos, Kostas</dc:creator>
+	<dc:subject xml:lang="en-US">Higher-Order Masking</dc:subject>
+	<dc:subject xml:lang="en-US">Shuffling</dc:subject>
+	<dc:subject xml:lang="en-US">Bitslice implementations</dc:subject>
+	<dc:description xml:lang="en-US">We revisit the popular adage that side-channel countermeasures must be combined to be efficient, and study its application to bitslice masking and shuffling. Our main contributions are twofold. First, we improve this combination: by shuffling the shares of a masked implementation rather than its tuples, we can amplify the impact of the shuffling exponentially in the number of shares, while this impact was independent of the masking security order in previous works. Second, we evaluate the masking and shuffling combination’s performance vs. security tradeoff under sufficient noise conditions: we show that the best approach is to mask first (i.e., fill the registers with as many shares as possible) and shuffle the independent operations that remain. We conclude that with moderate but sufficient noise, the “bitslice masking + shuffling” combination of countermeasures is practically relevant, and its interest increases when randomness is expensive and many independent operations are available for shuffling. When these conditions are not met, masking only is the best option. As additional side results, we improve the best known attack against the shuffling countermeasure from ASIACRYPT 2012. We also recall that algorithmic countermeasures like masking and shuffling, and therefore their combination, cannot be implemented securely without a minimum level of physical noise.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2022-02-15</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tches.iacr.org/index.php/TCHES/article/view/9484</dc:identifier>
+	<dc:identifier>10.46586/tches.v2022.i2.140-165</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Cryptographic Hardware and Embedded Systems; Volume 2022, Issue 2; 140-165</dc:source>
+	<dc:source>2569-2925</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/9484/9025</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2022 Melissa Azouaoui, Olivier Bronchain, Vincent Grosso, Kostas Papagiannopoulos, François-Xavier Standaert</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0/</dc:rights>
+</oai_dc:dc>

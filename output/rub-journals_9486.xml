@@ -1,0 +1,71 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_9486">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>ABE Squared</title>
+                        <subTitle>Accurately Benchmarking Efficiency of Attribute-Based Encryption</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>de la Piedra, Antonio</displayForm>
+                        <namePart type="family">de la Piedra</namePart>
+                        <namePart type="given">Antonio</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Venema, Marloes</displayForm>
+                        <namePart type="family">Venema</namePart>
+                        <namePart type="given">Marloes</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Alpár, Greg</displayForm>
+                        <namePart type="family">Alpár</namePart>
+                        <namePart type="given">Greg</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2022-02-15</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">48</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Measuring efficiency is difficult. In the last decades, several works have contributed in the quest to successfully determine and compare the efficiency of pairing-based attribute-based encryption (ABE) schemes. However, many of these works are limited: they use little to no optimizations, or use underlying pairingfriendly elliptic curves that do not provide sufficient security anymore. Hence, using these works to benchmark ABE schemes does not yield accurate results. Furthermore, most ABE design papers focus on the efficiency of one important aspect. For instance, a new scheme may aim to have a fast decryption algorithm. Upon realizing this goal, the designer compares the new scheme with existing ones, demonstrating its dominance in this particular aspect. Although this approach is intuitive and might seem fair, the way in which this comparison is done might be biased. For instance, the schemes that are compared with the new scheme may be optimized with respect to another aspect, and appear in the comparison consequently inferior.In this work, we present a framework for accurately benchmarking efficiency of ABE: ABE Squared. In particular, we focus on uncovering the multiple layers of optimization that are relevant to the implementation of ABE schemes. Moreover, we focus on making any comparison fairer by considering the influence of the potential design goals on any optimizations. On the lowest layer, we consider the available optimized arithmetic provided by state-of-the-art cryptographic libraries. On the higher layers, we consider the choice of elliptic curve, the order of the computations, and importantly, the instantiation of the scheme on the chosen curves. Additionally, we show that especially the higher-level optimizations are dependent on the goal of the designer, e.g. optimization of the decryption algorithm. To compare schemes more transparently, we develop this framework, in which ABE schemes can be justifiably optimized and compared by taking into account the possible goals of a designer. To meet these goals, we also introduce manual, heuristic type-conversion techniques where existing techniques fall short. Finally, to illustrate the effectiveness of ABE Squared, we implement several schemes and provide all relevant benchmarks. These show that the design goal influences the optimization approaches, which in turn influence the overall efficiency of the implementations. Importantly, these demonstrate that the schemes also compare differently than existing works previously suggested.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.46586/tches.v2022.i2.192-239</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_9486</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_9486">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/9486/9032" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_9486" DMDID="DMD_rub-journals_9486">
+            <mets:fptr FILEID="FILE0_rub-journals_9486"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

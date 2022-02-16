@@ -1,0 +1,86 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_9483">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Higher-Order Masked Ciphertext Comparison for Lattice-Based Cryptography</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>D’Anvers, Jan-Pieter</displayForm>
+                        <namePart type="family">D’Anvers</namePart>
+                        <namePart type="given">Jan-Pieter</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Heinz, Daniel</displayForm>
+                        <namePart type="family">Heinz</namePart>
+                        <namePart type="given">Daniel</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Pessl, Peter</displayForm>
+                        <namePart type="family">Pessl</namePart>
+                        <namePart type="given">Peter</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Van Beirendonck, Michiel</displayForm>
+                        <namePart type="family">Van Beirendonck</namePart>
+                        <namePart type="given">Michiel</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Verbauwhede, Ingrid</displayForm>
+                        <namePart type="family">Verbauwhede</namePart>
+                        <namePart type="given">Ingrid</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2022-02-15</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">25</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Checking the equality of two arrays is a crucial building block of the Fujisaki-Okamoto transformation, and as such it is used in several post-quantum key encapsulation mechanisms including Kyber and Saber. While this comparison operation is easy to perform in a black box setting, it is hard to efficiently protect against side-channel attacks. For instance, the hash-based method by Oder et al. is limited to first-order masking, a higher-order method by Bache et al. was shown to be flawed, and a very recent higher-order technique by Bos et al. suffers in runtime. In this paper, we first demonstrate that the hash-based approach, and likely many similar first-order techniques, succumb to a relatively simple side-channel collision attack. We can successfully recover a Kyber512 key using just 6000 traces. While this does not break the security claims, it does show the need for efficient higher-order methods. We then present a new higher-order masked comparison algorithm based on the (insecure) higher-order method of Bache et al. Our new method is 4.2x, resp. 7.5x, faster than the method of Bos et al. for a 2nd, resp. 3rd, -order masking on the ARM Cortex-M4, and unlike the method of Bache et al., the new technique takes ciphertext compression into account. We prove correctness, security, and masking security in detail and provide performance numbers for 2nd and 3rd-order implementations. Finally, we verify our the side-channel security of our implementation using the test vector leakage assessment (TVLA) methodology.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.46586/tches.v2022.i2.115-139</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_9483</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_9483">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/9483/9024" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_9483" DMDID="DMD_rub-journals_9483">
+            <mets:fptr FILEID="FILE0_rub-journals_9483"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

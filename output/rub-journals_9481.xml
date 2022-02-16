@@ -1,0 +1,126 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_9481">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Redundancy AES Masking Basis for Attack Mitigation (RAMBAM)</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Belenky, Yaacov</displayForm>
+                        <namePart type="family">Belenky</namePart>
+                        <namePart type="given">Yaacov</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Bugaenko, Vadim</displayForm>
+                        <namePart type="family">Bugaenko</namePart>
+                        <namePart type="given">Vadim</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Azriel, Leonid</displayForm>
+                        <namePart type="family">Azriel</namePart>
+                        <namePart type="given">Leonid</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Chernyshchyk, Hennadii</displayForm>
+                        <namePart type="family">Chernyshchyk</namePart>
+                        <namePart type="given">Hennadii</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Dushar, Ira</displayForm>
+                        <namePart type="family">Dushar</namePart>
+                        <namePart type="given">Ira</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Karavaev, Oleg</displayForm>
+                        <namePart type="family">Karavaev</namePart>
+                        <namePart type="given">Oleg</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Maksimenko, Oleh</displayForm>
+                        <namePart type="family">Maksimenko</namePart>
+                        <namePart type="given">Oleh</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Ruda, Yulia</displayForm>
+                        <namePart type="family">Ruda</namePart>
+                        <namePart type="given">Yulia</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Teper, Valery</displayForm>
+                        <namePart type="family">Teper</namePart>
+                        <namePart type="given">Valery</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Kreimer, Yury</displayForm>
+                        <namePart type="family">Kreimer</namePart>
+                        <namePart type="given">Yury</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2022-02-15</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">23</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">In this work, we present RAMBAM, a novel concept of designing countermeasures against side-channel attacks and the Statistical Ineffective Fault Attack (specifically SIFA-1) on AES that employs redundant representations of finite field elements. From this concept, we derive a family of protected hardware implementations of AES. A fundamental property of RAMBAM is a security parameter d that along with other attributes of the scheme allows for making trade-offs between gate count, maximal frequency, performance, level of robustness to the first and higher-order side-channel attacks, and protection against SIFA-1. We present an analytical model that explains how the scheme reduces the leakage and how the design choices affect it. Furthermore, we demonstrate experimentally how different design choices achieve the required goals. In particular, the compact version exhibits a gate count as low as 12.075 kGE, while maintaining adequate protection. The performance-oriented version provides latency as low as one round per cycle, thus combining protection against SCA and SIFA-1 with high performance which is one of the original design goals of AES. Finally, we assess the leakage of the scheme for the first and the second (bivariate) orders using TVLA methodology on an FPGA implementation and observe resilience to at least 348M traces with 16 Sboxes.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.46586/tches.v2022.i2.69-91</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_9481</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_9481">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/9481/9022" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_9481" DMDID="DMD_rub-journals_9481">
+            <mets:fptr FILEID="FILE0_rub-journals_9481"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

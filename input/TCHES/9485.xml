@@ -1,0 +1,30 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>9485</id>
+	<dc:title xml:lang="en-US">Side Channel Attack On Stream Ciphers: A Three-Step Approach To State/Key Recovery</dc:title>
+	<dc:creator>Kumar, Satyam</dc:creator>
+	<dc:creator>Dasu, Vishnu Asutosh</dc:creator>
+	<dc:creator>Baksi, Anubhab</dc:creator>
+	<dc:creator>Sarkar, Santanu</dc:creator>
+	<dc:creator>Jap, Dirmanto</dc:creator>
+	<dc:creator>Breier, Jakub</dc:creator>
+	<dc:creator>Bhasin, Shivam</dc:creator>
+	<dc:subject xml:lang="en-US">Stream Cipher</dc:subject>
+	<dc:subject xml:lang="en-US">Side Channel Attack</dc:subject>
+	<dc:subject xml:lang="en-US">Machine Learning</dc:subject>
+	<dc:subject xml:lang="en-US">Mixed Integer Linear Programming</dc:subject>
+	<dc:subject xml:lang="en-US">Satisfiability Modulo Theory</dc:subject>
+	<dc:subject xml:lang="en-US">Feedback Shift Register</dc:subject>
+	<dc:description xml:lang="en-US">Side Channel Attack (SCA) exploits the physical information leakage (such as electromagnetic emanation) from a device that performs some cryptographic operation and poses a serious threat in the present IoT era. In the last couple of decades, there have been a large body of research works dedicated to streamlining/improving the attacks or suggesting novel countermeasures to thwart those attacks. However, a closer inspection reveals that a vast majority of published works in the context of symmetric key cryptography is dedicated to block ciphers (or similar designs). This leaves the problem for the stream ciphers wide open. There are few works here and there, but a generic and systematic framework appears to be missing from the literature. Motivating by this observation, we explore the problem of SCA on stream ciphers with extensive details. Loosely speaking, our work picks up from the recent TCHES’21 paper by Sim, Bhasin and Jap. We present a framework by extending the efficiency of their analysis, bringing it into more practical terms.In a nutshell, we develop an automated framework that works as a generic tool to perform SCA on any stream cipher or a similar structure. It combines multiple automated tools (such as, machine learning, mixed integer linear programming, satisfiability modulo theory) under one umbrella, and acts as an end-to-end solution (taking side channel traces and returning the secret key). Our framework efficiently handles noisy data and works even after the cipher reaches its pseudo-random state. We demonstrate its efficacy by taking electromagnetic traces from a 32-bit software platform and performing SCA on a high-profile stream cipher, TRIVIUM, which is also an ISO standard. We show pragmatic key recovery on TRIVIUM during its initialization and also after the cipher reaches its pseudo-random state (i.e., producing key-stream).</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2022-02-15</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tches.iacr.org/index.php/TCHES/article/view/9485</dc:identifier>
+	<dc:identifier>10.46586/tches.v2022.i2.166-191</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Cryptographic Hardware and Embedded Systems; Volume 2022, Issue 2; 166-191</dc:source>
+	<dc:source>2569-2925</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/9485/9029</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2022 Satyam Kumar, Vishnu Asutosh Dasu, Anubhab Baksi, Santanu Sarkar, Dirmanto Jap, Jakub Breier, Shivam Bhasin</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0/</dc:rights>
+</oai_dc:dc>

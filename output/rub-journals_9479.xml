@@ -1,0 +1,78 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_9479">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>High-order Table-based Conversion Algorithms and Masking Lattice-based Encryption</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Coron, Jean-Sébastien</displayForm>
+                        <namePart type="family">Coron</namePart>
+                        <namePart type="given">Jean-Sébastien</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Gérard, François</displayForm>
+                        <namePart type="family">Gérard</namePart>
+                        <namePart type="given">François</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Montoya, Simon</displayForm>
+                        <namePart type="family">Montoya</namePart>
+                        <namePart type="given">Simon</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Zeitoun, Rina</displayForm>
+                        <namePart type="family">Zeitoun</namePart>
+                        <namePart type="given">Rina</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2022-02-15</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">40</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Masking is the main countermeasure against side-channel attacks on embedded devices. For cryptographic algorithms that combine Boolean and arithmetic masking, one must therefore convert between the two types of masking, without leaking additional information to the attacker. In this paper we describe a new high-order conversion algorithm between Boolean and arithmetic masking, based on table recomputation, and provably secure in the ISW probing model. We show that our technique is particularly efficient for masking structured LWE encryption schemes such as Kyber and Saber. In particular, for Kyber IND-CPA decryption, we obtain an order of magnitude improvement compared to existing techniques.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.46586/tches.v2022.i2.1-40</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_9479</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_9479">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/9479/9020" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_9479" DMDID="DMD_rub-journals_9479">
+            <mets:fptr FILEID="FILE0_rub-journals_9479"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

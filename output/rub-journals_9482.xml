@@ -1,0 +1,86 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_9482">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Towards a Formal Treatment of Logic Locking</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Beerel, Peter</displayForm>
+                        <namePart type="family">Beerel</namePart>
+                        <namePart type="given">Peter</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Georgiou, Marios</displayForm>
+                        <namePart type="family">Georgiou</namePart>
+                        <namePart type="given">Marios</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Hamlin, Ben</displayForm>
+                        <namePart type="family">Hamlin</namePart>
+                        <namePart type="given">Ben</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Malozemoff, Alex J.</displayForm>
+                        <namePart type="family">Malozemoff</namePart>
+                        <namePart type="given">Alex J.</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Nuzzo, Pierluigi</displayForm>
+                        <namePart type="family">Nuzzo</namePart>
+                        <namePart type="given">Pierluigi</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2022-02-15</dateIssued>
+                    </originInfo>
+                    <physicalDescription>
+                        <extent unit="page">23</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Logic locking aims to protect the intellectual property of a circuit from a fabricator by modifying the original logic of the circuit into a new “locked” circuit such that an entity without the key should not be able to learn anything about the original circuit. While logic locking provides a promising solution to outsourcing the fabrication of chips, unfortunately, several of the proposed logic locking systems have been broken. The lack of established secure techniques stems in part from the absence of a rigorous treatment toward a notion of security for logic locking, and the disconnection between practice and formalisms. We seek to address this gap by introducing formal definitions to capture the desired security of logic locking schemes. In doing so, we investigate prior definitional efforts in this space, and show that these notions either incorrectly model the desired security goals or fail to capture a natural “compositional” property that would be desirable in a logic locking system. Finally we move to constructions. First, we show that universal circuits satisfy our security notions. Second, we show that, in order to do better than universal circuits, cryptographic assumptions are necessary.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.46586/tches.v2022.i2.92-114</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_9482</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_9482">
+                <mets:FLocat xlink:href="https://tches.iacr.org/index.php/TCHES/article/download/9482/9023" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_9482" DMDID="DMD_rub-journals_9482">
+            <mets:fptr FILEID="FILE0_rub-journals_9482"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

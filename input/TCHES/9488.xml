@@ -1,0 +1,25 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>9488</id>
+	<dc:title xml:lang="en-US">Transitional Leakage in Theory and Practice: Unveiling Security Flaws in Masked Circuits</dc:title>
+	<dc:creator>Müller, Nicolai</dc:creator>
+	<dc:creator>Knichel, David</dc:creator>
+	<dc:creator>Sasdrich, Pascal</dc:creator>
+	<dc:creator>Moradi, Amir</dc:creator>
+	<dc:subject xml:lang="en-US">Side-Channel Analysis</dc:subject>
+	<dc:subject xml:lang="en-US">Transitional Leakage</dc:subject>
+	<dc:subject xml:lang="en-US">Masking</dc:subject>
+	<dc:subject xml:lang="en-US">Hardware</dc:subject>
+	<dc:description xml:lang="en-US">Accelerated by the increased interconnection of highly accessible devices, the demand for effective and efficient protection of hardware designs against Side-Channel Analysis (SCA) is ever rising, causing its topical relevance to remain immense in both, academia and industry. Among a wide range of proposed countermeasures against SCA, masking is a highly promising candidate due to its sound foundations and well-understood security requirements. In addition, formal adversary models have been introduced, aiming to accurately capture real-world attack scenarios while remaining sufficiently simple to efficiently reason about the SCA resilience of designs. Here, the d-probing model is the most prominent and well-studied adversary model. Its extension, introduced as the robust d-probing model, covers physical defaults occurring in hardware implementations, particularly focusing on combinational recombinations (glitches), memory recombinations (transitions), and routing recombinations (coupling).With increasing complexity of modern cryptographic designs and logic circuits, formal security verification becomes ever more cumbersome. This started to spark innovative research on automated verification frameworks. Unfortunately, these verification frameworks mostly focus on security verification of hardware circuits in the presence of glitches, but remain limited in identification and verification of transitional leakage. To this end, we extend SILVER, a recently proposed tool for formal security verification of masked logic circuits, to also detect and verify information leakage resulting from combinations of glitches and transitions. Based on extensive case studies, we further confirm the accuracy and practical relevance of our methodology when assessing and verifying information leakage in hardware implementations.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2022-02-15</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tches.iacr.org/index.php/TCHES/article/view/9488</dc:identifier>
+	<dc:identifier>10.46586/tches.v2022.i2.266-288</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Cryptographic Hardware and Embedded Systems; Volume 2022, Issue 2; 266-288</dc:source>
+	<dc:source>2569-2925</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/9488/9036</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2022 Nicolai Müller, David Knichel, Pascal Sasdrich, Amir Moradi</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0/</dc:rights>
+</oai_dc:dc>

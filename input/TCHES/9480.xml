@@ -1,0 +1,26 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>9480</id>
+	<dc:title xml:lang="en-US">Highly Vectorized SIKE for AVX-512</dc:title>
+	<dc:creator>Cheng, Hao</dc:creator>
+	<dc:creator>Fotiadis, Georgios</dc:creator>
+	<dc:creator>Großschädl, Johann</dc:creator>
+	<dc:creator>Ryan, Peter Y. A.</dc:creator>
+	<dc:subject xml:lang="en-US">Post-Quantum Cryptography</dc:subject>
+	<dc:subject xml:lang="en-US">Isogeny-Based Cryptography</dc:subject>
+	<dc:subject xml:lang="en-US">Software Optimization</dc:subject>
+	<dc:subject xml:lang="en-US">Finite-Field Arithemtic</dc:subject>
+	<dc:subject xml:lang="en-US">SIMD-Parallel Processing</dc:subject>
+	<dc:description xml:lang="en-US">It is generally accepted that a large-scale quantum computer would be capable to break any public-key cryptosystem used today, thereby posing a serious threat to the security of the Internet’s public-key infrastructure. The US National Institute of Standards and Technology (NIST) addresses this threat with an open process for the standardization of quantum-safe key establishment and signature schemes, which is now in the final phase of the evaluation of candidates. SIKE (an abbreviation of Supersingular Isogeny Key Encapsulation) is one of the alternate candidates under evaluation and distinguishes itself from other candidates due to relatively short key lengths and relatively high computing costs. In this paper, we analyze how the latest generation of Intel’s Advanced Vector Extensions (AVX), in particular AVX-512IFMA, can be used to minimize the latency (resp. maximize the hroughput) of the SIKE key encapsulation mechanism when executed on Ice Lake CPUs based on the Sunny Cove microarchitecture. We present various techniques to parallelize and speed up the base/extension field arithmetic, point arithmetic, and isogeny computations performed by SIKE. All these parallel processing techniques are combined in AvxSike, a highly optimized implementation of SIKE using Intel AVX-512IFMA instructions. Our experiments indicate that AvxSike instantiated with the SIKEp503 parameter set is approximately 1.5 times faster than the to-date best AVX-512IFMA-based SIKE software from the literature. When executed on an Intel Core i3-1005G1 CPU, AvxSike outperforms the x64 assembly implementation of SIKE contained in Microsoft’s SIDHv3.4 library by a factor of about 2.5 for key generation and decapsulation, while the encapsulation is even 3.2 times faster.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2022-02-15</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tches.iacr.org/index.php/TCHES/article/view/9480</dc:identifier>
+	<dc:identifier>10.46586/tches.v2022.i2.41-68</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Cryptographic Hardware and Embedded Systems; Volume 2022, Issue 2; 41-68</dc:source>
+	<dc:source>2569-2925</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/9480/9021</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2022 Hao Cheng, Georgios Fotiadis, Johann Großschädl, Peter Y. A. Ryan</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0/</dc:rights>
+</oai_dc:dc>

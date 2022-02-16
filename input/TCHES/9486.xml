@@ -1,0 +1,24 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>9486</id>
+	<dc:title xml:lang="en-US">ABE Squared: Accurately Benchmarking Efficiency of Attribute-Based Encryption</dc:title>
+	<dc:creator>de la Piedra, Antonio</dc:creator>
+	<dc:creator>Venema, Marloes</dc:creator>
+	<dc:creator>Alpár, Greg</dc:creator>
+	<dc:subject xml:lang="en-US">attribute-based encryption</dc:subject>
+	<dc:subject xml:lang="en-US">implementation</dc:subject>
+	<dc:subject xml:lang="en-US">benchmarking</dc:subject>
+	<dc:subject xml:lang="en-US">ciphertextpolicy attribute-based encryption</dc:subject>
+	<dc:description xml:lang="en-US">Measuring efficiency is difficult. In the last decades, several works have contributed in the quest to successfully determine and compare the efficiency of pairing-based attribute-based encryption (ABE) schemes. However, many of these works are limited: they use little to no optimizations, or use underlying pairingfriendly elliptic curves that do not provide sufficient security anymore. Hence, using these works to benchmark ABE schemes does not yield accurate results. Furthermore, most ABE design papers focus on the efficiency of one important aspect. For instance, a new scheme may aim to have a fast decryption algorithm. Upon realizing this goal, the designer compares the new scheme with existing ones, demonstrating its dominance in this particular aspect. Although this approach is intuitive and might seem fair, the way in which this comparison is done might be biased. For instance, the schemes that are compared with the new scheme may be optimized with respect to another aspect, and appear in the comparison consequently inferior.In this work, we present a framework for accurately benchmarking efficiency of ABE: ABE Squared. In particular, we focus on uncovering the multiple layers of optimization that are relevant to the implementation of ABE schemes. Moreover, we focus on making any comparison fairer by considering the influence of the potential design goals on any optimizations. On the lowest layer, we consider the available optimized arithmetic provided by state-of-the-art cryptographic libraries. On the higher layers, we consider the choice of elliptic curve, the order of the computations, and importantly, the instantiation of the scheme on the chosen curves. Additionally, we show that especially the higher-level optimizations are dependent on the goal of the designer, e.g. optimization of the decryption algorithm. To compare schemes more transparently, we develop this framework, in which ABE schemes can be justifiably optimized and compared by taking into account the possible goals of a designer. To meet these goals, we also introduce manual, heuristic type-conversion techniques where existing techniques fall short. Finally, to illustrate the effectiveness of ABE Squared, we implement several schemes and provide all relevant benchmarks. These show that the design goal influences the optimization approaches, which in turn influence the overall efficiency of the implementations. Importantly, these demonstrate that the schemes also compare differently than existing works previously suggested.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2022-02-15</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tches.iacr.org/index.php/TCHES/article/view/9486</dc:identifier>
+	<dc:identifier>10.46586/tches.v2022.i2.192-239</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Cryptographic Hardware and Embedded Systems; Volume 2022, Issue 2; 192-239</dc:source>
+	<dc:source>2569-2925</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tches.iacr.org/index.php/TCHES/article/view/9486/9032</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2022 Antonio de la Piedra, Marloes Venema, Greg Alpár</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0/</dc:rights>
+</oai_dc:dc>
