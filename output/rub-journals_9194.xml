@@ -39,13 +39,21 @@ First argument to forEach is not an array or JSON objectFirst argument to forEac
     <mets:fileSec>
         <mets:fileGrp USE="pdf upload">
             <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_9194">
-                <mets:FLocat xlink:href="https://philosophymindscience.org/index.php/phimisci/article/download/9194/8980" LOCTYPE="URL"/>
+                <mets:FLocat xlink:href="https://philosophymindscience.org/index.php/phimisci/article/download/9194/9039" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="text/html" ID="FILE1_rub-journals_9194">
+                <mets:FLocat xlink:href="https://philosophymindscience.org/index.php/phimisci/article/download/9194/9040" LOCTYPE="URL"/>
             </mets:file>
         </mets:fileGrp>
     </mets:fileSec>
     <mets:structMap TYPE="LOGICAL">
         <mets:div TYPE="document" ID="rub-journals_9194" DMDID="DMD_rub-journals_9194">
             <mets:fptr FILEID="FILE0_rub-journals_9194"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_9194" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_9194"/>
+            </mets:div>
         </mets:div>
     </mets:structMap>
 </mets:mets>

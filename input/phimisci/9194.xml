@@ -13,13 +13,15 @@
 	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
 	<dc:type xml:lang="en-US">Peer-reviewed Article</dc:type>
 	<dc:format>application/pdf</dc:format>
+	<dc:format>text/html</dc:format>
 	<dc:identifier>https://philosophymindscience.org/index.php/phimisci/article/view/9194</dc:identifier>
 	<dc:identifier>10.33735/phimisci.2022.9194</dc:identifier>
 	<dc:source xml:lang="en-US">Philosophy and the Mind Sciences; Vol. 3 (2022): Philosophy and the Mind Sciences, 2022</dc:source>
 	<dc:source>2699-0369</dc:source>
 	<dc:source>10.33735/phimisci.2022</dc:source>
 	<dc:language>eng</dc:language>
-	<dc:relation>https://philosophymindscience.org/index.php/phimisci/article/view/9194/8980</dc:relation>
+	<dc:relation>https://philosophymindscience.org/index.php/phimisci/article/view/9194/9039</dc:relation>
+	<dc:relation>https://philosophymindscience.org/index.php/phimisci/article/view/9194/9040</dc:relation>
 	<dc:rights xml:lang="en-US">Copyright (c) 2022 Azenet Lopez</dc:rights>
 	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0</dc:rights>
 </oai_dc:dc>
