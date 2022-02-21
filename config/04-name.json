@@ -19,6 +19,29 @@
           "type": "text",
           "name": "name/displayForm",
           "columnName": "name/displayForm",
+          "query": "^-, Editors$",
+          "mode": "regex",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "name/displayForm",
+    "expression": "grel:null",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column name/displayForm using expression grel:null"
+  },  
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "name/displayForm",
+          "columnName": "name/displayForm",
           "query": ",",
           "mode": "text",
           "caseSensitive": false,

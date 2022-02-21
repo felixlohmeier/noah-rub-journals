@@ -39,7 +39,7 @@ MODS:
 * [titleInfo/subTitle](config/04-titleInfo.json): 2. Teil von **dc:title** nach Trennzeichen `: ` und Doppelpunkt am Ende entfernen
 * [name@type](config/04-name.json): `personal` (wenn **name/displayForm** vorhanden)
 * ~~name@authority=gnd@valueURI~~
-* [name/displayForm](config/04-name.json): **dc:creator** wenn es `,` enthält
+* [name/displayForm](config/04-name.json): **dc:creator** wenn es `,` und nicht `-, Editors` enthält
 * [name/namePart@type=family](config/04-name.json): 1. Teil von **name/displayForm** vor Trennzeichen `, `
 * [name/namePart@type=given](config/04-name.json): 2. Teil von **name/displayForm** nach Trennzeichen `, `
 * ~~name/nameIdentifier@type=orcid~~
