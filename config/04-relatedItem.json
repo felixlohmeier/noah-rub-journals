@@ -231,7 +231,7 @@
           "type": "text",
           "name": "dc:source",
           "columnName": "dc:source",
-          "query": "\\d{4}-\\d{4}",
+          "query": "^\\d{4}-\\d{4}$",
           "mode": "regex",
           "caseSensitive": false,
           "invert": false
