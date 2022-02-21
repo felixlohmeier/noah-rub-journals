@@ -6,7 +6,7 @@
       "mode": "row-based"
     },
     "baseColumnName": "dc:creator",
-    "expression": "grel:value",
+    "expression": "grel:value.trim()",
     "onError": "set-to-blank",
     "newColumnName": "name/displayForm",
     "columnInsertIndex": 2
@@ -72,7 +72,7 @@
       "mode": "row-based"
     },
     "baseColumnName": "name/displayForm",
-    "expression": "grel:value.split(', ')[0]",
+    "expression": "grel:value.split(', ')[0].trim()",
     "onError": "set-to-blank",
     "newColumnName": "name/namePart@type=family",
     "columnInsertIndex": 2
@@ -84,7 +84,7 @@
       "mode": "row-based"
     },
     "baseColumnName": "name/displayForm",
-    "expression": "grel:value.split(', ')[1]",
+    "expression": "grel:value.split(', ')[1].trim()",
     "onError": "set-to-blank",
     "newColumnName": "name/namePart@type=given",
     "columnInsertIndex": 2
