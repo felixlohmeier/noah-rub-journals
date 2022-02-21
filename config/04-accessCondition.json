@@ -42,5 +42,83 @@
     "onError": "set-to-blank",
     "newColumnName": "accessCondition@xlink:href",
     "columnInsertIndex": 2
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "accessCondition",
+          "expression": "value",
+          "columnName": "accessCondition",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "CC BY-NC-ND 4.0 LEGALCODE",
+                "l": "CC BY-NC-ND 4.0 LEGALCODE"
+              }
+            },
+            {
+              "v": {
+                "v": "CC BY-SA 4.0 DEED.DE",
+                "l": "CC BY-SA 4.0 DEED.DE"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "accessCondition@xlink:href",
+    "expression": "grel:value.replace('/legalcode','').replace('/deed.de','')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column accessCondition@xlink:href using expression grel:value.replace('/legalcode','').replace('/deed.de','')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "accessCondition",
+          "expression": "value",
+          "columnName": "accessCondition",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "CC BY-NC-ND 4.0 LEGALCODE",
+                "l": "CC BY-NC-ND 4.0 LEGALCODE"
+              }
+            },
+            {
+              "v": {
+                "v": "CC BY-SA 4.0 DEED.DE",
+                "l": "CC BY-SA 4.0 DEED.DE"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "accessCondition",
+    "expression": "grel:value.replace(' LEGALCODE','').replace(' DEED.DE','')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column accessCondition using expression grel:value.replace(' LEGALCODE','').replace(' DEED.DE','')"
   }
 ]
