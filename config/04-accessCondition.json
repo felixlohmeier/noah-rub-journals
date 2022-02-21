@@ -42,49 +42,5 @@
     "onError": "set-to-blank",
     "newColumnName": "accessCondition@xlink:href",
     "columnInsertIndex": 2
-  },
-  {
-    "op": "core/text-transform",
-    "engineConfig": {
-      "facets": [
-        {
-          "type": "text",
-          "name": "dc:rights",
-          "columnName": "dc:rights",
-          "query": "dppl",
-          "mode": "text",
-          "caseSensitive": false,
-          "invert": false
-        }
-      ],
-      "mode": "row-based"
-    },
-    "columnName": "accessCondition@xlink:href",
-    "expression": "grel:cells['dc:rights'].value",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10
-  },
-  {
-    "op": "core/text-transform",
-    "engineConfig": {
-      "facets": [
-        {
-          "type": "text",
-          "name": "dc:rights",
-          "columnName": "dc:rights",
-          "query": "dppl",
-          "mode": "text",
-          "caseSensitive": false,
-          "invert": false
-        }
-      ],
-      "mode": "row-based"
-    },
-    "columnName": "accessCondition",
-    "expression": "grel:'Digital Peer Publishing Licence (v3)'",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10
   }
 ]

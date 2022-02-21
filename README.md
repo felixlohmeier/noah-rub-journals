@@ -71,8 +71,8 @@ MODS:
 * ~~identifier@type=urn~~
 * [identifier@type=doi](config/04-identifier.json): DOIs (beginnend mit 10.) aus **dc:identifier**
 * ~~identifier@type=sys~~
-* [accessCondition](config/04-accessCondition.json): Für `creativecommons.org` in **dc:rights** den Canonical Name aus der URL extrahieren; für `dppl` in **dc:rights** `Digital Peer Publishing Licence (v3)`
-* [accessCondition@xlink:href](config/04-accessCondition.json): URL aus **dc:rights** (mit Filter `creativecommons.org` oder `dppl`)
+* [accessCondition](config/04-accessCondition.json): Für `creativecommons.org` in **dc:rights** den Canonical Name aus der URL extrahieren
+* [accessCondition@xlink:href](config/04-accessCondition.json): URL aus **dc:rights** (mit Filter `creativecommons.org`)
 * [extension/vl:doctype](config/04-extension.json): `oaArticle`
 * recordInfo/recordIdentifier: wie **id** (s.o.), Umsetzung [direkt im Template](config/template.txt)
 
