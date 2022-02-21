@@ -29,6 +29,9 @@
                     <originInfo>
                         <dateIssued encoding="w3cdtf" keyDate="yes">2021-07-19</dateIssued>
                     </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
                     <abstract lang="eng">How can the free energy principle contribute to research on neural correlates of consciousness, and to the scientific study of consciousness more generally? Under the free energy principle, neural correlates should be defined in terms of neural dynamics, not neural states, and should be complemented by research on computational correlates of consciousness – defined in terms of probabilities encoded by neural states.
 We argue that these restrictions brighten the prospects of a computational explanation of consciousness, by addressing two central problems. The first is to account for consciousness in the absence of sensory stimulation and behaviour. The second is to allow for the possibility of systems that implement computations associated with consciousness, without being conscious, which requires differentiating between computational systems that merely simulate conscious beings and computational systems that are conscious in and of themselves.
 Given the notion of computation entailed by the free energy principle, we derive constraints on the ascription of consciousness in controversial cases (e.g., in the absence of sensory stimulation and behaviour). We show that this also has implications for what it means to be, as opposed to merely simulate a conscious system.</abstract>

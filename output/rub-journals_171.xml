@@ -20,6 +20,9 @@
                     <originInfo>
                         <dateIssued encoding="w3cdtf" keyDate="yes">2015-01-22</dateIssued>
                     </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
                     <abstract lang="eng">This contribution offers a review of Angelika Brodersen&apos;s bookDer unbekannte Kalām. Theologische Positionen der frühen Māturīdīya am Beispiel der Attributenlehre.History of Islamic Theology / Islamische Theologiegeschichte, Bd. 2. Berlin / Münster/ Wien/ Zürich/ London: Lit, 2014. 616 pages, € 69.90, ISBN 978-3-643-12402-9.</abstract>
                     <subject lang="ger">
                     </subject>

@@ -20,6 +20,9 @@
                     <originInfo>
                         <dateIssued encoding="w3cdtf" keyDate="yes">2015-10-01</dateIssued>
                     </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
                     <abstract lang="eng">This contribution offers a review ofSophie Gilliat-Ray, Mansur Ali &amp;amp; Stephen Pattison: Understanding Muslim Chaplaincy,Farnham: Ashgate, 2013. 206 pages, paperback £19.99, ISBN 978-1409435938.</abstract>
                     <subject lang="ger">
                     </subject>

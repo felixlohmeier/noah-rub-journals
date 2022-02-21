@@ -20,6 +20,9 @@
                     <originInfo>
                         <dateIssued encoding="w3cdtf" keyDate="yes">2014-12-10</dateIssued>
                     </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
                     <abstract lang="eng">This editorial offers you an overview of our first publications and quick access to each of them via links.
 We thank you for your interest in Entangled Religions and look forward to sharing the coming year with you!
 &amp;nbsp;</abstract>

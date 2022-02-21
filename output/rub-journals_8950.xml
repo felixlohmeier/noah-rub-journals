@@ -27,6 +27,9 @@
                     <originInfo>
                         <dateIssued encoding="w3cdtf" keyDate="yes">2020-12-30</dateIssued>
                     </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
                     <abstract lang="eng">Contrasting brain states when subjects are aware compared to unaware of a presented stimulus has allowed researchers to isolate candidate neural correlates of consciousness. Here we propose that an important next step in this research program is to investigate, perhaps paradoxically, brain states that covary with reports of absences of awareness. Specifically, we propose that in order to distinguish content-specific and content-invariant neural correlates of consciousness, a distinction needs to be made between the neural correlates of awareness of stimulus absence, and the neural correlates of absence of awareness (of either stimulus presence or absence). We ground this distinction in higher-order computational models of consciousness, where the state of higher-order nodes is invariant to the specific contents of awareness. To map the different levels of these models to neurophysiological correlates, we suggest two empirical approaches – inverted designs and two-dimensional awareness reports – in which reports about awareness and stimulus presence can be dissociated.</abstract>
                     <subject lang="ger">
                     </subject>

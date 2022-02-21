@@ -27,6 +27,9 @@
                     <originInfo>
                         <dateIssued encoding="w3cdtf" keyDate="yes">2020-12-30</dateIssued>
                     </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
                     <abstract lang="eng">The search for the neural correlates of consciousness is in need of a systematic, principled foundation that can endow putative neural correlates with greater predictive and explanatory value. Here, we propose the predictive processing framework for brain function as a promising candidate for providing this systematic foundation. The proposal is motivated by that framework’s ability to address three general challenges to identifying the neural correlates of consciousness, and to satisfy two constraints common to many theories of consciousness. Implementing the search for neural correlates of consciousness through the lens of predictive processing delivers strong potential for predictive and explanatory value through detailed, systematic mappings between neural substrates and phenomenological structure. We conclude that the predictive processing framework, precisely because it at the outset is not itself a theory of consciousness, has significant potential for advancing the neuroscience of consciousness.</abstract>
                     <subject lang="ger">
                     </subject>

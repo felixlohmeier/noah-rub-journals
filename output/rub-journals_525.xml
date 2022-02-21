@@ -20,6 +20,9 @@
                     <originInfo>
                         <dateIssued encoding="w3cdtf" keyDate="yes">2016-11-17</dateIssued>
                     </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
                     <abstract lang="eng">This contribution offers a review of:Christine Caldwell Ames: Medieval Heresies. Christianity, Judaism, and Islam.Cambridge: Cambridge University Press, 2015. 368 pages, GBP 19.99/US$29.99, ISBN (paperback) 9781107607019.</abstract>
                     <subject lang="ger">
                     </subject>

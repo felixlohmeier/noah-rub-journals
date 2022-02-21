@@ -19,6 +19,9 @@
                     <originInfo>
                         <dateIssued encoding="w3cdtf" keyDate="yes">2014-08-07</dateIssued>
                     </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
                     <abstract lang="eng">This is the contribution &quot;Abkürzungen&quot; of Moving the Social 12 (1992).</abstract>
                     <subject lang="ger">
                     </subject>

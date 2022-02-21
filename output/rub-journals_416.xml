@@ -20,6 +20,9 @@
                     <originInfo>
                         <dateIssued encoding="w3cdtf" keyDate="yes">2015-11-26</dateIssued>
                     </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
                     <abstract lang="eng">This editorial offers you a look back upon the year 2015 and access to all contributions published during this year via links.</abstract>
                     <subject lang="ger">
                     </subject>

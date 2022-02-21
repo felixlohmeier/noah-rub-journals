@@ -21,6 +21,9 @@
                     <originInfo>
                         <dateIssued encoding="w3cdtf" keyDate="yes">2020-12-30</dateIssued>
                     </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
                     <abstract lang="eng">This special issue celebrates the double anniversary of the neural correlates of consciousness (NCCs): 30 years since the research programme for finding neural correlates of consciousness was brought back onto the scientific agenda and 20 years since the standard definition of an NCC was published in a seminal anthology. Here, we take up some of the conceptual, methodological, and empirical questions raised and take stock of how the field has developed since then.</abstract>
                     <subject lang="ger">
                     </subject>

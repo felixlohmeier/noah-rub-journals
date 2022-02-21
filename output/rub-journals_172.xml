@@ -20,6 +20,9 @@
                     <originInfo>
                         <dateIssued encoding="w3cdtf" keyDate="yes">2015-01-22</dateIssued>
                     </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
                     <abstract lang="eng">This contribution offers a review of Wang Yongbo&apos;s and Lothar Ledderose&apos;sBuddhist Stone Sutras in China: Shandong Province, Vol. 1.Hangzhou and Wiesbaden: Harrassowitz and China Academy of Art Press, 2014. XXIV + 506 pages, hardcover € [D] 158, ISBN 978–3–447–06931–1.</abstract>
                     <subject lang="ger">
                     </subject>

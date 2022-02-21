@@ -20,6 +20,9 @@
                     <originInfo>
                         <dateIssued encoding="w3cdtf" keyDate="yes">2016-06-20</dateIssued>
                     </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
                     <abstract lang="eng">This contribution offers a review of:Ingeborg Huhn: Johann Gottfried Wetzstein. Orientalist und preußischer Konsul im osmanischen Syrien (1849-1861).Islamkundliche Untersuchungen 329. Berlin: Klaus Schwarz Verlag, 2016. 396 pages, €54.00, ISBN: 9783879974528 (paperback)</abstract>
                     <subject lang="ger">
                     </subject>

@@ -27,6 +27,9 @@
                     <originInfo>
                         <dateIssued encoding="w3cdtf" keyDate="yes">2014-05-13</dateIssued>
                     </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
                     <abstract lang="eng">This is the contribution &quot;Editorial&quot; of Moving the Social 50 (2013).</abstract>
                     <subject lang="ger">
                     </subject>

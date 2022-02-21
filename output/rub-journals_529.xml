@@ -20,6 +20,9 @@
                     <originInfo>
                         <dateIssued encoding="w3cdtf" keyDate="yes">2016-11-28</dateIssued>
                     </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
                     <abstract lang="eng">This contribution offers a review of:Michael G. Brennan: George Orwell and Religion. Bloomsbury Academic: London/Oxford/New York/New Delhi/Sydney, 2016. 208 pages, $94.00/£70.00, ISBN (hardback) 9781472531940.</abstract>
                     <subject lang="ger">
                     </subject>

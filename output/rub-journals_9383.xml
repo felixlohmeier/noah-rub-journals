@@ -24,6 +24,9 @@
                     <originInfo>
                         <dateIssued encoding="w3cdtf" keyDate="yes">2021-12-20</dateIssued>
                     </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
                     <physicalDescription>
                         <extent unit="page">20</extent>
                     </physicalDescription>
@@ -34,7 +37,7 @@ First argument to forEach is not an array or JSON objectFirst argument to forEac
                     <subject lang="eng">
 First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
                     <identifier type="doi">10.46586/PerIc.2021.1.1-20</identifier>
-                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode">CC BY-NC-ND 4.0 LEGALCODE</accessCondition>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0">CC BY-NC-ND 4.0</accessCondition>
                     <recordInfo>
                         <recordIdentifier>rub-journals_9383</recordIdentifier>
                     </recordInfo>

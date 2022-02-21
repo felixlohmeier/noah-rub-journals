@@ -20,6 +20,9 @@
                     <originInfo>
                         <dateIssued encoding="w3cdtf" keyDate="yes">2016-11-29</dateIssued>
                     </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
                     <abstract lang="eng">This editorial offers you a look at some of the developments during the past year and provides quick access to all contributions of the issue ER 3 (2016) through links.</abstract>
                     <subject lang="ger">
                     </subject>

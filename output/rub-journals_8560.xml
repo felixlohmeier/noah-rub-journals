@@ -18,7 +18,7 @@
                     <name type="personal">
                         <displayForm>Khairallah,  Mustafa</displayForm>
                         <namePart type="family">Khairallah</namePart>
-                        <namePart type="given"> Mustafa</namePart>
+                        <namePart type="given">Mustafa</namePart>
                         <role>
                             <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
                         </role>
@@ -44,6 +44,9 @@
                     <originInfo>
                         <dateIssued encoding="w3cdtf" keyDate="yes">2020-05-07</dateIssued>
                     </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
                     <physicalDescription>
                         <extent unit="page">78</extent>
                     </physicalDescription>

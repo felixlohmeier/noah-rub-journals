@@ -7,19 +7,14 @@
                         <title>Controversy around the Trotsky Biography by Robert Service / Russia</title>
                         <subTitle>“Commission against Falsification” Dissolved</subTitle>
                     </titleInfo>
-                    <name type="personal">
-                        <displayForm>-, Editors</displayForm>
-                        <namePart type="family">-</namePart>
-                        <namePart type="given">Editors</namePart>
-                        <role>
-                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
-                        </role>
-                    </name>
                     <typeOfResource>text</typeOfResource>
                     <genre authority="dini">article</genre>
                     <originInfo>
                         <dateIssued encoding="w3cdtf" keyDate="yes">2012-09-05</dateIssued>
                     </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
                     <physicalDescription>
                         <extent unit="page">3</extent>
                     </physicalDescription>

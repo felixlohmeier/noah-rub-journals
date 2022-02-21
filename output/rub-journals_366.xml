@@ -7,19 +7,14 @@
                         <title>Directory of Periodicals on Communist Studies and Connected Areas</title>
                         <subTitle>Conventional and Online Journals, Newsletters, Discussion Lists, Bulletins and Services</subTitle>
                     </titleInfo>
-                    <name type="personal">
-                        <displayForm>-, Editors</displayForm>
-                        <namePart type="family">-</namePart>
-                        <namePart type="given">Editors</namePart>
-                        <role>
-                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
-                        </role>
-                    </name>
                     <typeOfResource>text</typeOfResource>
                     <genre authority="dini">article</genre>
                     <originInfo>
                         <dateIssued encoding="w3cdtf" keyDate="yes">2010-07-20</dateIssued>
                     </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
                     <physicalDescription>
                         <extent unit="page">9</extent>
                     </physicalDescription>

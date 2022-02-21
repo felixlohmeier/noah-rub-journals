@@ -20,6 +20,9 @@
                     <originInfo>
                         <dateIssued encoding="w3cdtf" keyDate="yes">2016-10-05</dateIssued>
                     </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
                     <abstract lang="eng">This contribution offers a review of:Douglas E. Cowan: Sacred Terror. Religion and Horror on the Silver Screen. Waco, Texas: Baylor University Press, 2016. 325 pages, $29,95, ISBN (paperback): 978-1-4813-0490-0.</abstract>
                     <subject lang="ger">
                     </subject>

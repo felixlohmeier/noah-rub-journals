@@ -20,6 +20,9 @@
                     <originInfo>
                         <dateIssued encoding="w3cdtf" keyDate="yes">2015-09-15</dateIssued>
                     </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
                     <abstract lang="eng">This contribution offers a review ofMaria Hämmerli &amp;amp; Jean-Francoise Mayer (eds.): Orthodox Identities in Western Europe:Migration, Settlement and Innovation.Farnham: Ashgate, 2014. 320 pages, £70, ISBN: 978-1-4094-6754-0.</abstract>
                     <subject lang="ger">
                     </subject>

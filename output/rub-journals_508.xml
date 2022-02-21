@@ -19,6 +19,9 @@
                     <originInfo>
                         <dateIssued encoding="w3cdtf" keyDate="yes">2016-06-27</dateIssued>
                     </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
                     <abstract lang="eng">This article thematizes a spiritual movement of ascetic hermits in California, which is based on the religious practice of Bede Griffiths. These hermits took their religious vows in India as Christian saṃnyāsis, in the hands of Father Bede, and then returned to California to ignite a contemplative renewal in the Christian dispirited tradition. Some tried to integrate such Indian tradition in the Benedictine order, while others traced new paths.</abstract>
                     <subject lang="ger">
                     </subject>

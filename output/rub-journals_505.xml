@@ -20,6 +20,9 @@
                     <originInfo>
                         <dateIssued encoding="w3cdtf" keyDate="yes">2016-06-23</dateIssued>
                     </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
                     <abstract lang="eng">This contribution offers a review of:Jörg Ulrich, Anders-Christian Jacobsen &amp;amp; David Brakke (Eds.): Invention, Rewriting, Usurpation: Discursive Fights over Religious Traditions in Antiquity.Berlin: Peter Lang. 2012. XVI + 322 pages, 1 table, ISBN 978-3-631-63538-4 (hardcover)</abstract>
                     <subject lang="ger">
                     </subject>

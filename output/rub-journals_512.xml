@@ -20,6 +20,9 @@
                     <originInfo>
                         <dateIssued encoding="w3cdtf" keyDate="yes">2016-08-08</dateIssued>
                     </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
                     <abstract lang="eng">This contribution offers a review ofJeffrey H. Mahan (ed.): Media, Religion and Culture. An Introduction.London/New York: Routledge Taylor and Francis Group, 2014. 178 pages, € 43,00,ISBN: 978-0-415-68320-3</abstract>
                     <subject lang="ger">
                     </subject>

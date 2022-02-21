@@ -32,7 +32,7 @@
                     </name>
                     <name type="personal">
                         <displayForm>Zhu , Xiang</displayForm>
-                        <namePart type="family">Zhu </namePart>
+                        <namePart type="family">Zhu</namePart>
                         <namePart type="given">Xiang</namePart>
                         <role>
                             <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
@@ -83,6 +83,9 @@
                     <originInfo>
                         <dateIssued encoding="w3cdtf" keyDate="yes">2020-03-02</dateIssued>
                     </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
                     <physicalDescription>
                         <extent unit="page">24</extent>
                     </physicalDescription>

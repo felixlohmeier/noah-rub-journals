@@ -20,6 +20,9 @@
                     <originInfo>
                         <dateIssued encoding="w3cdtf" keyDate="yes">2016-09-12</dateIssued>
                     </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
                     <abstract lang="eng">This contribution offers a review of:Cornelia Herberichs, Norbert Kössinger &amp;amp; Stephanie Seidl (Hg.): Liturgie und Literatur—Historische Fallstudien. Berlin/Boston: De Gruyter, 2015. 371 pages, € [D] 99.95, ISBN 978-3-11-037759-0.</abstract>
                     <subject lang="ger">
                     </subject>

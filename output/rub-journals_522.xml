@@ -20,6 +20,9 @@
                     <originInfo>
                         <dateIssued encoding="w3cdtf" keyDate="yes">2016-10-05</dateIssued>
                     </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
                     <abstract lang="eng">This contribution offers a review of:Elias Muhanna (ed.): The Digital Humanities and Islamic &amp;amp; Middle East Studies. Berlin/Boston: De Gruyter, 2016. VIII + 271 pages, € [D] 99.95/US$ 140.00/GBP 74.99,ISBN (hardback): 978-3-11-037454-4.</abstract>
                     <subject lang="ger">
                     </subject>

@@ -20,6 +20,9 @@
                     <originInfo>
                         <dateIssued encoding="w3cdtf" keyDate="yes">2016-11-29</dateIssued>
                     </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
                     <abstract lang="eng">This contribution offers a review of:William E. Paden: New Patterns for Comparative Religion. Passages to an Evolutionary Perspective.London/New York: Bloomsbury Academic, 2016. 264 pages, $114.00/£ 85.00, ISBN (hardback) 978-1-4742-5210-2.</abstract>
                     <subject lang="ger">
                     </subject>

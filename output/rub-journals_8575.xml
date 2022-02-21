@@ -21,6 +21,9 @@
                     <originInfo>
                         <dateIssued encoding="w3cdtf" keyDate="yes">2020-06-17</dateIssued>
                     </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
                     <abstract lang="eng">This contribution offers a review of The Snake and the Mongoose: The Emergence of Identity in Early Indian Religion by Nathan McGovern (2019).</abstract>
                     <subject lang="ger">
                     </subject>

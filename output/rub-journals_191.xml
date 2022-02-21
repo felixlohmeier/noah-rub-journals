@@ -20,6 +20,9 @@
                     <originInfo>
                         <dateIssued encoding="w3cdtf" keyDate="yes">2015-04-22</dateIssued>
                     </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
                     <abstract lang="eng">This contribution offers a review of Charles D. Fletcher&apos;s bookMuslim-Christian Engagement in the Twentieth Century. The Principles of Interfaith Dialogue and the Work of Isma‘il al-Faruqi.London &amp;amp; New York: I.B. Tauris, 2015.336 pages, £68.00, ISBN: 978-1848855090.</abstract>
                     <subject lang="ger">
                     </subject>

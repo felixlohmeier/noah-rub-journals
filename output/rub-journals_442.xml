@@ -21,6 +21,9 @@
                     <originInfo>
                         <dateIssued encoding="w3cdtf" keyDate="yes">2016-04-04</dateIssued>
                     </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
                     <abstract lang="eng">This piece is in the form of a review article of Stephen Eskildsen’s recent study Daoism, Meditation, and the Wonders of Serenity, which deals with the history of contemplative traditions in Daoism including a detailed survey of their various direct and indirect links with Buddhism.While this essay presents a critical evaluation of this author’s work and its findings, it also seeks to place it within the wider research-frame of Daoist studies and Chinese religions.</abstract>
                     <subject lang="ger">
                     </subject>

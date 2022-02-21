@@ -19,6 +19,9 @@
                     <originInfo>
                         <dateIssued encoding="w3cdtf" keyDate="yes">2017-04-11</dateIssued>
                     </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
                     <abstract lang="ger">Barthélémy Toguo präsentiert den Betrachter_innen mit seiner Installation Road to Exile eine kompositionell schlichte, dennoch semantisch komplexe Arbeit. Das einfache Holzboot, das schwer beladen mit bunten Stoffbündeln über ein Meer aus Glasflaschen fährt, wirft Fragen nach Reise und Flucht sowie der Sichtbarkeit bzw. Unsichtbarkeit geflohener Menschen auf. Der Beitrag geht diesen Fragen nach. Durch den bewussten Einsatz bereits bestehender Darstellungsstrategien gelingt es Toguo, übliche - häufig viktimisierende oder rassistische - Darstellungsweisen Geflohener zu umgehen und Kritik an ihnen zu üben.</abstract>
                     <subject lang="ger">
 First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>

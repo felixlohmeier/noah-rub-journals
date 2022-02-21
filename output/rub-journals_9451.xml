@@ -22,6 +22,9 @@
                     <originInfo>
                         <dateIssued encoding="w3cdtf" keyDate="yes">2022-02-02</dateIssued>
                     </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
                     <abstract lang="ger">In dieser Studie wird untersucht, welche inhaltlich und strukturell unterschiedlichen Merkmalsausprägungen ein Professionswissen annehmen kann, das dimensionsübergreifend zwischen literaturwissenschaftlichem und pädagogischem Wissen vernetzt. Im Fokus dieser Untersuchung steht somit das pedagogical content knowledge (PCK) von Lehramtsstudierenden. Einer aus Bachelor- und Masterstudierenden des Faches Deutsch bestehenden Stichprobe (n = 96) wurde eine mit eingebauten Problemen konstruierte Vignette zur Unterrichtsplanung vorgelegt, die in einem offenen Aufgabenformat beurteilt und mit Alternativen versehen werden sollte. Die inhaltsanalytische Auswertung der Antworten zeigt, dass sich das untersuchte PCK hinsichtlich des gewählten thematischen Schwerpunktes (pädagogisch, fachlich, ausbalanciert) sowie des gewählten Modus der Vernetzung (additiv, exemplifizierend, integrierend) unterscheiden kann. Die hier entwickelte Systematik verschiedener Merkmalsausprägungen &amp;nbsp;gibt &amp;nbsp;spezifische Herausforderungen für Studierende bei der dimensionsübergreifenden Form der Vernetzung von Wissen zu erkennen und bietet damit diagnostische Anhaltspunkte für die Gestaltung universitärer Lehre.</abstract>
                     <abstract lang="eng">This study investigates the different characteristics of professional knowledge in terms of content and structure, which interconnects literary and pedagogical knowledge across dimensions. The focus of this study is thus the pedagogical content knowledge (PCK) of student teachers, which is understood as a subarea of subject didactic teacher knowledge. A sample of Bachelor&apos;s and Master&apos;s students of German (n = 96) was confronted with a lesson planning vignette constructed with built-in problems. This vignette was to be assessed by the students in an open-ended question and answer format and possibly supplemented by alternatives. Content analysis of the student teachers’ answers shows that the examined PCK can differ with regard to the chosen thematic focus (pedagogical, subject-specific, balanced) as well as to the chosen mode of linking (additive, exemplifying, integrating). The system of different characteristics developed here allows for identifying specific challenges for teaching students regarding the cognitive processes of interconnecting different areas of knowledge and thus provides the basis for targeted diagnostics as a basis for university teaching.</abstract>
                     <subject lang="ger">
@@ -40,7 +43,7 @@ First argument to forEach is not an array or JSON objectFirst argument to forEac
                         </part>
                     </relatedItem>
                     <identifier type="doi">10.46586/SLLD.Z.2022.9451</identifier>
-                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by-sa/4.0/deed.de">CC BY-SA 4.0 DEED.DE</accessCondition>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</accessCondition>
                     <recordInfo>
                         <recordIdentifier>rub-journals_9451</recordIdentifier>
                     </recordInfo>

@@ -19,6 +19,9 @@
                     <originInfo>
                         <dateIssued encoding="w3cdtf" keyDate="yes">2020-12-30</dateIssued>
                     </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
                     <abstract lang="eng">The notion of a global state (or level) of consciousness is an increasingly important construct in the science of consciousness. However, exactly what a global state of consciousness is remains poorly understood. In this paper I offer an account of global states of consciousness as consciousness-related capacity modulations. On this view global states are not themselves phenomenal states – they are not occurring experiences. Rather, they are states that specify which of a creature’s overall consciousness-related capacities are currently online. Given that the search for the neural correlates of consciousness (NCC), as it is currently conceived, is the search for the neural basis of occurrent experiences, the NCC framework is incapable of revealing the neural basis of global states. As such, a mature science of consciousness will need to move beyond the search for NCCs, as that project is currently conceived.</abstract>
                     <subject lang="ger">
                     </subject>

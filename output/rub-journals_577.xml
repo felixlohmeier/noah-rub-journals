@@ -19,6 +19,9 @@
                     <originInfo>
                         <dateIssued encoding="w3cdtf" keyDate="yes">2017-04-11</dateIssued>
                     </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
                     <abstract lang="ger">Die Darstellbarkeit einer Grenze oder Grenzüberschreitung ist Thema zeitgenössischer künstlerischer Arbeiten, die sich verstärkt seit den 2000er-Jahren mit Flucht- und Migrationsrouten beschäftigen. Künstler_innen, die sich explizit mit dem Vorgang der Grenzüberschreitung befassen, thematisieren auch gleichzeitig die jeweiligen Regime an dieser Grenze, was anhand der Kunstwerke von Multiplicity, Bouchra Khalili und Javier Téllez besprochen wird.</abstract>
                     <subject lang="ger">
 First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>

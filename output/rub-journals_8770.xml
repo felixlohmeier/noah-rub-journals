@@ -24,6 +24,9 @@
                     <originInfo>
                         <dateIssued encoding="w3cdtf" keyDate="yes">2021-02-01</dateIssued>
                     </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
                     <abstract lang="ger">Die Bedingungen des Publizierens gehören zu den zentralen Determinanten der wissenschaftlichen Arbeit einer forschenden Disziplin. Sie werden nicht willkürlich geschaffen, sondern ergeben sich aus dem Kontext, in dem ein Fach seine Arbeit tut. Der Beitrag geht von dem Kontext aus, wie er sich mit Blick auf die Deutschdidaktik darstellt, und erörtert die Konsequenzen für Publizieren unter vier Aspekten: (1) Nachfrage- und Angebotsorientierung beim Publizieren, (2) Internationalität und Interdisziplinarität, (3) Peer Review und Qualitätssicherung, (4) Zitieren und Plagiieren.</abstract>
                     <abstract lang="eng">The conditions of researchers’ publishing activities impact markedly on their work. These conditions are not set arbitrarily by the people involved; rather, they result from the given context in which research is done. The present article focuses on the context set for research on first-language education (Deutschdidaktik) in German speaking regions. It discusses how this context shapes publishing according to four dimensions: (1) publishing on demand versus publishing on initiative, (2) internationality and interdisciplinarity, (3) peer review and quality monitoring, (4) plagiarism versus giving credit.</abstract>
                     <subject lang="ger">

@@ -6,19 +6,14 @@
                     <titleInfo lang="eng">
                         <title>Books Sent In for Review</title>
                     </titleInfo>
-                    <name type="personal">
-                        <displayForm>-, Editors</displayForm>
-                        <namePart type="family">-</namePart>
-                        <namePart type="given">Editors</namePart>
-                        <role>
-                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
-                        </role>
-                    </name>
                     <typeOfResource>text</typeOfResource>
                     <genre authority="dini">article</genre>
                     <originInfo>
                         <dateIssued encoding="w3cdtf" keyDate="yes">2014-05-28</dateIssued>
                     </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
                     <physicalDescription>
                         <extent unit="page">2</extent>
                     </physicalDescription>

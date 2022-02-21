@@ -20,6 +20,9 @@
                     <originInfo>
                         <dateIssued encoding="w3cdtf" keyDate="yes">2016-02-10</dateIssued>
                     </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
                     <abstract lang="eng">This contribution offers a review of:John C. Lyden &amp;amp; Eric Michael Mazur (eds.): The Routledge Companion to Religion and Popular CultureRoutledge: London/New York, 2015. 583 pages, € 197,00/$ 214.00, ISBN: 978-0-415-63866-1 (hbk), 978-1315-72447-8 (ebk).</abstract>
                     <subject lang="ger">
                     </subject>

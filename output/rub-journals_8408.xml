@@ -20,6 +20,9 @@
                     <originInfo>
                         <dateIssued encoding="w3cdtf" keyDate="yes">2019-12-17</dateIssued>
                     </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
                     <abstract lang="eng">The article analyses information on religious elements in the representation of senses in literary sources of late imperial China. The Introduction presents psychological and social functions of olfaction with reference to China. The second part deals with the concepts of *xiang*, especially in the meaning of incense, but also the supernatural and symbolic aromas and the pollutant load of its antonym *chou*. The third part offers a survey of other bodily sensations in relation to religion.</abstract>
                     <subject lang="ger">
                     </subject>

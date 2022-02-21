@@ -28,6 +28,9 @@
                     <originInfo>
                         <dateIssued encoding="w3cdtf" keyDate="yes">2021-07-19</dateIssued>
                     </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
                     <abstract lang="eng">The predictive processing framework has gained significant popularity across disciplines investigating the mind and brain. In this article we critically examine two of the recently made claims about the kind of headway that the framework can make in the neuroscientific and philosophical investigation of consciousness. Firstly, we argue that predictive processing is unlikely to yield significant breakthroughs in the search for the neural correlates of consciousness as it is still too vague to individuate neural mechanisms at a fine enough scale. Despite its unifying ambitions, the framework harbors a diverse family of competing computational models which rely on different assumptions and are under-constrained by neurological data. Secondly, we argue that the framework is also ill suited to provide a unifying theory of consciousness. Here, we focus on the tension between the claim that predictive processing is compatible with all of the leading neuroscientific models of consciousness with the fact that most attempts explaining consciousness within the framework rely heavily on external assumptions.</abstract>
                     <subject lang="ger">
                     </subject>

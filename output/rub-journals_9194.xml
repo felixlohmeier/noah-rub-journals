@@ -19,6 +19,9 @@
                     <originInfo>
                         <dateIssued encoding="w3cdtf" keyDate="yes">2022-01-25</dateIssued>
                     </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
                     <abstract lang="eng">How are attention and consciousness related? Can we learn what the contents of someone’s consciousness are if we know the targets of their attention? What can we learn about the contents of consciousness if we know the targets of attention? Although introspection might suggest that attention and consciousness are intimately connected, a good body of recent findings in cognitive psychology and cognitive neuroscience brings compelling reasons to believe that they are two separate and independent processes. This paper attempts to bring attention and consciousness back together to make the study of attentional distributions an essential ingredient for the study of the contents of consciousness. My proposal has two main components. First, I introduce a framework for systematizing the relations between attention in its different forms and consciousness in its different forms. Although philosophers and cognitive scientists have repeatedly highlighted the importance of such systematization, most details are still to be worked out. Here I take an initial stab at this project based on the notion of degrees of informational enhancement. Second, I introduce the notion of vicarious attention to account for a kind of additional processing benefit that comes for free when attention is allocated to a target. I then propose that this kind of processing must also be considered when mapping attention targets into contents of consciousness.</abstract>
                     <subject lang="ger">
                     </subject>

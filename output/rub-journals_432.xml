@@ -20,6 +20,9 @@
                     <originInfo>
                         <dateIssued encoding="w3cdtf" keyDate="yes">2016-01-13</dateIssued>
                     </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
                     <abstract lang="eng">This contribution offers a review ofAaron J. Ghiloni (ed.): World Religions and Their Missions.New York: Peter Lang, 2015. 349 pages, €80.60, ISBN 978-1-4331-2284-2 (hardcover)/ISBN 978-1-4539-1419-9 (e-book)</abstract>
                     <subject lang="ger">
                     </subject>

@@ -27,6 +27,9 @@
                     <originInfo>
                         <dateIssued encoding="w3cdtf" keyDate="yes">2011-09-23</dateIssued>
                     </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
                     <abstract lang="eng">University of Technology, Kazan / Memorial, Moscow</abstract>
                     <subject lang="ger">
                     </subject>

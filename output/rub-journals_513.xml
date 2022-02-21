@@ -20,6 +20,9 @@
                     <originInfo>
                         <dateIssued encoding="w3cdtf" keyDate="yes">2016-08-18</dateIssued>
                     </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
                     <abstract lang="eng">This contribution offers a review of:Stuart S. Miller: At the Intersection of Texts and Material Finds. Stepped Pools, Stone Vessels, and Ritual Purity Among the Jews of Roman Galilee. Göttingen: Vandenhoeck &amp;amp; Ruprecht, 2015. 423 pages with 22 fig., € 140, ISBN 9783525550694</abstract>
                     <subject lang="ger">
                     </subject>

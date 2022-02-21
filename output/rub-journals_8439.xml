@@ -20,6 +20,9 @@
                     <originInfo>
                         <dateIssued encoding="w3cdtf" keyDate="yes">2019-12-18</dateIssued>
                     </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
                     <abstract lang="eng">This contribution offers a review of Homo Ritualis: Hindu Ritual and its Significance for Ritual Theory by Axel Michaels (2016).</abstract>
                     <subject lang="ger">
                     </subject>

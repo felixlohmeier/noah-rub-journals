@@ -19,6 +19,9 @@
                     <originInfo>
                         <dateIssued encoding="w3cdtf" keyDate="yes">2021-12-30</dateIssued>
                     </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
                     <abstract lang="eng">One of the reasons why the Neural Correlates of Consciousness Program could appear attractive in the 1990s was that it seemed to disentangle theoretical and empirical problems. Theoretical disagreements could thus be sidestepped in order to focus on empirical research regarding the neural substrate of consciousness. One of the further consequences of this dissociation of empirical and theoretical questions was that fundamental questions regarding the Mind Body Problem or the “Hard Problem of Consciousness” could remain unresolved even if the search for the neural correlates had been successful.Drawing on historical examples, a widely held consensus in the philosophy of science, and actual NCC research we argue that there is no such independence. Moreover, as the dependence between the theoretical and the empirical level is mutual, empirical progress will go hand in hand with theoretical development. Thus, contrary to what the original NCC program suggested, we conclude that NCC research may significantly take advantage from and contribute to theoretical progress in our explanation and understanding of consciousness. Eventually, this might even contribute to a solution of the Hard Problem of Consciousness.</abstract>
                     <subject lang="ger">
                     </subject>

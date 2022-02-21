@@ -27,6 +27,9 @@
                     <originInfo>
                         <dateIssued encoding="w3cdtf" keyDate="yes">2021-07-19</dateIssued>
                     </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
                     <abstract lang="eng">Subjective experience has often taken center stage in debates between competing conceptual theories of the mind. This is also a central object of concern in the empirical domain, and especially in the search for the neural correlates of consciousness (NCCs). By now, most of the competing conceptual theories of consciousness have become aligned with distinct hypotheses about the NCCs. These hypotheses are usually distinguished by reference to their proposed location of the NCCs. This difference in hypothesized location of the NCCs has tempted participants in these debates to infer that evidence indicating the location of the NCCs in one or the other brain region can be taken as direct evidence for or against a given conceptual theory of consciousness. We argue that this is an overestimation of the work finding the NCCs can do for us, and that there are principled reasons to resist this kind of inference. To show this we point out the lack of both an isomorphism and a homomorphism between the conceptual frameworks in which most theories are cached, and the kind of data we can get from neuroimaging. The upshot is that neural activation profiles are insufficient to distinguish between competing theories in the conceptual domain. We suggest two ways to go about ameliorating this issue.</abstract>
                     <subject lang="ger">
                     </subject>

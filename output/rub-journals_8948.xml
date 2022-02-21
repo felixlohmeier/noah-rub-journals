@@ -36,6 +36,9 @@
                     <originInfo>
                         <dateIssued encoding="w3cdtf" keyDate="yes">2020-12-30</dateIssued>
                     </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
                     <abstract lang="eng">At present, the science of consciousness is structured around the search for the neural correlates of consciousness (the NCCs). One of the alleged advantages of the NCCs framework is its metaphysical neutrality—the fact that it begs no contested questions with respect to debates about the fundamental nature of consciousness. Here, we argue that even if the NCC framework is metaphysically neutral, it is structurally committed, for it presupposes a certain model—what we call the Lite-Brite model—of consciousness. This, we argue, represents a serious liability for the NCC framework for the plausibility of the Lite-Brite model is very much an open question, and the science of consciousness would be better served by a framework that does not presuppose it. Drawing on interventionist ideas in the philosophy of science, we suggest that the Difference-Maker framework can provide just such an alternative. Instead of searching for the neural correlates of consciousness (NCCs), we ought to be searching for the difference makers of consciousness (DMCs). We detail how a shift to searching DMCs will change both the practice of consciousness science and the interpretation of existing results.</abstract>
                     <subject lang="ger">
                     </subject>

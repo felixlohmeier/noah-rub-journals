@@ -20,6 +20,9 @@
                     <originInfo>
                         <dateIssued encoding="w3cdtf" keyDate="yes">2014-09-04</dateIssued>
                     </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
                     <abstract lang="eng">This is the contribution &quot;Die Autoren&quot; of Moving the Social 16 (1995).</abstract>
                     <subject lang="ger">
                     </subject>

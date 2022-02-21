@@ -19,6 +19,9 @@
                     <originInfo>
                         <dateIssued encoding="w3cdtf" keyDate="yes">2015-02-03</dateIssued>
                     </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
                     <abstract lang="eng">This is the contribution &quot;Zu den Verfasserinnen und Verfassern&quot; of Moving the Social 21 (1998).</abstract>
                     <subject lang="ger">
                     </subject>

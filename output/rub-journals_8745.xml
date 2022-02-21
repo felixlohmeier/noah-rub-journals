@@ -20,6 +20,9 @@
                     <originInfo>
                         <dateIssued encoding="w3cdtf" keyDate="yes">2020-12-16</dateIssued>
                     </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
                     <abstract lang="eng">The article first presents the theoretical, historical, and methodological presuppositions that guided the organization of the first “Formative Exchanges in Late Antique Eurasia” workshop at the Käte Hamburger Kolleg (KHK), Ruhr-Universität Bochum, in 2017. In the second part, the article summarizes the papers presented at this meeting and identifies the emerging questions and results shared by the participants.</abstract>
                     <subject lang="ger">
                     </subject>

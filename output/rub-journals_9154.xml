@@ -36,6 +36,9 @@
                     <originInfo>
                         <dateIssued encoding="w3cdtf" keyDate="yes">2021-07-19</dateIssued>
                     </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
                     <abstract lang="eng">Researchers on the neural correlates of consciousness (NCC) need to distinguish mere statisticalNCCs from NCCs proper. Some neural events may be co-occurrent, probabilistically coupled,or coincidental with a type of conscious experience but lack any deeper connection to it, whilein other cases, the relation between neural states and a type of experience hints at a strongmetaphysical relation, which distinguishes such NCCs proper from mere statistical NCCs. In orderto address this issue of how to distinguish NCCs proper from mere statistical NCCs, we proposea position we call neurophenomenal structuralism. The position hinges on the uncontroversialidea that phenomenal experiences relate to each other in degrees of similarity and difference.These complex structures are used to identify and individuate experiences in the methods ofneuroscience, psychophysics, and phenomenology. Such individuation by structure leads to phenomenalholism, which has implications for how to investigate consciousness neuroscientificallyand generates a constraint by which we can distinguish NCCs proper from mere statistical NCCs:the structural similarity constraint. Neural activation must preserve the structure governing thedomain of experiences it is associated with in order to count as that domain’s NCC proper. Anyactivation that fails to preserve phenomenal structure fails to be an NCC proper. We illustratehow this constraint works with a study by Brouwer &amp;amp; Heeger (2009) as an example.</abstract>
                     <subject lang="ger">
                     </subject>

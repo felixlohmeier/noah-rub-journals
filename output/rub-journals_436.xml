@@ -20,6 +20,9 @@
                     <originInfo>
                         <dateIssued encoding="w3cdtf" keyDate="yes">2016-02-16</dateIssued>
                     </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
                     <abstract lang="eng">This contribution offers a review of:James K. Hoffmeier: Akhenaten and the Origins of MonotheismOxford University Press, 2015. 312 pages, £37.49, ISBN: 9780199792085.</abstract>
                     <subject lang="ger">
                     </subject>

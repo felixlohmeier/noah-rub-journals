@@ -20,6 +20,9 @@
                     <originInfo>
                         <dateIssued encoding="w3cdtf" keyDate="yes">2016-07-04</dateIssued>
                     </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
                     <abstract lang="eng">In the following, we address contributions published with Entangled Religions prior to 1 July, 2016 and we provide information on the new license which ER will be using.</abstract>
                     <subject lang="ger">
                     </subject>

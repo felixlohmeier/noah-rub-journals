@@ -20,6 +20,9 @@
                     <originInfo>
                         <dateIssued encoding="w3cdtf" keyDate="yes">2016-11-22</dateIssued>
                     </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
                     <abstract lang="eng">This contribution offers a review of:Richard E. Payne: A State of Mixture. Christians, Zoroastrians, and Iranian Political Culture in Late Antiquity.Oakland, California: University of California Press, 2015. 320 pages, $95.00/£70.95, ISBN (hardcover) 978052028619</abstract>
                     <subject lang="ger">
                     </subject>

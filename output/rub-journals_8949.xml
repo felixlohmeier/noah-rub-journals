@@ -27,6 +27,9 @@
                     <originInfo>
                         <dateIssued encoding="w3cdtf" keyDate="yes">2020-12-30</dateIssued>
                     </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
                     <abstract lang="eng">The present paper was written as a contribution to ongoing methodological debates within the NCC project. We focus on the neural correlates of conscious perceptual episodes. Our claim is that the NCC notion, as applied to conscious perceptual episodes, needs to be reconceptualized. It mixes together the processing related to the perceived contents and the neural substrate of consciousness proper, i.e. mechanisms making the perceptual contents conscious. We thus propose that the perceptual NCC be divided into two constitutive subnotions. The paper elaborates the distinction, marshals some initial arguments in its favour, and sketches advantages of the proposed reconceptualization.&amp;nbsp;</abstract>
                     <subject lang="ger">
                     </subject>

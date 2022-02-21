@@ -20,6 +20,9 @@
                     <originInfo>
                         <dateIssued encoding="w3cdtf" keyDate="yes">2016-10-17</dateIssued>
                     </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
                     <abstract lang="eng">This contribution offers a review of:Diego R. Sarrió Cucarella: Muslim-Christian Polemics across the Mediterranean.The Splendid Replies of Shihāb al-Dīn al-Qarāfī (d. 684/1285). Leiden: Brill, 2015. 368 pages, €135,00/$175.00, ISBN (hardback) 9789004285514</abstract>
                     <subject lang="ger">
                     </subject>

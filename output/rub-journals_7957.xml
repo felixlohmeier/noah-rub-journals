@@ -28,6 +28,9 @@
                     <originInfo>
                         <dateIssued encoding="w3cdtf" keyDate="yes">2014-08-28</dateIssued>
                     </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
                     <abstract lang="eng">This is the contribution &quot;Schwerpunktthema: Forschungen zur Arbeiterschaft und Arbeiterbewegung in Polen&quot; of MTS 13 (1993).</abstract>
                     <subject lang="ger">
                     </subject>

@@ -20,6 +20,9 @@
                     <originInfo>
                         <dateIssued encoding="w3cdtf" keyDate="yes">2015-01-22</dateIssued>
                     </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
                     <abstract lang="eng">This contribution offers a review of Joshua Rodda&apos;sPublic Religious Disputations in England 1558–1626, St Andrews Studies in Reformation History.Farnham, Surrey: Ashgate, 2014. 252 pages, regular price £ 70, 234 x 156 mm, ISBN 978–1–4724–1555–4.</abstract>
                     <subject lang="ger">
                     </subject>
