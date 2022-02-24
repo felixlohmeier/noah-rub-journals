@@ -39,6 +39,14 @@
                             <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
                         </role>
                     </name>
+                    <name type="personal">
+                        <displayForm>Standaert, François-Xavier</displayForm>
+                        <namePart type="family">Standaert</namePart>
+                        <namePart type="given">François-Xavier</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
                     <typeOfResource>text</typeOfResource>
                     <genre authority="dini">article</genre>
                     <originInfo>
