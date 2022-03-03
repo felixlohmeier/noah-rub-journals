@@ -1,0 +1,79 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_9516">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Einleitung zur thematischen Kollektion „Interaktionen im Fachunterricht lernförderlich gestalten“</title>
+                        <subTitle>Fachdidaktische und methodische Annäherungen an Merkmale lehrerseitigen Gesprächshandelns</subTitle>
+                    </titleInfo>
+                    <titleInfo type="translated">
+                        <title>Introduction to the thematic collection “Promoting learning through classroom discourse”</title>
+                        <subTitle>Pedagogic and methodological approaches to teachers’ conversational practices</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Heller, Vivien</displayForm>
+                        <namePart type="family">Heller</namePart>
+                        <namePart type="given">Vivien</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Morek, Miriam</displayForm>
+                        <namePart type="family">Morek</namePart>
+                        <namePart type="given">Miriam</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2022-03-02</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract lang="ger">Der Beitrag führt in die thematische Kollektion Interaktionen im Fachunterricht lernförderlich gestalten ein. Ausgehend von einer knappen Skizze der bisherigen Forschung zu Unterrichtsgesprächen über verschiedene Disziplinen hinweg werden die fachdidaktische Profilierung, die Berücksichtigung der Interaktivität unterrichtlicher Gesprächsverläufe und die Adaptivität lehrerseitigen Agierens als zentrale Desiderate identifiziert. Es wird aufgezeigt, welchen Beitrag die drei Artikel der Kollektion hierzu jeweils liefern. Zudem stellt der Beitrag heraus, inwiefern die Erfassung einer fachlich gehaltvollen und lernersensitiven Gestaltung von Unterrichtsgesprächen eine Kombination quantifizierender und sequenzanalytischer Verfahren erfordert.</abstract>
+                    <abstract lang="eng">This article introduces the thematic collection &quot;Designing interactions in subject lessons to promote learning&quot;. Starting with a brief sketch of previous research on classroom discussions across various disciplines, the article identifies three central desiderata: the need for subject-specific approaches to the quality of classroom discourse, the acknowledgement of the interactivity of classroom discussions, and the adaptivity on the part of the teacher. We show how each of the three articles addresses these issues. In addition, the article highlights the extent to which a combination of quantifying and sequence-analytical procedures is required to capture the content-rich and learner-sensitive design of classroom discussions.</abstract>
+                    <subject lang="ger">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>Zeitschrift für Sprachlich-Literarisches Lernen und Deutschdidaktik</title>
+                        </titleInfo>
+                        <identifier type="issn">2701-0589</identifier>
+                        <part>
+                            <detail type="volume">
+                                <number>2</number>
+                            </detail>
+                        </part>
+                    </relatedItem>
+                    <identifier type="doi">10.46586/SLLD.Z.2022.9516</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_9516</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_9516">
+                <mets:FLocat xlink:href="https://ojs.ub.rub.de/index.php/SLLD/article/download/9516/9045" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_9516" DMDID="DMD_rub-journals_9516">
+            <mets:fptr FILEID="FILE0_rub-journals_9516"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>
