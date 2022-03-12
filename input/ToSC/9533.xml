@@ -1,0 +1,24 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>9533</id>
+	<dc:title xml:lang="en-US">Quantum Period Finding is Compression Robust</dc:title>
+	<dc:creator>May, Alexander</dc:creator>
+	<dc:creator>Schlieper, Lars</dc:creator>
+	<dc:subject xml:lang="en-US">Quantum period finding</dc:subject>
+	<dc:subject xml:lang="en-US">Fourier transform</dc:subject>
+	<dc:subject xml:lang="en-US">Simon</dc:subject>
+	<dc:subject xml:lang="en-US">Shor</dc:subject>
+	<dc:subject xml:lang="en-US">cryptographic applications</dc:subject>
+	<dc:description xml:lang="en-US">We study quantum period finding algorithms such as Simon and Shor (and its variant Ekerå-Håstad). For a periodic function f these algorithms produce – via some quantum embedding of f – a quantum superposition ∑x |x〉 |f(x)〉, which requires a certain amount of output qubits that represent |f(x)〉. We show that one can lower this amount to a single output qubit by hashing f down to a single bit in an oracle setting.Namely, we replace the embedding of f in quantum period finding circuits by oracle access to several embeddings of hashed versions of f. We show that on expectation this modification only doubles the required amount of quantum measurements, while significantly reducing the total number of qubits. For example, for Simon’s algorithm that finds periods in f : Fn2 → Fn2 our hashing technique reduces the required output qubits from n down to 1, and therefore the total amount of qubits from 2n to n + 1. We also show that Simon’s algorithm admits real world applications with only n + 1 qubits by giving a concrete realization of a hashed version of the cryptographic Even-Mansour construction. Moreover, for a variant of Simon’s algorithm on Even-Mansour that requires only classical queries to Even-Mansour we save a factor of (roughly) 4 in the qubits.Our oracle-based hashed version of the Ekerå-Håstad algorithm for factoring n-bit RSA reduces the required qubits from (3/2 + o(1))n down to (1/2+ o(1))n.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2022-03-11</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tosc.iacr.org/index.php/ToSC/article/view/9533</dc:identifier>
+	<dc:identifier>10.46586/tosc.v2022.i1.183-211</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Symmetric Cryptology; Volume 2022, Issue 1; 183-211</dc:source>
+	<dc:source>2519-173X</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/9533/9070</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2022 Alexander May, Lars Schlieper</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0/</dc:rights>
+</oai_dc:dc>

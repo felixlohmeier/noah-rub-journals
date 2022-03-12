@@ -1,0 +1,65 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_9533">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Quantum Period Finding is Compression Robust</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>May, Alexander</displayForm>
+                        <namePart type="family">May</namePart>
+                        <namePart type="given">Alexander</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Schlieper, Lars</displayForm>
+                        <namePart type="family">Schlieper</namePart>
+                        <namePart type="given">Lars</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2022-03-11</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <physicalDescription>
+                        <extent unit="page">29</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">We study quantum period finding algorithms such as Simon and Shor (and its variant Ekerå-Håstad). For a periodic function f these algorithms produce – via some quantum embedding of f – a quantum superposition ∑x |x〉 |f(x)〉, which requires a certain amount of output qubits that represent |f(x)〉. We show that one can lower this amount to a single output qubit by hashing f down to a single bit in an oracle setting.Namely, we replace the embedding of f in quantum period finding circuits by oracle access to several embeddings of hashed versions of f. We show that on expectation this modification only doubles the required amount of quantum measurements, while significantly reducing the total number of qubits. For example, for Simon’s algorithm that finds periods in f : Fn2 → Fn2 our hashing technique reduces the required output qubits from n down to 1, and therefore the total amount of qubits from 2n to n + 1. We also show that Simon’s algorithm admits real world applications with only n + 1 qubits by giving a concrete realization of a hashed version of the cryptographic Even-Mansour construction. Moreover, for a variant of Simon’s algorithm on Even-Mansour that requires only classical queries to Even-Mansour we save a factor of (roughly) 4 in the qubits.Our oracle-based hashed version of the Ekerå-Håstad algorithm for factoring n-bit RSA reduces the required qubits from (3/2 + o(1))n down to (1/2+ o(1))n.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.46586/tosc.v2022.i1.183-211</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_9533</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_9533">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/9533/9070" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_9533" DMDID="DMD_rub-journals_9533">
+            <mets:fptr FILEID="FILE0_rub-journals_9533"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

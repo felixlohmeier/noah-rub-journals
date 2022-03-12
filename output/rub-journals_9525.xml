@@ -1,0 +1,83 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_9525">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <nonSort>The </nonSort>
+                        <title>Legendre Symbol and the Modulo-2 Operator in Symmetric Schemes over Fnp</title>
+                        <subTitle>Preimage Attack on Full Grendel</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Grassi, Lorenzo</displayForm>
+                        <namePart type="family">Grassi</namePart>
+                        <namePart type="given">Lorenzo</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Khovratovich, Dmitry</displayForm>
+                        <namePart type="family">Khovratovich</namePart>
+                        <namePart type="given">Dmitry</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Rønjom, Sondre</displayForm>
+                        <namePart type="family">Rønjom</namePart>
+                        <namePart type="given">Sondre</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Schofnegger, Markus</displayForm>
+                        <namePart type="family">Schofnegger</namePart>
+                        <namePart type="given">Markus</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2022-03-11</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <physicalDescription>
+                        <extent unit="page">33</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Motivated by modern cryptographic use cases such as multi-party computation (MPC), homomorphic encryption (HE), and zero-knowledge (ZK) protocols, several symmetric schemes that are efficient in these scenarios have recently been proposed in the literature. Some of these schemes are instantiated with low-degree nonlinear functions, for example low-degree power maps (e.g., MiMC, HadesMiMC, Poseidon) or the Toffoli gate (e.g., Ciminion). Others (e.g., Rescue, Vision, Grendel) are instead instantiated via high-degree functions which are easy to evaluate in the target application. A recent example for the latter case is the hash function Grendel, whose nonlinear layer is constructed using the Legendre symbol. In this paper, we analyze high-degree functions such as the Legendre symbol or the modulo-2 operation as building blocks for the nonlinear layer of a cryptographic scheme over Fnp.Our focus regards the security analysis rather than the efficiency in the mentioned use cases. For this purpose, we present several new invertible functions that make use of the Legendre symbol or of the modulo-2 operation.Even though these functions often provide strong statistical properties and ensure a high degree after a few rounds, the main problem regards their small number of possible outputs, that is, only three for the Legendre symbol and only two for the modulo-2 operation. By fixing them, it is possible to reduce the overall degree of the function significantly. We exploit this behavior by describing the first preimage attack on full Grendel, and we verify it in practice.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.46586/tosc.v2022.i1.5-37</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_9525</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_9525">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/9525/9062" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_9525" DMDID="DMD_rub-journals_9525">
+            <mets:fptr FILEID="FILE0_rub-journals_9525"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

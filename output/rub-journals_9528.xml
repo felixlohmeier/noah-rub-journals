@@ -1,0 +1,66 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_9528">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <nonSort>A </nonSort>
+                        <title>Formal Analysis of Boomerang Probabilities</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Kidmose, Andreas B.</displayForm>
+                        <namePart type="family">Kidmose</namePart>
+                        <namePart type="given">Andreas B.</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Tiessen, Tyge</displayForm>
+                        <namePart type="family">Tiessen</namePart>
+                        <namePart type="given">Tyge</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2022-03-11</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <physicalDescription>
+                        <extent unit="page">22</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">In the past 20 years since their conception, boomerang attacks have become an important tool in the cryptanalysis of block ciphers. In the classical estimate of their success probability, assumptions are made about the independence of the underlying differential trails that are not well-founded. We underline the problems inherent in these independence assumptions by using them to prove that for any boomerang there exists a differential trail over the entire cipher with a higher probability than the boomerang.While cryptanalysts today have a clear understanding that the trails can be dependent, the focus of previous research has mostly gone into using these dependencies to improve attacks but little effort has been put into giving boomerangs and their success probabilities a stronger theoretical underpinning. With this publication, we provide such a formalization.We provide a framework which allows us to formulate and prove rigorous statements about the probabilities involved in boomerang attacks without relying on independence assumptions of the trails. Among these statements is a proof that two-round boomerangs on SPNs with differentially 4-uniform S-boxes always deviate from the classical probability estimate to the largest degree possible.We applied the results of this formalization to analyze the validity of some of the first boomerang attacks. We show that the boomerang constructed in the amplified boomerang attack on Serpent by Kelsey, Kohno, and Schneier has probability zero. For the rectangle attack on Serpent by Dunkelman, Biham, and Keller, we demonstrate that a minuscule fraction of only 2−43.4 of all differential trail combinations used in the original attack have a non-zero probability. In spite of this, the probability of the boomerang is in fact a little higher than the original estimate suggests as the non-zero trails have a vastly higher probability than the classical estimate predicts.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.46586/tosc.v2022.i1.88-109</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_9528</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_9528">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/9528/9065" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_9528" DMDID="DMD_rub-journals_9528">
+            <mets:fptr FILEID="FILE0_rub-journals_9528"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

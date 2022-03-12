@@ -1,0 +1,65 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_9526">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Weak Tweak-Keys for the CRAFT Block Cipher</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Leander, Gregor</displayForm>
+                        <namePart type="family">Leander</namePart>
+                        <namePart type="given">Gregor</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Rasoolzadeh, Shahram</displayForm>
+                        <namePart type="family">Rasoolzadeh</namePart>
+                        <namePart type="given">Shahram</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2022-03-11</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <physicalDescription>
+                        <extent unit="page">26</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">CRAFT is a lightweight tweakable Substitution-Permutation-Network (SPN) block cipher optimized for efficient protection of its implementations against Differential Fault Analysis (DFA) attacks. In this paper, we present an equivalent description of CRAFT up to a simple mapping on the plaintext, ciphertext and round tweakeys. We show that the new representation, for a sub-class of keys, leads to a new structure which is a Feistel network, with non-linear operation and key addition only on half the state. Consequently, it reveals a class of weak keys for which CRAFT is less resistant against differential and linear cryptanalyses. As a result, we present one weak-key single-tweak differential attack on 23 rounds (with time complexity of 294 encryptions and data complexity of 274 chosen plaintext/tweak/ciphertext tuples and works for 2112 weak keys) and one weak-key related-tweak attack on 26 rounds of the cipher (with time complexity of 2105 encryptions and data complexity 273 chosen plaintext/tweak/ciphertext tuples and works for 2108 weak keys). Note that these attacks do not break the security claim of the CRAFT block cipher.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.46586/tosc.v2022.i1.38-63</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_9526</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_9526">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/9526/9063" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_9526" DMDID="DMD_rub-journals_9526">
+            <mets:fptr FILEID="FILE0_rub-journals_9526"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

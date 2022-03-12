@@ -1,0 +1,27 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>9530</id>
+	<dc:title xml:lang="en-US">Influence of the Linear Layer on the Algebraic Degree in SP-Networks</dc:title>
+	<dc:creator>Cid, Carlos</dc:creator>
+	<dc:creator>Grassi, Lorenzo</dc:creator>
+	<dc:creator>Gunsing, Aldo</dc:creator>
+	<dc:creator>Lüftenegger, Reinhard</dc:creator>
+	<dc:creator>Rechberger, Christian</dc:creator>
+	<dc:creator>Schofnegger, Markus</dc:creator>
+	<dc:subject xml:lang="en-US">Higher-Order Differential Cryptanalysis</dc:subject>
+	<dc:subject xml:lang="en-US">Algebraic Degree</dc:subject>
+	<dc:subject xml:lang="en-US">SPN</dc:subject>
+	<dc:subject xml:lang="en-US">Linear Layer</dc:subject>
+	<dc:description xml:lang="en-US">We consider SPN schemes, i.e., schemes whose non-linear layer is defined as the parallel application of t ≥ 1 independent S-Boxes over F2n and whose linear layer is defined by the multiplication with a (n · t) × (n · t) matrix over F2. Even if the algebraic representation of a scheme depends on all its components, upper bounds on the growth of the algebraic degree in the literature usually only consider the details of the non-linear layer. Hence a natural question arises: (how) do the details of the linear layer influence the growth of the algebraic degree? We show that the linear layer plays a crucial role in the growth of the algebraic degree and present a new upper bound on the algebraic degree in SP-networks. As main results, we prove that in the case of low-degree round functions with large S-Boxes: (a) an initial exponential growth of the algebraic degree can be followed by a linear growth until the maximum algebraic degree is reached; (b) the rate of the linear growth is proportional to the degree of the linear layer over Ft2n. Besides providing a theoretical insight, our analysis is particularly relevant for assessing the security of the security of cryptographic permutations designed to be competitive in applications like MPC, FHE, SNARKs, and STARKs, including permutations based on the Hades design strategy. We have verified our findings on small-scale instances and we have compared them against the currently best results in the literature, showing a substantial improvement of upper bounds on the algebraic degree in case of low-degree round functions with large S-Boxes.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2022-03-11</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tosc.iacr.org/index.php/ToSC/article/view/9530</dc:identifier>
+	<dc:identifier>10.46586/tosc.v2022.i1.110-137</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Symmetric Cryptology; Volume 2022, Issue 1; 110-137</dc:source>
+	<dc:source>2519-173X</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/9530/9067</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2022 Carlos Cid, Lorenzo Grassi, Aldo Gunsing, Reinhard Lüftenegger, Christian Rechberger, Markus Schofnegger</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0/</dc:rights>
+</oai_dc:dc>

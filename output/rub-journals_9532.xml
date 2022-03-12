@@ -1,0 +1,97 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_9532">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Towards Low-Latency Implementation of Linear Layers</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Liu, Qun</displayForm>
+                        <namePart type="family">Liu</namePart>
+                        <namePart type="given">Qun</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Wang, Weijia</displayForm>
+                        <namePart type="family">Wang</namePart>
+                        <namePart type="given">Weijia</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Fan, Yanhong</displayForm>
+                        <namePart type="family">Fan</namePart>
+                        <namePart type="given">Yanhong</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Wu, Lixuan</displayForm>
+                        <namePart type="family">Wu</namePart>
+                        <namePart type="given">Lixuan</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Sun, Ling</displayForm>
+                        <namePart type="family">Sun</namePart>
+                        <namePart type="given">Ling</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Wang, Meiqin</displayForm>
+                        <namePart type="family">Wang</namePart>
+                        <namePart type="given">Meiqin</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2022-03-11</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <physicalDescription>
+                        <extent unit="page">25</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">Lightweight cryptography features a small footprint and/or low computational complexity. Low-cost implementations of linear layers usually play an important role in lightweight cryptography. Although it has been shown by Boyar et al. that finding the optimal implementation of a linear layer is a Shortest Linear Program (SLP) problem and NP-hard, there exist a variety of heuristic methods to search for near-optimal solutions. This paper considers the low-latency criteria and focuses on the heuristic search of lightweight implementation for linear layers. Most of the prior approach iteratively combines the inputs (of linear layers) to reach the output, which can be regarded as the forward search. To better adapt the low-latency criteria, we propose a new framework of backward search that attempts to iteratively split every output (into an XORing of two bits) until all inputs appear. By bounding the time of splitting, the new framework can find a sub-optimal solution with a minimized depth of circuits.We apply our new search algorithm to linear layers of block ciphers and find many low-latency candidates for implementations. Notably, for AES Mixcolumns, we provide an implementation with 103 XOR gates with a depth of 3, which is among the best hardware implementations of the AES linear layer. Besides, we obtain better implementations in XOR gates for 54.3% of 4256 Maximum Distance Separable (MDS) matrices proposed by Li et al. at FSE 2019. We also achieve an involutory MDS matrix (in M4(GL(8, F2))) whose implementation uses the lowest number (i.e., 86, saving 2 from the state-of-the-art result) of XORs with the minimum depth.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.46586/tosc.v2022.i1.158-182</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_9532</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_9532">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/9532/9069" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_9532" DMDID="DMD_rub-journals_9532">
+            <mets:fptr FILEID="FILE0_rub-journals_9532"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

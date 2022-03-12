@@ -1,0 +1,26 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>9532</id>
+	<dc:title xml:lang="en-US">Towards Low-Latency Implementation of Linear Layers</dc:title>
+	<dc:creator>Liu, Qun</dc:creator>
+	<dc:creator>Wang, Weijia</dc:creator>
+	<dc:creator>Fan, Yanhong</dc:creator>
+	<dc:creator>Wu, Lixuan</dc:creator>
+	<dc:creator>Sun, Ling</dc:creator>
+	<dc:creator>Wang, Meiqin</dc:creator>
+	<dc:subject xml:lang="en-US">Lightweight cryptography</dc:subject>
+	<dc:subject xml:lang="en-US">Linear layers</dc:subject>
+	<dc:subject xml:lang="en-US">Low latency</dc:subject>
+	<dc:subject xml:lang="en-US">AES</dc:subject>
+	<dc:description xml:lang="en-US">Lightweight cryptography features a small footprint and/or low computational complexity. Low-cost implementations of linear layers usually play an important role in lightweight cryptography. Although it has been shown by Boyar et al. that finding the optimal implementation of a linear layer is a Shortest Linear Program (SLP) problem and NP-hard, there exist a variety of heuristic methods to search for near-optimal solutions. This paper considers the low-latency criteria and focuses on the heuristic search of lightweight implementation for linear layers. Most of the prior approach iteratively combines the inputs (of linear layers) to reach the output, which can be regarded as the forward search. To better adapt the low-latency criteria, we propose a new framework of backward search that attempts to iteratively split every output (into an XORing of two bits) until all inputs appear. By bounding the time of splitting, the new framework can find a sub-optimal solution with a minimized depth of circuits.We apply our new search algorithm to linear layers of block ciphers and find many low-latency candidates for implementations. Notably, for AES Mixcolumns, we provide an implementation with 103 XOR gates with a depth of 3, which is among the best hardware implementations of the AES linear layer. Besides, we obtain better implementations in XOR gates for 54.3% of 4256 Maximum Distance Separable (MDS) matrices proposed by Li et al. at FSE 2019. We also achieve an involutory MDS matrix (in M4(GL(8, F2))) whose implementation uses the lowest number (i.e., 86, saving 2 from the state-of-the-art result) of XORs with the minimum depth.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2022-03-11</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tosc.iacr.org/index.php/ToSC/article/view/9532</dc:identifier>
+	<dc:identifier>10.46586/tosc.v2022.i1.158-182</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Symmetric Cryptology; Volume 2022, Issue 1; 158-182</dc:source>
+	<dc:source>2519-173X</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/9532/9069</dc:relation>
+	<dc:rights xml:lang="en-US">http://creativecommons.org/licenses/by/4.0</dc:rights>
+</oai_dc:dc>

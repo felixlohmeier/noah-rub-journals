@@ -1,0 +1,22 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>9526</id>
+	<dc:title xml:lang="en-US">Weak Tweak-Keys for the CRAFT Block Cipher</dc:title>
+	<dc:creator>Leander, Gregor</dc:creator>
+	<dc:creator>Rasoolzadeh, Shahram</dc:creator>
+	<dc:subject xml:lang="en-US">CRAFT</dc:subject>
+	<dc:subject xml:lang="en-US">partial key addition</dc:subject>
+	<dc:subject xml:lang="en-US">partial non-linear layer</dc:subject>
+	<dc:description xml:lang="en-US">CRAFT is a lightweight tweakable Substitution-Permutation-Network (SPN) block cipher optimized for efficient protection of its implementations against Differential Fault Analysis (DFA) attacks. In this paper, we present an equivalent description of CRAFT up to a simple mapping on the plaintext, ciphertext and round tweakeys. We show that the new representation, for a sub-class of keys, leads to a new structure which is a Feistel network, with non-linear operation and key addition only on half the state. Consequently, it reveals a class of weak keys for which CRAFT is less resistant against differential and linear cryptanalyses. As a result, we present one weak-key single-tweak differential attack on 23 rounds (with time complexity of 294 encryptions and data complexity of 274 chosen plaintext/tweak/ciphertext tuples and works for 2112 weak keys) and one weak-key related-tweak attack on 26 rounds of the cipher (with time complexity of 2105 encryptions and data complexity 273 chosen plaintext/tweak/ciphertext tuples and works for 2108 weak keys). Note that these attacks do not break the security claim of the CRAFT block cipher.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2022-03-11</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tosc.iacr.org/index.php/ToSC/article/view/9526</dc:identifier>
+	<dc:identifier>10.46586/tosc.v2022.i1.38-63</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Symmetric Cryptology; Volume 2022, Issue 1; 38-63</dc:source>
+	<dc:source>2519-173X</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/9526/9063</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2022 Gregor Leander, Shahram Rasoolzadeh</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0/</dc:rights>
+</oai_dc:dc>

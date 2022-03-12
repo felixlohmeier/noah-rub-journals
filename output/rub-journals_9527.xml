@@ -1,0 +1,73 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_9527">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Bounds for the Security of Ascon against Differential and Linear Cryptanalysis</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Erlacher, Johannes</displayForm>
+                        <namePart type="family">Erlacher</namePart>
+                        <namePart type="given">Johannes</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Mendel, Florian</displayForm>
+                        <namePart type="family">Mendel</namePart>
+                        <namePart type="given">Florian</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Eichlseder, Maria</displayForm>
+                        <namePart type="family">Eichlseder</namePart>
+                        <namePart type="given">Maria</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2022-03-11</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <physicalDescription>
+                        <extent unit="page">24</extent>
+                    </physicalDescription>
+                    <abstract lang="eng">The NIST Lightweight Cryptography project aims to standardize symmetric cryptographic designs, including authenticated encryption and hashing, suitable for constrained devices. One essential criterion for the evaluation of the 10 finalists is the evidence for their security against attacks like linear and differential cryptanalysis. For Ascon, one of the finalists and previous winner of the CAESAR competition in the ‘lightweight’ category, there is a large gap between the proven bounds and the best known characteristics found with heuristic tools: The bounds only cover up to 3 rounds with 15 differentially and 13 linearly active S-boxes, insufficient for proving a level of security for the full constructions.In this paper, we propose a new modeling strategy for SAT solvers and derive strong bounds for the round-reduced Ascon permutation. We prove that 4 rounds already ensure that any single characteristic has a differential probability or squared correlation of at most 2−72, and 6 rounds at most 2−108. This is significantly below the bound that could be exploited within the query limit for keyed Ascon modes. These bounds are probably not tight. To achieve this result, we propose a new search strategy of dividing the search space into a large number of subproblems based on ‘girdle patterns’, and show how to exploit the rotational symmetry of Ascon using necklace theory. Additionally, we evaluate and optimize several aspects of the pure SAT model, including the counter implementation and parallelizability, which we expect to be useful for future applications to other models.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+                    </subject>
+                    <identifier type="doi">10.46586/tosc.v2022.i1.64-87</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_9527</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_9527">
+                <mets:FLocat xlink:href="https://tosc.iacr.org/index.php/ToSC/article/download/9527/9064" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_9527" DMDID="DMD_rub-journals_9527">
+            <mets:fptr FILEID="FILE0_rub-journals_9527"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

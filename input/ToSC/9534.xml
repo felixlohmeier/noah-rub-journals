@@ -1,0 +1,23 @@
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/  http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><id>9534</id>
+	<dc:title xml:lang="en-US">Addendum to Linear Cryptanalyses of Three AEADs with GIFT-128 as Underlying Primitives</dc:title>
+	<dc:creator>Sun, Ling</dc:creator>
+	<dc:creator>Wang, Wei</dc:creator>
+	<dc:creator>Wang, Meiqin</dc:creator>
+	<dc:subject xml:lang="en-US">Differential cryptanalysis</dc:subject>
+	<dc:subject xml:lang="en-US">Linear cryptanalysis</dc:subject>
+	<dc:subject xml:lang="en-US">GIFT-128</dc:subject>
+	<dc:description xml:lang="en-US">In ToSC 2021(2), Sun et al. implemented an automatic search with the Boolean satisfiability problem (SAT) method on GIFT-128 and identified a 19-round linear approximation with the expected linear potential being 2−117.43, which is utilised to launch a 24-round attack on the cipher. In this addendum, we discover a new 19-round linear approximation with a lower expected linear potential. However, in the attack, one more round can be appended after the distinguisher. As a result, we improve the previous optimal linear attack by one round and put forward a 25-round linear attack. Given that the optimal differential attack on GIFT-128, for now, covers 27-round, the resistances of the cipher against differential and linear attacks still have a 2-round gap.</dc:description>
+	<dc:publisher xml:lang="en-US">Ruhr-Universität Bochum</dc:publisher>
+	<dc:date>2022-03-11</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://tosc.iacr.org/index.php/ToSC/article/view/9534</dc:identifier>
+	<dc:identifier>10.46586/tosc.v2022.i1.212-219</dc:identifier>
+	<dc:source xml:lang="en-US">IACR Transactions on Symmetric Cryptology; Volume 2022, Issue 1; 212-219</dc:source>
+	<dc:source>2519-173X</dc:source>
+	<dc:language>eng</dc:language>
+	<dc:relation>https://tosc.iacr.org/index.php/ToSC/article/view/9534/9071</dc:relation>
+	<dc:rights xml:lang="en-US">Copyright (c) 2022 Ling Sun, Wei Wang, Meiqin Wang</dc:rights>
+	<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0/</dc:rights>
+</oai_dc:dc>
