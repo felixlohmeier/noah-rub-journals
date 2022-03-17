@@ -1,0 +1,93 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_9552">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Lernunterstützung im Literaturgespräch</title>
+                        <subTitle>Nachweis und Wirkung eines potenziellen Qualitätsaspekts gesprächsförmigen Literaturunterrichts</subTitle>
+                    </titleInfo>
+                    <titleInfo type="translated">
+                        <title>Support in Dialogic Teaching</title>
+                        <subTitle>Evidence and Impact of Potential Quality Criteria in Dialogic Literature Classes</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Magirius, Marco</displayForm>
+                        <namePart type="family">Magirius</namePart>
+                        <namePart type="given">Marco</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Scherf, Daniel</displayForm>
+                        <namePart type="family">Scherf</namePart>
+                        <namePart type="given">Daniel</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Steinmetz, Michael</displayForm>
+                        <namePart type="family">Steinmetz</namePart>
+                        <namePart type="given">Michael</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2022-03-15</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract lang="ger">Gespräche gelten als das zentrale Medium der Auseinandersetzung mit Literatur in der Institution Schule und regen sowohl zur ästhetischen Erfahrung als auch zur literaturbezogenen Erkenntnis an. Offenere Formen des Gesprächs werden dabei vonseiten der Didaktik dem stärker gelenkten fragend-entwickelnden Unterrichtsgespräch als überlegen angesehen. Welche Rolle eine Lehrkraft idealerweise im gesprächsförmigen Literaturunterricht einnehmen sollte, um eine bestimmte Wirkung zu erzielen, ist empirisch jedoch nicht geklärt.
+
+
+In unserem Beitrag stellen wir einige Resultate einer Studie vor, die zur Klärung dieser Frage beitragen. Anhand von vier Unterrichtsstunden zum Kurzprosatext Der blaue Falke (Jürg Schubiger) wurde untersucht, welche Komponenten einer authentischen – mithin weder künstlich arrangierten noch einer bestimmten didaktischen Konzeption eindeutig folgenden – Unterrichtskommunikation als spezifische Qualitätsaspekte gesprächsförmigen Literaturunterrichts eruiert werden können. Diese Qualitätsaspekte, die wir inhaltsanalytisch erfasst haben und mit denen wir an die literaturdidaktische Aufgabenforschung anknüpfen, setzen wir in Beziehung zu Fragebogendaten von Schüler*innen, die das Erleben sowie den Lernwert des Gesprächs betreffen.</abstract>
+                    <abstract lang="eng">Conversations are a central part of literature classes. They foster aesthetic experience and insights into literary texts, according to a widely held position in the German discourse on literature education. Most studies suggest that open forms of discussion are superior to teacher lead classroom discussions.&amp;nbsp; However, it has not been empirically shown what role a teacher should ideally take in a conversational literature class in order to achieve literary learning. 
+
+
+In this paper, we present some study results helping to clarify this issue. Based on four lessons on the literary text “Der blaue Falke” (Jürg Schubiger) we investigated which components of an authentic - i.e. neither artificially arranged nor clearly following a specific didactic conception - classroom communication can be identified as specific quality aspects of dialogic teaching in literature classes.&amp;nbsp; We employed a content analysis to identify quality aspects and related our evaluation of the teachers’ utterances to data from questionnaires which were filled in by the students at the end of each class. They evaluated the literary text and the conversation. Thus, the present study focuses ‚support‘ as a quality aspect of teacher actions in dialogic teaching, drawing on findings from task research in literature education.</abstract>
+                    <subject lang="ger">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>Zeitschrift für Sprachlich-Literarisches Lernen und Deutschdidaktik</title>
+                        </titleInfo>
+                        <identifier type="issn">2701-0589</identifier>
+                        <part>
+                            <detail type="volume">
+                                <number>2</number>
+                            </detail>
+                        </part>
+                    </relatedItem>
+                    <identifier type="doi">10.46586/SLLD.Z.2022.9552</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_9552</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_9552">
+                <mets:FLocat xlink:href="https://ojs.ub.rub.de/index.php/SLLD/article/download/9552/9087" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_9552" DMDID="DMD_rub-journals_9552">
+            <mets:fptr FILEID="FILE0_rub-journals_9552"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>
