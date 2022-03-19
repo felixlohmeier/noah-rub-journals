@@ -1,0 +1,95 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_9608">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Von der Gesprächsanalyse zur Entwicklung des interaktionssensiblen Kodierinstruments ISKODIL</title>
+                        <subTitle>Ausprägungen diskurserwerbsförderlicher Unterrichtsgespräche erfassen</subTitle>
+                    </titleInfo>
+                    <titleInfo type="translated">
+                        <title>From Conversation Analysis to the development of an interaction-sensitive coding system</title>
+                        <subTitle>Capturing profiles of discourse acquisition support in classroom discourse</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Morek, Miriam</displayForm>
+                        <namePart type="family">Morek</namePart>
+                        <namePart type="given">Miriam</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Heller, Vivien</displayForm>
+                        <namePart type="family">Heller</namePart>
+                        <namePart type="given">Vivien</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Kinalzik, Noelle</displayForm>
+                        <namePart type="family">Kinalzik</namePart>
+                        <namePart type="given">Noelle</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Schneider, Valentin</displayForm>
+                        <namePart type="family">Schneider</namePart>
+                        <namePart type="given">Valentin</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2022-03-18</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract lang="ger">Der methodologisch ausgerichtete Beitrag stellt theoretische und methodische Grundlagen sowie An­wendungsperspektiven des Kodierinstruments ISKODIL vor, mit dem „diskurserwerbsförderliches Lehrerhandeln“ (Heller &amp;amp; Morek, 2015) erfasst wird. Es wurde im Rahmen eines Professionalisierungsprojekts zu lehrerseitigem Interaktionsverhalten in Unterrichtsgesprächen entwickelt und ist gesprächsanalytisch und diskurserwerbstheo-retisch fundiert. In Abgrenzung zu bisher vorliegenden Kodierinstrumenten für Unterrichtsgespräche wird gezeigt, wie mit Hilfe von ISKODIL individuell zugeschnittenes diskursives Fordern und Unterstützen diskursiver Beiträge in seiner Sequenzialität und Interaktivität abgebildet werden kann, vor allem mit Blick auf das Setzen globaler Zug­zwänge durch Lehrkräfte und den Einsatz von Zuhöreraktivitäten. Die Einsatzmöglichkeiten von ISKODIL werden anhand des Vergleichs diskurserwerbsförderlichen Lehrerhandelns von vier Deutschlehrkräften illustriert.</abstract>
+                    <abstract lang="eng">The methodologically oriented article presents theoretical and methodological principles as well as ap­plication perspectives of the coding instrument ISKODIL which aims at examining teachers’ moves that might fos­ter students’ acquisition of oral discourse skills (Heller &amp;amp; Morek, 2015). The instrument was developed in a profes­sional development project on teacher interaction in classroom discussions. It is based on Conversation Analysis and discourse acquisition theory and in contrast to existing coding instruments for classroom talk, ISKODIL helps to map the sequentiality and interactivity of adaptive discursive demands and support for discursive contributions. The focus is on global sequential implications for explaining and reasoning that teachers set up, and on teachers’ use of listening activities. Possible applications of ISKODIL are illustrated by comparing four teachers’ (German language and literature) repertoires of discourse-acquisition support moves.</abstract>
+                    <subject lang="ger">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>Zeitschrift für Sprachlich-Literarisches Lernen und Deutschdidaktik</title>
+                        </titleInfo>
+                        <identifier type="issn">2701-0589</identifier>
+                        <part>
+                            <detail type="volume">
+                                <number>2</number>
+                            </detail>
+                        </part>
+                    </relatedItem>
+                    <identifier type="doi">10.46586/SLLD.Z.2022.9608</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_9608</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_9608">
+                <mets:FLocat xlink:href="https://ojs.ub.rub.de/index.php/SLLD/article/download/9608/9139" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_9608" DMDID="DMD_rub-journals_9608">
+            <mets:fptr FILEID="FILE0_rub-journals_9608"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

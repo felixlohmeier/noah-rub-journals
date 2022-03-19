@@ -1,0 +1,101 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_9606">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>FiLBY-2 – ein Leseflüssigkeitstraining für alle Schülerinnen und Schüler? Differenzielle Effekte</title>
+                    </titleInfo>
+                    <titleInfo type="translated">
+                        <title>FiLBY-2 – a reading fluency training for all students? Effects of FiLBY-2</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Schilcher, Anita</displayForm>
+                        <namePart type="family">Schilcher</namePart>
+                        <namePart type="given">Anita</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Wild, Johannes</displayForm>
+                        <namePart type="family">Wild</namePart>
+                        <namePart type="given">Johannes</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Kraus, Elisabeth</displayForm>
+                        <namePart type="family">Kraus</namePart>
+                        <namePart type="given">Elisabeth</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Hilbert, Sven</displayForm>
+                        <namePart type="family">Hilbert</namePart>
+                        <namePart type="given">Sven</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2022-03-18</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract lang="ger">Die letzten IGLU- und PISA-Studien zeigen, dass es in Deutschland in den letzten 20 Jahren nicht gelungen ist, die ungünstige Kopplung zwischen Leseleistung und sozialer Herkunft maßgeblich zu reduzieren. Im Leseunterricht profitieren vor allem die stärkeren Leserinnen und Leser, während sich der Abstand zu den schwächeren Schülerinnen und Schüler über die Schuljahre vergrößert. Der vorliegende Beitrag untersucht an einer Stichprobe von 8 859 Grundschulkindern, inwiefern es dem Lesetraining FiLBY-2 gelingt, unterschiedliche Schülergruppen so zu fördern, dass eine sich öffnende Leistungsschere minimiert wird. Die durchgeführten Analysen zeigen, dass alle Kinder hinsichtlich ihrer Leseflüssigkeit von dem Programm profitieren, insbesondere auch die Gruppe der schwächeren Leserinnen und Leser. Der Vorteil der FiLBY-Gruppe bleibt auch nach Kontrolle des Geschlechts, des Migrationshintergrunds bzw. des Bildungshintergrundes bestehen. Die Ergebnisse lassen Implikationen für die Unterrichtspraxis zu, die anschließend diskutiert werden.</abstract>
+                    <abstract lang="eng">The latest IGLU and PISA studies show that Germany has not succeeded in significantly reducing the unfavorable link between reading performance and social background over the past 20 years. In reading instruction, it is primarily the stronger readers who benefit, while the gap between them and the weaker students widens over the school years. Using a sample of 8,859 elementary school children, this paper examines the extent to which the FiLBY-2 reading training program succeeds in supporting different groups of students in such a way as to minimize a widening achievement gap. The analyses conducted show that all children benefit from the program in terms of their reading fluency, especially the group of weaker readers. An advantage of the FiLBY group remains even after controlling for gender, migration background, and educational background. The results allow for implications for teaching practice, which will be discussed subsequently.</abstract>
+                    <subject lang="ger">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>Zeitschrift für Sprachlich-Literarisches Lernen und Deutschdidaktik</title>
+                        </titleInfo>
+                        <identifier type="issn">2701-0589</identifier>
+                        <part>
+                            <detail type="volume">
+                                <number>2</number>
+                            </detail>
+                        </part>
+                    </relatedItem>
+                    <identifier type="doi">10.46586/SLLD.Z.2022.9606</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_9606</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_9606">
+                <mets:FLocat xlink:href="https://ojs.ub.rub.de/index.php/SLLD/article/download/9606/9134" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="" ID="FILE1_rub-journals_9606">
+                <mets:FLocat xlink:href="https://ojs.ub.rub.de/index.php/SLLD/article/download/9606/9135" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_9606" DMDID="DMD_rub-journals_9606">
+            <mets:fptr FILEID="FILE0_rub-journals_9606"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_9606" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_9606"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

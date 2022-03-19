@@ -1,0 +1,71 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_9603">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>White Paper</title>
+                        <subTitle>The Käte Hamburger Kolleg (KHK) in Bochum as an Institute of Advanced Studies in the Humanities</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Karis, Tim</displayForm>
+                        <namePart type="family">Karis</namePart>
+                        <namePart type="given">Tim</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Krech, Volkhard</displayForm>
+                        <namePart type="family">Krech</namePart>
+                        <namePart type="given">Volkhard</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2022-03-18</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">The present White Paper is neither an academic publication presenting research results nor does it address a public outside the university field. Instead, we take this opportunity to talk about our experiences with the Käte Hamburger Kolleg (KHK) as a funding format. We hope that this might be useful for other scholars considering an application in this or a similar funding line. Still, we also wish to contribute, more generally, to the ongoing discussion on the role of Institutes of Advanced Studies in the German humanities and how excellent collaborative research in the humanities is best served by public funding lines. Since not only scholars are party to this discussion, the present text might also be of interest to actors in the fields of research politics and administration as well as to journalists working on these issues.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.46586/er.13.2022.9603</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_9603</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_9603">
+                <mets:FLocat xlink:href="https://er.ceres.rub.de/index.php/ER/article/download/9603/9137" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="text/html" ID="FILE1_rub-journals_9603">
+                <mets:FLocat xlink:href="https://er.ceres.rub.de/index.php/ER/article/download/9603/9138" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_9603" DMDID="DMD_rub-journals_9603">
+            <mets:fptr FILEID="FILE0_rub-journals_9603"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_9603" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_9603"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>
