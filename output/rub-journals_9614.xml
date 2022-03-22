@@ -1,0 +1,103 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_9614">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Klassengespräche im Fachunterricht lernförderlich gestalten lernen</title>
+                        <subTitle>Entwicklung von Strategien für die Analyse von Unterrichtsgesprächen im Kontext einer Interventionsstudie mit Geschichts- und Mathematiklehrpersonen</subTitle>
+                    </titleInfo>
+                    <titleInfo type="translated">
+                        <title>Learning to make classroom discussions academically productive</title>
+                        <subTitle>Learning to make classroom discussions academically productive. Developing strategies for analyzing classroom discussions in the context of an intervention study with history and mathematics teachers</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Pauli, Christiane</displayForm>
+                        <namePart type="family">Pauli</namePart>
+                        <namePart type="given">Christiane</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Zimmermann, Matthias</displayForm>
+                        <namePart type="family">Zimmermann</namePart>
+                        <namePart type="given">Matthias</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Wischgoll, Anke</displayForm>
+                        <namePart type="family">Wischgoll</namePart>
+                        <namePart type="given">Anke</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Moser, Miriam</displayForm>
+                        <namePart type="family">Moser</namePart>
+                        <namePart type="given">Miriam</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Reusser, Kurt</displayForm>
+                        <namePart type="family">Reusser</namePart>
+                        <namePart type="given">Kurt</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2022-03-21</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract lang="ger">In diesem Beitrag stellen wir dar, wie fachübergreifende und fachspezifische Anforderungen an eine dialogische Klassengesprächsführung im Fachunterricht (a) bei der Gestaltung einer Fortbildung für Mathematik- und Geschichtslehrpersonen und (b) bei der Analyse von videografierten Klassengesprächen aus beiden Fächern ineinandergreifen. Um mögliche Veränderungen des Gesprächsverhaltens (Lehrperson, Lernende) im Laufe dieser Fortbildung (1 Jahr) zu erfassen, werden unterschiedliche Analysemethoden verwendet, die unterschiedliche Perspektiven repräsentieren (allgemein- und fachdidaktische), unterschiedliche Aspekte der Gespräche fokussieren und quantifizierende mit qualitativen Verfahren kombinieren. Das Potenzial dieses Vorgehens wird anhand von zwei Beispielen – Videodaten einer Geschichts- und einer Mathematiklehrperson – illustriert und diskutiert, in denen je unterschiedliche Analyseverfahren zur Anwendung kommen.</abstract>
+                    <abstract lang="eng">In this paper, we describe how general and subject-specific requirements for dialogic classroom discourse intertwine (a) in the design of a professional development program for mathematics and history teachers with a focus on improving classroom discussions, and (b) in the analysis of classroom discussions. In order to capture possible changes in discourse quality over the course of this professional development program (1 year), different methods of analysis are used, representing different perspectives (general and subject-specific), focusing on different aspects of the discourse, and combining both quantifying and qualitative procedures. The potential of this approach is illustrated and discussed using two examples - video data of a history teacher and a mathematics teacher - in each of which different analytical procedures are applied.</abstract>
+                    <subject lang="ger">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>Zeitschrift für Sprachlich-Literarisches Lernen und Deutschdidaktik</title>
+                        </titleInfo>
+                        <identifier type="issn">2701-0589</identifier>
+                        <part>
+                            <detail type="volume">
+                                <number>2</number>
+                            </detail>
+                        </part>
+                    </relatedItem>
+                    <identifier type="doi">10.46586/SLLD.Z.2022.9614</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_9614</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_9614">
+                <mets:FLocat xlink:href="https://ojs.ub.rub.de/index.php/SLLD/article/download/9614/9144" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_9614" DMDID="DMD_rub-journals_9614">
+            <mets:fptr FILEID="FILE0_rub-journals_9614"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>
