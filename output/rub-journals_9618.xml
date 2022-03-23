@@ -1,0 +1,62 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_9618">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Transfer, Begegnung, Skandalon? Neue Perspektiven auf die Jesuitenmissionen in Spanisch-Amerika, edited by Esther Schmid Heer, Nikolaus Klein, and Paul Oberholzer</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Hasselhoff, Görge</displayForm>
+                        <namePart type="family">Hasselhoff</namePart>
+                        <namePart type="given">Görge</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2022-03-22</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">This contribution offers a review of Esther Schmid Heer, Nikolaus Klein, Paul Oberholzer (eds.). 2019. Transfer, Begegnung, Skandalon? Neue Perspektiven auf die Jesuitenmissionen in Spanisch-Amerika. Studien zur christlichen Religions- und Kulturgeschichte 26. Basel: Schwabe / Stuttgart: Kohlhammer. ISBN 978-3-7965-3818-6 / 978-3-17-035494-4</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.46586/er.13.2022.9618</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_9618</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_9618">
+                <mets:FLocat xlink:href="https://er.ceres.rub.de/index.php/ER/article/download/9618/9145" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="text/html" ID="FILE1_rub-journals_9618">
+                <mets:FLocat xlink:href="https://er.ceres.rub.de/index.php/ER/article/download/9618/9146" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_9618" DMDID="DMD_rub-journals_9618">
+            <mets:fptr FILEID="FILE0_rub-journals_9618"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_9618" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_9618"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

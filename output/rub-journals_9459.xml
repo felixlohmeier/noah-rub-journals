@@ -1,0 +1,62 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_9459">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Race, Religion, and Slavery in Alonso de Sandoval’s S. J. De instauranda Aethiopum salute</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Hofmeister Pich, Roberto</displayForm>
+                        <namePart type="family">Hofmeister Pich</namePart>
+                        <namePart type="given">Roberto</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2022-03-22</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">One of the most significant works on black slavery written by a Catholic thinker in the seventeenth century was Alonso de Sandoval’s De instauranda Aethiopum salute (1627/21647), which both describes the traffic of African slaves to Latin America and offers different clues to understanding the emergence of an ‘ideology’ of black slavery, which, to a certain extent, justified that system inside the Roman Catholic Church and the Iberian world. At the same time, Sandoval made an attempt to set up ethical criteria for the slave trade and the relationships between masters and slaves in the everyday life of the South American colonies. I propose an analysis of Sandoval&apos;s work focusing first on the theological foundations invoked for the slavery of black people, second on legal and moral debates over the justification of the enslaved condition of Africans and of the slave trade, and third on the roles of ‘race,’ ‘racism,’ and ‘true religion’ in Sandoval’s arguments. Sandoval introduces peculiar language and descriptions that deeply devaluate dark-skinned persons in general and African black culture in particular, supporting an ideology of subjection.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.46586/er.13.2022.9459</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_9459</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_9459">
+                <mets:FLocat xlink:href="https://er.ceres.rub.de/index.php/ER/article/download/9459/9149" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="text/html" ID="FILE1_rub-journals_9459">
+                <mets:FLocat xlink:href="https://er.ceres.rub.de/index.php/ER/article/download/9459/9150" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_9459" DMDID="DMD_rub-journals_9459">
+            <mets:fptr FILEID="FILE0_rub-journals_9459"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_9459" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_9459"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>
