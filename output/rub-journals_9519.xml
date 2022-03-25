@@ -1,0 +1,63 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_rub-journals_9519">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Enoch-Metatron Revisited</title>
+                        <subTitle>Prayers, Adjurations, and Metonymical Hermeneutics in Premodern Jewish Mystical and Magical Texts</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Paluch, Agata</displayForm>
+                        <namePart type="family">Paluch</namePart>
+                        <namePart type="given">Agata</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2022-03-24</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">This essay explores the construction of interpretive authority as a process of both creation and re-creation of meanings, and their self-legitimization in texts. The process of interpretation in that sense does not simply replace one set of meanings with another but rather metonymically enlarges the pool of signifiers by juxtaposing the traditional and the innovative, thus safeguarding the whole range of possible meanings of texts. The cluster of topoi relating to Enoch-Metatron, a supreme angel featuring in Jewish textual traditions, has often been employed in Jewish exegesis and magical practices in a manner that enabled the new interpretation to nest within the set of older imaginaire, the authority of which is never denied nor supplanted but rather empowers the new reading. This article explores the uses the Enoch-Metatron cluster of motifs as a textual device that served as an organizing principle of interpretive process and conferred authority to new interpretations and new compilations of texts in multiple-text handwritten volumes. The article thus foregrounds a mode of reading and refashioning of earlier Jewish textual traditions of commenting on angelic names, such as that of Enoch-Metatron. It forefronts the perspective of the producers of individual practical compilations as participants in the collective enterprise of authorship and authorization of textual units comprised in each handwritten multiple-text volume.</abstract>
+                    <subject lang="ger">
+                    </subject>
+                    <subject lang="eng">
+First argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON objectFirst argument to forEach is not an array or JSON object                    </subject>
+                    <identifier type="doi">10.46586/er.13.2022.9519</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>rub-journals_9519</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_rub-journals_9519">
+                <mets:FLocat xlink:href="https://er.ceres.rub.de/index.php/ER/article/download/9519/9154" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="text/html" ID="FILE1_rub-journals_9519">
+                <mets:FLocat xlink:href="https://er.ceres.rub.de/index.php/ER/article/download/9519/9155" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="rub-journals_9519" DMDID="DMD_rub-journals_9519">
+            <mets:fptr FILEID="FILE0_rub-journals_9519"/>
+            <mets:div TYPE="part" ID="PART1_rub-journals_9519" LABEL="">
+                <mets:fptr FILEID="FILE1_rub-journals_9519"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>
